@@ -1,6 +1,6 @@
 # numbers: BIOCON, filed quarters and price
 
-Nothing in this file is live. It is a dated snapshot of the record. Last price week: 2026-08-28. Money is in Rs million as filed (consolidated).
+Nothing in this file is live. It is a dated snapshot of the record. Last price week: 2026-10-23. Money is in Rs million as filed (consolidated).
 
 ## Filed quarters, consolidated
 
@@ -58,5 +58,5 @@ There is no live feed. The price is the last close in the weekly closes on file.
 
 | Measure | Value | As of | Source |
 |---|---|---|---|
-| Last weekly close | 411.10 | week ending 2026-08-28 | NSE weekly closes |
-| 52-week high / low of weekly closes | 437.20 / 338.90 | 52 weeks to 2026-08-28 | NSE weekly closes |
+| Last weekly close | 323.50 | week ending 2026-10-23 | NSE weekly closes |
+| 52-week high / low of weekly closes | 437.20 / 323.50 | 52 weeks to 2026-10-23 | NSE weekly closes |

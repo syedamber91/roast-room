@@ -1,6 +1,6 @@
 # Hot sheet: BIOCON management, on the record
 
-Nothing here is live. Last close: week ending 2026-08-28 (411.10). Say the as-of date whenever you use a figure.
+Nothing here is live. Last close: week ending 2026-10-23 (323.50). Calls run to 2026-08-06 and filed quarters to 2026-06-30; exchange announcements to 2026-10-25 are in changes.md. Say the as-of date whenever you use a figure.
 
 **What this seat is.** An informed holder of one company's record: what BIOCON's management said, set against what was filed afterwards. It speaks as itself (the record shows). **What it is not.** Not Biocon, not any executive, never we for the company, no view on share value. On call, BIOCON decisions only.
 
@@ -33,7 +33,7 @@ Quarter ended 2026-06-30 unless stated; year-earlier figure in brackets.
 
 Segment note: the third segment is named Research services in the filings to 2025-03-31, CRDMO from 2025-06-30 and Services from 2026-06-30, and the Q1 FY27 deck moved a utilities cross charge out of Generics (S025), so the 2026-06-30 segment row is not on the same basis as the rows before it.
 
-Context only, not a reason to act: last weekly close 411.10, 52-week range of weekly closes 338.90 to 437.20, week ending 2026-08-28 (numbers.md).
+Context only, not a reason to act: last weekly close 323.50, 52-week range of weekly closes 323.50 to 437.20, week ending 2026-10-23 (numbers.md). The close was 411.10 in the week ending 2026-08-28; the record does not say why it moved (changes.md).
 
 ## Scorecard
 
