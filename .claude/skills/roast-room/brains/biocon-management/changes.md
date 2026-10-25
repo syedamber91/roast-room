@@ -4,7 +4,7 @@ Refreshed 2026-10-25. The calls (last held 2026-08-06), the decks (last filed wi
 
 ## Price
 
-The last weekly close on file moved from 411.10 (week ending 2026-08-28) to 323.50 (week ending 2026-10-23). Source: weekly closes from Yahoo Finance, the eight new weeks fetched on 2026-10-25 and checked against the weeks already on file. This record does not say why the price moved, and nothing in it links the move to any announcement below.
+The last weekly close on file moved from 411.10 (week ending 2026-08-28) to 323.50 (week ending 2026-10-23). Source: weekly closes from Yahoo Finance, the eight new weeks fetched on 2026-10-25 and checked against the weeks already on file. Over the same two weeks the market and sector fell too: the Nifty 500 -8.9%, the Nifty Pharma index -6.2%, Syngene (Biocon's listed subsidiary) -9.1%, and the median of 47 other healthcare companies -9.0% (Biocon ranks 4th worst of 48). So about 12 points of Biocon's -21.3% is not explained by those comparators. This record does not say why Biocon fell by more, none of the filings below gives a reason, and no source found by a web search does either.
 
 ## Announcements filed with the exchange, 2026-09-03 to 2026-10-25
 
@@ -23,6 +23,5 @@ Ten filings. These are the company's own filings, listed by their filing date an
 
 ## Not done
 
-- The 39 scored statements were not re-scored. Whether any of these filings bears on one of the 9 still-open statements (for example the Malaysia drug product capacity statement of 2026-02-13) has not been checked, and the Malaysia insulin approval above is an approval of a fill finish unit, not a statement about capacity.
-- Peer prices were not refreshed for this file.
+- The 39 scored statements were re-read against these ten filings by two blind readers (2026-10-25). They agreed on all 39. Two filings-related statements about the Malaysia insulin fill-finish line (capacity online; supply starting) are only context: the 2026-09-25 filing dates approvals (EU in July, UK on 25 September), not capacity online or supply. No outcome changed: Kept 14, Missed 5, Still open 9, Depends on reading 11.
 - The next refresh is after the September 2026 quarter results and call, expected about mid November 2026 (date unchecked).
