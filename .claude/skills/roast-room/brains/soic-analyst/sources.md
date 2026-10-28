@@ -1,0 +1,534 @@
+# Sources: SOIC Analyst (course method)
+
+528 sources (1 framework, 2 rules, 1 map, 4 brief, 3 case, 58 topic, 459 concept), 528,032 words. Dates are note dates. S001 to S003 are compiled lists (frameworks, rules, metrics) built from the lectures, not lecture notes; a bar cited only to S001 to S003 is a compiled-list claim, and the seat says so. Every quote in this brain carries one of these ids.
+
+Format: id | title | url | date | words
+
+- S001 | SOIC Decision Frameworks v1 (F1 to F41) | SOIC course notes (private) | 2026-07-28 | 12974
+- S002 | SOIC Decision Rules v2 (compiled rule set) | SOIC course notes (private) | 2026-07-28 | 1004
+- S003 | SOIC Metric Registry | SOIC course notes (private) | 2026-07-28 | 315
+- S004 | SOIC course map: levels, modules and what is not captured | SOIC course notes (private) | 2026-08-02 | 574
+- S005 | SOIC method brief v2 (19 full lectures) | SOIC course notes (private) | 2026-07-14 | 1690
+- S006 | Enrichment: frameworks | SOIC course notes (private) | 2026-07-14 | 3872
+- S007 | Enrichment: value chain | SOIC course notes (private) | 2026-07-14 | 4121
+- S008 | Enrichment: agrochemicals | SOIC course notes (private) | 2026-07-14 | 3795
+- S009 | Worked analysis: PI Industries | SOIC course notes (private) | 2026-07-14 | 2627
+- S010 | Worked analysis: Polycab | SOIC course notes (private) | 2026-07-14 | 3472
+- S011 | Worked analysis: Venus Pipes | SOIC course notes (private) | 2026-07-14 | 1765
+- S012 | Synthesis | SOIC course notes (private) | 2026-07-27 | 53
+- S013 | Ai Tools And Market Signals | SOIC course notes (private) | 2026-07-27 | 493
+- S014 | Fundamental Analysis Core | SOIC course notes (private) | 2026-07-27 | 485
+- S015 | Personal Finance And Asset Allocation | SOIC course notes (private) | 2026-07-27 | 492
+- S016 | Technical Indicators And Stock Screening | SOIC course notes (private) | 2026-07-27 | 483
+- S017 | Valuation And Portfolio Sizing | SOIC course notes (private) | 2026-07-27 | 485
+- S018 | Synthesis | SOIC course notes (private) | 2026-07-27 | 51
+- S019 | Basics Of Fundamental And Equity Analysis | SOIC course notes (private) | 2026-07-27 | 505
+- S020 | Capital Preservation And The Math Of Drawdowns | SOIC course notes (private) | 2026-07-27 | 761
+- S021 | Incremental Progress And Self Improvement | SOIC course notes (private) | 2026-07-27 | 670
+- S022 | Long Term Investing Vs Short Term Speculation | SOIC course notes (private) | 2026-07-27 | 689
+- S023 | Longevity Over Rate Of Return Dcp Framework | SOIC course notes (private) | 2026-07-27 | 749
+- S024 | The Mathematical Power And Formula Of Compounding | SOIC course notes (private) | 2026-07-27 | 803
+- S025 | Synthesis | SOIC course notes (private) | 2026-07-27 | 52
+- S026 | Financial Fraud And Management Quality | SOIC course notes (private) | 2026-07-27 | 830
+- S027 | Market Optimism And Time In The Market | SOIC course notes (private) | 2026-07-27 | 748
+- S028 | Rethinking The Price To Earnings Ratio | SOIC course notes (private) | 2026-07-27 | 517
+- S029 | Shifting Industry Structures And Pricing Wars | SOIC course notes (private) | 2026-07-27 | 577
+- S030 | Stocks As Pieces Of A Business | SOIC course notes (private) | 2026-07-27 | 655
+- S031 | The Danger Of Buying Cyclical Stocks | SOIC course notes (private) | 2026-07-27 | 623
+- S032 | Value Traps And Low Return On Capital | SOIC course notes (private) | 2026-07-27 | 653
+- S033 | Synthesis | SOIC course notes (private) | 2026-07-27 | 62
+- S034 | Asset Expansion Capex Risks And Cwip | SOIC course notes (private) | 2026-07-27 | 542
+- S035 | Balance Sheet Fundamentals And Equity Restructuring | SOIC course notes (private) | 2026-07-27 | 888
+- S036 | Cash Flow Reconciliation And Working Capital Dynamics | SOIC course notes (private) | 2026-07-27 | 751
+- S037 | Income Statement Mechanics And Margin Analysis | SOIC course notes (private) | 2026-07-27 | 740
+- S038 | Intangibles And Accounting Standard Impacts Ind As 116 | SOIC course notes (private) | 2026-07-27 | 587
+- S039 | Revenue Quality Volume Led Vs Value Led Growth | SOIC course notes (private) | 2026-07-27 | 719
+- S040 | Segmental Profitability And Division Level Roce | SOIC course notes (private) | 2026-07-27 | 653
+- S041 | Synthesis | SOIC course notes (private) | 2026-07-27 | 64
+- S042 | Bull Bear Base Case Scenario Modeling | SOIC course notes (private) | 2026-07-27 | 639
+- S043 | Business Trend And Trajectory Analysis | SOIC course notes (private) | 2026-07-27 | 627
+- S044 | Direct And Reverse Discounted Cash Flow Valuation | SOIC course notes (private) | 2026-07-27 | 499
+- S045 | Forensic Accounting And Fraud Detection | SOIC course notes (private) | 2026-07-27 | 615
+- S046 | Return On Incremental Invested Capital Calculation | SOIC course notes (private) | 2026-07-27 | 677
+- S047 | Sector Moat Assessment And Margin Cycles | SOIC course notes (private) | 2026-07-27 | 535
+- S048 | Synthesis | SOIC course notes (private) | 2026-07-27 | 61
+- S049 | Capital Misallocation And Off Balance Sheet Risks | SOIC course notes (private) | 2026-07-27 | 827
+- S050 | Cash Conversion And Working Capital Dynamics | SOIC course notes (private) | 2026-07-27 | 825
+- S051 | Expense Capitalization And Depreciation Manipulation | SOIC course notes (private) | 2026-07-27 | 644
+- S052 | Key Management And Auditor Resignations | SOIC course notes (private) | 2026-07-27 | 849
+- S053 | Pre Ipo Window Dressing Goodwill And Strategic Drift | SOIC course notes (private) | 2026-07-27 | 867
+- S054 | Related Party Transactions And Corporate Complexity | SOIC course notes (private) | 2026-07-27 | 867
+- S055 | Revenue Manipulation And Recognition | SOIC course notes (private) | 2026-07-27 | 847
+- S056 | Synthesis | SOIC course notes (private) | 2026-07-27 | 59
+- S057 | Activity Ratios And Working Capital Management | SOIC course notes (private) | 2026-07-27 | 820
+- S058 | Capital Allocation And Return On Capital Employed Roce | SOIC course notes (private) | 2026-07-27 | 885
+- S059 | Intrinsic Compounding And Incremental Returns Roic Roiic | SOIC course notes (private) | 2026-07-27 | 871
+- S060 | Introduction And Mechanics Of Profitability Ratios | SOIC course notes (private) | 2026-07-27 | 1016
+- S061 | Return On Equity Roe And Dupont Analysis | SOIC course notes (private) | 2026-07-27 | 1222
+- S062 | Sector Specific Ratio Applications | SOIC course notes (private) | 2026-07-27 | 643
+- S063 | Unit Economics Cyclicality And Operating Leverage | SOIC course notes (private) | 2026-07-27 | 700
+- S064 | Synthesis | SOIC course notes (private) | 2026-07-27 | 55
+- S065 | Case Study Syngene And The Pharma Cdmo Value Chain | SOIC course notes (private) | 2026-07-27 | 734
+- S066 | Decoding Annual Reports And Financial Statements | SOIC course notes (private) | 2026-07-27 | 878
+- S067 | Identifying Key Sector Specific Variables | SOIC course notes (private) | 2026-07-27 | 903
+- S068 | Spotting Corporate Governance Risks And Red Flags | SOIC course notes (private) | 2026-07-27 | 931
+- S069 | The Business Risk And Management Brm Framework | SOIC course notes (private) | 2026-07-27 | 799
+- S070 | Tools For International Research And Idea Cloning | SOIC course notes (private) | 2026-07-27 | 746
+- S071 | Unearthing Hidden Gems In Drhps And Environmental Clearances | SOIC course notes (private) | 2026-07-27 | 882
+- S072 | Synthesis | SOIC course notes (private) | 2026-07-27 | 51
+- S073 | Buffett S Investment Failures And Industry Disruptions | SOIC course notes (private) | 2026-07-27 | 857
+- S074 | Market Concentration And Duopolistic Structures | SOIC course notes (private) | 2026-07-27 | 735
+- S075 | Micro And Macro Factors In Industry Analysis | SOIC course notes (private) | 2026-07-27 | 797
+- S076 | Navigating Cyclicality And Supply Shocks | SOIC course notes (private) | 2026-07-27 | 861
+- S077 | Porter S Five Forces Framework | SOIC course notes (private) | 2026-07-27 | 970
+- S078 | Value Chain Analysis And Profit Pools | SOIC course notes (private) | 2026-07-27 | 748
+- S079 | Synthesis | SOIC course notes (private) | 2026-07-27 | 51
+- S080 | Capital Light Compounders | SOIC course notes (private) | 2026-07-27 | 511
+- S081 | Distinct Sources Of Economic Moats | SOIC course notes (private) | 2026-07-27 | 863
+- S082 | Foundations Of Competitive Advantages And Capitalism | SOIC course notes (private) | 2026-07-27 | 847
+- S083 | Legacy Moats And Value Traps | SOIC course notes (private) | 2026-07-27 | 678
+- S084 | Reinvestment Moats And Intrinsic Compounding | SOIC course notes (private) | 2026-07-27 | 698
+- S085 | The Ecosystem Of Niche Investing | SOIC course notes (private) | 2026-07-27 | 745
+- S086 | Synthesis | SOIC course notes (private) | 2026-07-27 | 67
+- S087 | Capital Cycles And Mean Reversion | SOIC course notes (private) | 2026-07-27 | 746
+- S088 | Discounted Cash Flow Dcf And Reverse Dcf Analysis | SOIC course notes (private) | 2026-07-27 | 924
+- S089 | Financial Modeling And Scenario Building | SOIC course notes (private) | 2026-07-27 | 808
+- S090 | Portfolio Allocation Frameworks | SOIC course notes (private) | 2026-07-27 | 713
+- S091 | Sector Specific Valuation Metrics | SOIC course notes (private) | 2026-07-27 | 1170
+- S092 | Sum Of The Parts Sotp Valuation | SOIC course notes (private) | 2026-07-27 | 814
+- S093 | Technical Systems For Buying And Selling | SOIC course notes (private) | 2026-07-27 | 794
+- S094 | Synthesis | SOIC course notes (private) | 2026-07-27 | 48
+- S095 | Core Technical Indicators For Entry Pyramiding And Exit | SOIC course notes (private) | 2026-07-27 | 876
+- S096 | Portfolio Sizing The Ranking Sheet And Investing Styles | SOIC course notes (private) | 2026-07-27 | 818
+- S097 | Practical Charting And Screening On Tradingview | SOIC course notes (private) | 2026-07-27 | 695
+- S098 | Sectoral Rotation And Top Down Market Analysis | SOIC course notes (private) | 2026-07-27 | 744
+- S099 | Stage Analysis And Stock Cycles | SOIC course notes (private) | 2026-07-27 | 796
+- S100 | Volume Analysis And Institutional Footprints | SOIC course notes (private) | 2026-07-27 | 764
+- S101 | Synthesis | SOIC course notes (private) | 2026-07-27 | 49
+- S102 | Base Formation And Horizontal Resistance Breakouts | SOIC course notes (private) | 2026-07-27 | 622
+- S103 | Configuring Relative Strength Indicators And Timeframes | SOIC course notes (private) | 2026-07-27 | 724
+- S104 | Differentiating Rsi From Relative Strength | SOIC course notes (private) | 2026-07-27 | 636
+- S105 | Fundamental Peer To Peer Relative Strength Analysis | SOIC course notes (private) | 2026-07-27 | 697
+- S106 | Runaway Gaps And Earnings Breakaways | SOIC course notes (private) | 2026-07-27 | 484
+- S107 | Technical Exit Strategies For Compounding And Cyclical Stocks | SOIC course notes (private) | 2026-07-27 | 605
+- S108 | Utilizing Stock Screening Tools For Relative Strength | SOIC course notes (private) | 2026-07-27 | 703
+- S109 | Synthesis | SOIC course notes (private) | 2026-07-27 | 69
+- S110 | Convexity Plays And Structural Mix Changes | SOIC course notes (private) | 2026-07-27 | 582
+- S111 | Fundamental Exit Criteria | SOIC course notes (private) | 2026-07-27 | 713
+- S112 | Order Book And Pre Opex Investing | SOIC course notes (private) | 2026-07-27 | 730
+- S113 | Special Situations And Self Help Stories | SOIC course notes (private) | 2026-07-27 | 695
+- S114 | System Based Exits And Time Stop Losses | SOIC course notes (private) | 2026-07-27 | 819
+- S115 | Technical Entry Patterns And Canslim | SOIC course notes (private) | 2026-07-27 | 841
+- S116 | The Speed Breaker And Pessimism Approaches | SOIC course notes (private) | 2026-07-27 | 706
+- S117 | Synthesis | SOIC course notes (private) | 2026-07-27 | 65
+- S118 | Automated Ai Tools For International Markets | SOIC course notes (private) | 2026-07-27 | 627
+- S119 | Fundamental Breakouts And Margin Expansion | SOIC course notes (private) | 2026-07-27 | 608
+- S120 | Identifying New Catalysts For Growth | SOIC course notes (private) | 2026-07-27 | 727
+- S121 | Relative Strength Rs Evaluation | SOIC course notes (private) | 2026-07-27 | 744
+- S122 | Stan Weinstein S Stage Analysis Framework | SOIC course notes (private) | 2026-07-27 | 684
+- S123 | Tracking Smart Money And Institutional Sponsorship | SOIC course notes (private) | 2026-07-27 | 719
+- S124 | Synthesis | SOIC course notes (private) | 2026-07-26 | 57
+- S125 | Brand Scarcity And Secondary Market | SOIC course notes (private) | 2026-07-26 | 1403
+- S126 | Cross-Company Valuation and Comparison | SOIC course notes (private) | 2026-07-26 | 1821
+- S127 | Ethos Retail And Cpo Moat | SOIC course notes (private) | 2026-07-26 | 1434
+- S128 | Indian Watch Market Overview | SOIC course notes (private) | 2026-07-26 | 1234
+- S129 | KDDL: Component Manufacturing | SOIC course notes (private) | 2026-07-26 | 1820
+- S130 | Rolex Case Study | SOIC course notes (private) | 2026-07-26 | 2644
+- S131 | Swiss Quartz Crisis and Consolidation | SOIC course notes (private) | 2026-07-26 | 1137
+- S132 | Timex: Brand Portfolio and Economics | SOIC course notes (private) | 2026-07-26 | 1664
+- S133 | Watch Industry Fundamentals and Taxonomy | SOIC course notes (private) | 2026-07-26 | 1764
+- S134 | Synthesis | SOIC course notes (private) | 2026-07-26 | 54
+- S135 | Auto-Ancillary EV Plays: Specialized Component Suppliers | SOIC course notes (private) | 2026-07-26 | 1156
+- S136 | Battery Chemicals Company Deep Dives | SOIC course notes (private) | 2026-07-26 | 1741
+- S137 | China Ev Battery Dominance | SOIC course notes (private) | 2026-07-26 | 1244
+- S138 | Critical Minerals Geopolitics and FEOC: The Supply-Chain Chokepoint in EV Electrification | SOIC course notes (private) | 2026-07-26 | 2151
+- S139 | EV Adoption & TCO Dynamics: The Segmented Roll-Out | SOIC course notes (private) | 2026-07-26 | 2006
+- S140 | EV OEM Landscape and Valuation | SOIC course notes (private) | 2026-07-26 | 1875
+- S141 | EV Value-Chain Framework: The 9-Layer Ecosystem | SOIC course notes (private) | 2026-07-26 | 855
+- S142 | Market Signals & Corporate Developments: Pre-Webinar Overview | SOIC course notes (private) | 2026-07-26 | 2696
+- S143 | Synthesis | SOIC course notes (private) | 2026-07-26 | 52
+- S144 | AI-Era Stock Examples: Company-Level Proof Points | SOIC course notes (private) | 2026-07-26 | 1933
+- S145 | Capex, Order Book, and M&A Roundup | SOIC course notes (private) | 2026-07-26 | 2223
+- S146 | Commodities and geopolitical signals | SOIC course notes (private) | 2026-07-26 | 1313
+- S147 | Market Cycle and Timing Frameworks | SOIC course notes (private) | 2026-07-26 | 2339
+- S148 | Pharma Rd Economics And Regulatory Risk | SOIC course notes (private) | 2026-07-26 | 1907
+- S149 | Portfolio Construction And Risk Heuristics | SOIC course notes (private) | 2026-07-26 | 898
+- S150 | Software / AI Comeback: Core Thesis | SOIC course notes (private) | 2026-07-26 | 3048
+- S151 | Synthesis | SOIC course notes (private) | 2026-07-26 | 55
+- S152 | Global Uranium Supply Chain | SOIC course notes (private) | 2026-07-26 | 1681
+- S153 | India Nuclear Policy Thorium And Smr | SOIC course notes (private) | 2026-07-26 | 2124
+- S154 | Indian Nuclear Value-Chain Companies | SOIC course notes (private) | 2026-07-26 | 1840
+- S155 | Nuclear Energy Market Signals Preamble | SOIC course notes (private) | 2026-07-26 | 2996
+- S156 | Nuclear Investment Case and Global Context | SOIC course notes (private) | 2026-07-26 | 1563
+- S157 | Nuclear Plant Technology And Value Chain Capex | SOIC course notes (private) | 2026-07-26 | 1770
+- S158 | Nuclear Stock Conclusions and Risks | SOIC course notes (private) | 2026-07-26 | 2134
+- S159 | Synthesis | SOIC course notes (private) | 2026-07-26 | 79
+- S160 | Beyond Piping Ideas and Portfolio Framework | SOIC course notes (private) | 2026-07-26 | 2296
+- S161 | Development Engineers (D-Dev) | SOIC course notes (private) | 2026-07-26 | 1414
+- S162 | Piping Sector: Demand And Value Chain | SOIC course notes (private) | 2026-07-26 | 1590
+- S163 | Scoda Tubes vs Venus Pipes: Positioning, Approvals, Growth, and Balance Sheet | SOIC course notes (private) | 2026-07-26 | 2030
+- S164 | Venus Pipes Business Model And Platform Strategy | SOIC course notes (private) | 2026-07-26 | 1822
+- S165 | Venus Pipes Margins And Risk Profile | SOIC course notes (private) | 2026-07-26 | 1557
+- S166 | Wellspun Corp, Ratnamani, and Sector Wrap-Up | SOIC course notes (private) | 2026-07-26 | 1894
+- S167 | Synthesis | SOIC course notes (private) | 2026-07-26 | 56
+- S168 | Growth drivers and multiyear guidance across the CDMO basket | SOIC course notes (private) | 2026-07-26 | 2281
+- S169 | Risks and Caveats | SOIC course notes (private) | 2026-07-26 | 868
+- S170 | Unit Economics And Margins | SOIC course notes (private) | 2026-07-26 | 1961
+- S171 | Valuation Heuristics And Opportunity Sizing | SOIC course notes (private) | 2026-07-26 | 1337
+- S172 | Value Chain and Key Players | SOIC course notes (private) | 2026-07-26 | 2343
+- S173 | Synthesis | SOIC course notes (private) | 2026-07-26 | 64
+- S174 | AI Semiconductor Value Chain Moats | SOIC course notes (private) | 2026-07-26 | 2014
+- S175 | CDMO/Pharma Moat: Multi-Year Inflection & Molecule-to-Repeat-Orders Sequence | SOIC course notes (private) | 2026-07-26 | 1291
+- S176 | Demand-Side and Supply-Side Moats in Waste-to-Wealth Sourcing | SOIC course notes (private) | 2026-07-26 | 1377
+- S177 | Learning Curve, Taste/Brand, and License-Based Moats | SOIC course notes (private) | 2026-07-26 | 1690
+- S178 | Moat Erosion and AI Disruption Context | SOIC course notes (private) | 2026-07-26 | 1547
+- S179 | Moat Frameworks and Definitions | SOIC course notes (private) | 2026-07-26 | 943
+- S180 | Moat Quality Checklist and Investing Heuristics | SOIC course notes (private) | 2026-07-26 | 1834
+- S181 | Network Effects and Platform Monetization Moats | SOIC course notes (private) | 2026-07-26 | 1569
+- S182 | Proprietary Asset And Location Moats | SOIC course notes (private) | 2026-07-26 | 1309
+- S183 | Scale Advantage and Lowest-Cost-Operator Moats | SOIC course notes (private) | 2026-07-26 | 1593
+- S184 | Sector Cyclicality Without Durable Moats | SOIC course notes (private) | 2026-07-26 | 1310
+- S185 | Switching Cost and Customer Lock-in Moats | SOIC course notes (private) | 2026-07-26 | 1013
+- S186 | Temporary and Continuously Rebuilt Moats | SOIC course notes (private) | 2026-07-26 | 1463
+- S187 | Synthesis | SOIC course notes (private) | 2026-07-26 | 57
+- S188 | Component Value Chain And Ancillaries | SOIC course notes (private) | 2026-07-26 | 2059
+- S189 | Current Upcycle Signals And Triggers | SOIC course notes (private) | 2026-07-26 | 1812
+- S190 | CV Cyclicality Mechanics | SOIC course notes (private) | 2026-07-26 | 1369
+- S191 | CV Financiers and Fintech Proxies | SOIC course notes (private) | 2026-07-26 | 1213
+- S192 | Industry Segmentation and Moats | SOIC course notes (private) | 2026-07-26 | 1360
+- S193 | Jamna Auto: Leaf-Spring Deep Dive | SOIC course notes (private) | 2026-07-26 | 1649
+- S194 | Oem Company Profiles | SOIC course notes (private) | 2026-07-26 | 2100
+- S195 | Synthesis | SOIC course notes (private) | 2026-07-26 | 57
+- S196 | Aircraft Manufacturing and Tier Framework | SOIC course notes (private) | 2026-07-26 | 921
+- S197 | Dynamic Technologies: Business Segments, Airbus Partnership, and A220 Door Program | SOIC course notes (private) | 2026-07-26 | 1738
+- S198 | Company Deep Dive: Other Aerospace Suppliers | SOIC course notes (private) | 2026-07-26 | 1473
+- S199 | Sunsera Engineering: Business Transformation and Order-Book Math | SOIC course notes (private) | 2026-07-26 | 1497
+- S200 | India's Aerospace Market Opportunity and Supplier Roster | SOIC course notes (private) | 2026-07-26 | 1220
+- S201 | Aerospace Industry History and Market Cycle Dynamics | SOIC course notes (private) | 2026-07-26 | 1052
+- S202 | Investing Heuristics for Aerospace Suppliers | SOIC course notes (private) | 2026-07-26 | 2467
+- S203 | Mro And Airport Adjacency | SOIC course notes (private) | 2026-07-26 | 734
+- S204 | Sector Study Approach | SOIC course notes (private) | 2026-07-26 | 639
+- S205 | Value Chain Players and Component Economics | SOIC course notes (private) | 2026-07-26 | 2135
+- S206 | Synthesis | SOIC course notes (private) | 2026-07-26 | 58
+- S207 | Counter Drone Segment | SOIC course notes (private) | 2026-07-26 | 1834
+- S208 | Drone Taxonomy and Core Components | SOIC course notes (private) | 2026-07-26 | 1665
+- S209 | Global Drone Industry Players And Supply Chain | SOIC course notes (private) | 2026-07-26 | 2644
+- S210 | India Drone Market Value Chain And Companies | SOIC course notes (private) | 2026-07-26 | 2329
+- S211 | Investing Framework For Drone Stocks | SOIC course notes (private) | 2026-07-26 | 1686
+- S212 | The Warfare Case For Drones | SOIC course notes (private) | 2026-07-26 | 2072
+- S213 | Synthesis | SOIC course notes (private) | 2026-07-26 | 51
+- S214 | Commercial Shipping And Charter Vessel Economics | SOIC course notes (private) | 2026-07-26 | 797
+- S215 | Niche Component Suppliers In The Shipping Ecosystem | SOIC course notes (private) | 2026-07-26 | 725
+- S216 | Port Infrastructure And Terminal Toll Road Models | SOIC course notes (private) | 2026-07-26 | 696
+- S217 | Public Sector Shipyards And Order Book Valuations | SOIC course notes (private) | 2026-07-26 | 757
+- S218 | The Shipbuilding Value Chain And Policy Tailwinds | SOIC course notes (private) | 2026-07-26 | 821
+- S219 | Synthesis | SOIC course notes (private) | 2026-07-26 | 55
+- S220 | Alcohol Sector: Established Leaders Case Studies | SOIC course notes (private) | 2026-07-26 | 1922
+- S221 | Alcohol Industry: Entry Barriers and the Stock-Picking Framework | SOIC course notes (private) | 2026-07-26 | 1315
+- S222 | Alcohol Peer Comparison And Valuation | SOIC course notes (private) | 2026-07-26 | 1384
+- S223 | Alcohol Sector: Market Structure and Premiumization | SOIC course notes (private) | 2026-07-26 | 1752
+- S224 | Alcohol Sector: Structural Risks and Headwinds | SOIC course notes (private) | 2026-07-26 | 1048
+- S225 | Alcohol Smallcap Re Rating Case Studies | SOIC course notes (private) | 2026-07-26 | 1095
+- S226 | Synthesis | SOIC course notes (private) | 2026-07-28 | 50
+- S227 | Acquisition Led Growth And Market Consolidation | SOIC course notes (private) | 2026-07-28 | 614
+- S228 | Practical Screening And Valuation Metrics | SOIC course notes (private) | 2026-07-28 | 711
+- S229 | Regulatory Headwinds And Tailwinds | SOIC course notes (private) | 2026-07-28 | 767
+- S230 | Scaling Via Capacity Expansion And Premiumization | SOIC course notes (private) | 2026-07-28 | 734
+- S231 | Self Help And Turnaround Stories | SOIC course notes (private) | 2026-07-28 | 721
+- S232 | The Dynamics And Risks Of Order Book Driven Growth | SOIC course notes (private) | 2026-07-28 | 729
+- S233 | The Four Phases Of Thematic Investing | SOIC course notes (private) | 2026-07-28 | 692
+- S234 | Synthesis | SOIC course notes (private) | 2026-07-26 | 84
+- S235 | Airports Infrastructure Moat | SOIC course notes (private) | 2026-07-26 | 1343
+- S236 | Alcohol Company Case Studies | SOIC course notes (private) | 2026-07-26 | 2179
+- S237 | Alcohol Price Tiers and Margin Playbook | SOIC course notes (private) | 2026-07-26 | 1752
+- S238 | Apparel Brand Tier Premiumization | SOIC course notes (private) | 2026-07-26 | 655
+- S239 | Auto Ancillary Investing Framework | SOIC course notes (private) | 2026-07-26 | 1948
+- S240 | Auto/SUV Premiumisation Shift | SOIC course notes (private) | 2026-07-26 | 621
+- S241 | Dairy Sector Premiumization | SOIC course notes (private) | 2026-07-26 | 1999
+- S242 | FMCG Penetration and the Value Trap | SOIC course notes (private) | 2026-07-26 | 1430
+- S243 | Hotels and Travel Premiumization | SOIC course notes (private) | 2026-07-26 | 1360
+- S244 | HVAC/Appliance Penetration Cycles and Specialty-Material Premiumisation | SOIC course notes (private) | 2026-07-26 | 2253
+- S245 | Luxury Watch Industry | SOIC course notes (private) | 2026-07-26 | 1446
+- S246 | Premiumization Macro Thesis | SOIC course notes (private) | 2026-07-26 | 1370
+- S247 | Synthesis | SOIC course notes (private) | 2026-07-28 | 51
+- S248 | Data Center And Ai Infrastructure Ecosystem | SOIC course notes (private) | 2026-07-28 | 854
+- S249 | Disruption In The Diamond And Jewelry Market | SOIC course notes (private) | 2026-07-28 | 766
+- S250 | Hard Asset Stocks And Natural Monopolies | SOIC course notes (private) | 2026-07-28 | 689
+- S251 | High Margin Niches In Pharmaceuticals | SOIC course notes (private) | 2026-07-28 | 628
+- S252 | Strategic Integration In The Chemical Sector | SOIC course notes (private) | 2026-07-28 | 607
+- S253 | The Waste Recycling Value Chain | SOIC course notes (private) | 2026-07-28 | 988
+- S254 | Value Chain Analysis Framework | SOIC course notes (private) | 2026-07-28 | 741
+- S255 | Synthesis | SOIC course notes (private) | 2026-07-26 | 51
+- S256 | Ai Power Demand And Transmission Value Chains | SOIC course notes (private) | 2026-07-26 | 877
+- S257 | Capital Goods Mental Models And Macro Cycles | SOIC course notes (private) | 2026-07-26 | 948
+- S258 | Government Subsidy Dependency In Solar Pumps | SOIC course notes (private) | 2026-07-26 | 693
+- S259 | Integrating Technical And Fundamental Analysis | SOIC course notes (private) | 2026-07-26 | 866
+- S260 | Precision Engineering And Supply Side Dominance | SOIC course notes (private) | 2026-07-26 | 752
+- S261 | The Razor Blade Model In Fast Moving Industrial Goods | SOIC course notes (private) | 2026-07-26 | 625
+- S262 | Synthesis | SOIC course notes (private) | 2026-07-26 | 56
+- S263 | Asset Management Companies Amcs And The Passive Investing Shift | SOIC course notes (private) | 2026-07-26 | 681
+- S264 | Capital Market Growth And Shallow Cyclicality | SOIC course notes (private) | 2026-07-26 | 832
+- S265 | Depository Infrastructure And Valuations | SOIC course notes (private) | 2026-07-26 | 761
+- S266 | Exchanges And Custodian Services | SOIC course notes (private) | 2026-07-26 | 705
+- S267 | Investment Banking And Structural Transitions | SOIC course notes (private) | 2026-07-26 | 824
+- S268 | Registrar And Transfer Agents Rtas Duopoly | SOIC course notes (private) | 2026-07-26 | 750
+- S269 | The Pivot And Scale Of Discount Brokers | SOIC course notes (private) | 2026-07-26 | 792
+- S270 | Wealth Management And Alternative Assets Growth | SOIC course notes (private) | 2026-07-26 | 842
+- S271 | Synthesis | SOIC course notes (private) | 2026-07-26 | 50
+- S272 | Company Case Studies And Competitive Landscape | SOIC course notes (private) | 2026-07-26 | 1834
+- S273 | De Beers History And Natural Diamond Cartel | SOIC course notes (private) | 2026-07-26 | 1363
+- S274 | Growth Drivers Pricing And Market Sizing | SOIC course notes (private) | 2026-07-26 | 1328
+- S275 | LGD Value Chain and Industry Structure | SOIC course notes (private) | 2026-07-26 | 1672
+- S276 | Lgd Vs Natural Diamond Product And Consumer Perception | SOIC course notes (private) | 2026-07-26 | 1126
+- S277 | Unit Economics And Margins By Segment | SOIC course notes (private) | 2026-07-26 | 1836
+- S278 | Synthesis | SOIC course notes (private) | 2026-07-26 | 60
+- S279 | Aroma Chemicals Industry Structure And Value Chain | SOIC course notes (private) | 2026-07-26 | 2242
+- S280 | Camphor And Commodity Rm Cycle | SOIC course notes (private) | 2026-07-26 | 1934
+- S281 | General Market Timing Heuristics | SOIC course notes (private) | 2026-07-26 | 601
+- S282 | Global And India Ff Market Economics | SOIC course notes (private) | 2026-07-26 | 1349
+- S283 | Privi Speciality Chemicals: Company Thesis | SOIC course notes (private) | 2026-07-26 | 2390
+- S284 | S H Kelkar ("SH Kailkar" / "SHKLK" / "SHKILKER"): Company Thesis | SOIC course notes (private) | 2026-07-26 | 1986
+- S285 | Valuation Framework and Sector-Risk Heuristics: Aroma Chemicals | SOIC course notes (private) | 2026-07-26 | 1783
+- S286 | Synthesis | SOIC course notes (private) | 2026-07-26 | 59
+- S287 | Barriers To Entry And Execution Risks | SOIC course notes (private) | 2026-07-26 | 1273
+- S288 | Key Players, Capacity Rankings, and Financial Profiles in PEB | SOIC course notes (private) | 2026-07-26 | 3446
+- S289 | Order Cycle, Cyclicality, and Margin Dynamics in Pre-Engineered Buildings | SOIC course notes (private) | 2026-07-26 | 2069
+- S290 | PEB Industry Fundamentals and Market Structure | SOIC course notes (private) | 2026-07-26 | 1923
+- S291 | Peb Valuation Approach | SOIC course notes (private) | 2026-07-26 | 756
+- S292 | Synthesis | SOIC course notes (private) | 2026-07-28 | 47
+- S293 | Framework For Business Turnarounds | SOIC course notes (private) | 2026-07-28 | 645
+- S294 | Hotel Sector Cycle And Dynamics | SOIC course notes (private) | 2026-07-28 | 605
+- S295 | Promoter And Management Stability | SOIC course notes (private) | 2026-07-28 | 534
+- S296 | Samhi Hotels Value And Growth Triggers | SOIC course notes (private) | 2026-07-28 | 813
+- S297 | Turnaround Risk Assessment | SOIC course notes (private) | 2026-07-28 | 676
+- S298 | Tvgp Framework Applied To Turnarounds | SOIC course notes (private) | 2026-07-28 | 498
+- S299 | Synthesis | SOIC course notes (private) | 2026-07-28 | 58
+- S300 | Aviation Industry Value Chain And Moats | SOIC course notes (private) | 2026-07-28 | 967
+- S301 | Cyclicality In Agro Processing And Agrochemicals | SOIC course notes (private) | 2026-07-28 | 677
+- S302 | Pharmaceutical Sector Economics And Risk Profiles | SOIC course notes (private) | 2026-07-28 | 874
+- S303 | Renewable Energy And Power Transmission Super Cycle | SOIC course notes (private) | 2026-07-28 | 823
+- S304 | Retail Jewelry And Fashion Business Models | SOIC course notes (private) | 2026-07-28 | 849
+- S305 | Structural And Cyclical Drivers In Packaging | SOIC course notes (private) | 2026-07-28 | 736
+- S306 | The Textile Value Chain And Global Supply Shifts | SOIC course notes (private) | 2026-07-28 | 775
+- S307 | Synthesis | SOIC course notes (private) | 2026-07-26 | 63
+- S308 | City Gas Distribution | SOIC course notes (private) | 2026-07-26 | 522
+- S309 | Downstream Refining and Margins | SOIC course notes (private) | 2026-07-26 | 1952
+- S310 | India's Oil Market and Energy Transition | SOIC course notes (private) | 2026-07-26 | 2189
+- S311 | Midstream Transport And Storage | SOIC course notes (private) | 2026-07-26 | 1778
+- S312 | Oil Fundamentals and the Upstream/Midstream/Downstream Value Chain | SOIC course notes (private) | 2026-07-26 | 2674
+- S313 | Oil Price Dynamics and Macro Drivers | SOIC course notes (private) | 2026-07-26 | 2185
+- S314 | Oilfield Services and Equipment | SOIC course notes (private) | 2026-07-26 | 2647
+- S315 | Upstream E&P Economics and Companies | SOIC course notes (private) | 2026-07-26 | 3139
+- S316 | Synthesis | SOIC course notes (private) | 2026-07-26 | 55
+- S317 | Carbon Steel Producers And Backward Integration | SOIC course notes (private) | 2026-07-26 | 573
+- S318 | Iron Ore Mining And The Impact Of The New Auction Regime | SOIC course notes (private) | 2026-07-26 | 748
+- S319 | Managing Cyclicality Over Earning Risks And Technical Exits | SOIC course notes (private) | 2026-07-26 | 702
+- S320 | Manufacturers Vs Converters Business Model Framework | SOIC course notes (private) | 2026-07-26 | 801
+- S321 | Steel Pipes Classification And End Use Applications | SOIC course notes (private) | 2026-07-26 | 910
+- S322 | The Stainless Steel Ecosystem And Product Grading | SOIC course notes (private) | 2026-07-26 | 877
+- S323 | Upstream Vs Downstream Dynamics In Aluminium And Copper | SOIC course notes (private) | 2026-07-26 | 678
+- S324 | Synthesis | SOIC course notes (private) | 2026-07-26 | 57
+- S325 | Company Case Studies: Applying the Hotel-Sector Framework | SOIC course notes (private) | 2026-07-26 | 2572
+- S326 | Cyclicality Framework and Demand Drivers | SOIC course notes (private) | 2026-07-26 | 1717
+- S327 | Hotel Ownership Structures | SOIC course notes (private) | 2026-07-26 | 694
+- S328 | Market Segmentation and Supply/Demand Data | SOIC course notes (private) | 2026-07-26 | 1874
+- S329 | Stock Selection Framework and Valuation Approach: Hotel Sector | SOIC course notes (private) | 2026-07-26 | 2862
+- S330 | Unit Economics And Operating Leverage | SOIC course notes (private) | 2026-07-26 | 1901
+- S331 | Synthesis | SOIC course notes (private) | 2026-07-26 | 54
+- S332 | Case Studies In Regional And Public Sector Banks | SOIC course notes (private) | 2026-07-26 | 907
+- S333 | Case Studies In Small Finance Banks Sfbs | SOIC course notes (private) | 2026-07-26 | 851
+- S334 | Core Banking Vocabulary And The Roa Tree | SOIC course notes (private) | 2026-07-26 | 788
+- S335 | Evaluating Nbfc Models And Funding Structures | SOIC course notes (private) | 2026-07-26 | 810
+- S336 | Framework For Value Creation And Destruction In Banks | SOIC course notes (private) | 2026-07-26 | 832
+- S337 | Indias Digital Credit Stack And Cash Flow Underwriting | SOIC course notes (private) | 2026-07-26 | 860
+- S338 | The Economics And Mechanics Of Credit Cards | SOIC course notes (private) | 2026-07-26 | 801
+- S339 | Types Of Banks And The Asset Quality Cycle | SOIC course notes (private) | 2026-07-26 | 992
+- S340 | Synthesis | SOIC course notes (private) | 2026-07-26 | 54
+- S341 | Agrochemical Industry Basics And Indian Market Characteristics | SOIC course notes (private) | 2026-07-26 | 707
+- S342 | Analyzing Growth Quality And The Seeds Value Trap | SOIC course notes (private) | 2026-07-26 | 742
+- S343 | Crams Pioneers Pi Industries And Astec Lifesciences | SOIC course notes (private) | 2026-07-26 | 789
+- S344 | Sharda Cropchem And The Asset Light Global Registration Model | SOIC course notes (private) | 2026-07-26 | 793
+- S345 | Spot Selling Regulated Markets And Corporate Governance | SOIC course notes (private) | 2026-07-26 | 678
+- S346 | Sumitomo Chemicals And The Power Of Innovator Backing | SOIC course notes (private) | 2026-07-26 | 786
+- S347 | The Agrochemical Value Chain And Business Models | SOIC course notes (private) | 2026-07-26 | 833
+- S348 | Working Capital Inventory Risks And Supply Volatility | SOIC course notes (private) | 2026-07-26 | 731
+- S349 | Synthesis | SOIC course notes (private) | 2026-07-26 | 50
+- S350 | Capex Turnaround And Specialty Focus Hcg And Aster Dm | SOIC course notes (private) | 2026-07-26 | 1004
+- S351 | Hospital Unit Economics And The Capex Cycle | SOIC course notes (private) | 2026-07-26 | 831
+- S352 | Industry Macro Drivers And Medical Tourism | SOIC course notes (private) | 2026-07-26 | 769
+- S353 | Key Industry Risks And Portfolio Allocation Strategy Hospital | SOIC course notes (private) | 2026-07-26 | 716
+- S354 | Premium Tier 1 Strategy Max Healthcare And Apollo Hospitals | SOIC course notes (private) | 2026-07-26 | 922
+- S355 | Regional Dominance And Affordable Care Models Kims And Narayana Health | SOIC course notes (private) | 2026-07-26 | 820
+- S356 | Synthesis | SOIC course notes (private) | 2026-07-26 | 48
+- S357 | Fundamentals Of Free Float And Shareholder Types | SOIC course notes (private) | 2026-07-26 | 931
+- S358 | The Discovery Effect And Competitor Tracking | SOIC course notes (private) | 2026-07-26 | 776
+- S359 | The Perception Cycle And Dilution Dynamics In Financials | SOIC course notes (private) | 2026-07-26 | 907
+- S360 | The Theory Of Reflexivity And Transactional Value | SOIC course notes (private) | 2026-07-26 | 731
+- S361 | Valuation Distortion Via Float Cornering | SOIC course notes (private) | 2026-07-26 | 995
+- S362 | Synthesis | SOIC course notes (private) | 2026-07-26 | 91
+- S363 | Fluorine Value Chain Segments And Backward Integration | SOIC course notes (private) | 2026-07-26 | 829
+- S364 | Gujarat Fluorochemicals Case Study Ev Battery Chemicals And Governance Risks | SOIC course notes (private) | 2026-07-26 | 633
+- S365 | Navin Fluorine Case Study Value Migration And Growth Optionalities | SOIC course notes (private) | 2026-07-26 | 954
+- S366 | Practical Frameworks For Evaluating Valuations Fluorine | SOIC course notes (private) | 2026-07-26 | 994
+- S367 | Srf Case Study Aggressive Capital Allocation And Local Economies Of Scale | SOIC course notes (private) | 2026-07-26 | 691
+- S368 | The Sitting Duck Mental Model And Fluorine Macro Tailwinds | SOIC course notes (private) | 2026-07-26 | 903
+- S369 | Synthesis | SOIC course notes (private) | 2026-07-26 | 51
+- S370 | Asset Light Joint Development And Century Textiles Case Study | SOIC course notes (private) | 2026-07-26 | 805
+- S371 | Real Estate Accounting Standards And Key Metrics | SOIC course notes (private) | 2026-07-26 | 806
+- S372 | Real Estate Macro Tailwinds And Industry Consolidation | SOIC course notes (private) | 2026-07-26 | 742
+- S373 | Special Situation Case Study India Bulls Real Estate Merger | SOIC course notes (private) | 2026-07-26 | 771
+- S374 | Sunteck Realty Case Study And Valuation Methodologies | SOIC course notes (private) | 2026-07-26 | 725
+- S375 | The Capital Cycle Framework | SOIC course notes (private) | 2026-07-26 | 566
+- S376 | Synthesis | SOIC course notes (private) | 2026-07-26 | 56
+- S377 | Accounting Complexity And The Reserving Triangle | SOIC course notes (private) | 2026-07-26 | 656
+- S378 | Core Financial Mechanics And Float Generation | SOIC course notes (private) | 2026-07-26 | 841
+- S379 | Distribution Channels And The Bancassurance Moat | SOIC course notes (private) | 2026-07-26 | 774
+- S380 | Key Operating Indicators And Solvency Metrics | SOIC course notes (private) | 2026-07-26 | 704
+- S381 | Life Insurance Product Mix And Vnb Margins | SOIC course notes (private) | 2026-07-26 | 866
+- S382 | Life Insurance Valuation And Embedded Value Framework | SOIC course notes (private) | 2026-07-26 | 778
+- S383 | Listed Insurer Case Studies And Accounting Conservatism | SOIC course notes (private) | 2026-07-26 | 772
+- S384 | Sector Deep Dive Into Motor And Health Insurance Dynamics | SOIC course notes (private) | 2026-07-26 | 858
+- S385 | Synthesis | SOIC course notes (private) | 2026-07-26 | 82
+- S386 | Convenience Service Model and Target Customer | SOIC course notes (private) | 2026-07-26 | 1752
+- S387 | Diversification Strategy Beyond Gold | SOIC course notes (private) | 2026-07-26 | 1437
+- S388 | Fintech Threat and Valuation: Rupeek vs. the Incumbents, and the P/E-vs-P/B Case for Manappuram/Muthoot | SOIC course notes (private) | 2026-07-26 | 1904
+- S389 | Gold Market Size And Demand | SOIC course notes (private) | 2026-07-26 | 441
+- S390 | Gold NBFC Fundamentals and Culture | SOIC course notes (private) | 2026-07-26 | 1692
+- S391 | Gold Price Volatility Risk Management | SOIC course notes (private) | 2026-07-26 | 2149
+- S392 | Lending Safety Principles | SOIC course notes (private) | 2026-07-26 | 1070
+- S393 | Manapuram vs Muthoot: Competitive Strategy | SOIC course notes (private) | 2026-07-26 | 1403
+- S394 | Mfi Diversification Arm And Risk Controls | SOIC course notes (private) | 2026-07-26 | 2072
+- S395 | Gold NBFCs vs Banks | SOIC course notes (private) | 2026-07-26 | 970
+- S396 | Nbfc Vs Moneylenders | SOIC course notes (private) | 2026-07-26 | 1427
+- S397 | Regulatory Cycle and Industry Phases (Gold NBFCs) | SOIC course notes (private) | 2026-07-26 | 1595
+- S398 | Synthesis | SOIC course notes (private) | 2026-07-26 | 54
+- S399 | Complex Chemistries And High Entry Barriers Peptides And Deuteration | SOIC course notes (private) | 2026-07-26 | 942
+- S400 | Fmcg Like Economics In Domestic Formulations | SOIC course notes (private) | 2026-07-26 | 640
+- S401 | Key Risks And The Api Investment Checklist | SOIC course notes (private) | 2026-07-26 | 813
+- S402 | Navigating Cdmo Lumpiness And Anti Fragility | SOIC course notes (private) | 2026-07-26 | 710
+- S403 | Process Chemistry Expertise And The Power Of Scale | SOIC course notes (private) | 2026-07-26 | 652
+- S404 | The China Plus One Megatrend And Supply Chain Interconnectedness | SOIC course notes (private) | 2026-07-26 | 809
+- S405 | The Secular Boom And Concentrated Profit Pools In Animal Pharma | SOIC course notes (private) | 2026-07-26 | 720
+- S406 | Unit Economics Across The Pharma And Cdmo Value Chain | SOIC course notes (private) | 2026-07-26 | 919
+- S407 | Variant Perception In Hybrid Cdmos The Hikal Case Study | SOIC course notes (private) | 2026-07-26 | 843
+- S408 | Synthesis | SOIC course notes (private) | 2026-07-26 | 51
+- S409 | B2b Marketplaces And E Commerce Ecosystems | SOIC course notes (private) | 2026-07-26 | 985
+- S410 | Core Economic Frameworks Of Platform Businesses | SOIC course notes (private) | 2026-07-26 | 740
+- S411 | Digital Advertising Platforms And Value Migration | SOIC course notes (private) | 2026-07-26 | 780
+- S412 | Financial Intermediaries And Infrastructure Platforms | SOIC course notes (private) | 2026-07-26 | 887
+- S413 | Recruitment Platforms And The Legacy Reinvestment Moat | SOIC course notes (private) | 2026-07-26 | 627
+- S414 | Travel Aggregators And Regulated Monopolies | SOIC course notes (private) | 2026-07-26 | 835
+- S415 | Vertical Aggregators Insurtech Food Delivery And Matchmaking | SOIC course notes (private) | 2026-07-26 | 822
+- S416 | Synthesis | SOIC course notes (private) | 2026-07-26 | 53
+- S417 | Emerging Oligopolies In Fluorine Bromine And Phosgene Chemistry | SOIC course notes (private) | 2026-07-26 | 782
+- S418 | Key Industry Risks And Environmental Compliance Specialty Chem | SOIC course notes (private) | 2026-07-26 | 538
+- S419 | Moats In Niche Chemistry Case Studies Fine Organics And Pi Industries | SOIC course notes (private) | 2026-07-26 | 733
+- S420 | The Amines Industry Structure And Commodity Driven Margin Volatility | SOIC course notes (private) | 2026-07-26 | 700
+- S421 | The China Plus One Megatrend And Global Supply Chain Shifts | SOIC course notes (private) | 2026-07-26 | 866
+- S422 | The Soic Five Bucket Valuation Framework | SOIC course notes (private) | 2026-07-26 | 912
+- S423 | The Specialty Chemical Value Chain And Intermediates Opportunity | SOIC course notes (private) | 2026-07-26 | 807
+- S424 | Value Chain Integration Case Studies Deepak Nitrite And Aarti Industries | SOIC course notes (private) | 2026-07-26 | 909
+- S425 | Synthesis | SOIC course notes (private) | 2026-07-27 | 68
+- S426 | Bank And Nbfc Valuation Via Roa Trees | SOIC course notes (private) | 2026-07-27 | 686
+- S427 | Capital Cycles And Sectoral Tailwinds | SOIC course notes (private) | 2026-07-27 | 701
+- S428 | Financial Modelling And Bull Bear Scenarios | SOIC course notes (private) | 2026-07-27 | 1026
+- S429 | Fundamental Drivers Of Earnings Growth | SOIC course notes (private) | 2026-07-27 | 721
+- S430 | Navigating Value Traps Growth Traps And Market Bubbles | SOIC course notes (private) | 2026-07-27 | 871
+- S431 | Technical Screening And Stage Analysis | SOIC course notes (private) | 2026-07-27 | 738
+- S432 | The Valuation Double Engine And Multiples | SOIC course notes (private) | 2026-07-27 | 900
+- S433 | Synthesis | SOIC course notes (private) | 2026-07-27 | 56
+- S434 | Analyzing Promoter Incentives And Warrants | SOIC course notes (private) | 2026-07-27 | 742
+- S435 | Identifying And Mitigating Anchoring Bias | SOIC course notes (private) | 2026-07-27 | 584
+- S436 | Overcoming Fomo And Super Deprival Reaction Syndrome | SOIC course notes (private) | 2026-07-27 | 810
+- S437 | Portfolio Level Perspective Over Individual Fixation | SOIC course notes (private) | 2026-07-27 | 582
+- S438 | System 1 Vs System 2 Thinking In Markets | SOIC course notes (private) | 2026-07-27 | 707
+- S439 | The Fallacy Of Precise Valuations | SOIC course notes (private) | 2026-07-27 | 535
+- S440 | Top Down Investing Via Macro Incentives | SOIC course notes (private) | 2026-07-27 | 609
+- S441 | Synthesis | SOIC course notes (private) | 2026-07-27 | 76
+- S442 | Alternative Data And Scuttlebutt Research Tools | SOIC course notes (private) | 2026-07-27 | 768
+- S443 | Dcf Mindset And Bull Bear Base Scenarios | SOIC course notes (private) | 2026-07-27 | 1018
+- S444 | Drivers Of Business Growth And Variant Perception | SOIC course notes (private) | 2026-07-27 | 1168
+- S445 | Financial Statement Triangulation | SOIC course notes (private) | 2026-07-27 | 884
+- S446 | Sector Specific Valuation Multiples | SOIC course notes (private) | 2026-07-27 | 850
+- S447 | Stage Analysis And Technical Exit Strategies | SOIC course notes (private) | 2026-07-27 | 804
+- S448 | The Dynamics Of Re Rating And De Rating | SOIC course notes (private) | 2026-07-27 | 650
+- S449 | The Mechanics Of Operating Leverage | SOIC course notes (private) | 2026-07-27 | 681
+- S450 | Synthesis | SOIC course notes (private) | 2026-07-27 | 73
+- S451 | Balance Sheet Anatomy And The 7 Point Analysis Framework | SOIC course notes (private) | 2026-07-27 | 1093
+- S452 | Cash Flow Dynamics And Working Capital Impact | SOIC course notes (private) | 2026-07-27 | 730
+- S453 | Operating Leverage And Capex Cycles | SOIC course notes (private) | 2026-07-27 | 754
+- S454 | Stock Screening And The Canslim Methodology | SOIC course notes (private) | 2026-07-27 | 750
+- S455 | Technical Analysis For Trend Identification | SOIC course notes (private) | 2026-07-27 | 709
+- S456 | The Comprehensive Investing Checklist | SOIC course notes (private) | 2026-07-27 | 881
+- S457 | Synthesis | SOIC course notes (private) | 2026-07-27 | 181
+- S458 | Ai And Data Center Proxy Beneficiaries | SOIC course notes (private) | 2026-07-27 | 578
+- S459 | Ai Data Center Infrastructure And Supply Shortages | SOIC course notes (private) | 2026-07-27 | 731
+- S460 | Artificial Intelligence In Investment Research | SOIC course notes (private) | 2026-07-27 | 668
+- S461 | Auto Ancillary Premiumization Trend | SOIC course notes (private) | 2026-07-27 | 665
+- S462 | Bottom Up Stock Screening Frameworks | SOIC course notes (private) | 2026-07-27 | 796
+- S463 | Cdmo Industry Value Chain And Triggers | SOIC course notes (private) | 2026-07-27 | 820
+- S464 | Custom Indexing Sectoral Stage Analysis | SOIC course notes (private) | 2026-07-27 | 791
+- S465 | Electric Vehicle Ecosystem And Supply Chain Localization | SOIC course notes (private) | 2026-07-27 | 1049
+- S466 | Emerging Sector Rotations And Disruptive Themes | SOIC course notes (private) | 2026-07-27 | 857
+- S467 | Evaluating Corporate Actions Smart Money Moves | SOIC course notes (private) | 2026-07-27 | 760
+- S468 | Evaluating Demergers As Value Creation Catalysts | SOIC course notes (private) | 2026-07-27 | 717
+- S469 | Factor Investing And Mutual Fund Selection Frameworks | SOIC course notes (private) | 2026-07-27 | 868
+- S470 | Forensic Accounting And Spotting Financial Red Flags | SOIC course notes (private) | 2026-07-27 | 871
+- S471 | Geopolitical Macro Shocks And Market Indicators | SOIC course notes (private) | 2026-07-27 | 784
+- S472 | Global Ai Bubble And Software Sector Transformation | SOIC course notes (private) | 2026-07-27 | 700
+- S473 | Global Ai Capex Indian Data Center Proxies | SOIC course notes (private) | 2026-07-27 | 1008
+- S474 | Global Stock Screening And Research Tools | SOIC course notes (private) | 2026-07-27 | 764
+- S475 | Healthcare And Pharma Breakthroughs Vs Regulatory Risks | SOIC course notes (private) | 2026-07-27 | 688
+- S476 | Indian Market Cycles Sectoral Rotation And Capex Themes | SOIC course notes (private) | 2026-07-27 | 797
+- S477 | Macro Corrections And Time Correction Cycles | SOIC course notes (private) | 2026-07-27 | 629
+- S478 | Macroeconomic Indicators Market Breadth Analysis | SOIC course notes (private) | 2026-07-27 | 610
+- S479 | Market Breadth And Sector Rotation Analysis | SOIC course notes (private) | 2026-07-27 | 727
+- S480 | Nuclear Energy Renaissance And Value Chain | SOIC course notes (private) | 2026-07-27 | 1092
+- S481 | Power And Energy Piping Industry Deep Dive | SOIC course notes (private) | 2026-07-27 | 1090
+- S482 | Screening For Fundamental Breakouts Margin Expansion | SOIC course notes (private) | 2026-07-27 | 670
+- S483 | Sector Case Studies Winding Wires And Auto Ancillary Premiumization | SOIC course notes (private) | 2026-07-27 | 797
+- S484 | Small Cap Liquidity And Reflexivity Dynamics | SOIC course notes (private) | 2026-07-27 | 790
+- S485 | Strategic Asset Allocation And Withdrawal Planning | SOIC course notes (private) | 2026-07-27 | 686
+- S486 | Supply Chain Choke Points And The Manufacturing Regime Shift | SOIC course notes (private) | 2026-07-27 | 788
+- S487 | Taxation Mechanics For Overseas And Mutual Fund Portfolios | SOIC course notes (private) | 2026-07-27 | 779
+- S488 | Technical Screening And Market Breadth Indicators | SOIC course notes (private) | 2026-07-27 | 771
+- S489 | The Cdmo Niche Healthcare Investment Cycle | SOIC course notes (private) | 2026-07-27 | 694
+- S490 | The Economics And Value Chain Of The Global Watch Industry | SOIC course notes (private) | 2026-07-27 | 1130
+- S491 | The J Curve Hyper Growth Mental Model | SOIC course notes (private) | 2026-07-27 | 675
+- S492 | The Rise Of The Leisure And Experience Economy | SOIC course notes (private) | 2026-07-27 | 716
+- S493 | The Strategic Rationale And Routes For Global Investing | SOIC course notes (private) | 2026-07-27 | 921
+- S494 | The Tvgp And New Investing Frameworks | SOIC course notes (private) | 2026-07-27 | 754
+- S495 | Using Ai To Map Value Chains And Generate Equity Research | SOIC course notes (private) | 2026-07-27 | 753
+- S496 | Watchlist Creation And Fundamental Momentum Frameworks | SOIC course notes (private) | 2026-07-27 | 836
+- S497 | Synthesis | SOIC course notes (private) | 2026-07-27 | 70
+- S498 | Deep Value And Sideways Market Survival | SOIC course notes (private) | 2026-07-27 | 579
+- S499 | Dynamics Of Invits | SOIC course notes (private) | 2026-07-27 | 759
+- S500 | M A And Capital Allocation Blueprint | SOIC course notes (private) | 2026-07-27 | 583
+- S501 | Order Book Driven Businesses | SOIC course notes (private) | 2026-07-27 | 648
+- S502 | Portfolio Allocation Strategies | SOIC course notes (private) | 2026-07-27 | 773
+- S503 | The Glp 1 Weight Loss Drug Value Chain | SOIC course notes (private) | 2026-07-27 | 789
+- S504 | The Pre Engineered Buildings Peb Industry | SOIC course notes (private) | 2026-07-27 | 799
+- S505 | The Tvgp Investment Framework | SOIC course notes (private) | 2026-07-27 | 745
+- S506 | Comparisons | SOIC course notes (private) | 2026-07-14 | 7589
+- S507 | The mechanism | SOIC course notes (private) | 2026-07-27 | 1024
+- S508 | Competitive Advantage and Industry Tail Events | SOIC course notes (private) | 2026-07-14 | 1298
+- S509 | Data-Center Demand Driven by AI | SOIC course notes (private) | 2026-07-14 | 448
+- S510 | Defense Industry Terminal Value Risk | SOIC course notes (private) | 2026-07-14 | 361
+- S511 | Demand-Supply Mismatch and Thematic Investing: The Mechanism | SOIC course notes (private) | 2026-07-14 | 618
+- S512 | DRHP, Con Calls, Annual Reports, and Credit Ratings as Data Sources | SOIC course notes (private) | 2026-07-14 | 549
+- S513 | Growth Trigger Identification | SOIC course notes (private) | 2026-07-14 | 1095
+- S514 | Industry Value Chain Mapping: the HOW and WHY | SOIC course notes (private) | 2026-07-14 | 946
+- S515 | Investor Presentation Analysis: Mechanism | SOIC course notes (private) | 2026-07-14 | 489
+- S516 | Mechanism: How LLM-Assisted Industry Research Works | SOIC course notes (private) | 2026-07-14 | 867
+- S517 | Market Share Gain Story: Mechanism | SOIC course notes (private) | 2026-07-14 | 545
+- S518 | Niche Chemistry and Value Addition: the mechanism | SOIC course notes (private) | 2026-07-14 | 509
+- S519 | Pattern Recognition Through Case Studies | SOIC course notes (private) | 2026-07-14 | 1083
+- S520 | Practical Valuation Approach | SOIC course notes (private) | 2026-07-14 | 412
+- S521 | Profit Pool & Margin Analysis | SOIC course notes (private) | 2026-07-14 | 880
+- S522 | What the Results Tracker does | SOIC course notes (private) | 2026-07-14 | 546
+- S523 | Risk assessment before analysis | SOIC course notes (private) | 2026-07-14 | 554
+- S524 | Scalability and Order Book Assessment | SOIC course notes (private) | 2026-07-14 | 673
+- S525 | Screening Filters for Stock Selection | SOIC course notes (private) | 2026-07-14 | 777
+- S526 | Short-Term vs. Long-Term Terminal Value | SOIC course notes (private) | 2026-07-14 | 540
+- S527 | Turnaround Situation Identification | SOIC course notes (private) | 2026-07-14 | 748
+- S528 | What TVGP is and why it exists | SOIC course notes (private) | 2026-07-14 | 764
