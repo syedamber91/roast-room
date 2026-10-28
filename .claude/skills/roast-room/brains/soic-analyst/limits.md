@@ -2,7 +2,7 @@
 
 What the SOIC course says about its own limits, which of its figures are examples, what it does not cover, what it never says, and where its sources disagree. Built from the same 528 course sources as the other files; dates are note dates (key in `principles.md`). Quotation marks mean the course's own words. Paraphrase carries no quotation marks.
 
-Contents: 1 the course on its own limits. 2 rules that are examples or assumptions. 3 perishable numbers and how to treat them. 4 coverage. 5 the course does not say. 6 where sources conflict.
+Contents: 1 the course on its own limits. 2 rules that are examples or assumptions. 3 perishable numbers and how to treat them. 4 coverage. 5 the course does not say. 6 where sources conflict. 7 what outside tests of the course's ideas found (not from the course).
 
 ---
 
@@ -170,3 +170,28 @@ The course does not reconcile these. Show both, with dates, and do not pick one 
 15. **Sectors the instructor will not opine on.** The brief (2026-07-14) says the instructor "openly refuses to opine on sectors he hasn't read", naming downstream oil and gas among them (S005). A later oil and gas module (2026-07-26) covers downstream refining: "one of the most efficient industrial production in the whole manufacturing value chain" (S309, OILA 00:34:17).
 16. **Nuclear order book at BHEL.** "has almost 15,000 crore orders booked from nuclear" (S154, NUKE 00:59:03) against "10,000 to 11,000 odd crores... from nuclear power" (S158, NUKE 01:35:35). Both are PERISHABLE.
 17. **Margin-expansion scan.** "checking if the operating profit margin has expanded by 10% quarter-over-quarter for three or four consecutive quarters" (S119, HOWA 00:40:12) against an alternate scan value "margin expansion is more than of 20%" (S482, SOICE3 00:46:21).
+
+---
+
+## 7. What outside tests of the course's sector and timing ideas found
+
+This section is not from the course and has no source id. It records measured tests, run by the owner of this repo on Indian listed equities, of mechanical versions of the course's sector-selection ideas. Dates are the dates of each result. Each test was written down with its pass bar before any return was read, and the numbers below are quoted from the result files, which carry their own full limits. These are screens that describe past periods, not forecasts, and nothing here is a call to buy, sell or hold.
+
+How to use it: when a user asks whether a course sector or timing rule works, state the course's bar from rules.md, then state what these tests found, and say the tests describe one cycle and one universe.
+
+1. **Sector selection on price and on growth breadth (over five years of half-year decision dates).** The price rule (sectors ranked on 52-week relative strength) beat the median sector in 5 of 10 six-month periods, which is a coin flip, with a median edge of +0.6 points. The growth-breadth rule beat it in 4 of 10, below a coin flip (median edge -0.2 points). Neither mechanical rule was shown to work.
+2. **The sector stage rule (result dated 2026-10-15).** Top 5 stage-2 sectors by 52-week relative strength against the sectors not picked, 18 measured sectors, 10 non-overlapping 26-week periods: 8 of 10, labelled PASS, marginal, under the bar written beforehand. Read it with its limits:
+   - A coin gets 8 or more of 10 with probability 0.0547, and random same-size baskets matched or beat 8 in 5.8% of 20,000 draws. Neither is below 0.05.
+   - It shows only at the 26-week window. All six 13-week cells scored exactly 5 of 10.
+   - One sector carries it: Capital Goods was picked on 9 of 10 dates, and without it the rule scores 6 of 10.
+   - A control run after the result was seen (the same top 5 on relative strength with no stage filter) also scored 8 of 10 and picked the same basket on 9 of 10 dates. The edge comes from ranking on relative strength, and the 30-week average leg added nothing measurable.
+   - 61% of the picks were survivors-only member proxies, and the period was one mostly rising cycle.
+3. **Adding breadth to the stage rule (result dated 2026-10-15).** 7 of 10, labelled UNDERPOWERED. The same-pool strength-only rule scored 8 of 10, and breadth did not show an added edge; where the two baskets differed, breadth was above on 2 of 7 dates and below on 4. Without Capital Goods the breadth rule scored 6 of 10.
+4. **A fresh quarterly earnings inflection with the weekly trend gate (result dated 2026-10-19).** Among past dates of today's index members (non-financial), 2021 to 2025, a fresh inflection (the first 1 to 4 good quarters) helped more when the weekly RSI and ADX gate passed than when it failed: a difference-in-differences of +10.8 points against a bar of +10, with a company-clustered interval of +0.7 to +20.8. Labelled supported, narrowly. Read with:
+   - Fresh with the trend gate on alone was +5.4 points against no inflection, with an interval of -1.0 to +11.8, which includes zero.
+   - The shifted-date grid gave +8.4 with an interval of -3.4 to +20.3, and the 13-week view gave +5.5.
+   - Swapping the gate for no exit trigger fired gave +1.7. The result is about the weekly RSI and ADX gate, not about trend in general.
+   - A separate 2025 to 2026 view, on four dates, pointed the other way (-2.9, interval -18.2 to +12.5) and was not pooled.
+
+What this means for the seat: the course's sector-rotation and timing ideas have not been shown to beat chance in these tests, apart from one marginal 26-week result and one narrow earnings-inflection result. Do not present a sector rule, a stage rule or a breadth rule as proven. Do not name a sector or a stock as a pick because of these results.
+

@@ -73,4 +73,4 @@ Separately, the S001 freshness rule ("the live data wins", a compiled-list rule 
 - **Sources disagree on several bars** (P/E, cash conversion, sizing). rules.md section I lists them; show both numbers, never pick one silently.
 - **Many questions have no stated number** (rules.md section J). Do not invent a bar.
 - **Timing rules are for satellite positions.** The course says core holdings follow business conviction (rules.md E10). The system is also wrong part of the time (rules.md E14).
-- **Screens find candidates, not answers.** Not tested here: the bars describe a method, not a backtested result.
+- **Screens find candidates, not answers.** The bars describe a method. Outside tests of the sector and timing ideas found a coin flip or a marginal, narrow edge (limits.md section 7), so never call a rule proven.
