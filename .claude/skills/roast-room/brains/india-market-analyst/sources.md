@@ -1,0 +1,61 @@
+# Sources: India Market Analyst
+
+55 sources (50 pdf, 5 web), 741,858 words. Video dates are upload dates. Every quote in this brain carries one of these ids.
+
+Format: id | title | url | date | words
+
+- S001 | HDFC Bank Q4 FY26 earnings call (HDFC Bank (NSE filing)) | https://nsearchives.nseindia.com/corporate/HDFCBANK_24042026154113_SEintimationTranscriptofearningscall18April2026.pdf | 2026-04-18 | 8831
+- S002 | HDB Financial Services Q1 FY26 earnings call (HDB Financial (company site)) | https://www.hdbfs.com/sites/default/files/debt/HDBFS-Q1FY26-Earnings-Call-Transcript.pdf | 2025-07-15 | 8628
+- S003 | Yes Bank Q4 FY26 earnings call (Yes Bank (NSE filing)) | https://nsearchives.nseindia.com/corporate/YESBANK_24042026175919_YBLSEIntimationTranscriptofEarningsCall24042026Signed.pdf | 2026-04-18 | 6994
+- S004 | IndusInd Bank special analyst call on derivative accounting discrepancy (IndusInd Bank (company site)) | https://www.indusind.com/content/dam/indusind-corporate/investors/QuarterFinancialResults/FY2024-2025/Quarter4/Analyst-Call-Transcript_10thMarch2025.pdf | 2025-03-10 | 4781
+- S005 | Bajaj Finance Q1 FY25 investor call (Bajaj Finance (BSE filing)) | https://bseindia.com/xml-data/corpfiling/AttachHis/c3d167fe-1bf1-4f86-b448-20b4fa3b22b2.pdf | 2024-07-24 | 9192
+- S006 | Manappuram Finance Q2 FY25 earnings call (Manappuram Finance (BSE filing)) | https://bseindia.com/xml-data/corpfiling/AttachHis/6edf2abd-3419-49c0-b327-93043bc502c4.pdf | 2024-11-08 | 8398
+- S007 | Muthoot Finance Q2 FY26 earnings call (Muthoot Finance (NSE filing)) | https://nsearchives.nseindia.com/corporate/MUTHOOTFIN_18112025174821_Trascript_SD_1.pdf | 2025-11-13 | 8116
+- S008 | AU Small Finance Bank Q3 FY26 earnings call (AU SFB (BSE/NSE filing mirror)) | https://bsmedia.business-standard.com/_media/bs/data/announcements/bse/22012026/1c6155a1-a47f-41b8-8a75-44128a185f2a.pdf | 2026-01-22 | 11010
+- S009 | HCLTech Q2 FY26 earnings call (HCLTech (company site)) | https://www.hcltech.com/sites/default/files/document/open/call-trans/2025-11/HCLTech-Earnings-Q2FY26-transcript-updated.pdf | 2025-10-13 | 7770
+- S010 | Sun Pharma Q2 FY26 earnings call (Sun Pharma (company site)) | https://sunpharma.com/wp-content/uploads/2025/11/FY26-Q2-Earnings-Call-Transcript.pdf | 2025-11-05 | 6906
+- S011 | Dr. Reddy's Q2 FY26 earnings call (Dr. Reddy's (company site)) | https://www.drreddys.com/cms/sites/default/files/2025-10/DRL_Q2FY26EarningsCallTranscript_24Oct2025.pdf | 2025-10-24 | 8937
+- S012 | Titan Company Q1 FY26 earnings call (Titan (company site)) | https://www.titancompany.in/sites/default/files/2025-08/SEtranscriptQ1.pdf | 2025-08-11 | 9554
+- S013 | Dabur India Q1 FY26 investor call (Dabur (company site)) | https://www.dabur.com/Investors/Financial%20Information/Results/2025-26/Q1/Conference%20Call%20Transcript.pdf | 2025-08-06 | 5450
+- S014 | ABB India Q1 CY2026 analyst call (ABB India (NSE filing)) | https://nsearchives.nseindia.com/corporate/ABB_15052026122024_AnalystCallTranscript-Q12026.pdf | 2026-05-08 | 8466
+- S015 | Pennar Industries Q2 FY26 earnings call (Pennar Industries (NSE filing)) | https://nsearchives.nseindia.com/corporate/PENIND_13112025122434_TranscriptoftheQ2FY26Resultsconferencecall13112025.pdf | 2025-11-13 | 12279
+- S016 | Navin Fluorine Q3 FY26 earnings call (Navin Fluorine (NSE filing)) | https://nsearchives.nseindia.com/corporate/NAVINFLUOR_13022026111844_Binder1.pdf | 2026-02-13 | 8103
+- S017 | Adani Ports and SEZ Q4 FY26 conference call (Adani Ports (company site)) | https://www.adaniports.com/-/media/project/ports/investor/transcripts/apsez-q4fy26-earnings-conference-call_transcript.pdf | 2026-04-30 | 13460
+- S018 | Ola Electric Q2 FY26 earnings call (Ola Electric (company site)) | https://cdn.olaelectric.com/sites/evdp/pages/investor/financials/fy26/q2/Ola_Electric_Mobility_Limited_Earnings_Call_Transcript_Q2_FY26.pdf | 2025-11-06 | 9355
+- S019 | Paytm (One 97) Q1 FY25 earnings call (Paytm (BSE filing)) | https://bseindia.com/xml-data/corpfiling/AttachHis/a5a83eed-344a-42de-a407-133933f0be3b.pdf | 2024-07-19 | 10358
+- S020 | Delhivery Q2 FY25 earnings call (Delhivery (BSE filing)) | https://bseindia.com/xml-data/corpfiling/AttachHis/53adb65d-3adf-47e5-bc18-6fbecb4fded0.pdf | 2024-11-14 | 14703
+- S021 | Gensol Engineering Q1 FY25 earnings call (Gensol Engineering (BSE filing)) | https://bseindia.com/xml-data/corpfiling/Attachhis/f78e3721-9dbe-4cb7-aede-ef9e96c8e79f.pdf | 2024-08-13 | 8012
+- S022 | Adani Enterprises Q2 FY26 earnings call (Adani Enterprises (company site)) | https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q2-FY26-AEL_Earnings-Call-Transcript-v1.pdf | 2025-11-04 | 4849
+- S023 | Zee Entertainment Q3 FY26 conference call (Zee Entertainment (BSE filing mirror)) | https://bsmedia.business-standard.com/_media/bs/data/announcements/bse/30012026/0b92b989-c94e-4975-9673-786dada3aef7.pdf | 2026-01-22 | 4128
+- S024 | Booklet on Securities Market: Understanding from Investor's Perspective (SEBI Investor) | https://investor.sebi.gov.in/pdf/reference-material/languages/english/SM%20Booklet_English%20-%20Final%20(Low).pdf | undated | 10101
+- S025 | Financial Education Booklet (SEBI Investor) | https://investor.sebi.gov.in/pdf/downloadable-documents/Financial%20Education%20Booklet%20-%20English.pdf | undated | 20519
+- S026 | Beginner's Guide to the Capital Markets (SEBI Investor) | https://investor.sebi.gov.in/pdf/reference-material/beginners.pdf | undated | 4594
+- S027 | Indian Securities Market (introduction deck) (SEBI Investor) | https://investor.sebi.gov.in/pdf/reference-material/ppt/PPT-1%20Introduction%20to%20Securities%20Markets.pdf | undated | 4030
+- S028 | Financial Education Part A (SEBI (content by BSE)) | https://www.sebi.gov.in/sebi_data/investors/financial_literacy/Financial%20Education%20Part%20A.pdf | undated | 9722
+- S029 | FAQs on SEBI (Prohibition of Insider Trading) Regulations, 2015 (SEBI) | https://www.sebi.gov.in/sebi_data/faqfiles/apr-2025/1744784643061.pdf | 2025-04 | 7506
+- S030 | Profitability of Individual Traders in the Equity Derivatives Segment (FY25-FY26) (SEBI) | https://www.sebi.gov.in/sebi_data/attachdocs/aug-2026/1787233506209.pdf | 2026-08 | 25465
+- S031 | Trading Behaviour of Individual Traders in the Equity Derivatives Segment (SEBI) | https://www.sebi.gov.in/sebi_data/attachdocs/aug-2026/1787233601328.pdf | 2026-08 | 14160
+- S032 | Comparative study of growth in Equity Derivatives vis-a-vis Cash Market (SEBI) | https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1751900271726.pdf | 2025-07 | 2333
+- S033 | Board memo: association of regulated persons with unregistered persons (finfluencers) (SEBI) | https://www.sebi.gov.in/sebi_data/meetingfiles/jul-2024/1719916854117_1.pdf | 2024-07 | 2133
+- S034 | FAQs on SAST Regulations (incl. promoter encumbrance/pledge disclosure) (SEBI) | https://www.sebi.gov.in/sebi_data/faqfiles/mar-2022/1648620806406.pdf | 2022-03 | 11103
+- S035 | SCORES FAQ for investors (SEBI) | https://www.sebi.gov.in/sebi_data/faqfiles/oct-2024/1730356475310.pdf | 2024-10 | 7248
+- S036 | Investor Grievance Redressal Mechanism (SCORES, NSE, BSE, NSDL, CDSL) (SEBI Investor) | https://investor.sebi.gov.in/pdf/reference-material/ppt/PPT-9%20Investor%20Grievance%20Redressal%20Mechanism-SEBI%20Scores,%20NSE,BSE,%20NSDL,%20CDSL%2030%20Sep%202022.pdf | 2022-09-30 | 3493
+- S037 | SEBI Annual Report 2025-26, Chapter 8: Protection of the Investor Interests (SEBI) | https://www.sebi.gov.in/reports-and-statistics/publications/aug-2026/Chapter%2008.pdf | 2026-08 | 7258
+- S038 | Confirmatory order, Gensol Engineering (diversion of funds, EV purchases) (SEBI) | https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/confirm_order_gensol_engg.pdf | 2025-07 | 11147
+- S039 | Final order, Milestone Tradelinks and Rehvar Infrastructure (Adani related-party routing) (SEBI) | https://www.sebi.gov.in/sebi_data/attachdocs/sep-2025/order_matter_milestone_rehvar.pdf | 2025-09-18 | 15203
+- S040 | Order, Satyam Computer Services (reconsideration of disgorgement) (SEBI) | https://www.sebi.gov.in/sebi_data/attachdocs/nov-2018/1541165887415.pdf | 2018-11 | 10260
+- S041 | Order, Satyam Computers Services Limited (SEBI) | https://www.sebi.gov.in/sebi_data/attachdocs/dec-2023/1701382168274.pdf | 2023-12 | 32936
+- S042 | Order, CARE Ratings (IL&FS, DHFL, Yes Bank rating lapses) (SEBI) | https://www.sebi.gov.in/sebi_data/attachdocs/apr-2023/1681988405288_3.pdf | 2023-04 | 21386
+- S043 | Order, Future Retail Limited (siphoning, promoter share increase) (SEBI) | https://www.sebi.gov.in/sebi_data/attachdocs/may-2026/ORDER_1778498594.pdf | 2026-05 | 63526
+- S044 | Order, Suzlon Energy Limited (related-party disclosures, financial statements) (SEBI) | https://www.sebi.gov.in/sebi_data/attachdocs/may-2026/ORDER_1780045331.pdf | 2026-05 | 30970
+- S045 | Report of the Committee on Corporate Governance (Kotak Committee) (SEBI) | https://www.sebi.gov.in/sebi_data/attachdocs/oct-2017/1509102194616.pdf | 2017-10 | 65181
+- S046 | IiAS Voting Guidelines 2023-24 (IiAS (proxy adviser)) | https://iias-cms.s3.ap-south-1.amazonaws.com/Voting_Guidelines_2023_24_4f4973edfb.pdf | 2023 | 25262
+- S047 | NFRA Order NF-21/1/2022/06 (DHFL statutory audit lapses) (NFRA) | https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/04/2023041341.pdf | 2023-04-13 | 9709
+- S048 | SEBI F&O Loss Study Explained: Why 9 in 10 Retail Traders Lost ₹91,685 crore in FY26 | https://openthemagazine.com/business/sebi-fo-loss-study-explained-why-9-in-10-retail-traders-lost-91685-crore-in-fy26 | 2026-08-20 | 2060
+- S049 | Related-Party Transactions and Corporate Fraud: Evaluating SEBI LODR 2026 Reforms | https://taxguru.in/sebi/related-party-transactions-corporate-fraud-evaluating-sebi-lodr-2026-reforms.html | 2026-10-27 | 2965
+- S050 | Shareholders or Spectators: Role of Retail Investors in India | https://www.ecgi.global/publications/blog/shareholders-or-spectators-role-of-retail-investors-in-india | 2025-12-11 | 994
+- S051 | Record Subscriptions, Fragile Returns: Is India’s IPO Market Repeating Hong Kong’s Hardest Lessons? | https://www.indrastra.com/2026/10/record-subscriptions-fragile-returns-is.html | 2026-10 | 17131
+- S052 | How accurate is IPO GMP? We checked all 294 Indian IPOs listed in 2026 | https://dev.to/datadaemon/how-accurate-is-ipo-gmp-we-checked-all-294-indian-ipos-listed-in-2026-4bdg | 2026-10-28 | 1420
+- S053 | Master Circular for compliance with LODR (related party transactions, corporate governance) (SEBI) | https://www.sebi.gov.in/sebi_data/attachdocs/jul-2023/1689087475880.pdf | 2023-07-11 | 72455
+- S054 | Ex-parte interim order, insider trading in IndusInd Bank scrip (SEBI) | https://www.sebi.gov.in/sebi_data/attachdocs/may-2025/ibl_interim_order.pdf | 2025-05 | 10116
+- S055 | Final order, Adicorp Enterprises (Hindenburg allegations on Adani related parties) (SEBI) | https://www.sebi.gov.in/sebi_data/attachdocs/sep-2025/order_matter_adicorp.pdf | 2025-09-18 | 21192
