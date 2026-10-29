@@ -357,7 +357,7 @@
 
 ## Annual report statements (S027, added 2026-10-29)
 
-These topics are not in the calls. They come from the annual report prose and are held in statements-ar-fy26.md, not copied here: Board and committees (T10), Promoter statements (T11), Auditor and controls (T07, T08, T09), Related parties (T12), Litigation, regulators and tax orders (T14), Accounting changes and restatements (T05), Risks the company names (T06), Subsidiaries and minority holders (T13), Events after the year end (T15). Read that file's header first: a tier says the words are on the page, and only the letter and the management discussion are management speech.
+These topics are not in the calls. They come from the annual report prose and are held in statements-ar-fy26.md (and fy22 to fy25 for the earlier years), not copied here: Board and committees (T10), Promoter statements (T11), Auditor and controls (T07, T08, T09), Related parties (T12), Litigation, regulators and tax orders (T14), Accounting changes and restatements (T05), Risks the company names (T06), Subsidiaries and minority holders (T13), Events after the year end (T15). Read that file's header first: a tier says the words are on the page, and only the letter and the management discussion are management speech.
 
 ## Subjects with no recorded position
 - **Share buybacks:** no recorded position in any of the 25 sources.

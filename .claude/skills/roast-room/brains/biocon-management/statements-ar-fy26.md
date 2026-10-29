@@ -4,6 +4,8 @@ Generated from the verified statement record (csv sha256 fd0e31468f1a); do not e
 
 **What a tier means.** High: the words are on the cited page in two independent text readers and in the part of the report the type belongs to. Medium (marked one reader): on the page in one reader only, mostly table rows. A tier says the words are on the page. It does not say the statement is true, complete or representative. Two verification cycles did not meet their bars (27 of 30 and 26 of 30 sampled statements marked right); the owner accepted the record on 2026-10-29 with that limit.
 
+**Known attribution limits.** In a blind check of 30 statements, three were marked wrong on which part of the report they sit in (a Board's report sentence, a sentence from the letter part, a governance report sentence). Read the page before relying on the speaker label.
+
 **How to cite.** Quote verbatim with the source id, the page and the part of the report: (S027, p213, Board's report). The chairperson's and chief executive's messages and the management discussion are management speech. The auditor's report is the auditor's words, not management's. The Board's report, the governance report and the notes are the company's filings. A table row is a filed cell run, not something anyone said. Never present any of it as spoken by a person it did not come from.
 
 **What is missing.** Types the code does not take from a part of the report, a few table rows the checker refused, pages no extraction read, and every statement in the sustainability report. The tables of the same report are in numbers.md (S026).

@@ -3,6 +3,14 @@
 Refreshed 2026-10-25; the annual report for the year ended 2026-03-31 was added on 2026-10-29 (first section below). The calls (last held 2026-08-06), the decks (last filed with that call) and the filed quarters (last ended 2026-06-30) did not change: no results call has been held since. Three things moved: the annual report (below), the price series and the exchange announcements.
 
 
+## Annual reports FY2021-22 to FY2024-25 added (2026-10-29, third entry)
+
+New sources S028 to S031: the statements read from the prose of the four earlier annual reports (years ended 2022-03-31, 2023-03-31, 2024-03-31 and 2025-03-31), one file each (statements-ar-fy22.md to statements-ar-fy25.md): 386, 493, 463 and 418 kept statements. The year each file closes was read from its own pages, not from its file name. The same four parts of each report were read as for FY2025-26 (the messages from the chairperson and chief executive, the Board's report, the management discussion, the governance report, the auditor's reports and the notes) and the same rules apply: only the letter and the management discussion are management speech.
+
+Checked: every statement is on its page; six planted wrong statements per year were all rejected; 40 sentences and table rows from another company's report all failed; a blind grader marked 26 of 30 (FY22), 29 of 30 (FY23), 30 of 30 (FY24) and 30 of 30 (FY25) sampled statements right. The four FY22 misses are about speaker: pages 40 to 43 of its letter part are the chief financial officer's questions and answers, and a secretarial auditor's report sits inside the Board's report annexures. No completeness review and no second re-extraction were run for these four years.
+
+What this lets the seat do: compare a topic across five annual reports (the promoter holding line, the board table, the auditor's opinion and key audit matters, the wording on debt, capex and outlook), and see which statements are new, dropped or reworded. It does not turn any of them into a scored promise.
+
 ## Annual report prose added (2026-10-29, second entry)
 
 New source S027, the statements read from the prose of the same report as S026: 485 kept statements (351 High, 134 Medium) in statements-ar-fy26.md, grouped by type. They cover the chairperson's and chief executive's messages, the management discussion, the Board's report, the corporate governance report, both auditor's reports and the notes to the financial statements (pages 18 to 33, 190 to 281, 287 to 420). The sustainability report and the AGM notice (pages 421 to 558) were left out on purpose. Each statement carries its page and the part of the report; the letter and the management discussion are management speech by the owner's decision of 2026-10-29, the auditor's report is the auditor's words, and the rest are the company's filings.

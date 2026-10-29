@@ -33,6 +33,8 @@ SECTION_LABEL = {
     "notes": "notes to the financial statements (company filing)",
 }
 KEPT = ("High", "Medium")
+DEFAULT_VERIFICATION = ("Two verification cycles did not meet their bars (27 of 30 and 26 of 30 sampled statements marked right); "
+                        "the owner accepted the record on 2026-10-29 with that limit.")
 
 
 def read_rows(path: Path) -> list:
@@ -45,15 +47,15 @@ def clean(text: str) -> str:
     return " ".join(text.split())
 
 
-def render(rows: list, source_id: str, company: str, fy: str, year_end: str, csv_sha: str) -> str:
+def render(rows: list, source_id: str, company: str, fy: str, year_end: str, csv_sha: str, verification: str = "", note: str = "") -> str:
     high = sum(r["tier"] == "High" for r in rows)
     out = [f"# Statements from the {company} annual report {fy}: {source_id}", "",
            f"Generated from the verified statement record (csv sha256 {csv_sha}); do not edit by hand. Year ended {year_end}. "
            f"{len(rows)} statements: {high} High, {len(rows) - high} Medium.", "",
            "**What a tier means.** High: the words are on the cited page in two independent text readers and in the part of the report "
            "the type belongs to. Medium (marked one reader): on the page in one reader only, mostly table rows. A tier says the words "
-           "are on the page. It does not say the statement is true, complete or representative. Two verification cycles did not meet "
-           "their bars (27 of 30 and 26 of 30 sampled statements marked right); the owner accepted the record on 2026-10-29 with that limit.", "",
+           "are on the page. It does not say the statement is true, complete or representative. " + (verification or DEFAULT_VERIFICATION), "",
+           ] + ([f"**Known attribution limits.** {note}", ""] if note else []) + [
            f"**How to cite.** Quote verbatim with the source id, the page and the part of the report: (S{source_id[1:]}, p213, Board's report). "
            "The chairperson's and chief executive's messages and the management discussion are management speech. The auditor's report is "
            "the auditor's words, not management's. The Board's report, the governance report and the notes are the company's filings. "
@@ -79,10 +81,12 @@ def main() -> int:
     ap.add_argument("--company", required=True)
     ap.add_argument("--fy", required=True)
     ap.add_argument("--year-end", required=True)
+    ap.add_argument("--verification", default="", help="what was checked for this year and how it scored")
+    ap.add_argument("--note", default="", help="known attribution limits for this year")
     args = ap.parse_args()
     rows = read_rows(args.csv)
     args.out.write_text(render(rows, args.source_id, args.company, args.fy, args.year_end,
-                               hashlib.sha256(args.csv.read_bytes()).hexdigest()[:12]), encoding="utf-8")
+                               hashlib.sha256(args.csv.read_bytes()).hexdigest()[:12], args.verification, args.note), encoding="utf-8")
     print(f"{len(rows)} statements written to {args.out}")
     return 0
 
