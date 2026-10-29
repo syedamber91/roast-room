@@ -9,7 +9,7 @@ Run: `sessions/2026-10-29-biocon-rating/` (gitignored; round-1.md, round-2.md, r
 - The BIOCON brain already says, in its own notes on the 2024-06-30 quarter, "Other income 11345 is a one-off". That quarter alone is 6,597 of the 10,133 base (65.1%, derived from numbers.md).
 - On operating profit the year looks different: FY25 31,358 and FY26 34,381, up 9.6% (derived, four filed quarters each, sums tie to the report's annual figures). Revenue rose 10.9%.
 - So most of the "profit halved" story sits below operating profit: a one-off in the base year, exceptional items (Dec 2025 quarter: -2,934; Jun 2025 re-presented: -172), tax, and non-controlling interest (M2).
-- This is the Analyst's own framework 2 (strip one-offs from the base), not applied to the base. S2 scored 1 ("no exceptional split") when the BIOCON brain holds the split by quarter.
+- This is the Analyst's own framework 2 (strip one-offs from the base), not applied to the base. S2 scored 1 ("no exceptional split") when the BIOCON brain holds exceptional items for the quarters it flags (Jun 2025 and Dec 2025) and tags the Jun 2024 one-off; it does not hold them for every quarter.
 - Unchecked: whether the 11,345 sits inside a segment. If it does, the Biosimilars segment profit fall of 50.9% and the kill criterion of Rs 1,469m inherit the same distortion.
 - Effect on the call: the debt questions still stand, so Wait is not undone, but the "earnings are collapsing" reason in the verdict is weaker than the cards made it sound.
 
