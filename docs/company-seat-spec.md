@@ -20,7 +20,7 @@ Status: design, 2026-10-29. Nothing here is built. The BIOCON seat (`.claude/ski
 
 | Seat file | Missing today | Fields (FIELDS.yaml) | Source document |
 |---|---|---|---|
-| `numbers.md` Filed quarters | other income with one-off tag, exceptional items, profit for the period, profit to minority holders (the VPS truth table has them; the seat does not) | F03, F04, F06, F08 | RES, AR |
+| `numbers.md` Filed quarters | other income with one-off tag, exceptional items, profit to minority holders (the VPS truth table has them; the seat holds profit for the period and to shareholders but not these) | F03, F04, F08 | RES, AR |
 | `numbers.md` Segments | segment result (profit) by quarter; only revenue held | F21 | RES, AR |
 | `numbers.md` Annual report | receivables, financing flows, equity, EBITDA, undrawn lines, contingent liabilities, related party amounts, key pay, dividends | F13, F14, F19, F20, F24, F25, F30, F31 | AR |
 | `numbers.md` new table "Ownership by quarter" | promoter holding, pledge, institutions | F27 to F29 | FIL, AR |
