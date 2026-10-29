@@ -61,7 +61,7 @@ Generated blocks sit between `<!-- generated:record START -->` and `<!-- generat
 ## 6. Rules that stay, and one decision for the owner
 
 Stay as written in `council-biocon.md`: the seat is not Biocon or an executive; no view on buying, selling, holding or valuing shares; every number carries its as-of date and basis; a figure from the annual report tables is a filed number, never a quote.
-**Owner decision:** annual report prose by the chairperson or managing director (letter, management discussion) is management speech and may be quoted with its source id and page; the auditor's report is the auditor's words, quoted as such; the governance report is the company's filing. Without this, no AR prose can enter `positions.md`.
+**Owner decision, yes on 2026-10-29:** annual report prose by the chairperson or managing director (letter, management discussion) is management speech and may be quoted with its source id and page; the auditor's report is the auditor's words, quoted as such; the governance report is the company's filing. The agent file `council-biocon.md` is changed only when the first prose statements are verified and synced, not before, so the seat never cites a source it does not hold.
 
 ## 7. Cannot say yet
 
