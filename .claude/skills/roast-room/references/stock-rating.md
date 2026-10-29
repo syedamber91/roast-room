@@ -86,8 +86,18 @@ Trust 14/21 · Coverage 5/7 · Gates standing: none · Seat's own bands, not fro
 
 The room's JSON files have no field for this, so the table lives in `verdict.md` only. Put one line about any standing gate in `verdict.json` `override_note`.
 
-## Pre-registered check (set before any real use; NOT YET RUN)
+## Pre-registered check (run 2026-10-29, result below)
 
 Take the 10 governance cases in `brains/india-market-analyst/stories.md` (A1 to A10). Score each on the 0 to 3 ladder from its "What was visible earlier" lines only, blind to the outcome paragraph, and write the predicted band down first. Pass bar: at least 7 of the 10 land at 11 or below, or hit a gate, on the earlier data. Fail means the bands are not usable and the card drops them.
 
 Limits to state with the result: those cases were chosen because they went wrong, so a pass shows the rating notices trouble, not how often it raises a false alarm. A second check after three real councils: the Chair lists each seat's rating next to the verdict, and if the table and the Round 2 cruxes disagree on which section was the problem in two of three, the sections are mis-scoped.
+
+### Result of the first run (2026-10-29)
+
+Method: a fresh agent scored 14 anonymized cases from their "What was visible earlier" lines only, in shuffled order, not told which were trouble cases. The 9 scorable cases from A1 to A10 plus 5 comparison cases (stories 15, 16, 18, 19, 20: calls with no enforcement outcome in the notes). Case A5 (DHFL branch audit) has no "visible earlier" line and could not be scored. Names were removed; the model may still recognise some cases.
+
+- **Pre-registered bar, on the letter: passed.** 9 of the 9 scorable trouble cases landed at 11 or below or hit a gate (9 of 10 if A5 counts as a miss). Bar was 7 of 10.
+- **It does not show the bands work.** All 14 cases landed in the 0 to 6 band, including all 5 comparison cases. Average total: trouble cases 2.9, comparison cases 1.6. The comparison cases scored lower than the trouble cases, the wrong way round. The text for each case is a few lines, so most sections read "no data" and every case scores near zero. The bar is met by thin evidence alone.
+- **Hindsight leaks.** The "visible earlier" lines for Gensol, Satyam and IndusInd cite later orders. The only gates that fired were Satyam's G-A (from a Tribunal finding) and IndusInd's G-E (from a SEBI order). Gensol scored highest (6) because its text includes the order record.
+- **What this means:** the check cannot separate good from bad on this material, so the 12 to 17 and 18 to 21 bands are untested. Until a test with fuller briefs exists, treat the table, the coverage figure and the gates as the output, and print the bands only with the uncalibrated label. A better test needs full-length briefs for several companies where the outcome is known afterwards, scored before the outcome is read.
+
