@@ -1,6 +1,19 @@
 # changes: what moved since the calls and decks the brain was built from
 
-Refreshed 2026-10-25. The calls (last held 2026-08-06), the decks (last filed with that call) and the filed quarters (last ended 2026-06-30) did not change: no results call has been held since. Two things moved: the price series and the exchange announcements.
+Refreshed 2026-10-25; the annual report for the year ended 2026-03-31 was added on 2026-10-29 (first section below). The calls (last held 2026-08-06), the decks (last filed with that call) and the filed quarters (last ended 2026-06-30) did not change: no results call has been held since. Three things moved: the annual report (below), the price series and the exchange announcements.
+
+
+## Annual report FY2025-26 added (2026-10-29)
+
+New source S026: Biocon's Integrated Annual Report for the year ended 2026-03-31, filed with the exchanges under a letter dated 2026-07-15 (the AGM was held on 2026-08-06). It is filed tables, not management speech, so it has no speaker, no held date and no quote, and it is not on the scorecard. Only its tables were read; its prose was not. Each extracted figure was checked by a second text reader or by the table's own sums, a blind grader sampled them, and a separate check confirmed the 21 target lines (20 are printed, one is not) against the report's own pages. The figures are in numbers.md, and dated "what was filed" notes sit under the R&D, capex and debt topics in positions.md.
+
+What it confirmed: the eight filed quarters from 2025-06-30 to 2026-03-31 and 2024-06-30 to 2025-03-31 in this record add up, to the unit, to the report's full-year revenue, finance costs and profit to shareholders in both years (FY2025-26: 169,270, 9,903 and 3,856; FY2024-25: 152,617, 8,974 and 10,133, Rs million). That supports the quarters this record read from a comparative column or repaired by identity (2025-09-30 and 2025-12-31).
+
+What is new: research and development before and after recovery from co-development partners; cash paid for property, plant and equipment, capital work in progress and its age; borrowings by when they fall due; segment profit (Generics, Biosimilars and CRDMO, in two years); cash flow from operations; inventories; and the share count. This record held none of these before.
+
+What it did not change: all 39 scored statements were read against the new tables by two blind readers on 2026-10-29. The readers found no statement that a filed annual-report table number settles; the statements are about launches, approvals, capacity dates and margins that these tables do not state. No outcome changed: Kept 14, Missed 5, Still open 9, Depends on reading 11.
+
+Not settled: which definition management's R&D guidance of 7% to 9% uses, so the two filed group shares (5.80% after recovery, 6.47% before, derived) are not compared with it, because the guidance was given for biosimilars, a different base; why intangible assets under development fell from Rs 44,067 million to Rs 23,740 million; and additions to property, plant and equipment, which are hand-read only because the extraction did not read that rotated page. The report also reclassifies some FY2024-25 borrowings (the amount is not printed), so FY2024-25 borrowings in numbers.md are not the first-filed figures.
 
 ## Price
 

@@ -1,6 +1,6 @@
 # Sources: BIOCON management, on the record
 
-25 sources (14 call, 11 deck), 128,742 words. Dates are the date the call was held; a deck is dated by the date it was filed with the call, which is how books.md uses 'held' for decks. The url is the NSE filing that carried the transcript or deck, filed on the date named in its file name, which can be days after the call. Every quote in this brain carries one of these ids.
+26 sources (14 call, 11 deck, 1 annual report). The 25 call and deck sources hold 128,742 words; S026 holds 243,259 words of markdown made from the whole annual report PDF, of which only the tables were read. Dates are the date the call was held; a deck is dated by the date it was filed with the call, which is how books.md uses 'held' for decks. The url is the NSE filing that carried the transcript or deck, filed on the date named in its file name, which can be days after the call. Every quote in this brain carries one of these ids. S026 is filed tables, not management speech: it has no speaker and no held date, and no quote is taken from it.
 
 Format: id | title | url | date | words
 
@@ -29,3 +29,4 @@ Format: id | title | url | date | words
 - S023 | Biocon Q3 FY26 investor presentation (company slides) | https://nsearchives.nseindia.com/corporate/BIOCON_13022026082327_Presentataion13022026.pdf | 2026-02-13 | 1288
 - S024 | Biocon Q4 FY26 investor presentation (company slides) | https://nsearchives.nseindia.com/corporate/BIOCON_08052026081737_IR_PPT_Cover_Letter.pdf | 2026-05-08 | 1585
 - S025 | Biocon Q1 FY27 investor presentation (company slides) | https://nsearchives.nseindia.com/corporate/BIOCON_06082026072054_IR_PPT_Cover_Letter.pdf | 2026-08-06 | 1247
+- S026 | Biocon Limited Integrated Annual Report for the year ended 2026-03-31, tables only, not management speech (dated by its cover letter to the exchanges; statements signed 2026-05-07) | https://www.bseindia.com/xml-data/corpfiling/AttachHis/9aba3fcb-dde3-468b-bf62-f3f17a0434e0.pdf | 2026-07-15 | 243259

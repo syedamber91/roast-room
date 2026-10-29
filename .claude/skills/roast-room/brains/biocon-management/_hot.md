@@ -1,12 +1,12 @@
 # Hot sheet: BIOCON management, on the record
 
-Nothing here is live. Last close: week ending 2026-10-23 (323.50). Calls run to 2026-08-06 and filed quarters to 2026-06-30; exchange announcements to 2026-10-25 are in changes.md. Say the as-of date whenever you use a figure.
+Nothing here is live. Last close: week ending 2026-10-23 (323.50). Calls run to 2026-08-06, filed quarters to 2026-06-30 and the annual report to the year ended 2026-03-31 (cover letter to the exchanges dated 2026-07-15); exchange announcements to 2026-10-25 are in changes.md. Say the as-of date whenever you use a figure.
 
 **What this seat is.** An informed holder of one company's record: what BIOCON's management said, set against what was filed afterwards. It speaks as itself (the record shows). **What it is not.** Not Biocon, not any executive, never we for the company, no view on share value. On call, BIOCON decisions only.
 
 **Question it owns:** What did BIOCON's management say, what did it deliver, and what do the filed numbers show as of the last refresh?
 
-**Corpus.** 14 calls held 2022-11-15 to 2026-08-06 (S001 to S014, management's turns only), 11 decks (S015 to S025), 11 filed quarters to Jun 2026, 39 scored statements.
+**Corpus.** 14 calls held 2022-11-15 to 2026-08-06 (S001 to S014, management's turns only), 11 decks (S015 to S025), 11 filed quarters to Jun 2026, the FY2025-26 annual report (S026, filed tables only, not management speech), 39 scored statements.
 
 **Worldview.** The record shows acquisition debt carried since the 2022 Viatris deal, with debt reduction stated as the first use of free cash and net debt given between USD 1.1 and 1.25 billion on more than one basis (inferred from S001, S013, positions.md). It shows dates slipping more often than products vanishing: three of the five misses landed 16 days to about four months after their windows (record.md). It shows the measure moving with the quarter, so every comparison names its basis (inferred from S003, S014, S025).
 
@@ -30,6 +30,13 @@ Quarter ended 2026-06-30 unless stated; year-earlier figure in brackets.
 - Finance costs 2,132 (2,767).
 - Operating profit 8,472 (7,489).
 - Profit to shareholders 1,411 (314). Separately, the quarter ended 2023-12-31 showed 6,600 and carried one-offs.
+
+Annual report FY2025-26 (S026, full year to 2026-03-31, Rs million, consolidated, as filed; year-earlier in brackets; numbers.md has the pages and the limits):
+
+- Revenue from operations 169,270 (152,617). Profit to owners 3,856 (10,133). Finance costs 9,903 (8,974).
+- Research and development 9,821 after recovery from co-development partners (8,788), 10,958 before (10,264); derived 5.80% and 6.47% of group revenue. The 7% to 9% guidance in positions.md was given for biosimilars, which is a different base, and its exact definition is not recorded, so no comparison is made.
+- Gross borrowings 148,247 (177,555 as reclassified); 65,476 falls due within a year. Capital work in progress 46,127 (41,017). Segment profit: Generics a loss of 1,348 (year earlier a profit of 1,755), Biosimilars 5,876 (11,961), CRDMO 4,875 (6,279).
+- The seat's four quarters add up to the annual figures on revenue, finance costs and profit in both years (derived).
 
 Segment note: the third segment is named Research services in the filings to 2025-03-31, CRDMO from 2025-06-30 and Services from 2026-06-30, and the Q1 FY27 deck moved a utilities cross charge out of Generics (S025), so the 2026-06-30 segment row is not on the same basis as the rows before it.
 
@@ -73,3 +80,4 @@ Kept 14, Missed 5, Still open 9, Depends on reading 11 of 39 (record.md). The 11
 - **No call text** for Q1 FY24 and Q2 FY25.
 - **Three differences not reconciled anywhere in this corpus.** The generics margin basis changed in the Q1 FY27 deck, so generics comparisons across decks sit on different bases (S025); the segment name also changes in the filings (see the segment note above). Four different rupee figures are attached to the Eris dealings: 366, 350 and 330, 1,242, 1,057 crores (S004 to S007). The Nov 2025 call claims five launches delivered; that day's deck lists four (S011, S022).
 - **Filed operating profit differs from a third-party data aggregator's figure in 3 of 11 quarters** (2023-12-31, 2024-03-31, 2025-06-30); the cause is unchecked here.
+- **The annual report was read for its tables only** (S026, no prose): it is filed numbers, never something management said, and it moves no statement on the scorecard. Additions to property, plant and equipment are hand-read, the cause of the fall in intangible assets under development is not established, and some FY2024-25 comparatives are as reclassified in that report.

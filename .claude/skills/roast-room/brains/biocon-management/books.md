@@ -27,5 +27,6 @@ Every document the brain was built from. Calls hold management's turns only (ana
 - S023 (deck, held 2026-02-13, 1,288 words): Biocon Q3 FY26 investor presentation (company slides).
 - S024 (deck, held 2026-05-08, 1,585 words): Biocon Q4 FY26 investor presentation (company slides).
 - S025 (deck, held 2026-08-06, 1,247 words): Biocon Q1 FY27 investor presentation (company slides).
+- S026 (annual report, cover letter 2026-07-15, 243,259 words of markdown, tables only): Biocon Integrated Annual Report for the year ended 2026-03-31. Filed tables, not management speech; no quote is taken from it. See numbers.md.
 
 Not in the corpus, so nothing in the brain comes from them: the calls for the quarters ended June 2023 (Q1 FY24) and September 2024 (Q2 FY25), and decks before the Q3 FY24 deck. Analyst questions are never quoted. A call whose transcript was filed days after it was held is dated by the day it was held.
