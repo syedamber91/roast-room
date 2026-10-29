@@ -102,6 +102,38 @@ ONE LINE FOR THE FOUNDER: the thing from your pillar they must not forget.
 
 ---
 
+## Stock rating mode add-ons
+
+Only when the Chair has turned on stock rating mode (`references/stock-rating.md`). Paste the matching block at the end of that round's prompt, below the standard shape. The base shape is otherwise unchanged. Sections S1 to S7 are defined in `references/stock-rating.md`; the 0 to 3 ladder is the same for every seat.
+
+**Round 1 add-on (every seat; the Analyst fills all seven):**
+
+```
+STOCK RATING MODE. Add these lines to your card, after QUESTION FOR THE FOUNDER:
+
+SECTION SCORES: S1 n (state) · S2 n (state) · S3 n (state) · S4 n (state) · S5 n (state) · S6 n (state) · S7 n (state)
+   n is 0 to 3. state is answered | partial | deflected | no data. Write "-" for any section where you have no basis. For each number you give, name the brief line or your brain source id that earns it. Company facts come only from the brief. You score trust in management's word, not price.
+GATES RAISED: a gate letter (G-A to G-E), the document and its stage (interim, confirmatory, final), or "none".
+```
+
+**Round 2 add-on (Chair pastes the trust table from `round-1.md` Chair notes first):**
+
+```
+STOCK RATING MODE. The trust table is in round-1.md Chair notes. Add this line after MY CONDITIONS FOR YES:
+
+SECTION DISPUTES: for each section the Chair marked disputed: Sn, your number, the evidence (brief line or source id), what would move it. Say "agree" for a section you accept. Move a number only for a better argument or a new fact, and say which. The Analyst also states which of its questions were answered, which were not, and why.
+```
+
+**Round 3 add-on:**
+
+```
+STOCK RATING MODE. The trust table is in draft-resolution.md. Add this line after ONE LINE FOR THE FOUNDER:
+
+SECTION AMENDMENT: Sn x to y, one line why. Or "none". A dissent on a section number is allowed and will be reported.
+```
+
+---
+
 ## Single-seat consult
 
 ```

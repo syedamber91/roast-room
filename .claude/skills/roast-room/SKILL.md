@@ -8,7 +8,7 @@ argument-hint: "[the decision] [--quick] [--all] [--seats hormozi,buffett,...] |
 
 The Roast Room: runs a board meeting on one decision. A board of seats (seven out of the box), one per business pillar, each a sub-agent that reasons and talks the way its expert does, grounded in a brain compiled from that person's videos, essays, letters, talks, and books as they teach them in public. The seats argue across three rounds: open, debate, vote. You act as the **Chair**: you never argue a side, you run the room, keep the score, and write the verdict.
 
-Read once before the first run: `roster.json` (every seat and the default board), `references/seats.md` (picking the board, weights, tensions), `references/round-prompts.md` (what each seat gets), `references/scoring.md` (math and overrides), `references/report-template.md` (output), `references/live-room.md` (the small JSON files the visual room plays). A finished example council lives in `sessions/2026-10-09-example-take-the-seed/`.
+Read once before the first run: `roster.json` (every seat and the default board), `references/seats.md` (picking the board, weights, tensions), `references/round-prompts.md` (what each seat gets), `references/scoring.md` (math and overrides), `references/report-template.md` (output), `references/stock-rating.md` (only for a Buy, Wait or Sell rating on a listed Indian stock with the Analyst seated: the council-owned trust table), `references/live-room.md` (the small JSON files the visual room plays). A finished example council lives in `sessions/2026-10-09-example-take-the-seed/`.
 
 ## Modes
 
@@ -70,6 +70,7 @@ Keep the brief under 300 words. Mark every assumption as `(assumed)`.
 
 - Seat the board (see "Pick the board"). Set a relevance weight per seat at the table (1 to 3) with a one-line reason, per `seats.md`.
 - Create the session folder: `sessions/YYYY-MM-DD-<decision-slug>/` at the project root. Save `brief.md` (the brief, the options, and the weights table) and `council.json` (`live-room.md`).
+- **Stock rating mode.** If the decision is a Buy, Wait or Sell rating on one listed Indian stock and the Analyst seat is at the table, set the options to A Buy, B Wait, C Sell, write "Stock rating mode: on" in `brief.md`, and follow `references/stock-rating.md` in every round (paste the matching add-on from `round-prompts.md`). The section numbers are the council's, not the Analyst's.
 - Tell the user once: "Watch it live at http://localhost:4730" (the Roast Room plays the council as these files land; it is optional and the council runs the same without it).
 
 ## Step 3: Round 1, opening positions
@@ -81,6 +82,7 @@ When the cards come back, save them verbatim to `round-1.md`, one `## <Seat>` he
 - The **cruxes**: the one to three underlying disagreements that explain why seats split (a factual question, a numbers question, or a values question such as speed versus safety), with the seats on each side.
 - The **unanimity check** (`scoring.md`): if Round 1 converged, make the strongest unargued alternative a crux and name which seats must argue it at full strength.
 - Any card that broke format or misread the brief.
+- **Stock rating mode only:** the trust table (every seat's section numbers, the median and the spread per section, gates raised). Mark sections with spread 2 or more as disputed and make the widest ones cruxes, within the three-crux limit.
 
 Then write `cruxes.json` (`live-room.md`).
 
@@ -90,7 +92,7 @@ Spawn every seat again, in one message, with the Round 2 prompt (it points them 
 
 ## Step 5: Draft resolution
 
-Write `draft-resolution.md`: the recommendation (named option and verdict label), the conditions the seats asked for (merge duplicates, keep them checkable, pick one number when seats differ and say whose), the next steps with dates, the cheapest test, and kill criteria. Weigh arguments, not headcount: a single seat with a decisive fact beats three seats with vibes. Apply the overrides. Also write `draft.json` (`live-room.md`).
+Write `draft-resolution.md`: the recommendation (named option and verdict label), the conditions the seats asked for (merge duplicates, keep them checkable, pick one number when seats differ and say whose), the next steps with dates, the cheapest test, and kill criteria. Weigh arguments, not headcount: a single seat with a decisive fact beats three seats with vibes. Apply the overrides. In stock rating mode, put the current trust table in `draft-resolution.md` and apply the Trust cap. Also write `draft.json` (`live-room.md`).
 
 ## Step 6: Round 3, ratification
 

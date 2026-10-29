@@ -22,6 +22,8 @@ Option scores: [A] x.x · [B] x.x · [C] x.x · Support for the resolution x.x/1
 
 Math: [one line per option]
 
+[Stock rating mode only: add the "Trust table (council numbers)" block from `references/stock-rating.md` here, with the final numbers, the seats' own numbers and which sections moved in debate.]
+
 ## Why the council landed here
 
 [3 to 5 bullets: the arguments that carried the room, each tagged with the seat and framework, e.g. (Hormozi, Value Equation)]

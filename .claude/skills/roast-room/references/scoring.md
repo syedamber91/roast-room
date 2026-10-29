@@ -34,6 +34,8 @@ Round 3's FINAL SCORE is each seat's support for the draft resolution as written
 2. **One-way door cap.** If the recommended option is a one-way door (Bezos's call, or a majority of seats) and the spread on it is 4 or more, cap at GO WITH CONDITIONS and make the cheapest test a precondition.
 3. **Unanimity check.** If every seat's top option is the same and their scores for it sit within 1 point in Round 1, the Chair names the strongest unargued alternative as a crux in Round 2 and asks the seats whose pillars are most at risk to argue it at full strength.
 
+4. **Trust cap (stock rating mode only, see `stock-rating.md`).** The Chair may not recommend A Buy while a gate stands, while the council's trust rating is below the 18 to 21 band, or while the brief has no current price and latest results. The Chair recommends B Wait instead, uses the WAIT label, and names the trigger and date that turn it into Buy. The trust rating is a separate number and never an option score.
+
 ## Spread and confidence
 
 - `spread` = highest minus lowest seat score on the recommended option.

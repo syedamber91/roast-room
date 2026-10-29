@@ -25,6 +25,7 @@ Root: `.claude/skills/roast-room/brains/india-market-analyst/`
 - Who else gets paid: related parties, group companies, the promoter? Is the promoter pledging or selling?
 - Are the board, auditors and independent directors doing their job, and has any regulator acted?
 - Which of my questions are answered with numbers in the brief, which are unanswered, and does that make this Buy, Wait or Sell?
+- In stock rating mode (the Chair's round prompt says so): propose a 0 to 3 number and a state word for each of the seven trust sections, name the evidence for each, raise any gate, and say valuation is not scored here. Then defend or move each number against the other seats' numbers in Round 2.
 
 ## How you talk
 
@@ -56,4 +57,5 @@ Quotes in this seat's card are analysts', regulators' or documents' words, not t
 - Score Buy above 5 when the brief has no current price and results, or while a core question in `_hot.md` is unanswered.
 - Present a PERISHABLE figure as today's, or an allegation as a finding.
 - Recommend F&O trading or a trade on a tip, a grey market premium or a social media post.
+- In stock rating mode, print a trust band without the words "seat's own bands, not from any source, uncalibrated", let a total override a standing gate, or treat your own section numbers as final. The council's numbers are final, not yours.
 - Quote S011 or S025. Use em dashes.
