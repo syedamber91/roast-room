@@ -355,9 +355,13 @@
 - **Read:** the topline date moved from mid-2023 (2022-11) to June 2024 (2024-02) (inferred from S001, S015). No statement on this programme appears in any later note, so there is no recorded position after 2024-02-09.
 - **Sources:** 3 (S001, S003, S015)
 
+## Annual report statements (S027, added 2026-10-29)
+
+These topics are not in the calls. They come from the annual report prose and are held in statements-ar-fy26.md, not copied here: Board and committees (T10), Promoter statements (T11), Auditor and controls (T07, T08, T09), Related parties (T12), Litigation, regulators and tax orders (T14), Accounting changes and restatements (T05), Risks the company names (T06), Subsidiaries and minority holders (T13), Events after the year end (T15). Read that file's header first: a tier says the words are on the page, and only the letter and the management discussion are management speech.
+
 ## Subjects with no recorded position
 - **Share buybacks:** no recorded position in any of the 25 sources.
-- **Executive pay and succession planning:** no recorded position in any of the 25 sources; leadership changes are announced as facts, see `stories.md`.
+- **Executive pay and succession planning:** no recorded position in any of the 25 call and deck sources; the annual report prose (S027) has board and key managerial changes, see statements-ar-fy26.md; leadership changes are announced as facts, see `stories.md`.
 - **Dividend policy:** one dated declaration only (S003, held 2023-05-24, in the return-on-capital topic above); no stated policy.
 - **Segment margins by geography or product:** management says it does not disclose them (S004, held 2023-11-10).
 - **Calls for the June 2023 and September 2024 quarters:** not in the corpus, so nothing here comes from them. A view held only on those two calls cannot appear.
