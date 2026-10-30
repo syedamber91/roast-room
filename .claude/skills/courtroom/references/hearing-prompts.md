@@ -228,7 +228,7 @@ Repo root: [absolute path]. You are the lawyer. Read the whole of [session]/hear
 
 ## Judge final
 
-The Chair first runs the code that computes each section's ceiling and the position the rule gives (step 5); until that exists, the Chair pastes the lines marked `[from code]` by hand from the data pack and the ladder, and says so in the hearing file.
+The Chair first runs `build_report.py --ceilings` (step 5), which prints each section's ceiling, the position the rule gives and the gate line. The Chair pastes those lines into the prompt below. Code reads the judge's answer by the exact headings and line shapes shown, so the judge keeps them.
 
 ```
 ROAST ROOM COURTROOM, JUDGE: THE FINAL
@@ -237,16 +237,30 @@ Repo root: [absolute path]. You are the judge. Read [session]/case-book.md, the 
 
 From code: the ceiling for each of S1 to S7 [from code]; the position the council's rule gives [from code]; the data pack gate [from code]; the count of sections with data, of disputed states and of listed gaps [from code].
 
-Write, in this order and these headings:
-SECTION SCORES: S1 n (one plain sentence, the states behind it) ... S7, n from 0 to 3, never above its ceiling. A section with no questions asked scores 0 with the state `no data`.
-BUSINESS DIRECTION: improving | mixed | worsening | can't tell, then the why-chains for profit and growth behind it. Outside evidence is context only.
-RED FLAGS: each with the Analyst question id and an evidence id.
-POSITION: the rule's position in plain words; then `ADJUSTMENT: none` or `ADJUSTMENT: lower to <position> because ...`. Never raise it. Print: seat's own bands, not from any source, uncalibrated.
-IF YOU DO NOT OWN IT: one line. IF YOU OWN IT: one line. Each says what would change it.
-TRIGGERS: at most three: date or event, what to check, which way it moves the position.
-WHAT THIS DOES NOT DECIDE: price against value, the reader's own situation, anything after the as-of dates, and the things in the not-in-record list.
-STORYLINE: ten lines, each ending in an evidence id or `not in the record`.
-GLOSSARY: the terms you had to learn, in plain words.
+Write, in this order, each heading at the start of a line, in capitals, with a colon:
+
+SECTION SCORES:
+- S1 | n | states: Q1.1 answered, Q1.2 partial | WHY: one plain sentence
+(one line for each of S1 to S7; n is 0 to 3 and never above its ceiling; the states use only these words: answered, partial, deflected, no data, unverified; a section with no questions asked is `S4 | 0 | states: none | WHY: no data, not heard`)
+DIRECTION: improving, mixed, worsening or can't tell (one of these four, nothing else on the line)
+DIRECTION WHY: the why-chains for profit and growth behind it, each ending in an evidence id. Outside evidence is context only.
+RED FLAGS:
+- Q1.1 | the flag in plain words | evidence id
+POSITION: Wait | REASON: why, in one sentence (the position word is the rule's, or lower; use exactly Buy, Wait: trust good, entry not yet, Wait or Avoid; never raise it)
+READER NOT OWN: Wait | what would change it: one line
+READER OWN: hold and watch | what would change it: one line (the words are add, hold and watch, reduce or exit)
+TRIGGERS:
+1. date or event | check: what to look at | moves: up, down or either
+(at most three, taken from the not-in-record list and the dated items; "up" means toward a stronger position)
+NOT DECIDED:
+- price against value
+- the reader's own situation
+- anything after the as-of dates
+- each item in the not-in-record list that matters
+STORYLINE:
+1. ten numbered lines, each ending in an evidence id or `not in the record`
+GLOSSARY:
+- term: its meaning in plain words
 WHY THE DEFENCE HELD OR DID NOT: one paragraph, plain words, naming turn ids. This is not a verdict on guilt, it is how well the defence held up on the record.
 Close with: This is a simulation built from public filings. It is not advice and not a SEBI-registered adviser.
 ```

@@ -41,7 +41,7 @@ One special case from the council's ladder, for S1: a company that states a no-g
 
 ## What you write at the end
 
-The final turn gives, in this order:
+The final turn gives these parts. Code reads them by the exact headings and line shapes in `references/hearing-prompts.md` (SECTION SCORES, DIRECTION, DIRECTION WHY, RED FLAGS, POSITION, READER NOT OWN, READER OWN, TRIGGERS, NOT DECIDED, STORYLINE, GLOSSARY, WHY THE DEFENCE HELD OR DID NOT), so keep them. The parts:
 
 1. **Section scores** for S1 to S7, each 0 to 3 with one plain sentence of why and the states behind it. Use the council's 0 to 3 ladder: 3 = every core question answered with a number and its date and no red flag fires; 2 = answered with numbers and one flag fires with a reason stated; 1 = partial, or a flag with no stated reason; 0 = deflected, declined, or nothing in the record. Code puts a ceiling on each number from the question states; a number above the ceiling is cut down. You may go lower than the ladder gives, with a stated reason. You may never go higher.
 2. **Business direction:** one word, improving, mixed, worsening or can't tell, with the why-chains for profit and growth behind it.
