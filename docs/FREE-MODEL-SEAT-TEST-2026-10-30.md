@@ -6,7 +6,7 @@ Scripts: `scripts/free_seat_test/`. Raw sources and outputs stay in `build/bioco
 ## What was built
 25 NSE sources (14 calls, 11 decks; the annual report S026 was not used). Code cut each call into speaker turns and kept management only (the call's own
 participant block decides who is management). `nvidia/nemotron-3.5-lightning-30b-a3b` (thinking off) proposed quotes; code kept only quotes found verbatim in the
-turn and took speaker, source and held date from the turn. Three full runs (3,000, 1,500 and 1,000-word batches): 558 calls, about 1.5M NVIDIA tokens, no Claude tokens.
+turn and took speaker, source and held date from the turn. Three full runs (3,000, 1,500 and 1,000-word batches): 498 extraction calls (106 + 166 + 226) plus a few topic-sorting calls, about 1.5M NVIDIA tokens, no Claude tokens.
 The model's own proposals were verbatim 75 to 79% of the time; the rest were dropped by code.
 
 ## Coverage of the existing brain (456 of its 475 distinct quotes are findable in the freshly fetched sources)
