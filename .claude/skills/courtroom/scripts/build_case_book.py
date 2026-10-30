@@ -24,6 +24,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 ROOM_SCRIPTS = HERE.parents[1] / "roast-room" / "scripts"          # .claude/skills/roast-room/scripts
 ISSUES_FILE = HERE.parent / "references" / "issues.json"
+LAWYER_BRAIN = "india-market-analyst"                                 # the Analyst seat is the default lawyer (docs/courtroom-design.md section 2)
 
 # exchange announcement categories that make a useful timeline (the others are routine filings)
 EVENT_CATEGORIES = [
@@ -229,7 +230,7 @@ def build(company: str, spec_path: Path, events_path: Path, run: date) -> tuple:
                  chapter_record_status(lines, gate, issues, gaps, run, newest)]
     text = "\n".join(chapters)
     facts_text = "\n".join([chapter_numbers_text, chapter_ownership_text, chapter_funding_text, timeline])
-    case = {"company": company, "run_date": run.isoformat(), "gate": gate, "issues": issues, "baseline": config["baseline"], "not_in_record": gaps,
+    case = {"company": company, "run_date": run.isoformat(), "gate": gate, "convict_brain": spec["brain"], "lawyer_brain": LAWYER_BRAIN, "issues": issues, "baseline": config["baseline"], "not_in_record": gaps,
             "chapters": {str(n): {"title": PLACEHOLDERS[n][0], "drafted": False} for n in PLACEHOLDERS} | {str(n): {"drafted": True} for n in (3, 4, 5, 6, 8)},
             "facts_only_problems": check_facts_only(facts_text), "dropped_management_lines": list(DROPPED), "announcements_to": newest}
     return text, case

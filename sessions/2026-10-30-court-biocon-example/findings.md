@@ -1,0 +1,17 @@
+# Findings from the step 3 trial (to fix in the prompts)
+- F1 lawyer Q1 was a compound question (two guides, many parts) though the prompt said one question: tighten.
+- F2 lawyer IF DEFLECTED ran to three steps: ask for one follow-up.
+- F3 lawyer asked for a guide for a quarter; guidance is usually annual: say so.
+- F4 convict used four moves; prompt said one or two: cap at two.
+- F5 convict wrote id-then-quote; check_quotes.py needs quote-then-id (only 2 of ~8 quotes were parsed): require quote first.
+- F6 convict answer over 120 words and a long evidence list: cap at 8 lines.
+- Good: the convict challenged the premise, conceded the margin-guide moves, said not in my record for a group guide; claim "none of the 39 is a group revenue or margin range" verified against record.md headings.
+- F7 convict wrote a placeholder id (S0xx) in WHAT WOULD SETTLE IT: say "name the document without an id when you do not know it".
+- Lawyer Q2 and Q3 (after the fix): one ask each, one follow-up, numbers only from the case book or earlier answers. Good.
+- F8 the judge called every quote "unchecked" (it cannot open a brain). Paste a code-check block into the judge prompt ("quotes verified by code: 7 of 7, ids found in sources.md") so it stops flagging noise.
+- F9 judge note was far too long (STORY SO FAR lines 40+ words, 6 long why-chains, 7 not-understood items): cap lengths in the prompt.
+- F10 the judge derived numbers itself (generics +5.0 percent, half-year splits, 5.6 percent profit share): all re-checked correct against the case book. Keep, but require the inputs beside every derived figure, and let code recompute later.
+- Good: the judge caught that "four moves" are four statements, three changes; found the high base quarter 2025-03-31 (generics 10,475); flagged the S0xx placeholder; asked sharp why questions.
+- F11 convict wrote "S033/numbers.md" (an id joined to a file name): rule added.
+- F12 the judge scored S1 as 1; the council ladder gives 2 (no-guidance policy plus another numeric anchor). Judge was not given the special case, and called a substantive different-basis answer "no data". Fixed in court-judge.md. Step 5 must code the same special case into the ceiling.
+- F13 after the fixes (code-check block, length caps) the judge note was shorter, said "verified by code", re-derived every number correctly (checked: 1.184, 1.166, 1.155, -0.5 percent) and caught the convict loosely dating the lenalidomide naming.

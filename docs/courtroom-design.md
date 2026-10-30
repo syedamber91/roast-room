@@ -1,6 +1,6 @@
 # Courtroom: design record (judge, lawyer, convict)
 
-Status: **designed 2026-10-30 with the owner in a grill-me session. Build steps 1 and 2 are done (the issues file, `build_case_book.py`, the hearing prompts and the `court-judge` agent, with tests); nothing else is built. There is still no `SKILL.md`, so `/courtroom` does not exist yet.** Do not create `/courtroom` as a runnable skill until the first slice below passes its tests. Design input: a Fable review (2026-10-30). The owner's raw capture of the session is local (`brainstorms/2026-10-30-courtroom-judge-lawyer-convict.md`, gitignored); this file holds the decisions.
+Status: **designed 2026-10-30 with the owner in a grill-me session. Build steps 1 to 4 are done (the issues file, `build_case_book.py`, the hearing prompts, the `court-judge` agent, a real trial of issue I3 saved as `sessions/2026-10-30-court-biocon-example/`, and `check_hearing.py` with planted-failure tests); nothing else is built. There is still no `SKILL.md`, so `/courtroom` does not exist yet.** Do not create `/courtroom` as a runnable skill until the first slice below passes its tests. Design input: a Fable review (2026-10-30). The owner's raw capture of the session is local (`brainstorms/2026-10-30-courtroom-judge-lawyer-convict.md`, gitignored); this file holds the decisions.
 
 ## 1. What it is
 
@@ -100,7 +100,7 @@ Nothing here proves a position right; the bands remain untested and the outcome 
   references/report-template.md decision card, detail page sections, footer
   references/glossary.md        shared plain-words glossary (one owner, a change log)
   scripts/build_case_book.py    chapters 3 to 6 and 8 from the record, issue states, facts-only guard (BUILT, step 1); will also check the drafted chapters
-  scripts/check_hearing.py      the code guards in section 7
+  scripts/check_hearing.py      the code guards in section 7 (BUILT, step 4, nine of the guards; the judge-score-above-ceiling guard comes with step 5, and the jargon-without-a-definition guard needs the glossary)
   scripts/build_report.py       hearing to ceilings, grill report, dashboard data, the single HTML page
   scripts/scout_external.py     wraps the last30days run and the injection screen into external.md
   scripts/test_*.py, fixtures/  a good hearing, a bad hearing with the planted failures, a scripted convict
