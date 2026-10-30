@@ -19,29 +19,41 @@ def name_tokens(name: str) -> set:
     return {p.lower() for p in re.sub(r"[^A-Za-z ]", " ", name).split() if len(p) >= 4}
 
 
-def management_roster(text: str) -> dict:
+def management_roster(text: str):
+    """Return (management, other_known_speakers) as {name: tokens}. The IR host is a known speaker but not management."""
     head = text[:12000]
-    roster = {}
+    roster, others = {}, {}
     for m in HEADER_RE.finditer(head):
         name, title = m.group(1).strip(), m.group(2).strip()
-        if NOT_MANAGEMENT_TITLES.search(title):
-            continue
-        roster[name] = name_tokens(name)
-    return roster
+        (others if NOT_MANAGEMENT_TITLES.search(title) else roster)[name] = name_tokens(name)
+    return roster, others
+
+
+QA_START_RE = re.compile(r"question[- ]and[- ]answer|Q\s*&\s*A session|begin the question", re.I)
+
+
+def _last_token(label: str) -> str:
+    parts = re.sub(r"[^A-Za-z ]", " ", label).split()
+    return parts[-1].lower() if parts else ""
 
 
 def split_call(text: str):
-    roster = management_roster(text)
+    roster, others = management_roster(text)
     body_start = max(text.find("Conference Call Transcript"), 0)
-    marks = [(m.start(), m.end(), m.group(1).strip()) for m in LABEL_RE.finditer(text, body_start)]
+    known = {_last_token(n) for d in (roster, others) for n in d} | {"moderator", "operator"}
+    first_mgmt = next((m.start() for m in LABEL_RE.finditer(text, body_start) if any(_last_token(m.group(1)) in t for t in roster.values())), len(text))
+    qa = QA_START_RE.search(text, first_mgmt)  # the opening mention of Q&A comes before management speaks; skip it
+    qa_start = qa.start() if qa else len(text)
+    # before the Q&A, a label that is not a known speaker is a scripted sub-heading ("Europe:"), not a new speaker
+    marks = [(m.start(), m.end(), m.group(1).strip()) for m in LABEL_RE.finditer(text, body_start)
+             if m.start() >= qa_start or _last_token(m.group(1)) in known or any(_last_token(m.group(1)) in t for d in (roster, others) for t in d.values())]
     turns = []
     for i, (s, e, label) in enumerate(marks):
         end = marks[i + 1][0] if i + 1 < len(marks) else len(text)
         raw = text[e:end]
         lines = [l for l in raw.splitlines() if not NOISE_LINE.match(l)]
         said = re.sub(r"\s+", " ", " ".join(lines)).strip()
-        last = re.sub(r"[^A-Za-z ]", " ", label).split()
-        last = last[-1].lower() if last else ""
+        last = _last_token(label)
         turns.append({"label": label, "management": any(last in toks for toks in roster.values()), "text": said})
     return roster, turns
 
@@ -71,4 +83,5 @@ def main():
     print("total my words", sum(r[5] for r in report), "existing", sum(r[6] for r in report[:25]))
 
 
-main()
+if __name__ == "__main__":
+    main()

@@ -12,7 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 URL = "https://integrate.api.nvidia.com/v1/chat/completions"
 KEY = os.environ["NVIDIA_API_KEY"]
-EXTRA = {"nvidia/nemotron-3.5-lightning-30b-a3b": {"chat_template_kwargs": {"enable_thinking": False}}}
+EXTRA = {m: {"chat_template_kwargs": {"enable_thinking": False}} for m in ("nvidia/nemotron-3.5-lightning-30b-a3b", "nvidia/nemotron-3.5-super-vl-120b-a12b")}
 
 RULES = """Rules for every quote: copy it character for character from the text, under 40 words, no edits, no joining
 of separate sentences, no summary inside the quotation. If you cannot copy exact words, leave the item out.
@@ -33,10 +33,10 @@ PROMPT_B = """You read part of a company's investor material. Only management's 
 with [T<n>] and a speaker name (a slide deck is one block, [T1]).
 Extract how management thinks and talks:
 - "position": a stance on a topic (debt, pricing, capex, R&D, biosimilars, generics, China, tariffs, partners, hiring, margins, competition).
-- "rule": a decision rule or priority they state ("first claim is to reduce debt").
-- "framework": a named method, metric or way of measuring ("core EBITDA", "like-to-like").
+- "rule": a decision rule or priority they state, in a sentence that says what comes first or what they will not do.
+- "framework": a named method, metric or way of measuring that they define or reuse.
 - "story": a specific example, case or analogy they use.
-- "voice": a signature phrase or hedge they repeat (for example "line of sight", "transient").
+- "voice": a short phrase or hedge that they use again and again.
 """ + RULES + """
 Shape: {"items":[{"kind":"position|rule|framework|story|voice","turn":1,"topic":"2-5 words","quote":"..."}]}
 

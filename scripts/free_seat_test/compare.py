@@ -76,12 +76,8 @@ dec = {s: v for s, v in per_sid.items() if int(s[1:]) > 14}; call = {s: v for s,
 print("per source:", {k: f"{v[0]}/{v[1]}" for k, v in sorted(per_sid.items())})
 print("calls: %d/%d  decks: %d/%d" % (sum(v[0] for v in call.values()), sum(v[1] for v in call.values()), sum(v[0] for v in dec.values()), sum(v[1] for v in dec.values())))
 
-def near(r, pool, gap=300):
-    return any(r["sid"] == p["id"] and any(not (e + gap < s2 or s + gap > e2 and False) and (s - gap) < e2 and (e + gap) > s2 for s, e in r["spans"] for s2, e2 in p["spans"]) for p in pool)
-nr = sum(1 for r in found_in_my_corpus if near(r, by_sid[r["sid"]]))
-print(f"LOOSE recall (a free-run quote sits within ~300 characters of the existing quote, same source): {nr}/{tot} ({nr/tot:.0%})")
 rec = [r for r in found_in_my_corpus if r["file"] == "record.md"]
-print(f"record.md loose: {sum(1 for r in rec if near(r, by_sid[r['sid']]))}/{len(rec)}")
+
 rh = [r for r in rec if covered(r, by_sid[r["sid"]])]
 print(f"\nrecord.md scored statements ('Said:' quotes): free run covers {len(rh)} of {len(rec)}")
 json.dump([{"file": r["file"], "sid": r["sid"], "quote": r["quote"]} for r in missed], open(ROOT / "missed.json", "w"), indent=0)
@@ -93,3 +89,25 @@ fonly = [p for p in Fu if p["spans"] and not any(overlap(p["spans"], b["spans"])
 print(f"\nfree-only distinct quotes (no overlap with any existing-brain quote): {len(fonly)} of {len(Fu)}")
 print("kinds of all free items:", dict(collections.Counter(r["kind"] for r in Fu)))
 json.dump(fonly, open(ROOT / "free-only.json", "w"), ensure_ascii=False, indent=0)
+
+
+# --- null control (added after the Fable review): how often does a RANDOM stretch of the same length count as "covered"? ---
+import random
+def frac_covered(r, pool, thresh):
+    L = sum(e - s for s, e in r["spans"])
+    return bool(L) and any(p["id"] == r["sid"] and overlap(r["spans"], p["spans"]) >= thresh * L for p in pool)
+n = len(found_in_my_corpus)
+exact_half = sum(frac_covered(r, Fu, 0.5) for r in found_in_my_corpus) / n
+exact_full = sum(frac_covered(r, Fu, 0.95) for r in found_in_my_corpus) / n
+rnd = random.Random(1); null_trials = []
+for _ in range(20):
+    hit = 0
+    for r in found_in_my_corpus:
+        L = sum(e - s for s, e in r["spans"]); hay = len(corp[r["sid"]])
+        i = rnd.randrange(0, max(1, hay - L)); fake = {"sid": r["sid"], "spans": [(i, i + L)]}
+        hit += frac_covered(fake, Fu, 0.5)
+    null_trials.append(hit / n)
+null_half = sum(null_trials) / len(null_trials)
+print(f"\nNULL-CONTROLLED RECALL over {n} findable quotes: full-match {exact_full:.0%} | half-match {exact_half:.0%} | random-window null {null_half:.0%} | lift over null {100*(exact_half-null_half):.0f} points")
+json.dump({"n": n, "exact_full": exact_full, "exact_half": exact_half, "null_half": null_half}, open(ROOT / "recall.json", "w"))
+sys.exit(0 if exact_half - null_half >= 0.20 else 1)
