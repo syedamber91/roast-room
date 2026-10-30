@@ -72,3 +72,15 @@ What it shows: the promoter's share count stayed within 57,119 shares of 728,024
 A first build showed implied totals 100 times too small for the older filings because their XBRL prints a percent where the newer ones print a fraction; the reader now normalises that and a test pins it.
 
 Data pack: new line D05a reads the last 8 filings; D05 no longer carries the "pledge not in the record" note. Still not done: the annual promoter declarations for FY2022 to FY2025 (image-only PDFs), related party filings after 2023-11, and quarterly segment profit.
+
+## Segment tables added (2026-10-30)
+
+New source S033: Biocon's consolidated segment tables, in segments.md, made by build_segments_file.py from the results filings. Ten quarters (ended 2022-09-30 to 2024-12-31) come from the results XBRL, which names every segment and gives revenue, result before tax and finance costs, assets and liabilities for each; the quarters after that come from the results PDFs, where each filing prints three quarter columns. It is filed numbers, not management speech, so no quote is taken from it.
+
+What it shows: the later tables have three segments (Biosimilars, Generics, Services, printed as CRDMO until the quarter ended 2026-03-31) and the result is each segment's profit before tax. For the quarter ended 2026-06-30 the filing prints Biosimilars 1,714, Generics -309 and Services -57 (Rs million), a total of 1,348 against 1,664 a year earlier; Services was 2,020 in the March 2026 quarter. Each quarter after 2024-12 is taken from the latest filing whose segment lines add to their own total, and the filing and column are named on the row.
+
+Two traps found on the way. First, the XBRL's year-to-date column is dated like the quarter (both span 2024-10-01 to 2024-12-31), so a date filter reads the nine-month figures as the quarter's; the reader selects the quarter by the filing's own context name and checks it against the next filing's year-to-date figures (Q1 10,648, Q2 -170 and Q3 7 for Biosimilars add to the nine-month 10,485). Second, the filing for the quarter ended 2025-09-30 is a scan whose text layer has lost brackets and digits ("1326)" for (326)), and the filing for the quarter ended 2025-12-31 fails its own sum check on the result table; neither is used, so 2025-09-30 has no clean source and is listed under Not read. The Dec 2025 quarter is read from the next filing's preceding-quarter column instead.
+
+The segments and the result measure changed (interest on optionally convertible debentures moved out of Biosimilars in the March 2026 filing, common-utility cross charges moved out of Generics in the June 2026 filing, both restated), so a quarter printed in a later filing can differ from the same quarter in an earlier one. Data pack line D10 now reads this table and carries a Partial note for 2025-09-30 and the changes of basis.
+
+Still not done: the annual promoter declarations for FY2022 to FY2025 (image-only PDFs), and the approved ceilings for related party transactions, which are not a separate filing after 2023-11 (the exchange feed holds the last related party filing on 2023-11-10; the notes to the annual report hold the amounts).

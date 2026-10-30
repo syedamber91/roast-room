@@ -1,0 +1,88 @@
+filing_period_end,section,segment,this_quarter,preceding_quarter,year_ago_quarter,segments_add_to_total,unit,source_file
+2025-03-31,revenue,Generics,10475.0,6864.0,7184.0,yes,Rs million,BIOCON_08052025194232_OutcomeofBM08052025.pdf
+2025-03-31,revenue,Biosimilars,24634.0,22890.0,23578.0,yes,Rs million,BIOCON_08052025194232_OutcomeofBM08052025.pdf
+2025-03-31,revenue,Research services,10180.0,9437.0,9169.0,yes,Rs million,BIOCON_08052025194232_OutcomeofBM08052025.pdf
+2025-03-31,revenue,(total),45289.0,39191.0,39931.0,yes,Rs million,BIOCON_08052025194232_OutcomeofBM08052025.pdf
+2025-03-31,result,Generics,1808.0,-135.0,504.0,yes,Rs million,BIOCON_08052025194232_OutcomeofBM08052025.pdf
+2025-03-31,result,Biosimilars,393.0,7.0,903.0,yes,Rs million,BIOCON_08052025194232_OutcomeofBM08052025.pdf
+2025-03-31,result,Research services,2405.0,1808.0,2090.0,yes,Rs million,BIOCON_08052025194232_OutcomeofBM08052025.pdf
+2025-03-31,result,(total),4606.0,1680.0,3497.0,yes,Rs million,BIOCON_08052025194232_OutcomeofBM08052025.pdf
+2025-03-31,assets,Generics,83271.0,78836.0,71067.0,yes,Rs million,BIOCON_08052025194232_OutcomeofBM08052025.pdf
+2025-03-31,assets,Biosimilars,444400.0,447148.0,431435.0,yes,Rs million,BIOCON_08052025194232_OutcomeofBM08052025.pdf
+2025-03-31,assets,Research services,67959.0,60866.0,61516.0,yes,Rs million,BIOCON_08052025194232_OutcomeofBM08052025.pdf
+2025-03-31,assets,Unallocable,-7657.0,-6708.0,-3311.0,yes,Rs million,BIOCON_08052025194232_OutcomeofBM08052025.pdf
+2025-03-31,assets,(total segment assets),587973.0,580142.0,560707.0,yes,Rs million,BIOCON_08052025194232_OutcomeofBM08052025.pdf
+2025-03-31,liabilities,Generics,31004.0,26872.0,19757.0,yes,Rs million,BIOCON_08052025194232_OutcomeofBM08052025.pdf
+2025-03-31,liabilities,Biosimilars,239121.0,247176.0,257344.0,yes,Rs million,BIOCON_08052025194232_OutcomeofBM08052025.pdf
+2025-03-31,liabilities,Research services,20691.0,16045.0,18939.0,yes,Rs million,BIOCON_08052025194232_OutcomeofBM08052025.pdf
+2025-03-31,liabilities,Unallocable,20032.0,14393.0,11919.0,yes,Rs million,BIOCON_08052025194232_OutcomeofBM08052025.pdf
+2025-03-31,liabilities,(total segment liabilities),310848.0,304486.0,307959.0,yes,Rs million,BIOCON_08052025194232_OutcomeofBM08052025.pdf
+2025-06-30,revenue,Generics,6965.0,10475.0,6593.0,yes,Rs million,Biocon2_07082025202612_OutcomeofBM07082025.pdf
+2025-06-30,revenue,Biosimilars,24578.0,24634.0,20834.0,yes,Rs million,Biocon2_07082025202612_OutcomeofBM07082025.pdf
+2025-06-30,revenue,CRDMO,8745.0,10180.0,7897.0,yes,Rs million,Biocon2_07082025202612_OutcomeofBM07082025.pdf
+2025-06-30,revenue,(total),40288.0,45289.0,35324.0,yes,Rs million,Biocon2_07082025202612_OutcomeofBM07082025.pdf
+2025-06-30,result,Generics,-670.0,1808.0,169.0,yes,Rs million,Biocon2_07082025202612_OutcomeofBM07082025.pdf
+2025-06-30,result,Biosimilars,960.0,393.0,10648.0,yes,Rs million,Biocon2_07082025202612_OutcomeofBM07082025.pdf
+2025-06-30,result,CRDMO,1013.0,2405.0,693.0,yes,Rs million,Biocon2_07082025202612_OutcomeofBM07082025.pdf
+2025-06-30,result,(total),1303.0,4606.0,11510.0,yes,Rs million,Biocon2_07082025202612_OutcomeofBM07082025.pdf
+2025-06-30,assets,Generics,79533.0,83271.0,68243.0,yes,Rs million,Biocon2_07082025202612_OutcomeofBM07082025.pdf
+2025-06-30,assets,Biosimilars,447112.0,444400.0,432950.0,yes,Rs million,Biocon2_07082025202612_OutcomeofBM07082025.pdf
+2025-06-30,assets,CRDMO,66747.0,67959.0,61115.0,yes,Rs million,Biocon2_07082025202612_OutcomeofBM07082025.pdf
+2025-06-30,assets,Unallocable,20549.0,-7657.0,-5603.0,yes,Rs million,Biocon2_07082025202612_OutcomeofBM07082025.pdf
+2025-06-30,assets,(total segment assets),613941.0,587973.0,556705.0,yes,Rs million,Biocon2_07082025202612_OutcomeofBM07082025.pdf
+2025-06-30,liabilities,Generics,29318.0,31004.0,20085.0,yes,Rs million,Biocon2_07082025202612_OutcomeofBM07082025.pdf
+2025-06-30,liabilities,Biosimilars,224602.0,239121.0,243812.0,yes,Rs million,Biocon2_07082025202612_OutcomeofBM07082025.pdf
+2025-06-30,liabilities,CRDMO,18282.0,20691.0,17420.0,yes,Rs million,Biocon2_07082025202612_OutcomeofBM07082025.pdf
+2025-06-30,liabilities,Unallocable,21764.0,20032.0,13260.0,yes,Rs million,Biocon2_07082025202612_OutcomeofBM07082025.pdf
+2025-06-30,liabilities,(total segment liabilities),293966.0,310848.0,294577.0,yes,Rs million,Biocon2_07082025202612_OutcomeofBM07082025.pdf
+2025-12-31,revenue,Generics,8513.0,7736.0,6864.0,yes,Rs million,BIOCON_12022026190829_Outcome_of_BM12022026.pdf
+2025-12-31,revenue,Biosimilars,24967.0,27211.0,22890.0,yes,Rs million,BIOCON_12022026190829_Outcome_of_BM12022026.pdf
+2025-12-31,revenue,CRDMO,9171.0,9106.0,9437.0,yes,Rs million,BIOCON_12022026190829_Outcome_of_BM12022026.pdf
+2025-12-31,revenue,(total),42651.0,44053.0,39191.0,yes,Rs million,BIOCON_12022026190829_Outcome_of_BM12022026.pdf
+2025-12-31,result,Biosimilars,1117.0,1119.0,7.0,"NO: this_quarter: segments 720,207 vs total 1,878; preceding_quarter: segments 708,684 vs total 1,645; year_ago_quarter: segments 636,115 vs total 1,680",Rs million,BIOCON_12022026190829_Outcome_of_BM12022026.pdf
+2025-12-31,result,CRDMO,990.0,852.0,1808.0,"NO: this_quarter: segments 720,207 vs total 1,878; preceding_quarter: segments 708,684 vs total 1,645; year_ago_quarter: segments 636,115 vs total 1,680",Rs million,BIOCON_12022026190829_Outcome_of_BM12022026.pdf
+2025-12-31,result,(total),1878.0,1645.0,1680.0,"NO: this_quarter: segments 720,207 vs total 1,878; preceding_quarter: segments 708,684 vs total 1,645; year_ago_quarter: segments 636,115 vs total 1,680",Rs million,BIOCON_12022026190829_Outcome_of_BM12022026.pdf
+2025-12-31,result,CRDMO,64652.0,65421.0,60866.0,"NO: this_quarter: segments 720,207 vs total 1,878; preceding_quarter: segments 708,684 vs total 1,645; year_ago_quarter: segments 636,115 vs total 1,680",Rs million,BIOCON_12022026190829_Outcome_of_BM12022026.pdf
+2025-12-31,result,Unallocable,17913.0,13694.0,-6708.0,"NO: this_quarter: segments 720,207 vs total 1,878; preceding_quarter: segments 708,684 vs total 1,645; year_ago_quarter: segments 636,115 vs total 1,680",Rs million,BIOCON_12022026190829_Outcome_of_BM12022026.pdf
+2025-12-31,result,(total segment assets),635535.0,627598.0,580142.0,"NO: this_quarter: segments 720,207 vs total 1,878; preceding_quarter: segments 708,684 vs total 1,645; year_ago_quarter: segments 636,115 vs total 1,680",Rs million,BIOCON_12022026190829_Outcome_of_BM12022026.pdf
+2025-12-31,liabilities,Generics,36334.0,33503.0,26872.0,yes,Rs million,BIOCON_12022026190829_Outcome_of_BM12022026.pdf
+2025-12-31,liabilities,Biosimilars,219988.0,229269.0,247176.0,yes,Rs million,BIOCON_12022026190829_Outcome_of_BM12022026.pdf
+2025-12-31,liabilities,CRDMO,16990.0,18072.0,16045.0,yes,Rs million,BIOCON_12022026190829_Outcome_of_BM12022026.pdf
+2025-12-31,liabilities,Unallocable,22082.0,16202.0,14393.0,yes,Rs million,BIOCON_12022026190829_Outcome_of_BM12022026.pdf
+2025-12-31,liabilities,(total segment liabilities),295394.0,297046.0,304486.0,yes,Rs million,BIOCON_12022026190829_Outcome_of_BM12022026.pdf
+2026-03-31,revenue,Generics,8467.0,8513.0,10475.0,yes,Rs million,BIOCON_07052026232841_Outcome_of_BM-Final.pdf
+2026-03-31,revenue,Biosimilars,27556.0,24967.0,24634.0,yes,Rs million,BIOCON_07052026232841_Outcome_of_BM-Final.pdf
+2026-03-31,revenue,CRDMO,10365.0,9171.0,10180.0,yes,Rs million,BIOCON_07052026232841_Outcome_of_BM-Final.pdf
+2026-03-31,revenue,(total),46388.0,42651.0,45289.0,yes,Rs million,BIOCON_07052026232841_Outcome_of_BM-Final.pdf
+2026-03-31,result,Generics,-123.0,-229.0,1808.0,yes,Rs million,BIOCON_07052026232841_Outcome_of_BM-Final.pdf
+2026-03-31,result,Biosimilars,1479.0,1463.0,780.0,yes,Rs million,BIOCON_07052026232841_Outcome_of_BM-Final.pdf
+2026-03-31,result,CRDMO,2020.0,990.0,2405.0,yes,Rs million,BIOCON_07052026232841_Outcome_of_BM-Final.pdf
+2026-03-31,result,(total),3376.0,2224.0,4993.0,yes,Rs million,BIOCON_07052026232841_Outcome_of_BM-Final.pdf
+2026-03-31,assets,Generics,89926.0,90662.0,83271.0,yes,Rs million,BIOCON_07052026232841_Outcome_of_BM-Final.pdf
+2026-03-31,assets,Biosimilars,478881.0,462308.0,444400.0,yes,Rs million,BIOCON_07052026232841_Outcome_of_BM-Final.pdf
+2026-03-31,assets,CRDMO,70549.0,64652.0,67959.0,yes,Rs million,BIOCON_07052026232841_Outcome_of_BM-Final.pdf
+2026-03-31,assets,Unallocable,-2850.0,17913.0,-7657.0,yes,Rs million,BIOCON_07052026232841_Outcome_of_BM-Final.pdf
+2026-03-31,assets,(total segment assets),636506.0,635535.0,587973.0,yes,Rs million,BIOCON_07052026232841_Outcome_of_BM-Final.pdf
+2026-03-31,liabilities,Generics,37561.0,36334.0,31004.0,yes,Rs million,BIOCON_07052026232841_Outcome_of_BM-Final.pdf
+2026-03-31,liabilities,Biosimilars,211789.0,219988.0,239121.0,yes,Rs million,BIOCON_07052026232841_Outcome_of_BM-Final.pdf
+2026-03-31,liabilities,CRDMO,22147.0,16990.0,20691.0,yes,Rs million,BIOCON_07052026232841_Outcome_of_BM-Final.pdf
+2026-03-31,liabilities,Unallocable,-1206.0,22082.0,20032.0,yes,Rs million,BIOCON_07052026232841_Outcome_of_BM-Final.pdf
+2026-03-31,liabilities,(total segment liabilities),270291.0,295394.0,310848.0,yes,Rs million,BIOCON_07052026232841_Outcome_of_BM-Final.pdf
+2026-06-30,revenue,Biosimilars,28556.0,27556.0,24578.0,yes,Rs million,BIOCON_05082026164940_Outcome_of_BM05082026.pdf
+2026-06-30,revenue,Generics,7597.0,7760.0,6303.0,yes,Rs million,BIOCON_05082026164940_Outcome_of_BM05082026.pdf
+2026-06-30,revenue,Services,7360.0,10365.0,8745.0,yes,Rs million,BIOCON_05082026164940_Outcome_of_BM05082026.pdf
+2026-06-30,revenue,(total),43513.0,45681.0,39626.0,yes,Rs million,BIOCON_05082026164940_Outcome_of_BM05082026.pdf
+2026-06-30,result,Biosimilars,1714.0,1689.0,1667.0,yes,Rs million,BIOCON_05082026164940_Outcome_of_BM05082026.pdf
+2026-06-30,result,Generics,-309.0,-488.0,-1016.0,yes,Rs million,BIOCON_05082026164940_Outcome_of_BM05082026.pdf
+2026-06-30,result,Services,-57.0,2020.0,1013.0,yes,Rs million,BIOCON_05082026164940_Outcome_of_BM05082026.pdf
+2026-06-30,result,(total),1348.0,3221.0,1664.0,yes,Rs million,BIOCON_05082026164940_Outcome_of_BM05082026.pdf
+2026-06-30,assets,Biosimilars,486533.0,478881.0,447112.0,yes,Rs million,BIOCON_05082026164940_Outcome_of_BM05082026.pdf
+2026-06-30,assets,Generics,93865.0,88148.0,76593.0,yes,Rs million,BIOCON_05082026164940_Outcome_of_BM05082026.pdf
+2026-06-30,assets,Services,67452.0,70549.0,66747.0,yes,Rs million,BIOCON_05082026164940_Outcome_of_BM05082026.pdf
+2026-06-30,assets,Unallocable,-895.0,-1072.0,23489.0,yes,Rs million,BIOCON_05082026164940_Outcome_of_BM05082026.pdf
+2026-06-30,assets,(total segment assets),646955.0,636506.0,613941.0,yes,Rs million,BIOCON_05082026164940_Outcome_of_BM05082026.pdf
+2026-06-30,liabilities,Biosimilars,214894.0,211789.0,224602.0,yes,Rs million,BIOCON_05082026164940_Outcome_of_BM05082026.pdf
+2026-06-30,liabilities,Generics,38658.0,36883.0,28673.0,yes,Rs million,BIOCON_05082026164940_Outcome_of_BM05082026.pdf
+2026-06-30,liabilities,Services,18791.0,22147.0,18282.0,yes,Rs million,BIOCON_05082026164940_Outcome_of_BM05082026.pdf
+2026-06-30,liabilities,Unallocable,-849.0,-528.0,22409.0,yes,Rs million,BIOCON_05082026164940_Outcome_of_BM05082026.pdf
+2026-06-30,liabilities,(total segment liabilities),271494.0,270291.0,293966.0,yes,Rs million,BIOCON_05082026164940_Outcome_of_BM05082026.pdf
