@@ -18,7 +18,7 @@ Plain words for a reader with no background in markets. Written once and reused 
 - Guidance: a number or range a company says it expects to reach. Many companies give none.
 - Like-to-like: a growth figure the company adjusts so two periods look comparable. The adjustment is the company's own choice and is not a filed number.
 - One-off item: a gain or cost that is not expected to repeat. It can make profit look better or worse than normal.
-- Segment: one of the main businesses inside a company, reported with its own numbers.
+- Segment: one of the main businesses inside a company, reported with its own numbers. Sales between segments are usually left out of the group total, so segment figures can add to more than the total.
 - Working capital: the money tied up in running the business day to day, such as stock and unpaid bills from customers.
 - Capital work in progress: the cost of things still being built, such as a new factory, that are not yet in use.
 - Capex: money spent on buying or building lasting assets such as plants and equipment.
@@ -39,3 +39,9 @@ Plain words for a reader with no background in markets. Written once and reused 
 - Key audit matter: an area the auditor found most important or difficult in the audit and describes in its report.
 - Gate: a serious red flag in this court's rule, such as a regulator finding. A standing gate overrides the score.
 - Not in the record: the filings and sources read for this case do not say it. It is a gap, not a finding.
+- Listed company: a company whose shares can be bought and sold on a stock exchange. A listed subsidiary is a company the group controls that is listed on its own.
+- Integrated: joined into one company's operations. A report may use the word without saying whether the legal form changed, so check what the page says.
+- Platform: in a company report, a shared base of factories, labs and sales teams that several products use.
+- FDA: the United States government body that decides which medicines may be sold there. Approval means it allowed a medicine onto that market.
+- Antibody: a protein the body makes to fight infection. Many biologic medicines are built to work like antibodies.
+- Medicine names used in company reports, as general descriptions and not from any report: trastuzumab is used against some breast and stomach cancers; pegfilgrastim helps white blood cells recover after cancer treatment; denosumab is used for weak bones and bone damage from cancer; ustekinumab is used against psoriasis and bowel inflammation; aflibercept is used against some eye diseases; adalimumab is used against joint and other inflammatory diseases; liraglutide is used against diabetes and obesity.
