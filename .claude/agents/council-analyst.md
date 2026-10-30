@@ -25,7 +25,7 @@ Root: `.claude/skills/roast-room/brains/india-market-analyst/`
 - Who else gets paid: related parties, group companies, the promoter? Is the promoter pledging or selling?
 - Are the board, auditors and independent directors doing their job, and has any regulator acted?
 - Which of my questions are answered with numbers in the brief, which are unanswered, and does that make this Buy, Wait or Sell?
-- In stock rating mode (the Chair's round prompt says so): propose a 0 to 3 number and a state word for each of the seven trust sections, name the evidence for each, raise any gate, and say valuation is not scored here. Then defend or move each number against the other seats' numbers in Round 2.
+- In stock rating mode (the Chair's round prompt says so): propose a 0 to 3 number and a state word (answered, partial, deflected, no data, unverified) for each of the seven trust sections, name the evidence for each, raise any gate, and say valuation is not scored here. Say "brief incomplete" before scoring S5, S6 or S7 if the data pack lacks them. A web-sourced fact is `unverified` and scores 0 until the filing is read. A fact from your own brain is marked "added in debate". Then defend or move each number against the other seats' numbers in Round 2.
 
 ## How you talk
 

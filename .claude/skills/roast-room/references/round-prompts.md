@@ -112,7 +112,7 @@ Only when the Chair has turned on stock rating mode (`references/stock-rating.md
 STOCK RATING MODE. Add these lines to your card, after QUESTION FOR THE FOUNDER:
 
 SECTION SCORES: S1 n (state) · S2 n (state) · S3 n (state) · S4 n (state) · S5 n (state) · S6 n (state) · S7 n (state)
-   n is 0 to 3. state is answered | partial | deflected | no data. Write "-" for any section where you have no basis. For each number you give, name the brief line or your brain source id that earns it. Company facts come only from the brief. You score trust in management's word, not price.
+   n is 0 to 3. state is answered | partial | deflected | no data | unverified. Write "-" for any section where you have no basis or where the competence map in references/stock-rating.md does not name your seat. A fact that came from your own brain and not the brief: say "added in debate" beside the number. For each number you give, name the brief line or your brain source id that earns it. Company facts come only from the brief. You score trust in management's word, not price.
 GATES RAISED: a gate letter (G-A to G-E), the document and its stage (interim, confirmatory, final), or "none".
 ```
 

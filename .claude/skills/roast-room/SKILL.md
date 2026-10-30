@@ -70,7 +70,7 @@ Keep the brief under 300 words. Mark every assumption as `(assumed)`.
 
 - Seat the board (see "Pick the board"). Set a relevance weight per seat at the table (1 to 3) with a one-line reason, per `seats.md`.
 - Create the session folder: `sessions/YYYY-MM-DD-<decision-slug>/` at the project root. Save `brief.md` (the brief, the options, and the weights table) and `council.json` (`live-room.md`).
-- **Stock rating mode.** If the decision is a Buy, Wait or Sell rating on one listed Indian stock and the Analyst seat is at the table, set the options to A Buy, B Wait, C Sell, write "Stock rating mode: on" in `brief.md`, and follow `references/stock-rating.md` in every round (paste the matching add-on from `round-prompts.md`). The section numbers are the council's, not the Analyst's.
+- **Stock rating mode.** If the decision is a Buy, Wait or Sell rating on one listed Indian stock and the Analyst seat is at the table, set the options to A Buy, B Wait, C Sell, write "Stock rating mode: on" in `brief.md`, and follow `references/stock-rating.md` in every round (paste the matching add-on from `round-prompts.md`). The section numbers are the council's, not the Analyst's. Before Round 1 run `python .claude/skills/roast-room/scripts/build_data_pack.py --spec <company data-pack spec> --session <session folder>`: it writes the data pack and the completeness gate at the top of `brief.md`, and the Chair acts on an incomplete gate as `references/stock-rating.md` says.
 - Tell the user once: "Watch it live at http://localhost:4730" (the Roast Room plays the council as these files land; it is optional and the council runs the same without it).
 
 ## Step 3: Round 1, opening positions
@@ -92,7 +92,7 @@ Spawn every seat again, in one message, with the Round 2 prompt (it points them 
 
 ## Step 5: Draft resolution
 
-Write `draft-resolution.md`: the recommendation (named option and verdict label), the conditions the seats asked for (merge duplicates, keep them checkable, pick one number when seats differ and say whose), the next steps with dates, the cheapest test, and kill criteria. Weigh arguments, not headcount: a single seat with a decisive fact beats three seats with vibes. Apply the overrides. In stock rating mode, put the current trust table in `draft-resolution.md` and apply the Trust cap. Also write `draft.json` (`live-room.md`).
+Write `draft-resolution.md`: the recommendation (named option and verdict label), the conditions the seats asked for (merge duplicates, keep them checkable, pick one number when seats differ and say whose), the next steps with dates, the cheapest test, and kill criteria. Weigh arguments, not headcount: a single seat with a decisive fact beats three seats with vibes. Apply the overrides. In stock rating mode, put the current trust table in `draft-resolution.md` and apply the Trust cap. In stock rating mode every number put into the draft is recomputed and marked `checked`, and base-year figures are re-derived from the data pack (`references/stock-rating.md`, "Chair checks"). Also write `draft.json` (`live-room.md`).
 
 ## Step 6: Round 3, ratification
 
