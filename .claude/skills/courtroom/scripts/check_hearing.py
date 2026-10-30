@@ -199,9 +199,18 @@ def guard_has_evidence(turn) -> list:
 def guard_number_date(turn) -> list:
     if turn["role"] != "Convict":
         return []
+    out = []
+    if turn["id"].startswith("Convict baseline"):
+        # a baseline answer is one compressed line per question (under 60 words), so its date may sit a sentence away:
+        # the window is the whole B-line, not 80 characters. A line with no date at all still fails.
+        for line in turn["body"].splitlines():
+            if re.match(r"B\d\d ANSWER:", line.strip()):
+                for digits, pos in big_numbers(line):
+                    if not DATE_WORDS.search(line):
+                        out.append(Problem(turn["id"], "number-date", f"{digits} has no date, quarter or as-of word anywhere on its baseline line: {line.strip()[:20]}"))
+        return out
     f = fields(turn["body"])
     text = (f.get("ANSWER", "") + "\n" + f.get("EVIDENCE", "")) if f else turn["body"]
-    out = []
     for digits, pos in big_numbers(text):
         window = text[max(0, pos - NUMBER_DATE_WINDOW):pos + len(digits) + NUMBER_DATE_WINDOW]
         if not DATE_WORDS.search(window):

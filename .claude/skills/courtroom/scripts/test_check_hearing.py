@@ -117,3 +117,10 @@ def test_the_real_trial_hearing_is_flagged_where_the_trial_found_flaws_and_clean
     assert by_turn["WA1 Convict"] == {"number-date"} and by_turn["WA2 Convict"] == {"number-date"}   # numbers with no date near them
     for clean in ("Q2 Lawyer", "A2 Convict", "Q3 Lawyer", "Judge close"):
         assert clean not in by_turn, clean                                           # every quote in A2 is verbatim and sits next to its id
+
+
+def test_a_baseline_line_may_carry_its_date_anywhere_on_the_line_but_must_carry_one(tmp_path):
+    ok = GOOD + "\n## Baseline\n### Convict baseline 1\nB01 ANSWER: Sales were 43,360 and profit was 8,472 and the filed record of this is long enough to push the date well past the usual window, quarter ended 2026-06-30. | MOVE: cite | EVIDENCE: x | STATE I CLAIM: answered | WHAT WOULD SETTLE IT: nothing\n"
+    bad = ok.replace(", quarter ended 2026-06-30", "")
+    assert "number-date" not in guards(run(tmp_path, ok, EXTERNAL))
+    assert "number-date" in guards(run(tmp_path, bad, EXTERNAL))
