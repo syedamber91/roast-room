@@ -12,3 +12,6 @@ sessions/*
 
 # grill-me captures are the owner's unfiltered thinking; commit one only deliberately with git add -f
 brainstorms/
+
+__pycache__/
+*.pyc
