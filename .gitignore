@@ -9,3 +9,6 @@ build/
 sessions/*
 !sessions/.gitkeep
 !sessions/*example*/
+
+# grill-me captures are the owner's unfiltered thinking; commit one only deliberately with git add -f
+brainstorms/
