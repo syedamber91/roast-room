@@ -96,3 +96,67 @@ ASK NEXT
 1. Why did promoter shares rise 57,119, and why did total shares rise 8,472,668, between 31-MAR-2026 and 29-JUN-2026? Was either an allotment, a transfer or a gift, and which filing says so?
 2. Why did total shares rise from 1,508,233,221 to 1,621,073,650 (+112,840,429) at the 14-JAN-2026 filing, and who got the shares?
 
+
+=== I6 judge note ===
+JUDGE NOTE ON I6 Debt, maturities and covenants
+
+STORY SO FAR
+1. Gross borrowings fell 16.5% to 148,247 million, yet 44.2% fall due within a year, up from 30.1% (derived). (case book ch5; hearing A1)
+2. The report says every covenant was met all year but prints no threshold or actual ratio, so headroom cannot be checked. (case book ch5; hearing A1)
+3. Management gave a rule (free cash repays debt first) and a dollar net debt fall, but no target, ceiling or date. (hearing A2, A3; S013 held 2026-05-08)
+
+WHY-CHAIN
+1. Claim: covenant compliance is on the record only as words. Because the notes say the group (six ratios) and the company (three) complied all year and see no difficulty at the 2026-09-30 test, but print no threshold or value. So headroom is unknown. Evidence: case book ch5 (S038 PDF pp 309-310, 377-378); hearing A1.
+2. Claim: a rough leverage figure exists but it is not the covenant one. Because net debt 124,082 (borrowings 148,247 minus balance sheet cash 24,165, at 2026-03-31) over four summed filed operating profits 34,381 (7,489+8,354+8,335+10,203) is about 3.6 turns, derived by me. Covenant EBITDA and net debt are defined in the agreements, so 3.6 cannot be tested against anything. Evidence: case book ch3.
+3. Claim: the 29,308 fall in gross borrowings (177,555 to 148,247, derived) is mostly not explained by free cash. Because free cash on the convict's basis was 1,961 (19,940 minus 17,979) and cash fell 8,106 (32,271 to 24,165), together 10,067. The other 19,241 (29,308 minus 10,067) is not in the record. Evidence: case book ch3; hearing A2 (S013, held 2026-05-08).
+4. Claim: the INR300 crore (3,000 million) interest saving from FY27 is not yet shown. Because finance costs rose 929 to 9,903 in FY26, and the June 2026 quarter was 2,132 against 2,767 a year earlier. Four times 2,132 is 8,528, a 1,375 drop from FY26, under half of 3,000 (derived, crude, one quarter). Evidence: S011 held 2025-11-12 (management's own figure, not filed); case book ch3.
+5. Claim: the 44.2% due within a year depends on which table is used. Because the maturity table says 65,476 and the balance sheet says current borrowings are 40,784, a gap of 24,692 (27.5% on the balance sheet, derived). In FY25 they agreed within 3 (53,498 against 53,501). Cause not in the record. Evidence: case book ch3, ch5; hearing A1, A2, A3.
+
+I DID NOT UNDERSTAND
+1. Why 24,692 sits under one year in the maturity table but not in current borrowings at 2026-03-31 (non-current 107,463 against 13,003+69,767=82,770). Not in the record.
+2. What "structured instruments" inside management's $1.1 billion net debt are, and how that ties to filed rupee borrowings (S013, held 2026-05-08).
+3. How the six covenant ratios are defined (adjusted EBITDA, cash flow cover, gearing). The definitions are in the facility agreements, not in the record.
+4. Whether the 2026-09-30 covenant test passed. The date is past, but nothing later than 2026-03-31 is in the record.
+5. Why finance costs rose 929 while gross borrowings fell 29,308: which debt was repaid, at what rate, and when.
+6. The "381" in A1's source reference (S026, pages 346 and 381) has no date beside it. I read it as a page number, not an amount, so no claim rests on it. Quotes with ids in A1 to A3 are verified by code against the convict's brain. My 3.6, 10,067, 19,241 and 1,375 are my own derived figures with inputs shown.
+
+STATE PROPOSED
+Q4.3 partial: filed words only (complied all year, no difficulty expected at the 2026-09-30 test, S038 pp 377-378). The headroom in turns asked for is no data: no threshold, no actual ratio. Move: not in my record, mitigate.
+Q4.1 partial: no target or date, as the convict says. Different basis with numbers and dates: dollar net debt $1.5 billion to $1.1 billion (S013, 2026-05-08), a 300 crore saving (S011, 2025-11-12), and filed gross borrowings (S026). Move: mitigate, with concessions.
+Q4.2 partial: no ceiling in turns and no 2026-09-30 ratio. Different basis: dollar net debt, a debt-first rule, and filed maturity and cash figures at 2026-03-31. The direction quote (S014, 2026-08-06) has no number. Move: mitigate, with a concession; not a deflection.
+
+ASK NEXT
+1. Why does the maturity table show 65,476 due within a year when the balance sheet shows 40,784 of current borrowings? Which loans make up the 24,692, and does any covenant or repay-on-demand term cause it?
+2. Which loans were repaid to cut gross borrowings by 29,308, with what money (free cash was only 1,961), and at what interest rate? Why did finance costs still rise 929 in FY26?
+
+
+=== I3 judge note ===
+STORY SO FAR
+1. No group margin or FY27 revenue number was stated; management declined specifics on calls dated 2025-08-08 to 2026-08-06. (hearing I3 A1, A2)
+2. Numeric anchors are segment ones: Generics EBITDA margin 13% to 14% in 1 or 2 years (2025-01-31), Biosimilars "mid-20s". (hearing I3 A1, A3)
+3. Q1 FY27 Generics margin 7% is on a new basis, so it cannot be set against the 8% for Q4 FY26. (hearing I3 A3)
+
+WHY-CHAIN
+1. Group margin has no guide to test against, because the convict cites declines dated 2025-08-08, 2026-02-13 and 2026-08-06 (S010, S012, S014, verified by code) and no group figure. Filed margin was 19.5% (8,472 / 43,360) against 19.0% (7,489 / 39,419), up 0.5 points (case book ch3). The joined id "S025 / numbers.md" is invalid, so I use the case book.
+2. Revenue has no FY27 growth guide, only direction, because the Q4 FY26 call (2026-05-08) says "not guided specifically on any numbers" and points to a second-half launch ramp (S013, EVIDENCE line verified by code). FY26 revenue grew 10.9% (169,270 / 152,617, derived). Q1 FY27 grew 10.0% (43,360 / 39,419, case book ch3). Neither is a guide.
+3. Generics has the only clearly dated numeric target, and Q1 FY27 sits below it, because management said "closer to 13%, 14% in 1 or 2 years" on 2025-01-31 (S008, verified by code). Q1 FY27 shows 7% (S014, 2026-08-06, management's own figure, not filed). Gap is 6 to 7 points (13 or 14 minus 7), at month 18 of a 12 to 24 month window. The basis may differ.
+4. The 7% cannot be checked against the 8%, because the case book says the Q1 FY27 deck (S025) moved a utilities cross charge out of Generics (ch3 Segments). S014 says 7% is "more than 250 basis points" above Q4 FY26, so restated Q4 is under 4.5% (7 minus 2.5, derived), while S013 gave 8% (verified by code). The restated series is not in the record.
+5. "Kept in direction" and "still open" are the convict's own scoring, because they come from record.md and qa-states.md, which are not in the case book. A1 and A2 also say the call text was not read line by line. I can check quotes (verified by code) and filed numbers, not those scores. "No figure" holds for what was searched, not the whole call.
+
+I DID NOT UNDERSTAND
+1. How "10% to 12%" and "closer to 13%, 14% in 1 or 2 years", both said 2025-01-31 (S008), fit together: one target or two.
+2. Why moving a cross charge would take restated Q4 FY26 Generics from 8% to under 4.5% (derived from S013, S014).
+3. Which EBITDA the 13% to 14% is on: the case book says a company's EBITDA may not match filed operating profit, and A1 says the basis was not checked.
+4. When Biosimilars "mid-20s" was first said: S014 (2026-08-06) says "always", and no earlier date is given.
+5. What "that" refers to in "not guided anything beyond that" (S014): the sentence before it is not shown.
+6. How the D12 scorecard marked items "kept" or "still open"; its contents are not in the case book.
+
+STATE PROPOSED
+Q1.1 partial: no group margin figure. The convict gave segment numbers with dates on a different basis (Biosimilars "mid-20s", said 2026-08-06, after quarter end; Generics 10% to 12% and 13% to 14%, 2025-01-31); move was mitigate. For S1 this points to 2 (no-guidance wording plus dated segment targets), not 1.
+Q1.2 partial: words only (no numbers guided, launch ramp in second half, S013, 2026-05-08). The 10.9% is a derived base, not a guide. The convict also did not read the whole call.
+Q1.3 partial: no figure or filing date for the quarter ended 2026-09-30, but a dated Generics target with numbers (13% to 14%, 2025-01-31, window to about 2027-02) on a different basis (a 1 to 2 year direction, not a quarterly test). The convict's "not in my record" is stricter than the rule gives.
+
+ASK NEXT
+1. Why would moving the cross charge cut Q4 FY26 Generics from 8% to under 4.5%, and what are Q4 FY26 and Q1 FY26 Generics margins on the new basis, so 13% to 14% can be tested on one basis?
+2. Why was Generics at 5% for FY26 (deck, record.md) when you guided 10% to 12% on 2025-01-31, and are 10% to 12% and 13% to 14% one target or two?
+
