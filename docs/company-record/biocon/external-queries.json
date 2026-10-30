@@ -1,0 +1,27 @@
+[
+ {
+  "id": "B18",
+  "question": "Which macro conditions are pressing on the business now (demand, interest rates, growth)?",
+  "query": "India pharma demand interest rates October 2026"
+ },
+ {
+  "id": "B19",
+  "question": "Are raw material and input prices rising, and what does that do to margins?",
+  "query": "API raw material prices India pharma margins"
+ },
+ {
+  "id": "B20",
+  "question": "How exposed is the business to currency moves, and how is it hedged?",
+  "query": "rupee dollar Indian pharma exporters"
+ },
+ {
+  "id": "B21",
+  "question": "Which regulation, tariff or policy changes apply now?",
+  "query": "US pharma tariffs biosimilars FDA interchangeability"
+ },
+ {
+  "id": "B22",
+  "question": "Is competition or price pressure rising in the key products?",
+  "query": "Biocon biosimilar competition price pressure"
+ }
+]
