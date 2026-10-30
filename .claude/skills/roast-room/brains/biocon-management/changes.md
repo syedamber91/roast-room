@@ -62,3 +62,13 @@ Ten filings. These are the company's own filings, listed by their filing date an
 
 - The 39 scored statements were re-read against these ten filings by two blind readers (2026-10-25). They agreed on all 39. Two filings-related statements about the Malaysia insulin fill-finish line (capacity online; supply starting) are only context: the 2026-09-25 filing dates approvals (EU in July, UK on 25 September), not capacity online or supply. No outcome changed: Kept 14, Missed 5, Still open 9, Depends on reading 11.
 - The next refresh is after the September 2026 quarter results and call, expected about mid November 2026 (date unchecked).
+
+## Shareholding pattern added (2026-10-30)
+
+New source S032: the 25 shareholding-pattern filings Biocon made on NSE for the periods 2021-09-30 to 2026-09-30, in shareholding.md (made by build_shareholding_file.py from the filings' XBRL; the list and each file's sha256 are in soic-ladder docs/idea/case-study/BIOCON/record/). It is filed numbers, not management speech, so no quote is taken from it. It holds promoter shares, promoter and public percentage, the employee trust's percentage, and the company's own pledge, non-disposal and other-encumbrance flags.
+
+What it shows: the promoter's share count stayed within 57,119 shares of 728,024,176 across five years while the promoter's percentage fell from 60.64 to 44.68. The implied total shares (derived by dividing) rose from 1,200,567,573 to 1,629,546,318, up 35.7%, so the fall came from a larger total, not from promoter sales; the filings do not state the reason. Every filing carries the pledge flag "false". The latest filing is for 2026-09-30 (filed 2026-10-21), which is later than the seat's other as-of dates (calls to 2026-08-06, quarters to 2026-06-30).
+
+A first build showed implied totals 100 times too small for the older filings because their XBRL prints a percent where the newer ones print a fraction; the reader now normalises that and a test pins it.
+
+Data pack: new line D05a reads the last 8 filings; D05 no longer carries the "pledge not in the record" note. Still not done: the annual promoter declarations for FY2022 to FY2025 (image-only PDFs), related party filings after 2023-11, and quarterly segment profit.
