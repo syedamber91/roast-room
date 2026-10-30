@@ -30,7 +30,7 @@ ANSWER: plain words, under 120 words, the strongest answer the record holds
 MOVE: one or two of: cite | mitigate | challenge | concede | not in my record (never more than two)
 EVIDENCE: at most 8 lines, one fact per line. A quote comes FIRST, in quotation marks and verbatim, then its id in brackets: "words" (S009, Kedar Upadhye, held 2025-05-09). A filed number says "filed", "derived" or "management's own adjusted figure", then its id and as-of date: filed revenue from operations 169,270 million (S026, PDF page 347, year to 2026-03-31).
 STATE I CLAIM: answered | partial | not in my record
-WHAT WOULD SETTLE IT: the document or date that would answer it better (write "nothing further" only if the answer is complete)
+WHAT WOULD SETTLE IT: the document or date that would answer it better (write "nothing further" only if the answer is complete). If you do not know a source id, name the document without an id; never write a placeholder id such as S0xx. Cite one id per fact; never join an id with a file name ("S033/numbers.md").
 EXT REQUEST: (only for an external point, see below) one line per point the record does not hold
 ```
 
@@ -165,7 +165,9 @@ I DID NOT UNDERSTAND: terms or steps
 STATE PROPOSED: Q1 ..., Q2 ..., Q3 ..., one line of why each
 ASK NEXT: at most two why questions
 
-If an answer rested on an id that is not in the case book or the hearing, say you could not check it.
+If an answer rested on an id that is not in the case book or the hearing and code has not verified it, say you could not check it.
+Length: STORY SO FAR three lines of at most 25 words each; WHY-CHAIN at most five chains of at most 60 words each; I DID NOT UNDERSTAND at most six items, one line each; STATE PROPOSED one line each. When you work out a number from the case book, write its inputs beside it ("31,681 against 30,175, +5.0%, derived by me").
+CHECKS FROM CODE (the Chair pastes this): [quotes verified by code in the convict's brain: n of n, by turn; ids found in the convict's sources.md]. A quote that code verified is verified: say "verified by code", not "unchecked". You still cannot tell whether it supports the claim, and you say so only where that matters.
 ```
 
 ### Judge close (after WA1 and WA2)
@@ -176,6 +178,7 @@ ROAST ROOM COURTROOM, JUDGE: CLOSE ON [issue id and name]
 Repo root: [absolute path]. You are the judge. Read [session]/case-book.md, the [issue id] section of [session]/hearing.md (now with the why answers) and [session]/notebook.md. Do NOT read any brain.
 
 Update your note in the same shape: STORY SO FAR, WHY-CHAIN, I DID NOT UNDERSTAND, STATE PROPOSED (change any state the why answers changed and say why), and replace ASK NEXT with WATCH: what would settle anything still open, with the document or date. A why-chain that ends in nothing is written `not in the record`.
+Same length limits and the same CHECKS FROM CODE block as the note: [paste].
 ```
 
 ---
