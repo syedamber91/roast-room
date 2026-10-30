@@ -27,8 +27,8 @@ Rules the guards check later: one answer per heading, no edits to an earlier tur
 
 ```
 ANSWER: plain words, under 120 words, the strongest answer the record holds
-MOVE: cite | mitigate | challenge | concede | not in my record   (one or two)
-EVIDENCE: every id the answer rests on, each with its as-of date; a quote is verbatim in quotation marks with speaker and held date; a filed number says "filed", "derived" or "management's own adjusted figure"
+MOVE: one or two of: cite | mitigate | challenge | concede | not in my record (never more than two)
+EVIDENCE: at most 8 lines, one fact per line. A quote comes FIRST, in quotation marks and verbatim, then its id in brackets: "words" (S009, Kedar Upadhye, held 2025-05-09). A filed number says "filed", "derived" or "management's own adjusted figure", then its id and as-of date: filed revenue from operations 169,270 million (S026, PDF page 347, year to 2026-03-31).
 STATE I CLAIM: answered | partial | not in my record
 WHAT WOULD SETTLE IT: the document or date that would answer it better (write "nothing further" only if the answer is complete)
 EXT REQUEST: (only for an external point, see below) one line per point the record does not hold
@@ -138,7 +138,7 @@ QUESTION: one question, ending in the number and the date you want
 WHY I ASK: the Analyst question id, one line
 IF DEFLECTED: the follow-up you will use
 
-Rules: one question. Every number of three or more digits must appear in the case book or in an earlier answer of this issue. Never assert a company fact that is not in the case book or an earlier answer. No score, no verdict, no words about buying or selling.
+Rules: ONE question means one sentence that asks for one thing: one number and one date. Do not join two guides, two periods or two measures in one question; if you need a second, ask it in the next turn. Ask about the period and measure the case book shows a number for (a year or a quarter as filed), not one you have to guess. IF DEFLECTED holds one follow-up, in one sentence. Every number of three or more digits must appear in the case book or in an earlier answer of this issue. Never assert a company fact that is not in the case book or an earlier answer. No score, no verdict, no words about buying or selling.
 ```
 
 ### Convict answer (A1, A2, A3, WA1, WA2)
@@ -148,7 +148,7 @@ ROAST ROOM COURTROOM, DEFENCE: [issue id and name], [turn id]
 
 Repo root: [absolute path]. You are the convict. Read your brain's _hot.md, then at most three more files this call: [convict_files for the issue]. Read the [issue id] section of [session]/hearing.md for the question. For an external point you may also read [session]/external.md (ids E001 and up; external points only).
 
-Answer the question in exactly the convict's answer shape from references/hearing-prompts.md (ANSWER, MOVE, EVIDENCE, STATE I CLAIM, WHAT WOULD SETTLE IT, and EXT REQUEST if needed). Defend as hard as the record allows: bring the mitigating record unasked, challenge a premise the filed numbers contradict, concede a miss the record shows, and say "not in my record" when it is not. Never invent. Quote only verbatim, with speaker, id and held date; a filed number is "filed", "derived" or "management's own adjusted figure" and is never in quotation marks. Never quote a table or a hand-read file. Speak as the seat, not as the company or any executive. Nothing about buying, selling or valuing shares.
+Answer the question in exactly the convict's answer shape from references/hearing-prompts.md (ANSWER, MOVE, EVIDENCE, STATE I CLAIM, WHAT WOULD SETTLE IT, and EXT REQUEST if needed). Defend as hard as the record allows: bring the mitigating record unasked, challenge a premise the filed numbers contradict, concede a miss the record shows, and say "not in my record" when it is not. Never invent. Quote only verbatim, quote first and id after: "words" (S009, Kedar Upadhye, held 2025-05-09); a filed number is "filed", "derived" or "management's own adjusted figure" and is never in quotation marks. Use at most two moves and at most 8 evidence lines. Never quote a table or a hand-read file. Speak as the seat, not as the company or any executive. Nothing about buying, selling or valuing shares.
 ```
 
 ### Judge note (after A3)
