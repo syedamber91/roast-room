@@ -1,0 +1,41 @@
+# Shared glossary
+
+Plain words for a reader with no background in markets. Written once and reused for every company. A line is `- Term: meaning.` A meaning is one or two short sentences, with no company figures in it. Company-only terms go in the company's own chapter 7, each with an annual report page id.
+
+- Revenue from operations: the money a company earned from selling its products and services, before any cost is taken off.
+- Operating profit: what is left of sales after the costs of running the business, before interest, tax and wear on equipment.
+- Operating margin: operating profit divided by sales, shown as a percentage. It says how many rupees of each hundred are left after running costs.
+- EBITDA: a company's own way of writing operating profit. Companies can define it differently, so it may not match the filed figure.
+- Finance costs: the interest a company pays on money it borrowed.
+- Profit for the period: what is left after every cost, interest and tax. It includes the share that belongs to other owners of subsidiaries.
+- Profit to shareholders: the part of profit that belongs to the owners of the listed company itself.
+- Consolidated: the whole group added together, the company and the companies it controls.
+- Standalone: the parent company on its own, without its subsidiaries.
+- Quarter: three months. A year-ago quarter is the same three months one year earlier, so the two can be compared fairly.
+- Fiscal year: the company's accounting year. In India it runs from April to March and is named by the year it ends in.
+- Filed: given to the stock exchange as an official document. A filed number is on the record.
+- Derived: worked out by code from filed numbers. It is not printed in any filing.
+- Guidance: a number or range a company says it expects to reach. Many companies give none.
+- Like-to-like: a growth figure the company adjusts so two periods look comparable. The adjustment is the company's own choice and is not a filed number.
+- One-off item: a gain or cost that is not expected to repeat. It can make profit look better or worse than normal.
+- Segment: one of the main businesses inside a company, reported with its own numbers.
+- Working capital: the money tied up in running the business day to day, such as stock and unpaid bills from customers.
+- Capital work in progress: the cost of things still being built, such as a new factory, that are not yet in use.
+- Capex: money spent on buying or building lasting assets such as plants and equipment.
+- Borrowings: money the company owes to lenders.
+- Maturity: the date a loan has to be paid back. A maturity table shows how much falls due in each period.
+- Covenant: a promise made to a lender, for example to keep debt below a limit. Breaking it can let the lender ask for money back early.
+- Undrawn line: a loan facility the bank has agreed to but the company has not yet used.
+- Promoter: the person or family who founded the company and controls it.
+- Pledge: shares put up as security for a loan. If the loan is not repaid, the lender can take the shares.
+- Dilution: the promoter's percentage falling because more shares were created, not because the promoter sold.
+- Preferential issue: new shares sold to chosen buyers at an agreed price instead of to the public.
+- Qualified institutional placement: new shares sold to large institutions such as funds and insurers.
+- Related party: a person or company closely linked to the company, such as an owner or a company they also control.
+- Related party transaction: a deal between the company and a related party. Shareholders may need to vote on large ones.
+- Independent director: a board member who is not part of the company's management or owner group and is meant to speak for all shareholders.
+- Statutory auditor: the outside accounting firm that checks the company's accounts and signs a report on them.
+- Unmodified opinion: the auditor's report says the accounts give a true and fair view, with no reservation.
+- Key audit matter: an area the auditor found most important or difficult in the audit and describes in its report.
+- Gate: a serious red flag in this court's rule, such as a regulator finding. A standing gate overrides the score.
+- Not in the record: the filings and sources read for this case do not say it. It is a gap, not a finding.

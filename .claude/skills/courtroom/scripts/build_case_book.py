@@ -24,6 +24,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 ROOM_SCRIPTS = HERE.parents[1] / "roast-room" / "scripts"          # .claude/skills/roast-room/scripts
 ISSUES_FILE = HERE.parent / "references" / "issues.json"
+GLOSSARY_FILE = HERE.parent / "references" / "glossary.md"
 
 
 def _load_sibling(name):
@@ -213,7 +214,22 @@ def check_facts_only(text: str) -> list:
     return [line.strip()[:200] for line in text.splitlines() if MANAGEMENT_RE.search(line)]
 
 
-def build(company: str, spec_path: Path, events_path: Path, run: date, ar_config: Path | None = None) -> tuple:
+def drafted_chapters(chapters_file: Path | None, ar_config: Path | None, brain_name: str) -> tuple:
+    """(chapter 1 text, chapter 2 text, company terms, problems). Drafted lines are used only when check_chapters passes them all."""
+    if not chapters_file or not chapters_file.exists() or not ar_config or not ar_config.exists():
+        return None, None, [], []
+    check_chapters = _load_sibling("check_chapters")
+    cfg = json.loads(ar_config.read_text(encoding="utf-8"))
+    text = chapters_file.read_text(encoding="utf-8")
+    found = check_chapters.check(text, governance_facts.DEFAULT_LADDER / cfg["annual_report_dir"], cfg["business_pages"], HERE.parents[1] / "roast-room" / "brains" / brain_name)
+    fails = ["ch%d %s: %s" % (n, head, msg) for sev, n, head, msg in found if sev == "FAIL"]
+    if fails:
+        return None, None, [], fails
+    parsed = check_chapters.parse(text)
+    return parsed[1], parsed[2], parsed[7], []
+
+
+def build(company: str, spec_path: Path, events_path: Path, run: date, ar_config: Path | None = None, chapters_file: Path | None = None) -> tuple:
     bdp = load_pack_module()
     DROPPED.clear()
     spec = json.loads(spec_path.read_text(encoding="utf-8"))
@@ -232,20 +248,26 @@ def build(company: str, spec_path: Path, events_path: Path, run: date, ar_config
     chapters = [f"# Case book: {company}", "",
                 f"Facts only, from filings and the exchange feed, built {run.isoformat()}. It holds no management claim and no management quote; those come out only in the hearing. "
                 "Money is in Rs million as filed unless a line says otherwise. A derived figure is worked out by code and says so. This is a simulation aid, not advice.", ""]
-    for n in (1, 2):
-        chapters += [f"## {n}. {PLACEHOLDERS[n][0]}", "", PLACEHOLDERS[n][1], ""]
+    ch1, ch2, company_terms, chapter_problems = drafted_chapters(chapters_file, ar_config, spec["brain"])
+    for n, drafted in ((1, ch1), (2, ch2)):
+        chapters += [f"## {n}. {PLACEHOLDERS[n][0]}", ""] + ([f"- {d}" for d in drafted] if drafted else [PLACEHOLDERS[n][1]]) + [""]
+    glossary = GLOSSARY_FILE.read_text(encoding="utf-8").split("\n\n", 2)[-1].strip() if GLOSSARY_FILE.exists() else ""
+    glossary_text = ("\n".join(["## 7. Glossary", "", "### Plain-words terms used in every case", "", glossary, ""] +
+                               (["### Terms for this company, from its annual report", ""] + [f"- {l}" for l in company_terms] + [""] if company_terms else [])) if glossary else f"## 7. {PLACEHOLDERS[7][0]}\n\n{PLACEHOLDERS[7][1]}\n")
     governance = ""
     if ar_config and ar_config.exists():
         cfg = json.loads(ar_config.read_text(encoding="utf-8"))
         governance = governance_facts.governance_block(governance_facts.DEFAULT_LADDER / cfg["annual_report_dir"], cfg["governance_pages"])
     chapter_numbers_text, chapter_ownership_text, chapter_funding_text = chapter_numbers(bdp, brain), chapter_ownership(bdp, brain, governance), chapter_funding(bdp, brain)
     chapters += [chapter_numbers_text, chapter_ownership_text, chapter_funding_text, timeline,
-                 f"## 7. {PLACEHOLDERS[7][0]}", "", PLACEHOLDERS[7][1], "",
+                 glossary_text,
                  chapter_record_status(lines, gate, issues, gaps, run, newest)]
     text = "\n".join(chapters)
     facts_text = "\n".join([chapter_numbers_text, chapter_ownership_text, chapter_funding_text, timeline])
     case = {"company": company, "run_date": run.isoformat(), "gate": gate, "convict_brain": spec["brain"], "lawyer_brain": LAWYER_BRAIN, "issues": issues, "baseline": config["baseline"], "not_in_record": gaps,
-            "chapters": {str(n): {"title": PLACEHOLDERS[n][0], "drafted": False} for n in PLACEHOLDERS} | {str(n): {"drafted": True} for n in (3, 4, 5, 6, 8)},
+            "chapters": {str(n): {"title": PLACEHOLDERS[n][0], "drafted": False} for n in PLACEHOLDERS} | {str(n): {"drafted": True} for n in (3, 4, 5, 6, 8)}
+            | {"1": {"title": PLACEHOLDERS[1][0], "drafted": bool(ch1)}, "2": {"title": PLACEHOLDERS[2][0], "drafted": bool(ch2)}, "7": {"title": PLACEHOLDERS[7][0], "drafted": bool(glossary)}},
+            "chapter_problems": chapter_problems,
             "facts_only_problems": check_facts_only(facts_text), "dropped_management_lines": list(DROPPED), "announcements_to": newest}
     return text, case
 
@@ -258,15 +280,19 @@ def main() -> int:
     ap.add_argument("--run-date", required=True)
     ap.add_argument("--out", required=True, type=Path)
     ap.add_argument("--ar-pages", type=Path, help="annual report page list (default: ar-pages.json next to the spec)")
+    ap.add_argument("--chapters", type=Path, help="drafted chapters 1, 2 and 7 (default: chapters-1-2-7.md next to the spec)")
     args = ap.parse_args()
     ar_config = args.ar_pages or args.spec.parent / "ar-pages.json"
-    text, case = build(args.company, args.spec, args.events, date.fromisoformat(args.run_date), ar_config)
+    text, case = build(args.company, args.spec, args.events, date.fromisoformat(args.run_date), ar_config, args.chapters or args.spec.parent / "chapters-1-2-7.md")
     args.out.mkdir(parents=True, exist_ok=True)
     (args.out / "case-book.md").write_text(text, encoding="utf-8")
     (args.out / "case.json").write_text(json.dumps(case, indent=1), encoding="utf-8")
     print(f"{case['gate']}")
     for i in case["issues"]:
         print(f"  {i['id']} {i['state']:<11} {i['name']}")
+    if case["chapter_problems"]:
+        print("DRAFTED CHAPTERS REFUSED (placeholders kept):", *case["chapter_problems"], sep="\n  ", file=sys.stderr)
+        return 1
     if case["facts_only_problems"]:
         print("FACTS-ONLY PROBLEM: the case book contains", case["facts_only_problems"], file=sys.stderr)
         return 1
