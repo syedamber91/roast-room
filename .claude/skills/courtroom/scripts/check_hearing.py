@@ -122,7 +122,7 @@ def guard_turn_shape(turn) -> list:
         for need in ("ANSWER", "MOVE", "EVIDENCE", "STATE I CLAIM", "WHAT WOULD SETTLE IT"):
             if need not in f:
                 out.append(Problem(tid, "turn-shape", f"missing {need}"))
-        moves = [m.strip() for m in re.split(r"[;,]", re.sub(r"\(.*?\)", "", f.get("MOVE", ""))) if m.strip()]
+        moves = [m.strip() for m in re.split(r"[;,|]", re.sub(r"\(.*?\)", "", f.get("MOVE", ""))) if m.strip()]
         if len(moves) > 2 or any(m not in MOVES for m in moves):
             out.append(Problem(tid, "turn-shape", f"MOVE must be one or two of {sorted(MOVES)}, found {moves}"))
         state = re.split(r"[.:(]", f.get("STATE I CLAIM", ""))[0].strip().lower()

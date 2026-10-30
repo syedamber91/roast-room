@@ -124,3 +124,10 @@ def test_a_baseline_line_may_carry_its_date_anywhere_on_the_line_but_must_carry_
     bad = ok.replace(", quarter ended 2026-06-30", "")
     assert "number-date" not in guards(run(tmp_path, ok, EXTERNAL))
     assert "number-date" in guards(run(tmp_path, bad, EXTERNAL))
+
+
+def test_a_move_line_may_use_a_pipe_between_two_moves_but_not_three(tmp_path):
+    two = GOOD.replace("MOVE: cite", "MOVE: cite | mitigate")
+    three = GOOD.replace("MOVE: cite", "MOVE: cite | mitigate | concede")
+    assert "turn-shape" not in guards(run(tmp_path, two, EXTERNAL))
+    assert "turn-shape" in guards(run(tmp_path, three, EXTERNAL))
