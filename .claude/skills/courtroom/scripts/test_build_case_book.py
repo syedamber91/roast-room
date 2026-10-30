@@ -15,8 +15,11 @@ EVENTS = ROOT / "docs" / "company-record" / "biocon" / "announcements-2022-2026-
 QUESTIONS = ROOT / ".claude" / "skills" / "roast-room" / "brains" / "india-market-analyst" / "questions.md"
 
 
+AR_PAGES = ROOT / "docs" / "company-record" / "biocon" / "ar-pages.json"
+
+
 def real_build():
-    return bcb.build("BIOCON", SPEC, EVENTS, date(2026, 10, 30))
+    return bcb.build("BIOCON", SPEC, EVENTS, date(2026, 10, 30), AR_PAGES)
 
 
 def line(state="ok", partial=None, required=True, gap=""):
@@ -85,3 +88,46 @@ def test_every_convict_file_hint_exists_in_the_biocon_brain_and_respects_the_thr
         assert 1 <= len(files) <= 3 and all((brain / f).exists() for f in files), files
     blocks = {b["block"] for b in config["baseline"]}
     assert blocks == {name for group in config["baseline_blocks"] for name in group["baseline_blocks"]}   # every baseline question is in a block that a convict call covers
+
+
+# ---- board, executives and auditors (annual report pages)
+
+gov = bcb.governance_facts
+
+
+def ar_dir():
+    cfg = json.loads(AR_PAGES.read_text(encoding="utf-8"))
+    return gov.DEFAULT_LADDER / cfg["annual_report_dir"], cfg["governance_pages"]
+
+
+def test_sentences_do_not_split_inside_an_auditor_firm_name():
+    s = gov.sentences("Subsequently, B S R & Co. LLP were re-appointed. In this regard, the Board recommended S. R. Batliboi & Associates LLP for a term of 5 years. Next sentence here.")
+    assert len(s) == 3 and s[0].startswith("Subsequently, B S R & Co. LLP") and "S. R. Batliboi" in s[1]
+
+
+def test_attendance_and_key_audit_matter_readers_on_a_small_fixture():
+    page = "12 (twelve) Board Meetings were held\n|A Person|12|10|83.33|Yes|\n|B Person|12|12|100.00|Yes|\n"
+    held, rows = gov.attendance(page)
+    assert held == 12 and rows[0] == ("A Person", 12, 10, 83.33)
+    kam = "|**Revenue**||\n|---|---|\n|**See Note 2 to the statements**||\n|**Taxation**<br>**i**||\n"
+    assert gov.kam_titles(kam) == ["Revenue", "Taxation"]
+
+
+def test_a_missing_page_folder_says_not_in_the_record_instead_of_guessing():
+    out = gov.governance_block(Path("/nonexistent"), {})
+    assert "Not in the record" in out
+
+
+def test_the_real_biocon_governance_block_carries_page_ids_and_the_facts_the_hearing_needs():
+    d, pages = ar_dir()
+    if not d.exists():
+        return   # the annual report pages live in the soic-ladder checkout; a clone without it gets the not-in-the-record line above
+    text, case = real_build()
+    block = text.split("### Board, executives and auditors")[1].split("## 5.")[0]
+    assert "Meetings held in the year: 12 (AR p253)" in block
+    assert "Lowest attendance: Nicholas Robert Haggar, 10 of 12 meetings, 83.33%" in block
+    assert "B S R & Co. LLP" in block and "S. R. Batliboi" in block and "unmodified" in block
+    assert "Consolidated report: Revenue" in block and "do not appear" in block
+    assert "Stepped down" in block and "Kedar Narayan Upadhye" in block
+    assert case["facts_only_problems"] == []
+    assert all("(AR p" in l for l in block.splitlines() if l.startswith("- ") and "What this block" not in l)

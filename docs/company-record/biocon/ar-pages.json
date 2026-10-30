@@ -1,0 +1,14 @@
+{
+  "report": "Integrated Annual Report for the year ended 2026-03-31",
+  "annual_report_dir": "docs/idea/case-study/BIOCON/annual-report/FY26",
+  "page_note": "pNNN is the PDF page number; the text of each page is pNNN.md in that folder",
+  "business_pages": [6, 13, 14, 15, 16, 17, 51],
+  "governance_pages": {
+    "corporate_info": 188,
+    "auditors": 201,
+    "board_meetings": 253,
+    "kam_consolidated": [338, 339, 340, 341],
+    "kam_standalone": [272, 273],
+    "opinion_consolidated": 338
+  }
+}

@@ -24,6 +24,16 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 ROOM_SCRIPTS = HERE.parents[1] / "roast-room" / "scripts"          # .claude/skills/roast-room/scripts
 ISSUES_FILE = HERE.parent / "references" / "issues.json"
+
+
+def _load_sibling(name):
+    spec = importlib.util.spec_from_file_location(name, HERE / (name + ".py"))
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+governance_facts = _load_sibling("governance_facts")
 LAWYER_BRAIN = "india-market-analyst"                                 # the Analyst seat is the default lawyer (docs/courtroom-design.md section 2)
 
 # exchange announcement categories that make a useful timeline (the others are routine filings)
@@ -127,7 +137,7 @@ def chapter_numbers(bdp, brain: Path) -> str:
     return "\n".join(parts)
 
 
-def chapter_ownership(bdp, brain: Path) -> str:
+def chapter_ownership(bdp, brain: Path, governance: str = "") -> str:
     share = (brain / "shareholding.md").read_text(encoding="utf-8")
     decl = (brain / "promoter-declarations.md").read_text(encoding="utf-8")
     header, rows = bdp.parse_table(bdp.read_section(share, "## Filed patterns"))
@@ -135,7 +145,7 @@ def chapter_ownership(bdp, brain: Path) -> str:
              "### Promoter and public shareholding, every filing", "", md_table(header, rows), "",
              strip_management_lines(bdp.read_section(share, "## Derived by code"), "4"), "",
              "### The promoter group's annual declaration about encumbrance", "", strip_management_lines(bdp.read_section(decl, "## Annual declarations under Regulation 31(4)"), "4"), "",
-             "Board and auditor facts are not yet in the case book (to be added from the annual report in a later step).", ""]
+             governance or "Board and auditor facts are not in this case book: no annual report page list was given to the build.", ""]
     return "\n".join(parts)
 
 
@@ -203,7 +213,7 @@ def check_facts_only(text: str) -> list:
     return [line.strip()[:200] for line in text.splitlines() if MANAGEMENT_RE.search(line)]
 
 
-def build(company: str, spec_path: Path, events_path: Path, run: date) -> tuple:
+def build(company: str, spec_path: Path, events_path: Path, run: date, ar_config: Path | None = None) -> tuple:
     bdp = load_pack_module()
     DROPPED.clear()
     spec = json.loads(spec_path.read_text(encoding="utf-8"))
@@ -224,7 +234,11 @@ def build(company: str, spec_path: Path, events_path: Path, run: date) -> tuple:
                 "Money is in Rs million as filed unless a line says otherwise. A derived figure is worked out by code and says so. This is a simulation aid, not advice.", ""]
     for n in (1, 2):
         chapters += [f"## {n}. {PLACEHOLDERS[n][0]}", "", PLACEHOLDERS[n][1], ""]
-    chapter_numbers_text, chapter_ownership_text, chapter_funding_text = chapter_numbers(bdp, brain), chapter_ownership(bdp, brain), chapter_funding(bdp, brain)
+    governance = ""
+    if ar_config and ar_config.exists():
+        cfg = json.loads(ar_config.read_text(encoding="utf-8"))
+        governance = governance_facts.governance_block(governance_facts.DEFAULT_LADDER / cfg["annual_report_dir"], cfg["governance_pages"])
+    chapter_numbers_text, chapter_ownership_text, chapter_funding_text = chapter_numbers(bdp, brain), chapter_ownership(bdp, brain, governance), chapter_funding(bdp, brain)
     chapters += [chapter_numbers_text, chapter_ownership_text, chapter_funding_text, timeline,
                  f"## 7. {PLACEHOLDERS[7][0]}", "", PLACEHOLDERS[7][1], "",
                  chapter_record_status(lines, gate, issues, gaps, run, newest)]
@@ -243,8 +257,10 @@ def main() -> int:
     ap.add_argument("--events", required=True, type=Path)
     ap.add_argument("--run-date", required=True)
     ap.add_argument("--out", required=True, type=Path)
+    ap.add_argument("--ar-pages", type=Path, help="annual report page list (default: ar-pages.json next to the spec)")
     args = ap.parse_args()
-    text, case = build(args.company, args.spec, args.events, date.fromisoformat(args.run_date))
+    ar_config = args.ar_pages or args.spec.parent / "ar-pages.json"
+    text, case = build(args.company, args.spec, args.events, date.fromisoformat(args.run_date), ar_config)
     args.out.mkdir(parents=True, exist_ok=True)
     (args.out / "case-book.md").write_text(text, encoding="utf-8")
     (args.out / "case.json").write_text(json.dumps(case, indent=1), encoding="utf-8")
