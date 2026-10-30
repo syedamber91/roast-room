@@ -73,3 +73,10 @@ def test_pack_replaces_its_own_block_in_the_brief_and_keeps_the_rest(tmp_path):
     bdp.write_into_brief(session, f"{bdp.START}\nsecond\n{bdp.END}")
     text = (session / "brief.md").read_text(encoding="utf-8")
     assert "second" in text and "first" not in text and "the decision" in text and text.count(bdp.START) == 1
+
+
+def test_a_partial_line_is_named_in_the_gate(tmp_path):
+    brain(tmp_path)
+    part = {**LINE, "id": "D5", "partial": "annual report only"}
+    pack = bdp.build_pack({"company": "X", "brain": str(tmp_path), "lines": [part]}, tmp_path, date(2026, 7, 30))
+    assert "partial D5" in pack and "Partial: annual report only" in pack

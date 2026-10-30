@@ -117,15 +117,17 @@ def build_pack(spec: dict, brain: Path, run: date) -> str:
     missing = [l for l in lines if l["state"] == "missing" and l["required"]]
     stale = [l for l in lines if l["state"] == "stale"]
     unverified = [l for l in lines if l["state"] == "unverified"]
+    partial = [l for l in lines if l.get("partial") and l["state"] != "missing"]
     holes = missing + [l for l in unverified if l["required"]]
-    gate = "BRIEF COMPLETE" if not (holes or stale) else (
+    gate = "BRIEF COMPLETE" if not (holes or stale or partial) else (
         "BRIEF INCOMPLETE: " + "; ".join(filter(None, [
             "missing " + ", ".join(l["id"] for l in missing) if missing else "",
             "unverified " + ", ".join(l["id"] for l in unverified if l["required"]) if any(l["required"] for l in unverified) else "",
-            "stale " + ", ".join(l["id"] for l in stale) if stale else ""])))
+            "stale " + ", ".join(l["id"] for l in stale) if stale else "",
+            "partial " + ", ".join(l["id"] for l in partial) + " (see each Partial note)" if partial else ""])))
     out = [START, f"## Data pack: {spec['company']}, built {run.isoformat()} by build_data_pack.py", "",
            f"**{gate}**", ""]
-    if holes or stale:
+    if holes or stale or partial:
         out += ["The Chair tells the user before Round 1 and asks: fetch first, or run knowing the holes. If S5, S6 or S7 lines are missing the "
                 "Analyst writes \"brief incomplete\" before scoring and those sections score 0 `no data`. Nobody fills a hole.", ""]
     for l in lines:
