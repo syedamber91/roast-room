@@ -441,6 +441,197 @@ SCORE THINKING (S1, guidance against delivery)
 - Ceiling caveat: all three question states are partial. If code cuts the score to 1 from the partial states, that cut comes from the ladder, not from me.
 
 
+## I5 Cash and working capital
+
+### Q1 Lawyer
+
+TO: the convict
+
+QUESTION: Net cash from operating activities fell from 40,612 to 19,940 million rupees in the year ended 2026-03-31, while inventories rose from 49,311 to 60,857 million. How many million rupees of that fall came from the inventory build, for the year ended 2026-03-31?
+
+WHY I ASK: Q3.1, why is cash from operations below the earlier level; I want the driver and a number, not a pointer to operating profit before working capital changes.
+
+IF DEFLECTED: Then give the total working capital outflow line in the year-ended 2026-03-31 cash flow statement, in rupees million.
+
+### A1 Convict
+
+ANSWER: As of the year ended 2026-03-31, the exact cash-flow inventory line is not in my record, so I cannot give a filed number for it. The only inventory figure I hold is the balance sheet: 60,857 against 49,311 million rupees (filed, PDF page 346), a rise of 11,546 million (derived). The fall in operating cash is 20,672 million (derived: 40,612 less 19,940). So the balance sheet rise equals about 56% of the fall (derived). That is a proxy, not the cash-flow effect. The inventory write-downs and provisions the notes disclose (filed, below) move the balance sheet without cash. I did not read the cash flow statement's working capital lines, so the total working capital outflow is also not in my record.
+
+MOVE: not in my record; mitigate
+
+EVIDENCE:
+- Net cash from operating activities, year ended 2026-03-31: 19,940 (40,612 a year earlier), filed, S026, PDF page 349.
+- Inventories at 2026-03-31: 60,857 (49,311 at 2025-03-31), filed, S026, PDF page 346.
+- Balance sheet rise 11,546 and fall in operating cash 20,672: both derived by me.
+- "During year ended March 31, 2026, BBL has recorded an exceptional provision of Rs 762 for inventories in respect of certain molecules in line with its assessment to liquidate these inventories." (S027, p395, notes to the financial statements (company filing)). Rs 762 is in the notes' unit, million.
+- "Including the impact of change in estimates as explained in above para, net movement in provision for stock obsolescence, inventory write-off resulted in loss of Rs 1,841 (March 31, 2025: gain of Rs 753)." (S027, p371, notes to the financial statements (company filing))
+- Profit attributable to owners, year to 2026-03-31: 3,856 (10,133), filed, S026, PDF page 347. This shows profit moved too, so the fall is not all inventory.
+
+STATE I CLAIM: partial
+
+WHAT WOULD SETTLE IT: The consolidated cash flow statement at PDF page 349 of S026, the lines for adjustments for working capital, "(Increase) in inventories" and the total working capital movement, for the year ended 2026-03-31. I did not read these lines. Management's own explanation of the fall in operating cash is also not on record. I found no call or deck statement on working capital or operating cash flow in the positions file.
+
+### Q2 Lawyer
+
+TO: the convict
+
+QUESTION: Net cash from operating activities was 19,940 million rupees and cash paid for property, plant and equipment was 17,979 million rupees in the year ended 2026-03-31; how many million rupees of operating cash were left after that capex, for that year?
+
+WHY I ASK: Q12.2, cash-flow statement beside the next capex; I am leaving Q3.1 because the convict's record holds no cash-flow working capital line, and receivable days (Q3.2) are not in the record.
+
+IF DEFLECTED: Then state net cash from operating activities as a multiple of the 3,856 million rupees profit attributable to owners, for the year ended 2026-03-31.
+
+### A2 Convict
+
+ANSWER: As of the year ended 2026-03-31, operating cash left after cash paid for property, plant and equipment was 1,961 million rupees (derived: 19,940 less 17,979, both filed). That is about 9.8% of operating cash (derived). The year before it was 19,246 million (derived: 40,612 less 21,366). The 17,979 is the PPE purchase line only. Other investing outflows, such as intangibles, are not in my record. Management's own capex figure for that year is a different number, 19,117 million, so the two should not be mixed. The working capital lines I tried to read are not held in the file, so my A1 gap stands.
+
+MOVE: cite | mitigate
+
+EVIDENCE:
+- Net cash from operating activities, year ended 2026-03-31: 19,940 (40,612 a year earlier), filed, S026, PDF page 349.
+- Purchase of property, plant and equipment (cash flow), year ended 2026-03-31: 17,979 (21,366 a year earlier), filed, S026, PDF page 349.
+- 1,961 and 19,246 are derived by me; 9.8% is derived.
+- Management's figure for the year ended 2026-03-31: "capital expenditure moderating from approximately `C` 23,433 million in FY25 to `C` 19,117 million in FY26." (S027, p32, message from the chairperson or chief executive (management speech)). It is not the cash-flow line and the basis is not reconciled in my record.
+- Capital work in progress at 2026-03-31 was 46,127 (41,017 at 2025-03-31), filed, S026, PDF page 346.
+- Cash flow working capital lines: searched statements-ar-fy26.md and numbers.md for inventory, receivable, payable and working capital cash lines; not found. Only the two lines above and the closing cash line (PDF page 350) are held.
+
+STATE I CLAIM: answered
+
+WHAT WOULD SETTLE IT: The investing section of the consolidated cash flow statement (S026, PDF page 349), to see whether other capex lines (intangibles, development spend) sit beside the 17,979 for the year ended 2026-03-31. Also the working capital adjustment lines on the same page, to explain the fall in operating cash. Neither is in my record.
+
+### Q3 Lawyer
+
+TO: the convict
+
+QUESTION: Capital work in progress aged two to three years rose from 3,509 to 10,881 million rupees at 2026-03-31; how many million rupees of that 10,881 does management expect to put into use by 2027-03-31?
+
+WHY I ASK: Q12.2, how the next capex is funded. The 1,961 left after capex sits beside the 10,881 of aged work in progress. Q3.4 and Q3.2 are skipped because the case book holds no receivable provision figure and no receivable days.
+
+IF DEFLECTED: Then give the amount of capital work in progress moved into use during the year ended 2026-03-31, in million rupees.
+
+### A3 Convict
+
+ANSWER: As of the year ended 2026-03-31, management's expected amount to be put into use by 2027-03-31 is not in my record. Neither the 10,881 million rupees aged two to three years nor any part of it has a stated completion date or amount. Filed: that band was 10,881 million at 2026-03-31 against 3,509 million at 2025-03-31, PDF page 366. Derived: it is 23.6% of the 46,127 million total, and about 5.5 times the 1,961 million left after capex in A2. Management said capex was largely behind it, but gave no schedule for this work in progress. The amount moved into use in the year is also not in my record.
+
+MOVE: not in my record | mitigate
+
+EVIDENCE:
+- Capital work in progress by age at 2026-03-31 (2025-03-31 in brackets): under 1 year 17,842 (17,967); 1 to 2 years 13,643 (15,281); 2 to 3 years 10,881 (3,509); over 3 years 3,761 (4,260); total 46,127 (41,017). Filed, S026, PDF page 366.
+- Derived: total rose 5,110 million (46,127 less 41,017), year ended 2026-03-31. The part older than one year rose from 23,050 to 28,285 million.
+- Additions to property, plant and equipment, year ended 2026-03-31: 17,574 million (21,983 a year earlier). Filed, hand-read, PDF page 365. These are additions, not transfers out of work in progress.
+- "largely hereafter it will be maintenance capex across three companies." (S012, Kedar Upadhye, held 2026-02-13)
+- "as of now, we don't see any need for a large greenfield capex" (S013, Kedar Upadhye, held 2026-05-08)
+- "Major capacity build-out across biosimilars, insulins, peptides and complex generics substantially complete" (S024, deck).
+- I searched numbers.md and positions.md for a completion schedule or an amount moved into use, and found none.
+
+STATE I CLAIM: not in my record
+
+WHAT WOULD SETTLE IT: The notes to the financial statements that give the capital work in progress completion schedule, or the movement table for capital work in progress (additions and transfers), in S026 around PDF pages 365 to 366. I have not read them. A call statement naming these projects and their commissioning dates would also settle it; I found none.
+
+
+### Judge note
+
+STORY SO FAR:
+1. Operating cash fell to 19,940 from 40,612. Stock rose 11,546, 56% of the fall; its cash effect is not in the record (hearing I5 A1).
+2. After plant purchases of 17,979, only 1,961 of operating cash was left, against 19,246 a year earlier (case book ch3; hearing I5 A2).
+3. Unfinished building work rose to 46,127 from 41,017. No amount or date for using the 10,881 aged two to three years is in the record.
+
+WHY-CHAIN:
+1. Claim: the stock build is about 56% of the cash fall, on balance sheet terms only. Because inventories rose 11,546 (60,857 less 49,311) against a 20,672 fall in operating cash (40,612 less 19,940), 55.9% (derived by me). The cash-flow stock line and the other 9,126 (20,672 less 11,546) are not in the record. (S026 pp346, 349; hearing I5 A1)
+2. Claim: the 11,546 may understate cash spent on stock. Because write-downs cut the balance sheet figure without cash: net loss on stock provisions and write-offs was 1,841 (S027 p371, quote verified by code). 11,546 plus 1,841 is 13,387, 64.8% of the 20,672 fall (derived by me, if all of it is non-cash). Currency effects: not in the record.
+3. Claim: cash left after plant purchases fell 17,285 (19,246 less 1,961, derived by me) because operating cash fell 20,672 while plant purchases fell only 3,387 (21,366 less 17,979, derived). Three capex figures are not reconciled: 17,979 cash paid, 17,574 additions (hand-read), 19,117 management's (S027 p32, quote verified by code). Intangibles are outside the 1,961. (case book ch3; hearing I5 A2)
+4. Claim: more work stays unfinished for longer. Because work in progress rose 5,110 (46,127 less 41,017, up 12.5%) while plant purchases fell. The part older than one year rose 5,235 (28,285 less 23,050), and the two-to-three-year band grew 3.1 times (10,881 over 3,509). All derived by me. Cause: not in the record. (case book ch3; S026 p366; hearing I5 A3)
+5. Claim: management says the build is done, but gives no number for unfinished work. Because: "largely hereafter it will be maintenance capex" (S012, held 2026-02-13) and "as of now, we don't see any need for a large greenfield capex" (S013, held 2026-05-08), both verified by code. Yet 28,285 is older than a year (derived).
+
+I DID NOT UNDERSTAND:
+1. A1 says the convict "did not read" the working capital lines; A2 says it "tried to read" them and they are "not held in the file". Which is it? I cannot check its search of statements-ar-fy26.md and numbers.md. The case book also holds no such lines.
+2. How the cash flow statement treats the 1,841 stock loss (a separate add-back, or inside the stock line). It decides whether 11,546 or 13,387 is the better proxy. Whether the 762 provision sits inside the 1,841 is also unclear.
+3. What makes up the other 9,126 of the cash fall (receivables, payables, lower profit). Receivable days are not in the record (case book ch8, I5 gap).
+4. Why management's 19,117 is 1,138 above the 17,979 cash paid (derived). It sits one off the 1,137 recovery line in the case book; I assume coincidence, and no source links them.
+5. "No large greenfield capex" means no new site. It does not say whether the 28,285 of older unfinished work is on old sites, so I cannot square it with "substantially complete" (S024 deck, no held date given).
+6. S026 and S027 look like the same annual report under two ids (S027 p395 sits among S026's notes pages). I checked only that the quotes passed code. The labels such as "management speech" are the convict's, and I could not check them.
+
+STATE PROPOSED:
+Q1 (decisive Q3.1, why operating cash fell) partial: the cash-flow stock line is not in the record, as the convict says. It gave a different basis with numbers and dates, the balance sheet rise of 11,546 (filed S026 p346, derived), so this is not no data. No management reason is on record. I checked 11,546 and 20,672 against case book ch3 myself.
+Q2 (Q12.2, operating cash left after capex) answered: 1,961 is 19,940 less 17,979, both filed, S026 p349, year to 2026-03-31, with a number and a date. I checked both inputs against case book ch3 myself. The code flagged 21 undated figures; the 1,961 is dated by A2's lead sentence and its evidence lines, so I weigh it as sound. The limits are stated (PPE line only, management's 19,117 is a different number).
+Q3 (capital work in progress) no data: the expected amount into use by 2027-03-31 is not in the record, and nor is the FY26 amount moved into use. The figures given are the ageing of what is still unfinished. The management lines give no amount or date for the 10,881. The convict named what would settle it: the work in progress completion schedule or movement table (S026 around pp365-366, unread) or a call naming projects.
+
+ASK NEXT:
+1. Why did operating cash fall 20,672 when stock rose only 11,546 on the balance sheet? Give the stock, receivables and payables lines from the cash flow statement (S026 p349).
+2. Why did 10,881 of work in progress reach two to three years old (3,509 a year earlier) if the build-out is "substantially complete"? Which projects, what completion dates, and how much goes into use by 2027-03-31?
+
+### WA1 Convict
+
+ANSWER: I cannot say why from filed lines. The cash flow lines for stock, receivables and payables are not in my files. I searched and found none. Derived: operating cash fell 20,672 million rupees in the year ended 2026-03-31 (40,612 less 19,940). Balance sheet stock rose 11,546 from 2025-03-31 to 2026-03-31 (derived). That leaves 9,126 for the year ended 2026-03-31 not explained by balance sheet stock (derived). Balance sheet stock is not the cash flow line, because write-downs move it without cash. My reading, inferred, not a filed cash effect: the notes show less receivables derecognised at 2026-03-31 than a year earlier, which could raise receivables. Management gives no reason on record.
+
+MOVE: not in my record | mitigate
+
+EVIDENCE:
+- Net cash from operating activities, year ended 2026-03-31: 19,940 (40,612 a year earlier), filed, S026, PDF page 349.
+- Inventories at 2026-03-31: 60,857 (49,311 at 2025-03-31), filed, S026, PDF page 346.
+- Derived by me, year ended 2026-03-31: fall 20,672; stock rise 11,546; remainder 9,126 (20,672 less 11,546).
+- "Accordingly, as at March 31, 2026 Rs 4,740 (March 31, 2025, Rs 7,074) has been derecognized from trade receivables." (S027, p372, notes to the financial statements (company filing)). Unit is the notes' own, rupees million; I did not check it against the cash flow statement.
+- Judge's puzzle, one sentence: I searched numbers.md, statements-ar-fy26.md and positions.md by term (inventory, receivable, payable, working capital, operating activities) and did not find the working capital cash lines, so A2's wording is the accurate one and A1's "did not read" only means I never saw PDF page 349 itself.
+- What the files hold on page 349 for this year: only the operating cash total (numbers.md); no stock, receivable or payable adjustment line.
+- Management's only cash flow words in the file say nothing on the fall: "With major investments largely behind us, the focus is now on continued deleveraging, improving cash flow generation and enhancing returns through efficient capital deployment, while maintaining flexibility to invest in growth." (S027, p32, message from the chairperson or chief executive (management speech)).
+
+STATE I CLAIM: partial
+
+WHAT WOULD SETTLE IT: The adjustment lines for working capital on the consolidated cash flow statement, S026 PDF page 349, for the year ended 2026-03-31: the stock, receivables and payables lines and the total. Also whether the stock write-down of the year is added back separately or sits inside the stock line. A management reason for the fall in operating cash is not on record.
+
+### WA2 Convict
+
+ANSWER: As of the year ended 2026-03-31, my record gives no reason for the ageing, no project names, no completion dates and no amount to be put into use by 2027-03-31. Filed, PDF page 366: the two to three year band was 10,881 million rupees at 2026-03-31, against 3,509 million at 2025-03-31 (3.1 times, derived). The deck line calls the build-out substantially complete. That is a summary and lists no projects. No file ties any named facility to this band, so I name none. I cannot square the deck wording with an aged band of this size from my files.
+
+MOVE: not in my record | concede
+
+EVIDENCE:
+- Capital work in progress aged two to three years: 10,881 at 2026-03-31, 3,509 at 2025-03-31. Total 46,127 and 41,017 on the same dates. Filed, S026, PDF page 366, Rs million.
+- Part older than one year: 23,050 at 2025-03-31 and 28,285 at 2026-03-31 (derived).
+- "Major capacity build-out across biosimilars, insulins, peptides and complex generics substantially complete" (S024, deck). positions.md files it under the 2026-05-08 deck. It gives no project list or amount.
+- "largely hereafter it will be maintenance capex across three companies." (S012, Kedar Upadhye, held 2026-02-13)
+- "Margins were impacted by the commissioning of new facilities and associated start-up costs and are expected to improve as utilization ramps up." (S027, p31, message from the chairperson or chief executive (management speech)). It names no facility and does not say which work in progress this is.
+- The one dated expansion on the calls: "the drug substance expansion, which is also expected to double our capacity will come in a year or 1.5 years after this." (S012, Shreehas Tambe, held 2026-02-13). This is the Malaysia insulin line in positions.md. No file links it to the 10,881 band.
+- No call, deck or table in my files gives the amount of work in progress moved into use in the year to 2026-03-31.
+
+STATE I CLAIM: not in my record
+
+WHAT WOULD SETTLE IT: The work in progress completion schedule in the notes to S026, around PDF pages 365 to 366, which gives projects and expected dates for the 10,881 band. The movement table for capital work in progress, which gives additions and transfers into use. Or a call or deck statement naming those projects and their commissioning dates. I have none of these in my files.
+
+### Judge close
+
+STORY SO FAR:
+1. Operating cash fell to 19,940 from 40,612. Stock rose 11,546, 56% of the fall; its cash line is not in the record (hearing I5 WA1).
+2. After plant purchases of 17,979, only 1,961 of operating cash was left, against 19,246 a year earlier (hearing I5 A2).
+3. Unfinished building work rose to 46,127. For the 10,881 aged two to three years, no project, date or amount is on record (hearing I5 WA2).
+
+WHY-CHAIN:
+1. Claim: the stock build is a proxy for 56% to 65% of the cash fall. Because inventories rose 11,546 against a fall of 20,672 (55.9%). The 1,841 stock loss cut the balance sheet without cash, giving 13,387 (64.8%) if all non-cash (derived by me). The cash-flow stock line: not in the record. (S026 pp346, 349; S027 p371; hearing I5 A1, WA1)
+2. Claim: fewer receivables taken off the books could explain part of the 9,126, but this is inference. Because 4,740 was derecognised at 2026-03-31 against 7,074 a year earlier (S027 p372): 2,334 less. If receivables are otherwise unchanged, it is at most 2,334, leaving 6,792 (derived by me). The receivables balance and filed cash effect: not in the record. (WA1)
+3. Claim: lower operating profit does not explain the fall. Because filed operating profit for the four quarters to 2026-03-31 rose to 34,381 from 31,358 (+3,023), while operating cash fell 20,672 (case book ch3, derived by me). Tax paid, payables, other working capital and one-off cash items: not in the record. Management gives no reason (S027 p32; WA1).
+4. Claim: cash left after plant purchases fell 17,285 to 1,961 in the year to 2026-03-31. Because operating cash fell 20,672 while plant purchases fell only 3,387 (21,366 to 17,979, derived by me). Three capex numbers are not reconciled: 17,979 cash paid, 17,574 additions (hand-read), 19,117 management's. Intangibles sit outside the 1,961. (S026 p349; S027 p32; hearing I5 A2)
+5. Claim: management calls the build done, yet older unfinished work grew. Because the deck (S024, convict dates it 2026-05-08) says "substantially complete". Work older than a year rose to 28,285 from 23,050, and the 2-to-3-year band to 10,881 from 3,509 (S026 p366, derived by me). Projects, dates, amount into use: not in the record. (hearing I5 WA2)
+
+I DID NOT UNDERSTAND:
+1. "Derecognised." I take it to mean taken off the books, as when unpaid customer bills pass to a bank. The record does not say to whom or on what terms (S027 p372).
+2. How the cash flow statement treats the 1,841 stock loss (a separate add-back or inside the stock line), and whether the 762 provision sits inside it. That decides whether 11,546 or 13,387 is the better proxy.
+3. Whether filed operating profit is the right yardstick. The cash flow statement starts from its own profit line, which is not in the record. So chain 3 is a rough check, not a bridge.
+4. Why management's 19,117 is 1,138 above the 17,979 cash paid. The basis is not reconciled anywhere in the record.
+5. The one dated expansion: "a year or 1.5 years after this" (S012, 2026-02-13). The convict ties it to the Malaysia insulin line. I do not know what "this" points to, or whether that work sits inside the 46,127. Nothing links it.
+6. S026 and S027 look like one annual report under two ids. The labels such as "management speech" are the convict's, and I cannot check them.
+
+STATE PROPOSED:
+Q1 (Q3.1, why operating cash fell) partial, unchanged: WA1 resolves my A1/A2 puzzle (the lines were searched and not found, so A2's wording is accurate). It adds dated filed numbers on a different basis (stock rise 11,546; derecognised 4,740 against 7,074), but the cash-flow lines and a management reason are not in the record, and the receivables link is inference, so not no data.
+Q2 (Q12.2, operating cash left after capex) answered, unchanged: 1,961 is 19,940 less 17,979, both filed, S026 p349, year to 2026-03-31. The lead sentence dates it, so I weigh the code's undated flag as minor. Limits are stated (PPE line only; 19,117 is a different number).
+Q3 (capital work in progress into use by 2027-03-31) no data, unchanged: WA2 concedes it. The only dated timing is the S012 expansion with no amount and no link to the 10,881, so it is not a different-basis answer.
+
+WATCH:
+1. S026 PDF pp365 to 367, the movement table for capital work in progress (additions, transfers into use) and any completion schedule under the p366 age table. Page 365 is rotated and the case book hand-read only its additions total. This would settle the amount moved into use in the year. A forward amount to 2027-03-31 would still need a call or deck line, so Q3 may stay no data.
+2. S026 p349, the consolidated cash flow statement: stock, receivables and payables lines, the total, whether the 1,841 is added back separately, and the investing section for intangibles. This would settle Q1 and the split of the 9,126. The record holds only the totals from this page.
+3. Trade receivables at 2026-03-31 and 2025-03-31 (S026 p346) and the S027 p372 note on terms and counterparty. Together they would test the receivables inference in chain 2.
+4. The Q2 FY27 results, call and deck for the quarter ended 2026-09-30 (next refresh about mid November 2026, date unchecked). Nothing later than 2026-10-29 is in the record. They might give a management reason for the cash fall or a completion date for the aged work.
+
+
 ## I6 Debt, maturities and covenants
 
 ### Q1 Lawyer
@@ -640,6 +831,211 @@ WATCH
 3. Target, loan amounts and the 300 crore saving: the FY26 cash flow financing section, a repayment schedule by lender, and the Q2 FY27 finance cost line (quarter ended 2026-09-30). A stated gross borrowings figure and date from management would settle Q4.1.
 
 SCORE THINKING (S4 debt and funding): all three core questions are partial, and the red flag (44.2% due within a year, up from 30.1%, with a 24,692 gap between two filed tables) has no stated reason. The ladder gives 1 for partial, or a flag with no stated reason. 2 needs numbers answered with a stated flag reason, and 3 needs everything answered. I would score S4 at 1, since the record has money and named loans but no target, ceiling, headroom or reason for the gap.
+
+
+## I7 Related parties and group structure
+
+### Q1 Lawyer
+
+TO: Audit committee chair, Bobby Kanubhai Parikh, with the CFO, Kedar Narayan Upadhye
+
+QUESTION: For the year ended 2026-03-31, what was the total amount in Rs million actually paid or received under the Mylan Inc. related party approval, as the audit committee's running balance against that approval's ceiling stood at that date?
+
+WHY I ASK: Q5.3, What was the approval ceiling, and what actually moved?
+
+IF DEFLECTED: If the answer is that the transaction was in the ordinary course of business, I will ask again for the Rs million running balance as at 2026-03-31, because the rules as applied in the 2026-05-12 SEBI order made no exception for the ordinary course.
+
+### A1 Convict
+
+ANSWER: As of the year ended 2026-03-31, the audit committee's running balance against the Mylan Inc. approval is not in my record. I did not find it in the three files I read. I can give the nearest filed figures. The notes say the share purchase was for consideration of Rs 73,560, and the Board's report gives USD 400 million in cash. I did not match the two to the approval's ceiling and cannot confirm they are the same amount. I also challenge the "ordinary course" premise. The record shows a one-off share purchase approved by vote, not routine trading.
+
+MOVE: cite | challenge | not in my record
+
+EVIDENCE:
+- "The Company, in January 2026, acquired 14,36,69,382 equity shares of BBL from Mylan Inc. against cash consideration of USD 400 million, in 2 (two) tranches." (S027, p191, Board's report (company filing))
+- "During the year ended March 31, 2026, the Company entered into Share Swap and Share Purchase Agreement (‘SSPA’) with Mylan Inc for purchase of 292,726,366 equity shares in BBL for consideration of Rs 73,560." (S027, p373, notes to the financial statements (company filing))
+- Filed: the voting results for the meeting dated 2025-12-31, resolution 6 (Mylan Inc. related party transactions), drew 0.81% of votes against (S034). Derived: the promoter group did not vote on it, so that is the public's vote alone (S034).
+- "|Mylan Inc. (till January 21, 2026)|Investor which has a significant influence over a subsidiary|" (S027, p396, notes to the financial statements (company filing))
+- The related party notes name Mylan Inc. as a related party only up to January 21, 2026, so the status is time-limited.
+
+STATE I CLAIM: partial
+
+WHAT WOULD SETTLE IT:
+- The audit committee's running balance against the Mylan Inc. approval, as at 2026-03-31, in Rs million.
+- The related party note's table of amounts for the year ended 2026-03-31.
+- The ceiling in the 2025-12-31 notice (the limits note records USD 400 million for the purchase), checked against the Rs 73,560 figure.
+- I did not read the 2026-05-12 SEBI order, so it is unchecked here.
+
+### Q2 Lawyer
+
+TO: the convict
+
+QUESTION: The notes record 292,726,366 BBL shares bought from Mylan Inc. and the Board's report records 14,36,69,382; which total share count did the annual report's related party list tie to as at 2026-03-31?
+
+WHY I ASK: Q5.2, does the annual report's related-party list match what the audit committee approved?
+
+IF DEFLECTED: If the answer is that the two figures cover different steps of one deal, I will ask for the single share count that the 2025-12-31 notice approved. If the convict cannot give it, I will move on to Q5.7 and record this one as unanswered.
+
+### A2 Convict
+
+ANSWER: As of the year ended 2026-03-31, the related party list ties to no share count in my record. It names Mylan Inc. as a related party until 2026-01-21 and gives no shares. The two counts look like two steps of one deal. Derived from the filed figures: 261,917,480 BBL shares from four sellers, less 112,860,496 bought from the other three, leaves 149,056,984 for Mylan. Adding the 143,669,382 cash-bought shares gives 292,726,366 exactly. That sum is my arithmetic, not a filed statement. The single count the 2025-12-31 notice approved is not in my record.
+
+MOVE: cite | mitigate
+
+EVIDENCE:
+- "The Company, in January 2026, acquired 14,36,69,382 equity shares of BBL from Mylan Inc. against cash consideration of USD 400 million, in 2 (two) tranches." (S027, p191, Board's report (company filing))
+- "as consideration for acquisition of 261,917,480 Equity Shares of BBL," (S027, p191, Board's report (company filing)). It is about four sellers, Mylan Inc. among them.
+- "the Company acquired 112,860,496 equity shares of BBL from Serum Institute Life Sciences Private Limited, Tata Capital Growth Fund II and Activ Pine LLP" (S027, p373, notes to the financial statements (company filing))
+- "the Company entered into Share Swap and Share Purchase Agreement (‘SSPA’) with Mylan Inc for purchase of 292,726,366 equity shares in BBL for consideration of Rs 73,560." (S027, p373, notes to the financial statements (company filing))
+- Derived: 261,917,480 − 112,860,496 = 149,056,984, and 143,669,382 + 149,056,984 = 292,726,366, all as filed for the year ended 2026-03-31. The match is exact, but no filing states this reconciliation.
+- Filed: the Mylan Inc. related party row is in the notes' related party table, PDF page 396, with no share count in it. I do not quote it.
+- Filed: resolution 6 of the meeting dated 2025-12-31 drew 0.81% against (S034). The voting results give no share count for the approved transaction.
+
+STATE I CLAIM: partial
+
+WHAT WOULD SETTLE IT:
+- The share count and ceiling stated in the 2025-12-31 notice item on Mylan Inc. I did not read that notice in this call.
+- A related party note line or audit committee schedule giving the Mylan Inc. share total for the year ended 2026-03-31.
+- Confirmation from the company that 292,726,366 is the cash-bought shares plus Mylan's swap shares.
+
+### Q3 Lawyer
+
+TO: the convict
+
+QUESTION: Which Rs million ceiling, in the resolution that replaced the intra-group related party approvals that ran out at the 48th AGM on 2026-08-06, was approved, and on what date did the shareholders pass it?
+
+WHY I ASK: Q5.3, what was the approval ceiling, aimed at the case book's open gap on what replaced the approvals after 2026-08-06.
+
+IF DEFLECTED: If the answer is that it is not in the record or that the approvals were renewed in the ordinary course, I will ask for a yes or no on whether any intra-group related party approval was in force on 2026-08-07. I will then record the replacement ceiling as unanswered and move to Q5.7.
+
+### A3 Convict
+
+ANSWER: The replacing resolution is not in my record, so I challenge the premise. As of the 2026-08-06 meeting, the 48th AGM voted on nine resolutions and none was a related party resolution (S034, filed). The 2025 AGM approvals, passed 2025-08-08, were worded to run only until that AGM (S036, read by hand). So no Rs million replacement ceiling and no passing date exist in my record. I hold no meeting after 2026-08-06. Whether any approval was in force on 2026-08-07 is not in my record. The 2024-09-23 guarantee approvals run for the financing tenure, up to 10 years, so some approval may still stand.
+
+MOVE: challenge | not in my record
+
+EVIDENCE:
+- Filed: the voting results for the meeting dated 2026-08-06 list resolutions 1 to 9: accounts, dividend, a director, the auditor, three incentive plan items, trust financial assistance and cost auditors' remuneration. None is a related party item (S034).
+- Filed: the related party table in S034 stops at the meeting dated 2025-12-31 (the Mylan Inc. item, resolution 6). It has no later related party meeting.
+- Filed, from the notices: the 2025 AGM approvals, items 6 to 15, held 2025-08-08, had ceilings from Rs 1,122 crore to Rs 4,773 crore per pair of companies. All were valid until the 48th AGM (S036). Derived: Rs 23,873 crore in total across the 10 items, as arithmetic only. The pairs are separate companies, so this is not one exposure.
+- Filed: the 2024-09-23 results show guarantees on re-financings of up to USD 1.3 billion, with tenure up to 10 years. They drew 1.07% against (S034, S036).
+- The seat's own file says it plainly: the record does not show whether the company relied on another approval route after the 48th AGM (S036).
+
+STATE I CLAIM: not in my record
+
+WHAT WOULD SETTLE IT:
+- The voting results for any meeting or postal ballot dated after 2026-08-06 that carries a related party resolution, with its Rs crore ceiling and date.
+- The notice of the 48th AGM, to check there was no related party item and whether a postal ballot was announced.
+- The company's statement of the approval route used from 2026-08-07, such as a below-threshold route or an approval in a document not read here.
+
+
+### Judge note
+
+STORY SO FAR:
+1. Mylan deal: USD 400 million cash and Rs 73,560 million total price; the approval ceiling is not on the record. (S027 p191, p373)
+2. The 292,726,366 Mylan shares split into 143,669,382 cash-bought and 149,056,984 swapped; derived, not filed (hearing I7 A2).
+3. No replacement for the approvals that ended at the 2026-08-06 AGM is on the record, so what stood on 2026-08-07 is unknown. (hearing I7 A3)
+
+WHY-CHAIN:
+1. Claim: the ceiling is not on the record, so ceiling against movement cannot be tested. Because the convict gave amounts only: Rs 73,560 million for 292,726,366 shares (S027 p373) and USD 400 million cash for 143,669,382 shares (S027 p191), year ended 2026-03-31. The "limits note" of USD 400 million has no id; I could not check it.
+2. Claim: Rs 73,560 million is a price, not cash paid. Because the 2026-01-05 issue of 171,279,553 Biocon shares (case book ch6) paid for BBL shares, per my I8 note (S027 p191, code verified there). The cash part is stated only as USD 400 million. Cash in Rs million: not in the record.
+3. Claim: the two share counts fit one deal. Because 261,917,480 - 112,860,496 = 149,056,984, and 143,669,382 + 149,056,984 = 292,726,366; both sums check (S027 p191, p373). It is derived: no filing says it, and how the 112,860,496 were paid is not stated. The related party table (p396) holds no count, per the convict.
+4. Claim: no replacement is on the record. Because the 2026-08-06 AGM voted nine resolutions, none related party (S034), and the 2025 approvals ran only to that AGM (S036). The vote record ends 2026-08-06 (case book ch8, D06a), so a later postal ballot is not ruled out. I could not check S034 or S036.
+5. Claim: the old ceilings are caps, not amounts moved. Because the 2025 AGM items 6 to 15 ran from Rs 1,122 crore to Rs 4,773 crore per pair, derived total Rs 23,873 crore, which is Rs 238,730 million (23,873 x 10) (S036, could not check). The lowest ceiling of 1,005 in my earlier note was from the 2024-04 postal ballot, a different approval.
+
+I DID NOT UNDERSTAND:
+1. Where the "USD 400 million limit" in A1 comes from: no id is given and the notice was not read.
+2. Whether the approval caps cash only, or cash plus shares paid. Without that, Rs 73,560 million cannot be set against it.
+3. Mylan is a related party only "till January 21, 2026" (S027 p396). I do not know if the second cash tranche fell before that date.
+4. Why the lowest 2025 ceiling reads Rs 1,122 crore now and 1,005 in my earlier note.
+5. The 2026-05-12 SEBI order named by the lawyer is in neither the case book nor the hearing. I could not check it.
+6. In plain words, what a "below-threshold route" is: why some deals with related parties need no shareholder vote.
+
+STATE PROPOSED:
+Q1 partial: no Rs million running balance or ceiling, but dated Rs 73,560 million and USD 400 million (year to 2026-03-31, S027) on a different basis; answer figures with no nearby date weighed weaker.
+Q2 partial: the counts are filed and the sum is derived and checks, but the approved count is not given and "ties to no count" rests on the convict's reading of p396.
+Q3 no data: nothing on a replacement; the dated negative at the 2026-08-06 AGM (S034) and the old ceilings are not the figure asked; the settling document is a voting result or notice dated after 2026-08-06.
+
+ASK NEXT:
+1. Why is USD 400 million called the limit for the Mylan purchase when the notes price all 292,726,366 shares at Rs 73,560 million? What does the 2025-12-31 approval cap, and how much of it was used by 2026-03-31?
+2. Why was no related party item put to the 48th AGM when ten approvals ended there? Which route covers intra-group deals from 2026-08-07, and is the lowest 2025 ceiling Rs 1,005 or Rs 1,122 crore?
+
+### WA1 Convict
+
+ANSWER: As of the EGM notice filed 2025-12-07, USD 400 million is the cash value of the Item 6 purchase of 143,669,382 shares. My file does not use the word "limit" and states no cap. The notes' Rs 73,560 million (year ended 2026-03-31) covers 292,726,366 shares, a wider scope, so the two sit on different bases. What the 2025-12-31 approval caps beyond that stated value is not in my record. How much was used by 2026-03-31 is also not in my record. The Board's report says the purchase closed in two tranches in January 2026, which is not a running balance.
+
+MOVE: cite | not in my record
+
+EVIDENCE:
+- Filed, notice filed 2025-12-07, Item 6, read by hand, no tier (S035): the company buys 143,669,382 BBL shares from Mylan Inc. for USD 400 million in cash. The value is about 23.55% of consolidated turnover for the year before. Omnibus approval is not sought. Completion is due by 2026-03-31.
+- Filed (S035): the Audit Committee and Board approved it on 2025-12-06. The valuation report is said to be on the company's website. I have not read that report.
+- Filed (S034, voting results for the meeting dated 2025-12-31, resolution 6): 0.81% of votes polled against. The promoter group polled 0 votes.
+- Filed, as the hearing quoted it and not re-read by me in this call (S027, PDF page 191): January 2026 acquisition of 143,669,382 shares for USD 400 million in cash, in two tranches.
+- Filed, same caveat (S027, PDF page 373, year ended 2026-03-31): purchase of 292,726,366 shares for Rs 73,560 million. Derived in hearing A2: 143,669,382 plus 149,056,984 swapped shares.
+- Rs 73,560 million covers cash and shares. Item 6's text in my file prices only the cash part, so Item 6 does not obviously cap the whole price.
+- The USD 400 million is not converted to rupees in my record. Rs million paid in cash is not on record.
+- S036 holds nothing on a ceiling for this item. It says the Mylan purchase was to complete by 2026-03-31.
+
+STATE I CLAIM: partial
+
+WHAT WOULD SETTLE IT:
+- The full text of resolution 6 of the 2025-12-31 meeting, or the EGM notice's own wording. It would show whether it caps the USD 400 million cash only, or also the shares issued in exchange.
+- The related party note's amount paid to Mylan Inc. for the year ended 2026-03-31, or the audit committee's running balance against this approval.
+- The date of the second tranche against 2026-01-21, when Mylan Inc. stopped being listed as a related party in the notes (S027, PDF page 396, as quoted in the hearing).
+
+### WA2 Convict
+
+ANSWER: As of the 48th AGM on 2026-08-06, no reason is in my record for putting no related party item to it. The route covering intra-group deals from 2026-08-07 is also not in my record. Both are open. The notices word the ten 2025 AGM approvals as valid "until the 48th AGM", and the voting results list nine resolutions, none a related party item. The lowest 2025 ceiling is Rs 1,122 crore (2025 AGM, item 8, held 2025-08-08). Rs 1,005 crore is a different approval: item 1 of the 2024-04 postal ballot (results 2024-04-23), valid for FY 2024-25 only.
+
+MOVE: not in my record | cite
+
+EVIDENCE:
+- Filed: voting results for the meeting dated 2026-08-06 list resolutions 1 to 9, none a related party item (S034).
+- Filed, read by hand from the notices: 2025 AGM items 6 to 15, held 2025-08-08, are valid from 2025-08-08 until the 48th AGM (S036).
+- Filed: item 8 (Biocon Sdn. Bhd. and BNCL) is Rs 1,122 crore, the lowest of those ten items (S036, 2025 AGM held 2025-08-08).
+- Filed: item 1 (BBL and BBUK) is Rs 1,005 crore, valid FY 2024-25 (S036, 2024-04 postal ballot, results 2024-04-23).
+- Filed: the 2024-09 guarantee approvals (results 2024-09-23) run for the re-financing tenure, up to 10 years, so they may still stand (S036, S034).
+- The seat's own file says the record does not show whether another route was relied on. It names below-threshold transactions or an unread document only as examples, not as findings (S036).
+- Not read: any notice, postal ballot or reasoning dated after 2026-08-06 (S034 ends 2026-08-06).
+
+STATE I CLAIM: partial
+
+WHAT WOULD SETTLE IT:
+- The notice of the 48th AGM (2026-08-06), to see whether a related party item was considered or a postal ballot announced.
+- Any voting result or notice dated after 2026-08-06 carrying a related party resolution, with its Rs crore ceiling and date.
+- A company statement of the approval route used from 2026-08-07.
+
+### Judge close
+
+STORY SO FAR:
+1. The vote covered USD 400 million cash for 143,669,382 shares; the notes price a wider 292,726,366-share deal at Rs 73,560 million. (S035, S027 p373)
+2. No cap and no running balance are on the record, so what moved cannot be tested against what was allowed. (I7 A1, WA1)
+3. No replacement for the ten approvals that ended at the 2026-08-06 AGM is on the record; what stood on 2026-08-07 is unknown. (I7 A3, WA2)
+
+WHY-CHAIN:
+1. Claim: no ceiling is on the record. Because the notice filed 2025-12-07 (S035, read by hand, no tier) gives USD 400 million cash for 143,669,382 shares and states no cap (hearing I7 WA1). My earlier "limits note" had no id, so I drop it. Cash paid in Rs million: not in the record.
+2. Claim: Rs 73,560 million is a price, not cash paid. Because it covers 292,726,366 shares including swapped ones, year to 2026-03-31 (S027 p373, p191). Item 6 prices only the cash part (WA1). The 2026-01-05 share issue paid for BBL shares (I8 note, S027 p191). The cash part in Rs million: not in the record.
+3. Claim: the two share counts fit one deal. Because 261,917,480 - 112,860,496 = 149,056,984, and 143,669,382 + 149,056,984 = 292,726,366. Both sums check (S027 p191, p373). It is derived: no filing says it. New from WA1: the notice approved 143,669,382 shares, the cash part only (S035). The related party list (p396) ties to no count, per the convict; I could not check.
+4. Claim: no replacement is on the record, but the record stops at 2026-08-06. Because the 48th AGM voted nine resolutions, none related party (S034), and the ten 2025 approvals ran until that AGM (S036, read by hand). Nothing later is held (case book D06a, D06c), so a later postal ballot is not ruled out. The 2024-09 guarantee approvals (up to USD 1.3 billion, up to 10 years) may still stand (S034, S036).
+5. Claim: the old ceilings are caps, and the lowest 2025 one is Rs 1,122 crore. Because item 8 of the 2025 AGM (held 2025-08-08) is the lowest of ten (WA2, S036). Rs 1,005 crore is item 1 of the 2024-04 postal ballot, valid FY 2024-25 only (results 2024-04-23). That closes my earlier mismatch. The Rs 23,873 crore total is derived, and the pairs are separate companies. I could not check S036.
+
+I DID NOT UNDERSTAND:
+1. Does Item 6's USD 400 million cap the cash only, or also the shares paid in exchange? The resolution text is not read (WA1).
+2. Did the second January 2026 tranche fall before 2026-01-21, when Mylan stopped being a related party in the notes (S027 p396)? The tranche date is not in the record.
+3. What is the "about 23.55% of consolidated turnover" in the notice measured on, and which test does it feed? I could not check S035.
+4. In plain words, what is a "below-threshold route"? Why do some deals with related parties need no shareholder vote? WA2 names it only as an example, not a finding.
+5. Does "valid until the 48th AGM" end when the meeting starts or after it? This matters for dates around 2026-08-06.
+6. The 2026-05-12 SEBI order in the lawyer's reserve line is in neither the case book nor the hearing. I could not check it.
+
+STATE PROPOSED:
+Q1 partial (unchanged): there is no running balance. There is a dated cash value (USD 400 million, notice filed 2025-12-07) and a wider price (Rs 73,560 million, year to 2026-03-31) on a different basis. WA1 conceded that no cap is stated.
+Q2 partial (unchanged, better supported): WA1 now gives the count the notice approved (143,669,382, S035). A tie of the annual report's related party list to any count is still not given, and "ties to none" rests on the convict's reading of p396.
+Q3 no data (unchanged): WA2 only fixed the 1,122 against 1,005 mix-up and added nothing on a replacement. The 2025 ceilings and the dated no-item vote at the 48th AGM are not the figure asked. The settling document is a voting result or notice dated after 2026-08-06.
+
+WATCH:
+1. The full text of resolution 6 of the 2025-12-31 meeting, or the 2025-12-07 EGM notice wording. Also the FY26 related party note's amounts paid to Mylan Inc. and the second tranche date against 2026-01-21. These would settle Q1 and show whether the cap covers cash only.
+2. The 48th AGM notice (2026-08-06), and any voting result or postal ballot after that date that carries a related party item. Also a company statement of the approval route from 2026-08-07. The record has none, and the date of any such filing is unchecked. These would settle Q3.
+3. The valuation report for Item 6 (said to be on the company website, not read) and the 2026-05-12 SEBI order. These would test the ordinary-course point and the value used in the notice.
 
 
 ## I8 Promoter holding, pledge, dilution and pay
@@ -849,6 +1245,187 @@ WATCH
 SCORE THINKING (S6 promoter): All three core states are partial, so the ladder gives 1 (partial, or a flag with no stated reason). 2 needs answered numbers with a dated source, and none of Q6.1 to Q6.3 reaches that. I would score S6 at 1. No red flag fires: the dilution is explained with dated, filed share counts and promoter shares did not fall. The 1 is a firm one because the gaps are missing documents (depository, lender, PIT), not evasion. The code ceiling is 1 and I do not go above it.
 
 
+## I9 Board, auditors and independent directors
+
+### Q1 Lawyer
+
+TO: the convict
+
+QUESTION: The exchange feed shows B S R & Co. LLP resigning as statutory auditor of the material subsidiary, effective 2026-08-06; how many hours passed between the board receiving the auditor's written reasons and Biocon filing them with the exchange, and on what date did the board receive them?
+
+WHY I ASK: Q10.2, why the auditor resigned early, tested against the 24-hour rule for filing the reasons (S053).
+
+IF DEFLECTED: If the answer names no receipt date and no hours, I will ask for the date printed on B S R & Co. LLP's resignation letter and the date of the exchange filing that carried its reasons.
+
+### A1 Convict
+
+ANSWER: As of the annual report year ended 2026-03-31, my record holds no filing of the auditor's written reasons, no board receipt date and no filing timestamp. I cannot give hours or a date. I also hold no copy of the exchange feed item for 2026-08-06, so the 24-hour test cannot be run from here. What the record does show: the parent's auditor reported that "There has been no resignation of the statutory auditors during the year." (S027, p278, independent auditor's report (the auditor's words)). The parent's own second term was due to end at the 48th AGM, held 2026-08-06 per the hot sheet. The Board's report records a recommended successor.
+
+MOVE: not in my record; mitigate
+
+EVIDENCE:
+- "Accordingly, their second term ends at the ensuing 48th AGM." (S027, p201, Board's report (company filing)). This is a term end, not a resignation, and it concerns the parent.
+- The same page records the Audit Committee and Board recommending a successor firm for five years to the 53rd AGM. I do not quote the line; it is in the Board's report (S027, p201).
+- The governance report's subsidiary table lists B S R & Co. LLP as auditor of Biocon Biologics Limited and of Syngene International Limited (filed table, S027, p268, not quoted). It does not say which is the material subsidiary meant, and it carries no resignation.
+- A search of all my files for "resign" and "BSR" found no subsidiary auditor resignation, and no 24-hour rule text. S053 is not in my brain.
+- The latest annual report is for the year ended 2026-03-31, so the event on 2026-08-06 falls after it. changes.md, which covers exchange announcements to 2026-10-25, carries no such item.
+
+STATE I CLAIM: not in my record
+
+WHAT WOULD SETTLE IT: the exchange filing carrying the auditor's reasons, with its timestamp. Also the date printed on the B S R & Co. LLP letter, and the board minute or intimation giving the receipt date. Unchecked here: which subsidiary the feed item names, and whether the filing met the 24-hour rule.
+
+### Q2 Lawyer
+
+TO: the convict
+
+QUESTION: The annual report's attendance table lists 9 directors; how many of them are independent directors, and as of what date is that count taken?
+
+WHY I ASK: Q10.4, are the independent directors independent: a table of ties, tenure and attendance, starting with their share of the board (S046).
+
+IF DEFLECTED: If the answer gives no count or no date, I will ask how many Audit Committee meetings Nicholas Robert Haggar attended in the year ended 2026-03-31, given his 10 of 12 board meetings (83.33%).
+
+### A2 Convict
+
+ANSWER: Five of the 9 are independent directors, counted as of March 31, 2026, the year-end of the annual report. The Board's report and the governance report both give the same split: 2 executive, 2 non-executive non-independent, 5 independent. The attendance table at PDF page 253 lists the 9 names but gives no role column. Naming the five is my inference by elimination: Parikh, Kidwai, Menon, Haggar, Dhawan. Four of them are independently confirmed by other pages; Menon is by elimination only. The count is not as of today. Five more independent appointments were recommended from August 1, 2026, after that date.
+
+MOVE: cite | mitigate
+
+EVIDENCE:
+- "As on March 31, 2026, the Board of Directors comprised of 9 (nine) Members, consisting of 2 (two) Executive Directors, 2 (two) Non-Executive Non-Independent Directors and 5 (five) Independent Directors." (S027, p199, Board's report (company filing))
+- "As on March 31, 2026, the Board comprised of 9 (nine) Members, consisting of 2 (two) Executive Directors, 2 (two) Non-Executive Non-Independent Directors, and 5 (five) Independent Directors." (S027, p249, corporate governance report (company filing))
+- "Based on the declarations received from the Independent Directors, the Board of Directors has confirmed that all the Independent Directors meet the criteria of independence as mentioned under Section 149 of the Act and Regulation 16(1)(b) of the SEBI Listing Regulations and that they are independent of the management." (S027, p250, corporate governance report (company filing)). This is the board's own confirmation, not an outside test.
+- Audit Committee table, PDF page 256, filed: Parikh, Haggar and Dhawan are marked as independent directors. Kidwai is Lead Independent Director per PDF page 249. Ravi and Eric Mazumdar are non-executive non-independent per the PDF page 253 shareholding table. Siddharth Mittal is named as stepping down as MD and CEO at March 31, 2026 (PDF page 199).
+- The follow-up you flagged: the Audit Committee table at PDF page 256 gives Haggar 5 of 5 meetings, filed, for the year ended 2026-03-31. His board attendance is 10 of 12 (83.33%) at PDF page 253.
+- Not in my record: ties, tenure and other-directorships for any of the five. Independence here rests on declarations (S027, p198, Board's report).
+
+STATE I CLAIM: answered
+
+WHAT WOULD SETTLE IT: a role column on the attendance table, or the skills matrix, naming the fifth independent director. That would confirm Menon rather than leaving her to elimination. For the ties and tenure test, the appointment dates and any related-party or consulting links of the five. Unchecked: the board composition after August 1, 2026.
+
+### Q3 Lawyer
+
+TO: the convict
+
+QUESTION: For how many consecutive years has the partner who signed B S R & Co. LLP's report for the year ended 2026-03-31 signed Biocon's audit, counted from which date of first signing?
+
+WHY I ASK: Q10.3, how long the audit firm and partner have been in place, tenure of firm and partner (S046).
+
+IF DEFLECTED: If the answer gives no count or no date, I will ask on what date the signing partner last changed, given B S R & Co. LLP's second term began at the 43rd AGM held on July 23, 2021.
+
+### A3 Convict
+
+ANSWER: As of the annual report year ended 2026-03-31, I cannot give a count of consecutive years or a first-signing date for the signing partner. The partner is not named in my record. The extracted auditor's report has no signature block, so no name, membership number or signing date. What I can show is firm tenure. B S R & Co. LLP's second term began at the 43rd AGM held 2021-07-23 and was due to end at the 48th AGM. Derived: the year ended 2026-03-31 is the fifth audit of that term. The first term's start is not in my file. Partner tenure and firm tenure are different counts.
+
+MOVE: not in my record | mitigate
+
+EVIDENCE:
+- "Subsequently, B S R & Co. LLP, Chartered Accountants were re-appointed as the Statutory Auditors of the Company for a second term of 5 (five) consecutive years, to hold office from the conclusion of the 43rd AGM held on July 23, 2021, till the conclusion of the 48th AGM to be held in financial year 2026." (S027, p201, Board's report (company filing))
+- "Accordingly, their second term ends at the ensuing 48th AGM." (S027, p201, Board's report (company filing)). The same page records a recommended successor firm for 5 years. I do not quote that line.
+- The auditor's report for the year ended 2026-03-31 is unmodified, per the Board's report (S027, p201, not quoted). That is about the opinion, not about the partner.
+- A search of my FY26 statements for partner, membership number, UDIN and first signing found nothing. No partner rotation statement is in my T08 section on auditors.
+- Not in my record: the engagement partner's name, first-signing date, any rotation date, or the Companies Act limit on partner tenure. This is a company-level question, since the sixth row of the governance subsidiary table at PDF page 268 shows Syngene's auditor is also B S R & Co. LLP, but I hold no partner data for it either.
+
+STATE I CLAIM: not in my record
+
+WHAT WOULD SETTLE IT: the signature block of the auditor's report for the year ended 2026-03-31, with partner name, membership number and UDIN. Then the same block from each earlier year, to find the first year that partner signed. The date of the audit committee or board note on partner rotation would also settle it. Unchecked here: whether the partner changed in the second term, and whether the new successor firm's partner is a continuation.
+
+
+### Judge note
+
+STORY SO FAR:
+1. BSR's subsidiary-auditor resignation was announced 2026-08-06; reasons, receipt date and hours are not in the record. (case book ch6; A1)
+2. Five of nine directors were independent at 2026-03-31, and all three Audit Committee members are independent. (case book ch4; A2)
+3. BSR's parent term ends at the 48th AGM; the signing partner's name and tenure are not in the record. (ch4 AR p201; A3)
+
+WHY-CHAIN:
+1. Claim: the exit has a filing date, but no reasons, receipt date or hours. Because the feed row dated 2026-08-06 says BSR resigned as auditor of "the material subsidiary" w.e.f. 2026-08-06, names no subsidiary and gives no time (case book ch6). The convict holds no copy (hearing I9 A1). The 24-hour test needs two timestamps; none is on record.
+2. Claim: the parent's auditor change is a term end, not a resignation. Because the second BSR term runs from the 43rd AGM (2021-07-23) to the 48th AGM (2026-08-06), and a successor was recommended for five years (case book ch4 AR p201; ch8 I7). Whether the same-day subsidiary exit is linked: not in the record.
+3. Claim: 5 of 9 directors were independent at 2026-03-31, which is 55.6% (5 / 9, derived). Because the Board's and governance reports both say 2 executive, 2 non-executive non-independent, 5 independent (hearing I9 A2, S027 p199, p249, code verified), and the printed list names five (case book ch4, AR p188). Menon is named there, so no elimination is needed.
+4. Claim: independence rests on the board's own declarations, but some start dates are visible. Because S027 p250 is the board confirming its own directors (hearing A2). The feed shows appointments: Kidwai 2022-04-28, Menon 2023-07-26, Haggar announced 2023-09-01, Dhawan 2024-05-16 (case book ch6). The convict held none. Parikh's start, ties and pay: not in the record.
+5. Claim: the firm has served two five-year terms, ten years, but partner tenure is unknown. Because BSR was appointed at the 38th AGM in 2016 for five years, then again from 2021-07-23 (case book ch4, AR p201): 2016 to the 2026 AGM is ten years (derived). FY26 is the fifth audit of the second term (derived, convict agrees).
+
+I DID NOT UNDERSTAND:
+1. Which subsidiary: the feed row says only "the material subsidiary"; the convict's table lists BSR for Biocon Biologics and Syngene (A1, S027 p268), so I do not know which is meant or why it is "material".
+2. What the separate "Change in Auditors" row dated 2026-08-06 is, beside the resignation row that same day (case book ch6). Not in the record.
+3. What the 24-hour rule says and when its clock starts. S053 is not in the record, so I could not check it.
+4. A2's "five more independent appointments recommended from August 1, 2026": no id, and the feed shows only two unnamed director-change rows (2026-07-22, 2026-08-06). I could not check it.
+5. A2's "Haggar 5 of 5 Audit Committee meetings" is not in the case book, which holds only his 10 of 12 board meetings. I could not check it.
+6. How partner rotation differs from firm rotation, and the legal limit on each. Not in the record.
+
+STATE PROPOSED:
+Q1 no data: no receipt date, filing time or hours are on record, and the convict named the settling documents (the exchange filing with its timestamp, the BSR letter, the board minute). The parent term-end facts concern a different company and give no hours, so this is not partial.
+Q2 answered: 5 of 9, as of 2026-03-31, with quotes (S027 p199, p249) that agree with the printed list in case book ch4. Independence rests on the board's own declarations; ties and tenure are not tested.
+Q3 partial: the asked item (partner years, first-signing date) is not in the record. The convict gave firm tenure on a different basis with dates: second term from 2021-07-23, FY26 the fifth audit of it (derived, I agree). The convict said the first term's start is not in its file, but the case book prints 2016 (ch4 AR p201).
+
+ASK NEXT:
+1. Why did BSR resign as auditor of the material subsidiary on 2026-08-06, the same day as the 48th AGM, and which subsidiary was it? What reasons did BSR give, and on what date did the board get them?
+2. Why does your extract of the FY26 auditor's report have no signature block? What name and first-signing year show in the signed report and in the earlier years' reports?
+
+### WA1 Convict
+
+ANSWER: As of the exchange feed row dated 2026-08-06, my record does not say why B S R & Co. LLP resigned. It does not say which subsidiary was meant, what reasons were given, or when the board received them. The case book row says only that Biocon told the exchange of the resignation of B S R & Co. LLP as statutory auditor of "the material subsidiary", effective 2026-08-06. It names no subsidiary and gives no reasons. My annual report year ended 2026-03-31, so this event falls after it. I cannot say whether the resignation and the 48th AGM on the same day are linked.
+
+MOVE: not in my record | concede
+
+EVIDENCE:
+- Feed row dated 2026-08-06, read from the case book, not quoted: it gives no subsidiary name, no reasons and no time. A separate "Change in Auditors" row carries the same date and no detail.
+- "There has been no resignation of the statutory auditors during the year." (S027, PDF page 278, independent auditor's report, the auditor's words). This covers the parent, for the year ended 2026-03-31, and so predates the event.
+- The governance table lists B S R & Co. LLP as auditor of Biocon Biologics Limited and of Syngene International Limited (filed table, S027, PDF page 268, not quoted). It does not say which one is "material".
+- Searches of statements-ar-fy26.md, votes.md and qa-states.md for resign, BSR and auditor found no subsidiary auditor resignation, no reasons and no board receipt date. In votes.md, auditor matches for the 48th AGM meeting dated 2026-08-06 are cost auditors only (filed table, not quoted).
+
+STATE I CLAIM: not in my record
+
+WHAT WOULD SETTLE IT: The exchange filing that carried B S R & Co. LLP's reasons, with its timestamp. Also the date printed on the firm's resignation letter, and the board minute or intimation giving the receipt date. Unchecked here: the subsidiary's identity, and any link to the parent's term end at the 48th AGM.
+
+### WA2 Convict
+
+ANSWER: As of the annual report year ended 2026-03-31, my record holds no signature block, no partner name and no first-signing year, for FY26 or for earlier years. I cannot say why the block is missing. My FY26 file is a set of 485 statements picked from the report's prose (as of that year end). It is not the full text of the signed report. So the block may be on the page and simply not in my file. I cannot tell which. I have not seen the signed report.
+
+MOVE: not in my record | concede
+
+EVIDENCE:
+- FY26 file (S027), searched for partner, membership, UDIN, signed by and signature: no hit in the auditor's report. The only registration number is the recommended successor firm's, in the Board's report (S027, PDF page 201, company filing, not quoted).
+- FY25 file (S031) and FY24 file (S030), searched for partner, membership, UDIN and signed by: no auditor-partner name in either. Hits are about "partner" in a business sense and directors retiring by rotation.
+- The FY25 and FY24 files each have a heading on auditor name, tenure, fees and rotation (S031 and S030). The searches found no partner name under either.
+- I did not read the FY22 or FY23 files (S028, S029) in this call. They are unchecked for partner names.
+
+STATE I CLAIM: not in my record
+
+WHAT WOULD SETTLE IT: the signed auditor's report in the annual report for the year ended 2026-03-31, last page of the report, with partner name, membership number and UDIN. Then the same page from each earlier report, to find the first year that name appears. Unchecked here: whether the block is in the PDF and was dropped by the extract, and the partner's first-signing year.
+
+### Judge close
+
+STORY SO FAR:
+1. BSR resigned as auditor of an unnamed material subsidiary on 2026-08-06; reasons, receipt date and hours: not in the record. (ch6; I9 WA1)
+2. Five of nine directors were independent at 2026-03-31, as were all three Audit Committee members. (ch4 AR p188; I9 A2)
+3. BSR has been Biocon's auditor for ten years in two terms; the signing partner is not in the record. (ch4 AR p201; I9 WA2)
+
+WHY-CHAIN:
+1. Claim: the exit is dated but unexplained. Because the feed row dated 2026-08-06 says BSR resigned as auditor of "the material subsidiary", with the year cut off in the text, no name and no time (ch6). The convict gives no reasons or receipt date (I9 A1, WA1). The 24-hour test needs two timestamps: not in the record.
+2. Claim: the parent's auditor change is a planned term end. Because BSR's second term runs from the 43rd AGM (2021-07-23) to the 48th AGM, and a successor was recommended for five years (ch4 AR p201). Feed rows headed "Change in Auditors" are dated 2026-05-07 and 2026-08-06 (ch6). Link to the subsidiary exit: not in the record.
+3. Claim: 5 of 9 directors were independent at 2026-03-31, 55.6% (derived). Because the Board's and governance reports both say 2 executive, 2 non-executive non-independent, 5 independent (I9 A2; S027 p199, p249, code-matched), and the printed list names five, including Menon (ch4 AR p188). The "149" in A2 is a Companies Act section number, not a figure.
+4. Claim: independence rests on the board's own word; start dates are partly visible. Because S027 p250 is the board confirming its directors (I9 A2). The feed shows Kidwai appointed 2022-04-28, Menon 2023-07-26, Haggar 2023-09-01 (announced), Dhawan 2024-05-16 (ch6). Parikh's start, ties and pay: not in the record.
+5. Claim: firm tenure is ten years; partner tenure is not known. Because BSR was appointed in 2016 for five years, then again from 2021-07-23 (ch4 AR p201): ten years, and FY26 is the fifth audit of the second term (both derived). The convict's file is 485 picked statements, not the signed report (WA2). Partner: not in the record.
+
+I DID NOT UNDERSTAND:
+1. Which subsidiary "the material subsidiary" is, and why it counts as material. The convict's table lists BSR for both Biocon Biologics and Syngene (S027 p268).
+2. What the second "Change in Auditors" row, dated 2026-08-06, is, beside the resignation row of the same day. I also cannot tell whether the 2026-05-07 row is the successor recommendation. Not in the record.
+3. What the 24-hour rule says and when its clock starts. S053 is not in the record, so I could not check it.
+4. A2's "five more independent appointments recommended from August 1, 2026" and Haggar's 5 of 5 Audit Committee meetings. Neither has an id I can check, and neither is in the case book. The feed shows only two unnamed director-change rows (2026-07-22, 2026-08-06).
+5. How partner rotation differs from firm rotation, and the legal limit for each. Not in the record.
+6. Whether the missing signature block was dropped by the convict's extract or is absent from the report. WA2 says it cannot tell.
+
+STATE PROPOSED:
+Q1 no data (unchanged): no receipt date, filing time or hours are on record. WA1 gave no new basis and conceded; the parent term-end dates concern another company and give no hours.
+Q2 answered (unchanged): 5 of 9 at 2026-03-31, with code-matched quotes (S027 p199, p249) that agree with the printed list in ch4. Independence rests on the board's declarations; ties and tenure are untested, and the post-August 2026 count is not in the record.
+Q3 partial (unchanged): partner years and first-signing date are not in the record, and WA2 confirms the convict's file cannot show them. Firm tenure is given on a different basis with dates (second term from 2021-07-23, FY26 the fifth audit). The convict says the first term's start is not in its file, but ch4 prints 2016.
+
+WATCH:
+1. The exchange filing that carried BSR's reasons for the 2026-08-06 exit, with its timestamp. Also the date on BSR's letter, the board minute giving the receipt date, and the 24-hour rule text (S053). These would settle Q1. The feed already runs to 2026-10-29, but the document behind the row has not been read.
+2. The signature block of the FY26 auditor's report (partner name, membership number, UDIN), then the same block for FY22 to FY25. This would settle Q3. The successor firm's first signing comes after the 48th AGM (2026-08-06), and its date is not in the record.
+3. The documents behind the "Change in Director(s)" rows of 2026-07-22 and 2026-08-06, the skills table at AR p35, and Parikh's appointment record. They would test the "five more independent appointments" claim and the ties and tenure of the five. Q2 stays answered either way, because it asked only for the count.
+
+
 ## Cross
 
 ### X1 Lawyer
@@ -986,98 +1563,3 @@ It could not answer four things:
 - What makes up the 24,692 gap in debt due within a year: note (b) on page 404.
 - When the 57,119 extra promoter shares were gained: the insider-trading disclosure.
 - Whether any of the 8,786,362 shares allotted on 2026-06-29 went to promoters: the exchange allotment notice.
-
-## Judge final
-
-### Judge final
-
-SECTION SCORES:
-- S1 | 2 | states: Q1.1 partial, Q1.2 partial, Q1.3 partial | WHY: Management gave no group margin or revenue guide, but it did give dated segment targets with numbers (Generics 10% to 12% and 13% to 14%, said 2025-01-31), and it conceded the Generics miss, so the Chair's no-guidance rule gives 2 and no more (hearing I3 A1, A2, A3, WA2).
-- S2 | 0 | states: none | WHY: no data, not heard
-- S3 | 0 | states: none | WHY: no data, not heard (the cash questions came up only in the baseline, B09 to B11, and issue I5 was not heard)
-- S4 | 1 | states: Q4.3 partial, Q4.1 partial, Q4.2 partial | WHY: The notes say every covenant was met in the year to 2026-03-31, but there is no threshold, no ratio, no debt target, and the 24,692 million gap between two filed tables for debt due within a year at 2026-03-31 is still open (hearing I6 A1 to A3, WA1, X2 XA2).
-- S5 | 0 | states: none | WHY: no data, not heard
-- S6 | 1 | states: Q6.1 partial, Q6.2 partial, Q6.3 partial | WHY: Dilution is well explained with dated share counts and nothing is pledged on the filed flags, but the pledge count cell is blank, no depository or lender record was read, and the trade date for the +57,119 promoter shares is missing (hearing I8 A1 to A3, XA3, XA4).
-- S7 | 0 | states: none | WHY: no data, not heard (auditor and board points came up only in the baseline, B23 and B25, and issue I9 was not heard)
-
-DIRECTION: mixed
-
-DIRECTION WHY:
-- Profit, the full year: profit to owners fell from 10,133 million (FY25) to 3,856 million (FY26), because segment profit fell from 17,901 to 8,508 million and net one-off items turned into a 4,029 million charge, with lower tax and a minority swing offsetting part of it. The 4,029 and the tax and minority figures are the convict's own filed-derived numbers, not case book cells. The segment profit totals are filed. The Board's report figure of 3,688 million for profit including minority holders agrees with that bridge (case book s3 Full year; hearing B07; S027 p190).
-- Profit, why segments fell: Generics went from a profit of 1,755 to a loss of 1,348 million, Biosimilars from 11,961 to 5,876, and CRDMO from 6,279 to 4,875 (FY25 to FY26). The only dated causes on record are management's own: Generics profit down 32% for nine months on new-factory costs (S012, held 2026-02-13), and no repeat of FY25 one-off benefits such as Lenalidomide (S027 p241). The cause for Biosimilars is not in the record (case book s3 segment results; hearing B02, B19).
-- Profit, the latest quarter: operating profit rose 13.1% to 8,472 million in the quarter ended 2026-06-30, and the margin was 19.5% against 19.0% a year earlier (case book s3 Filed quarters, derived). That is a better sign than the full year, but it is one quarter.
-- Growth: revenue rose about 10.9% (derived) to 169,270 million in FY26 and 10.0% in the quarter ended 2026-06-30, but the March 2026 quarter grew only 2.3% (case book s3). The split between price and volume is not in the record (hearing B01).
-- Growth, by segment: Biosimilars rose from 24,578 to 28,556 million between the June 2025 and June 2026 quarters. Services fell 15.8% (8,745 to 7,360 million), and the rename did not cause it. Management points to lower demand from one large biologics client (hearing I3 WA2 on Services; S014, held 2026-08-06; case book s3 Segments).
-- Cash, for context: operating cash fell to 19,940 million (FY26) from 40,612 (FY25), and the working capital bridge is not on record (case book s3; hearing B09).
-- Outside evidence (E001, E002, 2026-04-08 and 2026-08-26) says generics and biosimilars are excluded from US Section 232 tariffs for now and FDA draft rules may ease biosimilar studies. This is context only and did not move any score or the direction.
-Profit fell hard in FY26 but the newest quarter improved, and growth is uneven, so the word is mixed.
-
-RED FLAGS:
-- Q4.3 | 44.2% of borrowings fall due within one year at 2026-03-31 (30.1% at 2025-03-31) on the maturity table, but only 27.5% on the balance sheet; the 24,692 million gap between the two tables is unexplained, and no reason is stated | case book s3 and s5; hearing I6 A1, X2 XA2
-- Q4.3 | Covenants are called complied with, but no threshold, no actual ratio and no undrawn committed lines are printed, so headroom cannot be checked | case book s5; hearing I6 A1
-- Q1.1 | Generics margin was guided at 10% to 12% on 2025-01-31 and the deck shows 5% for FY26; the convict conceded the miss and gave new-plant costs as the reason (a stated reason, so a lighter flag) | hearing I3 WA2 (S008, S025)
-- Q6.3 | The +57,119 rise in promoter shares between 2026-03-31 and 2026-06-29 has no trade date, mode or reason on record; the case book lists an allotment of 8,786,362 securities on 2026-06-29 that the convict does not hold | hearing I8 A3, XA3, XA4; case book s4 and s6
-
-POSITION: Wait | REASON: No gate stands from the record and price and results are on file, but trust is 4 of 21 (2+0+0+1+0+1+0), far below the 12 needed, and four of seven sections were not heard, so the rule gives Wait; the bands are this seat's own and untested.
-
-READER NOT OWN: Wait | what would change it: a heard answer on the 24,692 million debt gap and on covenant headroom, plus the quarter ended 2026-09-30 results, and a hearing of the unheard issues (profit quality, cash, related parties, board), would be needed before it could rise.
-
-READER OWN: hold and watch | what would change it: a covenant problem at the 2026-09-30 test, a larger unexplained debt gap, or a promoter share trade with no explanation would move it toward reduce; a clean reconciliation and a better Generics margin on one basis would support staying.
-
-TRIGGERS:
-1. Results and call for the quarter ended 2026-09-30 (about mid November 2026, date unchecked) | check: gross and current borrowings against the maturity table, finance costs against 2,132 million in the quarter ended 2026-06-30, and Generics margin on the new basis | moves: either
-2. The note (b) text under the maturity table (PDF p404) and note (d) on the Senior Secured Notes (PDF p376) of the annual report to 2026-03-31, or any disclosed result of the 2026-09-30 covenant test | check: what makes up the 24,692 million and whether covenant headroom is stated | moves: either
-3. The exchange allotment notice of 2026-06-29 and any insider-trading disclosure for the +57,119 promoter shares | check: who got the shares, the date and the mode | moves: either
-
-NOT DECIDED:
-- price against value
-- the reader's own situation
-- anything after the as-of dates (calls to 2026-08-06, filed quarters to 2026-06-30, annual report to 2026-03-31, shareholding to 2026-09-30, price to 2026-10-23)
-- the seven unheard issues I1, I2, I4, I5, I7, I9 and I10: earnings quality, cash and working capital, related parties, board and auditors are not scored
-- covenant thresholds, actual ratios and headroom: not in the record
-- undrawn committed credit lines: not in the record
-- the 2026-09-30 covenant test result and gross borrowings at 2026-09-30: not in the record
-- the make-up of the 24,692 million gap and note (b): not in the record
-- who got the +57,119 promoter shares and the 2026-06-29 allotment (8,786,362 securities per the case book): not in the record
-- the pledge count cell (blank since 30-JUN-2025), depository records and lender documents: not in the record
-- the FY2022 promoter declaration wording: not in the record
-- FII and DII flows and large investor names: not in the record
-- price and volume split of revenue, and a quarterly cost bridge: not in the record
-- the Q1 FY27 deck (S025) restated Generics margins and the size of the moved cross charge: not in the record
-- the answer states in qa-states.md are one model's reading (23 of 30 agreed, bar 24): weaker evidence
-
-STORYLINE:
-1. Biocon sells medicines in three reported segments, Biosimilars, Generics and CRDMO (Syngene), and total income for FY26 was 172,695 million rupees (case book s1, s2; AR p6).
-2. Revenue from operations rose about 10.9% (derived) to 169,270 million in FY26, but profit to owners fell to 3,856 million from 10,133 million (case book s3 Full year).
-3. The fall came from segment profit halving to 8,508 million and a net one-off charge of 4,029 million (convict's derived figure), with Generics turning to a loss of 1,348 million (hearing B07; S027 p190).
-4. Management gave no group margin or revenue guide, only segment targets, and the Generics 10% to 12% margin guide of 2025-01-31 was missed (5% for FY26, conceded) (hearing I3 A1, A2, WA2).
-5. The latest quarter, ended 2026-06-30, looks better: operating profit up 13.1% to 8,472 million and margin 19.5% against 19.0% (case book s3).
-6. Cash from operations fell to 19,940 million from 40,612 million while stock rose to 60,857 million, and the working capital bridge is not on record (case book s3; hearing B09, B10).
-7. Gross borrowings fell 16.5% to 148,247 million at 2026-03-31, but 65,476 million falls due within a year on the maturity table against only 40,784 million current on the balance sheet, a 24,692 million gap nobody explained (case book s3, s5; hearing I6 WA1, XA2).
-8. The notes say all covenants were met and no difficulty is expected at the 2026-09-30 test, but no threshold or ratio is printed, so headroom is unknown (case book s5; hearing I6 A1).
-9. The promoter share fell from 60.64% to 44.68% because new shares were issued (two QIPs and one share swap for Biocon Biologics), the promoter count moved only +57,119, and the pledged flag is false in all 25 filings, though the pledge count cell is blank (case book s4; hearing I8 WA3, A1).
-10. The reason for the +57,119 promoter shares and the 2026-06-29 allotment is not on record, and the heard issues cover only three of ten, so the record is thin (hearing I8 XA3, XA4; case book s8).
-
-GLOSSARY:
-- Guidance: a number or range a company says it expects to reach.
-- Segment: one of the main businesses inside a company, reported with its own numbers.
-- Operating profit and margin: sales left after running costs, and that as a percentage of sales.
-- Profit to owners: the part of profit that belongs to the listed company's own shareholders.
-- One-off item (exceptional): a gain or cost not expected to repeat.
-- Covenant: a promise to a lender, such as keeping debt below a limit; breaking it can let the lender ask for money back early.
-- Headroom: how far a company is from breaking a covenant.
-- Maturity table: a table showing how much debt must be repaid in each time period.
-- Current borrowings: debt that the balance sheet shows as due within a year.
-- Undrawn line: a loan facility the bank agreed but the company has not used.
-- Promoter: the founding person or family that controls the company.
-- Pledge: shares put up as security for a loan.
-- Dilution: a holder's percentage falling because more shares were created, not because they sold.
-- QIP (qualified institutional placement): new shares sold to large institutions.
-- Preferential issue: new shares sold to chosen buyers at an agreed price.
-- Cross charge: a shared cost that is moved between segments in the books.
-- EBITDA: a company's own measure of operating profit, which may differ from the filed figure.
-- Not in the record: the sources read do not say it. It is a gap, not a finding.
-
-WHY THE DEFENCE HELD OR DID NOT: The defence held up fairly well on what it did say, but it left several gaps. The convict stayed inside its record, gave numbers with dates where it had them (I6 A1 to A3, I8 A1, WA3), corrected itself when shown wrong (I8 WA3 on the June 2025 issue, XA1 on the 73,597 million notes, XA3 on the 2026-06-29 allotment), and conceded the Generics margin miss and the late liraglutide approval (I3 WA2, opening). That is why S1, S4 and S6 are not zero. But every core question in those three sections stayed partial: there was no group guide, no debt target or covenant headroom (I6 A1 to A3), no lender or depository record for pledge (I8 A1, A2), and no reconciliation of the 24,692 million debt gap (I6 WA1, XA2). On the +57,119 promoter shares the convict said "not in my record" three times (I8 A3, XA3, XA4) and could not explain a 313,694 share difference from the case book allotment (XA3). Several answers lean on the convict's own readings (the 7% against 8% Generics margin basis, the "kept" and "still open" scoring, one model's Q&A states), which the guard flagged as weaker, so I gave them less weight. Because seven issues were never heard, four sections score zero by rule, and the low trust total of 4 reflects thin evidence rather than a finding about the company.
-
-This is a simulation built from public filings. It is not advice and not a SEBI-registered adviser.
