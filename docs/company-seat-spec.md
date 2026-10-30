@@ -66,3 +66,5 @@ Stay as written in `council-biocon.md`: the seat is not Biocon or an executive; 
 ## 7. Cannot say yet
 
 Whether prose extraction reaches table-level accuracy, whether the NSE shareholding, governance and related party endpoints are reachable from the VPS, and how the same builder behaves on a company with no earnings call transcripts. The spec's pilot is BIOCON only.
+
+**Update 2026-10-30:** the NSE shareholding, announcements and results endpoints ARE reachable from a cloud session (Chrome-like User-Agent, a Referer of the NSE site, and `curl --http1.1` for the archive host); there is no related party filing in the feed after 2023-11-10. The full list of documents read for BIOCON, how each was read, and the traps, is `docs/company-seat-onboarding-checklist.md`; keep it current for every new document type.
