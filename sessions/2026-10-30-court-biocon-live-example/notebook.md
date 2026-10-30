@@ -57,3 +57,42 @@ ASK NEXT
 2. Why did Services fall to 7,360 in June 2026 from 8,745 a year earlier? How much of that is the rename and cross charge basis change, and how much is real? Why was Generics 10,475 in the March 2025 quarter?
 3. Why did the promoter share fall from 60.64% to 54.45% at the 19-JUN-2025 filing? What shares were created then (about 136 million, derived), and who got them?
 
+
+=== I8 judge note ===
+JUDGE NOTE ON I8 (Promoter holding, pledge, dilution and pay). I read the case book, work/I8.md, notebook.md and work/baseline-extra.md. No brain.
+
+Code checks: every quote with an id in the convict's I8 turns was matched to the convict's brain by code (verified by code). The 57,119 in A3 has no date within 80 characters. The dates sit in the same answer's evidence lines (31-MAR-2026, 29-JUN-2026), and I check them against case book ch4 myself: 728,081,295 minus 728,024,176 is 57,119. A3's facts come from S032, which is filed, but the "+57,119" itself is the lawyer's and convict's derived figure, not a filed cell.
+
+STORY SO FAR
+1. Promoter shares moved only +57,119 in five years, but the promoter percentage fell 60.64 to 44.68 because total shares rose 35.7% (case book ch4, derived).
+2. Pledged flag is false in all 25 filings, but the count cell is blank since 30-JUN-2025, so 0% is a reading (hearing I8 A1).
+3. No lender agreement, depository record or insider-trading disclosure is in the record, and pay is not covered in these turns: not in the record.
+
+WHY-CHAIN
+1. Promoter percentage fell 60.64 to 44.68 because the total share count rose, not because the promoter sold. Total: 1,200,567,573 (30-SEP-2021) to 1,629,546,318 (30-SEP-2026), +35.7% (derived). Promoter count 728,024,176 to 728,081,295. (case book ch4 shareholding table; S032)
+
+2. The big step at the 19-JUN-2025 filing (60.64 to 54.45, public 39.15 to 45.37) came from a share issue to institutions. S027 p267 (verified by code): 136,363,635 shares at Rs 330, raising Rs 45,000 million (136,363,635 x 330 = about 44,999.99 million, derived). Promoter count unchanged at 728,024,176. Implied total rose 1,200,567,573 to 1,337,050,828, +136,483,255, so 119,620 shares are unexplained (derived). Allottees: not in the record. (hearing WA3; S032)
+
+3. Two more steps came in January 2026. Promoter % went 54.45 to 48.27 (05-JAN-2026) to 44.91 (14-JAN-2026). Implied total went 1,337,050,828 to 1,508,233,221 to 1,621,073,650, +284,022,822 (derived). The 05-JAN issue raised no cash, as the shares were the price paid for BBL (hearing B08, S027 p191). Cause of the 14-JAN step: not in the record. (case book ch4)
+
+4. Nothing is pledged on the flags, but the evidence is thin. Pledged flag false in 25 filings (30-SEP-2021 to 30-SEP-2026). The pledged-share count is printed 0 up to 19-JUN-2025 and blank from 30-JUN-2025. Non-disposal and other-encumbrance flags are false from 30-JUN-2025. The promoters' own declaration covers the year to 2026-03-31 only, read by eye with no tier. It says nothing for 2026-04-01 to 30-SEP-2026. (hearing I8 A1, A2; S032; S037)
+
+5. The +57,119 rise is bounded but not explained. Promoter count was 728,024,176 on 31-MAR-2026 and 728,081,295 on 29-JUN-2026. The percentage still fell 44.91 to 44.68 because total shares rose 8,472,668 (1,621,073,650 to 1,629,546,318, derived). Cause, mode, trade date and any plan: not in the record. I accept the convict's challenge that "purchase" is not established. (hearing I8 A3; S032)
+
+I DID NOT UNDERSTAND
+1. Why is the pledged-share count blank after 19-JUN-2025? Is blank nil, not applicable, or not filled? The filing shape changed at 30-JUN-2025, when two new flags appeared.
+2. What triggers an "event-driven" shareholding filing dated mid-quarter (19-JUN-2025, 05-JAN-2026, 14-JAN-2026, 29-JUN-2026)?
+3. What does a "non-disposal undertaking" mean in plain words, and who is it given to?
+4. The convict calls the Regulation 31(4) wording "wider than a pledge". I do not know in what way.
+5. What explains the 119,620 extra shares in June 2025? The convict said he did not read it as employee options, so I do not know what it is.
+6. The I8 title includes pay. Nothing in Q6.1 to Q6.3 or the I8 answers covers pay. I do not know if it was asked elsewhere.
+
+STATE PROPOSED
+Q6.1 partial: 0% is derived from false flags at 30-SEP-2026 (S032, filed 21-OCT-2026), and the count cell is blank. The basis is the company's flags plus the promoters' own declaration to 2026-03-31. No depository record or date was given.
+Q6.2 partial: a quantity of 0 shares is given for 30-SEP-2026, but on the same flag basis. The lender agreements, any trigger price and any cover are not in the record. The convict rightly refused to turn "nothing filed" into "nothing exists".
+Q6.3 partial: the basis is shareholding filings that bound the change between 31-MAR-2026 and 29-JUN-2026. The trade date, mode and any trading plan are not in the record (no insider-trading disclosure held). It is only a window, not the date asked for, and the core of the question is unanswered.
+
+ASK NEXT
+1. Why did promoter shares rise 57,119, and why did total shares rise 8,472,668, between 31-MAR-2026 and 29-JUN-2026? Was either an allotment, a transfer or a gift, and which filing says so?
+2. Why did total shares rise from 1,508,233,221 to 1,621,073,650 (+112,840,429) at the 14-JAN-2026 filing, and who got the shares?
+
