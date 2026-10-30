@@ -199,3 +199,41 @@ WATCH
 
 SCORE THINKING (S6 promoter): All three core states are partial, so the ladder gives 1 (partial, or a flag with no stated reason). 2 needs answered numbers with a dated source, and none of Q6.1 to Q6.3 reaches that. I would score S6 at 1. No red flag fires: the dilution is explained with dated, filed share counts and promoter shares did not fall. The 1 is a firm one because the gaps are missing documents (depository, lender, PIT), not evasion. The code ceiling is 1 and I do not go above it.
 
+
+=== I6 judge close ===
+JUDGE NOTE ON I6 Debt, maturities and covenants (closing, after WA1 and WA2)
+
+Code checks: every quote with an id in the convict's I6 turns, WA1 and WA2 included, was matched to the convict's brain by code (verified by code). The 381 in A1 (S026, pages 346 and 381) has no date beside it. I read it as a page number, so no claim rests on it. My own figures are derived, with inputs shown: 3.6, 10,067, 19,241, 1,375, 11,483, 191 and the Q-by-Q finance cost split.
+
+STORY SO FAR
+1. Gross borrowings fell 16.5% to 148,247 million, yet 44.2% fall due within a year, up from 30.1% (derived). (case book ch5; hearing A1)
+2. Covenants were met all year per the notes, with no breach, waiver or on-demand borrowing stated, but no threshold or ratio is printed, so headroom cannot be checked. (S027 p377, S038 pp 377-378; hearing A1, WA1)
+3. Equity paid for the debt cuts (two QIPs, nearly $1 billion, S012 held 2026-02-13), and Goldman, Kotak and Edelweiss are named, but no target, ceiling or loan amounts are given. (hearing WA2, A2, A3)
+
+WHY-CHAIN
+1. Claim: covenant compliance is on the record as words only. Because the notes say the group complied with all covenants throughout the year to 2026-03-31, and WA1 found no breach, waiver, acceleration or repay-on-demand borrowing in the text the convict holds (S027 p377, verified by code; case book ch5). That is absence in a text read by hand, not proof. The auditor's "no default" line covers the Company only (S027 p277). No threshold or ratio exists, so headroom is `not in the record`.
+2. Claim: a rough leverage figure exists but cannot be tested. Because net debt 124,082 (148,247 minus cash 24,165, at 2026-03-31) over four summed filed operating profits 34,381 is about 3.6 turns (derived by me, case book ch3). The covenant definitions are in the facility agreements, so 3.6 has nothing to be set against.
+3. Claim: the 29,308 fall (177,555 to 148,247, derived) was paid for by equity, not by free cash, but the split is not shown. Because free cash was 1,961 and cash fell 8,106 (together 10,067), and management says the money was the QIPs: INR 4,500 crores in the first (S010 held 2025-08-08, management's figure, not filed) and "nearly $1 billion" over two (S012). The first QIP alone, 45,000 million, is larger than the whole net fall, so the equity did not all go to debt. Where the rest went is not in the record. The fall is also net: if the working capital loan row read 14,732 against 3,249 (the convict's reading of the columns), short loans rose 11,483 (derived), so repayments were larger than 29,308. Named repaid loans: Goldman (USD 180 million, 5% coupon, S010), Kotak and Edelweiss (S010, S011 held 2025-11-12). Their amounts and rates are not in the record.
+4. Claim: the 929 rise in finance costs is not fully explained by WA2. Because filed quarters (case book ch3) give FY26 less FY25 of +407, +466, -135 and +191, which sums to +929. WA2 names Q1 and Q2 and the Q3 fall, but skips Q4 FY26 (2,315), which was above Q3 (2,099) and 191 above Q4 FY25, even though Edelweiss was meant to show in Q4 (S011). Cause of the Q1, Q2 and Q4 moves: not in the record. The June 2026 quarter, 2,132, is in line with management's INR210 to 220 crores run rate (S013 held 2026-05-08). The INR300 crore yearly saving (S011) cannot yet be tested: one quarter, and no base stated.
+5. Claim: the 24,692 gap between the maturity table (65,476) and current borrowings (40,784) is still open. Because WA1 explains only what sits inside the 40,784: 5,121 current maturities, 14,732 working capital loans, and 20,931 unnamed (40,784 minus 5,121 minus 14,732, derived). That is a different number from the 24,692 gap between two tables. The reclassification note (S027 p364) moves amounts from non-current into current, so it runs the wrong way to close the gap. Cause: not in the record.
+
+I DID NOT UNDERSTAND
+1. Why the maturity table (65,476) is 24,692 above current borrowings (40,784) at 2026-03-31, when they matched in FY25. What the table's own note (b) counts as "due within a year". Not in the record.
+2. What the 20,931 of unnamed current borrowings are.
+3. Which dates the 14,732 and 3,249 belong to. The row has no year header in the quote, the convict only reads it as 2026-03-31 and 2025-03-31. The 20,931 also assumes the row sits inside current borrowings. The Company alone shows 9,750 (S027 p309), and I cannot tell whether that is inside the 14,732.
+4. Why one call says Goldman was repaid with "roughly USD 200 million" and also USD 180 million (S010). Also whether the second QIP is the 14-JAN-2026 share step that my I8 note could not explain. S012 says two QIPs, but no filing links them.
+5. Why Q4 FY26 finance costs (2,315) rose from Q3 (2,099). The case book says the Q3 cell was repaired by identity.
+6. How the six covenant ratios are defined, what "structured instruments" in the $1.1 billion net debt mean (S013), and whether the 2026-09-30 test passed. S027 p377 and S038 pp 377-378 look like the same text under two ids. I treat them as one.
+
+STATE PROPOSED
+Q4.3 partial: filed words that every covenant was met, and no breach or waiver stated (S027 p377, year to 2026-03-31). No threshold, no ratio, no headroom, no 2026-09-30 result. No state changed. WA1 added the absence of a breach, which is not a number. Move (WA1): not in my record, challenge.
+Q4.1 partial: no target or date. WA2 made it stronger: the money (equity, QIPs, S010, S012) and three named loans are on record, with the 929 finance cost rise partly explained. Still no amounts for Kotak and Edelweiss, and no target. State stays partial. Move (WA2): cite, concede.
+Q4.2 partial: no ceiling in turns and no 2026-09-30 ratio. Different basis: the debt-first rule, dollar net debt, and filed maturity and cash figures at 2026-03-31. WA1 and WA2 did not change it.
+
+WATCH
+1. The 24,692 gap and the 20,931: the note (b) text under the PDF p404 maturity table and the note 13 reclassification text in the FY26 annual report. Or the balance sheet for the quarter ended 2026-09-30 (about mid November 2026, date unchecked).
+2. Covenant headroom: a lender compliance certificate or the company's own disclosure of the 2026-09-30 test result (nothing later than 2026-03-31 is in the record).
+3. Target, loan amounts and the 300 crore saving: the FY26 cash flow financing section, a repayment schedule by lender, and the Q2 FY27 finance cost line (quarter ended 2026-09-30). A stated gross borrowings figure and date from management would settle Q4.1.
+
+SCORE THINKING (S4 debt and funding): all three core questions are partial, and the red flag (44.2% due within a year, up from 30.1%, with a 24,692 gap between two filed tables) has no stated reason. The ladder gives 1 for partial, or a flag with no stated reason. 2 needs numbers answered with a stated flag reason, and 3 needs everything answered. I would score S4 at 1, since the record has money and named loans but no target, ceiling, headroom or reason for the gap.
+
