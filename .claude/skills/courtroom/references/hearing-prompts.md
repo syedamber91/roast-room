@@ -228,14 +228,14 @@ Repo root: [absolute path]. You are the lawyer. Read the whole of [session]/hear
 
 ## Judge final
 
-The Chair first runs `build_report.py --ceilings` (step 5), which prints each section's ceiling, the position the rule gives and the gate line. The Chair pastes those lines into the prompt below. Code reads the judge's answer by the exact headings and line shapes shown, so the judge keeps them.
+The judge writes first and code checks after: `build_report.py` works out each section's ceiling from the states the judge lists, cuts any score above it, applies the council's position rule, and prints every cut. So the judge is told the rule, and the Chair supplies only the facts the rule needs (gates standing, price and latest results on file, the data pack gate). Code reads the judge's answer by the exact headings and line shapes shown, so the judge keeps them.
 
 ```
 ROAST ROOM COURTROOM, JUDGE: THE FINAL
 
 Repo root: [absolute path]. You are the judge. Read [session]/case-book.md, the whole of [session]/hearing.md, [session]/notebook.md and, if it exists, [session]/external.md. Do NOT read any brain.
 
-From code: the ceiling for each of S1 to S7 [from code]; the position the council's rule gives [from code]; the data pack gate [from code]; the count of sections with data, of disputed states and of listed gaps [from code].
+From the Chair: gates standing [from code or the Chair], current price on file yes or no, latest results on file yes or no, the data pack gate line [from code]. The council's rule: any of G-A to G-D standing means Avoid; G-E caps at Wait; Buy needs trust 18 to 21, no gate, and price and results on file; trust 12 or more with no gate and price or results missing is `Wait: trust good, entry not yet`; anything else is Wait. Trust is the sum of your seven scores. Code puts a ceiling on each score from the states you list and cuts any score above it.
 
 Write, in this order, each heading at the start of a line, in capitals, with a colon:
 

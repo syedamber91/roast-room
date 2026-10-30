@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Courtroom Case Page</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitter:wght@500;700&family=Source+Sans+3:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+
+/* Layout: a court docket. Sticky tab strip, one decision card on top, then exhibits (charts) in a two-column grid, then the hearing, then the storyline. */
+:root {
+  --bg: #eceff3;
+  --surface: #fafbfc;
+  --ink: #131d2b;
+  --muted: #566274;
+  --line: #d0d7e0;
+  --accent: #0e5a6b;
+  --accent-soft: #d6e9ee;
+  --good: #2b7a4b;
+  --warn: #b27a10;
+  --bad: #b03a3a;
+  --neutral: #8893a3;
+  --seg-g: #6a7fd0;
+  --seg-b: #0e5a6b;
+  --seg-t: #c98a1c;
+  --sample-bg: #fff4d6;
+  --sample-ink: #6b4a00;
+  --f-display: "Bitter", Georgia, serif;
+  --f-body: "Source Sans 3", system-ui, sans-serif;
+  --f-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e1520; --surface: #172230; --ink: #e5eaf1; --muted: #9ba7b8; --line: #2a3746;
+    --accent: #5cc0d4; --accent-soft: #17323b; --good: #5cc487; --warn: #e0b04a; --bad: #e77878; --neutral: #6e7b8e;
+    --seg-g: #8fa2ee; --seg-b: #5cc0d4; --seg-t: #e0a63a; --sample-bg: #3a2f10; --sample-ink: #f1d58a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e1520; --surface: #172230; --ink: #e5eaf1; --muted: #9ba7b8; --line: #2a3746;
+  --accent: #5cc0d4; --accent-soft: #17323b; --good: #5cc487; --warn: #e0b04a; --bad: #e77878; --neutral: #6e7b8e;
+  --seg-g: #8fa2ee; --seg-b: #5cc0d4; --seg-t: #e0a63a; --sample-bg: #3a2f10; --sample-ink: #f1d58a;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 16px; line-height: 1.5; }
+.wrap { max-width: 1080px; margin: 0 auto; padding-inline: max(16px, env(safe-area-inset-left, 0px)) max(16px, env(safe-area-inset-right, 0px)); padding-block: 20px 56px; }
+h1, h2, h3 { font-family: var(--f-display); text-wrap: balance; line-height: 1.2; margin: 0; }
+h1 { font-size: clamp(1.7rem, 4vw + 1rem, 2.5rem); }
+h2 { font-size: 1.45rem; }
+h3 { font-size: 1.05rem; }
+p { margin: 0; max-width: 68ch; }
+.mono { font-family: var(--f-mono); font-size: 0.82em; }
+.muted { color: var(--muted); }
+.eyebrow { font-size: 0.78rem; letter-spacing: 0.09em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+
+/* page head */
+.head { display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: end; justify-content: space-between; padding-bottom: 14px; }
+.head .asof { display: flex; flex-wrap: wrap; gap: 6px; }
+.pill { font-size: 0.8rem; border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 2px 10px; white-space: nowrap; }
+.sample-banner { background: var(--sample-bg); color: var(--sample-ink); border: 1px dashed var(--warn); border-radius: 6px; padding: 10px 14px; font-size: 0.92rem; }
+.sample-tag { font-family: var(--f-mono); font-size: 0.68rem; background: var(--sample-bg); color: var(--sample-ink); border: 1px dashed var(--warn); padding: 1px 6px; border-radius: 4px; letter-spacing: 0.04em; vertical-align: middle; white-space: nowrap; }
+
+/* tab strip */
+.strip { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: var(--bg); border-block: 1px solid var(--line); margin-block: 14px 20px; display: flex; gap: 6px; align-items: center; overflow-x: auto; padding-block: 8px; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 30; background: var(--bg); }
+.strip a { color: var(--ink); text-decoration: none; font-weight: 600; font-size: 0.9rem; padding: 4px 12px; border-radius: 6px; white-space: nowrap; }
+.strip a:hover, .strip a:focus-visible { background: var(--accent-soft); outline: none; }
+.strip .spacer { flex: 1; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; flex: none; }
+.seg button { font: inherit; font-size: 0.85rem; font-weight: 600; background: var(--surface); color: var(--ink); border: 0; padding: 4px 12px; cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--bg); }
+.seg button:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+
+section { margin-block: 36px; scroll-margin-top: 64px; }
+.sec-head { display: flex; flex-wrap: wrap; gap: 4px 16px; align-items: baseline; margin-bottom: 14px; }
+.sec-head p { color: var(--muted); font-size: 0.95rem; }
+
+/* decision card */
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 18px; }
+.decision { display: grid; gap: 18px; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); }
+@media (max-width: 760px) { .decision { grid-template-columns: minmax(0, 1fr); } }
+.slot { border: 2px dashed var(--warn); border-radius: 8px; padding: 14px; background: color-mix(in srgb, var(--sample-bg) 55%, transparent); }
+.slot .big { font-family: var(--f-display); font-size: 1.5rem; line-height: 1.15; margin: 4px 0 8px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+.chip { display: inline-flex; gap: 6px; align-items: center; font-weight: 700; font-size: 0.86rem; padding: 4px 10px; border-radius: 6px; border: 2px solid; background: var(--surface); }
+.chip.buy { color: var(--good); border-color: var(--good); }
+.chip.wait { color: var(--warn); border-color: var(--warn); }
+.chip.waitgood { color: var(--accent); border-color: var(--accent); border-style: dashed; }
+.chip.avoid { color: var(--bad); border-color: var(--bad); }
+.two { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-top: 12px; }
+@media (max-width: 480px) { .two { grid-template-columns: minmax(0, 1fr); } }
+.mini { border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; background: var(--surface); }
+.mini b { display: block; font-size: 0.82rem; color: var(--muted); font-weight: 600; margin-bottom: 2px; }
+.trig { margin: 8px 0 0; padding: 0; list-style: none; display: grid; gap: 8px; }
+.trig li { display: grid; grid-template-columns: auto 1fr; gap: 10px; align-items: start; }
+.trig .arr { font-size: 1.1rem; line-height: 1.2; width: 1.4rem; text-align: center; font-weight: 700; }
+.nodec { margin: 8px 0 0; padding-left: 1.1rem; font-size: 0.92rem; }
+.nodec li { margin-bottom: 3px; }
+.legend-note { font-size: 0.82rem; color: var(--muted); margin-top: 8px; }
+.sim { font-size: 0.82rem; color: var(--muted); margin-top: 14px; border-top: 1px solid var(--line); padding-top: 10px; }
+
+/* scores */
+.scores { display: grid; gap: 8px; }
+.srow { display: grid; grid-template-columns: minmax(130px, 220px) minmax(0, 1fr) 70px; gap: 8px 14px; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--line); }
+@media (max-width: 560px) { .srow { grid-template-columns: minmax(0, 1fr) 60px; } .srow .bar { grid-column: 1 / -1; order: 3; } }
+.srow:last-child { border-bottom: 0; }
+.srow .nm { font-weight: 600; }
+.srow .nm small { display: block; color: var(--muted); font-weight: 400; font-size: 0.8rem; }
+.bar { position: relative; height: 22px; background: repeating-linear-gradient(90deg, transparent 0 calc(33.333% - 1px), var(--line) calc(33.333% - 1px) 33.333%); border: 1px solid var(--line); border-radius: 4px; }
+.bar .fill { position: absolute; inset: 0 auto 0 0; background: repeating-linear-gradient(135deg, var(--accent) 0 6px, color-mix(in srgb, var(--accent) 55%, var(--surface)) 6px 12px); border-radius: 3px 0 0 3px; }
+.bar .ceil { position: absolute; top: -4px; bottom: -4px; width: 0; border-left: 3px solid var(--ink); }
+.bar .ceil::after { content: "ceiling"; position: absolute; top: -15px; left: -18px; font-size: 0.64rem; color: var(--muted); font-family: var(--f-mono); }
+.pips { display: flex; gap: 3px; margin-top: 4px; }
+.pip { width: 9px; height: 9px; border-radius: 2px; background: var(--neutral); }
+.pip.a { background: var(--good); } .pip.p { background: var(--warn); } .pip.d { background: var(--bad); } .pip.n { background: transparent; border: 1.5px solid var(--neutral); }
+.keyrow { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 0.82rem; color: var(--muted); margin-top: 10px; }
+.keyrow span { display: inline-flex; align-items: center; gap: 5px; }
+
+/* exhibits */
+.grid2 { display: grid; gap: 16px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (max-width: 820px) { .grid2 { grid-template-columns: minmax(0, 1fr); } }
+.ex { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.ex.wide { grid-column: 1 / -1; }
+.ex .tag { display: flex; gap: 8px; align-items: baseline; }
+.ex .tag .mono { color: var(--muted); }
+.look { font-size: 0.92rem; }
+.look b { color: var(--accent); }
+.plot { width: 100%; min-width: 0; }
+.plot svg { display: block; width: 100%; height: auto; overflow: visible; }
+.src { font-size: 0.78rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 6px; }
+svg text { font-family: var(--f-body); font-size: 11px; fill: var(--muted); }
+svg text.val { fill: var(--ink); font-weight: 600; }
+svg text.ax { font-size: 10.5px; }
+svg .grid { stroke: var(--line); stroke-width: 1; }
+svg .domain { stroke: var(--muted); stroke-width: 1; }
+.dots { display: flex; flex-wrap: wrap; gap: 4px; max-width: 360px; }
+.sq { width: 22px; height: 22px; border-radius: 4px; border: 2px solid; }
+.sq.k { background: var(--good); border-color: var(--good); }
+.sq.m { background: var(--bad); border-color: var(--bad); }
+.sq.o { background: transparent; border-color: var(--neutral); }
+.sq.dep { background: repeating-linear-gradient(135deg, var(--warn) 0 4px, transparent 4px 8px); border-color: var(--warn); }
+.lg { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 0.84rem; }
+.lg span { display: inline-flex; align-items: center; gap: 6px; }
+.sw { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+
+/* hearing */
+details.issue { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; margin-bottom: 12px; }
+details.issue > summary { cursor: pointer; padding: 14px 16px; display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; list-style: none; }
+details.issue > summary::-webkit-details-marker { display: none; }
+details.issue > summary::before { content: "+"; font-family: var(--f-mono); font-weight: 700; color: var(--accent); width: 1ch; }
+details.issue[open] > summary::before { content: "−"; }
+details.issue > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; border-radius: 10px; }
+.issue .body { padding: 0 16px 16px; display: grid; gap: 10px; }
+.state { font-size: 0.76rem; font-weight: 700; padding: 1px 8px; border-radius: 999px; border: 1.5px solid; white-space: nowrap; }
+.state.answered { color: var(--good); border-color: var(--good); }
+.state.partial { color: var(--warn); border-color: var(--warn); }
+.state.deflected { color: var(--bad); border-color: var(--bad); }
+.state.nodata { color: var(--muted); border-color: var(--neutral); border-style: dashed; }
+.turn { display: grid; grid-template-columns: 74px minmax(0, 1fr); gap: 10px; }
+@media (max-width: 480px) { .turn { grid-template-columns: minmax(0, 1fr); gap: 2px; } }
+.who { font-family: var(--f-mono); font-size: 0.74rem; font-weight: 600; padding-top: 3px; }
+.who.lawyer { color: var(--accent); } .who.convict { color: var(--seg-t); } .who.judge { color: var(--good); }
+.bub { border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; min-width: 0; }
+.bub.judge { border-color: var(--good); }
+.ev { margin: 8px 0 0; padding: 0; list-style: none; display: grid; gap: 6px; font-size: 0.9rem; }
+.ev li { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 8px; }
+.id { font-family: var(--f-mono); font-size: 0.74rem; background: var(--accent-soft); color: var(--accent); padding: 1px 6px; border-radius: 4px; height: fit-content; white-space: nowrap; }
+.stub { color: var(--muted); font-size: 0.9rem; padding: 0 16px 14px; }
+
+/* story */
+.story { counter-reset: s; margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; }
+.story li { display: grid; grid-template-columns: 1.6rem minmax(0, 1fr); gap: 8px; }
+.story li::before { counter-increment: s; content: counter(s); font-family: var(--f-mono); font-size: 0.78rem; color: var(--accent); padding-top: 3px; }
+dl.gloss { display: grid; gap: 8px 16px; grid-template-columns: max-content minmax(0, 1fr); margin: 0; }
+@media (max-width: 560px) { dl.gloss { grid-template-columns: minmax(0, 1fr); gap: 0; } dl.gloss dd { margin-bottom: 8px; } }
+dl.gloss dt { font-weight: 700; } dl.gloss dd { margin: 0; color: var(--muted); }
+
+[data-level="brief"] .detail { display: none; }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
+
+.sim-banner { background: var(--accent-soft); color: var(--ink); border: 1px solid var(--line); border-radius: 6px; padding: 10px 14px; font-size: 0.92rem; }
+.slot.real { border: 2px solid var(--accent); background: var(--surface); }
+.nodata { border: 1px dashed var(--neutral); border-radius: 8px; padding: 16px; color: var(--muted); }
+.bub .txt { white-space: pre-wrap; font-size: 0.92rem; overflow-wrap: anywhere; }
+
+</style>
+</head>
+<body>
+<div class="wrap" id="page" data-level="full">
+  <header class="head">
+    <div>
+      <div class="eyebrow">Courtroom case page</div>
+      <h1 id="company"></h1>
+    </div>
+    <div class="asof" id="asof" aria-label="Dates the record runs to"></div>
+  </header>
+
+  <div class="sim-banner">A simulation built from public filings. It is not advice and not a SEBI-registered adviser. The position says only how well the defence held up on the record.</div>
+
+  <nav class="strip" aria-label="Sections">
+    <a href="#decision">Decision</a>
+    <a href="#scores">Scores</a>
+    <a href="#exhibits">Exhibits</a>
+    <a href="#hearing">Hearing</a>
+    <a href="#story">Storyline</a>
+    <a href="#checks">Checks</a>
+    <span class="spacer"></span>
+    <span class="seg" role="group" aria-label="How much detail">
+      <button type="button" id="lvl-brief" aria-pressed="false">One page</button>
+      <button type="button" id="lvl-full" aria-pressed="true">Full detail</button>
+    </span>
+  </nav>
+
+  <section id="decision" style="margin-top:0">
+    <div class="sec-head"><h2>The judge's decision</h2><p>Position first, reasons next to it, limits stated.</p></div>
+    <div class="card" id="decisionCard"></div>
+  </section>
+
+  <section id="scores">
+    <div class="sec-head"><h2>Seven trust sections</h2><p>Each score is 0 to 3. Code sets a ceiling from the question states. The judge may go lower, never higher.</p></div>
+    <div class="card">
+      <div class="scores" id="scoreRows"></div>
+      <div class="keyrow">
+        <span><i class="pip a"></i> answered</span><span><i class="pip p"></i> partial</span><span><i class="pip d"></i> deflected</span><span><i class="pip n"></i> no data or unverified</span>
+        <span><i style="width:3px;height:14px;background:var(--ink);display:inline-block"></i> ceiling set by code</span>
+      </div>
+      <div id="directionBox" style="margin-top:14px;display:grid;gap:6px"></div>
+    </div>
+  </section>
+
+  <section id="exhibits" class="detail">
+    <div class="sec-head"><h2>Exhibits</h2><p>Each says what to look at, then shows it. Hover a mark for its number. A missing source says "not in the record" and draws nothing.</p></div>
+    <div class="grid2">
+      <article class="card ex wide"><div class="tag"><span class="mono">EXH 1</span><h3>Sales and operating margin by filed quarter</h3></div><p class="look" id="look1"></p><div class="plot" id="c1"></div><div class="src">Case book, filed quarters, Rs million, consolidated. Margin is operating profit over revenue, derived.</div></article>
+      <article class="card ex wide"><div class="tag"><span class="mono">EXH 2</span><h3>Where the sales come from</h3></div><p class="look" id="look2"></p><div class="lg" id="lg2"></div><div class="plot" id="c2"></div><div class="src">Case book, segments table, Rs million as filed. Do not compare across a dashed line: the segment was renamed or its basis changed.</div></article>
+      <article class="card ex"><div class="tag"><span class="mono">EXH 3</span><h3>Promises kept and missed</h3></div><p class="look" id="look3"></p><div class="dots" id="c3"></div><div class="lg" id="lg3"></div><div class="src">The company seat's scorecard. It counts dated product, segment and capacity statements, not group ranges unless it says so.</div></article>
+      <article class="card ex"><div class="tag"><span class="mono">EXH 4</span><h3>How questions on each call were answered</h3></div><p class="look" id="look4"></p><div class="plot" id="c4"></div><div class="lg"><span><i class="sw" style="background:var(--good)"></i>Answered</span><span><i class="sw" style="background:var(--warn)"></i>Partial</span><span><i class="sw" style="background:var(--bad)"></i>Deflected or declined</span><span><i class="sw" style="background:var(--neutral)"></i>Deferred, no reply, not judged</span></div><div class="src">States are one model's reading, checked by a second model on a sample. Read them as a reading, not a finding.</div></article>
+      <article class="card ex"><div class="tag"><span class="mono">EXH 5</span><h3>When the borrowings fall due</h3></div><p class="look" id="look5"></p><div class="plot" id="c5"></div><div class="src">Annual report maturity table, undiscounted, Rs million. Covenant thresholds and unused credit lines are listed as not in the record unless the checks section says otherwise.</div></article>
+      <article class="card ex"><div class="tag"><span class="mono">EXH 6</span><h3>Promoter stake against shares in issue</h3></div><p class="look" id="look6"></p><div class="plot" id="c6"></div><div class="src">Shareholding filings. The dots on the bottom row are the pledge flag of each filing.</div></article>
+      <article class="card ex"><div class="tag"><span class="mono">EXH 7</span><h3>Highest vote against a related-party deal</h3></div><p class="look" id="look7"></p><div class="plot" id="c7"></div><div class="src">Voting results annexes. Percent of votes polled, not of shares.</div></article>
+      <article class="card ex wide"><div class="tag"><span class="mono">EXH 8</span><h3>What to watch next</h3></div><p class="look">The judge's triggers on a time line. The arrow shows which way each would push the position.</p><div class="plot" id="c8"></div><div class="src">Triggers come only from the not-in-record list and the dated items in the case book and hearing.</div></article>
+      <article class="card ex wide"><div class="tag"><span class="mono">EXH 9</span><h3>Where trust sits against the Buy bar</h3></div><p class="look" id="look9"></p><div class="plot" id="c9"></div><div class="src">Bands are the seat's own, not from any source, uncalibrated.</div></article>
+    </div>
+  </section>
+
+  <section id="hearing" class="detail">
+    <div class="sec-head"><h2>The hearing</h2><p>Every turn as it was written. Open an issue to read it.</p></div>
+    <div id="hearingBody"></div>
+  </section>
+
+  <section id="story" class="detail">
+    <div class="sec-head"><h2>The storyline and the words I had to learn</h2><p>Ten plain lines, each ending in an evidence id or "not in the record".</p></div>
+    <div class="grid2"><div class="card"><h3>Storyline</h3><ol class="story" id="storyList" style="margin-top:10px"></ol></div><div class="card"><h3>Glossary</h3><dl class="gloss" id="glossList" style="margin-top:10px"></dl></div></div>
+  </section>
+
+  <section id="checks" class="detail">
+    <div class="sec-head"><h2>Checks and gaps</h2><p>What the code checks found, and what the record does not hold.</p></div>
+    <div class="grid2"><div class="card"><h3>Checks that need a look</h3><ul class="nodec" id="problemList"></ul></div><div class="card"><h3>Not in the record</h3><ul class="nodec" id="gapList"></ul></div></div>
+  </section>
+</div>
+
+<script type="application/json" id="dash">/*DASHBOARD_JSON*/</script>
+<script>
+window.DASH = JSON.parse(document.getElementById("dash").textContent);
+(function () {
+  var D = window.DASH, X = D.exhibits, DEC = D.decision;
+
+  /* ---------- small helpers ---------- */
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
+  function lin(d0, d1, r0, r1) { return function (v) { return d1 === d0 ? r0 : r0 + (v - d0) * (r1 - r0) / (d1 - d0); }; }
+  function fmt(n) { return Math.round(n).toLocaleString("en-IN"); }
+  var MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  function shortDate(d) { var m = /^(\d{4})-(\d{2})/.exec(d || ""); return m ? MONTHS[+m[2] - 1] + " " + m[1].slice(2) : String(d || ""); }
+  function svg(w, h, inner) { return '<svg viewBox="0 0 ' + w + ' ' + h + '" role="img" width="' + w + '" height="' + h + '">' + inner + '</svg>'; }
+  function nodata(why) { return '<div class="nodata">Not in the record. ' + esc(why) + '</div>'; }
+  function niceMax(v) { var p = Math.pow(10, Math.floor(Math.log10(v))), n = v / p; return (n <= 1 ? 1 : n <= 2 ? 2 : n <= 5 ? 5 : 10) * p; }
+  function mount(id, draw) {
+    var el = document.getElementById(id), last = 0;
+    function run() { var w = Math.max(280, Math.floor(el.clientWidth)); if (w === last) return; last = w; el.innerHTML = draw(w); }
+    run();
+    if (window.ResizeObserver) new ResizeObserver(run).observe(el);
+    window.addEventListener("resize", run);
+  }
+  function setLook(id, html) { document.getElementById(id).innerHTML = "<b>Look at:</b> " + html; }
+  function yGrid(s, m, w, y, ticks, label) {
+    ticks.forEach(function (t) { s += '<line class="grid" x1="' + m.l + '" x2="' + (w - m.r) + '" y1="' + y(t) + '" y2="' + y(t) + '"/><text class="ax" x="' + (m.l - 6) + '" y="' + (y(t) + 4) + '" text-anchor="end">' + label(t) + '</text>'; });
+    return s;
+  }
+  function ticksTo(max, n) { var out = [], step = max / n; for (var i = 0; i <= n; i++) out.push(step * i); return out; }
+
+  /* ---------- header ---------- */
+  document.title = D.company + " court report";
+  document.getElementById("company").textContent = D.company;
+  document.getElementById("asof").innerHTML = D.as_of.map(function (a) { return '<span class="pill">' + esc(a.label) + " " + esc(a.value) + "</span>"; }).join("");
+
+  /* ---------- decision card ---------- */
+  var CHIP = { buy: "buy", wait_good: "waitgood", wait: "wait", avoid: "avoid" }, GLYPH = { buy: "▲", wait_good: "◆", wait: "●", avoid: "✕" };
+  var ARROW = { up: ["↑", "var(--good)"], down: ["↓", "var(--bad)"], either: ["↔", "var(--neutral)"] };
+  function chip(key, label) { return '<span class="chip ' + CHIP[key] + '">' + GLYPH[key] + " " + esc(label) + "</span>"; }
+  (function () {
+    var pos = DEC.position, why = DEC.rule_position.reasons.join(" ");
+    var left = '<div class="slot real"><div class="eyebrow">Position by the council\'s rule</div><div class="big">' + chip(pos.key, pos.label) + "</div>" +
+      "<p>" + esc(why) + "</p>" +
+      (pos.judge_note ? '<p class="muted" style="margin-top:6px">' + esc(pos.judge_note) + (pos.judge_reason ? ": " + esc(pos.judge_reason) : "") + ".</p>" : (pos.judge_reason ? '<p class="muted" style="margin-top:6px">' + esc(pos.judge_reason) + "</p>" : "")) +
+      '<p class="legend-note">Trust ' + DEC.total + " of 21, band " + esc(DEC.band.range) + " (" + esc(DEC.band.meaning) + "). " + esc(DEC.band.caveat) + ".</p></div>" +
+      '<div class="two"><div class="mini"><b>If you do not own it</b><p><b style="display:inline;color:var(--ink)">' + esc(DEC.reader_not_own.word) + ".</b> " + esc(DEC.reader_not_own.change) + '</p></div>' +
+      '<div class="mini"><b>If you already own it</b><p><b style="display:inline;color:var(--ink)">' + esc(DEC.reader_own.word) + ".</b> " + esc(DEC.reader_own.change) + "</p></div></div>" +
+      '<p class="sim">' + esc(D.facts_line) + "</p>";
+    var trig = DEC.triggers.length ? '<ul class="trig">' + DEC.triggers.map(function (t) {
+      var a = ARROW[t.moves] || ARROW.either;
+      return '<li><span class="arr" style="color:' + a[1] + '">' + a[0] + "</span><span><b>" + esc(t.when) + ".</b> Check: " + esc(t.check) + ".</span></li>";
+    }).join("") + "</ul>" : '<p class="muted">The judge named no trigger.</p>';
+    var flags = DEC.red_flags.length ? '<ul class="nodec">' + DEC.red_flags.map(function (f) { return "<li>" + esc(f.flag) + ' <span class="id">' + esc(f.question) + "</span> <span class=\"muted\">" + esc(f.evidence) + "</span></li>"; }).join("") + "</ul>" : '<p class="muted">No red flag was raised.</p>';
+    var right = "<h3>Three triggers at most</h3>" + trig + '<h3 style="margin-top:16px">Red flags raised</h3>' + flags +
+      '<h3 style="margin-top:16px">What this does not decide</h3><ul class="nodec">' + DEC.not_decided.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul>" +
+      (D.gate ? '<p class="mono muted" style="margin-top:8px">Data pack: ' + esc(D.gate) + "</p>" : "");
+    var defence = DEC.defence ? '<p style="margin-top:14px;border-top:1px solid var(--line);padding-top:12px"><b>How the defence held up.</b> ' + esc(DEC.defence) + "</p>" : "";
+    document.getElementById("decisionCard").innerHTML = '<div class="decision"><div>' + left + "</div><div>" + right + "</div></div>" + defence;
+  })();
+
+  /* ---------- scores ---------- */
+  (function () {
+    var PIP = { answered: "a", partial: "p", deflected: "d", "no data": "n", unverified: "n" }, rows = "";
+    DEC.scores.forEach(function (s) {
+      var pips = Object.keys(s.states).map(function (q) { return '<i class="pip ' + PIP[s.states[q]] + '" title="' + esc(q + " " + s.states[q]) + '"></i>'; }).join("");
+      var judge = s.judge == null ? 0 : s.judge;
+      rows += '<div class="srow"><div class="nm"><span class="mono muted">' + s.section + "</span> " + esc(s.name) + "<small>" + esc(s.why) + '</small><div class="pips">' + pips + "</div></div>" +
+        '<div class="bar" role="img" aria-label="Score ' + s.final + ' of 3, ceiling ' + s.ceiling + '"><div class="fill" style="width:' + (s.final / 3 * 100).toFixed(1) + '%"></div><div class="ceil" style="left:' + (s.ceiling / 3 * 100).toFixed(1) + '%"></div></div>' +
+        '<div class="mono" style="text-align:right">' + s.final + " of 3</div>" +
+        '<small class="muted" style="grid-column:1 / -1">Ceiling ' + s.ceiling + ": " + esc(s.ceiling_why) + (s.cut ? '. <b style="color:var(--bad)">Cut: ' + esc(s.cut) + "</b>" : "") + (s.note ? ". " + esc(s.note) : "") + "</small></div>";
+    });
+    document.getElementById("scoreRows").innerHTML = rows;
+    var dirs = { improving: ["buy", "↗ Improving"], mixed: ["wait", "↔ Mixed"], worsening: ["avoid", "↘ Worsening"], "can't tell": [null, "? Can't tell"] }, d = dirs[DEC.direction];
+    document.getElementById("directionBox").innerHTML = "<b>Direction of the business</b>" +
+      '<div class="chips" style="margin-top:0">' + (d ? '<span class="chip ' + (d[0] || "") + '" style="' + (d[0] ? "" : "color:var(--muted);border-color:var(--neutral)") + '">' + d[1] + "</span>" : '<span class="muted">not given</span>') + "</div>" +
+      (DEC.direction_why ? '<p style="white-space:pre-wrap">' + esc(DEC.direction_why) + "</p>" : "") +
+      '<p class="muted" style="font-size:.9rem">Direction describes the business. It never lifts the position.</p>';
+  })();
+
+  /* ---------- EXH 1 and 2: quarters ---------- */
+  var Q = X.quarters || [];
+  var haveQ = Q.length > 0, haveS = Q.some(function (q) { return q.gen != null && q.bio != null && q.third != null; });
+  function qIndex(date) { for (var i = 0; i < Q.length; i++) if (Q[i].date === date) return i; return -1; }
+  if (haveQ) {
+    var last = Q[Q.length - 1], mx = Q.reduce(function (a, q) { return q.margin != null && q.margin > a.margin ? q : a; }, { margin: -1 });
+    setLook("look1", "bars are sales, the line is how much of each rupee of sales is left as operating profit. Latest quarter " + shortDate(last.date) + ": sales " + fmt(last.rev) + ", margin " + (last.margin == null ? "n/a" : last.margin + "%") + ". Highest margin " + mx.margin + "% in " + shortDate(mx.date) + ".");
+  } else setLook("look1", "the filed-quarters table was not found in the case book.");
+  mount("c1", function (w) {
+    if (!haveQ) return nodata("The case book has no filed-quarters table.");
+    var H = 270, m = { l: 52, r: 44, t: 18, b: 40 }, n = Q.length, iw = w - m.l - m.r, band = iw / n, bw = band * 0.62;
+    var top = niceMax(Math.max.apply(null, Q.map(function (q) { return q.rev || 0; }))), margins = Q.map(function (q) { return q.margin; }).filter(function (v) { return v != null; });
+    var lo = Math.floor(Math.min.apply(null, margins) / 2) * 2 - 2, hi = Math.ceil(Math.max.apply(null, margins) / 2) * 2 + 2;
+    var y = lin(0, top, H - m.b, m.t), y2 = lin(lo, hi, H - m.b, m.t), s = "";
+    s = yGrid(s, m, w, y, ticksTo(top, 5), fmt);
+    [lo, (lo + hi) / 2, hi].forEach(function (t) { s += '<text class="ax" x="' + (w - m.r + 6) + '" y="' + (y2(t) + 4) + '">' + Math.round(t) + "%</text>"; });
+    var pts = [];
+    Q.forEach(function (q, i) {
+      var cx = m.l + band * (i + 0.5);
+      if (q.rev != null) s += '<rect x="' + (cx - bw / 2) + '" y="' + y(q.rev) + '" width="' + bw + '" height="' + (y(0) - y(q.rev)) + '" rx="2" fill="var(--seg-b)" opacity="0.28"><title>' + shortDate(q.date) + ": sales " + fmt(q.rev) + " million, margin " + q.margin + '%</title></rect>';
+      if (q.margin != null) pts.push([cx, y2(q.margin), q]);
+      if (band > 42 || i % 2 === 0) s += '<text class="ax" x="' + cx + '" y="' + (H - m.b + 16) + '" text-anchor="middle">' + shortDate(q.date) + "</text>";
+    });
+    s += '<polyline fill="none" stroke="var(--seg-t)" stroke-width="2.4" points="' + pts.map(function (p) { return p[0] + "," + p[1]; }).join(" ") + '"/>';
+    pts.forEach(function (p) { s += '<circle cx="' + p[0] + '" cy="' + p[1] + '" r="3.2" fill="var(--seg-t)"><title>' + shortDate(p[2].date) + ": margin " + p[2].margin + '%</title></circle>'; });
+    [pts[0], pts[pts.length - 1]].forEach(function (p) { if (p) s += '<text class="val" x="' + p[0] + '" y="' + (p[1] - 9) + '" text-anchor="middle">' + p[2].margin + "%</text>"; });
+    s += '<text class="ax" x="' + m.l + '" y="10">Sales, Rs million</text><text class="ax" x="' + w + '" y="10" text-anchor="end">Operating margin</text>';
+    return svg(w, H, s);
+  });
+
+  document.getElementById("lg2").innerHTML = '<span><i class="sw" style="background:var(--seg-g)"></i>Generics</span><span><i class="sw" style="background:var(--seg-b)"></i>Biosimilars</span><span><i class="sw" style="background:var(--seg-t)"></i>Third segment</span>';
+  setLook("look2", haveS ? "the three businesses stacked. <b>Do not compare across a dashed line.</b> " + X.breaks.map(function (b) { return esc(shortDate(b.date) + ": " + b.label); }).join("; ") + "." : "the segments table was not found in the case book.");
+  mount("c2", function (w) {
+    if (!haveS) return nodata("The case book has no segments table that joins the filed quarters.");
+    var H = 280, m = { l: 52, r: 12, t: 30, b: 40 }, n = Q.length, iw = w - m.l - m.r, band = iw / n, bw = band * 0.7;
+    var top = niceMax(Math.max.apply(null, Q.map(function (q) { return (q.gen || 0) + (q.bio || 0) + (q.third || 0); })));
+    var y = lin(0, top, H - m.b, m.t), s = '<defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" stroke="var(--surface)" stroke-width="2.5"/></pattern></defs>';
+    s = yGrid(s, m, w, y, ticksTo(top, 5), fmt);
+    var cols = ["var(--seg-g)", "var(--seg-b)", "var(--seg-t)"], names = ["Generics", "Biosimilars", "Third segment"];
+    Q.forEach(function (q, i) {
+      var cx = m.l + band * (i + 0.5), acc = 0;
+      [q.gen, q.bio, q.third].forEach(function (v, k) {
+        if (v == null) return;
+        var y1 = y(acc + v), y0 = y(acc); acc += v;
+        s += '<rect x="' + (cx - bw / 2) + '" y="' + y1 + '" width="' + bw + '" height="' + (y0 - y1) + '" fill="' + cols[k] + '"><title>' + shortDate(q.date) + " " + names[k] + ": " + fmt(v) + ' million</title></rect>';
+        if (X.basis_changed && i === n - 1) s += '<rect x="' + (cx - bw / 2) + '" y="' + y1 + '" width="' + bw + '" height="' + (y0 - y1) + '" fill="url(#hatch)" opacity="0.7"/>';
+      });
+      if (band > 42 || i % 2 === 0) s += '<text class="ax" x="' + cx + '" y="' + (H - m.b + 16) + '" text-anchor="middle">' + shortDate(q.date) + "</text>";
+    });
+    X.breaks.forEach(function (b) {
+      var i = qIndex(b.date); if (i < 0) return;
+      var x = m.l + band * i;
+      s += '<line x1="' + x + '" x2="' + x + '" y1="' + (m.t - 8) + '" y2="' + (H - m.b) + '" stroke="var(--ink)" stroke-width="1.4" stroke-dasharray="4 3"/><text class="val" x="' + (x - 4) + '" y="' + (m.t - 12) + '" text-anchor="end">' + esc(b.label) + "</text>";
+    });
+    s += '<text class="ax" x="' + m.l + '" y="10">Sales by business, Rs million' + (X.basis_changed ? " (hatched bar: changed basis)" : "") + "</text>";
+    return svg(w, H, s);
+  });
+
+  /* ---------- EXH 3: promises ---------- */
+  (function () {
+    var p = X.promises, box = document.getElementById("c3");
+    if (!p) { setLook("look3", "the scorecard counts were not found."); box.innerHTML = nodata("The company seat holds no scorecard line."); return; }
+    var total = p.kept + p.missed + p.open + p.depends;
+    setLook("look3", total + " statements, one square each. " + p.kept + " kept, " + p.missed + " missed, " + p.open + " still open, " + p.depends + " depend on how they are read.");
+    var seq = [].concat(Array(p.kept).fill("k"), Array(p.missed).fill("m"), Array(p.open).fill("o"), Array(p.depends).fill("dep"));
+    box.innerHTML = seq.map(function (c, i) { return '<span class="sq ' + c + '" title="statement ' + (i + 1) + '"></span>'; }).join("");
+    document.getElementById("lg3").innerHTML = '<span><i class="sw" style="background:var(--good)"></i>Kept ' + p.kept + '</span><span><i class="sw" style="background:var(--bad)"></i>Missed ' + p.missed + '</span><span><i class="sw" style="border:2px solid var(--neutral)"></i>Still open ' + p.open + '</span><span><i class="sw" style="background:repeating-linear-gradient(135deg,var(--warn) 0 3px,transparent 3px 6px);border:1.5px solid var(--warn)"></i>Depends ' + p.depends + "</span>";
+  })();
+
+  /* ---------- EXH 4: question states per call ---------- */
+  var C = X.calls || [];
+  (function () {
+    if (!C.length) { setLook("look4", "the question-and-answer counts were not found."); return; }
+    var asked = 0, good = 0;
+    C.forEach(function (c) { var t = c.answered + c.partial + c.deflected + c.declined + c.deferred + c["no answer turn"] + c.unverified + c["not judged"]; asked += t; good += c.answered; });
+    setLook("look4", "each row is one call. Of " + asked + " questions on " + C.length + " calls, " + good + " (" + Math.round(good / asked * 100) + "%) were answered straight. The rest went around the question.");
+  })();
+  mount("c4", function (w) {
+    if (!C.length) return nodata("The company seat holds no question-and-answer counts.");
+    var rh = 20, m = { l: 52, r: 36, t: 6, b: 18 }, H = m.t + C.length * rh + m.b, iw = w - m.l - m.r, s = "";
+    C.forEach(function (c, i) {
+      var seg = [c.answered, c.partial, c.deflected + c.declined, c.deferred + c["no answer turn"] + c.unverified + c["not judged"]], col = ["var(--good)", "var(--warn)", "var(--bad)", "var(--neutral)"];
+      var tot = seg.reduce(function (a, b) { return a + b; }, 0) || 1, x = m.l, yy = m.t + i * rh;
+      s += '<text class="ax" x="' + (m.l - 6) + '" y="' + (yy + 12) + '" text-anchor="end">' + shortDate(c.date) + "</text>";
+      seg.forEach(function (v, k) { var ww = iw * v / tot; if (ww > 0) s += '<rect x="' + x + '" y="' + yy + '" width="' + ww + '" height="' + (rh - 4) + '" fill="' + col[k] + '"><title>' + shortDate(c.date) + ": " + v + " of " + tot + '</title></rect>'; x += ww; });
+      s += '<text class="ax" x="' + (m.l + iw + 4) + '" y="' + (yy + 12) + '">' + tot + "</text>";
+    });
+    s += '<text class="ax" x="' + (m.l + iw + 4) + '" y="' + (H - 4) + '">asked</text>';
+    return svg(w, H, s);
+  });
+
+  /* ---------- EXH 5: debt maturities ---------- */
+  var DB = X.debt;
+  if (DB) {
+    var first = DB.bands[0];
+    setLook("look5", "the first bar pair is debt due soonest: " + fmt(first.prev) + " in " + esc(DB.prev_label) + " against " + fmt(first.now) + " in " + esc(DB.now_label) + ". Totals " + fmt(DB.totals[1]) + " then " + fmt(DB.totals[0]) + ".");
+  } else setLook("look5", "the maturity table was not found.");
+  mount("c5", function (w) {
+    if (!DB) return nodata("The case book has no borrowings-by-maturity table.");
+    var G = DB.bands, H = 260, m = { l: 54, r: 8, t: 24, b: 44 }, iw = w - m.l - m.r, gw = iw / G.length, bw = Math.min(30, gw * 0.34);
+    var top = niceMax(Math.max.apply(null, G.map(function (g) { return Math.max(g.now || 0, g.prev || 0); }))), y = lin(0, top, H - m.b, m.t), s = "";
+    s = yGrid(s, m, w, y, ticksTo(top, 4), fmt);
+    G.forEach(function (g, i) {
+      var cx = m.l + gw * (i + 0.5);
+      [[g.prev, "var(--neutral)", -bw - 1, DB.prev_label], [g.now, "var(--seg-b)", 1, DB.now_label]].forEach(function (b) {
+        if (b[0] == null) return;
+        var t = y(b[0]);
+        s += '<rect x="' + (cx + b[2]) + '" y="' + t + '" width="' + bw + '" height="' + (y(0) - t) + '" fill="' + b[1] + '" rx="2"><title>' + esc(g.band) + ", " + esc(b[3]) + ": " + fmt(b[0]) + ' million</title></rect>';
+        if (b[0] > 0) s += '<text class="val" x="' + (cx + b[2] + bw / 2) + '" y="' + (t - 4) + '" text-anchor="middle" style="font-size:9.5px">' + (b[0] / 1000).toFixed(1) + "k</text>";
+        else s += '<text class="ax" x="' + (cx + b[2] + bw / 2) + '" y="' + (y(0) - 4) + '" text-anchor="middle">nil</text>';
+      });
+      s += '<text class="ax" x="' + cx + '" y="' + (H - m.b + 16) + '" text-anchor="middle">' + esc(g.band) + "</text>";
+    });
+    s += '<rect x="' + m.l + '" y="' + (H - 12) + '" width="10" height="10" fill="var(--neutral)"/><text class="ax" x="' + (m.l + 14) + '" y="' + (H - 3) + '">' + esc(DB.prev_label) + '</text><rect x="' + (m.l + 130) + '" y="' + (H - 12) + '" width="10" height="10" fill="var(--seg-b)"/><text class="ax" x="' + (m.l + 144) + '" y="' + (H - 3) + '">' + esc(DB.now_label) + "</text>";
+    return svg(w, H, s);
+  });
+
+  /* ---------- EXH 6: holdings ---------- */
+  var HO = X.holdings || [];
+  if (HO.length) {
+    var h0 = HO[0], h1 = HO[HO.length - 1], pledgedTrue = HO.filter(function (h) { return h.pledged === "true"; }).length;
+    setLook("look6", "the promoter stake went from " + h0.promoter_pct + "% to " + h1.promoter_pct + "% while shares in issue went from " + fmt(h0.total_shares_m) + " to " + fmt(h1.total_shares_m) + " million. A falling percentage with a growing total is not selling. The pledge flag is true on " + pledgedTrue + " of " + HO.length + " filings.");
+  } else setLook("look6", "the shareholding table was not found.");
+  mount("c6", function (w) {
+    if (!HO.length) return nodata("The case book has no shareholding table.");
+    var H = 270, m = { l: 40, r: 48, t: 22, b: 50 }, n = HO.length, iw = w - m.l - m.r, x = function (i) { return m.l + iw * (n === 1 ? 0 : i / (n - 1)); };
+    var P = HO.map(function (h) { return h.promoter_pct; }), T = HO.map(function (h) { return h.total_shares_m; });
+    var plo = Math.floor(Math.min.apply(null, P) / 5) * 5 - 5, phi = Math.ceil(Math.max.apply(null, P) / 5) * 5 + 5, tlo = Math.floor(Math.min.apply(null, T) / 100) * 100 - 100, thi = Math.ceil(Math.max.apply(null, T) / 100) * 100 + 100;
+    var y = lin(plo, phi, H - m.b, m.t), y2 = lin(tlo, thi, H - m.b, m.t), s = "";
+    for (var t = plo; t <= phi; t += 5) s += '<line class="grid" x1="' + m.l + '" x2="' + (w - m.r) + '" y1="' + y(t) + '" y2="' + y(t) + '"/><text class="ax" x="' + (m.l - 6) + '" y="' + (y(t) + 4) + '" text-anchor="end">' + t + "</text>";
+    [tlo, (tlo + thi) / 2, thi].forEach(function (v) { s += '<text class="ax" x="' + (w - m.r + 6) + '" y="' + (y2(v) + 4) + '">' + fmt(v) + "</text>"; });
+    s += '<polyline fill="none" stroke="var(--seg-t)" stroke-width="2.2" stroke-dasharray="5 3" points="' + T.map(function (v, i) { return x(i) + "," + y2(v); }).join(" ") + '"/>';
+    s += '<polyline fill="none" stroke="var(--seg-b)" stroke-width="2.6" points="' + P.map(function (v, i) { return x(i) + "," + y(v); }).join(" ") + '"/>';
+    s += '<text class="val" x="' + x(0) + '" y="' + (y(P[0]) - 8) + '">' + P[0] + '%</text><text class="val" x="' + x(n - 1) + '" y="' + (y(P[n - 1]) + 18) + '" text-anchor="end">' + P[n - 1] + "%</text>";
+    s += '<text class="ax" x="' + m.l + '" y="10">Promoter %</text><text class="ax" x="' + w + '" y="10" text-anchor="end">Shares, millions</text>';
+    HO.forEach(function (h, i) {
+      var col = h.pledged === "false" ? "var(--good)" : (h.pledged === "true" ? "var(--bad)" : "var(--neutral)");
+      s += '<circle cx="' + x(i) + '" cy="' + (H - 20) + '" r="3.2" fill="' + col + '"><title>' + esc(h.period) + ", pledge flag " + esc(h.pledged || "not stated") + "</title></circle>";
+    });
+    s += '<text class="ax" x="' + m.l + '" y="' + (H - 4) + '">pledge flag of each filing (green false, red true, grey not stated)</text>';
+    s += '<text class="ax" x="' + x(0) + '" y="' + (H - m.b + 14) + '">' + esc(HO[0].period) + '</text><text class="ax" x="' + x(n - 1) + '" y="' + (H - m.b + 14) + '" text-anchor="end">' + esc(HO[n - 1].period) + "</text>";
+    s += '<line x1="' + (m.l + 110) + '" x2="' + (m.l + 132) + '" y1="' + (H - m.b + 12) + '" y2="' + (H - m.b + 12) + '" stroke="var(--seg-b)" stroke-width="2.6"/><text class="ax" x="' + (m.l + 136) + '" y="' + (H - m.b + 15) + '">promoter %</text><line x1="' + (m.l + 210) + '" x2="' + (m.l + 232) + '" y1="' + (H - m.b + 12) + '" y2="' + (H - m.b + 12) + '" stroke="var(--seg-t)" stroke-width="2.2" stroke-dasharray="5 3"/><text class="ax" x="' + (m.l + 236) + '" y="' + (H - m.b + 15) + '">total shares</text>';
+    return svg(w, H, s);
+  });
+
+  /* ---------- EXH 7: votes ---------- */
+  var V = X.votes || [];
+  if (V.length) {
+    var vmax = V.reduce(function (a, v) { return v.max_against > a.max_against ? v : a; }, V[0]);
+    setLook("look7", "the highest vote against was " + vmax.max_against + "% at the meeting of " + esc(vmax.meeting) + ". Percent of votes polled, not of shares.");
+  } else setLook("look7", "the voting table was not found.");
+  mount("c7", function (w) {
+    if (!V.length) return nodata("The company seat holds no voting table.");
+    var H = 240, m = { l: 40, r: 8, t: 24, b: 34 }, iw = w - m.l - m.r, gw = iw / V.length, bw = Math.min(34, gw * 0.55);
+    var top = Math.max(10, niceMax(Math.max.apply(null, V.map(function (v) { return v.max_against; })))), y = lin(0, top, H - m.b, m.t), s = "";
+    s = yGrid(s, m, w, y, ticksTo(top, 3), function (t) { return Math.round(t) + "%"; });
+    V.forEach(function (v, i) {
+      var cx = m.l + gw * (i + 0.5), t = y(v.max_against);
+      s += '<rect x="' + (cx - bw / 2) + '" y="' + t + '" width="' + bw + '" height="' + Math.max(1.5, y(0) - t) + '" rx="2" fill="' + (v.max_against > 5 ? "var(--bad)" : "var(--neutral)") + '"><title>' + esc(v.meeting) + ": " + v.max_against.toFixed(2) + '% against</title></rect>';
+      s += '<text class="val" x="' + cx + '" y="' + (t - 5) + '" text-anchor="middle">' + v.max_against.toFixed(2) + '</text><text class="ax" x="' + cx + '" y="' + (H - m.b + 16) + '" text-anchor="middle">' + shortDate(v.meeting) + "</text>";
+    });
+    if (top >= 5) s += '<line x1="' + m.l + '" x2="' + (w - m.r) + '" y1="' + y(5) + '" y2="' + y(5) + '" stroke="var(--warn)" stroke-dasharray="4 3"/><text class="ax" x="' + (w - m.r) + '" y="' + (y(5) - 4) + '" text-anchor="end">5% mark, this repo\'s own</text>';
+    return svg(w, H, s);
+  });
+
+  /* ---------- EXH 8: triggers ---------- */
+  mount("c8", function (w) {
+    var T = DEC.triggers;
+    if (!T.length) return nodata("The judge named no trigger.");
+    var H = 170, m = { l: 20, r: 20 }, iw = w - m.l - m.r, ax = 84, s = '<line class="domain" x1="' + m.l + '" x2="' + (w - m.r) + '" y1="' + ax + '" y2="' + ax + '" stroke-width="2"/>';
+    var items = [{ f: 0.03, text: "Today " + D.run_date, color: "var(--ink)", glyph: "•" }].concat(T.map(function (t, i) {
+      var a = ARROW[t.moves] || ARROW.either; return { f: 0.3 + 0.62 * (T.length === 1 ? 0.5 : i / (T.length - 1)), text: t.when, color: a[1], glyph: a[0] };
+    }));
+    items.forEach(function (t, i) {
+      var cx = m.l + iw * t.f, up = i % 2 === 0, ty = up ? 38 : 130, anchor = t.f < 0.1 ? "start" : (t.f > 0.82 ? "end" : "middle"), label = t.glyph + " " + (t.text.length > 46 ? t.text.slice(0, 44) + "..." : t.text);
+      s += '<line x1="' + cx + '" x2="' + cx + '" y1="' + ax + '" y2="' + (up ? 46 : 118) + '" stroke="' + t.color + '" stroke-width="1.5"/><circle cx="' + cx + '" cy="' + ax + '" r="6" fill="' + t.color + '"/>';
+      s += '<text class="val" x="' + cx + '" y="' + ty + '" text-anchor="' + anchor + '"><title>' + esc(t.text) + "</title>" + esc(label) + "</text>";
+    });
+    s += '<text class="ax" x="' + (w - m.r) + '" y="' + (H - 2) + '" text-anchor="end">spacing is even, not to a calendar scale</text>';
+    return svg(w, H, s);
+  });
+
+  /* ---------- EXH 9: trust strip ---------- */
+  (function () {
+    var gates = DEC.gates.length ? DEC.gates.join(", ") : "none";
+    setLook("look9", "trust " + DEC.total + " of 21. Buy needs 18 or more, no gate, and a current price and latest results on file. Gates standing: " + esc(gates) + ". Price on file: " + (DEC.price_on_file ? "yes" : "no") + ". Latest results on file: " + (DEC.results_on_file ? "yes" : "no") + ".");
+  })();
+  mount("c9", function (w) {
+    var H = 130, m = { l: 12, r: 12, t: 34 }, iw = w - m.l - m.r, x = lin(0, 21, m.l, m.l + iw), s = "";
+    [[0, 7, "0 to 6", "var(--bad)"], [7, 12, "7 to 11", "var(--warn)"], [12, 18, "12 to 17", "var(--accent)"], [18, 21.6, "18 to 21", "var(--good)"]].forEach(function (b) {
+      var x0 = x(b[0]), x1 = Math.min(x(b[1]), m.l + iw);
+      s += '<rect x="' + x0 + '" y="' + m.t + '" width="' + (x1 - x0 - 2) + '" height="30" rx="3" fill="' + b[3] + '" opacity="0.85"/><text class="val" x="' + ((x0 + x1) / 2) + '" y="' + (m.t + 19) + '" text-anchor="middle" style="fill:var(--bg)">' + b[2] + "</text>";
+    });
+    var bx = x(18); s += '<line x1="' + bx + '" x2="' + bx + '" y1="' + (m.t - 10) + '" y2="' + (m.t + 40) + '" stroke="var(--ink)" stroke-width="2"/><text class="val" x="' + (bx - 4) + '" y="' + (m.t - 14) + '" text-anchor="end">Buy needs 18 or more</text>';
+    var mk = x(Math.min(DEC.total + 0.5, 21)); s += '<path d="M' + mk + " " + (m.t + 36) + ' l-6 10 h12 z" fill="var(--ink)"/><text class="val" x="' + mk + '" y="' + (m.t + 62) + '" text-anchor="middle">trust ' + DEC.total + "</text>";
+    s += '<text class="ax" x="' + m.l + '" y="' + (H - 6) + '">Trust total across the seven sections, 0 to 21. Bands are the seat\'s own, untested.</text>';
+    return svg(w, H, s);
+  });
+
+  /* ---------- hearing ---------- */
+  (function () {
+    var html = "";
+    D.hearing.forEach(function (p, i) {
+      html += '<details class="issue"' + (i === 0 ? " open" : "") + "><summary><h3>" + esc(p.title) + '</h3><span class="muted">' + p.turns.length + " turns</span></summary><div class=\"body\">";
+      p.turns.forEach(function (t) {
+        var role = t.role.toLowerCase();
+        html += '<div class="turn"><span class="who ' + role + '">' + t.role.toUpperCase() + '</span><div class="bub ' + (role === "judge" ? "judge" : "") + '"><div class="mono muted">' + esc(t.id) + (t.state ? ' <span class="state ' + (t.state === "answered" ? "answered" : t.state === "partial" ? "partial" : "nodata") + '">' + esc(t.state) + "</span>" : "") + '</div><div class="txt">' + esc(t.text) + "</div></div></div>";
+      });
+      html += "</div></details>";
+    });
+    document.getElementById("hearingBody").innerHTML = html || nodata("No hearing turns were found.");
+  })();
+
+  /* ---------- storyline, glossary, checks ---------- */
+  document.getElementById("storyList").innerHTML = DEC.storyline.map(function (l) { return "<li><span>" + esc(l) + "</span></li>"; }).join("") || "<li><span>The judge wrote no storyline.</span></li>";
+  document.getElementById("glossList").innerHTML = DEC.glossary.map(function (g) { return "<dt>" + esc(g.term) + "</dt><dd>" + esc(g.meaning) + "</dd>"; }).join("") || "<dd>The judge listed no terms.</dd>";
+  document.getElementById("problemList").innerHTML = D.problems.length ? D.problems.map(function (p) { return "<li>" + esc(p) + "</li>"; }).join("") : "<li>None.</li>";
+  document.getElementById("gapList").innerHTML = D.not_in_record.length ? D.not_in_record.map(function (g) { return "<li>" + esc(g) + "</li>"; }).join("") : "<li>None listed.</li>";
+
+  /* ---------- detail toggle ---------- */
+  var page = document.getElementById("page"), bb = document.getElementById("lvl-brief"), bf = document.getElementById("lvl-full");
+  function setLevel(l) { page.setAttribute("data-level", l); bb.setAttribute("aria-pressed", l === "brief"); bf.setAttribute("aria-pressed", l === "full"); }
+  bb.addEventListener("click", function () { setLevel("brief"); });
+  bf.addEventListener("click", function () { setLevel("full"); });
+})();
+</script>
+</body>
+</html>
