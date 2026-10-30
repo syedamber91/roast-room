@@ -10,6 +10,6 @@ Read by hand on 2026-10-30 from the text of one document: the notice of the Extr
 ## What was not read
 
 - The 2026 AGM (held 2026-08-06) had nine resolutions and none was a related party transaction (S034).
-- The notices of the earlier approvals of intra-group related party transactions (postal ballot results 2024-04-23, AGM 2024-08-13, postal ballot results 2024-09-23, 2025-04-02, AGM 2025-08-08) were not read, so their approved values and validity periods are not in the record; only their votes are. The 2024-04-23 resolution 6 (between the company and BBL) drew 26.40% against, and its wording is cut short in the voting annex.
-- The notice of the 2025 AGM was not fetched: the exchange feed's link for it returned a not-found response.
+- The notices of the earlier intra-group approvals are in rpt-approvals-notices.md (S036), read by hand the same way. The 2024-04-23 resolution 6 (between the company and BBL) drew 26.40% against, and its wording is cut short in the voting annex.
+- The notice of the 2025 AGM is now read (S036); the first fetch used a wrong file name.
 - Whether an approval lapsed or was used is not stated in any file here.

@@ -1,6 +1,6 @@
 # Shareholder votes, BIOCON: S034
 
-Generated from the voting-results annexes Biocon filed with the exchanges (csv sha256 9e1893168aff); do not edit by hand. 83 resolutions at 9 general meetings or postal ballots, 2024-04-23 to 2026-08-06. Counts and percentages are as printed. S034 is voting numbers, not management speech, so no quote is taken from it.
+Generated from the voting-results annexes Biocon filed with the exchanges (csv sha256 df8b20a59db5); do not edit by hand. 83 resolutions at 9 general meetings or postal ballots, 2024-04-23 to 2026-08-06. Counts and percentages are as printed. S034 is voting numbers, not management speech, so no quote is taken from it.
 
 **How to cite.** (S034, voting results for the meeting dated DD-MON-YYYY, resolution N). The date is the meeting date, or for a postal ballot the date the results were filed.
 
@@ -11,7 +11,7 @@ Generated from the voting-results annexes Biocon filed with the exchanges (csv s
 | Meeting | Related party resolutions | Promoter group interested in | Highest % against (all votes) | Highest % against (public institutions) | The one with the highest % against |
 |---|---|---|---|---|---|
 | 2024-04-23 | 6 | 5 | 26.40 | 26.49 | resolution 6: To approve material related party transaction(s) between the Company and Biocon Biologics Limited (BBL) |
-| 2024-08-13 | 11 | 9 | 0.00 | 0.00 | resolution 10: To approve material related party transactions between Biocon Biologics Limited and Biocon Biologics UK Limit... |
+| 2024-08-09 | 11 | 9 | 0.00 | 0.00 | resolution 10: To approve material related party transactions between Biocon Biologics Limited and Biocon Biologics UK Limit... |
 | 2024-09-23 | 9 | 9 | 1.07 | 1.10 | resolution 1: To approve material related party transaction(s) between Biocon Biologics Limited and Biocon Biologics Global... |
 | 2025-04-02 | 1 | 1 | 0.01 | 0.00 | resolution 1: To approve material related party transaction(s) between Biocon Biologics UK Limited and Biosimilars Newco Li... |
 | 2025-08-08 | 10 | 6 | 0.94 | 0.94 | resolution 7: To approve material related party transactions between Biocon Biologics UK Limited and Biosimilars Newco Limi... |
@@ -24,9 +24,9 @@ The two thresholds are this file's own, chosen to pick out resolutions where a v
 | Meeting | No. | Type | Promoter group interested | % against (all) | % against (institutions) | % against (non-institutions) | Resolution (as printed) |
 |---|---|---|---|---|---|---|---|
 | 2024-04-23 | 6 | Ordinary | Yes | 26.40 | 26.49 | 6.62 | To approve material related party transaction(s) between the Company and Biocon Biologics Limited (BBL) |
-| 2024-08-13 | 7 | Special | No | 8.85 | 46.36 | 0.44 | To approve Biocon Restricted Stock Unit Long Term Incentive Plan FY 2025-29 and grant of Restricted Stock Units to eligible employees of th... |
-| 2024-08-13 | 8 | Special | No | 8.82 | 46.23 | 0.44 | Authorization for secondary acquisition of equity shares of the Company by Biocon India Limited Employees Welfare Trust for implementation... |
-| 2024-08-13 | 9 | Special | No | 8.80 | 46.11 | 0.45 | To approve grant of Restricted Stock Units to the employees of present and future subsidiary company(ies) under Biocon Restricted Stock Uni... |
+| 2024-08-09 | 7 | Special | No | 8.85 | 46.36 | 0.44 | To approve Biocon Restricted Stock Unit Long Term Incentive Plan FY 2025-29 and grant of Restricted Stock Units to eligible employees of th... |
+| 2024-08-09 | 8 | Special | No | 8.82 | 46.23 | 0.44 | Authorization for secondary acquisition of equity shares of the Company by Biocon India Limited Employees Welfare Trust for implementation... |
+| 2024-08-09 | 9 | Special | No | 8.80 | 46.11 | 0.45 | To approve grant of Restricted Stock Units to the employees of present and future subsidiary company(ies) under Biocon Restricted Stock Uni... |
 | 2025-08-08 | 16 | Special | No | 6.83 | 20.83 | 1.02 | To approve increase in the limits applicable for making investments / extending loans and giving guarantees or providing securities in conn... |
 | 2025-12-31 | 2 | Special | No | 15.67 | 48.24 | 0.02 | Increase in the limits for making investments / extending loans and giving guarantees or providing securities in connection with loans to P... |
 | 2026-06-08 | 1 | Special | Yes | 8.02 | 21.30 | 0.15 | To approve revision in the remuneration of Ms. Kiran Mazumdar-Shaw, Executive Director (Designated as Executive Chairperson) of the Company. |
@@ -49,27 +49,27 @@ The two thresholds are this file's own, chosen to pick out resolutions where a v
 | 2024-04-23 | 4 | Ordinary | Yes | 0 | 0.03 | 0.00 | 61,635 | 218,221,348 | To approve material related party transaction(s) between Biocon SDN BHD, Malaysia and Biosimilars N... |
 | 2024-04-23 | 5 | Ordinary | No | 0 | 0.03 | 0.00 | 60,402 | 218,221,333 | To approve material related party transaction(s) between Biocon Biologics Inc., USA and Biosimilars... |
 | 2024-04-23 | 6 | Ordinary | Yes | 0 | 26.40 | 26.49 | 57,616,278 | 218,221,421 | To approve material related party transaction(s) between the Company and Biocon Biologics Limited (... |
-| 2024-08-13 | 1 | Ordinary | No | 721,793,134 | 0.00 | 0.00 | 6,949 | 969,391,676 | To receive, consider and adopt the Audited Financial Statements (including audited consolidated fin... |
-| 2024-08-13 | 2 | Ordinary | Yes | 721,793,134 | 0.95 | 3.93 | 9,163,052 | 969,406,339 | To appoint Mr. Eric Vivek Mazumdar (DIN: 09381549) as Director, liable to retire by rotation, and b... |
-| 2024-08-13 | 3 | Ordinary | No | 721,793,134 | 0.00 | 0.00 | 18,371 | 969,409,125 | To declare a final dividend of 10% i.e. Re. 0.50/- per equity share for the Financial Year ended Ma... |
-| 2024-08-13 | 4 | Special | No | 721,793,134 | 0.00 | 0.00 | 12,174 | 969,406,394 | To appoint Mr. Atul Dhawan (DIN: 07373372) as an Independent Director of the Company |
-| 2024-08-13 | 5 | Special | Yes | 721,793,134 | 0.63 | 2.60 | 6,059,699 | 969,406,697 | To re-appoint Ms. Kiran Mazumdar-Shaw (DIN: 00347229) as an Executive Director (designated as an “E... |
-| 2024-08-13 | 6 | Special | No | 721,793,134 | 0.13 | 0.53 | 1,252,339 | 969,406,794 | To re-appoint Mr. Siddharth Mittal (DIN: 03230757) as the Managing Director of the Company |
-| 2024-08-13 | 7 | Special | No | 721,793,134 | 8.85 | 46.36 | 80,510,227 | 910,151,701 | To approve Biocon Restricted Stock Unit Long Term Incentive Plan FY 2025-29 and grant of Restricted... |
-| 2024-08-13 | 8 | Special | No | 721,793,134 | 8.82 | 46.23 | 80,291,812 | 910,151,222 | Authorization for secondary acquisition of equity shares of the Company by Biocon India Limited Emp... |
-| 2024-08-13 | 9 | Special | No | 721,793,134 | 8.80 | 46.11 | 80,084,891 | 910,144,092 | To approve grant of Restricted Stock Units to the employees of present and future subsidiary compan... |
-| 2024-08-13 | 10 | Ordinary | Yes | 0 | 0.00 | 0.00 | 11,285 | 247,606,692 | To approve material related party transactions between Biocon Biologics Limited and Biocon Biologic... |
-| 2024-08-13 | 11 | Ordinary | Yes | 0 | 0.00 | 0.00 | 11,215 | 247,606,482 | To approve material related party transactions between Biocon Biologics Limited and Biosimilars New... |
-| 2024-08-13 | 12 | Ordinary | Yes | 0 | 0.00 | 0.00 | 11,035 | 247,606,482 | To approve material related party transactions between Biocon Biologics Limited and Biosimilar Coll... |
-| 2024-08-13 | 13 | Ordinary | Yes | 0 | 0.00 | 0.00 | 11,286 | 247,606,397 | To approve material related party transactions between Biocon Biologics Limited and Biocon Biologic... |
-| 2024-08-13 | 14 | Ordinary | Yes | 0 | 0.00 | 0.00 | 11,226 | 247,605,917 | To approve material related party transactions between Biocon Biologics Limited and Biocon Biologic... |
-| 2024-08-13 | 15 | Ordinary | Yes | 0 | 0.00 | 0.00 | 11,296 | 247,605,917 | To approve material related party transactions between Biocon Biologics Limited and Biocon Biologic... |
-| 2024-08-13 | 16 | Ordinary | Yes | 0 | 0.00 | 0.00 | 11,236 | 247,605,857 | To approve material related party transactions between Biocon Biologics UK Limited and Biosimilars... |
-| 2024-08-13 | 17 | Ordinary | Yes | 0 | 0.00 | 0.00 | 11,452 | 247,605,857 | To approve material related party transactions between Biocon SDN BHD, Malaysia and Biosimilars New... |
-| 2024-08-13 | 18 | Ordinary | No | 0 | 0.00 | 0.00 | 11,165 | 247,605,857 | To approve material related party transactions between Biosimilars Newco Limited and Biocon Biologi... |
-| 2024-08-13 | 19 | Ordinary | Yes | 0 | 0.00 | 0.00 | 11,166 | 247,605,857 | To approve material related party transactions between Biosimilar Collaborations Ireland Limited an... |
-| 2024-08-13 | 20 | Ordinary | No | 0 | 0.00 | 0.00 | 11,228 | 247,605,857 | To approve material related party transactions between Biosimilar Collaborations Ireland Limited an... |
-| 2024-08-13 | 21 | Ordinary | No | 721,793,134 | 0.00 | 0.00 | 8,249 | 969,406,199 | To ratify the remuneration of Cost Auditors for the Financial Year 2024-25 |
+| 2024-08-09 | 1 | Ordinary | No | 721,793,134 | 0.00 | 0.00 | 6,949 | 969,391,676 | To receive, consider and adopt the Audited Financial Statements (including audited consolidated fin... |
+| 2024-08-09 | 2 | Ordinary | Yes | 721,793,134 | 0.95 | 3.93 | 9,163,052 | 969,406,339 | To appoint Mr. Eric Vivek Mazumdar (DIN: 09381549) as Director, liable to retire by rotation, and b... |
+| 2024-08-09 | 3 | Ordinary | No | 721,793,134 | 0.00 | 0.00 | 18,371 | 969,409,125 | To declare a final dividend of 10% i.e. Re. 0.50/- per equity share for the Financial Year ended Ma... |
+| 2024-08-09 | 4 | Special | No | 721,793,134 | 0.00 | 0.00 | 12,174 | 969,406,394 | To appoint Mr. Atul Dhawan (DIN: 07373372) as an Independent Director of the Company |
+| 2024-08-09 | 5 | Special | Yes | 721,793,134 | 0.63 | 2.60 | 6,059,699 | 969,406,697 | To re-appoint Ms. Kiran Mazumdar-Shaw (DIN: 00347229) as an Executive Director (designated as an “E... |
+| 2024-08-09 | 6 | Special | No | 721,793,134 | 0.13 | 0.53 | 1,252,339 | 969,406,794 | To re-appoint Mr. Siddharth Mittal (DIN: 03230757) as the Managing Director of the Company |
+| 2024-08-09 | 7 | Special | No | 721,793,134 | 8.85 | 46.36 | 80,510,227 | 910,151,701 | To approve Biocon Restricted Stock Unit Long Term Incentive Plan FY 2025-29 and grant of Restricted... |
+| 2024-08-09 | 8 | Special | No | 721,793,134 | 8.82 | 46.23 | 80,291,812 | 910,151,222 | Authorization for secondary acquisition of equity shares of the Company by Biocon India Limited Emp... |
+| 2024-08-09 | 9 | Special | No | 721,793,134 | 8.80 | 46.11 | 80,084,891 | 910,144,092 | To approve grant of Restricted Stock Units to the employees of present and future subsidiary compan... |
+| 2024-08-09 | 10 | Ordinary | Yes | 0 | 0.00 | 0.00 | 11,285 | 247,606,692 | To approve material related party transactions between Biocon Biologics Limited and Biocon Biologic... |
+| 2024-08-09 | 11 | Ordinary | Yes | 0 | 0.00 | 0.00 | 11,215 | 247,606,482 | To approve material related party transactions between Biocon Biologics Limited and Biosimilars New... |
+| 2024-08-09 | 12 | Ordinary | Yes | 0 | 0.00 | 0.00 | 11,035 | 247,606,482 | To approve material related party transactions between Biocon Biologics Limited and Biosimilar Coll... |
+| 2024-08-09 | 13 | Ordinary | Yes | 0 | 0.00 | 0.00 | 11,286 | 247,606,397 | To approve material related party transactions between Biocon Biologics Limited and Biocon Biologic... |
+| 2024-08-09 | 14 | Ordinary | Yes | 0 | 0.00 | 0.00 | 11,226 | 247,605,917 | To approve material related party transactions between Biocon Biologics Limited and Biocon Biologic... |
+| 2024-08-09 | 15 | Ordinary | Yes | 0 | 0.00 | 0.00 | 11,296 | 247,605,917 | To approve material related party transactions between Biocon Biologics Limited and Biocon Biologic... |
+| 2024-08-09 | 16 | Ordinary | Yes | 0 | 0.00 | 0.00 | 11,236 | 247,605,857 | To approve material related party transactions between Biocon Biologics UK Limited and Biosimilars... |
+| 2024-08-09 | 17 | Ordinary | Yes | 0 | 0.00 | 0.00 | 11,452 | 247,605,857 | To approve material related party transactions between Biocon SDN BHD, Malaysia and Biosimilars New... |
+| 2024-08-09 | 18 | Ordinary | No | 0 | 0.00 | 0.00 | 11,165 | 247,605,857 | To approve material related party transactions between Biosimilars Newco Limited and Biocon Biologi... |
+| 2024-08-09 | 19 | Ordinary | Yes | 0 | 0.00 | 0.00 | 11,166 | 247,605,857 | To approve material related party transactions between Biosimilar Collaborations Ireland Limited an... |
+| 2024-08-09 | 20 | Ordinary | No | 0 | 0.00 | 0.00 | 11,228 | 247,605,857 | To approve material related party transactions between Biosimilar Collaborations Ireland Limited an... |
+| 2024-08-09 | 21 | Ordinary | No | 721,793,134 | 0.00 | 0.00 | 8,249 | 969,406,199 | To ratify the remuneration of Cost Auditors for the Financial Year 2024-25 |
 | 2024-09-23 | 1 | Ordinary | Yes | 0 | 1.07 | 1.10 | 2,630,256 | 246,452,232 | To approve material related party transaction(s) between Biocon Biologics Limited and Biocon Biolog... |
 | 2024-09-23 | 2 | Ordinary | Yes | 0 | 1.07 | 1.10 | 2,629,223 | 246,452,234 | To approve material related party transaction(s) between Biocon Biologics UK Limited and Biocon Bio... |
 | 2024-09-23 | 3 | Ordinary | Yes | 0 | 1.07 | 1.10 | 2,629,198 | 246,452,229 | To approve material related party transaction(s) between Biosimilars Newco Limited and Biocon Biolo... |
