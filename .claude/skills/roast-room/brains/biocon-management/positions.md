@@ -365,4 +365,4 @@ These topics are not in the calls. They come from the annual report prose and ar
 - **Dividend policy:** one dated declaration only (S003, held 2023-05-24, in the return-on-capital topic above); no stated policy.
 - **Segment margins by geography or product:** management says it does not disclose them (S004, held 2023-11-10).
 - **Calls for the June 2023 and September 2024 quarters:** not in the corpus, so nothing here comes from them. A view held only on those two calls cannot appear.
-- **Analyst questions:** never quoted; only management's turns and the company's own slides are used.
+- **Analyst questions:** quoted only in qa-states.md, always as the analyst's words with the marker (S0xx, analyst question), never as management's. Everywhere else only management's turns and the company's own slides are used.

@@ -3,6 +3,12 @@
 Refreshed 2026-10-25; the annual report for the year ended 2026-03-31 was added on 2026-10-29 (first section below). The calls (last held 2026-08-06), the decks (last filed with that call) and the filed quarters (last ended 2026-06-30) did not change: no results call has been held since. Three things moved: the annual report (below), the price series and the exchange announcements.
 
 
+## Call questions and answer states added (2026-10-30)
+
+New file qa-states.md: for each of the 14 calls (S001 to S014), the analysts' questions cut by code from the call transcript, each marked answered, partial, deflected, declined or deferred by a model, with the analyst's words and management's evidence copied verbatim (code checked both). 659 rows: 311 answered, 202 partial, 56 deflected, 30 declined, 18 deferred, 32 with no management turn after, 10 not usable. A second model, blind to the first, agreed on 23 of 30 sampled items against a bar of 24 fixed before judging, so the states are shown as a reading. The file copies only the 306 items that were not fully answered; the answered ones are counted. The call text the seat quotes as management (S001 to S014) is unchanged: this file adds the analyst's side as the analyst's.
+
+What it adds: the seat can now say which questions management declined or deferred and on which call, and count them. It does not turn any of them into a scored promise, and a `deferred` that was answered on a later call is not tracked.
+
 ## Annual reports FY2021-22 to FY2024-25 added (2026-10-29, third entry)
 
 New sources S028 to S031: the statements read from the prose of the four earlier annual reports (years ended 2022-03-31, 2023-03-31, 2024-03-31 and 2025-03-31), one file each (statements-ar-fy22.md to statements-ar-fy25.md): 386, 493, 463 and 418 kept statements. The year each file closes was read from its own pages, not from its file name. The same four parts of each report were read as for FY2025-26 (the messages from the chairperson and chief executive, the Board's report, the management discussion, the governance report, the auditor's reports and the notes) and the same rules apply: only the letter and the management discussion are management speech.
