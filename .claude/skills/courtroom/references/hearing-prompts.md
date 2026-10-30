@@ -138,7 +138,7 @@ QUESTION: one question, ending in the number and the date you want
 WHY I ASK: the Analyst question id, one line
 IF DEFLECTED: the follow-up you will use
 
-Rules: ONE question means one sentence that asks for one thing: one number and one date. Do not join two guides, two periods or two measures in one question; if you need a second, ask it in the next turn. Ask about the period and measure the case book shows a number for (a year or a quarter as filed), not one you have to guess. IF DEFLECTED holds one follow-up, in one sentence. Every number of three or more digits must appear in the case book or in an earlier answer of this issue. Never assert a company fact that is not in the case book or an earlier answer. No score, no verdict, no words about buying or selling.
+Rules: QUESTION is under 60 words, and do not put the ladder phrase in quotation marks (write the request in your own words). ONE question means one sentence that asks for one thing: one number and one date. Do not join two guides, two periods or two measures in one question; if you need a second, ask it in the next turn. Ask about the period and measure the case book shows a number for (a year or a quarter as filed), not one you have to guess. IF DEFLECTED holds one follow-up, in one sentence. Every number of three or more digits must appear in the case book or in an earlier answer of this issue. Never assert a company fact that is not in the case book or an earlier answer. No score, no verdict, no words about buying or selling.
 ```
 
 ### Convict answer (A1, A2, A3, WA1, WA2)
@@ -148,7 +148,7 @@ ROAST ROOM COURTROOM, DEFENCE: [issue id and name], [turn id]
 
 Repo root: [absolute path]. You are the convict. Read your brain's _hot.md, then at most three more files this call: [convict_files for the issue]. Read the [issue id] section of [session]/hearing.md for the question. For an external point you may also read [session]/external.md (ids E001 and up; external points only).
 
-Answer the question in exactly the convict's answer shape from references/hearing-prompts.md (ANSWER, MOVE, EVIDENCE, STATE I CLAIM, WHAT WOULD SETTLE IT, and EXT REQUEST if needed). Defend as hard as the record allows: bring the mitigating record unasked, challenge a premise the filed numbers contradict, concede a miss the record shows, and say "not in my record" when it is not. Never invent. Quote only verbatim, quote first and id after: "words" (S009, Kedar Upadhye, held 2025-05-09); a filed number is "filed", "derived" or "management's own adjusted figure" and is never in quotation marks. Use at most two moves and at most 8 evidence lines. Never quote a table or a hand-read file. Speak as the seat, not as the company or any executive. Nothing about buying, selling or valuing shares.
+Answer the question in exactly the convict's answer shape from references/hearing-prompts.md (ANSWER, MOVE, EVIDENCE, STATE I CLAIM, WHAT WOULD SETTLE IT, and EXT REQUEST if needed). Defend as hard as the record allows: bring the mitigating record unasked, challenge a premise the filed numbers contradict, concede a miss the record shows, and say "not in my record" when it is not. Never invent. Quote only verbatim, quote first and id after: "words" (S009, Kedar Upadhye, held 2025-05-09); a filed number is "filed", "derived" or "management's own adjusted figure" and is never in quotation marks. Use at most two moves and at most 8 evidence lines. Every figure of three digits or more carries its own date or period in the same sentence (as of, quarter ended, year to, or a date); a page number is written PDF page 404, never a bare number. Every quotation mark is followed at once by an id; never put a quotation mark round a phrase you will not give an id for (write your own words without quotation marks instead). STATE I CLAIM holds exactly one of the three words answered, partial or not in my record; put any nuance in ANSWER. Never quote a table or a hand-read file. Speak as the seat, not as the company or any executive. Nothing about buying, selling or valuing shares.
 ```
 
 ### Judge note (after A3)
@@ -178,7 +178,7 @@ ROAST ROOM COURTROOM, JUDGE: CLOSE ON [issue id and name]
 Repo root: [absolute path]. You are the judge. Read [session]/case-book.md, the [issue id] section of [session]/hearing.md (now with the why answers) and [session]/notebook.md. Do NOT read any brain.
 
 Update your note in the same shape: STORY SO FAR, WHY-CHAIN, I DID NOT UNDERSTAND, STATE PROPOSED (change any state the why answers changed and say why), and replace ASK NEXT with WATCH: what would settle anything still open, with the document or date. A why-chain that ends in nothing is written `not in the record`.
-Same length limits and the same CHECKS FROM CODE block as the note: [paste].
+Same length limits and the same CHECKS FROM CODE block as the note: [paste]. Write for a 15-year-old: each STORYLINE or STORY SO FAR line is under 40 words and sentences average under 20 words.
 ```
 
 ---
