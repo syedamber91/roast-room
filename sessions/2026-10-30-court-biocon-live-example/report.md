@@ -2,44 +2,41 @@
 
 Simulation, not advice, and not a SEBI-registered adviser. Run 2026-10-30.
 
-**Position: Wait.** trust 4 is below the 18 to 21 band, so Buy is not allowed
+**Position: Wait.** trust 7 is below the 18 to 21 band, so Buy is not allowed
 
-Trust 4 of 21 (band 0 to 6, seat's own bands, not from any source, uncalibrated). Direction: mixed.
+Trust 7 of 21 (band 7 to 11, seat's own bands, not from any source, uncalibrated). Direction: mixed.
 
 | Section | Judge | Ceiling | Final |
 |---|---|---|---|
 | S1 Guidance against delivery | 2 | 2 | 2 |
-| S2 Earnings quality and accounting | 0 | 0 | 0 |
-| S3 Cash, receivables, working capital | 0 | 0 | 0 |
+| S2 Earnings quality and accounting | 1 | 1 | 1 |
+| S3 Cash, receivables, working capital | 1 | 1 | 1 |
 | S4 Debt and funding | 1 | 1 | 1 |
-| S5 Related parties and group companies | 0 | 0 | 0 |
+| S5 Related parties and group companies | 1 | 1 | 1 |
 | S6 Promoter: pledge, selling, succession | 1 | 1 | 1 |
 | S7 Board, auditors, independent directors | 0 | 0 | 0 |
 
-If you do not own it: Wait. what would change it: a heard answer on the 24,692 million debt gap and on covenant headroom, plus the quarter ended 2026-09-30 results, and a hearing of the unheard issues (profit quality, cash, related parties, board), would be needed before it could rise.
-If you own it: hold and watch. what would change it: a covenant problem at the 2026-09-30 test, a larger unexplained debt gap, or a promoter share trade with no explanation would move it toward reduce; a clean reconciliation and a better Generics margin on one basis would support staying.
+If you do not own it: Wait. what would change it: filed answers that close the 24,692 debt gap, show the covenant test at 2026-09-30 and explain the cash fall would lift trust, while a standing gate (for example an adverse reason from the auditor's exit) would move this to Avoid.
+If you own it: hold and watch. what would change it: a standing gate, a covenant problem in the next filing, or adverse reasons behind the 2026-08-06 auditor exit would point to reduce or exit, and nothing in this record on its own points to add.
 
 Triggers:
-- Results and call for the quarter ended 2026-09-30 (about mid November 2026, date unchecked) | gross and current borrowings against the maturity table, finance costs against 2,132 million in the quarter ended 2026-06-30, and Generics margin on the new basis | moves either
-- The note (b) text under the maturity table (PDF p404) and note (d) on the Senior Secured Notes (PDF p376) of the annual report to 2026-03-31, or any disclosed result of the 2026-09-30 covenant test | what makes up the 24,692 million and whether covenant headroom is stated | moves either
-- The exchange allotment notice of 2026-06-29 and any insider-trading disclosure for the +57,119 promoter shares | who got the shares, the date and the mode | moves either
+- Results, call and deck for the quarter to 2026-09-30 (about mid November 2026, date unchecked) | Generics margin on the new basis against the 13% to 14% target (window to about 2027-02), finance costs against the 300 crore saving, gross borrowings, the 24,692 note (b) gap, covenant test at 2026-09-30 | moves either
+- The exchange filing carrying B S R & Co. LLP's reasons for the 2026-08-06 subsidiary exit, with its timestamp | reasons, receipt date, hours, and which subsidiary | moves either
+- The allotment intimation of 2026-06-29 and the promoter insider-trading disclosure for the 57,119 shares | allottees, whether any promoter entity took shares, trade date and mode | moves either
 
 What this does not decide:
 - price against value
 - the reader's own situation
-- anything after the as-of dates (calls to 2026-08-06, filed quarters to 2026-06-30, annual report to 2026-03-31, shareholding to 2026-09-30, price to 2026-10-23)
-- the seven unheard issues I1, I2, I4, I5, I7, I9 and I10: earnings quality, cash and working capital, related parties, board and auditors are not scored
-- covenant thresholds, actual ratios and headroom: not in the record
-- undrawn committed credit lines: not in the record
-- the 2026-09-30 covenant test result and gross borrowings at 2026-09-30: not in the record
-- the make-up of the 24,692 million gap and note (b): not in the record
-- who got the +57,119 promoter shares and the 2026-06-29 allotment (8,786,362 securities per the case book): not in the record
-- the pledge count cell (blank since 30-JUN-2025), depository records and lender documents: not in the record
-- the FY2022 promoter declaration wording: not in the record
-- FII and DII flows and large investor names: not in the record
-- price and volume split of revenue, and a quarterly cost bridge: not in the record
-- the Q1 FY27 deck (S025) restated Generics margins and the size of the moved cross charge: not in the record
-- the answer states in qa-states.md are one model's reading (23 of 30 agreed, bar 24): weaker evidence
+- anything after the as-of dates (price to 2026-10-23, results to 2026-06-30, announcements to 2026-10-29)
+- the trust bands and the Buy cap are the seat's own and untested
+- issues I1, I2 and I10 were not heard, so profit-bridge, growth-source and what-management-declines have no hearing of their own
+- D05b: promoter encumbrance declarations were read by eye; FY2022 has no readable text
+- D06, D06b, D06c: transactions actually made are not matched to the approved ceilings; what replaced approvals after 2026-08-06 is not on record
+- D09, D09a: covenant thresholds, actual ratios and undrawn committed lines are not stated; the covenant test at 2026-09-30 is not on record
+- D10: the quarter to 2025-09-30 has no clean segment source, and the segment measure changed twice
+- D11: answer states are one model's reading (23 of 30 agreed, bar 24)
+- receivable days, FII and DII flows, minority owners and the allottees of the issues of 2025-06-19, 2026-01-05 and 2026-01-14 are not on record
+- the cash-flow working capital lines, the Generics cross charge amount (2026-06-30) and the after-tax size of the one-off items
 
 Checks that need a look:
 - FAIL lawyer-number Lawyer baseline: 6277 is in neither the case book nor an earlier turn
@@ -73,6 +70,41 @@ Checks that need a look:
 - FAIL quote-source  I3 WA1 Convict: quote has no id right after it (write "words" (S009, speaker, held date)): "moved cross charges of common utilities from Generics to the..."
 - FAIL quote-source  I3 Judge close: judge quote is in neither the hearing nor the case book (did it open a brain?): "EBITDA ₹75 crores, margin 8%..."
 - warn judge-story   I3 Judge close: storyline line is 43 words, limit 40
+- FAIL number-date   I4 A1 Convict: 6597 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I4 A2 Convict: 3688 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I4 A2 Convict: 3856 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I4 A2 Convict: 168 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I4 A2 Convict: 1842 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I4 A2 Convict: 4029 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I4 A3 Convict: 6965 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I4 A3 Convict: 6303 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I4 A3 Convict: 662 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I4 WA1 Convict: 2021 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I4 WA2 Convict: 4029 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I4 WA2 Convict: 304 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I4 WA2 Convict: 762 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I5 A1 Convict: 60857 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I5 A1 Convict: 49311 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I5 A1 Convict: 11546 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I5 A1 Convict: 20672 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I5 A1 Convict: 40612 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I5 A1 Convict: 19940 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I5 A1 Convict: 762 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I5 A2 Convict: 1961 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I5 A2 Convict: 19940 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I5 A2 Convict: 17979 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I5 A2 Convict: 19246 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I5 A2 Convict: 40612 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I5 A2 Convict: 21366 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I5 A2 Convict: 19117 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I5 A3 Convict: 1961 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I5 A3 Convict: 10881 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I5 A3 Convict: 3509 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I5 A3 Convict: 3761 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I5 A3 Convict: 4260 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I5 A3 Convict: 46127 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I5 A3 Convict: 41017 has no date, quarter or as-of word within 80 characters
+- FAIL judge-story   I5 Judge note: storyline line has no evidence id and no 'not in the record': 3. Unfinished building work rose to 46,127 from 41,017. No amount or d
 - FAIL number-date   I6 WA1 Convict: 5121 has no date, quarter or as-of word within 80 characters
 - FAIL number-date   I6 WA1 Convict: 35663 has no date, quarter or as-of word within 80 characters
 - FAIL number-date   I6 WA1 Convict: 14732 has no date, quarter or as-of word within 80 characters
@@ -82,6 +114,21 @@ Checks that need a look:
 - FAIL number-date   I6 WA1 Convict: 322 has no date, quarter or as-of word within 80 characters
 - FAIL number-date   I6 WA1 Convict: 3249 has no date, quarter or as-of word within 80 characters
 - FAIL number-date   I6 WA2 Convict: 4500 has no date, quarter or as-of word within 80 characters
+- FAIL turn-shape    I7 A1 Convict: MOVE must be one or two of ['challenge', 'cite', 'concede', 'mitigate', 'not in my record'], found ['cite', 'challenge', 'not in my record']
+- FAIL number-date   I7 A1 Convict: 73560 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I7 A1 Convict: 400 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I7 A1 Convict: 292726366 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I7 A2 Convict: 261917480 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I7 A2 Convict: 112860496 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I7 A2 Convict: 149056984 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I7 A2 Convict: 143669382 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I7 A2 Convict: 292726366 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I7 A2 Convict: 400 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I7 A2 Convict: 73560 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I7 WA1 Convict: 400 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I7 WA1 Convict: 143669382 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I7 WA1 Convict: 149056984 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I7 WA1 Convict: 73560 has no date, quarter or as-of word within 80 characters
 - FAIL number-date   I8 A3 Convict: 57119 has no date, quarter or as-of word within 80 characters
 - FAIL number-date   I8 WA1 Convict: 57119 has no date, quarter or as-of word within 80 characters
 - FAIL number-date   I8 WA1 Convict: 8472668 has no date, quarter or as-of word within 80 characters
@@ -90,6 +137,10 @@ Checks that need a look:
 - FAIL number-date   I8 WA2 Convict: 728024176 has no date, quarter or as-of word within 80 characters
 - FAIL number-date   I8 WA2 Convict: 112664585 has no date, quarter or as-of word within 80 characters
 - FAIL number-date   I8 WA2 Convict: 368.35 has no date, quarter or as-of word within 80 characters
+- FAIL id-exists     I9 A1 Convict: S053 is not in the brain sources.md
+- FAIL number-date   I9 A2 Convict: 149 has no date, quarter or as-of word within 80 characters
+- FAIL quote-source  I9 Judge note: judge quote is in neither the hearing nor the case book (did it open a brain?): "five more independent appointments recommended from August 1, 2026..."
+- FAIL quote-source  I9 Judge note: judge quote is in neither the hearing nor the case book (did it open a brain?): "Haggar 5 of 5 Audit Committee meetings..."
 - FAIL turn-shape    X1 Lawyer: QUESTION is 83 words, limit 70 (one ask, one number, one date)
 - FAIL quote-source  X1 Lawyer: lawyer quote is in neither its own brain nor an earlier turn: "Borrowings by when they fall due..."
 - FAIL quote-source  XA1 Convict: quote has no id right after it (write "words" (S009, speaker, held date)): "|Senior Secured Notes 2029 (..."
@@ -117,6 +168,5 @@ Checks that need a look:
 - FAIL number-date   XA4 Convict: 8472668 has no date, quarter or as-of word within 80 characters
 - FAIL number-date   XA4 Convict: 313694 has no date, quarter or as-of word within 80 characters
 - FAIL number-date   XA4 Convict: 8786362 has no date, quarter or as-of word within 80 characters
-- warn judge-story   Judge final: storyline line is 45 words, limit 40
-- warn judge-story   Judge final: storyline line is 53 words, limit 40
-- warn reading-level Judge final: sentences average 34 words (a 15-year-old reads about 18)
+- FAIL quote-source  Judge final: judge quote is in neither the hearing nor the case book (did it open a brain?): "Wait: trust good, entry not yet..."
+- warn reading-level Judge final: sentences average 27 words (a 15-year-old reads about 18)

@@ -1,92 +1,98 @@
 ### Judge final
 
 SECTION SCORES:
-- S1 | 2 | states: Q1.1 partial, Q1.2 partial, Q1.3 partial | WHY: Management gave no group margin or revenue guide, but it did give dated segment targets with numbers (Generics 10% to 12% and 13% to 14%, said 2025-01-31), and it conceded the Generics miss, so the Chair's no-guidance rule gives 2 and no more (hearing I3 A1, A2, A3, WA2).
-- S2 | 0 | states: none | WHY: no data, not heard
-- S3 | 0 | states: none | WHY: no data, not heard (the cash questions came up only in the baseline, B09 to B11, and issue I5 was not heard)
-- S4 | 1 | states: Q4.3 partial, Q4.1 partial, Q4.2 partial | WHY: The notes say every covenant was met in the year to 2026-03-31, but there is no threshold, no ratio, no debt target, and the 24,692 million gap between two filed tables for debt due within a year at 2026-03-31 is still open (hearing I6 A1 to A3, WA1, X2 XA2).
-- S5 | 0 | states: none | WHY: no data, not heard
-- S6 | 1 | states: Q6.1 partial, Q6.2 partial, Q6.3 partial | WHY: Dilution is well explained with dated share counts and nothing is pledged on the filed flags, but the pledge count cell is blank, no depository or lender record was read, and the trade date for the +57,119 promoter shares is missing (hearing I8 A1 to A3, XA3, XA4).
-- S7 | 0 | states: none | WHY: no data, not heard (auditor and board points came up only in the baseline, B23 and B25, and issue I9 was not heard)
+- S1 | 2 | states: Q1.1 partial, Q1.2 partial, Q1.3 partial | WHY: Management gave no group margin or revenue guide (calls dated 2025-08-08 to 2026-08-06), but dated segment targets exist, and the Generics margin guide of 10% to 12% (2025-01-31) was missed at 5% for FY26, a miss conceded with reasons.
+- S2 | 1 | states: Q2.1 partial, Q1.6 partial | WHY: The one-off items are not sized after tax: Eris income of 10,570 million in the quarter to 2024-06-30 leaves 775 unexplained, and the 4,029 net loss in the year to 2026-03-31 has no tax or minority split.
+- S3 | 1 | states: Q3.1 partial, Q12.2 answered | WHY: The 1,961 million left after plant purchases (year to 2026-03-31) is answered with filed numbers, but why operating cash fell from 40,612 to 19,940 has no cash-flow lines and no management reason.
+- S4 | 1 | states: Q4.3 partial, Q4.1 partial, Q4.2 partial | WHY: Covenants are met in words only, with no threshold or ratio (year to 2026-03-31), and the 24,692 gap in one-year debt at 2026-03-31 stayed unexplained after cross-examination.
+- S5 | 1 | states: Q5.3 partial, Q5.2 partial | WHY: The Mylan share counts tie (notes for the year to 2026-03-31), but no approval ceiling or running balance is on record, and nothing replacing the ten approvals that ended at the AGM of 2026-08-06 is on record.
+- S6 | 1 | states: Q6.1 partial, Q6.2 partial, Q6.3 partial | WHY: Pledge is nil on the flags at 2026-09-30 and the dilution is explained by filed share issues, but the pledged-count cell is blank and the 57,119 promoter share rise to 2026-06-29 is unexplained.
+- S7 | 0 | states: Q10.2 no data, Q10.4 answered, Q10.3 partial | WHY: Five of nine directors were independent at 2026-03-31, but the decisive question has no data: the auditor's exit from a material subsidiary effective 2026-08-06 has no reasons, receipt date or filing time on record.
 
 DIRECTION: mixed
 
 DIRECTION WHY:
-- Profit, the full year: profit to owners fell from 10,133 million (FY25) to 3,856 million (FY26), because segment profit fell from 17,901 to 8,508 million and net one-off items turned into a 4,029 million charge, with lower tax and a minority swing offsetting part of it. The 4,029 and the tax and minority figures are the convict's own filed-derived numbers, not case book cells. The segment profit totals are filed. The Board's report figure of 3,688 million for profit including minority holders agrees with that bridge (case book s3 Full year; hearing B07; S027 p190).
-- Profit, why segments fell: Generics went from a profit of 1,755 to a loss of 1,348 million, Biosimilars from 11,961 to 5,876, and CRDMO from 6,279 to 4,875 (FY25 to FY26). The only dated causes on record are management's own: Generics profit down 32% for nine months on new-factory costs (S012, held 2026-02-13), and no repeat of FY25 one-off benefits such as Lenalidomide (S027 p241). The cause for Biosimilars is not in the record (case book s3 segment results; hearing B02, B19).
-- Profit, the latest quarter: operating profit rose 13.1% to 8,472 million in the quarter ended 2026-06-30, and the margin was 19.5% against 19.0% a year earlier (case book s3 Filed quarters, derived). That is a better sign than the full year, but it is one quarter.
-- Growth: revenue rose about 10.9% (derived) to 169,270 million in FY26 and 10.0% in the quarter ended 2026-06-30, but the March 2026 quarter grew only 2.3% (case book s3). The split between price and volume is not in the record (hearing B01).
-- Growth, by segment: Biosimilars rose from 24,578 to 28,556 million between the June 2025 and June 2026 quarters. Services fell 15.8% (8,745 to 7,360 million), and the rename did not cause it. Management points to lower demand from one large biologics client (hearing I3 WA2 on Services; S014, held 2026-08-06; case book s3 Segments).
-- Cash, for context: operating cash fell to 19,940 million (FY26) from 40,612 (FY25), and the working capital bridge is not on record (case book s3; hearing B09).
-- Outside evidence (E001, E002, 2026-04-08 and 2026-08-26) says generics and biosimilars are excluded from US Section 232 tariffs for now and FDA draft rules may ease biosimilar studies. This is context only and did not move any score or the direction.
-Profit fell hard in FY26 but the newest quarter improved, and growth is uneven, so the word is mixed.
+1. Profit, down: profit to owners fell from 10,133 to 3,856 million (year to 2025-03-31 against year to 2026-03-31) because segment profit fell 9,393 (17,901 to 8,508) and net one-offs swung from a gain of 965 to a loss of 4,029. Lower tax and a minority loss offset part of it. (hearing B07; case book s3)
+2. Profit, down, Generics: the segment turned to a loss of 1,348 million in the year to 2026-03-31, against a profit of 1,755. Management's own reasons are new-plant costs, Generics EBITDA down 32% for nine months (S012, dated 2026-02-13), and about 60 crore a quarter (S010, dated 2025-08-08). Management's own figures, not filed. (hearing I3 WA2)
+3. Profit, up lately: operating profit was 8,472 million in the quarter to 2026-06-30 against 7,489 a year earlier (+13.1%), and margin was 19.5% against 19.0%. The four quarters to 2026-03-31 total 34,381 against 31,358 a year before (derived). (case book s3; hearing I6 judge close)
+4. Growth, up: revenue from operations rose about 10.9% to 169,270 million in the year to 2026-03-31, and 10.0% to 43,360 in the quarter to 2026-06-30. Biosimilars rose 3,978 to 28,556 in that quarter. (case book s3)
+5. Growth, mixed: Services fell 1,385 million (15.8%) to 7,360 in the quarter to 2026-06-30. The rename did not move that line (same 8,745 in both filings), and management calls FY27 a transition year for Syngene (S014, dated 2026-08-06). No FY27 revenue guide exists (S013, dated 2026-05-08). (baseline WA2; hearing I3 A2)
+6. Cash and debt pull the other way: operating cash fell to 19,940 million in the year to 2026-03-31, while gross borrowings fell 16.5% to 148,247. The cause of the cash fall is not in the record. (hearing I5 WA1; case book s3)
+7. Outside context only, not used for any score: generics and biosimilars were excluded from the US Section 232 tariffs at 2026-04-08 (E001), and FDA draft guidance of 2026-08-26 is still a draft (E002).
 
 RED FLAGS:
-- Q4.3 | 44.2% of borrowings fall due within one year at 2026-03-31 (30.1% at 2025-03-31) on the maturity table, but only 27.5% on the balance sheet; the 24,692 million gap between the two tables is unexplained, and no reason is stated | case book s3 and s5; hearing I6 A1, X2 XA2
-- Q4.3 | Covenants are called complied with, but no threshold, no actual ratio and no undrawn committed lines are printed, so headroom cannot be checked | case book s5; hearing I6 A1
-- Q1.1 | Generics margin was guided at 10% to 12% on 2025-01-31 and the deck shows 5% for FY26; the convict conceded the miss and gave new-plant costs as the reason (a stated reason, so a lighter flag) | hearing I3 WA2 (S008, S025)
-- Q6.3 | The +57,119 rise in promoter shares between 2026-03-31 and 2026-06-29 has no trade date, mode or reason on record; the case book lists an allotment of 8,786,362 securities on 2026-06-29 that the convict does not hold | hearing I8 A3, XA3, XA4; case book s4 and s6
+- Q1.1 | No group margin or revenue guide exists; the one guide that could be tested (Generics EBITDA margin 10% to 12%, said 2025-01-31) came in at 5% for FY26, and the 7% for the quarter to 2026-06-30 is on a new basis so it cannot be tested | hearing I3 A1, A2, WA2 (S008, S014)
+- Q2.1 | One-off items are not sized after tax: Eris income of 10,570 million sits inside other income of 11,345 (quarter to 2024-06-30) with 775 unexplained, and the 4,029 net loss (year to 2026-03-31) has no tax or minority split; 7,885 is only a ceiling | hearing I4 A1, A2, WA1, WA2
+- Q1.6 | The Generics cross charge amount moved out for the quarter to 2026-06-30 is not on record, so the quarter is not on the same basis as earlier rows | hearing I4 A3; case book s3 Segments
+- Q3.1 | Operating cash fell to 19,940 from 40,612 million (year to 2026-03-31); stock explains about 56% on the balance sheet only, and 9,126 is unexplained | hearing I5 A1, WA1
+- Q12.2 | Capital work in progress aged two to three years rose to 10,881 from 3,509 million at 2026-03-31, while the deck calls the build-out "substantially complete"; no project, date or amount into use | hearing I5 WA2 (S024)
+- Q4.3 | 65,476 million falls due within a year on the maturity table against 40,784 of current borrowings at 2026-03-31; the 24,692 gap is unexplained and covenant headroom cannot be checked | hearing I6 WA1, XA1, XA2; case book s5
+- Q5.3 | No ceiling or running balance for the Mylan approval, and no replacement is on record for the ten approvals that ended at the AGM of 2026-08-06 | hearing I7 A1, WA1, A3, WA2
+- Q6.3 | Promoter shares rose 57,119 between 2026-03-31 and 2026-06-29 with no trade date, mode or plan; the feed shows 8,786,362 securities allotted on 2026-06-29 and no allottee list is on record | hearing I8 A3, XA3, XA4; case book s6
+- Q10.2 | B S R & Co. LLP resigned as auditor of "the material subsidiary" effective 2026-08-06; no reasons, receipt date or filing time are on record | hearing I9 A1, WA1; case book s6
 
-POSITION: Wait | REASON: No gate stands from the record and price and results are on file, but trust is 4 of 21 (2+0+0+1+0+1+0), far below the 12 needed, and four of seven sections were not heard, so the rule gives Wait; the bands are this seat's own and untested.
+POSITION: Wait | REASON: Trust is 7 of 21 (2+1+1+1+1+1+0), no gate stands, and price (to 2026-10-23) and results (to 2026-06-30) are on file, so the rule gives Wait because Buy needs 18 to 21 and "Wait: trust good, entry not yet" needs 12 or more.
 
-READER NOT OWN: Wait | what would change it: a heard answer on the 24,692 million debt gap and on covenant headroom, plus the quarter ended 2026-09-30 results, and a hearing of the unheard issues (profit quality, cash, related parties, board), would be needed before it could rise.
+READER NOT OWN: Wait | what would change it: filed answers that close the 24,692 debt gap, show the covenant test at 2026-09-30 and explain the cash fall would lift trust, while a standing gate (for example an adverse reason from the auditor's exit) would move this to Avoid.
 
-READER OWN: hold and watch | what would change it: a covenant problem at the 2026-09-30 test, a larger unexplained debt gap, or a promoter share trade with no explanation would move it toward reduce; a clean reconciliation and a better Generics margin on one basis would support staying.
+READER OWN: hold and watch | what would change it: a standing gate, a covenant problem in the next filing, or adverse reasons behind the 2026-08-06 auditor exit would point to reduce or exit, and nothing in this record on its own points to add.
 
 TRIGGERS:
-1. Results and call for the quarter ended 2026-09-30 (about mid November 2026, date unchecked) | check: gross and current borrowings against the maturity table, finance costs against 2,132 million in the quarter ended 2026-06-30, and Generics margin on the new basis | moves: either
-2. The note (b) text under the maturity table (PDF p404) and note (d) on the Senior Secured Notes (PDF p376) of the annual report to 2026-03-31, or any disclosed result of the 2026-09-30 covenant test | check: what makes up the 24,692 million and whether covenant headroom is stated | moves: either
-3. The exchange allotment notice of 2026-06-29 and any insider-trading disclosure for the +57,119 promoter shares | check: who got the shares, the date and the mode | moves: either
+1. Results, call and deck for the quarter to 2026-09-30 (about mid November 2026, date unchecked) | check: Generics margin on the new basis against the 13% to 14% target (window to about 2027-02), finance costs against the 300 crore saving, gross borrowings, the 24,692 note (b) gap, covenant test at 2026-09-30 | moves: either
+2. The exchange filing carrying B S R & Co. LLP's reasons for the 2026-08-06 subsidiary exit, with its timestamp | check: reasons, receipt date, hours, and which subsidiary | moves: either
+3. The allotment intimation of 2026-06-29 and the promoter insider-trading disclosure for the 57,119 shares | check: allottees, whether any promoter entity took shares, trade date and mode | moves: either
 
 NOT DECIDED:
 - price against value
 - the reader's own situation
-- anything after the as-of dates (calls to 2026-08-06, filed quarters to 2026-06-30, annual report to 2026-03-31, shareholding to 2026-09-30, price to 2026-10-23)
-- the seven unheard issues I1, I2, I4, I5, I7, I9 and I10: earnings quality, cash and working capital, related parties, board and auditors are not scored
-- covenant thresholds, actual ratios and headroom: not in the record
-- undrawn committed credit lines: not in the record
-- the 2026-09-30 covenant test result and gross borrowings at 2026-09-30: not in the record
-- the make-up of the 24,692 million gap and note (b): not in the record
-- who got the +57,119 promoter shares and the 2026-06-29 allotment (8,786,362 securities per the case book): not in the record
-- the pledge count cell (blank since 30-JUN-2025), depository records and lender documents: not in the record
-- the FY2022 promoter declaration wording: not in the record
-- FII and DII flows and large investor names: not in the record
-- price and volume split of revenue, and a quarterly cost bridge: not in the record
-- the Q1 FY27 deck (S025) restated Generics margins and the size of the moved cross charge: not in the record
-- the answer states in qa-states.md are one model's reading (23 of 30 agreed, bar 24): weaker evidence
+- anything after the as-of dates (price to 2026-10-23, results to 2026-06-30, announcements to 2026-10-29)
+- the trust bands and the Buy cap are the seat's own and untested
+- issues I1, I2 and I10 were not heard, so profit-bridge, growth-source and what-management-declines have no hearing of their own
+- D05b: promoter encumbrance declarations were read by eye; FY2022 has no readable text
+- D06, D06b, D06c: transactions actually made are not matched to the approved ceilings; what replaced approvals after 2026-08-06 is not on record
+- D09, D09a: covenant thresholds, actual ratios and undrawn committed lines are not stated; the covenant test at 2026-09-30 is not on record
+- D10: the quarter to 2025-09-30 has no clean segment source, and the segment measure changed twice
+- D11: answer states are one model's reading (23 of 30 agreed, bar 24)
+- receivable days, FII and DII flows, minority owners and the allottees of the issues of 2025-06-19, 2026-01-05 and 2026-01-14 are not on record
+- the cash-flow working capital lines, the Generics cross charge amount (2026-06-30) and the after-tax size of the one-off items
 
 STORYLINE:
-1. Biocon sells medicines in three reported segments, Biosimilars, Generics and CRDMO (Syngene), and total income for FY26 was 172,695 million rupees (case book s1, s2; AR p6).
-2. Revenue from operations rose about 10.9% (derived) to 169,270 million in FY26, but profit to owners fell to 3,856 million from 10,133 million (case book s3 Full year).
-3. The fall came from segment profit halving to 8,508 million and a net one-off charge of 4,029 million (convict's derived figure), with Generics turning to a loss of 1,348 million (hearing B07; S027 p190).
-4. Management gave no group margin or revenue guide, only segment targets, and the Generics 10% to 12% margin guide of 2025-01-31 was missed (5% for FY26, conceded) (hearing I3 A1, A2, WA2).
-5. The latest quarter, ended 2026-06-30, looks better: operating profit up 13.1% to 8,472 million and margin 19.5% against 19.0% (case book s3).
-6. Cash from operations fell to 19,940 million from 40,612 million while stock rose to 60,857 million, and the working capital bridge is not on record (case book s3; hearing B09, B10).
-7. Gross borrowings fell 16.5% to 148,247 million at 2026-03-31, but 65,476 million falls due within a year on the maturity table against only 40,784 million current on the balance sheet, a 24,692 million gap nobody explained (case book s3, s5; hearing I6 WA1, XA2).
-8. The notes say all covenants were met and no difficulty is expected at the 2026-09-30 test, but no threshold or ratio is printed, so headroom is unknown (case book s5; hearing I6 A1).
-9. The promoter share fell from 60.64% to 44.68% because new shares were issued (two QIPs and one share swap for Biocon Biologics), the promoter count moved only +57,119, and the pledged flag is false in all 25 filings, though the pledge count cell is blank (case book s4; hearing I8 WA3, A1).
-10. The reason for the +57,119 promoter shares and the 2026-06-29 allotment is not on record, and the heard issues cover only three of ten, so the record is thin (hearing I8 XA3, XA4; case book s8).
+1. Biocon reports three segments: Biosimilars, Generics and CRDMO, with total income of 172,695 million rupees in the year to 2026-03-31. (case book s2)
+2. Revenue rose to 169,270 from 152,617 million in the year to 2026-03-31, but profit to owners fell to 3,856 from 10,133. (case book s3)
+3. Segment profit halved to 8,508 million in the year to 2026-03-31, with Generics at a loss of 1,348 and a net one-off loss of 4,029. (hearing B07)
+4. Management gave no group margin or FY27 revenue guide, and the Generics guide of 10% to 12% (2025-01-31) came in at 5% for FY26, which was conceded. (hearing I3 A1, A2, WA2)
+5. In the quarter to 2026-06-30 revenue grew 10.0% and margin was 19.5%, but Services fell 15.8% and the segment basis changed. (case book s3; baseline WA2)
+6. Operating cash fell to 19,940 from 40,612 million in the year to 2026-03-31, leaving only 1,961 after plant purchases; the cause is not on record. (hearing I5 A2, WA1)
+7. Gross borrowings fell 16.5% to 148,247 million at 2026-03-31, yet 65,476 falls due within a year against 40,784 current, a 24,692 gap nobody explained. (hearing I6 WA1, XA2)
+8. The promoter stake fell from 60.64% to 44.68% by 2026-09-30 because shares were issued; pledge flags are false in 25 filings, but 57,119 extra promoter shares are unexplained. (case book s4; hearing XA4)
+9. The Mylan deal was approved with 0.81% votes against (meeting of 2025-12-31); no ceiling or running balance is on record, and ten approvals ended at the AGM of 2026-08-06. (hearing I7 A1, A3)
+10. Five of nine directors were independent at 2026-03-31, but B S R & Co. LLP left a material subsidiary on 2026-08-06 with no reasons on record. (hearing I9 A2, WA1)
 
 GLOSSARY:
+- Consolidated: the whole group added together, the company and the companies it controls.
+- Operating margin: operating profit divided by sales, shown as a percentage.
 - Guidance: a number or range a company says it expects to reach.
-- Segment: one of the main businesses inside a company, reported with its own numbers.
-- Operating profit and margin: sales left after running costs, and that as a percentage of sales.
-- Profit to owners: the part of profit that belongs to the listed company's own shareholders.
-- One-off item (exceptional): a gain or cost not expected to repeat.
-- Covenant: a promise to a lender, such as keeping debt below a limit; breaking it can let the lender ask for money back early.
-- Headroom: how far a company is from breaking a covenant.
-- Maturity table: a table showing how much debt must be repaid in each time period.
-- Current borrowings: debt that the balance sheet shows as due within a year.
-- Undrawn line: a loan facility the bank agreed but the company has not used.
-- Promoter: the founding person or family that controls the company.
+- No-guidance rule: a company that gives no group number can still score 2 if it gives dated numeric targets for parts of the business.
+- Segment: one main business inside a company, with its own numbers.
+- Biosimilar: a medicine made from living cells that is highly similar to an existing biologic medicine.
+- CRDMO: the Syngene business doing research, development and manufacturing for other companies; called Services from 2026-06-30.
+- Cross charge: a shared cost, such as utilities, split between segments; moving it changes each segment's result.
+- One-off (exceptional) item: a gain or cost not expected to repeat; it can make profit look better or worse than normal.
+- Minority share: the part of group profit that belongs to outside owners of subsidiaries.
+- Capital work in progress: the cost of things still being built that are not yet in use.
+- Free cash on the convict's basis: operating cash less cash paid for plant and equipment; management has not given its own definition.
+- Maturity table: a table showing how much debt falls due in each period.
+- Covenant: a promise to a lender, such as keeping debt below a limit; breaking it can let the lender demand money early.
+- Undrawn line: a loan facility the bank has agreed but the company has not yet used.
+- Preferential issue and QIP: new shares sold to chosen buyers, or to large institutions.
+- Dilution: a promoter's percentage falling because more shares were created, not because the promoter sold.
 - Pledge: shares put up as security for a loan.
-- Dilution: a holder's percentage falling because more shares were created, not because they sold.
-- QIP (qualified institutional placement): new shares sold to large institutions.
-- Preferential issue: new shares sold to chosen buyers at an agreed price.
-- Cross charge: a shared cost that is moved between segments in the books.
-- EBITDA: a company's own measure of operating profit, which may differ from the filed figure.
-- Not in the record: the sources read do not say it. It is a gap, not a finding.
+- Related party: a person or company closely linked to the company, such as an owner or an investor with influence.
+- Independent director: a board member outside management and the owner group, meant to speak for all owners.
+- Key audit matter: an area the auditor found most important or difficult in the audit.
+- Gate: a serious red flag in this court's rule; a standing gate overrides the score.
+- Not in the record: the sources read for this case do not say it; it is a gap, not a finding.
 
-WHY THE DEFENCE HELD OR DID NOT: The defence held up fairly well on what it did say, but it left several gaps. The convict stayed inside its record, gave numbers with dates where it had them (I6 A1 to A3, I8 A1, WA3), corrected itself when shown wrong (I8 WA3 on the June 2025 issue, XA1 on the 73,597 million notes, XA3 on the 2026-06-29 allotment), and conceded the Generics margin miss and the late liraglutide approval (I3 WA2, opening). That is why S1, S4 and S6 are not zero. But every core question in those three sections stayed partial: there was no group guide, no debt target or covenant headroom (I6 A1 to A3), no lender or depository record for pledge (I8 A1, A2), and no reconciliation of the 24,692 million debt gap (I6 WA1, XA2). On the +57,119 promoter shares the convict said "not in my record" three times (I8 A3, XA3, XA4) and could not explain a 313,694 share difference from the case book allotment (XA3). Several answers lean on the convict's own readings (the 7% against 8% Generics margin basis, the "kept" and "still open" scoring, one model's Q&A states), which the guard flagged as weaker, so I gave them less weight. Because seven issues were never heard, four sections score zero by rule, and the low trust total of 4 reflects thin evidence rather than a finding about the company.
+WHY THE DEFENCE HELD OR DID NOT: The defence stood up in parts and fell short on the central questions. The convict was open about gaps and conceded the Generics margin miss (I3 WA2), US liraglutide approval, and the reading that all 73,597 of the Senior Secured Notes sit outside the one-year bucket (XA1). It refused to call 7,885 a finding (I4 A2) and corrected its own wrong date for the promoter step (baseline WA3). It also answered two questions with filed numbers and dates: cash left after plant purchases (I5 A2) and five of nine directors independent (I9 A2). But the decisive answers were missing. It gave no covenant thresholds or ratios and could not explain the 24,692 gap (I6 WA1, XA2). It gave no after-tax size for the one-offs (I4 WA1, WA2), no cash-flow lines (I5 WA1), no Mylan ceiling (I7 WA1), no reasons for the auditor exit (I9 WA1) and no allottees (XA3, XA4). In XA3 and XA4 it said it held no exchange timeline, although the case book carries the 2026-06-29 allotment row. Several figures were undated or lacked a usable id, so I weigh them as weaker. This describes how the defence stood up on the record, not guilt.
 
 This is a simulation built from public filings. It is not advice and not a SEBI-registered adviser.
