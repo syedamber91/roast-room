@@ -109,7 +109,7 @@ def test_the_real_trial_hearing_is_flagged_where_the_trial_found_flaws_and_clean
     by_turn = {}
     for p in problems:
         if p.severity == "FAIL":
-            by_turn.setdefault(p.turn, set()).add(p.guard)
+            by_turn.setdefault(p.turn.split(" ", 1)[1] if p.turn.startswith("I3 ") else p.turn, set()).add(p.guard)
     assert by_turn["Q1 Lawyer"] == {"turn-shape"}                                    # compound question, three-step follow-up
     assert by_turn["A1 Convict"] == {"turn-shape", "quote-source"}                   # four moves, nine evidence lines, quotes with the id first
     assert by_turn["A3 Convict"] == {"id-exists"}                                    # the placeholder S0xx
@@ -131,3 +131,28 @@ def test_a_move_line_may_use_a_pipe_between_two_moves_but_not_three(tmp_path):
     three = GOOD.replace("MOVE: cite", "MOVE: cite | mitigate | concede")
     assert "turn-shape" not in guards(run(tmp_path, two, EXTERNAL))
     assert "turn-shape" in guards(run(tmp_path, three, EXTERNAL))
+
+
+FILLER = " The plant plan came up again in the discussion and the speaker went on at some length about the line and the people on it."
+
+
+def with_far_figure(text, figure, cite):
+    return GOOD.replace("and the plant plan was stated on 2026-05-08.", "and the plant plan was stated on 2026-05-08." + FILLER + FILLER + " Also " + figure + " " + cite + "." + FILLER + FILLER)
+
+
+def test_a_list_of_page_numbers_is_not_read_as_a_figure(tmp_path):
+    pages = with_far_figure(GOOD, "this is on", "(S026, PDF pages 346 and 381; S038, PDF pages 309 to 404)")
+    figure = with_far_figure(GOOD, "7,489 was reported", "(S026)")
+    assert "number-date" not in guards(run(tmp_path, pages, EXTERNAL))
+    assert "number-date" in guards(run(tmp_path, figure, EXTERNAL))
+
+
+def test_a_note_names_its_issue_so_two_turns_with_one_id_can_be_told_apart(tmp_path):
+    texts = [str(p) for p in run(tmp_path, with_far_figure(GOOD, "7,489 was reported", "(S026)"), EXTERNAL) if p.guard == "number-date"]
+    assert texts and all("I3 A1 Convict" in t for t in texts)
+
+
+def test_the_same_note_is_reported_once(tmp_path):
+    twice = with_far_figure(GOOD, "7,489 was reported and 7,489 again", "(S026)")
+    texts = [str(p) for p in run(tmp_path, twice, EXTERNAL) if p.guard == "number-date" and "7489" in str(p)]
+    assert len(texts) == 1

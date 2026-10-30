@@ -89,7 +89,7 @@ def words(text: str) -> int:
 
 def big_numbers(text: str) -> list:
     """[(digits, position)] for numbers of three digits or more, ignoring dates, years, source ids and page numbers."""
-    masked = re.sub(r"\d{4}-\d{2}-\d{2}|\b(?:19|20)\d{2}\b|\b[SE]\d{3}\b|\bS0xx\b|PDF pages? \d+|\bp\d+\b|\bQ[1-4]\b|\bFY ?'?\d+\b", lambda m: " " * len(m.group()), text)
+    masked = re.sub(r"\d{4}-\d{2}-\d{2}|\b(?:19|20)\d{2}\b|\b[SE]\d{3}\b|\bS0xx\b|(?:PDF )?pages? \d+(?:\s*(?:,|and|to|-)\s*\d+)*|\bp\d+\b|\bQ[1-4]\b|\bFY ?'?\d+\b", lambda m: " " * len(m.group()), text)
     found = []
     for m in re.finditer(r"(?<![\w.])\d{1,3}(?:,\d{3})+(?:\.\d+)?|(?<![\w.,])\d{3,}(?:\.\d+)?(?![\w])", masked):
         found.append((m.group().replace(",", ""), m.start()))
@@ -269,6 +269,7 @@ def check(hearing: str, case_book: str, convict_brain_dir: Path, lawyer_brain_di
     speechless = non_speech_ids(sources)
     problems, earlier = [], ""
     for turn in parse_turns(hearing):
+        before = len(problems)
         problems += guard_turn_shape(turn)
         problems += guard_quotes(turn, earlier, case_book, convict_text, lawyer_text)
         problems += guard_ids(turn, sources, external_ids)
@@ -278,8 +279,17 @@ def check(hearing: str, case_book: str, convict_brain_dir: Path, lawyer_brain_di
         problems += guard_lawyer_numbers(turn, earlier, case_book)
         problems += guard_external_ids(turn)
         problems += guard_judge(turn)
+        issue = re.match(r"I\d+\b", turn["section"])
+        if issue:  # turn ids repeat across issues (A1 Convict is in I3, I6 and I8), so a note names its issue
+            for p in problems[before:]:
+                p.turn = f"{issue.group()} {p.turn}"
         earlier += "\n" + turn["body"]
-    return problems
+    seen, unique = set(), []
+    for p in problems:  # one note per distinct finding
+        if str(p) not in seen:
+            seen.add(str(p))
+            unique.append(p)
+    return unique
 
 
 def main() -> int:

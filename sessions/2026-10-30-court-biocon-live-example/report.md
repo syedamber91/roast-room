@@ -55,13 +55,8 @@ Checks that need a look:
 - FAIL number-date   WA1 Convict: 148246 has no date, quarter or as-of word within 80 characters
 - FAIL number-date   WA1 Convict: 148247 has no date, quarter or as-of word within 80 characters
 - FAIL number-date   WA1 Convict: 5121 has no date, quarter or as-of word within 80 characters
-- FAIL number-date   WA1 Convict: 65476 has no date, quarter or as-of word within 80 characters
 - FAIL number-date   WA1 Convict: 13003 has no date, quarter or as-of word within 80 characters
 - FAIL number-date   WA1 Convict: 69767 has no date, quarter or as-of word within 80 characters
-- FAIL number-date   WA1 Convict: 148246 has no date, quarter or as-of word within 80 characters
-- FAIL number-date   WA1 Convict: 381 has no date, quarter or as-of word within 80 characters
-- FAIL number-date   WA1 Convict: 65476 has no date, quarter or as-of word within 80 characters
-- FAIL number-date   WA1 Convict: 404 has no date, quarter or as-of word within 80 characters
 - FAIL number-date   WA2 Convict: 7360 has no date, quarter or as-of word within 80 characters
 - FAIL number-date   WA2 Convict: 1385 has no date, quarter or as-of word within 80 characters
 - FAIL no-speech-id  WA3 Convict: S034 is not management speech, so nothing may be quoted from it
@@ -69,38 +64,32 @@ Checks that need a look:
 - FAIL number-date   WA3 Convict: 45000 has no date, quarter or as-of word within 80 characters
 - FAIL number-date   WA3 Convict: 728024176 has no date, quarter or as-of word within 80 characters
 - FAIL number-date   WA3 Convict: 136363635 has no date, quarter or as-of word within 80 characters
-- FAIL number-date   WA3 Convict: 330 has no date, quarter or as-of word within 80 characters
 - FAIL number-date   WA3 Convict: 119620 has no date, quarter or as-of word within 80 characters
-- FAIL quote-source  A1 Convict: quote not found in the convict's brain: "not guided anything beyond that..."
-- FAIL quote-source  A1 Convict: quote has no id right after it (write "words" (S009, speaker, held date)): "not guided anything beyond that..."
-- FAIL quote-source  A2 Convict: quote has no id right after it (write "words" (S009, speaker, held date)): "not guided specifically on any numbers..."
-- FAIL quote-source  Q3 Lawyer: lawyer quote is in neither its own brain nor an earlier turn: "the number and the date, please..."
-- FAIL quote-source  A3 Convict: quote has no id right after it (write "words" (S009, speaker, held date)): "closer to 13%, 14% in 1 or 2 years..."
-- FAIL quote-source  WA1 Convict: quote has no id right after it (write "words" (S009, speaker, held date)): "moved cross charges of common utilities from Generics to the..."
-- FAIL quote-source  Judge close: judge quote is in neither the hearing nor the case book (did it open a brain?): "EBITDA ₹75 crores, margin 8%..."
-- warn judge-story   Judge close: storyline line is 43 words, limit 40
-- FAIL number-date   A1 Convict: 381 has no date, quarter or as-of word within 80 characters
-- FAIL number-date   WA1 Convict: 5121 has no date, quarter or as-of word within 80 characters
-- FAIL number-date   WA1 Convict: 35663 has no date, quarter or as-of word within 80 characters
-- FAIL number-date   WA1 Convict: 14732 has no date, quarter or as-of word within 80 characters
-- FAIL number-date   WA1 Convict: 20931 has no date, quarter or as-of word within 80 characters
-- FAIL number-date   WA1 Convict: 277 has no date, quarter or as-of word within 80 characters
-- FAIL number-date   WA1 Convict: 304 has no date, quarter or as-of word within 80 characters
-- FAIL number-date   WA1 Convict: 322 has no date, quarter or as-of word within 80 characters
-- FAIL number-date   WA1 Convict: 14732 has no date, quarter or as-of word within 80 characters
-- FAIL number-date   WA1 Convict: 3249 has no date, quarter or as-of word within 80 characters
-- FAIL number-date   WA1 Convict: 20931 has no date, quarter or as-of word within 80 characters
-- FAIL number-date   WA2 Convict: 4500 has no date, quarter or as-of word within 80 characters
-- FAIL number-date   WA2 Convict: 4500 has no date, quarter or as-of word within 80 characters
-- FAIL number-date   A3 Convict: 57119 has no date, quarter or as-of word within 80 characters
-- FAIL number-date   A3 Convict: 57119 has no date, quarter or as-of word within 80 characters
-- FAIL number-date   WA1 Convict: 57119 has no date, quarter or as-of word within 80 characters
-- FAIL number-date   WA1 Convict: 8472668 has no date, quarter or as-of word within 80 characters
-- FAIL number-date   WA2 Convict: 112840429 has no date, quarter or as-of word within 80 characters
-- FAIL number-date   WA2 Convict: 175844 has no date, quarter or as-of word within 80 characters
-- FAIL number-date   WA2 Convict: 728024176 has no date, quarter or as-of word within 80 characters
-- FAIL number-date   WA2 Convict: 112664585 has no date, quarter or as-of word within 80 characters
-- FAIL number-date   WA2 Convict: 368.35 has no date, quarter or as-of word within 80 characters
+- FAIL quote-source  I3 A1 Convict: quote not found in the convict's brain: "not guided anything beyond that..."
+- FAIL quote-source  I3 A1 Convict: quote has no id right after it (write "words" (S009, speaker, held date)): "not guided anything beyond that..."
+- FAIL quote-source  I3 A2 Convict: quote has no id right after it (write "words" (S009, speaker, held date)): "not guided specifically on any numbers..."
+- FAIL quote-source  I3 Q3 Lawyer: lawyer quote is in neither its own brain nor an earlier turn: "the number and the date, please..."
+- FAIL quote-source  I3 A3 Convict: quote has no id right after it (write "words" (S009, speaker, held date)): "closer to 13%, 14% in 1 or 2 years..."
+- FAIL quote-source  I3 WA1 Convict: quote has no id right after it (write "words" (S009, speaker, held date)): "moved cross charges of common utilities from Generics to the..."
+- FAIL quote-source  I3 Judge close: judge quote is in neither the hearing nor the case book (did it open a brain?): "EBITDA ₹75 crores, margin 8%..."
+- warn judge-story   I3 Judge close: storyline line is 43 words, limit 40
+- FAIL number-date   I6 WA1 Convict: 5121 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I6 WA1 Convict: 35663 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I6 WA1 Convict: 14732 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I6 WA1 Convict: 20931 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I6 WA1 Convict: 277 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I6 WA1 Convict: 304 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I6 WA1 Convict: 322 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I6 WA1 Convict: 3249 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I6 WA2 Convict: 4500 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I8 A3 Convict: 57119 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I8 WA1 Convict: 57119 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I8 WA1 Convict: 8472668 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I8 WA2 Convict: 112840429 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I8 WA2 Convict: 175844 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I8 WA2 Convict: 728024176 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I8 WA2 Convict: 112664585 has no date, quarter or as-of word within 80 characters
+- FAIL number-date   I8 WA2 Convict: 368.35 has no date, quarter or as-of word within 80 characters
 - FAIL turn-shape    X1 Lawyer: QUESTION is 83 words, limit 70 (one ask, one number, one date)
 - FAIL quote-source  X1 Lawyer: lawyer quote is in neither its own brain nor an earlier turn: "Borrowings by when they fall due..."
 - FAIL quote-source  XA1 Convict: quote has no id right after it (write "words" (S009, speaker, held date)): "|Senior Secured Notes 2029 (..."
@@ -122,7 +111,6 @@ Checks that need a look:
 - FAIL number-date   XA3 Convict: 8472668 has no date, quarter or as-of word within 80 characters
 - FAIL turn-shape    XA4 Convict: STATE I CLAIM must be one of ['answered', 'not in my record', 'partial'], found 'not in my record on the number and the date; partial on the context above'
 - FAIL quote-source  XA4 Convict: quote has no id right after it (write "words" (S009, speaker, held date)): "for consideration other than cash..."
-- FAIL number-date   XA4 Convict: 57119 has no date, quarter or as-of word within 80 characters
 - FAIL number-date   XA4 Convict: 57119 has no date, quarter or as-of word within 80 characters
 - FAIL number-date   XA4 Convict: 1621073650 has no date, quarter or as-of word within 80 characters
 - FAIL number-date   XA4 Convict: 1629546318 has no date, quarter or as-of word within 80 characters
