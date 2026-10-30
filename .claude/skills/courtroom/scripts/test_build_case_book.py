@@ -75,3 +75,13 @@ def test_the_timeline_comes_from_the_exchange_feed_with_the_exchanges_own_summar
     timeline = text.split("## 6.")[1].split("## 7.")[0]
     assert "| Acquisition |" in timeline and "| Resignation |" in timeline and case["announcements_to"] >= "2026-10-01"
     assert len(re.findall(r"^\| 20\d\d-\d\d-\d\d \|", timeline, re.M)) > 20
+
+
+def test_every_convict_file_hint_exists_in_the_biocon_brain_and_respects_the_three_file_rule():
+    config = json.loads(bcb.ISSUES_FILE.read_text(encoding="utf-8"))
+    brain = ROOT / ".claude" / "skills" / "roast-room" / "brains" / "biocon-management"
+    groups = [i["convict_files"] for i in config["issues"]] + [b["convict_files"] for b in config["baseline_blocks"]]
+    for files in groups:
+        assert 1 <= len(files) <= 3 and all((brain / f).exists() for f in files), files
+    blocks = {b["block"] for b in config["baseline"]}
+    assert blocks == {name for group in config["baseline_blocks"] for name in group["baseline_blocks"]}   # every baseline question is in a block that a convict call covers
