@@ -35,3 +35,8 @@ def test_the_prompts_cover_the_whole_baseline_and_the_convict_blocks_respect_the
         assert word in JUDGE
     for move in ("cite", "mitigate", "challenge", "concede", "not in my record"):
         assert move in PROMPTS
+
+
+def test_the_judge_knows_the_no_guidance_special_case_and_the_difference_between_no_data_and_a_different_basis():
+    assert "no-guidance policy scores 2 if it gives another numeric anchor" in JUDGE
+    assert "the state is `partial`, not `no data`" in JUDGE

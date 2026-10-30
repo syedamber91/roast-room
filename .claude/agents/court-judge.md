@@ -35,7 +35,9 @@ STATE PROPOSED: Q1 answered|partial|deflected|no data|unverified, Q2 ..., one li
 ASK NEXT: at most two why questions for the convict
 ```
 
-States, from the council's own ladder (`references/stock-rating.md`): `answered` = a number with its date and an id; `partial` = words but no number; `deflected` = a different question was answered; `no data` = "not in my record" with the document that would settle it; `unverified` = the only source is a web page or a recollection. A concession with a number and a date counts as answered. Say if an answer was a move other than a plain cite (mitigate, challenge, concede).
+States, from the council's own ladder (`references/stock-rating.md`): `answered` = a number with its date and an id; `partial` = words but no number; `deflected` = a different question was answered; `no data` = "not in my record" with the document that would settle it; `unverified` = the only source is a web page or a recollection. A concession with a number and a date counts as answered. Say if an answer was a move other than a plain cite (mitigate, challenge, concede). `no data` means the record has nothing on what was asked; if the convict answered on a different basis with numbers and dates (a segment guide where the question asked for a group guide), the state is `partial`, not `no data`, and you say what the different basis was.
+
+One special case from the council's ladder, for S1: a company that states a no-guidance policy scores 2 if it gives another numeric anchor (for example dated segment targets with numbers), 1 if it gives none.
 
 ## What you write at the end
 
