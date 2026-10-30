@@ -1,6 +1,6 @@
 # Courtroom: design record (judge, lawyer, convict)
 
-Status: **design only, decided 2026-10-30 with the owner in a grill-me session; nothing is built or tested.** Do not create `/courtroom` as a runnable skill until the first slice below passes its tests. Design input: a Fable review (2026-10-30). The owner's raw capture of the session is local (`brainstorms/2026-10-30-courtroom-judge-lawyer-convict.md`, gitignored); this file holds the decisions.
+Status: **designed 2026-10-30 with the owner in a grill-me session. Build step 1 is done (the issues file and `build_case_book.py`, with tests); nothing else is built. There is still no `SKILL.md`, so `/courtroom` does not exist yet.** Do not create `/courtroom` as a runnable skill until the first slice below passes its tests. Design input: a Fable review (2026-10-30). The owner's raw capture of the session is local (`brainstorms/2026-10-30-courtroom-judge-lawyer-convict.md`, gitignored); this file holds the decisions.
 
 ## 1. What it is
 
@@ -95,12 +95,12 @@ Nothing here proves a position right; the bands remain untested and the outcome 
 ```
 .claude/skills/courtroom/
   SKILL.md                      the protocol (sections 2 to 6)
-  references/issues.md          the ten issues and the baseline sheet: pack lines, brain files, question seeds
+  references/issues.json        the ten issues and the 26-question baseline sheet: pack lines, Analyst question ids, decisive question, known gaps (BUILT, step 1)
   references/hearing-prompts.md opening, baseline, examine, why, cross, closing prompts for all three roles
   references/report-template.md decision card, detail page sections, footer
   references/session-files.md   folder shape, court.json, hearing.md heading grammar
   references/glossary.md        shared plain-words glossary (one owner, a change log)
-  scripts/build_case_book.py    chapters 3 to 6 and 8 from the record; checks the drafted chapters
+  scripts/build_case_book.py    chapters 3 to 6 and 8 from the record, issue states, facts-only guard (BUILT, step 1); will also check the drafted chapters
   scripts/check_hearing.py      the code guards in section 7
   scripts/build_report.py       hearing to ceilings, grill report, dashboard data, the single HTML page
   scripts/scout_external.py     wraps the last30days run and the injection screen into external.md
