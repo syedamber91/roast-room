@@ -18,8 +18,11 @@ QUESTIONS = ROOT / ".claude" / "skills" / "roast-room" / "brains" / "india-marke
 AR_PAGES = ROOT / "docs" / "company-record" / "biocon" / "ar-pages.json"
 
 
-def real_build():
-    return bcb.build("BIOCON", SPEC, EVENTS, date(2026, 10, 30), AR_PAGES)
+CHAPTERS = ROOT / "docs" / "company-record" / "biocon" / "chapters-1-2-7.md"
+
+
+def real_build(with_chapters=False):
+    return bcb.build("BIOCON", SPEC, EVENTS, date(2026, 10, 30), AR_PAGES, CHAPTERS if with_chapters else None)
 
 
 def line(state="ok", partial=None, required=True, gap=""):
@@ -131,3 +134,31 @@ def test_the_real_biocon_governance_block_carries_page_ids_and_the_facts_the_hea
     assert "Stepped down" in block and "Kedar Narayan Upadhye" in block
     assert case["facts_only_problems"] == []
     assert all("(AR p" in l for l in block.splitlines() if l.startswith("- ") and "What this block" not in l)
+
+
+# ---- drafted chapters 1, 2 and 7
+
+def test_without_a_chapters_file_chapters_1_and_2_stay_placeholders_but_the_shared_glossary_is_in():
+    text, case = real_build()
+    assert "Not yet drafted" in text and case["chapters"]["1"]["drafted"] is False and case["chapters"]["7"]["drafted"] is True
+    assert "### Plain-words terms used in every case" in text and "- Covenant:" in text
+
+
+def test_a_checked_chapters_file_replaces_the_placeholders_and_adds_company_terms():
+    if not (gov.DEFAULT_LADDER / json.loads(AR_PAGES.read_text(encoding="utf-8"))["annual_report_dir"]).exists():
+        return   # the page files live in the soic-ladder checkout
+    text, case = real_build(with_chapters=True)
+    ch1 = text.split("## 1. The company in plain words")[1].split("## 2.")[0]
+    assert "Not yet drafted" not in ch1 and "(AR p13)" in ch1
+    assert case["chapters"]["1"]["drafted"] is True and case["chapters"]["2"]["drafted"] is True and case["chapter_problems"] == []
+    assert "### Terms for this company, from its annual report" in text and "- Biosimilar:" in text
+    assert case["facts_only_problems"] == []
+
+
+def test_a_chapters_file_that_fails_a_check_is_refused_and_the_placeholders_stay(tmp_path):
+    if not (gov.DEFAULT_LADDER / json.loads(AR_PAGES.read_text(encoding="utf-8"))["annual_report_dir"]).exists():
+        return
+    bad = tmp_path / "chapters.md"
+    bad.write_text("## 1. The company in plain words\n- Biocon will double its sales. (AR p13)\n## 2. How it makes money\n- It sells. (AR p6)\n## 7. Glossary\n- Term: meaning. (AR p13)\n", encoding="utf-8")
+    text, case = bcb.build("BIOCON", SPEC, EVENTS, date(2026, 10, 30), AR_PAGES, bad)
+    assert case["chapter_problems"] and case["chapters"]["1"]["drafted"] is False and "Not yet drafted" in text

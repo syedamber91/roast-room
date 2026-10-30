@@ -131,7 +131,7 @@ def test_write_all_makes_the_three_files_and_the_page_carries_the_data(tmp_path)
     dest = session(tmp_path, s1=0)
     dash, problems, case = build(dest)
     rep.write_all(dest, dash, problems, case)
-    for name in ("dashboard.json", "report.md", "report.html"):
+    for name in ("dashboard.json", "report.md", "report.html", "reader-card.html", "reader-test-sheet.md"):
         assert (dest / name).exists()
     page = (dest / "report.html").read_text(encoding="utf-8")
     assert rep.MARKER not in page and '"company": "BIOCON"' in page
@@ -149,3 +149,14 @@ def test_a_hearing_with_no_final_turn_stops_with_a_clear_message(tmp_path):
         assert "Judge final" in str(e)
     else:
         raise AssertionError("expected a stop")
+
+
+def test_the_reader_card_is_the_decision_card_alone_and_the_sheet_has_a_key(tmp_path):
+    dest = session(tmp_path, s1=0)
+    dash, problems, case = build(dest)
+    rep.write_all(dest, dash, problems, case)
+    card = (dest / "reader-card.html").read_text(encoding="utf-8")
+    assert 'data-level="card"' in card and 'data-level="full"' not in card
+    sheet = (dest / "reader-test-sheet.md").read_text(encoding="utf-8")
+    assert "4 of 5" in sheet and "| 1 | What is the position, in your own words? | Wait |" in sheet
+    assert sheet.count("| ") > 10 and "Reader score" in sheet

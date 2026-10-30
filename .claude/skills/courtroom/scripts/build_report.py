@@ -7,7 +7,7 @@
 Reads (all inside the session folder): case.json, case-book.md, hearing.md, external.md (optional).
 Reads the convict's brain only for three counts the case book does not hold (promise scorecard,
 how each call's questions were answered, votes against). It never reads a brain for a fact the judge sees.
-Writes: dashboard.json, report.md, report.html.
+Writes: dashboard.json, report.md, report.html, reader-card.html (the decision card alone, for the reader test) and reader-test-sheet.md.
 
 The judge's words are shown as written. Every number on a chart comes from a table of the case book or
 from a brain table, with its source named, and a missing source draws "not in the record", never a guess.
@@ -290,6 +290,25 @@ def render_markdown(case, d, problems):
     return "\n".join(lines) + "\n"
 
 
+READER_QUESTIONS = ["What is the position, in your own words?", "Why, in two or three sentences?", "What would change it?",
+                    "What does this page not decide?", "What would you check next?"]
+
+
+def reader_test_sheet(case, d):
+    """Test 4 of the design: a reader sees only reader-card.html and answers five questions. This is the scorer's sheet with the key."""
+    lines = ["# Reader test: %s" % case["company"], "",
+             "Give the reader ONLY `reader-card.html`. No charts, no hearing, no help. Ask the five questions and write the answers down. "
+             "Score one point for each answer that matches the key in meaning, not wording. Pass bar, fixed before any reader: 4 of 5, in 5 minutes or less.", "",
+             "| # | Question | Key (scorer only) |", "|---|---|---|",
+             "| 1 | %s | %s |" % (READER_QUESTIONS[0], d["position"]["label"]),
+             "| 2 | %s | %s |" % (READER_QUESTIONS[1], (" ".join(d["rule_position"]["reasons"]) + " " + (d["position"]["judge_reason"] or "")).strip()),
+             "| 3 | %s | not owner: %s; owner: %s |" % (READER_QUESTIONS[2], d["reader_not_own"]["change"], d["reader_own"]["change"]),
+             "| 4 | %s | %s |" % (READER_QUESTIONS[3], "; ".join(d["not_decided"][:4])),
+             "| 5 | %s | %s |" % (READER_QUESTIONS[4], "; ".join("%s (%s)" % (t["when"], t["check"]) for t in d["triggers"]) or "no trigger was named"),
+             "", "Reader score: ___ of 5. Minutes taken: ___. What was unclear: ___"]
+    return "\n".join(lines).replace("|  |", "| |") + "\n"
+
+
 def build(session, gates, price_on_file, results_on_file, no_guidance):
     case = json.loads((session / "case.json").read_text(encoding="utf-8"))
     case_book = (session / "case-book.md").read_text(encoding="utf-8")
@@ -318,7 +337,10 @@ def write_all(session, dashboard, problems, case):
     (session / "report.md").write_text(render_markdown(case, dashboard["decision"], problems), encoding="utf-8")
     page = TEMPLATE.read_text(encoding="utf-8")
     safe = json.dumps(dashboard).replace("<", "\\u003c")
-    (session / "report.html").write_text(page.replace(MARKER, safe), encoding="utf-8")
+    full = page.replace(MARKER, safe)
+    (session / "report.html").write_text(full, encoding="utf-8")
+    (session / "reader-card.html").write_text(full.replace('data-level="full"', 'data-level="card"', 1), encoding="utf-8")
+    (session / "reader-test-sheet.md").write_text(reader_test_sheet(case, dashboard["decision"]), encoding="utf-8")
 
 
 def main():

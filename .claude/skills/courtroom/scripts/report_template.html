@@ -180,6 +180,7 @@ dl.gloss { display: grid; gap: 8px 16px; grid-template-columns: max-content minm
 dl.gloss dt { font-weight: 700; } dl.gloss dd { margin: 0; color: var(--muted); }
 
 [data-level="brief"] .detail { display: none; }
+[data-level="card"] .strip, [data-level="card"] section:not(#decision) { display: none; }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
 
 .sim-banner { background: var(--accent-soft); color: var(--ink); border: 1px solid var(--line); border-radius: 6px; padding: 10px 14px; font-size: 0.92rem; }
