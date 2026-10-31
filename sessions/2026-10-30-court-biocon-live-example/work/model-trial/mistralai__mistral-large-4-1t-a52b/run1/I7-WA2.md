@@ -1,0 +1,11 @@
+ANSWER: The 2025-12-31 vote covered Mylan Inc. only because that meeting’s single related party resolution was the Mylan Inc. transaction; the intra-group ceilings were not re-voted because the 2025 AGM approvals were stated to run to the 48th AGM. At the 2026-08-06 meeting no related party resolution was put, and by the notices’ own tenure the 2025 AGM approvals ran out that day. Why no new related party item appeared at 2026-08-06, or whether another approval route was used after that date, is not in my record.
+MOVE: cite | not in my record
+EVIDENCE: At the meeting dated 2025-12-31, resolution 6 was the only related party resolution and named Mylan Inc.; the promoter group was interested and filed 0.81% against at the meeting dated 2025-12-31 (S034, voting results for the meeting dated 2025-12-31, resolution 6).
+EVIDENCE: The same meeting’s other resolutions were capital, limits, preferential issue, fundraising and special rights, not related party items (S034, voting results for the meeting dated 2025-12-31, resolutions 1 to 5).
+EVIDENCE: The meeting dated 2026-08-06 had nine resolutions and no related party resolution (S034, voting results for the meeting dated 2026-08-06).
+EVIDENCE: The 2025 AGM intra-group approvals were valid from 2025-08-08 until the 48th AGM; the 48th AGM was held 2026-08-06, so by the notices’ stated tenure they ran out on 2026-08-06 (S036).
+EVIDENCE: S036 states the record does not show whether the company relied on another approval route afterwards, such as below-threshold transactions or an approval in a document not read (S036).
+EVIDENCE: Filed agreement dated 2025-12-06 with Mylan Inc.: filed 292,726,366 Biocon Biologics shares at 2025-12-06 for filed consideration Rs 73,560 million at 2025-12-06 (S039, PDF page 394, year to 2026-03-31).
+EVIDENCE: S036 notes the Mylan Inc. transaction was to complete by 2026-03-31 (S036).
+STATE I CLAIM: partial
+WHAT WOULD SETTLE IT: the notice and explanatory statement for the 2026-08-06 AGM, the 2025-12-31 EGM notice’s agenda explanation, and any related party, audit committee or omnibus approval filed after 2026-08-06.
