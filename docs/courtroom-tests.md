@@ -79,3 +79,21 @@ Limits: one run per turn, so the movement in content (not the date count) could 
 Result: **20 of 20 carried the period the re-run gave it** (for example 21,366 is the year to 2025-03-31, the second column of the cash-flow table; 728,081,295 is the 30-SEP-2026 shareholding row; 36,242 sits in a sentence that begins "During the year ended March 31, 2026"). One caveat: for 36,242 the note prints "Rs. 36,242" with no unit, and the unit (million) is the convict's inference, which it flagged; it ties (73,560 less 36,242 is 37,318 = 91,967,019 shares at 405.78).
 
 Limits: 18 distinct pairs (21,366 and 40,612 each came up twice); the check is against the case book and the convict's own brain files, so it tests transcription, not the filings themselves; and only pairs that already had a date nearby could be drawn, so it says nothing about figures that still have none.
+
+### Date rule in the baseline and cross-examination prompts (2026-10-31)
+
+The baseline prompt had no date rule, and the baseline why-answers (WA1 to WA3) and cross answers (XA1 to XA4) were written without the 80-character rule. `hearing-prompts.md` now carries both (a B-line with a figure must hold a date word; the why and cross answers use the Convict answer prompt with its date rule). Eight turns were re-run in `sessions/2026-10-30-court-biocon-live-example/work/rerun-BLX/`, each agent seeing only its own question; the recorded turns were not touched.
+
+| Turn | Notes before | Notes after |
+|---|---|---|
+| Baseline group 1 (B01 to B10) | 7 | 0 |
+| Baseline WA1 | 7 | 2 |
+| Baseline WA2 | 2 | 0 |
+| Baseline WA3 | 6 | 0 |
+| XA1 | 6 | 1 |
+| XA2 | 3 | 2 |
+| XA3 | 6 | 0 |
+| XA4 | 8 | 0 |
+| Total | 45 | 5 |
+
+Date notes alone: 37 before, 5 after. Five undated figures remain (WA1 two, XA1 one, XA2 two); no other guard fired on the re-runs. One run per turn. Not checked here: whether the question states changed, and whether the new dates are right (the 20-date random check covered I5 to I9 only). Not changed: the lawyer cross prompt still has no word limit on QUESTION, which is why X1 and X3 failed the 70-word turn-shape check.
