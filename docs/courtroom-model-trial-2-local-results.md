@@ -4,7 +4,7 @@
 
 Update 2026-10-31, after the owner asked to measure the speed anyway: `qwen3.5:9b` did not finish one real 55,000-token convict prompt within 330 seconds on the VPS. See "Measured: one real prompt" below. The first draft of this file (stop at gate 1, nothing run) is kept further down for the record.
 
-Plan and gates: `docs/handoff-local-models-vps-test.md`. Hosted-model results for comparison: `docs/courtroom-model-trial-1-results.md`. The hosted bars were not changed and no new bars were registered, because the run never started.
+Plan and gates: `docs/handoff-local-models-vps-test.md`. Hosted-model results for comparison: `docs/courtroom-model-trial-1-results.md`. The hosted bars were not changed. No new bars were registered, because the run stopped at the speed gate before any turn was scored. The 5-minute speed bar comes from the handoff plan, step 3.
 
 ## Measured: one real prompt (gate 2, step 3 of the plan)
 
@@ -62,7 +62,7 @@ A VPS with a GPU or at least 32 GB of RAM. The owner first chose to stop, then a
 
 ## Side findings
 
-- The soic-run workflow's `actions/upload-artifact` step failed on both runs of this work (the warm-up `tests` run and the hardware run). The jobs themselves succeeded. Cause not investigated.
+- The soic-run workflow's `actions/upload-artifact` step failed on every soic-run of this work (warm-up, hardware, timing). The jobs themselves succeeded. Cause not investigated.
 - The warm-up `tests` run failed in its test step after about 19 minutes. Cause not investigated; it did not affect this result.
 
 ## Open owner questions (carried from the handoff, unanswered)
