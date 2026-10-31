@@ -1,6 +1,6 @@
 # Trial 2 results: local (self-hosted) model for convict turns (2026-10-31)
 
-**Result: FAIL at gate 2 (speed). Gate 1 (hardware) also failed. One real model was run once; no convict turn was scored.**
+**Result: FAIL at gate 2 (speed) for both models tried (`qwen3.5:9b` and `qwen3.5:4b`). Gate 1 (hardware) also failed. No convict turn was scored.**
 
 Update 2026-10-31, after the owner asked to measure the speed anyway: `qwen3.5:9b` did not finish one real 55,000-token convict prompt within 330 seconds on the VPS. See "Measured: one real prompt" below. The first draft of this file (stop at gate 1, nothing run) is kept further down for the record.
 
@@ -19,10 +19,23 @@ Run by the soic-ladder job `local-model-timing` (PRs 1283 and 1285; report `docs
 | Lowest free RAM during the request | 2,530 MB, from about 11 GB before |
 | Steal before / after | 6 percent / 1 percent |
 
-What this does and does not show:
+### Second model: `qwen3.5:4b` (same job, same prompt, same settings)
+
+Soic-ladder PR 1286, measured 2026-10-31 20:27 to 20:34 UTC, dispatched by hand with the model name as the `companies` input.
+
+| Item | `qwen3.5:9b` | `qwen3.5:4b` |
+|---|---|---|
+| Download | 6.55 GB, 94 s | 3.32 GB, 36 s |
+| Outcome | Not finished in 330 s | **Not finished in 330 s** |
+| Lowest free RAM during the request | 2,530 MB | 6,299 MB |
+| Steal before / after | 6% / 1% | 0% / 1% |
+
+The 4B model had plenty of memory left (6.3 GB free) and still did not finish, so on this box the limit is CPU speed, not memory. Halving the model did not bring one prompt under 5 minutes. Models smaller than 4B were not tried, and the hosted trial suggests they would score worse on substance.
+
+What the 9B run does and does not show (the 4B run has the same limits: no progress output, load time inside the cap, quality not scored, licence not checked):
 - It shows this model, on this CPU, does not return one convict prompt in 5 minutes, so the plan says stop.
 - It does not show how long it would take. There was no progress output, so 6 minutes and 60 minutes look the same here. Model load time is not reported separately and is inside the 330 seconds.
-- It does not test other models. A smaller model (`qwen3.5:4b`, 3.3 to 4.0 GB, also 256K context) might be faster, but the hosted trial shows small models score worse on substance, so it was not tried.
+- It does not test other models beyond the two above.
 - The licence of `qwen3.5:9b` is not stated on the Ollama pages read and was not checked.
 - Quality was not scored, because no answer came back.
 
