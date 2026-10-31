@@ -44,10 +44,16 @@ def test_the_judge_knows_the_no_guidance_special_case_and_the_difference_between
 
 def test_the_prompts_carry_the_rules_the_first_hearing_broke():
     # measured on the 2026-10-30 live hearing: 54 figures with no date, 15 quotes with no id, 3 turn-shape misses
-    assert "Every figure of three digits or more carries its own date or period in the same sentence" in PROMPTS
+    assert "Every figure of three digits or more carries its own date or period within 80 characters of it" in PROMPTS
     assert "a page number is written PDF page 404" in PROMPTS
     assert "STATE I CLAIM holds exactly one of the three words" in PROMPTS
     assert "never put a quotation mark round a phrase you will not give an id for" in PROMPTS
     assert "QUESTION is under 60 words" in PROMPTS
     assert "do not put the ladder phrase in quotation marks" in PROMPTS
     assert "each STORYLINE or STORY SO FAR line is under 40 words" in PROMPTS
+
+
+def test_the_convict_prompt_gives_the_date_rule_with_the_three_shapes_that_failed():
+    # measured on I5 (21 undated figures in 3 turns): inputs of a derived sum, a table list dated once, a figure inside a bracket
+    assert "within 80 characters" in PROMPTS and "date after each input" in PROMPTS
+    assert "date beside each figure in a list" in PROMPTS
