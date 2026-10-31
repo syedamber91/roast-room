@@ -141,7 +141,7 @@ def test_verdict_applies_all_four_bars_and_fails_on_any_one():
 
 
 def test_the_prompt_carries_the_rules_the_ladder_row_the_history_and_the_pasted_files():
-    prompt = lt.build_prompt_from_parts(rules="RULES\nQUESTION [n] OF 3", issue=ISSUE, n=2, state="partial", ladder={"partial": "ask for the number"},
+    prompt = lt.build_prompt_from_parts(rules="RULES\nQUESTION [n] OF 3\nKnown gaps: [known_gaps].", issue=ISSUE, n=2, state="partial", ladder={"partial": "ask for the number"},
                                         hot="HOT", questions="QSEC", case_book="BOOK", history="HIST")
     for part in ("RULES", "HOT", "QSEC", "BOOK", "HIST", "ask for the number", "gap one", "QUESTION 2 OF 3", "You cannot open files"):
         assert part in prompt
