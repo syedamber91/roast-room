@@ -64,3 +64,10 @@ def test_baseline_and_cross_answers_carry_the_date_rule():
     # baseline why-answers WA1 to WA3 and cross answers XA1 to XA4 (18 and 17 notes) were written without the rule
     assert "a B-line that holds a figure of three digits or more must also hold a date or period word" in PROMPTS
     assert "baseline why-answers (WA1 to WA3) and the cross-examination answers (XA1 to XA4) use the Convict answer prompt above, including its date rule" in PROMPTS
+
+
+def test_a_figure_mentioned_again_repeats_its_date_and_the_cross_question_is_short():
+    # the 5 date notes left on the baseline and cross re-runs were all back-references ("the 3,830", "the 24,692 from I6 WA1")
+    assert "repeat its date every time it is mentioned again" in PROMPTS
+    cross = PROMPTS.split("### Lawyer cross")[1].split("### Convict closing")[0] if "### Lawyer cross" in PROMPTS else ""
+    assert "QUESTION is under 60 words" in cross and "no quotation marks round case book or hearing text" in cross
