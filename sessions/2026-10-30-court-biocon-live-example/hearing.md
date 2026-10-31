@@ -766,6 +766,38 @@ STATE I CLAIM: partial
 
 WHAT WOULD SETTLE IT: A note or management sentence that names Projects 5 and 12, says which products or sites they are, and gives the reason for the overdue status and the calendar completion dates. None is in my record. Also not checked: whether the overdue schedule is the same measure in both years, since I hold only the two totals.
 
+### Judge close
+
+STORY SO FAR:
+Operating cash fell 20,672 million to 19,940 in the year to 2026-03-31. Filed lines explain it (S039 p349, derived by me).
+Cash left after plant purchases was 1,961 million, against 19,246. Overdue projects rose to 19,894 from 6,478 at 2026-03-31 (S039 pp365-367).
+Why stock, payables and other assets moved, what Projects 5 and 12 are, and when old work goes into use: not in the record.
+
+WHY-CHAIN:
+1. Cash fell 20,672 because working capital swung 20,552 (derived by me from S039 p349 lines, years to 2026-03-31 and 2025-03-31). Add 2,290 lower profit before working capital, less 2,170 lower tax paid: 20,552 + 2,290 - 2,170 = 20,672. The bridge closes from filed lines. (S039 p349)
+2. Three lines carry the fall (derived by me, share of 20,672, S039 p349). Inventory is 9,175 (44%). Payables and provisions are 7,725 (37%). Other assets are 4,414 (21%). Receivables helped by 762. Shares pass 100% because lower tax paid and receivables offset. Why these moved: not in the record.
+3. Free cash is thin. 19,940 less 17,979 is 1,961. 40,612 less 21,366 is 19,246 (S039 p349, years to 2026-03-31 and 2025-03-31, derived). Capex fell 15.9% while operating cash fell 50.9% (20,672 / 40,612, derived by me). So the drop came from operations, not lower spending. Whether 17,979 is all capex: unchecked.
+4. Unfinished work moved two ways. Work in progress rose 41,017 to 46,127. Intangibles under development fell 44,067 to 23,740. Combined: 85,084 to 69,867, down 15,217 (derived by me, 2025-03-31 to 2026-03-31, S039 pp346, 365-367). Projects 5 and 12 are 19,487, 98% of the overdue 19,894 (derived). What they are: not in the record.
+5. Into-use timing is unknown. Work aged 2 to 3 years rose 3,509 to 10,881. Transfers out were 17,012 in the year to 2026-03-31 (21,983 before), with no age split, and the line says transfers, not use (S039 pp365-367). Management says margins improve as utilization ramps up, with no rupees or date (S027 p31, unchecked by code). Amount into use by 2027-03-31: not in the record.
+
+I DID NOT UNDERSTAND:
+1. Balance sheet inventory rose 11,546, but the cash flow line is 9,178. The gap is 2,368 (derived by me). The convict says the pages do not reconcile it.
+2. Payables, other liabilities and provisions swung 7,725 in one printed line. I cannot tell payables from provisions, or timing from new payment terms.
+3. Other assets took 6,471 of cash. No note read says what they are.
+4. Why Projects 5 and 12 are overdue. The page gives time buckets, not calendar dates.
+5. Whether transfers out of work in progress means put into use. In FY25 transfers equal PPE additions (21,983 both). In FY26 they differ: 17,012 against 17,574, by 562 (derived by me, S039 p365, case book ch3).
+6. Why intangibles under development lost 24,798 to transfers or disposals. No turn asked it, and no cause is in the record.
+
+STATE PROPOSED:
+Q1 answered: 9,175 inventory, 44% of 20,672, with filed lines and dates (S039 p349). The cause of the build is a separate gap.
+Q2 answered: 1,961 and 19,246, both dated. Whether 17,979 is all capex is unchecked.
+Q3 partial: no management figure or date for the 10,881. The filed 17,012 is a different basis with a number, so not no data.
+
+WATCH:
+1. FY26 annual report notes on inventories, trade payables, other assets and trade receivables ageing. They would settle items 1 to 3 and the 2,368 gap, and give receivable days (still not in the record).
+2. The note under the overdue work in progress schedule, and the Q2 FY27 results and call (about mid November 2026, date unchecked). They would name Projects 5 and 12 and give completion dates.
+3. The cash flow for the half year to 2026-09-30 (about mid November 2026, date unchecked). It would show whether operating cash recovered and whether transfers out of work in progress rose. The intangibles note would explain the 24,798.
+
 ## I6 Debt, maturities and covenants
 
 ### Q1 Lawyer
@@ -900,6 +932,39 @@ EVIDENCE:
 STATE I CLAIM: partial
 
 WHAT WOULD SETTLE IT: The covenant thresholds and actual ratios at 2026-03-31. The result of the 2026-09-30 test. The committed undrawn facilities. A cash and bank balance line from the balance sheet, which I have not read.
+
+### Judge close
+
+STORY SO FAR:
+Gross borrowings fell from 177,555 to 148,247 Rs million, but 65,476 now falls due within one year (S039 p404; case book ch3, ch9).
+The notes say every covenant was met all year. No limit or actual ratio is printed, so headroom is not in the record (S038, S039 p377-378).
+Management says free cash repays debt first. It gives no target, ceiling or date (S013, held 2026-05-08). The 24,692 gap has no reason on record.
+
+WHY-CHAIN:
+1. Covenants: compliance is on the record only as words. Because the notes name six group ratios and three company ratios, say "complied throughout" to 2026-03-31, and print no threshold or value. Headroom: `not in the record`. (S038 p309-310, 377-378; S039; hearing A1, WA2). The 2026-09-30 test result: `not in the record`.
+2. One-year debt: 44.2% is 65,476 / 148,246 at 2026-03-31, against 30.1% a year earlier (derived by me, S039 p404). On the balance sheet it is 27.5%: 40,784 / 148,247 (derived by me, S039 p381). The gap is 24,692 (65,476 minus 40,784, derived by me). Cause: `not in the record` (hearing WA1).
+3. The same amount appears on the other side. Balance-sheet non-current is 107,463. The table's 1-to-2 and 2-to-5 buckets add to 82,770 (13,003 + 69,767). The difference is 24,693 (derived by me, 2026-03-31). So the table seems to move about 24,692 from later into under one year. Why: `not in the record`. This is my reading of the numbers, not a stated fact.
+4. Cash: operating cash flow fell from 40,612 to 19,940 (S039 p349). Cash and cash equivalents on the balance sheet were 24,165 at 2026-03-31 (case book ch3, PDF p346). The convict said it could not confirm that cash figure, but the case book holds it. Cash covers 0.37 of the 65,476 due within a year (24,165 / 65,476, derived by me).
+5. Rough leverage: net debt is 148,247 minus 24,165, which is 124,082 (derived by me, 2026-03-31). Four filed quarterly operating profits (2025-06-30 to 2026-03-31) sum to 34,381. That gives about 3.6 turns (derived by me). It is not the covenant ratio, because the facility agreements define those terms. Target or ceiling: `not in the record`.
+
+I DID NOT UNDERSTAND:
+1. Why the maturity table puts 24,692 more under one year than the balance sheet does, when the two matched within 3 a year earlier.
+2. What "earliest date the Group can be required to pay" covers, and which loans it pulls forward.
+3. How the Senior Secured Notes (carrying 73,597, due October 2029) sit against a 2-to-5-year bucket of only 69,767.
+4. How the six covenant ratios are defined, for example adjusted EBITDA, cash flow cover and gearing.
+5. What "structured instruments" mean inside management's $1.1 billion net debt, and how that ties to the rupee borrowings (S013).
+6. Why finance costs rose (8,974 to 9,903, a rise of 929, derived) while gross borrowings fell by 29,308.
+
+STATE PROPOSED:
+Q1 (headroom in turns) no data: the notes give words on compliance only. The facility agreements would settle it. The why answers added nothing on headroom.
+Q2 (borrowings target and date) partial: there is a priority quote and filed levels, but no figure and no date.
+Q3 (management's own ceiling in turns) no data: no ceiling is on record. The convict declined to name a number.
+
+WATCH:
+- The 24,692 gap: note (b) under the p404 table and the note 13 reclassification text, or a loan-by-loan schedule at 2026-03-31. Both are in the FY2025-26 annual report but unread.
+- Covenant headroom and the 2026-09-30 test: a lender compliance certificate, the facility agreements, or the Sep 2026 quarter filing and call (about mid November 2026, date unchecked).
+- Gross borrowings at 2026-09-30 and any net debt to EBITDA level in turns: the same filing and call.
+- Undrawn committed lines: notes 14 and 19, which are unread.
 
 ## I7 Related parties and group structure
 
@@ -1055,6 +1120,38 @@ EVIDENCE:
 STATE I CLAIM: partial
 
 WHAT WOULD SETTLE IT: The explanatory statement in the notice of 2025-12-31, the notice of the 2026-08-06 meeting, and any related party approval filed after 2026-08-06. None of these is in my record.
+
+### Judge close
+
+STORY SO FAR:
+Biocon paid Mylan Inc. Rs 36,242m cash plus 91,967,019 new shares for Biologics shares, Rs 73,560m in all (S039 p307, p373, p394). Unchecked by code.
+Shareholders voted on Mylan Inc. on 2025-12-31, with 0.81% against (S034 res. 6). The annual report prints no ceiling or running balance (S039 p200, p267).
+Nothing in the record shows what replaced the group approvals after 2026-08-06 (S034, S036). The notice size, USD 400m, does not match the USD 815m filed (S035, S039 p394).
+
+WHY-CHAIN:
+1. Claim: a shareholder approval for Mylan exists, but its ceiling is unknown. Because: the vote is filed, but the notice's ceiling and share count are not read. Evidence: S034 res. 6; WA1; Q1 `no data`. Unchecked by code.
+2. Claim: the price fits its parts. Because: 91,967,019 x Rs 405.78 is Rs 37,318m, plus cash Rs 36,242m is Rs 73,560m (derived by me, filed 2026-03-31 figures). Evidence: S039 p307, p373, p394.
+3. Claim: the deal size is unsettled. Because: the notice says USD 400m (hand-read, no tier), the agreement dated 2025-12-06 says USD 815m. Nothing reconciles them. Evidence: S035; S039 p394; WA1.
+4. Claim: group approvals probably ended on 2026-08-06. Because: they ran until the 48th AGM, which had nine resolutions, none related party. Evidence: S036; S034. The replacement is `not in the record`.
+5. Claim: why Mylan needed its own vote is the convict's inference. Because: the 2025 pair list leaves Mylan out. Evidence: WA2; S036. Not stated by anyone. Unchecked.
+
+I DID NOT UNDERSTAND:
+- Why the vote count is a different thing from the audit committee's running balance, and which one limits the deal.
+- How "consideration other than cash" (shares) counts against a ceiling. Not in the record.
+- Why the notice says USD 400m and the agreement says USD 815m.
+- Whether the 2025-12-31 vote included Mylan's own shares. 2,888,343 against out of 355,697,530 polled is 0.81% (derived by me, S034). Unchecked.
+- Why the 14,36,69,382 count differs from 292,726,366. Not in the record.
+- Whether the lowest group ceiling is Rs 1,122 crore or 1,005 crore. I cannot say which is right.
+
+STATE PROPOSED:
+Q1 no data: the Mylan approval ceiling and running balance as at 2026-03-31 are not in the record; WA1 gave the vote but no ceiling.
+Q2 partial: the convict conceded the list ties to neither count and gave dated figures with pages. 14,36,69,382 and the notice count are still unseen.
+Q3 no data: no replacing resolution is in the record. WA2 gave a reading, but it is inferred and not a ceiling.
+
+WATCH:
+- The 2025-12-31 notice's explanatory statement: ceiling, share count, and the USD 400m against USD 815m gap. Already filed, not yet read.
+- The audit committee's Mylan approval record and balance as at 2026-03-31, in the related party note or committee section of the FY2025-26 report. Unread.
+- Any related party approval filed after 2026-08-06, such as a postal ballot or the 2026 AGM notice. None found as of 2026-10-31.
 
 ## I8 Promoter holding, pledge, dilution and pay
 
