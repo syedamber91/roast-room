@@ -8,7 +8,7 @@ Plan and gates: `docs/handoff-local-models-vps-test.md`. Hosted-model results fo
 
 ## Measured: one real prompt (gate 2, step 3 of the plan)
 
-Run by the soic-ladder job `local-model-timing` (PRs 1283 and 1285; report `docs/reports/local-model-timing/timing-2026-08-30.md`, measured 2026-10-31 19:15 to 19:22 UTC). Model `qwen3.5:9b` through Ollama (default tag; its quantization is not shown on the Ollama page). The prompt was issue I5, turn A1, built by `model_trial.build_prompt`: 227,531 bytes, about 55,000 tokens by estimate (the run did not return a token count).
+Run by the soic-ladder job `local-model-timing` (PRs 1283 and 1285; report `docs/reports/local-model-timing/timing-2026-08-30.md`, measured 2026-10-31 19:15 to 19:22 UTC). Model `qwen3.5:9b` through Ollama (default tag; its quantization is not shown on the Ollama page). The prompt was issue I5, turn A1, built by `model_trial.build_prompt`: 227,531 bytes, about 55,000 tokens by my first estimate, later measured at about 70,000 (see the short-slice test).
 
 | Item | Value |
 |---|---|
@@ -38,6 +38,25 @@ What the 9B run does and does not show (the 4B run has the same limits: no progr
 - It does not test other models beyond the two above.
 - The licence of `qwen3.5:9b` is not stated on the Ollama pages read and was not checked.
 - Quality was not scored, because no answer came back.
+
+### Short-slice speed test: `qwen3.5:4b` (soic-ladder PR 1287, measured 2026-10-31 21:31 to 21:41 UTC)
+
+Four requests built from slices of the real prompt, 16,384-token context, 3 threads, 40 tokens written, 240 s limit each. Token counts are the server's own.
+
+| Request | Tokens read | Reading speed | Writing speed | Wall time |
+|---|---|---|---|---|
+| 1 cold, about 2k tokens | 2,589 | 46.6 tokens/s | 12.3 tokens/s | 63 s |
+| 2 same 2k start, new question | 2,587 | 103.5 tokens/s | 13.2 tokens/s | 28 s |
+| 3 cold, about 6k tokens | 7,331 | 32.8 tokens/s | 7.7 tokens/s | 226 s |
+| 4 cold, about 14k tokens | n/a | n/a | n/a | Timed out at 240 s |
+
+Findings:
+- **Reading the prompt is the cost, and it slows as the prompt grows** (104 tokens/s at 2.6k tokens, 33 at 7.3k, not finished at about 17k tokens by the same ratio). Writing speed is 8 to 13 tokens/s, so a 1,500-token answer would take about 2 to 3 minutes (my arithmetic, not measured).
+- **The prompt is about 70,000 tokens, not 55,000.** 8,277 characters read as 2,589 tokens and 24,676 as 7,331 (3.2 to 3.4 characters per token), so 227,531 characters is about 67,000 to 71,000 tokens. Earlier text in this file saying "about 55,000 tokens" was an estimate and is too low. This also means the two full-prompt runs above, which used a 65,536-token context, may have had the prompt cut off. They were too slow either way, but they were not clean tests.
+- **Best case for the full prompt is about 11 minutes** (70,000 tokens at the best speed seen, 104 tokens/s). At the 7k speed it is about 35 minutes. Both are far over the 5-minute bar.
+- **The shared start was not reused.** Request 2 re-read 2,587 of 2,589 tokens. Cause unknown (model type, Ollama version or settings). So the 15 turns do not get cheaper from a shared start in this setup.
+- **Run-to-run noise is large:** the same-sized start read at 47 and then 104 tokens/s. One run per setting is not a stable speed.
+- **What would be needed:** a prompt about 10 times shorter (6 to 8k tokens, about 3 to 4 minutes of reading for the 4B model), which means sending only the files each turn needs. Whether answer quality survives that is untested. This is not a recommendation to proceed.
 
 ## Earlier draft: what was measured before the speed run
 
