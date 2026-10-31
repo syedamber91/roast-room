@@ -71,7 +71,7 @@ def clean(text: str) -> str:
     return plain_labels(text)
 
 
-def run_model(model: str, runs: int) -> None:
+def run_model(model: str, runs: int, threads: int = 4) -> None:
     jobs = [(r, i, t) for r in range(1, runs + 1) for i in ISSUES for t in TURNS]
 
     def one(job):
@@ -83,7 +83,7 @@ def run_model(model: str, runs: int) -> None:
         (out / f"{i}-{t}.meta.json").write_text(json.dumps({"seconds": res["seconds"], "error": res["error"]}))
         return job, res
 
-    with ThreadPoolExecutor(4) as ex:
+    with ThreadPoolExecutor(threads) as ex:
         for job, res in ex.map(one, jobs):
             print(job, res["seconds"], "s", res["error"] or f"{len(res['text'])} chars", flush=True)
 
@@ -153,9 +153,10 @@ def main() -> int:
     ap.add_argument("cmd", choices=["run", "score", "table"])
     ap.add_argument("model", nargs="?")
     ap.add_argument("--runs", type=int, default=2)
+    ap.add_argument("--threads", type=int, default=4)
     a = ap.parse_args()
     if a.cmd == "run":
-        run_model(a.model, a.runs)
+        run_model(a.model, a.runs, a.threads)
     elif a.cmd == "score":
         r = score(a.model)
         r["verdict"] = verdict(r)
