@@ -1,2 +1,5 @@
 {"model": "nvidia/nemotron-3.5-lightning-30b-a3b", "issue": "I5", "turn": "A1", "tries": 3, "escalated": true, "seconds": 409.6}
 {"model": "nvidia/nemotron-3.5-lightning-30b-a3b", "issue": "I5", "turn": "A2", "tries": 3, "escalated": true, "seconds": 570.2}
+{"model": "nvidia/nemotron-3.5-lightning-30b-a3b", "issue": "I5", "turn": "A3", "tries": 3, "escalated": true, "seconds": 580.9}
+{"model": "nvidia/nemotron-3.5-lightning-30b-a3b", "issue": "I5", "turn": "WA1", "tries": 2, "escalated": false, "seconds": 505.7}
+{"model": "nvidia/nemotron-3.5-lightning-30b-a3b", "issue": "I5", "turn": "WA2", "tries": 1, "escalated": false, "seconds": 229.5}
