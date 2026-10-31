@@ -1,1 +1,1 @@
-{"seconds": 164.1, "error": "ConnectionResetError: [Errno 104] Connection reset by peer"}
+{"seconds": 300.4, "error": "RemoteDisconnected: Remote end closed connection without response"}

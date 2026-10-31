@@ -1,0 +1,12 @@
+{"model": "nvidia/nemotron-3-ultra-550b-a55b", "issue": "I5", "turn": "A2", "tries": 1, "escalated": false, "seconds": 20.0}
+{"model": "nvidia/nemotron-3-ultra-550b-a55b", "issue": "I5", "turn": "A1", "tries": 2, "escalated": false, "seconds": 167.8}
+{"model": "nvidia/nemotron-3-ultra-550b-a55b", "issue": "I5", "turn": "A3", "tries": 1, "escalated": false, "seconds": 254.0}
+{"model": "nvidia/nemotron-3-ultra-550b-a55b", "issue": "I5", "turn": "WA2", "tries": 2, "escalated": false, "seconds": 140.6}
+{"model": "nvidia/nemotron-3-ultra-550b-a55b", "issue": "I5", "turn": "WA1", "tries": 3, "escalated": true, "seconds": 246.2}
+{"model": "nvidia/nemotron-3-ultra-550b-a55b", "issue": "I6", "turn": "A1", "tries": 2, "escalated": false, "seconds": 54.5}
+{"model": "nvidia/nemotron-3-ultra-550b-a55b", "issue": "I6", "turn": "A2", "tries": 2, "escalated": false, "seconds": 143.0}
+{"model": "nvidia/nemotron-3-ultra-550b-a55b", "issue": "I6", "turn": "A3", "tries": 3, "escalated": false, "seconds": 214.4}
+{"model": "nvidia/nemotron-3-ultra-550b-a55b", "issue": "I6", "turn": "WA1", "tries": 3, "escalated": true, "seconds": 205.3}
+{"model": "nvidia/nemotron-3-ultra-550b-a55b", "issue": "I6", "turn": "WA2", "tries": 2, "escalated": false, "seconds": 92.8}
+{"model": "nvidia/nemotron-3-ultra-550b-a55b", "issue": "I7", "turn": "A2", "tries": 2, "escalated": false, "seconds": 163.2}
+{"model": "nvidia/nemotron-3-ultra-550b-a55b", "issue": "I7", "turn": "A1", "tries": 2, "escalated": false, "seconds": 195.5}

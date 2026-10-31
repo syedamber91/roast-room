@@ -1,0 +1,13 @@
+{
+ "model": "nvidia/nemotron-3.5-super-vl-120b-a12b-loop",
+ "sonnet_fail_notes": 7,
+ "runs": {
+  "run1": {
+   "fail_notes": 35,
+   "fabricated_quotes": 0,
+   "state_matches_sonnet": 4,
+   "empty": 6
+  }
+ },
+ "verdict": "FAIL"
+}
