@@ -1,0 +1,14 @@
+ANSWER: The record does not explain why the maturity table shows 65,476 under one year while the balance sheet shows current borrowings of 40,784 at 2026-03-31. The maturity table is presented as "contractual maturities of financial liabilities and excluding interest payments, undiscounted and based on the earliest date on which the Group can be required to pay" (PDF page 404). The balance sheet classifies current borrowings at 40,784 (PDF page 381). The difference of derived 24,692 at 2026-03-31 is not reconciled in the annual report. The record notes that non-convertible debentures with put options (20,913 at 2025-03-31, nil at 2026-03-31) are included in borrowings per note (b), and Senior Secured Notes carrying 73,597 at 2026-03-31 maturing October 2029 sit against a 2-to-5-year bucket of only 69,767 at 2026-03-31, suggesting some may be pulled forward in the maturity table. However, which specific loans are counted as due early under the "earliest date" basis is not stated in the record.
+
+MOVE: not in my record | cite
+
+EVIDENCE: "Maturity of borrowings, consolidated, PDF page 404, liquidity risk (iii). Contractual, undiscounted, excluding interest, Rs million. At 2026-03-31: less than 1 year 65,476; 1 to 2 years 13,003; 2 to 5 years 69,767; more than 5 years nil; total 148,246." (S038, debt-covenants.md)
+"Balance sheet, PDF page 381: current borrowings 40,784 at 2026-03-31 (53,501 at 2025-03-31), of which current maturities of non-current borrowings 5,121 (18,954)." (S039, ar-pages-read-2026-10-31.md)
+"why the 65,476 on the maturity table is 24,692 above the 40,784 current on the balance sheet" is listed under "Still not in the annual report" (S039, ar-pages-read-2026-10-31.md)
+"Note (b) under that table: borrowings include non-convertible debentures of Nil at 2026-03-31 (20,913 at 2025-03-31) tied to lender agreements with put options described in note 14." (S038, debt-covenants.md)
+"Senior Secured Notes, note (d), PDF page 376: raised in the year to 2025-03-31 by Biocon Biologics Global PLC, Rs 66,763 (USD 800 million), 6.67% a year, maturing October 2029, interest paid half-yearly in April and October, secured and guaranteed within the Biocon Biologics group, used to refinance term loans. Carrying value 73,597 at 2026-03-31 (66,954 at 2025-03-31)." (S039, ar-pages-read-2026-10-31.md)
+"how the Senior Secured Notes (carrying 73,597) sit against a 2-to-5-year bucket of 69,767" is listed under "Still not in the annual report" (S039, ar-pages-read-2026-10-31.md)
+
+STATE I CLAIM: not in my record
+
+WHAT WOULD SETTLE IT: The annual report's note 14 (referenced in note (b) for put options) and the detailed borrowing agreements showing acceleration clauses, put options, or covenant breach triggers that would cause the "earliest date" classification to differ from the balance sheet current/non-current split.
