@@ -54,3 +54,20 @@ Setup: the three convict answers on I5 (A1 to A3) were run again from the same q
 Result: `number-date` notes on those three turns went from **21 to 0**, no other guard fired, and the three question states did not change (A1 partial, A2 answered, A3 not in my record).
 
 Limits: one issue, three turns, one run each, and one re-run (A3) reported seeing the earlier answers when it read the file, though it said it did not use them. One run per cell is noise-prone (see the provenance repo's note); a count this large is unlikely to be noise, but it is not a repeated measure. Not tested: the other six issues.
+
+### Date-rule re-run on I6 to I9 (2026-10-31)
+
+Same test on the other four issues, 20 convict turns (A1 to A3, WA1, WA2 each), every agent given only its own question file so none could read the earlier answers. Measured with `scripts/measure_rerun.py`; the re-runs are in `sessions/2026-10-30-court-biocon-live-example/work/rerun-I6` to `rerun-I9`. The recorded turns were not touched.
+
+| Issue | Notes before | Notes after | Of which date notes |
+|---|---|---|---|
+| I5 (earlier test) | 21 | 0 | 21 to 0 |
+| I6 | 9 | 1 | 9 to 1 |
+| I7 | 15 | 2 | 14 to 1 |
+| I8 | 8 | 0 | 8 to 0 |
+| I9 | 2 | 3 | 1 to 0 (and two quote-without-id notes appeared) |
+| Total | 55 | 6 | 53 to 2 |
+
+Question states: 21 of 23 re-run turns kept the same state. Two moved up: I6 A2 and I8 A3 went from "not in my record" to "partial" because the re-run found a figure the first run did not. So a re-run is not only a date fix; it can change what the convict says.
+
+Limits: one run per turn, so the movement in content (not the date count) could be noise. A re-run turn that reads a figure the first run missed would also change the judge's notes that rest on the original turns (for example the I7 re-run found a cash figure of 36,242 within the 73,560 price that the recorded I7 turns do not have). The re-runs have not been swapped into `hearing.md`.
