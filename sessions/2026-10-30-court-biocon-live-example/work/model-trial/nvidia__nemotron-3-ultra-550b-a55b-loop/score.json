@@ -1,0 +1,13 @@
+{
+ "model": "nvidia/nemotron-3-ultra-550b-a55b-loop",
+ "sonnet_fail_notes": 7,
+ "runs": {
+  "run1": {
+   "fail_notes": 7,
+   "fabricated_quotes": 1,
+   "state_matches_sonnet": 9,
+   "empty": 0
+  }
+ },
+ "verdict": "FAIL"
+}
