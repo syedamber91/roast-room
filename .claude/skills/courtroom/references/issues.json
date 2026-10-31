@@ -118,8 +118,8 @@
     "receivable days are not in the record"
    ],
    "convict_files": [
-    "numbers.md",
     "statements-ar-fy26.md",
+    "ar-pages-read-2026-10-31.md",
     "positions.md"
    ]
   },
@@ -147,7 +147,7 @@
    ],
    "convict_files": [
     "debt-covenants.md",
-    "numbers.md",
+    "ar-pages-read-2026-10-31.md",
     "positions.md"
    ]
   },
@@ -175,7 +175,7 @@
    "convict_files": [
     "votes.md",
     "rpt-approvals-notices.md",
-    "statements-ar-fy26.md"
+    "ar-pages-read-2026-10-31.md"
    ]
   },
   {

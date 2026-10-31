@@ -31,6 +31,8 @@ Quarter ended 2026-06-30 unless stated; year-earlier figure in brackets.
 - Operating profit 8,472 (7,489).
 - Profit to shareholders 1,411 (314). Separately, the quarter ended 2023-12-31 showed 6,600 and carried one-offs.
 
+Further annual report pages (S039, ar-pages-read-2026-10-31.md): the cash flow working capital lines, the work in progress movement and overdue projects, borrowings notes (b) and (d), the maturity table and the Mylan Inc. purchase pages, read by hand on 2026-10-31. Read it for cash, capex, debt and related party questions before saying "not in my record".
+
 Annual report FY2025-26 (S026, full year to 2026-03-31, Rs million, consolidated, as filed; year-earlier in brackets; numbers.md has the pages and the limits):
 
 - Revenue from operations 169,270 (152,617). Profit to owners 3,856 (10,133). Finance costs 9,903 (8,974).
