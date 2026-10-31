@@ -1,0 +1,20 @@
+{
+ "model": "z-ai/glm-5.3-flash",
+ "sonnet_fail_notes": 7,
+ "runs": {
+  "run1": {
+   "fail_notes": 90,
+   "fabricated_quotes": 0,
+   "state_matches_sonnet": 0,
+   "empty": 15
+  },
+  "run2": {
+   "fail_notes": 90,
+   "fabricated_quotes": 0,
+   "state_matches_sonnet": 0,
+   "empty": 15
+  }
+ },
+ "self_agreement": 15,
+ "verdict": "FAIL"
+}

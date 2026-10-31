@@ -1,0 +1,20 @@
+{
+ "model": "openai/gpt-oss-20b",
+ "sonnet_fail_notes": 7,
+ "runs": {
+  "run1": {
+   "fail_notes": 83,
+   "fabricated_quotes": 18,
+   "state_matches_sonnet": 3,
+   "empty": 6
+  },
+  "run2": {
+   "fail_notes": 79,
+   "fabricated_quotes": 8,
+   "state_matches_sonnet": 2,
+   "empty": 8
+  }
+ },
+ "self_agreement": 7,
+ "verdict": "FAIL"
+}
