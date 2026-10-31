@@ -71,3 +71,11 @@ Same test on the other four issues, 20 convict turns (A1 to A3, WA1, WA2 each), 
 Question states: 21 of 23 re-run turns kept the same state. Two moved up: I6 A2 and I8 A3 went from "not in my record" to "partial" because the re-run found a figure the first run did not. So a re-run is not only a date fix; it can change what the convict says.
 
 Limits: one run per turn, so the movement in content (not the date count) could be noise. A re-run turn that reads a figure the first run missed would also change the judge's notes that rest on the original turns (for example the I7 re-run found a cash figure of 36,242 within the 73,560 price that the recorded I7 turns do not have). The re-runs have not been swapped into `hearing.md`.
+
+### Are the new dates right? A random check (2026-10-31)
+
+177 figure-and-date pairs were found in the 23 re-run convict turns (I5 to I9). A seeded draw (seed 42) took 20; the list is in `sessions/2026-10-30-court-biocon-live-example/work/date-sample.json`. Each was checked by searching the figure in `case-book.md` and the convict's brain files and reading which column, row or sentence carried it.
+
+Result: **20 of 20 carried the period the re-run gave it** (for example 21,366 is the year to 2025-03-31, the second column of the cash-flow table; 728,081,295 is the 30-SEP-2026 shareholding row; 36,242 sits in a sentence that begins "During the year ended March 31, 2026"). One caveat: for 36,242 the note prints "Rs. 36,242" with no unit, and the unit (million) is the convict's inference, which it flagged; it ties (73,560 less 36,242 is 37,318 = 91,967,019 shares at 405.78).
+
+Limits: 18 distinct pairs (21,366 and 40,612 each came up twice); the check is against the case book and the convict's own brain files, so it tests transcription, not the filings themselves; and only pairs that already had a date nearby could be drawn, so it says nothing about figures that still have none.
