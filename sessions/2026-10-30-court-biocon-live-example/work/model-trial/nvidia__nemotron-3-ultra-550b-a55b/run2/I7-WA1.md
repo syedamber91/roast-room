@@ -1,0 +1,10 @@
+ANSWER: The annual report's Board's report (PDF pages 200 and 267) states approvals were obtained "as per the policy" but the same pages contain no sentence on omnibus approval, audit committee approval, shareholder approval of material transactions, and no approval ceiling or running balance for the Mylan purchase (S039). A postal ballot on 2025-12-31 approved "Material Related Party Transactions to be entered into between the Company and Mylan Inc." with 0.81% of all votes against (S034, voting results for the meeting dated 31-DEC-2025, resolution 6). The Share Swap and Share Purchase Agreement was dated 2025-12-06, before the postal ballot results (S039, PDF page 394). The annual report does not disclose the ceiling or running balance for this transaction.
+
+MOVE: cite | mitigate
+EVIDENCE: "the Board's report says no materially significant related party transactions were entered and that transactions were in the ordinary course and at arm's length, with approvals obtained as per the policy. The pages contain no sentence on omnibus approval, on audit committee approval of related party transactions, or on shareholder approval of material ones, and no approval ceiling or running balance" (S039, PDF pages 200 and 267, year to 2026-03-31)
+EVIDENCE: "Material Related Party Transactions to be entered into between the Company and Mylan Inc., a related party of..." (S034, voting results for the meeting dated 31-DEC-2025, resolution 6)
+EVIDENCE: "PDF page 394 gives the Share Swap and Share Purchase Agreement of 2025-12-06 with Mylan Inc. for 292,726,366 Biocon Biologics shares for consideration of Rs 73,560 (USD 815 million)" (S039, PDF page 394, year to 2026-03-31)
+EVIDENCE: "The Mylan Inc. purchase (S035) was to complete by 2026-03-31" (S036, derived by code)
+STATE I CLAIM: answered
+WHAT WOULD SETTLE IT: the audit committee minutes or the omnibus approval register for the Mylan transactions, or the annual report's related party note with the ceiling and running balance (not in S026 or S027)
+EXT REQUEST:
