@@ -71,3 +71,9 @@ def test_a_figure_mentioned_again_repeats_its_date_and_the_cross_question_is_sho
     assert "repeat its date every time it is mentioned again" in PROMPTS
     cross = PROMPTS.split("### Lawyer cross")[1].split("### Convict closing")[0] if "### Lawyer cross" in PROMPTS else ""
     assert "QUESTION is under 60 words" in cross and "no quotation marks round case book or hearing text" in cross
+
+
+def test_the_lawyer_cross_prompt_forbids_new_sums():
+    # a re-run put 86,500 (41,500 plus 45,000) in a question; the number is in neither the case book nor the hearing
+    cross = PROMPTS.split("### Lawyer cross")[1].split("### Convict closing")[0]
+    assert "write a figure only as it is printed there, never a sum or difference you worked out" in cross

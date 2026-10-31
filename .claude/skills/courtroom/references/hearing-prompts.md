@@ -201,7 +201,7 @@ TO: the convict
 QUESTION: one question that puts the two side by side and asks which one stands
 WHY I ASK: the two turn ids or the answer and the case book line
 IF DEFLECTED: the follow-up
-Rules: use only what is in the hearing and the case book. QUESTION is under 60 words and asks for one thing, one number and one date. Use no quotation marks round case book or hearing text: put it in your own words. No verdict.
+Rules: use only what is in the hearing and the case book. QUESTION is under 60 words and asks for one thing, one number and one date. Use no quotation marks round case book or hearing text: put it in your own words. Every number of three digits or more must appear in the case book or the hearing: write a figure only as it is printed there, never a sum or difference you worked out. No verdict.
 ```
 
 The convict answers each cross question with the convict's answer shape (turn ids XA1 to XA4). The baseline why-answers (WA1 to WA3) and the cross-examination answers (XA1 to XA4) use the Convict answer prompt above, including its date rule: the code counts 80 characters either side of each figure, in ANSWER and EVIDENCE, so a derived sum, a list and a bracketed figure each need their own dates.
