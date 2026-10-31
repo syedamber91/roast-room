@@ -1,0 +1,13 @@
+{
+ "model": "nvidia/nemotron-3.5-lightning-30b-a3b-loop",
+ "sonnet_fail_notes": 7,
+ "runs": {
+  "run1": {
+   "fail_notes": 55,
+   "fabricated_quotes": 0,
+   "state_matches_sonnet": 2,
+   "empty": 9
+  }
+ },
+ "verdict": "FAIL"
+}

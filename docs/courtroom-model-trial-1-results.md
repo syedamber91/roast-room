@@ -26,3 +26,17 @@ What the failures were made of (run 1, guard type):
 Reading: no free model matches Sonnet on a first attempt today. Super VL is the one worth a retry test, because its failures are format only. Ultra is the strongest on substance (states match Sonnet on 7 to 8 of 15) but invents quotes.
 
 Not claimed: that any figure in these answers is right. Only the guard's checks were run.
+
+## Follow-up (2026-10-31): retry loop and sequential re-run
+
+Retry loop = `convict_loop.run_turn` (2 retries with the guard's notes, then escalate). One run of 15 turns each.
+
+| Model | Turns escalated | Guard fail notes (Sonnet: 7) | Invented quotes | States match Sonnet (of 15) | Verdict |
+|---|---|---|---|---|---|
+| Nemotron 3 Ultra 550B + loop | 4 (27%) | 7 | 1 | 9 | FAIL (quote, state bar 12) |
+| Nemotron 3.5 Super VL 120B + loop | 6 (40%) | 35 (6 empty turns count against it) | 0 | 4 | FAIL |
+| Nemotron 3.5 Lightning 30B + loop | 10 (67%) | 55 | 0 | 2 | FAIL |
+
+- Retries cut Ultra's guard failures from 58/48 to 7, equal to Sonnet's 7. Only Ultra is under the 30% placeholder escalation rate.
+- Mistral was stopped by the owner (most calls dropped after 300 s even one at a time). Mistral, MiniMax, Step 5 and GLM remain INCONCLUSIVE: the sequential re-run ended with 88 "Connection refused" errors from the container and 1 answer returned, so no verdict can be drawn.
+- The trial container's network failed late in the re-run; re-test those four from a clean session or the VPS.
