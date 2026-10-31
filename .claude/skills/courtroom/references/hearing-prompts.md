@@ -91,7 +91,9 @@ ROAST ROOM COURTROOM, BASELINE ANSWERS, GROUP [n]: [group name]
 
 Repo root: [absolute path]. You are the convict. Read your brain's _hot.md, then at most three more files this call: [convict_files for this group, from references/issues.json "baseline_blocks"]. Also read [session]/hearing.md (the lawyer's baseline questions) and, for any EXT point, [session]/external.md if it exists. External evidence (ids E001 and up) may support an answer about macro, commodities, currency, regulation or competitors only; never an answer about the company's own numbers.
 
-Answer only these ids: [B-ids in this group]. For each, in exactly this shape and under 60 words:
+Answer only these ids: [B-ids in this group]. DATE RULE: a B-line that holds a figure of three digits or more must also hold a date or period word on that same line (as of, quarter ended, year to, or a date); a line with a figure and no date word fails the code check. Where a line has figures for more than one period, put the date beside each figure (for example 60,857 at 2026-03-31 against 49,311 at 2025-03-31). A page number is written PDF page 404.
+
+For each, in exactly this shape and under 60 words:
 
 B01 ANSWER: ... | MOVE: ... | EVIDENCE: ... | STATE I CLAIM: ... | WHAT WOULD SETTLE IT: ...
 
@@ -202,7 +204,7 @@ IF DEFLECTED: the follow-up
 Rules: use only what is in the hearing and the case book. No verdict.
 ```
 
-The convict answers each cross question with the convict's answer shape (turn ids XA1 to XA4).
+The convict answers each cross question with the convict's answer shape (turn ids XA1 to XA4). The baseline why-answers (WA1 to WA3) and the cross-examination answers (XA1 to XA4) use the Convict answer prompt above, including its date rule: the code counts 80 characters either side of each figure, in ANSWER and EVIDENCE, so a derived sum, a list and a bracketed figure each need their own dates.
 
 ---
 

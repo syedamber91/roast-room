@@ -57,3 +57,10 @@ def test_the_convict_prompt_gives_the_date_rule_with_the_three_shapes_that_faile
     # measured on I5 (21 undated figures in 3 turns): inputs of a derived sum, a table list dated once, a figure inside a bracket
     assert "within 80 characters" in PROMPTS and "date after each input" in PROMPTS
     assert "date beside each figure in a list" in PROMPTS
+
+
+def test_baseline_and_cross_answers_carry_the_date_rule():
+    # measured on the 2026-10-30 hearing: baseline B10 had 7 undated figures on a line with no date word, and the
+    # baseline why-answers WA1 to WA3 and cross answers XA1 to XA4 (18 and 17 notes) were written without the rule
+    assert "a B-line that holds a figure of three digits or more must also hold a date or period word" in PROMPTS
+    assert "baseline why-answers (WA1 to WA3) and the cross-examination answers (XA1 to XA4) use the Convict answer prompt above, including its date rule" in PROMPTS
