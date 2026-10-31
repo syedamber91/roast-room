@@ -163,3 +163,56 @@ def test_parse_final_reports_what_is_missing_instead_of_guessing():
 
 def test_unknown_direction_word_is_not_accepted():
     assert r.parse_final("DIRECTION: great\n")["direction"] is None
+
+
+# ---- the judge-final wording must spell out the ceiling rule (T2: S1 and S5 stability)
+
+PROMPTS = HERE.parent / "references" / "hearing-prompts.md"
+
+
+def _judge_final_text():
+    text = PROMPTS.read_text()
+    start = text.index("\n## Judge final\n")
+    nxt = text.find("\n## ", start + 5)
+    return text[start:nxt if nxt != -1 else len(text)]
+
+
+def test_judge_final_spells_out_the_ceiling_ladder():
+    t = _judge_final_text()
+    for line in ("decisive question answered and every other question answered: 3",
+                 "decisive question answered but another question not answered: 2",
+                 "decisive question partial: 1",
+                 "decisive question no data, deflected, unverified or not heard: 0"):
+        assert line in t
+
+
+def test_judge_final_says_the_score_is_the_ceiling_unless_why_gives_a_reason():
+    t = _judge_final_text()
+    assert "Your score is the ceiling" in t and "only if WHY" in t
+
+
+def test_judge_final_spells_out_the_s1_no_guidance_case():
+    t = _judge_final_text()
+    assert "no-guidance" in t
+    assert "2 when the company gives another numeric anchor, 1 when it gives none, whatever the states say" in t
+    assert "S1 no-guidance case" in t   # the Chair line that hands the judge the case
+
+
+def test_judge_final_defines_partial_and_no_data_apart():
+    t = _judge_final_text()
+    assert "partial = words but no number" in t
+    assert "no data = nothing in the record on that point" in t
+    assert "List each question id once" in t
+
+
+def test_judge_final_wording_matches_the_code_for_the_two_unstable_sections():
+    # S1: decisive only partial, no-guidance numeric -> 2; none -> 1
+    assert r.section_ceiling({"Q1.1": "partial"}, ["Q1.1"], no_guidance="numeric")[0] == 2
+    assert r.section_ceiling({"Q1.1": "partial"}, ["Q1.1"], no_guidance="none")[0] == 1
+    # S5: decisive no data -> 0, decisive partial -> 1
+    assert r.section_ceiling({"Q5.3": "no data", "Q5.2": "partial"}, ["Q5.3"])[0] == 0
+    assert r.section_ceiling({"Q5.3": "partial", "Q5.2": "partial"}, ["Q5.3"])[0] == 1
+
+
+def test_judge_final_has_no_em_dash():
+    assert "—" not in _judge_final_text()

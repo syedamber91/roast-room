@@ -237,7 +237,23 @@ ROAST ROOM COURTROOM, JUDGE: THE FINAL
 
 Repo root: [absolute path]. You are the judge. Read [session]/case-book.md, the whole of [session]/hearing.md, [session]/notebook.md and, if it exists, [session]/external.md. Do NOT read any brain.
 
-From the Chair: gates standing [from code or the Chair], current price on file yes or no, latest results on file yes or no, the data pack gate line [from code]. The council's rule: any of G-A to G-D standing means Avoid; G-E caps at Wait; Buy needs trust 18 to 21, no gate, and price and results on file; trust 12 or more with no gate and price or results missing is `Wait: trust good, entry not yet`; anything else is Wait. Trust is the sum of your seven scores. Code puts a ceiling on each score from the states you list and cuts any score above it.
+From the Chair: gates standing [from code or the Chair], current price on file yes or no, latest results on file yes or no, the data pack gate line [from code], the S1 no-guidance case [numeric, none or not applicable; the Chair sets it, never you]. The council's rule: any of G-A to G-D standing means Avoid; G-E caps at Wait; Buy needs trust 18 to 21, no gate, and price and results on file; trust 12 or more with no gate and price or results missing is `Wait: trust good, entry not yet`; anything else is Wait. Trust is the sum of your seven scores. Code puts a ceiling on each score from the states you list and cuts any score above it.
+
+The ceiling for each section, worked out from the states you list (the decisive question is the one the case book marks decisive for that section):
+- decisive question answered and every other question answered: 3
+- decisive question answered but another question not answered: 2
+- decisive question partial: 1
+- decisive question no data, deflected, unverified or not heard: 0
+S1 only: if the Chair's no-guidance case is numeric or none, the company states a no-guidance policy, and the ceiling is 2 when the company gives another numeric anchor, 1 when it gives none, whatever the states say.
+Your score is the ceiling. Go lower only if WHY gives the reason in one sentence. Never go higher.
+
+What the state words mean (pick the lowest that fits):
+- answered = a number and a date
+- partial = words but no number
+- no data = nothing in the record on that point (if you looked and found nothing, it is no data, not partial)
+- deflected = the convict turned the question aside
+- unverified = a figure was given that could not be checked
+List each question id once, with one state.
 
 Write, in this order, each heading at the start of a line, in capitals, with a colon:
 
