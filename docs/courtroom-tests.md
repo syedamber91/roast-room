@@ -113,3 +113,13 @@ Page extraction (Haiku reads, Sonnet verifies): 3 of 3 Haiku extractions returne
 Judge stability (same hearing, scores only): four Sonnet readings (the original final plus three repeats) gave trust 7, 5, 7 and 7 and Wait every time. Two sections moved: S1 (1 or 2: whether the no-guidance ceiling of 2 applies when the decisive question is only partial) and S5 (0 or 1: whether the decisive related-party question has "no data" or "partial"). Every other section score was identical in all four. The three Haiku judges all stopped at their 8-turn limit with no scores, so Haiku was not usable for the judge task at this hearing size. Independence caveat: one repeat said it saw another judge's score lines by accident; none of the repeats used a separate copy of the hearing without the earlier final at its end.
 
 Reading: the position does not move; the total moves by up to 2 points, from two rule ambiguities rather than random drift.
+
+## Test: I5, I6, I7 re-heard with annual report pages (2026-10-31)
+
+The convict's files gained `ar-pages-read-2026-10-31.md` (S039: cash flow lines, work in progress movement and ageing, borrowing notes, related party purchase pages). Case book chapter 9 was added by hand. Sonnet ran the convict and judge turns; one judge final over all seven heard issues.
+
+- First answers: I5 A1 partial to answered, A2 answered, A3 not in my record to partial. I6 A1 and A2 not in my record to partial, A3 unchanged. I7 A1 partial to not in my record, A2 partial, A3 not in my record.
+- Guard problems in the whole hearing: 129 (before) to 92 (after). I5 to I7 left with 9.
+- Judge final: judge scored 9 of 21; code cut S4, S5 and S7 to 0 because their deciding question was no data (judge-ceiling), so trust is 6 of 21. Position Wait, as before.
+- Finding: more pages made the cash answer better, but I6 and I7 deciding questions (covenant headroom, Mylan ceiling) stay unanswered; pages give deal values, not limits. Still open: covenant thresholds, why 24,692, 73,597 against 69,767, Mylan ceiling and running balance, auditor reasons, 2026-06-29 allottees.
+- Published page updated in place with a dated disclosure at the top; the prior version is in the artifact history.
