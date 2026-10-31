@@ -1,10 +1,32 @@
 # Trial 2 results: local (self-hosted) model for convict turns (2026-10-31)
 
-**Result: stopped at gate 1 (hardware). No model was loaded and no convict turn was run.**
+**Result: FAIL at gate 2 (speed). Gate 1 (hardware) also failed. One real model was run once; no convict turn was scored.**
+
+Update 2026-10-31, after the owner asked to measure the speed anyway: `qwen3.5:9b` did not finish one real 55,000-token convict prompt within 330 seconds on the VPS. See "Measured: one real prompt" below. The first draft of this file (stop at gate 1, nothing run) is kept further down for the record.
 
 Plan and gates: `docs/handoff-local-models-vps-test.md`. Hosted-model results for comparison: `docs/courtroom-model-trial-1-results.md`. The hosted bars were not changed and no new bars were registered, because the run never started.
 
-## What was measured
+## Measured: one real prompt (gate 2, step 3 of the plan)
+
+Run by the soic-ladder job `local-model-timing` (PRs 1283 and 1285; report `docs/reports/local-model-timing/timing-2026-08-30.md`, measured 2026-10-31 19:15 to 19:22 UTC). Model `qwen3.5:9b` through Ollama (default tag; its quantization is not shown on the Ollama page). The prompt was issue I5, turn A1, built by `model_trial.build_prompt`: 227,531 bytes, about 55,000 tokens by estimate (the run did not return a token count).
+
+| Item | Value |
+|---|---|
+| Download | 6,550,826,638 bytes in 94 seconds (files deleted after the run) |
+| Settings | 65,536-token context, 3 threads of 4, nice 19, flash attention on, KV cache q8_0, 200 tokens requested |
+| Time cap | 330 seconds (the 5-minute bar plus 30 seconds of slack) |
+| Outcome | **Not finished within 330 seconds** (curl exit 28). Over the 5-minute bar. FAIL |
+| Lowest free RAM during the request | 2,530 MB, from about 11 GB before |
+| Steal before / after | 6 percent / 1 percent |
+
+What this does and does not show:
+- It shows this model, on this CPU, does not return one convict prompt in 5 minutes, so the plan says stop.
+- It does not show how long it would take. There was no progress output, so 6 minutes and 60 minutes look the same here. Model load time is not reported separately and is inside the 330 seconds.
+- It does not test other models. A smaller model (`qwen3.5:4b`, 3.3 to 4.0 GB, also 256K context) might be faster, but the hosted trial shows small models score worse on substance, so it was not tried.
+- The licence of `qwen3.5:9b` is not stated on the Ollama pages read and was not checked.
+- Quality was not scored, because no answer came back.
+
+## Earlier draft: what was measured before the speed run
 
 The VPS hardware, read by a new read-only soic-ladder job (`vps-hardware-check`, soic-ladder PR #1280). The runner's report is soic-ladder PR #1282, file `docs/reports/vps-hardware/hardware-2026-08-30.md`. The file name carries the snapshot date; the measurement time inside it is 2026-10-31 18:20 UTC.
 
@@ -25,7 +47,7 @@ Rule from the handoff: no GPU and under 16 GB RAM means stop and report. The VPS
 ## Why stopping is the right call, and what is not measured
 
 - A 7 to 14B model at 4-bit would run on CPU only, on a shared 4-core box. The task is 15 prompts of about 55,000 tokens, with up to 2 retries per turn.
-- **Not measured:** the time for one 55,000-token prompt. The expectation that it would miss the 5-minute bar is an estimate, not a result.
+- This draft expected the speed bar to be missed; the speed run above confirmed it for `qwen3.5:9b`.
 - The hosted trial already shows size matters. Lightning 30B with the retry loop escalated 10 of 15 turns and matched Sonnet's state on 2 of 15. A 7 to 14B model is very likely worse (the handoff's own expectation, not tested here).
 - The best hosted run, Nemotron 3 Ultra 550B with the loop, still failed the bars: 1 invented quote (bar 0) and 9 of 15 states matching Sonnet (bar 12).
 - The VPS was host-throttled to 20 percent CPU on 2026-09-26 after sustained heavy load, and the un-throttle works once per 7 days. A long CPU run risks that for a result that is unlikely to pass.
@@ -36,7 +58,7 @@ This courtroom uses public filings only, so hosted models are acceptable here. A
 
 ## What would change this
 
-A VPS with a GPU or at least 32 GB of RAM, or a decision to run one timing test anyway (one prompt, capped with `systemd-run --scope -p CPUQuota=200%`, in tmux, not beside a soic-ladder heavy job). The owner chose to stop instead (2026-10-31).
+A VPS with a GPU or at least 32 GB of RAM. The owner first chose to stop, then asked for the timing run; it failed (above).
 
 ## Side findings
 
