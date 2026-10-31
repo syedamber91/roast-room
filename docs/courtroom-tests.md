@@ -44,3 +44,13 @@ Limits to print with any result: the trouble cases were chosen because they went
 ## Standing statement on the page
 
 Nothing here proves a position right. The bands remain untested and every printed decision says so.
+
+## Prompt check: the date rule (2026-10-31)
+
+Question: does stating the date rule the way the guard counts it (within 80 characters of each figure, with the three shapes that failed) cut the undated-figure notes?
+
+Setup: the three convict answers on I5 (A1 to A3) were run again from the same questions with the new prompt wording. The original turns stay in `hearing.md`; the re-runs sit in `sessions/2026-10-30-court-biocon-live-example/work/rerun-I5/`.
+
+Result: `number-date` notes on those three turns went from **21 to 0**, no other guard fired, and the three question states did not change (A1 partial, A2 answered, A3 not in my record).
+
+Limits: one issue, three turns, one run each, and one re-run (A3) reported seeing the earlier answers when it read the file, though it said it did not use them. One run per cell is noise-prone (see the provenance repo's note); a count this large is unlikely to be noise, but it is not a repeated measure. Not tested: the other six issues.
