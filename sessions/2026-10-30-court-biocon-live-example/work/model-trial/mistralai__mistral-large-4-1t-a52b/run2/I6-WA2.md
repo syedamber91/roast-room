@@ -1,0 +1,11 @@
+ANSWER: The earliest-date basis is a contractual maturity presentation, not the covenant test. The under-one-year bucket of 65,476 at 2026-03-31, derived 44.2% at 2026-03-31 of the 148,246 total at 2026-03-31, is the earliest date the Group can be required to pay: refinancing concentration, not a breach. Covenant risk sits in six ratio tests including net debt to EBITDA, tested annually and semi-annually; the report states compliance through the year to 2026-03-31 and no difficulty expected at the 2026-09-30 test. Cash of 24,165 at 2026-03-31 sits below the 65,476 at 2026-03-31 under-one-year bucket, but the same page states working capital is sufficient and lines of credit maintained; no threshold or undrawn line is given, so headroom is not in my record.
+MOVE: challenge | cite
+EVIDENCE:
+filed borrowings due within one year 65,476 at 2026-03-31 and total 148,246 at 2026-03-31, contractual, undiscounted, excluding interest, on the earliest date the Group can be required to pay (S039, PDF page 404, as at 2026-03-31)
+derived 44.2% of total borrowings due within one year at 2026-03-31, against 30.1% at 2025-03-31 (S038, PDF page 404, as at 2026-03-31)
+filed cash and cash equivalents 24,165 at 2026-03-31 (S026, year to 2026-03-31)
+group covenants on six ratios including net debt to EBITDA, tested annually and semi-annually, stated complied throughout the year to 2026-03-31 with no indication of difficulty at the next test as at 2026-09-30, no threshold printed (S038, PDF pages 377 and 378, year to 2026-03-31)
+the same maturity page states the group believes its working capital is sufficient and maintains lines of credit as stated in notes 14 and 19 (S038, PDF page 404, as at 2026-03-31)
+no page states undrawn committed lines, any covenant threshold or any actual ratio value, so headroom cannot be computed (S038, year to 2026-03-31)
+STATE I CLAIM: partial
+WHAT WOULD SETTLE IT: the facility agreements' covenant definitions, thresholds and actual ratio values at 2026-03-31, the 2026-09-30 covenant test result, and a statement of undrawn committed lines at 2026-03-31
