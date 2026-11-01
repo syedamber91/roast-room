@@ -156,3 +156,32 @@ def test_the_same_note_is_reported_once(tmp_path):
     twice = with_far_figure(GOOD, "7,489 was reported and 7,489 again", "(S026)")
     texts = [str(p) for p in run(tmp_path, twice, EXTERNAL) if p.guard == "number-date" and "7489" in str(p)]
     assert len(texts) == 1
+
+
+def soic_hearing(n_questions, why="S454 cash conversion gate"):
+    qs = "".join(f"### Q{i} Lawyer\nTO: the convict\nQUESTION: What filed revenue for the quarter ended 2026-06-30?\nWHY I ASK: {why}\nIF DEFLECTED: Give the number and the date.\n\n" for i in range(1, n_questions + 1))
+    return f"# Hearing: TEST\n\n## I5 Cash\n{qs}### Judge note\nSTORY SO FAR:\n1. Revenue 43,360 in the quarter ended 2026-06-30 (case book).\nI DID NOT UNDERSTAND:\n- filed, because the case book does not say.\n"
+
+
+def soic_run(tmp_path, hearing):
+    convict, lawyer = make_brains(tmp_path)
+    (lawyer / "questions.md").unlink()
+    (lawyer / "sources.md").write_text("- S454 | A lecture | https://x | 2026-07-20 | n/a\n", encoding="utf-8")
+    return chk.check(hearing, CASE_BOOK, convict, lawyer, "")
+
+
+def test_soic_lawyer_must_name_a_method_id_from_its_own_brain(tmp_path):
+    assert "lawyer-method" not in guards(soic_run(tmp_path, soic_hearing(2)))
+    assert "lawyer-method" in guards(soic_run(tmp_path, soic_hearing(2, why="my own idea")))
+    assert "lawyer-method" in guards(soic_run(tmp_path, soic_hearing(2, why="S999 not a real source")))
+
+
+def test_issue_holds_two_to_five_lawyer_questions(tmp_path):
+    assert "question-count" not in guards(soic_run(tmp_path, soic_hearing(2)))
+    assert "question-count" not in guards(soic_run(tmp_path, soic_hearing(5)))
+    assert "question-count" in guards(soic_run(tmp_path, soic_hearing(6)))
+    assert "question-count" in guards(soic_run(tmp_path, soic_hearing(1)))   # closed by a judge note with one question
+
+
+def test_the_analyst_lawyer_with_a_question_list_needs_no_method_id_or_count(tmp_path):
+    assert guards(run(tmp_path, GOOD)).isdisjoint({"lawyer-method", "question-count"})

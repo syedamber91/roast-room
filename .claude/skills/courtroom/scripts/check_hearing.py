@@ -17,6 +17,8 @@ The guards, by name:
   lawyer-number  every number of three digits or more in a lawyer turn is in the case book or an earlier turn
   external-id     an Ennn id is used only for an external point (baseline B18 to B22 or a line marked EXT)
   judge-story    every storyline line the judge writes ends in an evidence id or "not in the record"; "I did not understand" is never a bare "none"
+  lawyer-method  when the lawyer's brain has no questions.md (the SOIC seat), each lawyer question names a method id (S0nn) found in that brain's sources.md in WHY I ASK
+  question-count (SOIC lawyer only) an issue holds at least 2 and at most 5 lawyer questions (the minimum is checked once the issue has its judge note)
   reading-level  (warning) a judge turn whose sentences average more than 25 words
 Not here yet (step 5): a judge score above its code ceiling. Not here yet: the jargon-without-a-plain-definition check (needs the glossary).
 """
@@ -225,6 +227,35 @@ def guard_lawyer_numbers(turn, earlier_text: str, case_book: str) -> list:
     return [Problem(turn["id"], "lawyer-number", f"{d} is in neither the case book nor an earlier turn") for d, _ in big_numbers(turn["body"]) if d not in known]
 
 
+def guard_lawyer_method(turn, lawyer_sources: dict) -> list:
+    """A lawyer without a question list must show which of its own methods each question comes from."""
+    if turn["role"] != "Lawyer" or not re.match(r"^Q\d+ ", turn["id"]):
+        return []
+    why = fields(turn["body"]).get("WHY I ASK", "")
+    ids = [i for i in re.findall(r"\bS\d{3}\b", why)]
+    if not ids:
+        return [Problem(turn["id"], "lawyer-method", "WHY I ASK names no method id (S0nn) from the lawyer's own brain")]
+    unknown = [i for i in ids if i not in lawyer_sources]
+    return [Problem(turn["id"], "lawyer-method", f"{', '.join(unknown)} is not in the lawyer brain's sources.md")] if unknown else []
+
+
+def guard_question_count(turns: list, low: int = 2, high: int = 5) -> list:
+    """Per issue section: count the lawyer's Q turns. Over the high cap always fails; under the low cap fails once the issue has a judge note."""
+    out, by_section = [], {}
+    for t in turns:
+        if re.match(r"I\d+\b", t["section"]):
+            by_section.setdefault(t["section"], []).append(t)
+    for section, items in by_section.items():
+        name = re.match(r"I\d+", section).group()
+        n = sum(1 for t in items if t["role"] == "Lawyer" and re.match(r"^Q\d+ ", t["id"]))
+        closed = any(t["role"] == "Judge" for t in items)
+        if n > high:
+            out.append(Problem(f"{name}", "question-count", f"{n} lawyer questions, cap is {high}"))
+        elif closed and n < low:
+            out.append(Problem(f"{name}", "question-count", f"{n} lawyer questions, minimum is {low}"))
+    return out
+
+
 def guard_external_ids(turn) -> list:
     if turn["role"] != "Convict":
         return []
@@ -267,6 +298,8 @@ def check(hearing: str, case_book: str, convict_brain_dir: Path, lawyer_brain_di
     external_ids = set(re.findall(r"^#+\s*(E\d{3})\b|^- (E\d{3})\b", external, re.M)) if external else set()
     external_ids = {i for pair in external_ids for i in pair if i} | set(re.findall(r"\bE\d{3}\b", external))
     speechless = non_speech_ids(sources)
+    lawyer_sources = sources_table((lawyer_brain_dir / "sources.md").read_text(encoding="utf-8")) if (lawyer_brain_dir / "sources.md").exists() else {}
+    needs_method = not (lawyer_brain_dir / "questions.md").exists()
     problems, earlier = [], ""
     for turn in parse_turns(hearing):
         before = len(problems)
@@ -278,12 +311,16 @@ def check(hearing: str, case_book: str, convict_brain_dir: Path, lawyer_brain_di
         problems += guard_number_date(turn)
         problems += guard_lawyer_numbers(turn, earlier, case_book)
         problems += guard_external_ids(turn)
+        if needs_method:
+            problems += guard_lawyer_method(turn, lawyer_sources)
         problems += guard_judge(turn)
         issue = re.match(r"I\d+\b", turn["section"])
         if issue:  # turn ids repeat across issues (A1 Convict is in I3, I6 and I8), so a note names its issue
             for p in problems[before:]:
                 p.turn = f"{issue.group()} {p.turn}"
         earlier += "\n" + turn["body"]
+    if needs_method:   # the SOIC lawyer flexes between 2 and 5 questions; the Analyst protocol keeps its fixed three
+        problems += guard_question_count(parse_turns(hearing))
     seen, unique = set(), []
     for p in problems:  # one note per distinct finding
         if str(p) not in seen:
