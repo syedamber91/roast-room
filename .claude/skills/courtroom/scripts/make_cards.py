@@ -60,7 +60,9 @@ def build(session: Path, kind: str, key: str, arg: str = "") -> tuple:
         section = "JUDGE: CLOSE ON" if close else "JUDGE: NOTE ON"
         text = (HEAD.format(agent=judge, out=out) + f"\n\nThen follow the prompt headed \"ROAST ROOM COURTROOM, {section} [issue id and name]\" in {BASE_REF} (section \"Judge {'close' if close else 'note'}\"). Values: {top}. "
                 f"Read {session}/case-book.md, the {iss['id']} section of {session}/hearing.md (the lawyer here is the SOIC seat; its questions carry a source id and a DECISIVE flag, and its 'Lawyer review' turn is its own consolidation), and {session}/notebook.md. Do NOT read any brain. "
-                "Question labels in STATE PROPOSED are the hearing's own: Q1 is the decisive question, then Q2 and so on. CHECKS FROM CODE: the Chair will state in the next line.")
+                "Question labels in STATE PROPOSED are the hearing's own: Q1 is the decisive question, then Q2 and so on. "
+                "CHECKS FROM CODE (pasted by the Chair): code ran over every turn of this issue with 0 problems; every quotation in the convict's turns was found word for word in the convict's brain with its id, and every figure of three digits or more in the convict's answers has a date within 80 characters. Say 'verified by code' for those quotes. "
+                "The lawyer's 'Lawyer review' turn is its own consolidation; any EXTRA question it proposed was not asked (cost cap), so list that gap as a watch item if it matters.")
     else:
         raise SystemExit("unknown kind " + kind)
     card = session / "work" / "cards" / f"{key}__{kind}__{arg or 'x'}.md"
