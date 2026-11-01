@@ -37,7 +37,10 @@ def assemble(session: Path) -> str:
             continue
         out.append(f"\n## {section_title(key, case)}\n")
         for _seq, heading, f in sorted(files[key]):
-            out.append(f"### {heading}\n{plain_labels(f.read_text(encoding='utf-8'))}\n")
+            body = f.read_text(encoding="utf-8")
+            if heading.endswith(" Lawyer") and body.lstrip().upper().startswith("REST"):
+                heading = "Lawyer rest"    # the lawyer chose to stop: not a question, so no question shape is checked
+            out.append(f"### {heading}\n{plain_labels(body)}\n")
     return "\n".join(out)
 
 
