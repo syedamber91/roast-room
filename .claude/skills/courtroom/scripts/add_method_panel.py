@@ -44,10 +44,12 @@ def panel(rows: list) -> str:
     ids = Counter(i for r in rows for i in set(re.findall(r"\bS\d{3}\b", r["why"])))
     per_issue = Counter(r["key"] for r in rows if r["key"].startswith("I"))
     asked = sum(per_issue.values())
-    stats = [("%d" % asked, "questions in the ten issues"), ("%d" % len(per_issue), "issues heard"), ("%d to %d" % (min(per_issue.values()), max(per_issue.values())), "questions per issue (the lawyer chose)"),
+    stats = [("%d" % asked, "questions in the ten issues"), ("%d" % len(per_issue), "issues heard"), (("%d on every issue" % min(per_issue.values())) if min(per_issue.values()) == max(per_issue.values()) else "%d to %d" % (min(per_issue.values()), max(per_issue.values())), "questions per issue"),
              ("%d" % len(ids), "different SOIC source ids cited"), ("%d" % len(rows), "lawyer turns incl. cross-examination")]
     top = ", ".join("%s (%d)" % (i, n) for i, n in ids.most_common(6))
-    body = ['<section id="method"><div class="sec-head"><h2>How the SOIC lawyer asked</h2><p>Every question names the course source and check it came from. The lawyer chose how many questions each issue needed, between 2 and 5.</p></div><div class="card">',
+    even = min(per_issue.values()) == max(per_issue.values())
+    note = (" In this run it asked %d on every issue: its own rule allowed an early stop only once the decisive question was answered, and on no issue was it, so the freedom to ask fewer or more was not used." % min(per_issue.values())) if even else ""
+    body = ['<section id="method"><div class="sec-head"><h2>How the SOIC lawyer asked</h2><p>Every question names the course source and check it came from. The lawyer could stop an issue at 2 to 5 questions.' + html.escape(note) + '</p></div><div class="card">',
             '<div class="stats">' + "".join('<div class="stat"><b>%s</b>%s</div>' % (html.escape(a), html.escape(b)) for a, b in stats) + "</div>",
             "<p class=\"look\">Most-cited sources: %s.</p>" % html.escape(top)]
     current = None
