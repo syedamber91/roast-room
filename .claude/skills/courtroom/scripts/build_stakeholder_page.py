@@ -37,7 +37,7 @@ h1{font-size:clamp(1.8rem,4vw,2.6rem);line-height:1.15} h2{font-size:1.5rem;marg
 .seg button:focus-visible,.exp:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
 .lead{font-size:1.05rem;max-width:62ch}
 .lamps{display:grid;gap:8px;margin:12px 0}
-.lrow{display:grid;grid-template-columns:7.5rem repeat(7,minmax(0,1fr));gap:6px;align-items:end}
+.lrow{display:grid;grid-template-columns:7.5rem repeat(7,minmax(0,1fr));gap:6px;align-items:stretch}
 .lrow .who{font-weight:700;font-size:.9rem}
 .lamp{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:8px 4px;text-align:center;font-size:.72rem;color:var(--muted);min-width:0}
 .lamp i{display:block;width:22px;height:22px;border-radius:50%;margin:0 auto 4px;border:3px solid var(--empty);background:var(--empty-bg)}
@@ -63,7 +63,7 @@ h1{font-size:clamp(1.8rem,4vw,2.6rem);line-height:1.15} h2{font-size:1.5rem;marg
 .more{border-top:1px dashed var(--line);margin-top:8px;padding-top:8px;font-size:.92rem}
 .more div{margin:8px 0}
 .flag{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:10px 0;display:grid;gap:4px}
-.found{display:inline-block;border-radius:999px;padding:1px 10px;font-size:.78rem;font-weight:700;background:var(--accent-soft);color:var(--accent)}
+.found{display:inline-block;justify-self:start;border-radius:999px;padding:1px 10px;font-size:.78rem;font-weight:700;background:var(--accent-soft);color:var(--accent)}
 .found.both{background:var(--accent);color:var(--bg)}
 .foot{margin-top:34px;color:var(--muted);font-size:.9rem}
 @media (max-width:760px){.pair{grid-template-columns:1fr}.lrow{grid-template-columns:repeat(7,minmax(0,1fr))}.lrow .who{grid-column:1/-1}.lamp{font-size:.62rem}}

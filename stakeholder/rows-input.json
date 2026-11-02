@@ -7,7 +7,7 @@
   "question": "Profit to shareholders was 10,133 million rupees in the year to 2025-03-31 and 3,856 million in the year to 2026-03-31. What was it for the year to 2026-03-31 with every one-off item removed? Give the number in Rs million and the date of the document that states it.",
   "answer": "The exact number is not in my record.",
   "state": "partial",
-  "watch": "Depreciation, amortisation and other income for both years: consolidated profit and loss, PDF p347, and its notes, annual report for the year ended 2026-03-31 (cover letter 2026-07-15). This was the lawyer's EXTRA question, not asked under the cost cap. I put it as a why question; WA1 gave only the "
+  "watch": "Depreciation, amortisation and other income for both years: consolidated profit and loss, PDF p347, and its notes, annual report for the year ended 2026-03-31 (cover letter 2026-07-15). This was the lawyer's EXTRA question, not asked under the cost cap. I put it as a why question."
  },
  {
   "key": "I2-soic",
@@ -47,7 +47,7 @@
   "question": "Of the Rs 6,597 million profit to shareholders for the quarter ended 2024-06-30, how many Rs million came from one-off items, and on what date did you first state that figure publicly?",
   "answer": "As of the last refresh, my record holds no total one-off figure in Rs million for the quarter ended 2024-06-30, and no date on which management first stated one.",
   "state": "partial",
-  "watch": "Q1: the consolidated results filing for the quarter ended 2024-06-30 (about 2024-08-09, date unchecked): the other income note, the tax line and the profit attribution note. They would give the tax and minority share of Eris and the 775. The convict holds the S007 call and S017 deck, so reading them"
+  "watch": "Q1: the consolidated results filing for the quarter ended 2024-06-30 (about 2024-08-09, date unchecked): the other income note, the tax line and the profit attribution note. They would give the tax and minority share of Eris and the 775."
  },
  {
   "key": "I4-soic",
@@ -77,7 +77,7 @@
   "question": "Net cash from operating activities fell from 40,612 million rupees in the year to 2025-03-31 to 19,940 million in the year to 2026-03-31, and inventories took 9,178 million of cash against 3 million the year before. How much of that 9,178 million is stock built for products not yet on sale? Give the number in Rs million and the date of the document that states it.",
   "answer": "I cannot give the share of the 9,178 million (the lawyer's figure for the year to 2026-03-31) that is stock built for products not yet on sale.",
   "state": "no data",
-  "watch": "The inventories note of the FY2025-26 annual report consolidated notes (cover letter dated 2026-07-15): raw materials, work in progress and finished goods at 2026-03-31, and any line tying 11,546 to 9,178. Settles Q1 (the stock part), Q2, Q3 and WA2. The launch part also needs a management statement"
+  "watch": "The inventories note of the FY2025-26 annual report consolidated notes (cover letter dated 2026-07-15): raw materials, work in progress and finished goods at 2026-03-31, and any line tying 11,546 to 9,178. Settles Q1 (the stock part), Q2, Q3 and WA2."
  },
  {
   "key": "I6-analyst",
@@ -117,7 +117,7 @@
   "question": "Your record names approved ceilings for related party deals, but a ceiling is not an amount moved, and PDF page 396 has no total row. What was the total value of related party transactions actually made in the year ended 2026-03-31, in Rs million, as one number?",
   "answer": "I have no single total for related party transactions in the year ended 2026-03-31, and my record prints no total row to build one from.",
   "state": "partial",
-  "watch": "The related party notes at PDF pages 321 and 396 of the annual report for the year to 2026-03-31, read with column headers and row headings. Settles Q1's total, Q2's Mylan row, and whether 7,245 is a balance. The lawyer's EXTRA on the guarantee balance at 2026-03-31 was not asked (cost cap); WA2 tou"
+  "watch": "The related party notes at PDF pages 321 and 396 of the annual report for the year to 2026-03-31, read with column headers and row headings. Settles Q1's total, Q2's Mylan row, and whether 7,245 is a balance. The lawyer's EXTRA on the guarantee balance at 2026-03-31 was not asked (cost cap)."
  },
  {
   "key": "I8-analyst",
@@ -137,7 +137,7 @@
   "question": "The promoter group's stake fell from 60.64% on 2025-03-31 to 44.91% on 2026-03-31, with its share count unchanged at 728,024,176. How many shares did the promoter group buy or subscribe for in cash in the 2026-01-05 preferential issue or the 2026-01-14 qualified institutional placement? Give the number and the date.",
   "answer": "The filed counts show the promoter group added no shares in either raise.",
   "state": "answered",
-  "watch": "The full exchange feed, not the filtered 83 of 892, and the share capital note in the annual report for the year to 2026-03-31 (S026): what created the shares first counted on 2025-06-19. Settles WA1. The lawyer's EXTRA was not asked (cost cap); WA1 covered its question, but no allotment filing was "
+  "watch": "The full exchange feed, not the filtered 83 of 892, and the share capital note in the annual report for the year to 2026-03-31 (S026): what created the shares first counted on 2025-06-19. Settles WA1. The lawyer's EXTRA was not asked (cost cap)."
  },
  {
   "key": "I9-analyst",
@@ -147,7 +147,7 @@
   "question": "The exchange feed shows B S R & Co. LLP resigning as statutory auditor of the material subsidiary, effective 2026-08-06; how many hours passed between the board receiving the auditor's written reasons and Biocon filing them with the exchange, and on what date did the board receive them?",
   "answer": "As of the annual report year ended 2026-03-31, my record holds no filing of the auditor's written reasons, no board receipt date and no filing timestamp.",
   "state": "no data",
-  "watch": "The exchange filing that carried BSR's reasons for the 2026-08-06 exit, with its timestamp. Also the date on BSR's letter, the board minute giving the receipt date, and the 24-hour rule text (S053). These would settle Q1. The feed already runs to 2026-10-29, but the document behind the row has not b"
+  "watch": "The exchange filing that carried BSR's reasons for the 2026-08-06 exit, with its timestamp. Also the date on BSR's letter, the board minute giving the receipt date, and the 24-hour rule text (S053). These would settle Q1."
  },
  {
   "key": "I9-soic",
@@ -167,6 +167,6 @@
   "question": "On the calls up to 2026-08-06, name the one analyst question where management gave no number, though a number was asked for. State the figure the analyst asked for, in Rs million or per cent, and the date of that call.",
   "answer": "As of the record to 2026-08-06, I cannot name \"the one\".",
   "state": "partial",
-  "watch": "Were the redeemed NCDs the put-option debentures, and were they paid early? The exchange notices dated 2025-11-11 and 2026-01-05, and note 14 of the annual report for the year to 2026-03-31, would settle it. The same note would say whether the Kotak structured funding of up to \u20b91,200 crores (2023-02"
+  "watch": "Were the redeemed NCDs the put-option debentures, and were they paid early? The exchange notices dated 2025-11-11 and 2026-01-05, and note 14 of the annual report for the year to 2026-03-31, would settle it."
  }
 ]

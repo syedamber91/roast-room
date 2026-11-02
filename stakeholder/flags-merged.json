@@ -10,7 +10,7 @@
   "found_by": "both",
   "text": "No covenant limit, actual ratio or unused credit line is printed, while 65,476 of borrowings fall due within one year against balance sheet cash of 24,165 at 2026-03-31",
   "settles_with": "Note (b) under the page 404 maturity table, FY2025-26 annual report",
-  "kid": "Lots of money is due back soon, and limits are hidden.",
+  "kid": "Lots of money is due soon; the loan limits are not shown.",
   "teen": "65,476 million falls due within a year against cash of 24,165 and current borrowings of 40,784. No covenant limit, ratio, unused credit line or leverage ceiling is on record."
  },
  {
@@ -23,7 +23,7 @@
   "found_by": "both",
   "text": "Operating cash halved to 19,940 million (year to 2026-03-31); the bridge closes from filed lines, but why stock, payables and other assets moved is not in the record, and free cash was only 1,961",
   "settles_with": "FY2025-26 annual report notes on inventories, trade payables and other assets",
-  "kid": "Much less money came in, and nobody says why.",
+  "kid": "Much less money came in, and the reason is not shown.",
   "teen": "Operating cash fell from 40,612 to 19,940 million while profit before working capital fell only 6.4%. Stock took 9,178 of cash; free cash was only 1,961."
  },
  {
@@ -36,7 +36,7 @@
   "found_by": "both",
   "text": "Generics was guided to strong double-digit growth on 2025-08-08 and filed 5.0% for the year to 2026-03-31; no call on record withdrew the guide, and the second half shrank 2.1% while management spoke of growth traction",
   "settles_with": "Results, call and deck for the quarter to 2026-09-30",
-  "kid": "They promised to grow a lot, grew a little, and never explained.",
+  "kid": "They said big growth; it was small; no reason is shown.",
   "teen": "Generics was guided to strong double-digit growth and filed 5.0%; a 10% to 12% margin guide came in at 5%. No call on record withdrew the growth guide."
  },
  {
@@ -49,7 +49,7 @@
   "found_by": "both",
   "text": "No total of related party deals; guarantees given for a related party rose from 5,980 to 7,245 with no beneficiary named; 48.24% of public institutions' votes went against raising loan and guarantee limits on 2025-12-31",
   "settles_with": "Related party notes at PDF pages 321 and 396, FY2025-26 annual report",
-  "kid": "Money moves to friends of the company, and nobody adds it up.",
+  "kid": "Money moves to the company's friends, and the total is not shown.",
   "teen": "No total of related party deals; guarantees rose from 5,980 to 7,245, beneficiary unnamed. Mylan approval: notice says USD 400 million, agreement USD 815 million."
  },
  {
@@ -62,7 +62,7 @@
   "found_by": "both",
   "text": "B S R & Co. LLP resigned as statutory auditor of a material subsidiary effective 2026-08-06; which subsidiary and why are not in the record",
   "settles_with": "Exchange filing under Resignation dated 2026-08-06 with the auditor's letter",
-  "kid": "The checker of one company quit, and nobody says why.",
+  "kid": "The checker of one company quit, and the reason is not shown.",
   "teen": "B S R & Co. LLP quit as auditor of a material subsidiary effective 2026-08-06. Which subsidiary, why, and when the letter arrived are not on record."
  },
  {
@@ -74,7 +74,7 @@
   "found_by": "analyst",
   "text": "Capital work in progress aged 2 to 3 years rose to 10,881 from 3,509 million, and overdue projects rose to 19,894 from 6,478 (2026-03-31); no project names, dates or amount into use",
   "settles_with": "not stated",
-  "kid": "Building jobs are taking too long, and nobody names them.",
+  "kid": "Building jobs are taking too long, and the jobs are not named.",
   "teen": "Work in progress aged 2 to 3 years rose to 10,881 from 3,509 million; overdue projects rose to 19,894 from 6,478. No project names, dates or amounts into use."
  },
  {
@@ -98,7 +98,7 @@
   "found_by": "analyst",
   "text": "Promoter shares rose 57,119 between 2026-03-31 and 2026-06-29 with no trade date, mode or plan; the feed shows 8,786,362 securities allotted on 2026-06-29 and no allottee list is on record",
   "settles_with": "Promoter insider-trading (PIT) disclosure for the rise between 2026-03-31 and 2026-06-29",
-  "kid": "The owners got more shares, and nobody says how.",
+  "kid": "The owners got more shares, and how is not shown.",
   "teen": "Promoter shares rose 57,119 between 2026-03-31 and 2026-06-29 with no trade date, mode or plan. The feed shows 8,786,362 securities allotted, with no allottee list."
  },
  {
@@ -110,7 +110,7 @@
   "found_by": "soic",
   "text": "Management's like-to-like 13% growth has no rupee bridge to the filed 10.9%, and no filing states what it removes",
   "settles_with": "FY2025-26 annual report page 6 and its like-to-like definition",
-  "kid": "They say they grew more than the books show, without proof.",
+  "kid": "They say growth was higher than filed; no bridge is shown.",
   "teen": "Management says like-to-like growth was 13%, but the filed figure is 10.9%. No rupee bridge exists, and no filing says what was removed."
  },
  {
@@ -122,7 +122,7 @@
   "found_by": "soic",
   "text": "The Executive Chairperson's pay is not in the record, and 21.30% of institutions' votes went against its revision on 2026-06-08",
   "settles_with": "not stated",
-  "kid": "The boss's pay is hidden, and many big owners voted no.",
+  "kid": "The boss's pay is not shown, and many big owners voted no.",
   "teen": "The Executive Chairperson's pay is not in the record, and 21.30% of institutions' votes went against its revision on 2026-06-08."
  },
  {

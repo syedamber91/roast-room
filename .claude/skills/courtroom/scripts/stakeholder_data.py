@@ -42,7 +42,11 @@ def watch_first(body: str) -> str:
     if not m:
         return ""
     line = next((l for l in m.group(1).splitlines() if l.strip()), "")
-    return re.sub(r"^[-*\d.\s]+", "", line).strip()[:300]
+    line = re.sub(r"^[-*\d.\s]+", "", line).strip()
+    if len(line) <= 300:
+        return line
+    cut = max(line.rfind(". ", 0, 300), line.rfind("; ", 0, 300))   # end on a sentence, never mid-word
+    return line[:cut + 1].rstrip(";") + ("." if line[cut] == ";" else "") if cut > 60 else line[:300].rsplit(" ", 1)[0] + " ..."
 
 
 def read(session: Path, who: str) -> dict:
