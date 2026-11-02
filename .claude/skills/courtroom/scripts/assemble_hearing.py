@@ -14,8 +14,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from extract_handback import plain_labels  # noqa: E402
 
-KEYS = ["opening"] + [f"I{n:02d}" for n in range(1, 11)] + ["cross", "closing"]
-TITLES = {"opening": "Opening", "cross": "Cross", "closing": "Closing"}
+KEYS = ["opening"] + [f"I{n:02d}" for n in range(1, 11)] + ["cross", "closing", "final"]
+TITLES = {"opening": "Opening", "cross": "Cross", "closing": "Closing", "final": "Judge final"}
 
 
 def section_title(key: str, case: dict) -> str:
