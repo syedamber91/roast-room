@@ -1,0 +1,172 @@
+[
+ {
+  "key": "I1-soic",
+  "issue": "I1",
+  "issue_name": "Why profit rose or fell",
+  "side": "soic",
+  "question": "Profit to shareholders was 10,133 million rupees in the year to 2025-03-31 and 3,856 million in the year to 2026-03-31. What was it for the year to 2026-03-31 with every one-off item removed? Give the number in Rs million and the date of the document that states it.",
+  "answer": "The exact number is not in my record.",
+  "state": "partial",
+  "watch": "Depreciation, amortisation and other income for both years: consolidated profit and loss, PDF p347, and its notes, annual report for the year ended 2026-03-31 (cover letter 2026-07-15). This was the lawyer's EXTRA question, not asked under the cost cap. I put it as a why question; WA1 gave only the "
+ },
+ {
+  "key": "I2-soic",
+  "issue": "I2",
+  "issue_name": "Where growth came from",
+  "side": "soic",
+  "question": "The annual report prints total income of 172,695 million rupees and growth of 14% on a like-to-like basis, while filed revenue from operations was 169,270 million against 152,617 million. What was the like-to-like base for the year to 2025-03-31, in Rs million, and what is the date of the document that states it?",
+  "answer": "As of the record's dates (calls to 2026-08-06, annual report to the year ended 2026-03-31), I do not hold the like-to-like base for the year to 2025-03-31 in Rs million, and I do not hold the document date that states it.",
+  "state": "partial",
+  "watch": "Group like-to-like base in Rs million for the year to 2025-03-31: the FY2025-26 annual report management discussion (cover letter dated 2026-07-15), or the reconciliation slide in the Q4 FY26 deck (S024, held 2026-05-08)."
+ },
+ {
+  "key": "I3-analyst",
+  "issue": "I3",
+  "issue_name": "Guidance against delivery",
+  "side": "analyst",
+  "question": "The case book shows an operating margin of 19.5% filed for the quarter ended 2026-06-30, so what operating margin figure had you stated for that quarter before it was filed, and on what call date did you state it?",
+  "answer": "As of the quarter ended 2026-06-30, my record holds no consolidated operating margin figure stated for that quarter before it was filed, so I cannot give you a date.",
+  "state": "partial",
+  "watch": "The Q1 FY27 deck (S025, held 2026-08-06) would settle the restated Generics EBITDA margins for Q4 FY26 and Q1 FY26, the size and sign of the cross charge, and the 8% against 75 crore. The convict does not hold it, so I need it read."
+ },
+ {
+  "key": "I3-soic",
+  "issue": "I3",
+  "issue_name": "Guidance against delivery",
+  "side": "soic",
+  "question": "For the year to 2026-03-31, name the one numeric target you stated most firmly on a call. Give the measure, the figure you gave and the date of the call.",
+  "answer": "The firmest numeric target on record for the year to 2026-03-31 is a biosimilars margin in the mid-20s, given on a full year basis on the call held 2026-02-13, about six weeks before the year ended.",
+  "state": "partial",
+  "watch": "The results deck for the quarter and year ended 2026-03-31 (possibly S024, unchecked): find the 26% and its definition. Settles Q3."
+ },
+ {
+  "key": "I4-analyst",
+  "issue": "I4",
+  "issue_name": "Earnings quality and measure changes",
+  "side": "analyst",
+  "question": "Of the Rs 6,597 million profit to shareholders for the quarter ended 2024-06-30, how many Rs million came from one-off items, and on what date did you first state that figure publicly?",
+  "answer": "As of the last refresh, my record holds no total one-off figure in Rs million for the quarter ended 2024-06-30, and no date on which management first stated one.",
+  "state": "partial",
+  "watch": "Q1: the consolidated results filing for the quarter ended 2024-06-30 (about 2024-08-09, date unchecked): the other income note, the tax line and the profit attribution note. They would give the tax and minority share of Eris and the 775. The convict holds the S007 call and S017 deck, so reading them"
+ },
+ {
+  "key": "I4-soic",
+  "issue": "I4",
+  "issue_name": "Earnings quality and measure changes",
+  "side": "soic",
+  "question": "The annual report prints total income of 172,695 million rupees, up 14% like-to-like. Filed revenue from operations moved from 152,617 to 169,270. What amount in Rs million separates the filed basis from the like-to-like basis, and what is the date of the document that states it?",
+  "answer": "As of the annual report for the year ended 2026-03-31, the Rs million amount between the filed and like-to-like bases is not in my record, and the report page that defines it is not in the files I read.",
+  "state": "no data",
+  "watch": "The like-to-like bridge in Rs million: AR p6 and the page defining like-to-like (FY2025-26 annual report, cover letter dated 2026-07-15), or the Q4 FY26 results deck, whose id the convict did not hold in I4. Settles Q1 and Q2."
+ },
+ {
+  "key": "I5-analyst",
+  "issue": "I5",
+  "issue_name": "Cash and working capital",
+  "side": "analyst",
+  "question": "Net cash from operating activities fell from 40,612 to 19,940 million rupees in the year ended 2026-03-31, while inventories rose from 49,311 to 60,857 million. How many million rupees of that fall came from the inventory build, for the year ended 2026-03-31?",
+  "answer": "As of the year ended 2026-03-31, the inventory line moved by 9,175 million rupees (derived).",
+  "state": "answered",
+  "watch": "FY26 annual report notes on inventories, trade payables, other assets and trade receivables ageing. They would settle items 1 to 3 and the 2,368 gap, and give receivable days (still not in the record)."
+ },
+ {
+  "key": "I5-soic",
+  "issue": "I5",
+  "issue_name": "Cash and working capital",
+  "side": "soic",
+  "question": "Net cash from operating activities fell from 40,612 million rupees in the year to 2025-03-31 to 19,940 million in the year to 2026-03-31, and inventories took 9,178 million of cash against 3 million the year before. How much of that 9,178 million is stock built for products not yet on sale? Give the number in Rs million and the date of the document that states it.",
+  "answer": "I cannot give the share of the 9,178 million (the lawyer's figure for the year to 2026-03-31) that is stock built for products not yet on sale.",
+  "state": "no data",
+  "watch": "The inventories note of the FY2025-26 annual report consolidated notes (cover letter dated 2026-07-15): raw materials, work in progress and finished goods at 2026-03-31, and any line tying 11,546 to 9,178. Settles Q1 (the stock part), Q2, Q3 and WA2. The launch part also needs a management statement"
+ },
+ {
+  "key": "I6-analyst",
+  "issue": "I6",
+  "issue_name": "Debt, maturities and covenants",
+  "side": "analyst",
+  "question": "Your annual report says the group complied with every borrowing covenant throughout the year, so by how many turns of EBITDA did the consolidated net debt to EBITDA ratio sit inside the level your lenders require at the test as at 2026-03-31?",
+  "answer": "As of the annual report for the year ended 2026-03-31, the group states it complied with its covenants throughout the year.",
+  "state": "no data",
+  "watch": "The 24,692 gap: note (b) under the p404 table and the note 13 reclassification text, or a loan-by-loan schedule at 2026-03-31. Both are in the FY2025-26 annual report but unread."
+ },
+ {
+  "key": "I6-soic",
+  "issue": "I6",
+  "issue_name": "Debt, maturities and covenants",
+  "side": "soic",
+  "question": "Your annual report says the group complied with its debt covenants all year and sees no difficulty at the next test as at 2026-09-30, but prints no limit. What is the highest net debt to EBITDA ratio your lenders allow at that test?",
+  "answer": "Not in my record.",
+  "state": "no data",
+  "watch": "Covenant limit and actual ratio: the facility agreements, a lender compliance certificate, or the text of the rating document of 2025-12-16."
+ },
+ {
+  "key": "I7-analyst",
+  "issue": "I7",
+  "issue_name": "Related parties and group structure",
+  "side": "analyst",
+  "question": "For the year ended 2026-03-31, what was the total amount in Rs million actually paid or received under the Mylan Inc. related party approval, as the audit committee's running balance against that approval's ceiling stood at that date?",
+  "answer": "I cannot give the Rs million running balance against the Mylan Inc.",
+  "state": "no data",
+  "watch": "The 2025-12-31 notice's explanatory statement: ceiling, share count, and the USD 400m against USD 815m gap. Already filed, not yet read."
+ },
+ {
+  "key": "I7-soic",
+  "issue": "I7",
+  "issue_name": "Related parties and group structure",
+  "side": "soic",
+  "question": "Your record names approved ceilings for related party deals, but a ceiling is not an amount moved, and PDF page 396 has no total row. What was the total value of related party transactions actually made in the year ended 2026-03-31, in Rs million, as one number?",
+  "answer": "I have no single total for related party transactions in the year ended 2026-03-31, and my record prints no total row to build one from.",
+  "state": "partial",
+  "watch": "The related party notes at PDF pages 321 and 396 of the annual report for the year to 2026-03-31, read with column headers and row headings. Settles Q1's total, Q2's Mylan row, and whether 7,245 is a balance. The lawyer's EXTRA on the guarantee balance at 2026-03-31 was not asked (cost cap); WA2 tou"
+ },
+ {
+  "key": "I8-analyst",
+  "issue": "I8",
+  "issue_name": "Promoter holding, pledge, dilution and pay",
+  "side": "analyst",
+  "question": "As a percentage of the 728,081,295 promoter shares reported at 30-SEP-2026, how much was pledged or otherwise encumbered on that date, and what is the date of the depository record you read it from?",
+  "answer": "As I read the filed record, 0% of the 728,081,295 promoter shares was pledged or encumbered at 30-SEP-2026.",
+  "state": "partial",
+  "watch": "The promoter insider-trading (PIT) disclosure, or a transfer or gift record, for the +57,119 between 31-MAR-2026 and 29-JUN-2026. It would give the trade date, mode and any plan, and settle Q6.3."
+ },
+ {
+  "key": "I8-soic",
+  "issue": "I8",
+  "issue_name": "Promoter holding, pledge, dilution and pay",
+  "side": "soic",
+  "question": "The promoter group's stake fell from 60.64% on 2025-03-31 to 44.91% on 2026-03-31, with its share count unchanged at 728,024,176. How many shares did the promoter group buy or subscribe for in cash in the 2026-01-05 preferential issue or the 2026-01-14 qualified institutional placement? Give the number and the date.",
+  "answer": "The filed counts show the promoter group added no shares in either raise.",
+  "state": "answered",
+  "watch": "The full exchange feed, not the filtered 83 of 892, and the share capital note in the annual report for the year to 2026-03-31 (S026): what created the shares first counted on 2025-06-19. Settles WA1. The lawyer's EXTRA was not asked (cost cap); WA1 covered its question, but no allotment filing was "
+ },
+ {
+  "key": "I9-analyst",
+  "issue": "I9",
+  "issue_name": "Board, auditors and independent directors",
+  "side": "analyst",
+  "question": "The exchange feed shows B S R & Co. LLP resigning as statutory auditor of the material subsidiary, effective 2026-08-06; how many hours passed between the board receiving the auditor's written reasons and Biocon filing them with the exchange, and on what date did the board receive them?",
+  "answer": "As of the annual report year ended 2026-03-31, my record holds no filing of the auditor's written reasons, no board receipt date and no filing timestamp.",
+  "state": "no data",
+  "watch": "The exchange filing that carried BSR's reasons for the 2026-08-06 exit, with its timestamp. Also the date on BSR's letter, the board minute giving the receipt date, and the 24-hour rule text (S053). These would settle Q1. The feed already runs to 2026-10-29, but the document behind the row has not b"
+ },
+ {
+  "key": "I9-soic",
+  "issue": "I9",
+  "issue_name": "Board, auditors and independent directors",
+  "side": "soic",
+  "question": "Give the written reason B S R & Co. LLP gave when it resigned as statutory auditor of the material subsidiary, effective 2026-08-06, and the date your audit committee received that letter.",
+  "answer": "Not in my record.",
+  "state": "no data",
+  "watch": "Which subsidiary, and why the auditor left: the exchange filing under Resignation dated 2026-08-06 with the auditor's letter attached, and the audit committee minute recording its receipt, both on or after 2026-08-06. (case book 6 and 9; hearing I9 A1, WA1)"
+ },
+ {
+  "key": "I10-soic",
+  "issue": "I10",
+  "issue_name": "What management declines, defers or will not disclose",
+  "side": "soic",
+  "question": "On the calls up to 2026-08-06, name the one analyst question where management gave no number, though a number was asked for. State the figure the analyst asked for, in Rs million or per cent, and the date of that call.",
+  "answer": "As of the record to 2026-08-06, I cannot name \"the one\".",
+  "state": "partial",
+  "watch": "Were the redeemed NCDs the put-option debentures, and were they paid early? The exchange notices dated 2025-11-11 and 2026-01-05, and note 14 of the annual report for the year to 2026-03-31, would settle it. The same note would say whether the Kotak structured funding of up to \u20b91,200 crores (2023-02"
+ }
+]

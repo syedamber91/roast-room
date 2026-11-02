@@ -1,0 +1,825 @@
+{
+ "analyst": {
+  "who": "Analyst",
+  "lamps": [
+   {
+    "section": "S1",
+    "name": "Guidance against delivery",
+    "judge": 2,
+    "ceiling": 2,
+    "final": 2,
+    "cut": null
+   },
+   {
+    "section": "S2",
+    "name": "Earnings quality and accounting",
+    "judge": 1,
+    "ceiling": 1,
+    "final": 1,
+    "cut": null
+   },
+   {
+    "section": "S3",
+    "name": "Cash, receivables, working capital",
+    "judge": 2,
+    "ceiling": 3,
+    "final": 2,
+    "cut": null
+   },
+   {
+    "section": "S4",
+    "name": "Debt and funding",
+    "judge": 1,
+    "ceiling": 0,
+    "final": 0,
+    "cut": "judge said 1, evidence allows 0, because the deciding question was no data"
+   },
+   {
+    "section": "S5",
+    "name": "Related parties and group companies",
+    "judge": 1,
+    "ceiling": 0,
+    "final": 0,
+    "cut": "judge said 1, evidence allows 0, because the deciding question was no data"
+   },
+   {
+    "section": "S6",
+    "name": "Promoter: pledge, selling, succession",
+    "judge": 1,
+    "ceiling": 1,
+    "final": 1,
+    "cut": null
+   },
+   {
+    "section": "S7",
+    "name": "Board, auditors, independent directors",
+    "judge": 1,
+    "ceiling": 0,
+    "final": 0,
+    "cut": "judge said 1, evidence allows 0, because the deciding question was no data"
+   }
+  ],
+  "total": 6,
+  "position": "Wait",
+  "direction": "mixed",
+  "red_flags": [
+   {
+    "qid": "Q1.1",
+    "flag": "The only testable guide (Generics EBITDA margin 10% to 12%, said 2025-01-31) came in at 5% for FY26 and was conceded; no group guide exists; the 7% for the quarter to 2026-06-30 is on a new basis",
+    "evidence": "hearing I3 A1, A2, WA2 (S008, S014)"
+   },
+   {
+    "qid": "Q2.1",
+    "flag": "One-offs not sized after tax: Eris income 10,570 million inside other income 11,345 (quarter to 2024-06-30), 775 unexplained; the 4,029 net loss (year to 2026-03-31) has no tax or minority split, so 7,885 is only a ceiling",
+    "evidence": "hearing I4 A1, A2, WA1, WA2"
+   },
+   {
+    "qid": "Q1.6",
+    "flag": "The Generics cross charge moved out for the quarter to 2026-06-30 is not on record, so that quarter is not on the same basis as earlier rows",
+    "evidence": "hearing I4 A3; case book ch3 Segments"
+   },
+   {
+    "qid": "Q3.1",
+    "flag": "Operating cash halved to 19,940 million (year to 2026-03-31); the bridge closes from filed lines, but why stock, payables and other assets moved is not in the record, and free cash was only 1,961",
+    "evidence": "hearing I5 judge close (S039 p349)"
+   },
+   {
+    "qid": "Q12.2",
+    "flag": "Capital work in progress aged 2 to 3 years rose to 10,881 from 3,509 million, and overdue projects rose to 19,894 from 6,478 (2026-03-31); no project names, dates or amount into use",
+    "evidence": "hearing I5 judge close (S039 pp365-367)"
+   },
+   {
+    "qid": "Q4.3",
+    "flag": "65,476 million falls due within a year on the maturity table against 40,784 current borrowings (2026-03-31); the 24,692 gap has no reason on record and covenant headroom cannot be checked",
+    "evidence": "hearing I6 WA1, XA1, XA2, judge close (S039 p404, p381)"
+   },
+   {
+    "qid": "Q4.2",
+    "flag": "Management gave no leverage ceiling in turns and the convict declined to name one; the 2026-09-30 covenant test is not on record",
+    "evidence": "hearing I6 A3, judge close (S013, 2026-05-08)"
+   },
+   {
+    "qid": "Q5.3",
+    "flag": "No ceiling or running balance for the Mylan approval, and nothing replaces the approvals that ended at the AGM of 2026-08-06; the notice says USD 400 million, the agreement USD 815 million",
+    "evidence": "hearing I7 A1, A3, WA1, WA2, judge close (S034, S035, S039 p394)"
+   },
+   {
+    "qid": "Q6.3",
+    "flag": "Promoter shares rose 57,119 between 2026-03-31 and 2026-06-29 with no trade date, mode or plan; the feed shows 8,786,362 securities allotted on 2026-06-29 and no allottee list is on record",
+    "evidence": "hearing I8 A3, XA3, XA4; case book ch6"
+   },
+   {
+    "qid": "Q10.2",
+    "flag": "B S R & Co. LLP resigned as auditor of \"the material subsidiary\" effective 2026-08-06; no reasons, receipt date or filing time are on record",
+    "evidence": "hearing I9 A1, WA1; case book ch6"
+   }
+  ],
+  "triggers": [
+   {
+    "when": "Results, call and deck for the quarter to 2026-09-30 (about mid November 2026, date unchecked)",
+    "check": "gross borrowings, the 24,692 note (b) gap on page 404, covenant test at 2026-09-30, operating cash against 19,940, Generics margin on the new basis against 13% to 14% (window to about 2027-02)",
+    "moves": "either"
+   },
+   {
+    "when": "The exchange filing carrying B S R & Co. LLP's reasons for the 2026-08-06 subsidiary exit, with its timestamp",
+    "check": "reasons, receipt date, hours, and which subsidiary",
+    "moves": "either"
+   },
+   {
+    "when": "The 2025-12-31 EGM notice and the audit committee record for the Mylan approval, plus any related party approval filed after 2026-08-06",
+    "check": "ceiling, running balance, USD 400 million against USD 815 million, and what replaced the lapsed approvals",
+    "moves": "either"
+   }
+  ],
+  "issues": {
+   "I3": {
+    "name": "Guidance against delivery",
+    "qa": {
+     "1": {
+      "question": "The case book shows an operating margin of 19.5% filed for the quarter ended 2026-06-30, so what operating margin figure had you stated for that quarter before it was filed, and on what call date did you state it?",
+      "answer": "As of the quarter ended 2026-06-30, my record holds no consolidated operating margin figure stated for that quarter before it was filed, so I cannot give you a date.",
+      "answer_turn": "A1",
+      "state": "partial"
+     },
+     "2": {
+      "question": "Reading the Q4 FY26 call text held 2026-05-08, what revenue growth rate for the year FY2026-27 did you state against the 169,270 million rupees of revenue from operations filed for FY2026, and on which call date did you state it?",
+      "answer": "As of the Q4 FY26 call held 2026-05-08, my record holds no FY2026-27 revenue growth rate stated by management, so I cannot give you a rate or a date.",
+      "answer_turn": "A2",
+      "state": "partial"
+     },
+     "3": {
+      "question": "You gave Generics EBITDA margin as 7% for Q1 FY27 on the 2026-08-06 call, so what Generics EBITDA margin figure in the result for the quarter ended 2026-09-30 will you hold yourselves to as proof that the 7% holds, the number and the filing date, please?",
+      "answer": "As of the Q1 FY27 call held 2026-08-06, my record holds no figure that management committed to for Generics EBITDA margin for the quarter ended 2026-09-30, and no filing date for it.",
+      "answer_turn": "A3",
+      "state": "partial"
+     }
+    },
+    "states": {
+     "1": "partial",
+     "2": "partial",
+     "3": "partial"
+    },
+    "watch": "The Q1 FY27 deck (S025, held 2026-08-06) would settle the restated Generics EBITDA margins for Q4 FY26 and Q1 FY26, the size and sign of the cross charge, and the 8% against 75 crore. The convict does not hold it, so I need it read."
+   },
+   "I4": {
+    "name": "Earnings quality and measure changes",
+    "qa": {
+     "1": {
+      "question": "Of the Rs 6,597 million profit to shareholders for the quarter ended 2024-06-30, how many Rs million came from one-off items, and on what date did you first state that figure publicly?",
+      "answer": "As of the last refresh, my record holds no total one-off figure in Rs million for the quarter ended 2024-06-30, and no date on which management first stated one.",
+      "answer_turn": "A1",
+      "state": "partial"
+     },
+     "2": {
+      "question": "Without the 4,029 Rs million net exceptional loss, what would the 3,856 Rs million profit attributable to owners have been, as one Rs million figure for the year to 2026-03-31?",
+      "answer": "As of the last refresh, my record holds no after-tax, after-minority figure for the 4,029 Rs million net exceptional loss in the year to 2026-03-31, so I cannot give the single number asked.",
+      "answer_turn": "A2",
+      "state": "partial"
+     },
+     "3": {
+      "question": "How many Rs million of utilities cross charge did the Q1 FY27 deck move out of Generics, so that the quarter ended 2026-06-30 Generics figure of 7,597 is on the new basis?",
+      "answer": "As of the quarter ended 2026-06-30, my record holds no rupee amount for the utilities cross charge moved out of Generics in that quarter.",
+      "answer_turn": "A3",
+      "state": "partial"
+     }
+    },
+    "states": {
+     "1": "partial",
+     "2": "partial",
+     "3": "partial"
+    },
+    "watch": "Q1: the consolidated results filing for the quarter ended 2024-06-30 (about 2024-08-09, date unchecked): the other income note, the tax line and the profit attribution note. They would give the tax and minority share of Eris and the 775. The convict holds the S007 call and S017 deck, so reading them"
+   },
+   "I5": {
+    "name": "Cash and working capital",
+    "qa": {
+     "1": {
+      "question": "Net cash from operating activities fell from 40,612 to 19,940 million rupees in the year ended 2026-03-31, while inventories rose from 49,311 to 60,857 million. How many million rupees of that fall came from the inventory build, for the year ended 2026-03-31?",
+      "answer": "As of the year ended 2026-03-31, the inventory line moved by 9,175 million rupees (derived).",
+      "answer_turn": "A1",
+      "state": "answered"
+     },
+     "2": {
+      "question": "Net cash from operating activities was 19,940 million rupees and cash paid for property, plant and equipment was 17,979 million rupees in the year ended 2026-03-31; how many million rupees of operating cash were left after that capex, for that year?",
+      "answer": "As of the year ended 2026-03-31, 1,961 million rupees of operating cash were left after capex (derived: 19,940 net cash from operating activities, year ended 2026-03-31, less 17,979 cash paid for property, plant and equipment, year ended 2026-03-31, both filed).",
+      "answer_turn": "A2",
+      "state": "answered"
+     },
+     "3": {
+      "question": "Capital work in progress aged two to three years rose from 3,509 to 10,881 million rupees at 2026-03-31; how many million rupees of that 10,881 does management expect to put into use by 2027-03-31?",
+      "answer": "As of the annual report for the year ended 2026-03-31, the record holds no management figure for how much of the 10,881 million rupees (aged two to three years, at 2026-03-31) goes into use by 2027-03-31.",
+      "answer_turn": "A3",
+      "state": "partial"
+     }
+    },
+    "states": {
+     "1": "answered",
+     "2": "answered",
+     "3": "partial"
+    },
+    "watch": "FY26 annual report notes on inventories, trade payables, other assets and trade receivables ageing. They would settle items 1 to 3 and the 2,368 gap, and give receivable days (still not in the record)."
+   },
+   "I6": {
+    "name": "Debt, maturities and covenants",
+    "qa": {
+     "1": {
+      "question": "Your annual report says the group complied with every borrowing covenant throughout the year, so by how many turns of EBITDA did the consolidated net debt to EBITDA ratio sit inside the level your lenders require at the test as at 2026-03-31?",
+      "answer": "As of the annual report for the year ended 2026-03-31, the group states it complied with its covenants throughout the year.",
+      "answer_turn": "A1",
+      "state": "no data"
+     },
+     "2": {
+      "question": "Noted that the facility agreements or a lender compliance certificate would hold the covenant headroom, and moving on, given gross borrowings of 148,247 million rupees at 2026-03-31, what gross borrowings figure in Rs million does management commit to reach, and by what date?",
+      "answer": "As of the annual report year ended 2026-03-31, I find no gross borrowings figure and no date that management commits to.",
+      "answer_turn": "A2",
+      "state": "partial"
+     },
+     "3": {
+      "question": "Noted that no gross borrowings target or date is in your record, so with 65,476 million rupees due within one year against cash of 24,165 million at 2026-03-31, what consolidated net debt to EBITDA level in turns is management's own hard ceiling, separate from the lender covenant, and from what date does it bind?",
+      "answer": "As of the record (calls to 2026-08-06, annual report to 2026-03-31), no management-set ceiling on consolidated net debt to EBITDA in turns, and no date it binds from, is on record.",
+      "answer_turn": "A3",
+      "state": "no data"
+     }
+    },
+    "states": {
+     "1": "no data",
+     "2": "partial",
+     "3": "no data"
+    },
+    "watch": "The 24,692 gap: note (b) under the p404 table and the note 13 reclassification text, or a loan-by-loan schedule at 2026-03-31. Both are in the FY2025-26 annual report but unread."
+   },
+   "I7": {
+    "name": "Related parties and group structure",
+    "qa": {
+     "1": {
+      "question": "For the year ended 2026-03-31, what was the total amount in Rs million actually paid or received under the Mylan Inc. related party approval, as the audit committee's running balance against that approval's ceiling stood at that date?",
+      "answer": "I cannot give the Rs million running balance against the Mylan Inc.",
+      "answer_turn": "A1",
+      "state": "no data"
+     },
+     "2": {
+      "question": "The notes record 292,726,366 BBL shares bought from Mylan Inc. and the Board's report records 14,36,69,382; which total share count did the annual report's related party list tie to as at 2026-03-31?",
+      "answer": "As at 2026-03-31, the related party list ties to neither count.",
+      "answer_turn": "A2",
+      "state": "partial"
+     },
+     "3": {
+      "question": "Which Rs million ceiling, in the resolution that replaced the intra-group related party approvals that ran out at the 48th AGM on 2026-08-06, was approved, and on what date did the shareholders pass it?",
+      "answer": "Not in my record.",
+      "answer_turn": "A3",
+      "state": "no data"
+     }
+    },
+    "states": {
+     "1": "no data",
+     "2": "partial",
+     "3": "no data"
+    },
+    "watch": "The 2025-12-31 notice's explanatory statement: ceiling, share count, and the USD 400m against USD 815m gap. Already filed, not yet read."
+   },
+   "I8": {
+    "name": "Promoter holding, pledge, dilution and pay",
+    "qa": {
+     "1": {
+      "question": "As a percentage of the 728,081,295 promoter shares reported at 30-SEP-2026, how much was pledged or otherwise encumbered on that date, and what is the date of the depository record you read it from?",
+      "answer": "As I read the filed record, 0% of the 728,081,295 promoter shares was pledged or encumbered at 30-SEP-2026.",
+      "answer_turn": "A1",
+      "state": "partial"
+     },
+     "2": {
+      "question": "Leaving aside the depository date you have not read, and taking your 0% as a reading of the flags and not a filed figure, what is the largest number of the 728,081,295 promoter shares that any lender could invoke under any agreement in force, and as at what date is that number stated?",
+      "answer": "On the filed flags, the figure is 0 shares of the 728,081,295 promoter shares as at 30-SEP-2026.",
+      "answer_turn": "A2",
+      "state": "partial"
+     },
+     "3": {
+      "question": "Promoter shares rose by 57,119, from 728,024,176 at 31-MAR-2026 to 728,081,295 at 29-JUN-2026, so what is the trade date of that purchase, taken from the insider-trading disclosure it was filed under?",
+      "answer": "The trade date is not in my record.",
+      "answer_turn": "A3",
+      "state": "partial"
+     }
+    },
+    "states": {
+     "1": "partial",
+     "2": "partial",
+     "3": "partial"
+    },
+    "watch": "The promoter insider-trading (PIT) disclosure, or a transfer or gift record, for the +57,119 between 31-MAR-2026 and 29-JUN-2026. It would give the trade date, mode and any plan, and settle Q6.3."
+   },
+   "I9": {
+    "name": "Board, auditors and independent directors",
+    "qa": {
+     "1": {
+      "question": "The exchange feed shows B S R & Co. LLP resigning as statutory auditor of the material subsidiary, effective 2026-08-06; how many hours passed between the board receiving the auditor's written reasons and Biocon filing them with the exchange, and on what date did the board receive them?",
+      "answer": "As of the annual report year ended 2026-03-31, my record holds no filing of the auditor's written reasons, no board receipt date and no filing timestamp.",
+      "answer_turn": "A1",
+      "state": "no data"
+     },
+     "2": {
+      "question": "The annual report's attendance table lists 9 directors; how many of them are independent directors, and as of what date is that count taken?",
+      "answer": "Five of the 9 are independent directors, counted as of March 31, 2026, the year-end of the annual report.",
+      "answer_turn": "A2",
+      "state": "answered"
+     },
+     "3": {
+      "question": "For how many consecutive years has the partner who signed B S R & Co. LLP's report for the year ended 2026-03-31 signed Biocon's audit, counted from which date of first signing?",
+      "answer": "As of the annual report year ended 2026-03-31, I cannot give a count of consecutive years or a first-signing date for the signing partner.",
+      "answer_turn": "A3",
+      "state": "partial"
+     }
+    },
+    "states": {
+     "1": "no data",
+     "2": "answered",
+     "3": "partial"
+    },
+    "watch": "The exchange filing that carried BSR's reasons for the 2026-08-06 exit, with its timestamp. Also the date on BSR's letter, the board minute giving the receipt date, and the 24-hour rule text (S053). These would settle Q1. The feed already runs to 2026-10-29, but the document behind the row has not b"
+   }
+  }
+ },
+ "soic": {
+  "who": "SOIC",
+  "lamps": [
+   {
+    "section": "S1",
+    "name": "Guidance against delivery",
+    "judge": 2,
+    "ceiling": 2,
+    "final": 2,
+    "cut": null
+   },
+   {
+    "section": "S2",
+    "name": "Earnings quality and accounting",
+    "judge": 0,
+    "ceiling": 0,
+    "final": 0,
+    "cut": null
+   },
+   {
+    "section": "S3",
+    "name": "Cash, receivables, working capital",
+    "judge": 0,
+    "ceiling": 0,
+    "final": 0,
+    "cut": null
+   },
+   {
+    "section": "S4",
+    "name": "Debt and funding",
+    "judge": 0,
+    "ceiling": 0,
+    "final": 0,
+    "cut": null
+   },
+   {
+    "section": "S5",
+    "name": "Related parties and group companies",
+    "judge": 1,
+    "ceiling": 1,
+    "final": 1,
+    "cut": null
+   },
+   {
+    "section": "S6",
+    "name": "Promoter: pledge, selling, succession",
+    "judge": 2,
+    "ceiling": 2,
+    "final": 2,
+    "cut": null
+   },
+   {
+    "section": "S7",
+    "name": "Board, auditors, independent directors",
+    "judge": 0,
+    "ceiling": 0,
+    "final": 0,
+    "cut": null
+   }
+  ],
+  "total": 5,
+  "position": "Wait",
+  "direction": "mixed",
+  "red_flags": [
+   {
+    "qid": "Q1.93",
+    "flag": "Generics was guided to strong double-digit growth on 2025-08-08 and filed 5.0% for the year to 2026-03-31; no call on record withdrew the guide, and the second half shrank 2.1% while management spoke of growth traction",
+    "evidence": "hearing I3 A4, I3 Judge note"
+   },
+   {
+    "qid": "Q2.1",
+    "flag": "Management's like-to-like 13% growth has no rupee bridge to the filed 10.9%, and no filing states what it removes",
+    "evidence": "hearing I4 A1, I4 A2"
+   },
+   {
+    "qid": "Q3.1",
+    "flag": "Operating cash fell from 40,612 to 19,940 while profit before working capital fell only 6.4%; stock took 9,178 of cash and part of the stock is written down or set aside to liquidate (462, 762, 1,841)",
+    "evidence": "case book ch9 PDF p349; hearing I5 A1, I5 WA2"
+   },
+   {
+    "qid": "Q4.3",
+    "flag": "No covenant limit, actual ratio or unused credit line is printed, while 65,476 of borrowings fall due within one year against balance sheet cash of 24,165 at 2026-03-31",
+    "evidence": "case book ch5, ch9 PDF p404; hearing I6 A1, I6 A2"
+   },
+   {
+    "qid": "Q4.92",
+    "flag": "The rise in finance costs is mostly less interest capitalised (5,884 in the year to 2025-03-31 against 1,597 in the year to 2026-03-31), so the two years' interest lines are not on one basis",
+    "evidence": "hearing XA2"
+   },
+   {
+    "qid": "Q5.3",
+    "flag": "No total of related party deals; guarantees given for a related party rose from 5,980 to 7,245 with no beneficiary named; 48.24% of public institutions' votes went against raising loan and guarantee limits on 2025-12-31",
+    "evidence": "hearing I7 A1, I7 WA2"
+   },
+   {
+    "qid": "Q6.91",
+    "flag": "The Executive Chairperson's pay is not in the record, and 21.30% of institutions' votes went against its revision on 2026-06-08",
+    "evidence": "hearing I8 A2"
+   },
+   {
+    "qid": "Q10.2",
+    "flag": "B S R & Co. LLP resigned as statutory auditor of a material subsidiary effective 2026-08-06; which subsidiary and why are not in the record",
+    "evidence": "case book ch6; hearing I9 A1, I9 WA1"
+   }
+  ],
+  "triggers": [
+   {
+    "when": "Results filing for the quarter ended 2026-09-30 (about mid November 2026 per the convict, date unchecked, hearing I5 A1)",
+    "check": "the half-year cash flow, whether the covenant test as at 2026-09-30 was met, and quarterly finance costs against 2,132 for the quarter ended 2026-06-30",
+    "moves": "either"
+   },
+   {
+    "when": "The exchange filing under Resignation dated 2026-08-06 with the subsidiary auditor's letter (case book ch6)",
+    "check": "which subsidiary, and whether the exit was a planned change of firm or a reason of its own",
+    "moves": "either"
+   },
+   {
+    "when": "Any related party notice, postal ballot or vote dated on or after 2026-08-06, read with the FY2025-26 related party notes at PDF pages 321 and 396 with headers (hearing I7 A4, I7 Judge close)",
+    "check": "what replaced the ceilings that ran out at the 2026-08-06 AGM, the total moved, and whether 7,245 of guarantees is a balance",
+    "moves": "either"
+   }
+  ],
+  "issues": {
+   "I1": {
+    "name": "Why profit rose or fell",
+    "qa": {
+     "1": {
+      "question": "Profit to shareholders was 10,133 million rupees in the year to 2025-03-31 and 3,856 million in the year to 2026-03-31. What was it for the year to 2026-03-31 with every one-off item removed? Give the number in Rs million and the date of the document that states it.",
+      "answer": "The exact number is not in my record.",
+      "answer_turn": "A1",
+      "state": "partial"
+     },
+     "2": {
+      "question": "You could not state profit to owners with one-offs removed, and said the tax on the exceptional items is not in the pages you hold. Name the document and page that print the tax on the net exceptional loss of 4,029 million rupees for the year to 2026-03-31, and give that document's date.",
+      "answer": "As of the annual report for the year ended 2026-03-31 (cover letter dated 2026-07-15, statements signed 2026-05-07), no page I hold prints the tax on the consolidated net exceptional loss of 4,029 million for the year to 2026-03-31.",
+      "answer_turn": "A2",
+      "state": "partial"
+     },
+     "3": {
+      "question": "You gave a net exceptional loss of 4,029 million rupees for the year to 2026-03-31. The case book shows the quarter ended 2025-12-31 with a loss for the period of 518 million against profit to shareholders of 1,438. How much of the 4,029 million was booked in that quarter? Give Rs million and the date of the filing that prints it.",
+      "answer": "As of the filed quarters to 2026-06-30, my record holds an exceptional loss of 2,934 million for the quarter ended 2025-12-31, read from that quarter's results filing.",
+      "answer_turn": "A3",
+      "state": "partial"
+     },
+     "4": {
+      "question": "You placed 2,934 million rupees of the 4,029 million exceptional loss in the quarter ended 2025-12-31 and 172 million in the quarter ended 2025-06-30, leaving 923 million for two quarters. How much exceptional loss did the filing for the quarter ended 2026-03-31 book? Give the number in Rs million and the filing date.",
+      "answer": "As of the filed quarters to 2026-06-30, the exceptional loss for the quarter ended 2026-03-31 is not in my record.",
+      "answer_turn": "A4",
+      "state": "no data"
+     }
+    },
+    "states": {
+     "1": "partial",
+     "2": "partial",
+     "3": "partial",
+     "4": "no data"
+    },
+    "watch": "Depreciation, amortisation and other income for both years: consolidated profit and loss, PDF p347, and its notes, annual report for the year ended 2026-03-31 (cover letter 2026-07-15). This was the lawyer's EXTRA question, not asked under the cost cap. I put it as a why question; WA1 gave only the "
+   },
+   "I2": {
+    "name": "Where growth came from",
+    "qa": {
+     "1": {
+      "question": "The annual report prints total income of 172,695 million rupees and growth of 14% on a like-to-like basis, while filed revenue from operations was 169,270 million against 152,617 million. What was the like-to-like base for the year to 2025-03-31, in Rs million, and what is the date of the document that states it?",
+      "answer": "As of the record's dates (calls to 2026-08-06, annual report to the year ended 2026-03-31), I do not hold the like-to-like base for the year to 2025-03-31 in Rs million, and I do not hold the document date that states it.",
+      "answer_turn": "A1",
+      "state": "partial"
+     },
+     "2": {
+      "question": "You do not hold the like-to-like base for the year to 2025-03-31, and the filed base gives 10.9% growth against the 14% the report leads with. Name the one document that prints the Rs million base for that year. Give its title, the page number where the base appears, and the date it was filed.",
+      "answer": "As of the record's dates (calls to 2026-08-06, annual report to the year ended 2026-03-31), I cannot name one document with its title, page and filing date, because I do not hold the Rs million base for the year to 2025-03-31 anywhere.",
+      "answer_turn": "A2",
+      "state": "partial"
+     },
+     "3": {
+      "question": "Biosimilars brought in 104,312 million rupees in the year to 2026-03-31. For that segment and year, what percent of its revenue growth came from units sold, as against price and mix? Give the percent and the date of the document that states it.",
+      "answer": "As of the record's dates (calls to 2026-08-06, filed quarters to 2026-06-30, annual report to the year ended 2026-03-31), no percent is on record.",
+      "answer_turn": "A3",
+      "state": "no data"
+     },
+     "4": {
+      "question": "You hold no Biosimilars unit growth figure for the year to 2026-03-31. The case book shows page 6 of the annual report prints 104,312 million rupees for that segment. On which page of that report does the management discussion give Biosimilars volume or unit growth, and what is the date on the report's cover letter?",
+      "answer": "As of the record's dates (calls to 2026-08-06, annual report to the year ended 2026-03-31), I cannot give a page.",
+      "answer_turn": "A4",
+      "state": "no data"
+     }
+    },
+    "states": {
+     "1": "partial",
+     "2": "partial",
+     "3": "no data",
+     "4": "no data"
+    },
+    "watch": "Group like-to-like base in Rs million for the year to 2025-03-31: the FY2025-26 annual report management discussion (cover letter dated 2026-07-15), or the reconciliation slide in the Q4 FY26 deck (S024, held 2026-05-08)."
+   },
+   "I3": {
+    "name": "Guidance against delivery",
+    "qa": {
+     "1": {
+      "question": "For the year to 2026-03-31, name the one numeric target you stated most firmly on a call. Give the measure, the figure you gave and the date of the call.",
+      "answer": "The firmest numeric target on record for the year to 2026-03-31 is a biosimilars margin in the mid-20s, given on a full year basis on the call held 2026-02-13, about six weeks before the year ended.",
+      "answer_turn": "A1",
+      "state": "partial"
+     },
+     "2": {
+      "question": "You gave an EBITDA margin of 22% to 23% on the call held 2025-01-31 and named no year. If that covered the year to 2025-03-31, what margin did the company report for that year on the same measure? Give the figure and the date of the document that prints it.",
+      "answer": "The margin the company reported for the year to 2025-03-31 on that measure is not in my record.",
+      "answer_turn": "A2",
+      "state": "no data"
+     },
+     "3": {
+      "question": "The 26% biosimilars EBITDA margin for the year to 2026-03-31 has no named document in your record. Which document prints it? Give its title and its release date, so a reader can set it beside the mid-20s you guided on the call held 2026-02-13.",
+      "answer": "As of the record's dates (calls to 2026-08-06, annual report to the year ended 2026-03-31), I cannot name the document, its title or its release date.",
+      "answer_turn": "A3",
+      "state": "no data"
+     },
+     "4": {
+      "question": "On the call held 2025-08-08, management guided Generics to strong double-digit growth for the year to 2026-03-31. The filed figure is +5.0%. On which call did management first say that guide would not be met? Give the growth figure it gave instead and the date of that call.",
+      "answer": "As of the calls to 2026-08-06, I find no call in my record where management said the Generics guide for the year to 2026-03-31 would not be met.",
+      "answer_turn": "A4",
+      "state": "partial"
+     }
+    },
+    "states": {
+     "1": "partial",
+     "2": "no data",
+     "3": "no data",
+     "4": "partial"
+    },
+    "watch": "The results deck for the quarter and year ended 2026-03-31 (possibly S024, unchecked): find the 26% and its definition. Settles Q3."
+   },
+   "I4": {
+    "name": "Earnings quality and measure changes",
+    "qa": {
+     "1": {
+      "question": "The annual report prints total income of 172,695 million rupees, up 14% like-to-like. Filed revenue from operations moved from 152,617 to 169,270. What amount in Rs million separates the filed basis from the like-to-like basis, and what is the date of the document that states it?",
+      "answer": "As of the annual report for the year ended 2026-03-31, the Rs million amount between the filed and like-to-like bases is not in my record, and the report page that defines it is not in the files I read.",
+      "answer_turn": "A1",
+      "state": "no data"
+     },
+     "2": {
+      "question": "You said the page that defines like-to-like is not in your record. Which one document lists what the 13% operating revenue and the 14% total income like-to-like figures remove, in Rs million? Give its name, its page and its filing date.",
+      "answer": "As of the annual report for the year ended 2026-03-31, I can name no document that lists what the 13% or the 14% remove, in Rs million.",
+      "answer_turn": "A2",
+      "state": "no data"
+     },
+     "3": {
+      "question": "Profit before tax and before exceptional items was 8,508 million for the year to 2026-03-31, down from 17,901, while profit to owners was 3,856 against 10,133. What total of exceptional items did the statement of profit and loss charge for the year to 2026-03-31, in Rs million? Give the date of the document that prints it.",
+      "answer": "As of the annual report for the year ended 2026-03-31, the consolidated statement charged net exceptional items of a loss of 4,029 million for the year to 2026-03-31, against a gain of 965 million for the year to 2025-03-31 (filed).",
+      "answer_turn": "A3",
+      "state": "answered"
+     },
+     "4": {
+      "question": "Additions to intangible assets under development were 1,053 million in the year to 2026-03-31, against 2,311 a year earlier. How much of the 1,053 was product development cost taken to the balance sheet instead of through research and development expense? Give Rs million and the date of the document that prints it.",
+      "answer": "As of the annual report for the year ended 2026-03-31, I cannot say how much of the 1,053 million for the year to 2026-03-31 was product development cost taken to the balance sheet.",
+      "answer_turn": "A4",
+      "state": "no data"
+     }
+    },
+    "states": {
+     "1": "no data",
+     "2": "no data",
+     "3": "answered",
+     "4": "no data"
+    },
+    "watch": "The like-to-like bridge in Rs million: AR p6 and the page defining like-to-like (FY2025-26 annual report, cover letter dated 2026-07-15), or the Q4 FY26 results deck, whose id the convict did not hold in I4. Settles Q1 and Q2."
+   },
+   "I5": {
+    "name": "Cash and working capital",
+    "qa": {
+     "1": {
+      "question": "Net cash from operating activities fell from 40,612 million rupees in the year to 2025-03-31 to 19,940 million in the year to 2026-03-31, and inventories took 9,178 million of cash against 3 million the year before. How much of that 9,178 million is stock built for products not yet on sale? Give the number in Rs million and the date of the document that states it.",
+      "answer": "I cannot give the share of the 9,178 million (the lawyer's figure for the year to 2026-03-31) that is stock built for products not yet on sale.",
+      "answer_turn": "A1",
+      "state": "no data"
+     },
+     "2": {
+      "question": "You said the split of the inventory build is not in your record. Which document would print inventories at 2026-03-31 split into raw materials, work in progress and finished goods? Give its PDF page number and the date it was filed.",
+      "answer": "The document is the annual report for the year to 2026-03-31, in the notes to the consolidated financial statements.",
+      "answer_turn": "A2",
+      "state": "partial"
+     },
+     "3": {
+      "question": "You gave the document but not the figure. Of the inventories of 60,857 million at 2026-03-31, how many million rupees were finished goods? Give that one number and the date of the document that prints it.",
+      "answer": "Not in my record.",
+      "answer_turn": "A3",
+      "state": "no data"
+     },
+     "4": {
+      "question": "Increase in other assets took 6,471 million of cash in the year to 2026-03-31, against 2,057 million the year before. What was the largest single item in that 6,471 million? Give it in Rs million and the date of the document that prints it.",
+      "answer": "Not in my record.",
+      "answer_turn": "A4",
+      "state": "no data"
+     }
+    },
+    "states": {
+     "1": "no data",
+     "2": "partial",
+     "3": "no data",
+     "4": "no data"
+    },
+    "watch": "The inventories note of the FY2025-26 annual report consolidated notes (cover letter dated 2026-07-15): raw materials, work in progress and finished goods at 2026-03-31, and any line tying 11,546 to 9,178. Settles Q1 (the stock part), Q2, Q3 and WA2. The launch part also needs a management statement"
+   },
+   "I6": {
+    "name": "Debt, maturities and covenants",
+    "qa": {
+     "1": {
+      "question": "Your annual report says the group complied with its debt covenants all year and sees no difficulty at the next test as at 2026-09-30, but prints no limit. What is the highest net debt to EBITDA ratio your lenders allow at that test?",
+      "answer": "Not in my record.",
+      "answer_turn": "A1",
+      "state": "no data"
+     },
+     "2": {
+      "question": "You said the highest net debt to EBITDA ratio your lenders allow sits in the facility agreements, which are not in your record. Which filed document, such as a rating letter or a lender certificate, states it? Give the filing date and the page.",
+      "answer": "Not in my record.",
+      "answer_turn": "A2",
+      "state": "no data"
+     },
+     "3": {
+      "question": "Gross borrowings fell from 177,555 to 148,247 million, yet finance costs rose from 8,974 to 9,903 million. What was the cash paid to repay borrowings, as the cash flow statement prints it for the year to 2026-03-31, in Rs million, as one number?",
+      "answer": "Not in my record.",
+      "answer_turn": "A3",
+      "state": "partial"
+     },
+     "4": {
+      "question": "You said the repayment of borrowings line is not in your record and that the cash flow statement sits on PDF page 349. Which filed document prints the financing section of that statement for the year to 2026-03-31? Give the filing date of that document and the page number of the repayment line.",
+      "answer": "Not in my record as a page number.",
+      "answer_turn": "A4",
+      "state": "partial"
+     }
+    },
+    "states": {
+     "1": "no data",
+     "2": "no data",
+     "3": "partial",
+     "4": "partial"
+    },
+    "watch": "Covenant limit and actual ratio: the facility agreements, a lender compliance certificate, or the text of the rating document of 2025-12-16."
+   },
+   "I7": {
+    "name": "Related parties and group structure",
+    "qa": {
+     "1": {
+      "question": "Your record names approved ceilings for related party deals, but a ceiling is not an amount moved, and PDF page 396 has no total row. What was the total value of related party transactions actually made in the year ended 2026-03-31, in Rs million, as one number?",
+      "answer": "I have no single total for related party transactions in the year ended 2026-03-31, and my record prints no total row to build one from.",
+      "answer_turn": "A1",
+      "state": "partial"
+     },
+     "2": {
+      "question": "Mylan Inc. is on the related party list at PDF page 396 until 2026-01-21, but that table has no Mylan row. What amount in Rs million does the annual report for the year ended 2026-03-31 record as transacted with Mylan Inc. as a related party, and as of what date?",
+      "answer": "As of the annual report for the year to 2026-03-31, I find no amount printed against Mylan Inc.",
+      "answer_turn": "A2",
+      "state": "partial"
+     },
+     "3": {
+      "question": "Resolution 6 at the meeting dated 2025-12-31 put the Mylan Inc. related party transaction to a vote. What amount in Rs million did the explanatory statement in that notice give for it, and what was the date of the notice?",
+      "answer": "I cannot give the Rs million amount or the notice date.",
+      "answer_turn": "A3",
+      "state": "no data"
+     },
+     "4": {
+      "question": "The approvals you listed ran out at the 48th AGM held 2026-08-06, and you named no document for what replaced them. Which filing holds the related party ceilings in force after that meeting, and what is its date?",
+      "answer": "Not in my record.",
+      "answer_turn": "A4",
+      "state": "no data"
+     }
+    },
+    "states": {
+     "1": "partial",
+     "2": "partial",
+     "3": "no data",
+     "4": "no data"
+    },
+    "watch": "The related party notes at PDF pages 321 and 396 of the annual report for the year to 2026-03-31, read with column headers and row headings. Settles Q1's total, Q2's Mylan row, and whether 7,245 is a balance. The lawyer's EXTRA on the guarantee balance at 2026-03-31 was not asked (cost cap); WA2 tou"
+   },
+   "I8": {
+    "name": "Promoter holding, pledge, dilution and pay",
+    "qa": {
+     "1": {
+      "question": "The promoter group's stake fell from 60.64% on 2025-03-31 to 44.91% on 2026-03-31, with its share count unchanged at 728,024,176. How many shares did the promoter group buy or subscribe for in cash in the 2026-01-05 preferential issue or the 2026-01-14 qualified institutional placement? Give the number and the date.",
+      "answer": "The filed counts show the promoter group added no shares in either raise.",
+      "answer_turn": "A1",
+      "state": "answered"
+     },
+     "2": {
+      "question": "The case book names Kiran Mazumdar-Shaw, a promoter, as Executive Chairperson. What was her total remuneration for the year to 2026-03-31, in Rs million, and on what date was the document that prints it filed?",
+      "answer": "Not in my record.",
+      "answer_turn": "A2",
+      "state": "no data"
+     },
+     "3": {
+      "question": "You said Kiran Mazumdar-Shaw's total pay for the year to 2026-03-31 is not in your record. Name the one document that prints it, with the section or page where the table sits, and give the date that document was filed with the exchange.",
+      "answer": "The one document is the annual report for the year to 2026-03-31.",
+      "answer_turn": "A3",
+      "state": "partial"
+     },
+     "4": {
+      "question": "You named the annual report for the year to 2026-03-31 as the place for Kiran Mazumdar-Shaw's pay, but gave no amount. The shareholder vote dated 2026-06-08 revised that pay. What is the revised amount of her remuneration, in Rs million, and what is the date of the notice that states it?",
+      "answer": "Not in my record.",
+      "answer_turn": "A4",
+      "state": "no data"
+     }
+    },
+    "states": {
+     "1": "answered",
+     "2": "no data",
+     "3": "partial",
+     "4": "no data"
+    },
+    "watch": "The full exchange feed, not the filtered 83 of 892, and the share capital note in the annual report for the year to 2026-03-31 (S026): what created the shares first counted on 2025-06-19. Settles WA1. The lawyer's EXTRA was not asked (cost cap); WA1 covered its question, but no allotment filing was "
+   },
+   "I9": {
+    "name": "Board, auditors and independent directors",
+    "qa": {
+     "1": {
+      "question": "Give the written reason B S R & Co. LLP gave when it resigned as statutory auditor of the material subsidiary, effective 2026-08-06, and the date your audit committee received that letter.",
+      "answer": "Not in my record.",
+      "answer_turn": "A1",
+      "state": "no data"
+     },
+     "2": {
+      "question": "You said the auditor's letter and the audit committee minute are not in your record. Name the one exchange filing that would hold the resignation letter of B S R & Co. LLP: its category as the exchange feed lists it, and its filing date.",
+      "answer": "Not in my record.",
+      "answer_turn": "A2",
+      "state": "no data"
+     },
+     "3": {
+      "question": "Count the people who held the CFO role from the resignation filing of 2024-03-14 to 2026-04-01, and give the date the first of them took over.",
+      "answer": "Partial.",
+      "answer_turn": "A3",
+      "state": "partial"
+     },
+     "4": {
+      "question": "The annual report shows Mukesh Kamath as Interim CFO until 2026-03-31, after the CFO resignation filed on 2024-03-14. Name the document that states the date he took the interim role, and give that start date.",
+      "answer": "Not in my record.",
+      "answer_turn": "A4",
+      "state": "no data"
+     }
+    },
+    "states": {
+     "1": "no data",
+     "2": "no data",
+     "3": "partial",
+     "4": "no data"
+    },
+    "watch": "Which subsidiary, and why the auditor left: the exchange filing under Resignation dated 2026-08-06 with the auditor's letter attached, and the audit committee minute recording its receipt, both on or after 2026-08-06. (case book 6 and 9; hearing I9 A1, WA1)"
+   },
+   "I10": {
+    "name": "What management declines, defers or will not disclose",
+    "qa": {
+     "1": {
+      "question": "On the calls up to 2026-08-06, name the one analyst question where management gave no number, though a number was asked for. State the figure the analyst asked for, in Rs million or per cent, and the date of that call.",
+      "answer": "As of the record to 2026-08-06, I cannot name \"the one\".",
+      "answer_turn": "A1",
+      "state": "partial"
+     },
+     "2": {
+      "question": "On the 2025-01-31 call an analyst asked for the amount that could be put back within FY 2026, and management gave no quantification. State the unit and any figure the analyst named in that question, and give the call date.",
+      "answer": "As of the record to 2026-08-06: no.",
+      "answer_turn": "A2",
+      "state": "partial"
+     },
+     "3": {
+      "question": "Management gave no quantification on the call held 2025-01-31. On which later call, up to 2026-08-06, did management first state any figure for borrowings that lenders could require back early under put options? Give the figure in Rs million and the call date.",
+      "answer": "As of the record to 2026-08-06: no.",
+      "answer_turn": "A3",
+      "state": "no data"
+     },
+     "4": {
+      "question": "You say no call up to 2026-08-06 carries a management figure for borrowings that lenders could require back under put options. Which one document would hold that figure: its name, its exact date, and the figure in Rs million that it should show?",
+      "answer": "As of the record to 2026-08-06, I cannot give the figure, so I name the document only.",
+      "answer_turn": "A4",
+      "state": "no data"
+     }
+    },
+    "states": {
+     "1": "partial",
+     "2": "partial",
+     "3": "no data",
+     "4": "no data"
+    },
+    "watch": "Were the redeemed NCDs the put-option debentures, and were they paid early? The exchange notices dated 2025-11-11 and 2026-01-05, and note 14 of the annual report for the year to 2026-03-31, would settle it. The same note would say whether the Kotak structured funding of up to \u20b91,200 crores (2023-02"
+   }
+  }
+ }
+}
