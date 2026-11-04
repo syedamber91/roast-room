@@ -11,7 +11,8 @@
   "text": "No covenant limit, actual ratio or unused credit line is printed, while 65,476 of borrowings fall due within one year against balance sheet cash of 24,165 at 2026-03-31",
   "settles_with": "Note (b) under the page 404 maturity table, FY2025-26 annual report",
   "kid": "Lots of money is due soon; the loan limits are not shown.",
-  "teen": "65,476 million falls due within a year against cash of 24,165 and current borrowings of 40,784. No covenant limit, ratio, unused credit line or leverage ceiling is on record."
+  "teen": "65,476 million falls due within a year against cash of 24,165 and current borrowings of 40,784. No covenant limit, ratio, unused credit line or leverage ceiling is on record.",
+  "after": "The annual report names five tested ratios (Net Debt/EBITDA, Cash Flow Cover, Net Debt/Net Worth, Net Debt/Adjusted EBITDA, Adjusted EBITDA/Interest Cost), tested annually and half-yearly, and says all were met. Still no limit or actual ratio is printed. Outside yardstick, not the covenant: ICRA's rating trigger is net debt excluding structured debt over OPBDITA above 3.5x on a sustained basis; its reading was 2.6x at 2025-03-31, adjusted for the Eris gain. [Annual report FY2025-26, PDF p377; ICRA rationale filed 2025-10-30]"
  },
  {
   "id": "F2",
@@ -24,7 +25,8 @@
   "text": "Operating cash halved to 19,940 million (year to 2026-03-31); the bridge closes from filed lines, but why stock, payables and other assets moved is not in the record, and free cash was only 1,961",
   "settles_with": "FY2025-26 annual report notes on inventories, trade payables and other assets",
   "kid": "Much less money came in, and the reason is not shown.",
-  "teen": "Operating cash fell from 40,612 to 19,940 million while profit before working capital fell only 6.4%. Stock took 9,178 of cash; free cash was only 1,961."
+  "teen": "Operating cash fell from 40,612 to 19,940 million while profit before working capital fell only 6.4%. Stock took 9,178 of cash; free cash was only 1,961.",
+  "after": "Consolidated inventories rose from 49,311 to 60,857 million (year to 2026-03-31): work-in-progress +6,527 and finished goods +2,803 account for most of the rise. Trade and other payables rose only from 65,487 to 67,721. The other assets split is still not found. [Annual report FY2025-26, PDF p371, p382]"
  },
  {
   "id": "F3",
@@ -50,7 +52,8 @@
   "text": "No total of related party deals; guarantees given for a related party rose from 5,980 to 7,245 with no beneficiary named; 48.24% of public institutions' votes went against raising loan and guarantee limits on 2025-12-31",
   "settles_with": "Related party notes at PDF pages 321 and 396, FY2025-26 annual report",
   "kid": "Money moves to the company's friends, and the total is not shown.",
-  "teen": "No total of related party deals; guarantees rose from 5,980 to 7,245, beneficiary unnamed. Mylan approval: notice says USD 400 million, agreement USD 815 million."
+  "teen": "No total of related party deals; guarantees rose from 5,980 to 7,245, beneficiary unnamed. Mylan approval: notice says USD 400 million, agreement USD 815 million.",
+  "after": "The 7,245 is corporate guarantees given by Biocon Limited for subsidiaries' bank loans: Biocon Biosphere Limited 5,375 (new manufacturing facility) and Biocon Generics Inc 1,870 (capital expenditure). Beneficiaries are named; the rise is 5,980 plus 1,719 given, less 1,076 withdrawn, plus 622 exchange movement. Still no total of related party deals. [Annual report FY2025-26 standalone notes, PDF p324]"
  },
  {
   "id": "F5",
@@ -63,7 +66,8 @@
   "text": "B S R & Co. LLP resigned as statutory auditor of a material subsidiary effective 2026-08-06; which subsidiary and why are not in the record",
   "settles_with": "Exchange filing under Resignation dated 2026-08-06 with the auditor's letter",
   "kid": "The checker of one company quit, and the reason is not shown.",
-  "teen": "B S R & Co. LLP quit as auditor of a material subsidiary effective 2026-08-06. Which subsidiary, why, and when the letter arrived are not on record."
+  "teen": "B S R & Co. LLP quit as auditor of a material subsidiary effective 2026-08-06. Which subsidiary, why, and when the letter arrived are not on record.",
+  "after": "The subsidiary is Biocon Biologics Limited. Both B S R & Co. LLP's letter and the company's cover letter of 2026-08-06 give the reason as aligning the subsidiary's auditor with the parent's after B S R's mandatory rotation as Biocon Limited's auditor; S.R. Batliboi & Associates LLP was appointed parent auditor for five years. B S R says it had finished the FY2025-26 audit (report 2026-05-07) and the quarter to 2026-06-30 review (2026-08-05). This is the stated reason only. [NSE filings dated 2026-08-06 (resignation letter; change in directors and auditors)]"
  },
  {
   "id": "F6",
@@ -87,7 +91,8 @@
   "text": "One-offs not sized after tax: Eris income 10,570 million inside other income 11,345 (quarter to 2024-06-30), 775 unexplained; the 4,029 net loss (year to 2026-03-31) has no tax or minority split, so 7,885 is only a ceiling",
   "settles_with": "Consolidated results filing for the quarter ended 2024-06-30",
   "kid": "Some one-time money is mixed in, so real profit is unclear.",
-  "teen": "Eris income of 10,570 million sits inside other income of 11,345, leaving 775 unexplained. The 4,029 net loss has no tax or minority split, so 7,885 is only a ceiling."
+  "teen": "Eris income of 10,570 million sits inside other income of 11,345, leaving 775 unexplained. The 4,029 net loss has no tax or minority split, so 7,885 is only a ceiling.",
+  "after": "The 11,345 is printed in Biocon's filed results for the quarter to 2024-06-30 (the comparative columns of the Sep 2024 and Jun 2025 filings). Management's call of 2024-08-09 puts the Eris proceeds at Rs 1,057 crore classified as other income; the 775 million gap to 11,345 is still unexplained (the filing refers to notes 4 and 5(B), not read). [Consolidated results excerpts; call of 2024-08-09]"
  },
  {
   "id": "F8",
@@ -123,7 +128,8 @@
   "text": "The Executive Chairperson's pay is not in the record, and 21.30% of institutions' votes went against its revision on 2026-06-08",
   "settles_with": "not stated",
   "kid": "The boss's pay is not shown, and many big owners voted no.",
-  "teen": "The Executive Chairperson's pay is not in the record, and 21.30% of institutions' votes went against its revision on 2026-06-08."
+  "teen": "The Executive Chairperson's pay is not in the record, and 21.30% of institutions' votes went against its revision on 2026-06-08.",
+  "after": "The remuneration annexure puts her Biocon Limited pay at 71.78 times the median employee's (765,716 rupees), about 55.0 million rupees (derived by multiplication), up 29.99%. Her pay from Syngene and Biocon Biologics is not printed in the text read. Key management pay in total was 332 million plus 65 of fees and commission. [Annual report FY2025-26, PDF p219, p396]"
  },
  {
   "id": "F11",
@@ -147,6 +153,7 @@
   "text": "The rise in finance costs is mostly less interest capitalised (5,884 in the year to 2025-03-31 against 1,597 in the year to 2026-03-31), so the two years' interest lines are not on one basis",
   "settles_with": "not stated",
   "kid": "The cost of borrowing was counted two different ways.",
-  "teen": "Finance costs rose mostly because less interest was capitalised: 5,884 in the year to 2025-03-31 against 1,597 in the year to 2026-03-31, so the years differ in basis."
+  "teen": "Finance costs rose mostly because less interest was capitalised: 5,884 in the year to 2025-03-31 against 1,597 in the year to 2026-03-31, so the years differ in basis.",
+  "after": "The 5,884 and 1,597 are the capitalisation netted in the consolidated finance cost note. The 1,782 (nil in FY2025-26) is only the part capitalised on intangible assets under development. That the 1,782 sits inside the 5,884 is inferred, not stated. [Annual report FY2025-26, PDF p386, p367]"
  }
 ]

@@ -109,6 +109,7 @@ function render(){
  for(const f of D.flags){const c=el('div','flag');const tag=el('span','found '+(f.found_by==='both'?'both':''),f.found_by==='both'?'Found by both lawyers':(f.found_by==='analyst'?'Found by the Analyst only':'Found by the SOIC seat only'));
   c.append(tag);c.append(el('b','',f.topic));c.append(el('div','',level==='kid'?f.kid:(level==='teen'?f.teen:f.text)));
   if(level!=='kid')c.append(el('div','settle','What would settle it: '+f.settles_with));
+  if(f.after&&level!=='kid')c.append(el('div','settle','After the hearing (found later, not heard in court): '+f.after));
   if(level==='expert')c.append(el('div','src','Judge lines: '+f.members.join(', ')));F.append(c)}
  const G=document.getElementById('legend');G.textContent='';for(const st of ['answered','partial','no data'])G.append(stamp(st));
  const L2=document.getElementById('lead');L2.textContent=level==='kid'?D.lead.kid:(level==='teen'?D.lead.teen:D.lead.expert);
