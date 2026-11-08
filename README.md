@@ -173,3 +173,7 @@ If you'd rather type a decision straight into the room, copy `.env.example` to `
 These are simulations built from each person's public work, and so is any advisor you add. They are not the people, they don't speak for them, and none of them is affiliated with or endorses this project. A seat only quotes a person verbatim when the line is in its brain with a source, and `python .claude/skills/roast-room/scripts/check_quotes.py sessions/<session>` checks every quote in a council against the brains. Each brain's `sources.md` lists what it was built from.
 
 Built by AI Automation Society. The code is MIT licensed; see `LICENSE`. The PDF builder bundles [jsPDF](https://github.com/parallax/jsPDF) (MIT) and [Montserrat](https://github.com/JulietaUla/Montserrat) (SIL Open Font License); their licenses sit next to them in `app/public/`.
+
+## Lite courtroom (PIIND)
+
+A cheap courtroom built from already-checked data-point answers, with a report and a Receipts page. Not comparable to the full hearing. See [docs/lite-courtroom.md](docs/lite-courtroom.md).

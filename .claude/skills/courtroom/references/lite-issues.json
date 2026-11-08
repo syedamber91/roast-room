@@ -1,0 +1,16 @@
+{
+ "_about": "Lite courtroom: which numbered PIIND data-point question (1-based, order of PIIND.questions.txt in the soic-ladder repo, branch piind-questions-v5) belongs to which issue (names and sections come from issues.json). decisive = the one question that decides the section. Question 49 (FIFA) is a control and is in no issue. Issues with no answered question are 'no data'. Written by hand; I9 and I10 have no data-point question, so they stay 'no data'.",
+ "control": [49],
+ "issues": {
+  "I1": {"questions": [6, 7, 8, 9, 10, 11, 12, 16, 17, 48], "decisive": null},
+  "I2": {"questions": [1, 2, 3, 4, 5, 13, 14, 15, 18, 19, 20, 38, 39, 43, 47], "decisive": null},
+  "I3": {"questions": [41, 42], "decisive": 42},
+  "I4": {"questions": [34, 35, 36, 37, 50], "decisive": 36},
+  "I5": {"questions": [21, 22, 23, 24, 25, 26, 27, 32], "decisive": 22},
+  "I6": {"questions": [28, 29, 30, 31], "decisive": 28},
+  "I7": {"questions": [40, 45, 46], "decisive": 45},
+  "I8": {"questions": [33, 44], "decisive": 33},
+  "I9": {"questions": [], "decisive": null},
+  "I10": {"questions": [], "decisive": null}
+ }
+}
