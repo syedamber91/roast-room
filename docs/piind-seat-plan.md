@@ -91,4 +91,6 @@ A seat built through step 3 is already usable as `partial` (the Chair says "brie
 
 ### First PIIND brain files (2026-11-09)
 
-`.claude/skills/roast-room/brains/piind-management/`: `shareholding.md` (S041), `votes.md` (S042), `segments.md` (S043), `sources.md` (partial stub). CSVs and a segment definitions note in `docs/company-record/piind/`. The seat is not ready: no `_hot.md`, `numbers.md` (no builder for the results lines yet), agent file, roster entry, data pack, or any call, deck or annual report extraction.
+`.claude/skills/roast-room/brains/piind-management/`: `shareholding.md` (S041), `votes.md` (S042), `segments.md` (S043), `results.md` (S044, new builder `build_results_file.py`, 28 tests pass in the scripts folder), `sources.md` (partial stub). CSVs and a segment definitions note in `docs/company-record/piind/`. The seat is not ready: no `_hot.md`, `numbers.md` (price and annual report tables still missing; results lines are in `results.md`), agent file, roster entry, data pack, or any call, deck or annual report extraction.
+
+`results.md`: 10 XBRL quarters plus 6 PDF quarters (Mar 2025 to Sep 2026), 2025-12-31 not read. Cross-checked by eye against the earlier data-point answers: Jun 2026 revenue 17,023 and profit 2,442, Mar 2026 15,652, Sep 2025 18,723, Jun 2025 19,005 and 4,000 all agree. Cells never filled from another filing; Mar 2025 other income and EPS, Sep 2025 and Sep 2026 profit for the period are "not read".
