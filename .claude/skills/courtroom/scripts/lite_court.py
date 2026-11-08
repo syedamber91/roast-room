@@ -150,6 +150,9 @@ def judge_issue(iid, name, rows, generate):
     raw (the model's replies) and rejected (the quotes that were not found) are kept so a dropped note can be diagnosed."""
     prompt = judge_prompt(iid, name, rows)
     raw = [generate(prompt)]
+    if not raw[0].strip():   # a reasoning model can spend its whole budget thinking and return nothing: ask once more
+        raw = [generate(prompt)]
+    status = "ok" if raw[0].strip() else "judge reply was empty twice; this issue was not judged"
     notes, score = parse_judge(raw[0])
     def accepted(n):
         return bool(n["quote"]) and quote_ok(n["quote"], rows) and numbers_ok(n["note"], rows)
@@ -169,7 +172,7 @@ def judge_issue(iid, name, rows, generate):
         good += fixed[:len(bad)]
         bad_left = len(bad) - len(fixed[:len(bad)])
         score = score if score is not None else score2
-    return {"notes": good, "dropped": bad_left, "score": score, "raw": raw, "rejected": rejected}
+    return {"notes": good, "dropped": bad_left, "score": score, "raw": raw, "rejected": rejected, "status": status}
 
 
 # ---------------------------------------------------------------- the hearing
@@ -200,10 +203,10 @@ def run(answers_text, issue_map, issues_meta, generate, control=None):
         answered = [r for r in qrows if r["state"] == "answered"]
         state = "no data" if not answered else ("answered" if len(answered) == len(qrows) else "partial")
         rec = {"name": meta["name"], "section": meta.get("section"), "state": state, "questions": qs,
-               "notes": [], "dropped": 0, "judge_score": None, "raw": [], "rejected": []}
+               "notes": [], "dropped": 0, "judge_score": None, "raw": [], "rejected": [], "judge_status": "no answered question"}
         if answered:
             j = judge_issue(iid, meta["name"], qrows, generate)
-            rec.update(notes=j["notes"], dropped=j["dropped"], judge_score=j["score"], raw=j["raw"], rejected=j["rejected"])
+            rec.update(notes=j["notes"], dropped=j["dropped"], judge_score=j["score"], raw=j["raw"], rejected=j["rejected"], judge_status=j["status"])
             if meta.get("section") and j["score"] is not None:
                 judged[meta["section"]] = min(judged.get(meta["section"], 3), j["score"])
         issues[iid] = rec
@@ -259,6 +262,8 @@ def render_report(res, company):
     for iid, i in res["issues"].items():
         notes = "".join("<li>%s <em>Quote: &ldquo;%s&rdquo;</em></li>" % (_e(n["note"]), _e(n["quote"])) for n in i["notes"])
         dropped = " (%d note(s) dropped: quote not found in the answers)" % i["dropped"] if i["dropped"] else ""
+        if i["judge_status"] not in ("ok", "no answered question"):
+            dropped += " (%s)" % i["judge_status"]
         n_ans = sum(q["state"] == "answered" for q in i["questions"].values())
         iss += "<div class=\"row\"><h3>%s %s</h3><p>State: <b>%s</b> (%d of %d questions answered)%s</p>%s</div>" % (
             iid, _e(i["name"]), i["state"], n_ans, len(i["questions"]), dropped, "<ul>%s</ul>" % notes if notes else "")
@@ -300,7 +305,7 @@ def render_receipts(res, company):
 
 def nemotron_generate(prompt):
     import nvidia_client
-    res = nvidia_client.chat(MODEL, prompt, max_tokens=4000)
+    res = nvidia_client.chat(MODEL, prompt, max_tokens=10000)
     if res["error"]:
         raise RuntimeError("Nemotron call failed: " + res["error"])
     return res["text"]

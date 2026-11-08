@@ -200,3 +200,20 @@ def test_note_with_derived_number_is_rewritten_then_dropped():
 def test_prompt_forbids_calculated_numbers():
     p = lc.judge_prompt("I6", "Debt", lc.parse_answers(ANS, [4]))
     assert "do not calculate" in p.lower()
+
+
+def test_empty_reply_is_retried_once():
+    calls = []
+
+    def gen(p):
+        calls.append(p)
+        return "" if len(calls) == 1 else GOOD
+    res = lc.run(ANS, MAP, ISSUES, gen)
+    assert res["issues"]["I3"]["notes"][0]["quote"] == "17,023 Rs million"
+    assert res["issues"]["I3"]["judge_score"] == 3
+
+
+def test_still_empty_after_retry_is_not_judged_and_says_so():
+    res = lc.run(ANS, MAP, ISSUES, lambda p: "")
+    assert res["issues"]["I3"]["judge_score"] is None and res["issues"]["I3"]["notes"] == []
+    assert "empty" in res["issues"]["I3"]["judge_status"]
