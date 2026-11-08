@@ -82,13 +82,13 @@ def test_bad_quote_rewritten_once_then_kept_only_if_it_passes():
 
     def gen(p):
         calls.append(p)
-        if "NOT FOUND" in p:
+        if "NOT ACCEPTED" in p:
             return GOOD
         return 'NOTE: invented\nQUOTE: "99,999 Rs million"\nSCORE: 3\n'
     res = lc.run(ANS, MAP, ISSUES, gen)
     notes = res["issues"]["I3"]["notes"]
     assert len(notes) == 1 and notes[0]["quote"] == "17,023 Rs million"
-    assert any("NOT FOUND" in c for c in calls)
+    assert any("NOT ACCEPTED" in c for c in calls)
 
 
 def test_bad_quote_twice_is_dropped_never_kept():
@@ -178,3 +178,25 @@ def test_prompt_does_not_punish_missing_detail_and_asks_for_short_exact_quote():
     assert "missing detail is not a reason" in p.lower()
     assert "copy" in p.lower() and "1 to 8 words" in p
     assert "contradict" in p.lower()
+
+
+def test_numbers_in_note_must_be_in_the_answers():
+    rows = lc.parse_answers(ANS, [4])
+    assert lc.numbers_ok("Revenue was 17,023 in Q1 and borrowings 2,383.", rows)
+    assert not lc.numbers_ok("Borrowings rose 39% year on year.", rows)
+    assert not lc.numbers_ok("Revenue was 17,024.", rows)
+    assert lc.numbers_ok("Page p5 of the Q1FY27 deck.", rows)
+
+
+def test_note_with_derived_number_is_rewritten_then_dropped():
+    bad = 'NOTE: Revenue fell 39% on the year.\nQUOTE: "17,023 Rs million"\nSCORE: 2\n'
+    res = lc.run(ANS, MAP, ISSUES, lambda p: bad)
+    assert res["issues"]["I3"]["notes"] == [] and res["issues"]["I3"]["dropped"] == 1
+    good = 'NOTE: Revenue is 17,023 million.\nQUOTE: "17,023 Rs million"\nSCORE: 2\n'
+    res = lc.run(ANS, MAP, ISSUES, lambda p: good if "NOT ACCEPTED" in p else bad)
+    assert res["issues"]["I3"]["notes"][0]["note"].startswith("Revenue is 17,023")
+
+
+def test_prompt_forbids_calculated_numbers():
+    p = lc.judge_prompt("I6", "Debt", lc.parse_answers(ANS, [4]))
+    assert "do not calculate" in p.lower()

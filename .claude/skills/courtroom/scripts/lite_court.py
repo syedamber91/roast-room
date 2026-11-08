@@ -91,6 +91,21 @@ def quote_ok(quote, rows):
     return len(q) >= 3 and q in _haystack(rows)
 
 
+NUM_RE = re.compile(r"(?<![A-Za-z0-9.])\d[\d,]*(?:\.\d+)?")
+ANY_NUM_RE = re.compile(r"\d[\d,]*(?:\.\d+)?")
+
+
+def _num(tok):
+    return tok.replace(",", "").rstrip(".")
+
+
+def numbers_ok(note, rows):
+    """Every standalone number in a note must be written in the answers or questions. A figure the model worked out
+    itself (a percent change, a difference) is not in the evidence, so the note fails."""
+    have = {_num(t) for t in ANY_NUM_RE.findall(" ".join("%s %s %s %s" % (r["question"], r["figure"], r["source"], r["cite"]) for r in rows))}
+    return all(_num(t) in have for t in NUM_RE.findall(note))
+
+
 def _answers_block(rows):
     return "\n".join('- Q%d: %s | ANSWER: %s (%s %s)' % (r["n"], r["question"], r["figure"], r["source"], r["cite"])
                      for r in rows if r["state"] == "answered")
@@ -101,7 +116,9 @@ def judge_prompt(iid, name, rows):
             "You are the judge in a lite courtroom. Below are the ONLY facts: answers to fixed data-point questions, each with a figure and a page cite.\n"
             "The evidence is single figures on purpose. Missing detail is not a reason to score low: do not mark an issue down because covenants, "
             "segments or commentary are absent. Judge only what is there.\n"
-            "Write 1 to 3 short plain notes on what these figures show or whether any look odd or contradict each other. Do not invent any figure.\n"
+            "Write 1 to 3 short plain notes on what these figures show or whether any look odd or contradict each other. "
+            "Use only numbers written in the answers below. Do not calculate percentages, differences or ratios, and do not invent any figure; "
+            "say \"fell\" or \"rose\" in words instead.\n"
             "Each note needs a QUOTE: copy 1 to 8 words, letter for letter, from a FIGURE or a QUESTION below (for example 17,023 Rs million). "
             "No brackets, no changes, no joining two answers.\n"
             "Then give one SCORE from 0 to 3 for how far these figures support a reader on this issue: "
@@ -134,17 +151,21 @@ def judge_issue(iid, name, rows, generate):
     prompt = judge_prompt(iid, name, rows)
     raw = [generate(prompt)]
     notes, score = parse_judge(raw[0])
-    good = [n for n in notes if n["quote"] and quote_ok(n["quote"], rows)]
+    def accepted(n):
+        return bool(n["quote"]) and quote_ok(n["quote"], rows) and numbers_ok(n["note"], rows)
+
+    good = [n for n in notes if accepted(n)]
     bad = [n for n in notes if n not in good]
-    rejected = [n["quote"] for n in bad]
+    rejected = [n["quote"] or n["note"] for n in bad]
     bad_left = 0
     if bad:
-        retry = prompt + ("\nNOT FOUND in the answers: %s\nRewrite only those notes, copying exact text from the answers above. "
-                          "Same format.\n" % "; ".join('"%s"' % n["quote"] for n in bad))
+        retry = prompt + ("\nNOT ACCEPTED (quote not found in the answers, or a number in the note is not written in the answers): %s\n"
+                          "Rewrite only those notes: copy exact text for the QUOTE, use only numbers written in the answers, calculate nothing. "
+                          "Same format.\n" % "; ".join('"%s"' % (n["note"]) for n in bad))
         raw.append(generate(retry))
         again, score2 = parse_judge(raw[1])
-        fixed = [n for n in again if n["quote"] and quote_ok(n["quote"], rows)]
-        rejected += [n["quote"] for n in again if n not in fixed]
+        fixed = [n for n in again if accepted(n)]
+        rejected += [n["quote"] or n["note"] for n in again if n not in fixed]
         good += fixed[:len(bad)]
         bad_left = len(bad) - len(fixed[:len(bad)])
         score = score if score is not None else score2
