@@ -82,7 +82,8 @@ def _norm(s):
 
 
 def _haystack(rows):
-    return _norm(" ".join("%s %s %s %s" % (r["question"], r["figure"], r["source"], r["cite"]) for r in rows))
+    return _norm(" ".join("%s %s %s %s ; %s (%s %s)" % (r["question"], r["figure"], r["source"], r["cite"],
+                                                          r["figure"], r["source"], r["cite"]) for r in rows))
 
 
 def quote_ok(quote, rows):
@@ -97,10 +98,16 @@ def _answers_block(rows):
 
 def judge_prompt(iid, name, rows):
     return ("ISSUE %s: %s\n"
-            "You are the judge in a lite courtroom. Below are the ONLY facts: answers a reader can check against a cited page.\n"
-            "Write 1 to 3 short plain notes on what these answers do and do not show for this issue. Do not invent any figure.\n"
-            "Each note needs a QUOTE copied letter for letter from an answer or question below. Then give one SCORE from 0 to 3\n"
-            "for how far these answers let a reader trust management on this issue (3 = fully, 0 = not at all). You may only be strict.\n"
+            "You are the judge in a lite courtroom. Below are the ONLY facts: answers to fixed data-point questions, each with a figure and a page cite.\n"
+            "The evidence is single figures on purpose. Missing detail is not a reason to score low: do not mark an issue down because covenants, "
+            "segments or commentary are absent. Judge only what is there.\n"
+            "Write 1 to 3 short plain notes on what these figures show or whether any look odd or contradict each other. Do not invent any figure.\n"
+            "Each note needs a QUOTE: copy 1 to 8 words, letter for letter, from a FIGURE or a QUESTION below (for example 17,023 Rs million). "
+            "No brackets, no changes, no joining two answers.\n"
+            "Then give one SCORE from 0 to 3 for how far these figures support a reader on this issue: "
+            "3 = the figures are complete and consistent for the issue's questions; 2 = usable with a small oddity; "
+            "1 = the figures are thin or only loosely about the issue; 0 = they contradict each other or are unusable. "
+            "You may only be strict, never generous: if unsure, pick the lower number.\n"
             "Format, nothing else:\nNOTE: <one sentence>\nQUOTE: \"<exact text>\"\n(repeat)\nSCORE: <0-3>\n\n%s\n"
             % (iid, name, _answers_block(rows)))
 
@@ -122,22 +129,26 @@ def parse_judge(text):
 
 
 def judge_issue(iid, name, rows, generate):
-    """Run the judge for one issue. Returns {notes, dropped, score}. Failed quotes: one rewrite, then dropped."""
+    """Run the judge for one issue. Returns {notes, dropped, score, raw, rejected}. Failed quotes: one rewrite, then dropped.
+    raw (the model's replies) and rejected (the quotes that were not found) are kept so a dropped note can be diagnosed."""
     prompt = judge_prompt(iid, name, rows)
-    notes, score = parse_judge(generate(prompt))
+    raw = [generate(prompt)]
+    notes, score = parse_judge(raw[0])
     good = [n for n in notes if n["quote"] and quote_ok(n["quote"], rows)]
     bad = [n for n in notes if n not in good]
+    rejected = [n["quote"] for n in bad]
+    bad_left = 0
     if bad:
-        retry = prompt + ("\nNOT FOUND in the answers: %s\nRewrite only those notes, quoting exact text from the answers above. "
+        retry = prompt + ("\nNOT FOUND in the answers: %s\nRewrite only those notes, copying exact text from the answers above. "
                           "Same format.\n" % "; ".join('"%s"' % n["quote"] for n in bad))
-        again, score2 = parse_judge(generate(retry))
+        raw.append(generate(retry))
+        again, score2 = parse_judge(raw[1])
         fixed = [n for n in again if n["quote"] and quote_ok(n["quote"], rows)]
+        rejected += [n["quote"] for n in again if n not in fixed]
         good += fixed[:len(bad)]
         bad_left = len(bad) - len(fixed[:len(bad)])
         score = score if score is not None else score2
-    else:
-        bad_left = 0
-    return {"notes": good, "dropped": bad_left, "score": score}
+    return {"notes": good, "dropped": bad_left, "score": score, "raw": raw, "rejected": rejected}
 
 
 # ---------------------------------------------------------------- the hearing
@@ -168,10 +179,10 @@ def run(answers_text, issue_map, issues_meta, generate, control=None):
         answered = [r for r in qrows if r["state"] == "answered"]
         state = "no data" if not answered else ("answered" if len(answered) == len(qrows) else "partial")
         rec = {"name": meta["name"], "section": meta.get("section"), "state": state, "questions": qs,
-               "notes": [], "dropped": 0, "judge_score": None}
+               "notes": [], "dropped": 0, "judge_score": None, "raw": [], "rejected": []}
         if answered:
             j = judge_issue(iid, meta["name"], qrows, generate)
-            rec.update(notes=j["notes"], dropped=j["dropped"], judge_score=j["score"])
+            rec.update(notes=j["notes"], dropped=j["dropped"], judge_score=j["score"], raw=j["raw"], rejected=j["rejected"])
             if meta.get("section") and j["score"] is not None:
                 judged[meta["section"]] = min(judged.get(meta["section"], 3), j["score"])
         issues[iid] = rec

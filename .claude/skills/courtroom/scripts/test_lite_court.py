@@ -157,3 +157,24 @@ def test_reasons_do_not_claim_dates_or_print_none():
 def test_report_warns_answered_is_not_clean():
     res = lc.run(ANS, MAP, ISSUES, lambda p: "")
     assert "Answered does not mean good" in lc.render_report(res, "X")
+
+
+def test_quote_may_copy_figure_with_its_cite_as_written_in_the_answers_file():
+    rows = lc.parse_answers(ANS, [4])
+    assert lc.quote_ok("17,023 Rs million  (deck deck-q1fy27 p5)", rows)
+    assert lc.quote_ok("17,023 Rs million (deck deck-q1fy27 p5)", rows)
+    assert not lc.quote_ok("17,023 Rs million (deck deck-q1fy27 p6)", rows)
+
+
+def test_rejected_quotes_and_raw_replies_are_kept_for_diagnosis():
+    res = lc.run(ANS, MAP, ISSUES, lambda p: 'NOTE: x\nQUOTE: "99,999 Rs million"\nSCORE: 2\n')
+    i3 = res["issues"]["I3"]
+    assert i3["rejected"] == ["99,999 Rs million", "99,999 Rs million"]
+    assert len(i3["raw"]) == 2 and "99,999" in i3["raw"][0]
+
+
+def test_prompt_does_not_punish_missing_detail_and_asks_for_short_exact_quote():
+    p = lc.judge_prompt("I6", "Debt", lc.parse_answers(ANS, [4]))
+    assert "missing detail is not a reason" in p.lower()
+    assert "copy" in p.lower() and "1 to 8 words" in p
+    assert "contradict" in p.lower()
