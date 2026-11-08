@@ -53,15 +53,32 @@ def fmt(value) -> str:
     return "" if value in (None, "") else f"{float(value):,.0f}"
 
 
-def render(xbrl_rows: list, pdf_rows: list, xbrl_sha: str, pdf_sha: str, xbrl_last: date) -> str:
-    out = ["# Segments by quarter, BIOCON: S033", "",
-           f"Generated from the segment tables Biocon filed (results XBRL, csv sha256 {xbrl_sha}; results PDFs, csv sha256 {pdf_sha}); do not edit by hand. "
+BIOCON_XBRL_NOTE = ("Segments: Biosimilars, Generics, Novel Biologics, Research Services (Research services in some filings).")
+BIOCON_DEFINITIONS = [
+    "- Up to the XBRL period the segments are Biosimilars, Generics, Novel Biologics and Research Services, and the result is before tax and finance costs.",
+    "- The later PDF tables show three segments: Biosimilars, Generics and Services (printed as CRDMO in the filings up to the quarter ended 2026-03-31), with the result as each segment's profit before tax.",
+    "- The filing for the quarter ended 2026-03-31 moved the interest on optionally convertible debentures from Biosimilars to the unallocable line and restated earlier periods. "
+    "The filing for the quarter ended 2026-06-30 moved cross charges of common utilities from Generics to the unallocable line and restated its comparatives.",
+    "- So a quarter printed in a later filing can differ from the same quarter in an earlier one; the table above names the filing for each row.",
+]
+GENERIC_DEFINITIONS = [
+    "- Definitions: not read for this company. Segment names are as printed in each filing. A segment can be renamed, merged or restated between filings, "
+    "and the result measure can change; the filing named on each row is the only basis for a number.",
+]
+
+
+def render(xbrl_rows: list, pdf_rows: list, xbrl_sha: str, pdf_sha: str, xbrl_last: date, company: str = "BIOCON", source_id: str = "S033",
+           company_name: str = "Biocon", xbrl_note: str = None, definitions: list = None) -> str:
+    biocon = company == "BIOCON"
+    xbrl_note = xbrl_note if xbrl_note is not None else (BIOCON_XBRL_NOTE if biocon else "Segment names are as printed in each filing.")
+    definitions = definitions if definitions is not None else (BIOCON_DEFINITIONS if biocon else GENERIC_DEFINITIONS)
+    out = [f"# Segments by quarter, {company}: {source_id}", "",
+           f"Generated from the segment tables {company_name} filed (results XBRL, csv sha256 {xbrl_sha}; results PDFs, csv sha256 {pdf_sha}); do not edit by hand. "
            "Figures are Rs million, consolidated, as printed. Segment names are as printed. **The segments and the result measure changed over the period; "
-           "read the Definitions section before comparing two quarters.** S033 is filed numbers, not management speech, so no quote is taken from it.", "",
-           "**How to cite.** (S033, segment table in the filing for the quarter ended DD-MON-YYYY, column X).", ""]
+           f"read the Definitions section before comparing two quarters.** {source_id} is filed numbers, not management speech, so no quote is taken from it.", "",
+           f"**How to cite.** ({source_id}, segment table in the filing for the quarter ended DD-MON-YYYY, column X).", ""]
     out += ["## Filed quarters, XBRL", "",
-            "The result here is each segment's profit or loss BEFORE TAX AND FINANCE COSTS. Segments: Biosimilars, Generics, Novel Biologics, Research Services "
-            "(Research services in some filings).", "",
+            f"The result here is each segment's profit or loss BEFORE TAX AND FINANCE COSTS. {xbrl_note}", "",
             "| Quarter ended | Segment | Revenue | Result before tax and finance costs | Assets | Liabilities |", "|---|---|---|---|---|---|"]
     for r in xbrl_rows:
         out.append(f"| {r['period_end']} | {r['segment']} | {fmt(r['revenue_inr_m'])} | {fmt(r['result_before_tax_and_finance_cost_inr_m'])} | "
@@ -98,13 +115,7 @@ def render(xbrl_rows: list, pdf_rows: list, xbrl_sha: str, pdf_sha: str, xbrl_la
     out += ["", "## Not read", ""]
     out.append("- Quarters with no clean source in these filings: " + (", ".join(missing) if missing else "none") + ". "
                "A filing whose text layer is corrupted, or whose segment lines do not add to their own total, is not used for a number.")
-    out += ["", "## Definitions that changed (from the filings' own notes)", "",
-            "- Up to the XBRL period the segments are Biosimilars, Generics, Novel Biologics and Research Services, and the result is before tax and finance costs.",
-            "- The later PDF tables show three segments: Biosimilars, Generics and Services (printed as CRDMO in the filings up to the quarter ended 2026-03-31), with the result as each segment's profit before tax.",
-            "- The filing for the quarter ended 2026-03-31 moved the interest on optionally convertible debentures from Biosimilars to the unallocable line and restated earlier periods. "
-            "The filing for the quarter ended 2026-06-30 moved cross charges of common utilities from Generics to the unallocable line and restated its comparatives.",
-            "- So a quarter printed in a later filing can differ from the same quarter in an earlier one; the table above names the filing for each row.", "",
-            "## Derived by code", ""]
+    out += ["", "## Definitions that changed (from the filings' own notes)", ""] + definitions + ["", "## Derived by code", ""]
     out += [f"- {d}" for d in derived] or ["- none"]
     return "\n".join(out) + "\n"
 
@@ -114,6 +125,11 @@ def main() -> int:
     ap.add_argument("--xbrl-csv", required=True, type=Path)
     ap.add_argument("--pdf-csv", required=True, type=Path)
     ap.add_argument("--out", required=True, type=Path)
+    ap.add_argument("--company", default="BIOCON")
+    ap.add_argument("--source-id", default="S033")
+    ap.add_argument("--company-name", default="Biocon")
+    ap.add_argument("--xbrl-note", default=None, help="one line on the segment names in the XBRL table")
+    ap.add_argument("--definitions-file", type=Path, default=None, help="markdown bullets for the Definitions section")
     args = ap.parse_args()
     read = lambda p: list(csv.DictReader(open(p, newline="", encoding="utf-8-sig")))  # noqa: E731
     xbrl, pdf = read(args.xbrl_csv), read(args.pdf_csv)
@@ -124,7 +140,8 @@ def main() -> int:
     ordered = sorted(xbrl, key=lambda r: datetime.strptime(r["period_end"], "%d-%b-%Y"))
     xbrl_last = max(datetime.strptime(r["period_end"], "%d-%b-%Y").date() for r in xbrl)
     sha = lambda p: hashlib.sha256(p.read_bytes()).hexdigest()[:12]  # noqa: E731
-    args.out.write_text(render(ordered, pdf, sha(args.xbrl_csv), sha(args.pdf_csv), xbrl_last), encoding="utf-8")
+    args.out.write_text(render(ordered, pdf, sha(args.xbrl_csv), sha(args.pdf_csv), xbrl_last, args.company, args.source_id, args.company_name, args.xbrl_note,
+                                         args.definitions_file.read_text(encoding="utf-8").splitlines() if args.definitions_file else None), encoding="utf-8")
     print(f"{len(xbrl)} XBRL rows and {len(pdf)} PDF rows written to {args.out}")
     return 0
 

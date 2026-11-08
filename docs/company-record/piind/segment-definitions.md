@@ -1,0 +1,4 @@
+- XBRL filings (quarters ended 2023-06-30 to 2024-12-31) print the segment result as profit or loss before tax and finance costs. One row in them is named Other Income (revenue 0, a result figure); it is not a business segment and is shown as filed.
+- The results PDFs (Annexure to each filing, quarters ended 2025-03-31 to 2026-09-30) print two business segments, Agro chemicals and Pharma, with the result as profit or loss before tax plus an inter segment adjustment line.
+- Restatement notes between filings were not read for this company. A quarter printed in a later filing can differ from the same quarter in an earlier one; the table names the filing for each row.
+- Several results PDFs are scans with damaged digits. A segment table whose lines do not add to its own total is not used for a number (see Not read).

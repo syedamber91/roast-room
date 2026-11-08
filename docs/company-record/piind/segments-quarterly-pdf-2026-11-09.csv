@@ -1,0 +1,88 @@
+filing_period_end,section,segment,this_quarter,preceding_quarter,year_ago_quarter,segments_add_to_total,unit,source_file
+2025-03-31,revenue,Agro chemicals,17031.0,18381.0,16695.0,yes,Rs million,PIIND_19052025200221_Outcome_BM_19_05_2025_pdf_upload_signed.pdf
+2025-03-31,revenue,Pharma,850.0,637.0,715.0,yes,Rs million,PIIND_19052025200221_Outcome_BM_19_05_2025_pdf_upload_signed.pdf
+2025-03-31,revenue,(total),17881.0,19018.0,17410.0,yes,Rs million,PIIND_19052025200221_Outcome_BM_19_05_2025_pdf_upload_signed.pdf
+2025-03-31,result,Agro chemicals,4989.0,5366.0,4503.0,no total line,Rs million,PIIND_19052025200221_Outcome_BM_19_05_2025_pdf_upload_signed.pdf
+2025-03-31,result,Pharma,-821.0,-703.0,-521.0,no total line,Rs million,PIIND_19052025200221_Outcome_BM_19_05_2025_pdf_upload_signed.pdf
+2025-03-31,result,Add: Inter segment adjustment,154.0,144.0,131.0,no total line,Rs million,PIIND_19052025200221_Outcome_BM_19_05_2025_pdf_upload_signed.pdf
+2025-03-31,result,Profit befora Tax II,4322.0,4807.0,4113.0,no total line,Rs million,PIIND_19052025200221_Outcome_BM_19_05_2025_pdf_upload_signed.pdf
+2025-03-31,assets,Agro chemicals,109442.0,107774.0,94353.0,yes,Rs million,PIIND_19052025200221_Outcome_BM_19_05_2025_pdf_upload_signed.pdf
+2025-03-31,assets,Pharma,13325.0,12955.0,13287.0,yes,Rs million,PIIND_19052025200221_Outcome_BM_19_05_2025_pdf_upload_signed.pdf
+2025-03-31,assets,(total),122767.0,120729.0,107640.0,yes,Rs million,PIIND_19052025200221_Outcome_BM_19_05_2025_pdf_upload_signed.pdf
+2025-03-31,liabilities,Agro chemicals,17027.0,18598.0,16016.0,"NO: this_quarter: segments 122,767 vs total 21,197; preceding_quarter: segments 120,729 vs total 22,069; year_ago_quarter: segments 107,640 vs total 20,330",Rs million,PIIND_19052025200221_Outcome_BM_19_05_2025_pdf_upload_signed.pdf
+2025-03-31,liabilities,Pharma,4170.0,3471.0,4314.0,"NO: this_quarter: segments 122,767 vs total 21,197; preceding_quarter: segments 120,729 vs total 22,069; year_ago_quarter: segments 107,640 vs total 20,330",Rs million,PIIND_19052025200221_Outcome_BM_19_05_2025_pdf_upload_signed.pdf
+2025-03-31,liabilities,(total),21197.0,22069.0,20330.0,"NO: this_quarter: segments 122,767 vs total 21,197; preceding_quarter: segments 120,729 vs total 22,069; year_ago_quarter: segments 107,640 vs total 20,330",Rs million,PIIND_19052025200221_Outcome_BM_19_05_2025_pdf_upload_signed.pdf
+2025-03-31,liabilities,Agro cnemicals,92415.0,89176.0,78337.0,"NO: this_quarter: segments 122,767 vs total 21,197; preceding_quarter: segments 120,729 vs total 22,069; year_ago_quarter: segments 107,640 vs total 20,330",Rs million,PIIND_19052025200221_Outcome_BM_19_05_2025_pdf_upload_signed.pdf
+2025-03-31,liabilities,Pharma,9155.0,9484.0,8973.0,"NO: this_quarter: segments 122,767 vs total 21,197; preceding_quarter: segments 120,729 vs total 22,069; year_ago_quarter: segments 107,640 vs total 20,330",Rs million,PIIND_19052025200221_Outcome_BM_19_05_2025_pdf_upload_signed.pdf
+2025-06-30,revenue,Agro chemicals,18287.0,17031.0,20439.0,yes,Rs million,PIIND_12082025183806_Outcome_S.pdf
+2025-06-30,revenue,Pharma,723.0,850.0,253.0,yes,Rs million,PIIND_12082025183806_Outcome_S.pdf
+2025-06-30,revenue,(total),19010.0,17881.0,20692.0,yes,Rs million,PIIND_12082025183806_Outcome_S.pdf
+2025-06-30,result,Agro chemicals,5656.0,4989.0,6379.0,no total line,Rs million,PIIND_12082025183806_Outcome_S.pdf
+2025-06-30,result,Pharma,-760.0,-821.0,-835.0,no total line,Rs million,PIIND_12082025183806_Outcome_S.pdf
+2025-06-30,result,Add: Inter segment adjustment,178.0,154.0,119.0,no total line,Rs million,PIIND_12082025183806_Outcome_S.pdf
+2025-06-30,result,Agro chemicals,113301.0,109442.0,101165.0,no total line,Rs million,PIIND_12082025183806_Outcome_S.pdf
+2025-06-30,result,Pharma,14333.0,13325.0,12679.0,no total line,Rs million,PIIND_12082025183806_Outcome_S.pdf
+2025-06-30,result,",",127634.0,122767.0,113844.0,no total line,Rs million,PIIND_12082025183806_Outcome_S.pdf
+2025-06-30,liabilities,Agro chemicals,17272.0,17027.0,17747.0,no total line,Rs million,PIIND_12082025183806_Outcome_S.pdf
+2025-06-30,liabilities,Pharma,4359.0,4170.0,4242.0,no total line,Rs million,PIIND_12082025183806_Outcome_S.pdf
+2025-09-30,revenue,Agro chemicals,18092.0,18287.0,21799.0,yes,Rs million,PIIND_11112025153911_Outcome_final_1.pdf
+2025-09-30,revenue,Pharma,634.0,723.0,411.0,yes,Rs million,PIIND_11112025153911_Outcome_final_1.pdf
+2025-09-30,revenue,(total),18726.0,19010.0,22210.0,yes,Rs million,PIIND_11112025153911_Outcome_final_1.pdf
+2025-09-30,result,Agro chemicals,5907.0,5656.0,7179.0,no total line,Rs million,PIIND_11112025153911_Outcome_final_1.pdf
+2025-09-30,result,Pharma,-819.0,-760.0,-685.0,no total line,Rs million,PIIND_11112025153911_Outcome_final_1.pdf
+2025-09-30,result,Add: Inter segment adjustment,165.0,178.0,134.0,no total line,Rs million,PIIND_11112025153911_Outcome_final_1.pdf
+2025-09-30,assets,Pharma,14371.0,14333.0,12890.0,no total line,Rs million,PIIND_11112025153911_Outcome_final_1.pdf
+2025-09-30,assets,",",133009.0,127634.0,119951.0,no total line,Rs million,PIIND_11112025153911_Outcome_final_1.pdf
+2025-09-30,liabilities,Agro chemicals,19921.0,17272.0,20593.0,no total line,Rs million,PIIND_11112025153911_Outcome_final_1.pdf
+2025-09-30,liabilities,Pharma,4819.0,4359.0,3904.0,no total line,Rs million,PIIND_11112025153911_Outcome_final_1.pdf
+2025-12-31,revenue,Agro chemicals,13178.0,18092.0,18381.0,yes,Rs million,PIIND_12022026185905_SEDisclosureFeb122025Outcome_sd_1.pdf
+2025-12-31,revenue,Pharma,599.0,634.0,637.0,yes,Rs million,PIIND_12022026185905_SEDisclosureFeb122025Outcome_sd_1.pdf
+2025-12-31,revenue,(total),13777.0,18726.0,19018.0,yes,Rs million,PIIND_12022026185905_SEDisclosureFeb122025Outcome_sd_1.pdf
+2025-12-31,result,Agro chemicals,2879.0,5907.0,5366.0,no total line,Rs million,PIIND_12022026185905_SEDisclosureFeb122025Outcome_sd_1.pdf
+2025-12-31,result,Pharma,580.0,-819.0,-703.0,no total line,Rs million,PIIND_12022026185905_SEDisclosureFeb122025Outcome_sd_1.pdf
+2025-12-31,result,"Add: Inter segment adjustment ,_ 170 165 . 144",513.0,397.0,551.0,no total line,Rs million,PIIND_12022026185905_SEDisclosureFeb122025Outcome_sd_1.pdf
+2025-12-31,assets,Agro chemicals,119068.0,118638.0,107774.0,"NO: this_quarter: segments 133,080 vs total 133,009; preceding_quarter: segments 133,009 vs total 120,729; year_ago_quarter: segments 120,729 vs total 133,080",Rs million,PIIND_12022026185905_SEDisclosureFeb122025Outcome_sd_1.pdf
+2025-12-31,assets,Pharma,14012.0,14371.0,12955.0,"NO: this_quarter: segments 133,080 vs total 133,009; preceding_quarter: segments 133,009 vs total 120,729; year_ago_quarter: segments 120,729 vs total 133,080",Rs million,PIIND_12022026185905_SEDisclosureFeb122025Outcome_sd_1.pdf
+2025-12-31,assets,(total),133009.0,120729.0,133080.0,"NO: this_quarter: segments 133,080 vs total 133,009; preceding_quarter: segments 133,009 vs total 120,729; year_ago_quarter: segments 120,729 vs total 133,080",Rs million,PIIND_12022026185905_SEDisclosureFeb122025Outcome_sd_1.pdf
+2025-12-31,liabilities,Agro chemicals,18138.0,19921.0,18598.0,yes,Rs million,PIIND_12022026185905_SEDisclosureFeb122025Outcome_sd_1.pdf
+2025-12-31,liabilities,Pharma,3484.0,4819.0,3471.0,yes,Rs million,PIIND_12022026185905_SEDisclosureFeb122025Outcome_sd_1.pdf
+2025-12-31,liabilities,(total),21622.0,24740.0,22069.0,yes,Rs million,PIIND_12022026185905_SEDisclosureFeb122025Outcome_sd_1.pdf
+2026-03-31,revenue,Agro chemicals,14612.0,13178.0,17031.0,yes,Rs million,PIIND_19052026210524_finaloutcomesdcompressed_sd.pdf
+2026-03-31,revenue,Pharma,1048.0,599.0,850.0,yes,Rs million,PIIND_19052026210524_finaloutcomesdcompressed_sd.pdf
+2026-03-31,revenue,(total),15660.0,13777.0,17881.0,yes,Rs million,PIIND_19052026210524_finaloutcomesdcompressed_sd.pdf
+2026-03-31,result,Agro chemicals,3325.0,3086.0,4989.0,yes,Rs million,PIIND_19052026210524_finaloutcomesdcompressed_sd.pdf
+2026-03-31,result,Pharma,-486.0,-678.0,-821.0,yes,Rs million,PIIND_19052026210524_finaloutcomesdcompressed_sd.pdf
+2026-03-31,result,Add: Inter segment adjustment,186.0,170.0,154.0,yes,Rs million,PIIND_19052026210524_finaloutcomesdcompressed_sd.pdf
+2026-03-31,result,(total),3025.0,2578.0,4322.0,yes,Rs million,PIIND_19052026210524_finaloutcomesdcompressed_sd.pdf
+2026-03-31,assets,Agro chemicals,119736.0,119068.0,109442.0,yes,Rs million,PIIND_19052026210524_finaloutcomesdcompressed_sd.pdf
+2026-03-31,assets,Pharma,14701.0,14012.0,13325.0,yes,Rs million,PIIND_19052026210524_finaloutcomesdcompressed_sd.pdf
+2026-03-31,assets,(total),134437.0,133080.0,122767.0,yes,Rs million,PIIND_19052026210524_finaloutcomesdcompressed_sd.pdf
+2026-03-31,liabilities,Agro chemicals,18115.0,18138.0,17027.0,no total line,Rs million,PIIND_19052026210524_finaloutcomesdcompressed_sd.pdf
+2026-03-31,liabilities,Pharma,4017.0,3484.0,4170.0,no total line,Rs million,PIIND_19052026210524_finaloutcomesdcompressed_sd.pdf
+2026-03-31,liabilities,Segment Llabllltles,22132.0,21622.0,21197.0,no total line,Rs million,PIIND_19052026210524_finaloutcomesdcompressed_sd.pdf
+2026-06-30,revenue,Agro chemicals,16488.0,14612.0,18287.0,yes,Rs million,PIIND_11082026190839_Finaloutcomesd.pdf
+2026-06-30,revenue,Pharma,542.0,1048.0,723.0,yes,Rs million,PIIND_11082026190839_Finaloutcomesd.pdf
+2026-06-30,revenue,(total),17030.0,15660.0,19010.0,yes,Rs million,PIIND_11082026190839_Finaloutcomesd.pdf
+2026-06-30,result,Agro chemicals,3835.0,3325.0,5656.0,yes,Rs million,PIIND_11082026190839_Finaloutcomesd.pdf
+2026-06-30,result,Pharma,-816.0,-486.0,-760.0,yes,Rs million,PIIND_11082026190839_Finaloutcomesd.pdf
+2026-06-30,result,Add: Inter segment adjustment,199.0,186.0,178.0,yes,Rs million,PIIND_11082026190839_Finaloutcomesd.pdf
+2026-06-30,result,(total),3218.0,3025.0,5074.0,yes,Rs million,PIIND_11082026190839_Finaloutcomesd.pdf
+2026-06-30,assets,Agro chemicals,124549.0,119736.0,113301.0,yes,Rs million,PIIND_11082026190839_Finaloutcomesd.pdf
+2026-06-30,assets,Pharma,14561.0,14701.0,14333.0,yes,Rs million,PIIND_11082026190839_Finaloutcomesd.pdf
+2026-06-30,assets,(total),139110.0,134437.0,127634.0,yes,Rs million,PIIND_11082026190839_Finaloutcomesd.pdf
+2026-06-30,liabilities,Agro chemicals,20696.0,18115.0,17272.0,yes,Rs million,PIIND_11082026190839_Finaloutcomesd.pdf
+2026-06-30,liabilities,Pharma,3731.0,4017.0,4359.0,yes,Rs million,PIIND_11082026190839_Finaloutcomesd.pdf
+2026-06-30,liabilities,(total),24427.0,22132.0,21631.0,yes,Rs million,PIIND_11082026190839_Finaloutcomesd.pdf
+2026-09-30,revenue,Agro chemicals,76280.0,76488.0,78092.0,"NO: this_quarter: segments 77,039 vs total 17,039; preceding_quarter: segments 77,030 vs total 17,030; year_ago_quarter: segments 78,726 vs total 18,726",Rs million,PIIND_04112026193824_Resultssd.pdf
+2026-09-30,revenue,Pharma,759.0,542.0,634.0,"NO: this_quarter: segments 77,039 vs total 17,039; preceding_quarter: segments 77,030 vs total 17,030; year_ago_quarter: segments 78,726 vs total 18,726",Rs million,PIIND_04112026193824_Resultssd.pdf
+2026-09-30,revenue,(total),17039.0,17030.0,18726.0,"NO: this_quarter: segments 77,039 vs total 17,039; preceding_quarter: segments 77,030 vs total 17,030; year_ago_quarter: segments 78,726 vs total 18,726",Rs million,PIIND_04112026193824_Resultssd.pdf
+2026-09-30,result,Agro c hemicals,2473.0,3835.0,5907.0,"NO: this_quarter: segments 1,834 vs total 1,840; preceding_quarter: segments 3,158 vs total 3,218; year_ago_quarter: segments 5,193 vs total 5,253",Rs million,PIIND_04112026193824_Resultssd.pdf
+2026-09-30,result,Pharma,-607.0,-876.0,-879.0,"NO: this_quarter: segments 1,834 vs total 1,840; preceding_quarter: segments 3,158 vs total 3,218; year_ago_quarter: segments 5,193 vs total 5,253",Rs million,PIIND_04112026193824_Resultssd.pdf
+2026-09-30,result,Add : Inter segment adjustment,-32.0,199.0,165.0,"NO: this_quarter: segments 1,834 vs total 1,840; preceding_quarter: segments 3,158 vs total 3,218; year_ago_quarter: segments 5,193 vs total 5,253",Rs million,PIIND_04112026193824_Resultssd.pdf
+2026-09-30,result,(total),1840.0,3218.0,5253.0,"NO: this_quarter: segments 1,834 vs total 1,840; preceding_quarter: segments 3,158 vs total 3,218; year_ago_quarter: segments 5,193 vs total 5,253",Rs million,PIIND_04112026193824_Resultssd.pdf
+2026-09-30,assets,Agro chemicals,724244.0,124549.0,118638.0,"NO: this_quarter: segments 738,658 vs total 138,658",Rs million,PIIND_04112026193824_Resultssd.pdf
+2026-09-30,assets,Pharma,14414.0,14561.0,14371.0,"NO: this_quarter: segments 738,658 vs total 138,658",Rs million,PIIND_04112026193824_Resultssd.pdf
+2026-09-30,assets,(total),138658.0,139110.0,133009.0,"NO: this_quarter: segments 738,658 vs total 138,658",Rs million,PIIND_04112026193824_Resultssd.pdf
+2026-09-30,liabilities,Agro c hemicals,20648.0,20696.0,19921.0,yes,Rs million,PIIND_04112026193824_Resultssd.pdf
+2026-09-30,liabilities,Pharma,3436.0,3731.0,4819.0,yes,Rs million,PIIND_04112026193824_Resultssd.pdf
+2026-09-30,liabilities,(total),24084.0,24427.0,24740.0,yes,Rs million,PIIND_04112026193824_Resultssd.pdf

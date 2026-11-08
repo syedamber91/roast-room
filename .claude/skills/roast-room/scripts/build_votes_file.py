@@ -25,14 +25,14 @@ def short(text: str, n: int) -> str:
     return text if len(text) <= n else text[: n - 1].rstrip() + "..."
 
 
-def render(rows: list, csv_sha: str) -> str:
+def render(rows: list, csv_sha: str, source_id: str = "S034", company: str = "BIOCON", company_name: str = "Biocon") -> str:
     rows = sorted(rows, key=lambda r: (r["meeting_date"], int(r["resolution_no"])))
     f = lambda r, k: float(r[k]) if r[k] != "" else 0.0  # noqa: E731
-    out = [f"# Shareholder votes, BIOCON: S034", "",
-           f"Generated from the voting-results annexes Biocon filed with the exchanges (csv sha256 {csv_sha}); do not edit by hand. {len(rows)} resolutions at "
+    out = [f"# Shareholder votes, {company}: {source_id}", "",
+           f"Generated from the voting-results annexes {company_name} filed with the exchanges (csv sha256 {csv_sha}); do not edit by hand. {len(rows)} resolutions at "
            f"{len({r['meeting_date'] for r in rows})} general meetings or postal ballots, {min(r['meeting_date'] for r in rows)} to {max(r['meeting_date'] for r in rows)}. "
-           "Counts and percentages are as printed. S034 is voting numbers, not management speech, so no quote is taken from it.", "",
-           "**How to cite.** (S034, voting results for the meeting dated DD-MON-YYYY, resolution N). The date is the meeting date, or for a postal ballot the date the results were filed.", "",
+           f"Counts and percentages are as printed. {source_id} is voting numbers, not management speech, so no quote is taken from it.", "",
+           f"**How to cite.** ({source_id}, voting results for the meeting dated DD-MON-YYYY, resolution N). The date is the meeting date, or for a postal ballot the date the results were filed.", "",
            "**What the percentages mean.** \"Against\" is the share of votes polled, not of shares. A promoter group that is interested in a resolution does not vote on it "
            "(its votes polled read 0 below), so on those resolutions the percentage against is the public's alone. The wording of a resolution is as printed in the annex and can be cut short there.", ""]
     out += ["## Related party resolutions by meeting", "",
@@ -59,12 +59,17 @@ def render(rows: list, csv_sha: str) -> str:
             "| Meeting | No. | Type | Promoter group interested | Promoter votes polled | % against (all) | % against (institutions) | Votes against | Votes polled | Resolution (as printed) |",
             "|---|---|---|---|---|---|---|---|---|---|"]
     for r in rows:
+        if r["checks"].startswith("UNREADABLE"):  # no numbers were read: show that, never zeros
+            out.append(f"| {r['meeting_date']} | {r['resolution_no']} | {r['type']} | {r['promoter_interested']} | not read | not read | not read | not read | not read | {short(r['resolution'], 100)} |")
+            continue
         out.append(f"| {r['meeting_date']} | {r['resolution_no']} | {r['type']} | {r['promoter_interested']} | {int(f(r, 'promoter_votes_polled')):,} | "
                    f"{f(r, 'total_against_pct'):.2f} | {f(r, 'institutions_against_pct'):.2f} | {int(f(r, 'total_against_votes')):,} | {int(f(r, 'total_votes_polled')):,} | {short(r['resolution'], 100)} |")
     bad = [r for r in rows if r["checks"] != "ok"]
     out += ["", "## Derived by code", "",
             f"- {len(rows)} resolutions read; {len(bad)} failed a check (the three holder categories add to the printed total for votes polled, for and against).",
-            f"- {sum(is_rpt(r) for r in rows)} are related party resolutions; {sum(is_rpt(r) and r['promoter_interested'] == 'Yes' for r in rows)} of those had the promoter group interested.",
+            (f"- {sum(is_rpt(r) for r in rows)} are related party resolutions; {sum(is_rpt(r) and r['promoter_interested'] == 'Yes' for r in rows)} of those had the promoter group interested."
+             if sum(bool(r["resolution"].strip()) for r in rows) * 2 > len(rows) else
+             "- The resolution wording was not read, so the related party count is not available from this file (it is not zero)."),
             f"- {sum(f(r, 'total_against_pct') >= TOTAL_AGAINST_FLAG for r in rows)} resolutions had {TOTAL_AGAINST_FLAG:g}% or more of all votes against; "
             f"{sum(f(r, 'institutions_against_pct') >= INSTITUTIONS_AGAINST_FLAG for r in rows)} had {INSTITUTIONS_AGAINST_FLAG:g}% or more of the public institutions' votes against."]
     return "\n".join(out) + "\n"
@@ -74,10 +79,13 @@ def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--csv", required=True, type=Path)
     ap.add_argument("--out", required=True, type=Path)
+    ap.add_argument("--source-id", default="S034")
+    ap.add_argument("--company", default="BIOCON")
+    ap.add_argument("--company-name", default="Biocon")
     args = ap.parse_args()
     with open(args.csv, newline="", encoding="utf-8-sig") as handle:
         rows = list(csv.DictReader(handle))
-    args.out.write_text(render(rows, hashlib.sha256(args.csv.read_bytes()).hexdigest()[:12]), encoding="utf-8")
+    args.out.write_text(render(rows, hashlib.sha256(args.csv.read_bytes()).hexdigest()[:12], args.source_id, args.company, args.company_name), encoding="utf-8")
     print(f"{len(rows)} resolutions written to {args.out}")
     return 0
 

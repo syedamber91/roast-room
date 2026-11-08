@@ -27,3 +27,16 @@ def test_the_latest_filing_that_adds_up_supplies_a_quarter_and_a_filing_that_doe
     chosen = bg.pick_quarters(rows)
     assert chosen[date(2026, 3, 31)] == ("2026-06-30", "preceding_quarter") and chosen[date(2026, 6, 30)] == ("2026-06-30", "this_quarter")
     assert date(2026, 12, 31) not in chosen
+
+
+def test_a_company_other_than_biocon_gets_its_own_title_ids_and_no_biocon_segment_names():
+    text = bg.render([], table("2026-06-30"), "x", "y", date(2024, 12, 31), company="PIIND", source_id="S043", company_name="PI Industries")
+    assert text.startswith("# Segments by quarter, PIIND: S043") and "PI Industries filed" in text and "(S043, segment table" in text
+    assert "Biosimilars, Generics, Novel Biologics" not in text and "CRDMO" not in text
+    assert "Definitions: not read" in text
+
+
+def test_a_definitions_text_and_an_xbrl_note_are_written_as_given():
+    text = bg.render([], table("2026-06-30"), "x", "y", date(2024, 12, 31), company="PIIND", source_id="S043", company_name="PI Industries",
+                     xbrl_note="Segments: Agro Chemicals, Pharma; a row named Other Income is not a segment.", definitions=["- Two segments."])
+    assert "a row named Other Income is not a segment" in text and "- Two segments." in text and "Definitions: not read" not in text

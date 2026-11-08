@@ -15,12 +15,12 @@ def parse(row):
     return datetime.strptime(row["period"], "%d-%b-%Y")
 
 
-def render(rows: list, source_id: str, csv_sha: str, note: str) -> str:
+def render(rows: list, source_id: str, csv_sha: str, note: str, company: str = "BIOCON") -> str:
     rows = sorted(rows, key=parse)
-    out = [f"# Shareholding pattern, BIOCON: {source_id}", "",
+    out = [f"# Shareholding pattern, {company}: {source_id}", "",
            f"Generated from the shareholding-pattern filings on NSE (csv sha256 {csv_sha}); do not edit by hand. {len(rows)} filings, "
            f"{rows[0]['period']} to {rows[-1]['period']}. Percentages, share counts and encumbrance flags are as filed. {note}", "",
-           "**How to cite.** (S0xx, shareholding filing for the quarter ended DD-MON-YYYY). A filing dated mid-quarter is an event-driven pattern, "
+           f"**How to cite.** ({source_id}, shareholding filing for the quarter ended DD-MON-YYYY). A filing dated mid-quarter is an event-driven pattern, "
            "not a quarter end. The pledge columns are the company's own flags: `false` means the filing says no promoter shares are pledged.", "",
            "## Filed patterns", "",
            "| Period | Promoter shares | Promoter % | Public % | Employee trust % | Implied total shares (derived) | Pledged flag | Pledged or encumbered shares | Non-disposal undertaking flag | Other encumbrance flag | Filed |",
@@ -40,9 +40,13 @@ def render(rows: list, source_id: str, csv_sha: str, note: str) -> str:
         ta, tb = a.get("implied_total_shares"), b.get("implied_total_shares")
         if ta and tb:
             moved = int(b["promoter_shares"]) - int(a["promoter_shares"])
-            out.append(f"- Implied total shares {int(float(ta)):,} to {int(float(tb)):,} ({100 * (float(tb) / float(ta) - 1):+.1f}%). The promoter's percentage "
-                       f"fell while its own count moved by only {moved:+,} shares, so the fall comes from a larger total, not from promoter sales "
-                       "(derived; the filings do not state the reason).")
+            total_line = f"- Implied total shares {int(float(ta)):,} to {int(float(tb)):,} ({100 * (float(tb) / float(ta) - 1):+.1f}%). "
+            if moved >= 0 or abs(moved) <= 0.001 * int(a["promoter_shares"]):  # the promoter did not sell (or barely moved), so a percentage change comes from the total
+                out.append(total_line + f"The promoter's percentage fell while its own count moved by only {moved:+,} shares, so the fall comes from a "
+                           "larger total, not from promoter sales (derived; the filings do not state the reason).")
+            else:
+                out.append(total_line + f"The promoter's own share count fell by {abs(moved):,} shares ({moved:+,}), so the fall in its percentage is not only from "
+                           "a larger total (derived; the filings do not state whether it was a sale, a transfer or another reason).")
     flags = {r["pledged"] for r in rows if r["pledged"]}
     out.append(f"- Pledged flag across the {len([r for r in rows if r['pledged']])} filings that carry one: {sorted(flags) or 'none carried'}.")
     return "\n".join(out) + "\n"
@@ -54,10 +58,11 @@ def main() -> int:
     ap.add_argument("--out", required=True, type=Path)
     ap.add_argument("--source-id", required=True)
     ap.add_argument("--note", default="")
+    ap.add_argument("--company", default="BIOCON")
     args = ap.parse_args()
     with open(args.csv, newline="", encoding="utf-8-sig") as handle:
         rows = list(csv.DictReader(handle))
-    args.out.write_text(render(rows, args.source_id, hashlib.sha256(args.csv.read_bytes()).hexdigest()[:12], args.note), encoding="utf-8")
+    args.out.write_text(render(rows, args.source_id, hashlib.sha256(args.csv.read_bytes()).hexdigest()[:12], args.note, args.company), encoding="utf-8")
     print(f"{len(rows)} filings written to {args.out}")
     return 0
 

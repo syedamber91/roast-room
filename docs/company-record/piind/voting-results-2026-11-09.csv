@@ -1,0 +1,27 @@
+meeting_date,resolution_no,type,resolution,promoter_interested,promoter_votes_polled,promoter_votes_against,institutions_against_pct,non_institutions_against_pct,total_against_pct,total_against_votes,total_votes_polled,shares_outstanding,checks,source_file
+2023-08-17,1,Ordinary,,,,,,,,,,,"UNREADABLE: 3 total lines, 0 not readable, expected 4",PIIND_17082023194624_AGM_outcome.pdf
+2023-08-17,2,Ordinary,,,,,,,,,,,"UNREADABLE: 3 total lines, 0 not readable, expected 4",PIIND_17082023194624_AGM_outcome.pdf
+2023-08-17,3,Ordinary,,,,,,,,,,,"UNREADABLE: 3 total lines, 0 not readable, expected 4",PIIND_17082023194624_AGM_outcome.pdf
+2023-08-17,4,Ordinary,,,,,,,,,,,"UNREADABLE: 3 total lines, 0 not readable, expected 4",PIIND_17082023194624_AGM_outcome.pdf
+2023-08-17,5,Special,,,,,,,,,,,"UNREADABLE: 6 total lines, 3 not readable, expected 4",PIIND_17082023194624_AGM_outcome.pdf
+2024-04-20,1,,Resolution required: (Ordinary/ Ordinary Special),No,69920474,0,7.3661,0.8684,3.2946,4253105,129092017,151718118,ok,PIIND_20042024175138_results.pdf
+2024-04-20,1,,Resolution required: (Ordinary/ Ordinary Special),No,69920474,0,7.3661,0.8684,3.2946,4253105,129092017,151718118,ok,PIIND_20042024190352_results_new.pdf
+2025-08-14,1,Ordinary,,No,69920474,0,0.0697,0.0014,0.0332,44853,135175549,151718118,ok,PIIND_14082025204935_final_file_voting_results_2025_SD.pdf
+2025-08-14,2,Ordinary,,,69920474,0,0.2365,0.0003,0.1126,152232,135211755,151718118,ok,PIIND_14082025204935_final_file_voting_results_2025_SD.pdf
+2025-08-14,3,Ordinary,,,69920474,0,3.403,0.0021,1.6202,2190629,135208430,151718118,ok,PIIND_14082025204935_final_file_voting_results_2025_SD.pdf
+2025-08-14,4,Ordinary,,,69920474,0,0.0,0.1253,0.0008,1147,135192841,151718118,ok,PIIND_14082025204935_final_file_voting_results_2025_SD.pdf
+2025-08-14,5,Ordinary,,,69920474,0,0.0,0.0131,0.0001,120,135206625,151718118,ok,PIIND_14082025204935_final_file_voting_results_2025_SD.pdf
+2025-08-14,6,Special,,,69920474,0,37.7071,1.3598,17.9594,24280119,135194330,151718118,ok,PIIND_14082025204935_final_file_voting_results_2025_SD.pdf
+2025-08-14,7,Special,,,69920474,0,22.4151,0.0021,10.6706,14425979,135194330,151718118,ok,PIIND_14082025204935_final_file_voting_results_2025_SD.pdf
+2025-08-14,8,Special,,,69920474,0,8.0931,1.3731,3.8624,5222259,135207410,151718118,ok,PIIND_14082025204935_final_file_voting_results_2025_SD.pdf
+2025-08-14,9,Special,,,69920474,0,0.348,0.0165,0.1658,224181,135207410,151718118,ok,PIIND_14082025204935_final_file_voting_results_2025_SD.pdf
+2025-08-14,10,Ordinary,,,69920474,0,7.7517,1.3731,3.6995,5001427,135193310,151718118,ok,PIIND_14082025204935_final_file_voting_results_2025_SD.pdf
+2026-08-14,1,Ordinary,,No,69920474,0,0.0,0.0064,0.0,59,137139174,151718118,ok,PIIND_14082026182021_votingresultsandscrutinizerreport.pdf
+2026-08-14,2,Ordinary,,No,69920474,0,0.0543,0.0066,0.0263,36103,137173190,151718118,ok,PIIND_14082026182021_votingresultsandscrutinizerreport.pdf
+2026-08-14,3,Ordinary,,No,69920474,0,18.7441,0.148,9.0618,12425320,137117819,151718118,ok,PIIND_14082026182021_votingresultsandscrutinizerreport.pdf
+2026-08-14,4,Ordinary,,No,69920474,0,0.0,0.0126,0.0001,115,137173185,151718118,ok,PIIND_14082026182021_votingresultsandscrutinizerreport.pdf
+2026-08-14,5,Ordinary,,No,69920474,0,0.0,0.1186,0.0008,1086,137173185,151718118,ok,PIIND_14082026182021_votingresultsandscrutinizerreport.pdf
+2026-08-14,6,Ordinary,,No,69920474,0,32.3222,0.1512,15.6321,21443079,137173109,151718118,ok,PIIND_14082026182021_votingresultsandscrutinizerreport.pdf
+2026-08-14,7,Special,,No,69920474,0,2.0277,0.1196,0.9814,1346215,137173185,151718118,ok,PIIND_14082026182021_votingresultsandscrutinizerreport.pdf
+2026-08-14,8,Special,,No,69920474,0,1.1066,0.122,0.5324,725858,136327512,151718118,ok,PIIND_14082026182021_votingresultsandscrutinizerreport.pdf
+2026-08-14,9,Special,,No,69920474,0,19.7134,0.0143,9.5336,13077512,137173185,151718118,ok,PIIND_14082026182021_votingresultsandscrutinizerreport.pdf
