@@ -217,3 +217,16 @@ def test_still_empty_after_retry_is_not_judged_and_says_so():
     res = lc.run(ANS, MAP, ISSUES, lambda p: "")
     assert res["issues"]["I3"]["judge_score"] is None and res["issues"]["I3"]["notes"] == []
     assert "empty" in res["issues"]["I3"]["judge_status"]
+
+
+def test_notes_that_claim_a_calculation_are_rejected_even_with_known_numbers():
+    rows = lc.parse_answers(ANS, [4])
+    for bad in ("The quarters sum exactly to 17,023.", "17,023 and 2,383 add up to a lot.", "Borrowings more than doubled to 2,383.",
+                "Revenue is about half of 17,023.", "The combined figure is 17,023.", "The difference is 2,383.", "Average revenue was 17,023.", "Pharma is a small portion at 2,383.", "Most of 17,023 is exports.", "Exports are the majority."):
+        assert not lc.numbers_ok(bad, rows), bad
+    assert lc.numbers_ok("Borrowings rose to 2,383 Rs million.", rows)
+
+
+def test_prompt_bans_sums_and_multiples():
+    p = lc.judge_prompt("I2", "Growth", lc.parse_answers(ANS, [4])).lower()
+    assert "sums" in p and "doubled" in p

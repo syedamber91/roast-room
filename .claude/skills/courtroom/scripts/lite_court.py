@@ -99,9 +99,15 @@ def _num(tok):
     return tok.replace(",", "").rstrip(".")
 
 
+CALC_RE = re.compile(r"\b(sums?|summed|add(?:s|ed)? up|adding|combined|together|total(?:s|ling)? of|difference|ratio|average|"
+                     r"doubl\w*|halv\w*|half|tripl\w*|\d+ ?x|times|per ?cent change|percentage point\w*|portion|majority|minority|most of|fraction)\b", re.I)
+
+
 def numbers_ok(note, rows):
     """Every standalone number in a note must be written in the answers or questions. A figure the model worked out
     itself (a percent change, a difference) is not in the evidence, so the note fails."""
+    if CALC_RE.search(note):   # a claim that the model did arithmetic is not a stated fact, whatever numbers it uses
+        return False
     have = {_num(t) for t in ANY_NUM_RE.findall(" ".join("%s %s %s %s" % (r["question"], r["figure"], r["source"], r["cite"]) for r in rows))}
     return all(_num(t) in have for t in NUM_RE.findall(note))
 
@@ -117,7 +123,7 @@ def judge_prompt(iid, name, rows):
             "The evidence is single figures on purpose. Missing detail is not a reason to score low: do not mark an issue down because covenants, "
             "segments or commentary are absent. Judge only what is there.\n"
             "Write 1 to 3 short plain notes on what these figures show or whether any look odd or contradict each other. "
-            "Use only numbers written in the answers below. Do not calculate percentages, differences or ratios, and do not invent any figure; "
+            "Use only numbers written in the answers below. Do not calculate percentages, differences, ratios, sums or totals, do not say anything doubled or halved, and do not invent any figure; "
             "say \"fell\" or \"rose\" in words instead.\n"
             "Each note needs a QUOTE: copy 1 to 8 words, letter for letter, from a FIGURE or a QUESTION below (for example 17,023 Rs million). "
             "No brackets, no changes, no joining two answers.\n"
