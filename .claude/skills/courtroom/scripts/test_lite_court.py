@@ -230,3 +230,55 @@ def test_notes_that_claim_a_calculation_are_rejected_even_with_known_numbers():
 def test_prompt_bans_sums_and_multiples():
     p = lc.judge_prompt("I2", "Growth", lc.parse_answers(ANS, [4])).lower()
     assert "sums" in p and "doubled" in p
+
+
+# ---- three judge runs, lowest score kept
+
+def _gen_with_scores(scores):
+    it = __import__("itertools").chain(scores, __import__("itertools").repeat(3))
+    lock = __import__("threading").Lock()
+
+    def gen(p):
+        with lock:
+            s = next(it)
+        return 'NOTE: Revenue is 17,023 million.\nQUOTE: "17,023 Rs million"\n' + ("SCORE: %d\n" % s if s is not None else "")
+    return gen
+
+
+def test_three_runs_keep_the_lowest_score():
+    res = lc.run(ANS, MAP, ISSUES, _gen_with_scores([3, 1, 2, 3, 3, 3]), judge_runs=3)
+    assert res["issues"]["I3"]["judge_score"] == 1
+    assert res["issues"]["I3"]["scores_seen"] == [1, 2, 3] or sorted(res["issues"]["I3"]["scores_seen"]) == [1, 2, 3]
+
+
+def test_run_without_a_score_is_ignored_and_none_if_all_lack_one():
+    res = lc.run(ANS, MAP, ISSUES, _gen_with_scores([None, 2, 3, 3, 3, 3]), judge_runs=3)
+    assert res["issues"]["I3"]["judge_score"] == 2
+    res = lc.run(ANS, MAP, ISSUES, lambda p: 'NOTE: n\nQUOTE: "17,023 Rs million"\n', judge_runs=3)
+    assert res["issues"]["I3"]["judge_score"] is None
+
+
+def test_default_is_one_run_and_notes_are_not_tripled():
+    res = lc.run(ANS, MAP, ISSUES, lambda p: GOOD)
+    assert len(res["issues"]["I3"]["notes"]) == 1
+    res = lc.run(ANS, MAP, ISSUES, lambda p: GOOD, judge_runs=3)
+    assert len(res["issues"]["I3"]["notes"]) == 1 and res["judge_runs"] == 3
+
+
+# ---- open flags (known conflicts, shown, never hidden, never change the score)
+
+def test_open_flag_is_shown_on_receipts_and_report_and_does_not_change_the_score():
+    flags = {"2": "Screener shows 3,420; not reconciled."}
+    a = lc.run(ANS, MAP, ISSUES, lambda p: "", flags=flags)
+    b = lc.run(ANS, MAP, ISSUES, lambda p: "")
+    assert a["total"] == b["total"]
+    assert "Screener shows 3,420; not reconciled." in lc.render_receipts(a, "X")
+    assert "Screener shows 3,420" in lc.render_report(a, "X")
+    assert "Screener shows 3,420" not in lc.render_receipts(b, "X")
+
+
+def test_real_flags_file_points_only_at_real_questions():
+    f = json.loads((HERE.parent / "references" / "lite-flags.json").read_text())
+    m = json.loads((HERE.parent / "references" / "lite-issues.json").read_text())
+    nums = {n for i in m["issues"].values() for n in i["questions"]}
+    assert f["flags"] and all(int(k) in nums for k in f["flags"]) and f["source"]

@@ -1,0 +1,12 @@
+{
+ "_about": "Known open conflicts between a lite-court answer and another reading of the same figure. Shown beside the question on the Receipts page and in the report. They never change a score. Not resolved here: this repo's rule is that only Nemotron reads the documents, so none of these was checked against the annual report by Claude.",
+ "source": "side-session note piind-skill-vs-pipeline.md (2026-11-08): the stock-fundamental-analyser skill read Screener.in for the same PIIND figures and compared them with the t6-ask answers. Screener values are themselves unverified.",
+ "flags": {
+  "28": "Open flag: Screener shows borrowings of 3,420 Rs million at March 2026; this answer is 2,383. Not reconciled; the answer may be one line of the balance sheet, not the total.",
+  "29": "Open flag: Screener shows borrowings of 1,840 Rs million at March 2025; this answer is 1,117. Not reconciled.",
+  "30": "Open flag: Screener shows interest of 430 Rs million for FY26; this answer is 164. Not reconciled; Screener may include other finance items.",
+  "31": "Open flag: Screener shows interest of 560 Rs million for FY25; this answer is 330. Not reconciled.",
+  "34": "Open flag: Screener shows ROCE of 15%; this answer is 18.8%, which the company states excludes cash and investments. A definition difference, not an error.",
+  "35": "Open flag: Screener shows ROE of 11.2%; this answer is 13.24%. Probably a definition difference; not checked."
+ }
+}

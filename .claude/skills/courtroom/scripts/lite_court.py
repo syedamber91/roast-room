@@ -181,6 +181,23 @@ def judge_issue(iid, name, rows, generate):
     return {"notes": good, "dropped": bad_left, "score": score, "raw": raw, "rejected": rejected, "status": status}
 
 
+def judge_many(iid, name, rows, generate, runs):
+    """The judge is noisy, so run it `runs` times at once and keep the LOWEST score it gave (strict, never generous).
+    Notes come from the run that gave that lowest score (the first, if tied) so notes and score agree."""
+    if runs <= 1:
+        j = judge_issue(iid, name, rows, generate)
+        j["scores_seen"] = [] if j["score"] is None else [j["score"]]
+        return j
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(max_workers=runs) as pool:
+        results = list(pool.map(lambda _: judge_issue(iid, name, rows, generate), range(runs)))
+    scored = [r for r in results if r["score"] is not None]
+    pick = min(scored, key=lambda r: r["score"]) if scored else results[0]
+    return {"notes": pick["notes"], "dropped": sum(r["dropped"] for r in results), "score": pick["score"],
+            "raw": [x for r in results for x in r["raw"]], "rejected": [x for r in results for x in r["rejected"]],
+            "status": pick["status"] if scored else results[0]["status"], "scores_seen": [r["score"] for r in scored]}
+
+
 # ---------------------------------------------------------------- the hearing
 
 def _lite_why(text):
@@ -188,7 +205,7 @@ def _lite_why(text):
     return text.replace("with a number and a date", "with a figure and a page cite (dates are not checked in the lite version)")
 
 
-def run(answers_text, issue_map, issues_meta, generate, control=None):
+def run(answers_text, issue_map, issues_meta, generate, control=None, judge_runs=1, flags=None):
     """The whole lite hearing. issues_meta: {"I3": {"name":..., "section": "S1" or None}}."""
     control = control if control is not None else issue_map.get("control", [])
     rows = parse_answers(answers_text, control)
@@ -204,15 +221,16 @@ def run(answers_text, issue_map, issues_meta, generate, control=None):
         qrows = [by_n[n] for n in spec["questions"] if n in by_n]
         qs = {}
         for r in qrows:
-            qs[r["n"]] = {**r, "state": "answered" if r["state"] == "answered" else "no data", "check": (
+            qs[r["n"]] = {**r, "flag": (flags or {}).get(str(r["n"]), ""), "state": "answered" if r["state"] == "answered" else "no data", "check": (
                 "figure checked on the cited page by the VPS run" if r["state"] == "answered" else "refused: " + r["reason"])}
         answered = [r for r in qrows if r["state"] == "answered"]
         state = "no data" if not answered else ("answered" if len(answered) == len(qrows) else "partial")
         rec = {"name": meta["name"], "section": meta.get("section"), "state": state, "questions": qs,
-               "notes": [], "dropped": 0, "judge_score": None, "raw": [], "rejected": [], "judge_status": "no answered question"}
+               "notes": [], "dropped": 0, "judge_score": None, "scores_seen": [], "raw": [], "rejected": [], "judge_status": "no answered question"}
         if answered:
-            j = judge_issue(iid, meta["name"], qrows, generate)
-            rec.update(notes=j["notes"], dropped=j["dropped"], judge_score=j["score"], raw=j["raw"], rejected=j["rejected"], judge_status=j["status"])
+            j = judge_many(iid, meta["name"], qrows, generate, judge_runs)
+            rec.update(notes=j["notes"], dropped=j["dropped"], judge_score=j["score"], raw=j["raw"], rejected=j["rejected"],
+                       judge_status=j["status"], scores_seen=j["scores_seen"])
             if meta.get("section") and j["score"] is not None:
                 judged[meta["section"]] = min(judged.get(meta["section"], 3), j["score"])
         issues[iid] = rec
@@ -233,7 +251,8 @@ def run(answers_text, issue_map, issues_meta, generate, control=None):
     total = rules.trust_total(sections)
     key, reasons = rules.compute_position(total, [], False, True)
     return {"counts": counts, "issues": issues, "sections": sections, "total": total, "band": rules.band_of(total),
-            "position_key": key, "position": rules.POSITION_LABEL[key], "position_reasons": reasons}
+            "position_key": key, "position": rules.POSITION_LABEL[key], "position_reasons": reasons, "judge_runs": judge_runs,
+            "flags": {str(n): t for n, t in (flags or {}).items() if int(n) in by_n}}
 
 
 # ---------------------------------------------------------------- pages
@@ -264,6 +283,11 @@ def render_report(res, company):
     secs = "".join("<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>" % (
         r["section"], _e(r["name"]), "n/a" if not r["judged"] else r["judge"], r["ceiling"], r["final"],
         _e(r["cut"] or r["ceiling_why"])) for r in res["sections"])
+    flags_html = ""
+    if res.get("flags"):
+        flags_html = ("<h2>Open flags</h2><p class=\"sub\">Known conflicts with another reading of the same figure. They are not resolved "
+                      "and do not change any score.</p><ul>%s</ul>") % "".join(
+            "<li>Q%s: %s</li>" % (n, _e(t)) for n, t in sorted(res["flags"].items(), key=lambda kv: int(kv[0])))
     iss = ""
     for iid, i in res["issues"].items():
         notes = "".join("<li>%s <em>Quote: &ldquo;%s&rdquo;</em></li>" % (_e(n["note"]), _e(n["quote"])) for n in i["notes"])
@@ -277,16 +301,16 @@ def render_report(res, company):
             "<p class=\"sub\">Questions asked: %d. Answered (figure and page cite): %d. Refused (no data): %d. "
             "The FIFA control question stayed refused and is not counted.</p>"
             "<h2>Trust</h2><div class=\"total\"><div><b>%d of 21</b>Trust (%s)</div><div><b>%s</b>Position</div></div>"
-            "<p class=\"sub\">Band: %s (%s). %s. Judge column: n/a = the section had no judge score, so nothing was lowered. "
+            "<p class=\"sub\">Band: %s (%s). %s. The judge ran %d time(s) per issue and the lowest score counts. Judge column: n/a = the section had no judge score, so nothing was lowered. "
             "Ceilings and the position come from court_rules.py by code; the judge can only lower a score.</p>"
             "<table><tr><th>Section</th><th>Name</th><th>Judge</th><th>Ceiling</th><th>Final</th><th>Why</th></tr>%s</table>"
             "<p class=\"banner\">Gates were not checked in the lite version (pledge, auditor, order and similar findings). "
             "A real Buy needs them. Answered does not mean good: the score only shows that a figure was found on a cited page. No current price was read, so the position cannot be Buy.</p>"
-            "<p class=\"sub\">Position reasoning: %s</p><h2>Issues</h2>%s"
+            "<p class=\"sub\">Position reasoning: %s</p>%s<h2>Issues</h2>%s"
             "<p class=\"sub\">Every figure is on the <a href=\"lite-receipts.html\">Receipts page</a>.</p>") % (
         _e(company), _e(NOT_COMPARABLE), c["asked"], c["answered"], c["refused"], res["total"], _e(res["band"]["meaning"]),
-        _e(res["position"]), _e(res["band"]["range"]), _e(res["band"]["meaning"]), _e(res["band"]["caveat"]), secs,
-        _e("; ".join(res["position_reasons"])), iss)
+        _e(res["position"]), _e(res["band"]["range"]), _e(res["band"]["meaning"]), _e(res["band"]["caveat"]), res.get("judge_runs", 1), secs,
+        _e("; ".join(res["position_reasons"])), flags_html, iss)
     return _page(company + " lite courtroom", body)
 
 
@@ -298,7 +322,8 @@ def render_receipts(res, company):
             continue
         rows = "".join("<tr><td>%d</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>" % (
             q["n"], _e(q["question"]), _e(q["figure"]) if q["state"] == "answered" else "<span class=\"nask\">refused</span>",
-            _e(q["source"]), _e(q["cite"]), _e(q["check"])) for q in i["questions"].values())
+            _e(q["source"]), _e(q["cite"]), _e(q["check"]) + ("<br><b>%s</b>" % _e(q["flag"]) if q.get("flag") else ""))
+            for q in i["questions"].values())
         out += ("<div class=\"row\"><h3>%s %s <small>(%s)</small></h3><table><tr><th>#</th><th>Question</th><th>Figure</th>"
                 "<th>Source</th><th>Page</th><th>Code check</th></tr>%s</table></div>") % (iid, _e(i["name"]), i["state"], rows)
     body = ("<h1>%s: receipts</h1><p class=\"banner\">%s</p><p class=\"sub\">The code check was done by the VPS run "
@@ -323,6 +348,8 @@ def main(argv=None):
     ap.add_argument("--out", required=True)
     ap.add_argument("--company", default="PI Industries (PIIND)")
     ap.add_argument("--map", default=str(REFS / "lite-issues.json"))
+    ap.add_argument("--judge-runs", type=int, default=3, help="judge runs per issue, lowest score kept (default 3; ignored with --judge none)")
+    ap.add_argument("--flags", default=str(REFS / "lite-flags.json"), help="open-flags file; pass an empty string for none")
     ap.add_argument("--judge", choices=["auto", "nemotron", "none"], default="auto",
                     help="auto = Nemotron when NVIDIA_API_KEY is set, else no judge notes (offline)")
     a = ap.parse_args(argv)
@@ -336,7 +363,11 @@ def main(argv=None):
     generate = nemotron_generate if mode == "nemotron" else (lambda p: "")
     meta = {i["id"]: i for i in json.loads((REFS / "issues.json").read_text(encoding="utf-8"))["issues"]}
     imap = json.loads(Path(a.map).read_text(encoding="utf-8"))
-    res = run(Path(a.answers).read_text(encoding="utf-8"), imap, meta, generate)
+    flags = {}
+    if a.flags and Path(a.flags).exists():
+        flags = json.loads(Path(a.flags).read_text(encoding="utf-8")).get("flags", {})
+    res = run(Path(a.answers).read_text(encoding="utf-8"), imap, meta, generate,
+              judge_runs=max(1, a.judge_runs) if mode == "nemotron" else 1, flags=flags)
     res["judge_mode"] = mode
     out = Path(a.out)
     out.mkdir(parents=True, exist_ok=True)

@@ -13,6 +13,10 @@ python3 .claude/skills/courtroom/scripts/lite_court.py --answers path/to/t6-ask-
 - `NVIDIA_API_KEY` set (VPS only): Nemotron (`nvidia/nemotron-3-ultra-550b-a55b`) writes the judge notes. About 8 calls, one per issue with answers.
 - No key: it runs offline with no judge notes and says so (`judge: none`). Force it with `--judge none`. Force Nemotron with `--judge nemotron`.
 
+**Judge runs.** With a key, the judge runs 3 times per issue at once and the LOWEST score counts (`--judge-runs N` to change). One run was noisy: the same answers gave 2 to 12 of 21. Notes must also pass code checks: the quote is in the answers, every number is written in the answers, and no note may claim arithmetic (sum, total, doubled) or a size comparison.
+
+**Open flags.** `references/lite-flags.json` lists answers that conflict with another reading of the same figure (borrowings, finance cost, ROCE, ROE vs Screener). They show beside the question on the Receipts page and in the report. They never change a score and are not resolved: only Nemotron may read the documents, so someone must re-ask them on the VPS.
+
 **You get** in the `--out` folder: `lite-report.html` (SOIC-style report), `lite-receipts.html` (per issue: question, figure, source, page, code-check status), `lite-result.json`.
 
 **Tests** (offline, fake judge): `cd .claude/skills/courtroom/scripts && python3 -m pytest test_lite_court.py`
