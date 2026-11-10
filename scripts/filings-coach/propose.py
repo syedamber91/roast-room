@@ -2,7 +2,8 @@
 
 The framework never changes on its own. This script only lists:
   - new checks: verified checks that no framework step cites yet
-  - retired checks: checks a step cites whose source was removed or changed (they may no longer hold)
+  - retired checks: checks a step cites whose source was removed (they no longer hold)
+  - re-check: checks a step cites whose source text changed since it was read (they may no longer hold)
 and writes them to merge/proposal-input.tsv plus merge/retired.json.
 
 A Sonnet router (brief: PROPOSE.md) then routes each new check to an existing step id, a new step, or
@@ -34,17 +35,22 @@ def main():
 
     removed_path = PENDING / "removed.json"
     removed_sources = set(json.loads(removed_path.read_text())) if removed_path.exists() else set()
+    changed_path = PENDING / "changed.json"
+    changed_sources = set(json.loads(changed_path.read_text())) if changed_path.exists() else set()
     by_id = {r["id"]: r for r in rows}
-    retired = sorted(i for i in cited_ids(framework_map)
-                     if i not in by_id or by_id[i].get("source") in removed_sources)
+    cited = cited_ids(framework_map)
+    # Retired: the check is gone, or its source was removed. Re-check: its source text changed since.
+    retired = sorted(i for i in cited if i not in by_id or by_id[i].get("source") in removed_sources)
+    recheck = sorted(i for i in cited if i in by_id and by_id[i].get("source") in changed_sources)
 
     lines = ["\t".join(COMPACT_FIELDS + ("level_hint",))]
     for r in new_rows:
         cells = [str(r.get(k) or "").replace("\t", " ").replace("\n", " ") for k in COMPACT_FIELDS + ("level_hint",)]
         lines.append("\t".join(cells))
     (MERGE / "proposal-input.tsv").write_text("\n".join(lines) + "\n")
-    (MERGE / "retired.json").write_text(json.dumps(retired, indent=1))
-    print(f"new checks to route: {len(new_rows)}  retired support: {len(retired)}")
+    (MERGE / "retired.json").write_text(json.dumps({"retired": retired, "recheck": recheck}, indent=1))
+    print(f"new checks to route: {len(new_rows)}  retired support: {len(retired)}  "
+          f"support to re-check (source changed): {len(recheck)}")
     print("next: run the Sonnet router with scripts/filings-coach/PROPOSE.md, then the Opus review")
 
 

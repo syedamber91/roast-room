@@ -55,6 +55,10 @@ def main():
             continue
         doc_id = make_id(meta.get("id") or path.stem)
         out_dir = BOOKS_MD / doc_id
+        if out_dir.exists() and any(out_dir.iterdir()):
+            # Never overwrite a document that is already in the corpus: give it a new "id" in the sidecar.
+            print(f"skip {path.name}: a document with id '{doc_id}' already exists; set a different \"id\" in {sidecar.name}")
+            continue
         out_dir.mkdir(parents=True, exist_ok=True)
         BOOKS_RAW.mkdir(parents=True, exist_ok=True)
         shutil.copy2(path, BOOKS_RAW / f"{doc_id}{path.suffix}")

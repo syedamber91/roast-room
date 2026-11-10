@@ -91,6 +91,8 @@ def cmd_plan(batch_size=20):
             lines = [now[s]["path"] if kind == "soic" else s for s in batch]
             (PENDING / f"{kind}-{n // batch_size + 1}.txt").write_text("\n".join(lines) + "\n")
     (PENDING / "removed.json").write_text(json.dumps(removed, indent=1))
+    # Changed sources are read again; the framework steps citing their OLD checks must be re-checked.
+    (PENDING / "changed.json").write_text(json.dumps(changed, indent=1))
     print(f"planned {len(todo)} sources to read ({len(new)} new, {len(changed)} changed); "
           f"{len(removed)} removed (their checks will be retired). Batches in {PENDING}")
 

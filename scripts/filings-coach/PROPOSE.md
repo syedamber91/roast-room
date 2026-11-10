@@ -6,7 +6,7 @@ Used every time new sources are read. The framework changes only after the owner
 Inputs:
 - `build/filings-coach/merge/proposal-input.tsv`: the new verified checks (one per line).
 - `docs/filings-coach/framework.md` and `docs/filings-coach/framework-map.json`: the current steps and their ids.
-- `build/filings-coach/merge/retired.json`: support that may no longer hold.
+- `build/filings-coach/merge/retired.json`: "retired" (source removed) and "recheck" (source changed) step support.
 
 For each new check, write one JSON line to `build/filings-coach/merge/routing.jsonl`:
 `{"id": "<check id>", "route": "<existing step id>" | "NEW" | "NONE", "why": "<one sentence>",
