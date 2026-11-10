@@ -6,6 +6,8 @@ Read before using:
 - Later reports can restate a year; this table keeps each year as first filed. FY25 revenue is 152,617 here (the FY2024-25 report's own column), which is the basis the FY2025-26 report also prints.
 - `purchase_of_ppe_and_intangibles` is plant and equipment only in most years; intangibles are a separate printed line. `proceeds_from_borrowings` and `repayment_of_borrowings` are the non-current lines only.
 - Audit fees and the remuneration annexure (pay ratio, median rise, employees) are standalone: the consolidated statements print only a single auditors' payment.
+- **A line the report prints in parts has one row per part, and a sum row labelled derived.** FY24 trade payables are two printed lines (micro and small enterprises 958; other creditors 61,762; sum 62,720, p308), FY24 capex is PP&E (-16,805) and intangibles (-2,511) lines, FY24 revenue outside India is three regions (United States 64,550, European Union 35,169, rest of world 31,759, p369), and FY26 options are four plan lines. The FY26 option sum mixes a Biocon Limited plan with RSU plans, at least one over Biocon Biologics shares, so it is not a Biocon Limited option count. An earlier version of this file showed only the first part under the total's name (FY24 payables read 958).
+- `research_development_expense` is the profit and loss line (FY26 5,515, note 28); gross and net R&D in note 29 are higher (numbers.md). `total_income` (FY25 164,699) is not revenue from operations (152,617); one FY25 letter calls the total-income figure "consolidated revenue".
 - Totals the reports do not print (trade payables before FY22's note, revenue outside India, receivables overdue more than 6 months, options outstanding across plans) are left blank or given as a labelled sum of printed parts.
 
 ## Profit and loss (consolidated unless marked)
@@ -58,7 +60,9 @@ Read before using:
 | total_current_assets | consolidated | Rs million | 76004 (S041 p264) | 83823 (S041 p264) | 123340 (S042 p362) | 151792 (S043 p308) | 162862 (S044 p348) | 171798 (S026 p346) |
 | total_current_liabilities | consolidated | Rs million | 42101 (S041 p264) | 38280 (S041 p264) | 85107 (S042 p362) | 153588 (S043 p308) | 143338 (S044 p348) | 140692 (S026 p346) |
 | total_equity | consolidated | Rs million | 85076 (S041 p264) | 94700 (S041 p264) | 224888 (S042 p362) | 252748 (S043 p308) | 277125 (S044 p348) | 366215 (S026 p346) |
-| trade_payables_total | consolidated | Rs million | 15139 (S041 p322) | 16085 (S041 p322) |  | 958 (S043 p308) |  | 67721 (S026 p382) |
+| trade_payables_total | consolidated | Rs million | 15139 (S041 p322) | 16085 (S041 p322) |  |  |  | 67721 (S026 p382) |
+| trade_payables_micro_small_enterprises | consolidated | Rs million |  |  |  | 958 (S043 p308) |  |  |
+| trade_payables_other_creditors | consolidated | Rs million |  |  |  | 61762 (S043 p308) |  |  |
 | trade_payables_total_sum_of_parts | consolidated | Rs million |  |  |  | 62720 |  |  |
 | trade_receivables | consolidated | Rs million | 15033 (S041 p264) | 20582 (S041 p264) | 35732 (S042 p362) | 62306 (S043 p308) | 54879 (S044 p348) | 59868 (S026 p346) |
 
@@ -74,6 +78,7 @@ Read before using:
 | proceeds_from_borrowings | consolidated | Rs million | 13553 (S041 p268) | 10701 (S041 p268) | 109399 (S042 p366) | 5718 (S043 p311) | 96582 (S044 p351) | 2664 (S026 p349) |
 | proceeds_from_share_issue | consolidated | Rs million | 407 (S041 p267) | 428 (S041 p267) | 12368 (S042 p366) | 307 (S043 p311) | 99 (S044 p351) | 85311 (S026 p349) |
 | purchase_of_ppe_and_intangibles | consolidated | Rs million | -15169 (S041 p267) | -16978 (S041 p267) | -15960 (S042 p366) | -16805 (S043 p311) | -21366 (S044 p351) | -17979 (S026 p349) |
+| purchase_of_intangible_assets | consolidated | Rs million |  |  |  | -2511 (S043 p311) |  |  |
 | purchase_of_ppe_and_intangibles_sum_of_parts | consolidated | Rs million |  |  |  | -19316 |  |  |
 | repayment_of_borrowings | consolidated | Rs million | -7336 (S041 p268) | -10949 (S041 p268) | -281 (S042 p366) | -27678 (S043 p311) | -97699 (S044 p351) | -27079 (S026 p349) |
 
@@ -83,8 +88,11 @@ Read before using:
 |---|---|---|---|---|---|---|---|---|
 | audit_fee_other_services | standalone | Rs million | 2 (S041 p233) | 2 (S041 p233) | 3 (S042 p325) | 2 (S043 p277) | 2 (S044 p315) | 2 (S026 p315) |
 | audit_fee_statutory | standalone | Rs million | 3 (S041 p233) | 3 (S041 p233) | 4 (S042 p325) | 5 (S043 p277) | 6 (S044 p315) | 6 (S026 p315) |
-| esop_options_outstanding_year_end | consolidated | number |  |  |  |  |  | 60350 (S026 p387) |
-| esop_options_outstanding_year_end_sum_of_parts | consolidated | number |  |  |  |  |  | 7.05993e+06 |
+| esop_options_biocon_plan_2000_grant_ix | consolidated | number |  |  |  |  |  | 60350 (S026 p387) |
+| esop_options_rsu_plan_2019_biocon_biologics | consolidated | number |  |  |  |  |  | 3087365 (S026 p388) |
+| esop_options_rsu_plan_2020 | consolidated | number |  |  |  |  |  | 655794 (S026 p388) |
+| esop_options_rsu_plan_2025 | consolidated | number |  |  |  |  |  | 3256420 (S026 p389) |
+| esop_options_sum_of_four_plans_mixed_entities | consolidated | number |  |  |  |  |  | 7.05993e+06 |
 | lease_interest_expense | consolidated | Rs million | 101 (S041 p302) | 117 (S041 p302) | 169 (S042 p401) | 269 (S043 p337) | 422 (S044 p379) | 453 (S026 p385) |
 | median_remuneration_increase_pct | standalone | % |  | 3.69 (S041 p133) | 5.46 (S042 p215) | 5.01 (S043 p184) | 10.07 (S044 p217) | 4.87 (S026 p219) |
 | number_of_permanent_employees | standalone | number |  | 3203 (S041 p133) | 3408 (S042 p215) | 3681 (S043 p184) | 3442 (S044 p217) | 3269 (S026 p219) |
@@ -92,7 +100,9 @@ Read before using:
 | ratio_md_pay_to_median_employee | standalone | times |  |  | 75.79 (S042 p214) |  |  |  |
 | ratio_md_pay_to_median_employee | standalone | x |  | 70.4 (S041 p133) |  |  | 100.95 (S044 p217) |  |
 | revenue_india | consolidated | Rs million | 13596 (S041 p333) | 13563 (S041 p333) | 16737 (S042 p436) | 16079 (S043 p369) | 9765 (S044 p415) | 9178 (S026 p414) |
-| revenue_outside_india | consolidated | Rs million |  |  |  | 64550 (S043 p369) |  |  |
+| revenue_united_states | consolidated | Rs million |  |  |  | 64550 (S043 p369) |  |  |
+| revenue_european_union | consolidated | Rs million |  |  |  | 35169 (S043 p369) |  |  |
+| revenue_rest_of_world | consolidated | Rs million |  |  |  | 31759 (S043 p369) |  |  |
 | revenue_outside_india_sum_of_parts | consolidated | Rs million |  |  |  | 131478 |  |  |
 | share_based_payment_expense | consolidated | Rs million | 1060 (S041 p267) | 1257 (S041 p267) | 1376 (S042 p407) | 1006 (S043 p342) | 1370 (S044 p351) | 1639 (S026 p385) |
 | total_lease_payments | consolidated | Rs million | 166 (S041 p301) | 199 (S041 p301) | 294 (S042 p401) | 562 (S043 p337) | 697 (S044 p379) |  |

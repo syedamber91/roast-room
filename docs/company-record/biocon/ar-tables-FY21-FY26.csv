@@ -271,8 +271,8 @@ FY24,FY24,consolidated,bs,borrowings_non_current,129324,Rs million,308,"balance 
 FY24,FY24,consolidated,bs,borrowings_current,27972,Rs million,308,,filed
 FY24,FY24,consolidated,bs,lease_liabilities_non_current,4924,Rs million,308,,filed
 FY24,FY24,consolidated,bs,lease_liabilities_current,547,Rs million,308,,filed
-FY24,FY24,consolidated,bs,trade_payables_total,958,Rs million,308,micro and small enterprises only; no combined total printed,filed
-FY24,FY24,consolidated,bs,trade_payables_total,61762,Rs million,308,creditors other than micro and small enterprises; no combined total printed,filed
+FY24,FY24,consolidated,bs,trade_payables_micro_small_enterprises,958,Rs million,308,micro and small enterprises only; no combined total printed,filed
+FY24,FY24,consolidated,bs,trade_payables_other_creditors,61762,Rs million,308,creditors other than micro and small enterprises; no combined total printed,filed
 FY24,FY24,consolidated,bs,total_current_liabilities,153588,Rs million,308,,filed
 FY24,FY24,consolidated,cf,net_cash_from_operating,29539,Rs million,311,,filed
 FY24,FY24,consolidated,cf,net_cash_used_in_investing,-10045,Rs million,311,,filed
@@ -283,14 +283,14 @@ FY24,FY24,consolidated,cf,proceeds_from_borrowings,5718,Rs million,311,"proceeds
 FY24,FY24,consolidated,cf,repayment_of_borrowings,-27678,Rs million,311,repayment of non-current borrowings,filed
 FY24,FY24,consolidated,cf,proceeds_from_share_issue,307,Rs million,311,proceeds from exercise of share options,filed
 FY24,FY24,consolidated,cf,purchase_of_ppe_and_intangibles,-16805,Rs million,311,"purchase of property, plant and equipment only",filed
-FY24,FY24,consolidated,cf,purchase_of_ppe_and_intangibles,-2511,Rs million,311,purchase of intangible assets (separate line),filed
+FY24,FY24,consolidated,cf,purchase_of_intangible_assets,-2511,Rs million,311,purchase of intangible assets (separate line),filed
 FY24,FY24,consolidated,notes,lease_interest_expense,269,Rs million,337,interest expenses on lease liabilities,filed
 FY24,FY24,consolidated,notes,total_lease_payments,562,Rs million,337,payment of lease liabilities,filed
 FY24,FY24,consolidated,notes,share_based_payment_expense,1006,Rs million,342,share-based compensation expense,filed
 FY24,FY24,consolidated,notes,revenue_india,16079,Rs million,369,,filed
-FY24,FY24,consolidated,notes,revenue_outside_india,64550,Rs million,369,united_states; no single outside-India total printed,filed
-FY24,FY24,consolidated,notes,revenue_outside_india,35169,Rs million,369,european_union; no single outside-India total printed,filed
-FY24,FY24,consolidated,notes,revenue_outside_india,31759,Rs million,369,rest_of_world; no single outside-India total printed,filed
+FY24,FY24,consolidated,notes,revenue_united_states,64550,Rs million,369,united_states; no single outside-India total printed,filed
+FY24,FY24,consolidated,notes,revenue_european_union,35169,Rs million,369,european_union; no single outside-India total printed,filed
+FY24,FY24,consolidated,notes,revenue_rest_of_world,31759,Rs million,369,rest_of_world; no single outside-India total printed,filed
 FY24,FY24,standalone,notes,audit_fee_statutory,5,Rs million,277,standalone; statutory audit fee,filed
 FY24,FY24,standalone,notes,audit_fee_other_services,2,Rs million,277,standalone; other services (certification fees),filed
 FY24,FY24,standalone,notes,ratio_md_pay_to_median_employee,86.39,ratio,184,"Siddharth Mittal, Managing Director and CEO",filed
@@ -428,7 +428,7 @@ FY26,FY26,consolidated,pl,tax_expense,791,Rs million,347,,filed
 FY26,FY26,consolidated,pl,profit_for_the_year,3688,Rs million,347,,filed
 FY26,FY26,consolidated,pl,profit_attributable_to_owners,3856,Rs million,347,,filed
 FY26,FY26,consolidated,pl,profit_attributable_to_nci,-168,Rs million,347,,filed
-FY26,FY26,consolidated,pl,research_development_expense,5515,Rs million,386,"note 28 line item; note 29 gross total 10,958 / net 9,821 on p387",filed
+FY26,FY26,consolidated,pl,research_development_expense,5515,Rs million,386,"note 28 line item; note 29 gross total 10,958 / net 9,821 on p387; P&L line only (note 28); gross and net R&D in note 29 are higher (see numbers.md)",filed
 FY26,FY26,consolidated,pl,eps_basic,2.82,Rs,347,digits garbled in page text; EPS 2.82 also on p006,filed
 FY26,FY26,consolidated,pl,eps_diluted,2.82,Rs,347,,filed
 FY26,FY26,consolidated,bs,property_plant_equipment,94728,Rs million,346,,filed
@@ -465,10 +465,10 @@ FY26,FY26,consolidated,cf,proceeds_from_borrowings,2664,Rs million,349,proceeds 
 FY26,FY26,consolidated,cf,repayment_of_borrowings,-27079,Rs million,349,repayment of non-current borrowings,filed
 FY26,FY26,consolidated,cf,proceeds_from_share_issue,85311,Rs million,349,"issuance of share capital, net",filed
 FY26,FY26,consolidated,notes,lease_interest_expense,453,Rs million,385,"interest on lease liabilities, note 26",filed
-FY26,FY26,consolidated,notes,esop_options_outstanding_year_end,60350,number,387,Biocon ESOP Plan 2000 Grant IX only,filed
-FY26,FY26,consolidated,notes,esop_options_outstanding_year_end,3087365,number,388,RSU Plan 2019 (Biocon Biologics RSUs),filed
-FY26,FY26,consolidated,notes,esop_options_outstanding_year_end,655794,number,388,RSU Plan 2020,filed
-FY26,FY26,consolidated,notes,esop_options_outstanding_year_end,3256420,number,389,RSU Plan 2025,filed
+FY26,FY26,consolidated,notes,esop_options_biocon_plan_2000_grant_ix,60350,number,387,Biocon ESOP Plan 2000 Grant IX only,filed
+FY26,FY26,consolidated,notes,esop_options_rsu_plan_2019_biocon_biologics,3087365,number,388,RSU Plan 2019 (Biocon Biologics RSUs),filed
+FY26,FY26,consolidated,notes,esop_options_rsu_plan_2020,655794,number,388,RSU Plan 2020,filed
+FY26,FY26,consolidated,notes,esop_options_rsu_plan_2025,3256420,number,389,RSU Plan 2025,filed
 FY26,FY26,consolidated,notes,share_based_payment_expense,1639,Rs million,385,employee benefits expense note 25,filed
 FY26,FY26,standalone,notes,audit_fee_statutory,6,Rs million,315,Holding company statutory audit fee; consolidated shows only 'Payment to auditors' 76 (p386),filed
 FY26,FY26,standalone,notes,audit_fee_other_services,2,Rs million,315,other services (certification fees); QIP-related 28 separate,filed
@@ -476,10 +476,10 @@ FY26,FY26,consolidated,notes,revenue_india,9178,Rs million,414,geographical segm
 FY26,FY26,standalone,notes,ratio_md_pay_to_median_employee,169.50,ratio,219,MD and CEO Siddharth Mittal per annexure; ESOP exercise perquisite excluded,filed
 FY26,FY26,standalone,notes,median_remuneration_increase_pct,4.87,%,219,,filed
 FY26,FY26,standalone,notes,number_of_permanent_employees,3269,number,219,on rolls of the Company,filed
-FY24,FY24,consolidated,bs,trade_payables_total_sum_of_parts,62720,Rs million,308,derived: sum of 2 printed parts; no total is printed,derived
+FY24,FY24,consolidated,bs,trade_payables_total_sum_of_parts,62720,Rs million,308,"derived: micro and small enterprises 958 + other creditors 61,762 (both printed, p308); no total is printed. Total trade payables FY23 is 39,831 in the FY23 report but 38,420 in the FY24 comparative (reason not stated)",derived
 FY24,FY24,consolidated,cf,purchase_of_ppe_and_intangibles_sum_of_parts,-19316,Rs million,311,derived: sum of 2 printed parts; no total is printed,derived
 FY24,FY24,consolidated,notes,revenue_outside_india_sum_of_parts,131478,Rs million,369,derived: sum of 3 printed parts; no total is printed,derived
-FY26,FY26,consolidated,notes,esop_options_outstanding_year_end_sum_of_parts,7.05993e+06,number,387;388;389,derived: sum of 4 printed parts; no total is printed,derived
+FY26,FY26,consolidated,notes,esop_options_sum_of_four_plans_mixed_entities,7.05993e+06,number,387;388;389,"derived: sum of 4 plan lines; MIXES a Biocon Limited plan (60,350) with three RSU plans, at least the 2019 plan over Biocon Biologics shares, so it is not a count of Biocon Limited options",derived
 ,FY21,consolidated,derived,cfo_to_pat,1.37,ratio,,derived: net_cash_from_operating / profit_for_the_year,derived
 ,FY21,consolidated,derived,borrowings_to_total_equity,0.51,ratio,,derived: (borrowings_non_current + borrowings_current) / total_equity; leases excluded,derived
 ,FY21,consolidated,derived,receivable_days_on_revenue,76.82,days,,derived: trade_receivables / revenue_from_operations x 365 (year-end balance),derived
