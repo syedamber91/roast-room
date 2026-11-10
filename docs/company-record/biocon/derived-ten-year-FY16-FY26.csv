@@ -1,0 +1,207 @@
+group,metric,period,value,unit,formula
+Margins,ebitda_margin_on_total_income,FY16,,%,ebitda_company_stated / total_income x 100 (the basis the company's own stated margins tie to)
+Margins,profit_margin_on_total_income,FY16,15.9066,%,profit_to_owners / total_income x 100
+Returns,roe_closing_net_worth,FY16,13.6447,%,profit_to_owners / closing net_worth_owners x 100
+Cash,cash_from_operations_to_profit,FY16,0.6733,times,cash_from_operations / profit_to_owners
+Cash,capex_total,FY16,8037.0,Rs million,capex_property_plant_equipment + capex_intangibles
+Cash,free_cash_flow,FY16,-4331.0,Rs million,cash_from_operations - capex_property_plant_equipment - capex_intangibles
+Cash,capex_to_cash_from_operations,FY16,2.1686,times,capex_total / cash_from_operations
+Margins,ebitda_margin_on_total_income,FY17,27.8667,%,ebitda_company_stated / total_income x 100 (the basis the company's own stated margins tie to)
+Margins,profit_margin_on_total_income,FY17,15.0072,%,profit_to_owners / total_income x 100
+Growth,total_income_growth,FY17,17.8747,%,"this year / last year - 1, x 100"
+Growth,ebitda_growth,FY17,,%,"this year / last year - 1, x 100"
+Growth,profit_growth,FY17,11.21,%,"this year / last year - 1, x 100"
+Growth,net_worth_growth,FY17,19.9291,%,"this year / last year - 1, x 100"
+Growth,cash_from_operations_growth,FY17,72.6929,%,"this year / last year - 1, x 100"
+Returns,roe_average_net_worth,FY17,13.7992,%,profit_to_owners / average of opening and closing net_worth_owners x 100
+Returns,roe_closing_net_worth,FY17,12.6527,%,profit_to_owners / closing net_worth_owners x 100
+Cash,cash_from_operations_to_profit,FY17,1.0456,times,cash_from_operations / profit_to_owners
+Cash,capex_total,FY17,7621.0,Rs million,capex_property_plant_equipment + capex_intangibles
+Cash,free_cash_flow,FY17,-1221.0,Rs million,cash_from_operations - capex_property_plant_equipment - capex_intangibles
+Cash,capex_to_cash_from_operations,FY17,1.1908,times,capex_total / cash_from_operations
+Margins,ebitda_margin_on_total_income,FY18,23.8774,%,ebitda_company_stated / total_income x 100 (the basis the company's own stated margins tie to)
+Margins,profit_margin_on_total_income,FY18,8.5888,%,profit_to_owners / total_income x 100
+Growth,total_income_growth,FY18,6.3059,%,"this year / last year - 1, x 100"
+Growth,ebitda_growth,FY18,-8.9125,%,"this year / last year - 1, x 100"
+Growth,profit_growth,FY18,-39.1603,%,"this year / last year - 1, x 100"
+Growth,net_worth_growth,FY18,7.0922,%,"this year / last year - 1, x 100"
+Growth,cash_from_operations_growth,FY18,3.4531,%,"this year / last year - 1, x 100"
+Returns,roe_average_net_worth,FY18,7.4342,%,profit_to_owners / average of opening and closing net_worth_owners x 100
+Returns,roe_closing_net_worth,FY18,7.1881,%,profit_to_owners / closing net_worth_owners x 100
+Cash,cash_from_operations_to_profit,FY18,1.7779,times,cash_from_operations / profit_to_owners
+Cash,capex_total,FY18,9165.0,Rs million,capex_property_plant_equipment + capex_intangibles
+Cash,free_cash_flow,FY18,-2544.0,Rs million,cash_from_operations - capex_property_plant_equipment - capex_intangibles
+Cash,capex_to_cash_from_operations,FY18,1.3842,times,capex_total / cash_from_operations
+Margins,ebitda_margin_on_total_income,FY19,27.1807,%,ebitda_company_stated / total_income x 100 (the basis the company's own stated margins tie to)
+Margins,profit_margin_on_total_income,FY19,15.9981,%,profit_to_owners / total_income x 100
+Growth,total_income_growth,FY19,30.5104,%,"this year / last year - 1, x 100"
+Growth,ebitda_growth,FY19,48.5656,%,"this year / last year - 1, x 100"
+Growth,profit_growth,FY19,143.0988,%,"this year / last year - 1, x 100"
+Growth,net_worth_growth,FY19,17.7038,%,"this year / last year - 1, x 100"
+Growth,cash_from_operations_growth,FY19,74.3845,%,"this year / last year - 1, x 100"
+Returns,roe_average_net_worth,FY19,16.0531,%,profit_to_owners / average of opening and closing net_worth_owners x 100
+Returns,roe_closing_net_worth,FY19,14.8459,%,profit_to_owners / closing net_worth_owners x 100
+Cash,cash_from_operations_to_profit,FY19,1.2754,times,cash_from_operations / profit_to_owners
+Cash,capex_total,FY19,14920.0,Rs million,capex_property_plant_equipment + capex_intangibles
+Cash,free_cash_flow,FY19,-3374.0,Rs million,cash_from_operations - capex_property_plant_equipment - capex_intangibles
+Cash,capex_to_cash_from_operations,FY19,1.2922,times,capex_total / cash_from_operations
+Margins,ebitda_margin_on_total_income,FY20,27.3062,%,ebitda_company_stated / total_income x 100 (the basis the company's own stated margins tie to)
+Margins,profit_margin_on_total_income,FY20,11.5786,%,profit_to_owners / total_income x 100
+Growth,total_income_growth,FY20,14.1921,%,"this year / last year - 1, x 100"
+Growth,ebitda_growth,FY20,14.7195,%,"this year / last year - 1, x 100"
+Growth,profit_growth,FY20,-17.3534,%,"this year / last year - 1, x 100"
+Growth,net_worth_growth,FY20,9.9672,%,"this year / last year - 1, x 100"
+Growth,cash_from_operations_growth,FY20,11.1294,%,"this year / last year - 1, x 100"
+Returns,roe_average_net_worth,FY20,11.6872,%,profit_to_owners / average of opening and closing net_worth_owners x 100
+Returns,roe_closing_net_worth,FY20,11.1575,%,profit_to_owners / closing net_worth_owners x 100
+Cash,cash_from_operations_to_profit,FY20,1.7149,times,cash_from_operations / profit_to_owners
+Cash,capex_total,FY20,18365.0,Rs million,capex_property_plant_equipment + capex_intangibles
+Cash,free_cash_flow,FY20,-5534.0,Rs million,cash_from_operations - capex_property_plant_equipment - capex_intangibles
+Cash,capex_to_cash_from_operations,FY20,1.4313,times,capex_total / cash_from_operations
+Margins,ebitda_margin_on_total_income,FY21,25.7827,%,ebitda_company_stated / total_income x 100 (the basis the company's own stated margins tie to)
+Margins,profit_margin_on_total_income,FY21,10.01,%,profit_to_owners / total_income x 100
+Growth,total_income_growth,FY21,14.4803,%,"this year / last year - 1, x 100"
+Growth,ebitda_growth,FY21,8.0929,%,"this year / last year - 1, x 100"
+Growth,profit_growth,FY21,-1.0291,%,"this year / last year - 1, x 100"
+Growth,net_worth_growth,FY21,13.7359,%,"this year / last year - 1, x 100"
+Growth,cash_from_operations_growth,FY21,-9.6173,%,"this year / last year - 1, x 100"
+Returns,roe_average_net_worth,FY21,10.333,%,profit_to_owners / average of opening and closing net_worth_owners x 100
+Returns,roe_closing_net_worth,FY21,9.7091,%,profit_to_owners / closing net_worth_owners x 100
+Cash,cash_from_operations_to_profit,FY21,1.5661,times,cash_from_operations / profit_to_owners
+Cash,capex_total,FY21,17463.0,Rs million,capex_property_plant_equipment + capex_intangibles
+Cash,free_cash_flow,FY21,-5866.0,Rs million,cash_from_operations - capex_property_plant_equipment - capex_intangibles
+Cash,capex_to_cash_from_operations,FY21,1.5058,times,capex_total / cash_from_operations
+Margins,ebitda_margin_on_total_income,FY22,25.9971,%,ebitda_company_stated / total_income x 100 (the basis the company's own stated margins tie to)
+Margins,profit_margin_on_total_income,FY22,7.7221,%,profit_to_owners / total_income x 100
+Growth,total_income_growth,FY22,13.5057,%,"this year / last year - 1, x 100"
+Growth,ebitda_growth,FY22,14.4497,%,"this year / last year - 1, x 100"
+Growth,profit_growth,FY22,-12.4375,%,"this year / last year - 1, x 100"
+Growth,net_worth_growth,FY22,10.5626,%,"this year / last year - 1, x 100"
+Growth,cash_from_operations_growth,FY22,1.4573,%,"this year / last year - 1, x 100"
+Returns,roe_average_net_worth,FY22,8.075,%,profit_to_owners / average of opening and closing net_worth_owners x 100
+Returns,roe_closing_net_worth,FY22,7.6893,%,profit_to_owners / closing net_worth_owners x 100
+Cash,cash_from_operations_to_profit,FY22,1.8146,times,cash_from_operations / profit_to_owners
+Cash,capex_total,FY22,19248.0,Rs million,capex_property_plant_equipment + capex_intangibles
+Cash,free_cash_flow,FY22,-7482.0,Rs million,cash_from_operations - capex_property_plant_equipment - capex_intangibles
+Cash,capex_to_cash_from_operations,FY22,1.6359,times,capex_total / cash_from_operations
+Margins,ebitda_margin_on_total_income,FY23,25.0006,%,ebitda_company_stated / total_income x 100 (the basis the company's own stated margins tie to)
+Margins,profit_margin_on_total_income,FY23,4.006,%,profit_to_owners / total_income x 100
+Growth,total_income_growth,FY23,37.5552,%,"this year / last year - 1, x 100"
+Growth,ebitda_growth,FY23,32.2827,%,"this year / last year - 1, x 100"
+Growth,profit_growth,FY23,-28.6397,%,"this year / last year - 1, x 100"
+Growth,net_worth_growth,FY23,111.8814,%,"this year / last year - 1, x 100"
+Growth,cash_from_operations_growth,FY23,57.4452,%,"this year / last year - 1, x 100"
+Returns,roe_average_net_worth,FY23,3.5187,%,profit_to_owners / average of opening and closing net_worth_owners x 100
+Returns,roe_closing_net_worth,FY23,2.5897,%,profit_to_owners / closing net_worth_owners x 100
+Cash,cash_from_operations_to_profit,FY23,4.0037,times,cash_from_operations / profit_to_owners
+Cash,capex_total,FY23,17263.0,Rs million,capex_property_plant_equipment + capex_intangibles
+Cash,free_cash_flow,FY23,1262.0,Rs million,cash_from_operations - capex_property_plant_equipment - capex_intangibles
+Cash,capex_to_cash_from_operations,FY23,0.9319,times,capex_total / cash_from_operations
+Margins,ebitda_margin_on_total_income,FY24,26.6574,%,ebitda_company_stated / total_income x 100 (the basis the company's own stated margins tie to)
+Margins,profit_margin_on_total_income,FY24,6.5456,%,profit_to_owners / total_income x 100
+Growth,total_income_growth,FY24,35.2473,%,"this year / last year - 1, x 100"
+Growth,ebitda_growth,FY24,44.2097,%,"this year / last year - 1, x 100"
+Growth,profit_growth,FY24,120.9855,%,"this year / last year - 1, x 100"
+Growth,net_worth_growth,FY24,10.7282,%,"this year / last year - 1, x 100"
+Growth,cash_from_operations_growth,FY24,59.4548,%,"this year / last year - 1, x 100"
+Returns,roe_average_net_worth,FY24,5.4315,%,profit_to_owners / average of opening and closing net_worth_owners x 100
+Returns,roe_closing_net_worth,FY24,5.1684,%,profit_to_owners / closing net_worth_owners x 100
+Cash,cash_from_operations_to_profit,FY24,2.8889,times,cash_from_operations / profit_to_owners
+Cash,capex_total,FY24,19316.0,Rs million,capex_property_plant_equipment + capex_intangibles
+Cash,free_cash_flow,FY24,10223.0,Rs million,cash_from_operations - capex_property_plant_equipment - capex_intangibles
+Cash,capex_to_cash_from_operations,FY24,0.6539,times,capex_total / cash_from_operations
+Margins,ebitda_margin_on_total_income,FY25,26.5606,%,ebitda_company_stated / total_income x 100 (the basis the company's own stated margins tie to)
+Margins,profit_margin_on_total_income,FY25,6.1524,%,profit_to_owners / total_income x 100
+Growth,total_income_growth,FY25,5.433,%,"this year / last year - 1, x 100"
+Growth,ebitda_growth,FY25,5.0502,%,"this year / last year - 1, x 100"
+Growth,profit_growth,FY25,-0.8998,%,"this year / last year - 1, x 100"
+Growth,net_worth_growth,FY25,9.4032,%,"this year / last year - 1, x 100"
+Growth,cash_from_operations_growth,FY25,37.486,%,"this year / last year - 1, x 100"
+Returns,roe_average_net_worth,FY25,4.8919,%,profit_to_owners / average of opening and closing net_worth_owners x 100
+Returns,roe_closing_net_worth,FY25,4.6817,%,profit_to_owners / closing net_worth_owners x 100
+Cash,cash_from_operations_to_profit,FY25,4.0079,times,cash_from_operations / profit_to_owners
+Cash,capex_total,FY25,23433.0,Rs million,capex_property_plant_equipment + capex_intangibles
+Cash,free_cash_flow,FY25,17179.0,Rs million,cash_from_operations - capex_property_plant_equipment - capex_intangibles
+Cash,capex_to_cash_from_operations,FY25,0.577,times,capex_total / cash_from_operations
+Margins,ebitda_margin_on_total_income,FY26,21.9914,%,ebitda_company_stated / total_income x 100 (the basis the company's own stated margins tie to)
+Margins,profit_margin_on_total_income,FY26,2.2328,%,profit_to_owners / total_income x 100
+Growth,total_income_growth,FY26,4.8549,%,"this year / last year - 1, x 100"
+Growth,ebitda_growth,FY26,-13.1832,%,"this year / last year - 1, x 100"
+Growth,profit_growth,FY26,-61.9461,%,"this year / last year - 1, x 100"
+Growth,net_worth_growth,FY26,57.2343,%,"this year / last year - 1, x 100"
+Growth,cash_from_operations_growth,FY26,-50.9012,%,"this year / last year - 1, x 100"
+Returns,roe_average_net_worth,FY26,1.3852,%,profit_to_owners / average of opening and closing net_worth_owners x 100
+Returns,roe_closing_net_worth,FY26,1.1331,%,profit_to_owners / closing net_worth_owners x 100
+Cash,cash_from_operations_to_profit,FY26,5.1712,times,cash_from_operations / profit_to_owners
+Cash,capex_total,FY26,19117.0,Rs million,capex_property_plant_equipment + capex_intangibles
+Cash,free_cash_flow,FY26,823.0,Rs million,cash_from_operations - capex_property_plant_equipment - capex_intangibles
+Cash,capex_to_cash_from_operations,FY26,0.9587,times,capex_total / cash_from_operations
+Ten-year,total_income_cagr,FY16-FY26,17.4405,%,"(FY26 / FY16)^(1/10) - 1, x 100"
+Ten-year,profit_to_owners_cagr,FY16-FY26,-3.4959,%,"(FY26 / FY16)^(1/10) - 1, x 100"
+Ten-year,net_worth_owners_cagr,FY16-FY26,23.7705,%,"(FY26 / FY16)^(1/10) - 1, x 100"
+Ten-year,cash_from_operations_cagr,FY16-FY26,18.3265,%,"(FY26 / FY16)^(1/10) - 1, x 100"
+Ten-year,ebitda_company_stated_cagr,FY17-FY26,14.3441,%,"(FY26 / FY17)^(1/9) - 1, x 100"
+Ten-year,cash_from_operations_total_ten_years,FY17-FY26,169377.0,Rs million,sum of the ten years FY17 to FY26
+Ten-year,profit_to_owners_total_ten_years,FY17-FY26,69110.0,Rs million,sum of the ten years FY17 to FY26
+Ten-year,ebitda_margin_average_fy17_fy26,FY17-FY26,25.8221,%,simple average of the ten yearly margins on total income
+Ten-year,ebitda_margin_lowest_fy17_fy26,FY17-FY26,21.9914,%,lowest of the ten yearly margins
+Ten-year,ebitda_margin_highest_fy17_fy26,FY17-FY26,27.8667,%,highest of the ten yearly margins
+Ten-year,ebitda_margin_fy26_minus_average,FY26,-3.8307,points,FY26 margin minus the ten-year average margin (percentage points)
+Price,close_on_or_before_31_march,FY16,80.5583,Rs,"last daily close on or before 2016-03-31 (session 2016-03-31); Yahoo close, adjusted for bonus issues, not for dividends"
+Price,pe_on_basic_eps,FY16,,times,close / eps_basic_current_share_basis (FY19 onward: the years whose EPS is printed on today's share basis)
+Price,close_on_or_before_31_march,FY17,188.7167,Rs,"last daily close on or before 2017-03-31 (session 2017-03-31); Yahoo close, adjusted for bonus issues, not for dividends"
+Price,pe_on_basic_eps,FY17,,times,close / eps_basic_current_share_basis (FY19 onward: the years whose EPS is printed on today's share basis)
+Price,close_on_or_before_31_march,FY18,296.95,Rs,"last daily close on or before 2018-03-31 (session 2018-03-28); Yahoo close, adjusted for bonus issues, not for dividends"
+Price,pe_on_basic_eps,FY18,,times,close / eps_basic_current_share_basis (FY19 onward: the years whose EPS is printed on today's share basis)
+Price,close_on_or_before_31_march,FY19,303.475,Rs,"last daily close on or before 2019-03-31 (session 2019-03-28); Yahoo close, adjusted for bonus issues, not for dividends"
+Price,pe_on_basic_eps,FY19,39.6699,times,close / eps_basic_current_share_basis (FY19 onward: the years whose EPS is printed on today's share basis)
+Price,close_on_or_before_31_march,FY20,270.55,Rs,"last daily close on or before 2020-03-31 (session 2020-03-31); Yahoo close, adjusted for bonus issues, not for dividends"
+Price,pe_on_basic_eps,FY20,42.8085,times,close / eps_basic_current_share_basis (FY19 onward: the years whose EPS is printed on today's share basis)
+Price,close_on_or_before_31_march,FY21,408.9,Rs,"last daily close on or before 2021-03-31 (session 2021-03-31); Yahoo close, adjusted for bonus issues, not for dividends"
+Price,pe_on_basic_eps,FY21,65.5288,times,close / eps_basic_current_share_basis (FY19 onward: the years whose EPS is printed on today's share basis)
+Price,close_on_or_before_31_march,FY22,335.6,Rs,"last daily close on or before 2022-03-31 (session 2022-03-31); Yahoo close, adjusted for bonus issues, not for dividends"
+Price,pe_on_basic_eps,FY22,61.6912,times,close / eps_basic_current_share_basis (FY19 onward: the years whose EPS is printed on today's share basis)
+Price,close_on_or_before_31_march,FY23,206.35,Rs,"last daily close on or before 2023-03-31 (session 2023-03-31); Yahoo close, adjusted for bonus issues, not for dividends"
+Price,pe_on_basic_eps,FY23,53.183,times,close / eps_basic_current_share_basis (FY19 onward: the years whose EPS is printed on today's share basis)
+Price,close_on_or_before_31_march,FY24,264.15,Rs,"last daily close on or before 2024-03-31 (session 2024-03-28); Yahoo close, adjusted for bonus issues, not for dividends"
+Price,pe_on_basic_eps,FY24,30.8947,times,close / eps_basic_current_share_basis (FY19 onward: the years whose EPS is printed on today's share basis)
+Price,close_on_or_before_31_march,FY25,341.7,Rs,"last daily close on or before 2025-03-31 (session 2025-03-28); Yahoo close, adjusted for bonus issues, not for dividends"
+Price,pe_on_basic_eps,FY25,40.3901,times,close / eps_basic_current_share_basis (FY19 onward: the years whose EPS is printed on today's share basis)
+Price,close_on_or_before_31_march,FY26,360.9,Rs,"last daily close on or before 2026-03-31 (session 2026-03-30); Yahoo close, adjusted for bonus issues, not for dividends"
+Price,pe_on_basic_eps,FY26,127.9787,times,close / eps_basic_current_share_basis (FY19 onward: the years whose EPS is printed on today's share basis)
+Price,pe_range_low_fy19_fy26,FY19-FY26,30.8947,times,lowest year-end P/E in the eight years FY19 to FY26 (not ten: earlier EPS is on another share basis)
+Price,pe_range_median_fy19_fy26,FY19-FY26,47.9958,times,"median year-end P/E, FY19 to FY26"
+Price,pe_range_high_fy19_fy26,FY19-FY26,127.9787,times,"highest year-end P/E, FY19 to FY26"
+Price,pe_latest_on_fy26_eps,2026-11-09,130.6738,times,"latest close (2026-11-09) / FY26 basic EPS 2.82; trailing-twelve-month EPS is not stored, so this is on the year, not the trailing twelve months"
+Price,price_change_1y,2026-11-09,-3.1283,%,"latest close / close on or before 2025-11-09 (session 2025-11-07) - 1, x 100; price only"
+Price,price_cagr_1y,2026-11-09,-3.1283,%,"(latest / close in session 2025-11-07)^(1/1) - 1, x 100; price only"
+Price,price_change_3y,2026-11-09,62.2991,%,"latest close / close on or before 2023-11-09 (session 2023-11-09) - 1, x 100; price only"
+Price,price_cagr_3y,2026-11-09,17.5183,%,"(latest / close in session 2023-11-09)^(1/3) - 1, x 100; price only"
+Price,price_change_5y,2026-11-09,6.196,%,"latest close / close on or before 2021-11-09 (session 2021-11-09) - 1, x 100; price only"
+Price,price_cagr_5y,2026-11-09,1.2096,%,"(latest / close in session 2021-11-09)^(1/5) - 1, x 100; price only"
+Price,price_change_10y,2026-11-09,148.8884,%,"latest close / close on or before 2016-11-09 (session 2016-11-09) - 1, x 100; price only"
+Price,price_cagr_10y,2026-11-09,9.547,%,"(latest / close in session 2016-11-09)^(1/10) - 1, x 100; price only"
+Index P/E,NIFTY_50_pe_latest,2026-11-09,20.48,times,latest P/E from niftyindices
+Index P/E,NIFTY_50_pe_average,2016-11-09 to 2026-11-09,24.6707,times,simple average of daily P/E over the window (ten years where the file reaches back that far; the start date is in the period)
+Index P/E,NIFTY_50_pe_min,2016-11-09 to 2026-11-09,17.15,times,lowest daily P/E in the window
+Index P/E,NIFTY_50_pe_max,2016-11-09 to 2026-11-09,42.0,times,highest daily P/E in the window
+Index P/E,NIFTY_50_pe_latest_vs_average,2026-11-09,-16.9866,%,"latest P/E / window average - 1, x 100"
+Index P/E,NIFTY_50_pe_share_of_days_below_latest,2026-11-09,8.3065,%,share of days in the window with a lower P/E than the latest
+Index P/E,NIFTY_PHARMA_pe_latest,2026-11-09,46.49,times,latest P/E from niftyindices
+Index P/E,NIFTY_PHARMA_pe_average,2016-11-09 to 2026-11-09,36.6458,times,simple average of daily P/E over the window (ten years where the file reaches back that far; the start date is in the period)
+Index P/E,NIFTY_PHARMA_pe_min,2016-11-09 to 2026-11-09,19.87,times,lowest daily P/E in the window
+Index P/E,NIFTY_PHARMA_pe_max,2016-11-09 to 2026-11-09,61.8,times,highest daily P/E in the window
+Index P/E,NIFTY_PHARMA_pe_latest_vs_average,2026-11-09,26.8631,%,"latest P/E / window average - 1, x 100"
+Index P/E,NIFTY_PHARMA_pe_share_of_days_below_latest,2026-11-09,86.2903,%,share of days in the window with a lower P/E than the latest
+Index P/E,NIFTY_HEALTHCARE_pe_latest,2026-11-09,47.02,times,latest P/E from niftyindices
+Index P/E,NIFTY_HEALTHCARE_pe_average,2020-11-18 to 2026-11-09,37.7606,times,simple average of daily P/E over the window (ten years where the file reaches back that far; the start date is in the period)
+Index P/E,NIFTY_HEALTHCARE_pe_min,2020-11-18 to 2026-11-09,30.63,times,lowest daily P/E in the window
+Index P/E,NIFTY_HEALTHCARE_pe_max,2020-11-18 to 2026-11-09,47.02,times,highest daily P/E in the window
+Index P/E,NIFTY_HEALTHCARE_pe_latest_vs_average,2026-11-09,24.5213,%,"latest P/E / window average - 1, x 100"
+Index P/E,NIFTY_HEALTHCARE_pe_share_of_days_below_latest,2026-11-09,99.9325,%,share of days in the window with a lower P/E than the latest
+Index P/E,NIFTY_500_pe_latest,2026-11-09,22.11,times,latest P/E from niftyindices
+Index P/E,NIFTY_500_pe_average,2019-01-01 to 2026-11-09,26.704,times,simple average of daily P/E over the window (ten years where the file reaches back that far; the start date is in the period)
+Index P/E,NIFTY_500_pe_min,2019-01-01 to 2026-11-09,19.4,times,lowest daily P/E in the window
+Index P/E,NIFTY_500_pe_max,2019-01-01 to 2026-11-09,46.29,times,highest daily P/E in the window
+Index P/E,NIFTY_500_pe_latest_vs_average,2026-11-09,-17.2035,%,"latest P/E / window average - 1, x 100"
+Index P/E,NIFTY_500_pe_share_of_days_below_latest,2026-11-09,12.3653,%,share of days in the window with a lower P/E than the latest
