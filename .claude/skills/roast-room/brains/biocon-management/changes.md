@@ -15,6 +15,10 @@ Three new files, all filings and none management speech, so no quote is taken fr
 
 Not known: insider trades from 2026-05-02 on (NSE's list is empty for every company after that date), and why BIOCON has none listed for April 2024 to April 2026. Bulk and block deals are read to 2026-11-10; the list's completeness for past years is not checked against another source. This corrects the first version of this entry, which said bulk and block deals were not read.
 
+## Unresolved discrepancy in votes.md (found 2026-11-10, not fixed)
+
+For the postal ballot of 2026-06-08, resolutions 1, 3 and 5 are flagged "promoter group interested: Yes", yet the same rows show 721,793,134 promoter votes polled and a total polled (for example 1,192,359,030 on resolution 1) that includes them. votes.md's header says an interested promoter group's votes polled read 0, which is true of earlier meetings but not here. Either the flag means something other than "abstains" for this meeting, or the promoter group did vote; the voting-results annex itself was not re-read. Until it is, do not quote the percentage against on those three resolutions as "the public's alone". Found by a reader checking the pay resolution (Level 5, row L5-91).
+
 ## Call questions and answer states added (2026-10-30)
 
 New file qa-states.md: for each of the 14 calls (S001 to S014), the analysts' questions cut by code from the call transcript, each marked answered, partial, deflected, declined or deferred by a model, with the analyst's words and management's evidence copied verbatim (code checked both). 659 rows: 311 answered, 202 partial, 56 deflected, 30 declined, 18 deferred, 32 with no management turn after, 10 not usable. A second model, blind to the first, agreed on 23 of 30 sampled items against a bar of 24 fixed before judging, so the states are shown as a reading. The file copies only the 306 items that were not fully answered; the answered ones are counted. The call text the seat quotes as management (S001 to S014) is unchanged: this file adds the analyst's side as the analyst's.
