@@ -36,7 +36,7 @@ How to use it: for a new company, go down section 1 in order. Each document gets
 | Takeover disclosures (Regulation 29) and insider trades after 2024-03-28 | Promoter selling and large holders | NSE category `Disclosure under SEBI Takeover Regulations`; the PIT list (item 16) returns nothing after 2024-03-28 | Regulation 31(4) letters (item 8) and PIT to 2024-03-28 (item 16) are read |
 | Business responsibility report (BRSR) and the corporate governance report | Board attendance, remuneration, whistle-blower | Inside the annual report | Partly covered by item 6 |
 | Auditor's report and key audit matters | Earnings quality (S2) | Inside the annual report | Covered by item 6 (D07), words are the auditor's |
-| Bulk and block deals, delivery data | Float and positioning | NSE `api/historical/bulk-deals`, `block-deals` and `historicalOR/bulk-block-short-deals`; BSE `api.bseindia.com` | Tried 2026-11-10 from a cloud session: NSE returns its HTML block page, BSE returns 403; not read |
+| Bulk and block deals, delivery data | Float and positioning | NSE `api/historical/bulk-deals`, `block-deals` and `historicalOR/bulk-block-short-deals`; BSE `api.bseindia.com`; screener.in | Tried 2026-11-10 from a cloud session: NSE returns its HTML block page, BSE returns 403; screener.in's public BIOCON pages (consolidated and standalone, HTTP 200) hold no bulk or block deal data (0 matches for "bulk" and "deal"), and its "Trades" link sits behind a login; not read |
 | Peer set and sector context | Comparison for S2 and S5 | soic-ladder peer sets | Not part of a management seat; the Chair brings it |
 
 ## 3. Rules that hold for every document
