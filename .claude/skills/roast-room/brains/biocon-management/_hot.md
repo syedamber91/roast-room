@@ -23,6 +23,8 @@ Nothing here is live. Last close: week ending 2026-10-23 (323.50). Calls run to 
 
 ## Five dated numbers (numbers.md; Rs million, consolidated, as filed)
 
+Six years of annual tables, FY21 to FY26 (P&L incl. EPS, balance sheet, cash flow, lease, ESOP, audit fee, geography, remuneration annexure), each figure with source id and PDF page: ar-tables.md.
+
 Quarter ended 2026-06-30 unless stated; year-earlier figure in brackets.
 
 - Revenue from operations 43,360, operating margin 19.5% (39,419; 19.0%).

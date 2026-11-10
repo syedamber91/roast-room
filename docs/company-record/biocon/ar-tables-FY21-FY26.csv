@@ -1,0 +1,506 @@
+report_fy,period,basis,table,line,value,unit,pdf_page,note,kind
+FY22,FY22,consolidated,pl,revenue_from_operations,81840,Rs million,265,,filed
+FY22,FY21,consolidated,pl,revenue_from_operations,71431,Rs million,265,,filed
+FY22,FY22,consolidated,pl,other_income,2127,Rs million,265,,filed
+FY22,FY21,consolidated,pl,other_income,2545,Rs million,265,,filed
+FY22,FY22,consolidated,pl,total_income,83967,Rs million,265,,filed
+FY22,FY21,consolidated,pl,total_income,73976,Rs million,265,,filed
+FY22,FY22,consolidated,pl,cost_of_materials_consumed,28139,Rs million,265,,filed
+FY22,FY21,consolidated,pl,cost_of_materials_consumed,24302,Rs million,265,,filed
+FY22,FY22,consolidated,pl,purchases_of_stock_in_trade,1611,Rs million,265,,filed
+FY22,FY21,consolidated,pl,purchases_of_stock_in_trade,1036,Rs million,265,,filed
+FY22,FY22,consolidated,pl,changes_in_inventories,-2566,Rs million,265,,filed
+FY22,FY21,consolidated,pl,changes_in_inventories,-2901,Rs million,265,,filed
+FY22,FY22,consolidated,pl,employee_benefits_expense,18801,Rs million,265,,filed
+FY22,FY21,consolidated,pl,employee_benefits_expense,17410,Rs million,265,,filed
+FY22,FY22,consolidated,pl,finance_costs,676,Rs million,265,,filed
+FY22,FY21,consolidated,pl,finance_costs,577,Rs million,265,,filed
+FY22,FY22,consolidated,pl,depreciation_amortisation,8142,Rs million,265,,filed
+FY22,FY21,consolidated,pl,depreciation_amortisation,7151,Rs million,265,,filed
+FY22,FY22,consolidated,pl,other_expenses,20917,Rs million,265,net of expenses capitalised to intangible assets,filed
+FY22,FY21,consolidated,pl,other_expenses,18563,Rs million,265,net of expenses capitalised to intangible assets,filed
+FY22,FY22,consolidated,pl,research_development_expense,6121,Rs million,308,"note 28 line within other expenses, before capitalisation",filed
+FY22,FY21,consolidated,pl,research_development_expense,4597,Rs million,308,"note 28 line within other expenses, before capitalisation",filed
+FY22,FY22,consolidated,pl,exceptional_items,-1111,Rs million,265,net,filed
+FY22,FY21,consolidated,pl,exceptional_items,126,Rs million,265,net,filed
+FY22,FY22,consolidated,pl,profit_before_tax,9831,Rs million,265,,filed
+FY22,FY21,consolidated,pl,profit_before_tax,10677,Rs million,265,,filed
+FY22,FY22,consolidated,pl,tax_expense,2115,Rs million,265,total tax expense,filed
+FY22,FY21,consolidated,pl,tax_expense,2215,Rs million,265,total tax expense,filed
+FY22,FY22,consolidated,pl,profit_for_the_year,7716,Rs million,265,,filed
+FY22,FY21,consolidated,pl,profit_for_the_year,8462,Rs million,265,,filed
+FY22,FY22,consolidated,pl,profit_attributable_to_owners,6484,Rs million,265,,filed
+FY22,FY21,consolidated,pl,profit_attributable_to_owners,7405,Rs million,265,,filed
+FY22,FY22,consolidated,pl,profit_attributable_to_nci,1232,Rs million,265,,filed
+FY22,FY21,consolidated,pl,profit_attributable_to_nci,1057,Rs million,265,,filed
+FY22,FY22,consolidated,pl,eps_basic,5.44,Rs,316,P&L page text garbled; value as printed on note 31 (p316),filed
+FY22,FY21,consolidated,pl,eps_basic,6.24,Rs,316,P&L page text garbled; value as printed on note 31 (p316),filed
+FY22,FY22,consolidated,pl,eps_diluted,5.42,Rs,316,P&L page text garbled; value as printed on note 31 (p316),filed
+FY22,FY21,consolidated,pl,eps_diluted,6.19,Rs,316,P&L page text garbled; value as printed on note 31 (p316),filed
+FY22,FY22,consolidated,bs,property_plant_equipment,56767,Rs million,264,,filed
+FY22,FY21,consolidated,bs,property_plant_equipment,55573,Rs million,264,,filed
+FY22,FY22,consolidated,bs,cwip,34203,Rs million,264,,filed
+FY22,FY21,consolidated,bs,cwip,22535,Rs million,264,,filed
+FY22,FY22,consolidated,bs,goodwill,264,Rs million,264,,filed
+FY22,FY21,consolidated,bs,goodwill,264,Rs million,264,,filed
+FY22,FY22,consolidated,bs,other_intangible_assets,5986,Rs million,264,,filed
+FY22,FY21,consolidated,bs,other_intangible_assets,6269,Rs million,264,,filed
+FY22,FY22,consolidated,bs,intangibles_under_development,6901,Rs million,264,,filed
+FY22,FY21,consolidated,bs,intangibles_under_development,5467,Rs million,264,,filed
+FY22,FY22,consolidated,bs,right_of_use_assets,2673,Rs million,264,,filed
+FY22,FY21,consolidated,bs,right_of_use_assets,1533,Rs million,264,,filed
+FY22,FY22,consolidated,bs,inventories,22982,Rs million,264,,filed
+FY22,FY21,consolidated,bs,inventories,18666,Rs million,264,,filed
+FY22,FY22,consolidated,bs,trade_receivables,20582,Rs million,264,,filed
+FY22,FY21,consolidated,bs,trade_receivables,15033,Rs million,264,,filed
+FY22,FY22,consolidated,bs,cash_and_cash_equivalents,6630,Rs million,264,,filed
+FY22,FY21,consolidated,bs,cash_and_cash_equivalents,9531,Rs million,264,,filed
+FY22,FY22,consolidated,bs,other_bank_balances,10845,Rs million,264,bank balances other than cash and cash equivalents,filed
+FY22,FY21,consolidated,bs,other_bank_balances,10623,Rs million,264,bank balances other than cash and cash equivalents,filed
+FY22,FY22,consolidated,bs,current_investments,12177,Rs million,264,financial assets - investments (current),filed
+FY22,FY21,consolidated,bs,current_investments,12087,Rs million,264,financial assets - investments (current),filed
+FY22,FY22,consolidated,bs,total_current_assets,83823,Rs million,264,,filed
+FY22,FY21,consolidated,bs,total_current_assets,76004,Rs million,264,,filed
+FY22,FY22,consolidated,bs,total_assets,203940,Rs million,264,,filed
+FY22,FY21,consolidated,bs,total_assets,185223,Rs million,264,,filed
+FY22,FY22,consolidated,bs,equity_share_capital,6003,Rs million,264,,filed
+FY22,FY21,consolidated,bs,equity_share_capital,6000,Rs million,264,,filed
+FY22,FY22,consolidated,bs,other_equity,78322,Rs million,264,,filed
+FY22,FY21,consolidated,bs,other_equity,70269,Rs million,264,,filed
+FY22,FY22,consolidated,bs,equity_attributable_to_owners,84325,Rs million,264,,filed
+FY22,FY21,consolidated,bs,equity_attributable_to_owners,76269,Rs million,264,,filed
+FY22,FY22,consolidated,bs,non_controlling_interest,10375,Rs million,264,,filed
+FY22,FY21,consolidated,bs,non_controlling_interest,8807,Rs million,264,,filed
+FY22,FY22,consolidated,bs,total_equity,94700,Rs million,264,,filed
+FY22,FY21,consolidated,bs,total_equity,85076,Rs million,264,,filed
+FY22,FY22,consolidated,bs,borrowings_non_current,39985,Rs million,264,,filed
+FY22,FY21,consolidated,bs,borrowings_non_current,29616,Rs million,264,,filed
+FY22,FY22,consolidated,bs,borrowings_current,9055,Rs million,264,,filed
+FY22,FY21,consolidated,bs,borrowings_current,13970,Rs million,264,,filed
+FY22,FY22,consolidated,bs,lease_liabilities_non_current,2215,Rs million,264,,filed
+FY22,FY21,consolidated,bs,lease_liabilities_non_current,1141,Rs million,264,,filed
+FY22,FY22,consolidated,bs,lease_liabilities_current,211,Rs million,264,,filed
+FY22,FY21,consolidated,bs,lease_liabilities_current,84,Rs million,264,,filed
+FY22,FY22,consolidated,bs,total_current_liabilities,38280,Rs million,264,,filed
+FY22,FY21,consolidated,bs,total_current_liabilities,42101,Rs million,264,,filed
+FY22,FY22,consolidated,bs,trade_payables_total,16085,Rs million,322,total trade payables per financial-instruments note,filed
+FY22,FY21,consolidated,bs,trade_payables_total,15139,Rs million,322,total trade payables per financial-instruments note,filed
+FY22,FY22,consolidated,cf,net_cash_from_operating,11766,Rs million,267,,filed
+FY22,FY21,consolidated,cf,net_cash_from_operating,11597,Rs million,267,,filed
+FY22,FY22,consolidated,cf,net_cash_used_in_investing,-16991,Rs million,267,,filed
+FY22,FY21,consolidated,cf,net_cash_used_in_investing,-36247,Rs million,267,,filed
+FY22,FY22,consolidated,cf,net_cash_from_financing,2421,Rs million,268,,filed
+FY22,FY21,consolidated,cf,net_cash_from_financing,25640,Rs million,268,,filed
+FY22,FY22,consolidated,cf,purchase_of_ppe_and_intangibles,-16978,Rs million,267,purchase of PPE line only; payment of intangible assets is a separate line,filed
+FY22,FY21,consolidated,cf,purchase_of_ppe_and_intangibles,-15169,Rs million,267,purchase of PPE line only; payment of intangible assets is a separate line,filed
+FY22,FY22,consolidated,cf,interest_paid,-1096,Rs million,268,,filed
+FY22,FY21,consolidated,cf,interest_paid,-1160,Rs million,268,,filed
+FY22,FY22,consolidated,cf,proceeds_from_borrowings,10701,Rs million,268,proceeds from non-current borrowings,filed
+FY22,FY21,consolidated,cf,proceeds_from_borrowings,13553,Rs million,268,proceeds from non-current borrowings,filed
+FY22,FY22,consolidated,cf,repayment_of_borrowings,-10949,Rs million,268,repayment of non-current borrowings,filed
+FY22,FY21,consolidated,cf,repayment_of_borrowings,-7336,Rs million,268,repayment of non-current borrowings,filed
+FY22,FY22,consolidated,cf,proceeds_from_share_issue,428,Rs million,267,proceeds from exercise of share options,filed
+FY22,FY21,consolidated,cf,proceeds_from_share_issue,407,Rs million,267,proceeds from exercise of share options,filed
+FY22,FY22,consolidated,notes,lease_interest_expense,117,Rs million,302,,filed
+FY22,FY21,consolidated,notes,lease_interest_expense,101,Rs million,302,,filed
+FY22,FY22,consolidated,notes,total_lease_payments,199,Rs million,301,gross payments for the year per note 15 text,filed
+FY22,FY21,consolidated,notes,total_lease_payments,166,Rs million,301,gross payments for the year per note 15 text,filed
+FY22,FY22,consolidated,notes,share_based_payment_expense,1257,Rs million,267,share-based compensation expense (cash flow adjustment),filed
+FY22,FY21,consolidated,notes,share_based_payment_expense,1060,Rs million,267,share-based compensation expense (cash flow adjustment),filed
+FY22,FY22,standalone,notes,audit_fee_statutory,3,Rs million,233,statutory audit fee; consolidated note 28 shows only combined payment to auditors 30/24,filed
+FY22,FY21,standalone,notes,audit_fee_statutory,3,Rs million,233,statutory audit fee; consolidated note 28 shows only combined payment to auditors 30/24,filed
+FY22,FY22,standalone,notes,audit_fee_other_services,2,Rs million,233,other services (certification fees),filed
+FY22,FY21,standalone,notes,audit_fee_other_services,2,Rs million,233,other services (certification fees),filed
+FY22,FY22,consolidated,notes,revenue_india,13563,Rs million,333,geographical segment,filed
+FY22,FY21,consolidated,notes,revenue_india,13596,Rs million,333,geographical segment,filed
+FY22,FY22,standalone,notes,ratio_md_pay_to_median_employee,70.4,x,133,"Siddharth Mittal, MD and CEO; FY2021-22",filed
+FY22,FY22,standalone,notes,median_remuneration_increase_pct,3.69,%,133,,filed
+FY22,FY22,standalone,notes,number_of_permanent_employees,3203,number,133,"printed 3,203 as on March 31, 2022",filed
+FY22,FY22,consolidated,highlights,total_revenue,83967,Rs million,106,,filed
+FY22,FY21,consolidated,highlights,total_revenue,73976,Rs million,106,,filed
+FY22,FY22,standalone,highlights,total_revenue,19254,Rs million,106,,filed
+FY22,FY21,standalone,highlights,total_revenue,21786,Rs million,106,,filed
+FY22,FY22,consolidated,highlights,expenses,70956,Rs million,106,,filed
+FY22,FY21,consolidated,highlights,expenses,62631,Rs million,106,,filed
+FY22,FY22,standalone,highlights,expenses,17857,Rs million,106,,filed
+FY22,FY21,standalone,highlights,expenses,18198,Rs million,106,,filed
+FY22,FY22,consolidated,highlights,share_of_loss_of_jv_and_associate_net,-2069,Rs million,106,,filed
+FY22,FY21,consolidated,highlights,share_of_loss_of_jv_and_associate_net,-794,Rs million,106,,filed
+FY22,FY22,consolidated,highlights,profit_before_tax_and_exceptional_items,10942,Rs million,106,,filed
+FY22,FY21,consolidated,highlights,profit_before_tax_and_exceptional_items,10551,Rs million,106,,filed
+FY22,FY22,standalone,highlights,profit_before_tax_and_exceptional_items,1397,Rs million,106,,filed
+FY22,FY21,standalone,highlights,profit_before_tax_and_exceptional_items,3588,Rs million,106,,filed
+FY22,FY22,consolidated,highlights,exceptional_items_net,-1111,Rs million,106,,filed
+FY22,FY21,consolidated,highlights,exceptional_items_net,126,Rs million,106,,filed
+FY22,FY22,consolidated,highlights,profit_before_tax,9831,Rs million,106,,filed
+FY22,FY21,consolidated,highlights,profit_before_tax,10677,Rs million,106,,filed
+FY22,FY22,standalone,highlights,profit_before_tax,1397,Rs million,106,,filed
+FY22,FY21,standalone,highlights,profit_before_tax,3588,Rs million,106,,filed
+FY22,FY22,consolidated,highlights,income_tax,2115,Rs million,106,,filed
+FY22,FY21,consolidated,highlights,income_tax,2215,Rs million,106,,filed
+FY22,FY22,standalone,highlights,income_tax,536,Rs million,106,,filed
+FY22,FY21,standalone,highlights,income_tax,783,Rs million,106,,filed
+FY22,FY22,consolidated,highlights,non_controlling_interest,1232,Rs million,106,,filed
+FY22,FY21,consolidated,highlights,non_controlling_interest,1057,Rs million,106,,filed
+FY22,FY22,consolidated,highlights,profit_for_the_year,6484,Rs million,106,,filed
+FY22,FY21,consolidated,highlights,profit_for_the_year,7405,Rs million,106,,filed
+FY22,FY22,standalone,highlights,profit_for_the_year,861,Rs million,106,,filed
+FY22,FY21,standalone,highlights,profit_for_the_year,2805,Rs million,106,,filed
+FY22,FY22,consolidated,highlights,other_comprehensive_income_net,967,Rs million,106,,filed
+FY22,FY21,consolidated,highlights,other_comprehensive_income_net,1582,Rs million,106,,filed
+FY22,FY22,standalone,highlights,other_comprehensive_income_net,80,Rs million,106,,filed
+FY22,FY21,standalone,highlights,other_comprehensive_income_net,24,Rs million,106,,filed
+FY22,FY22,consolidated,highlights,total_comprehensive_income,7451,Rs million,106,,filed
+FY22,FY21,consolidated,highlights,total_comprehensive_income,8987,Rs million,106,,filed
+FY22,FY22,standalone,highlights,total_comprehensive_income,941,Rs million,106,,filed
+FY22,FY21,standalone,highlights,total_comprehensive_income,2829,Rs million,106,,filed
+FY22,FY22,consolidated,highlights,eps_after_exceptional_items,5.44,Rs,106,,filed
+FY22,FY21,consolidated,highlights,eps_after_exceptional_items,6.24,Rs,106,,filed
+FY22,FY22,standalone,highlights,eps_after_exceptional_items,0.72,Rs,106,,filed
+FY22,FY21,standalone,highlights,eps_after_exceptional_items,2.36,Rs,106,,filed
+FY23,FY23,consolidated,pl,revenue_from_operations,111742,Rs million,363,,filed
+FY23,FY23,consolidated,pl,other_income,3759,Rs million,363,,filed
+FY23,FY23,consolidated,pl,total_income,115501,Rs million,363,,filed
+FY23,FY23,consolidated,pl,cost_of_materials_consumed,31911,Rs million,363,,filed
+FY23,FY23,consolidated,pl,purchases_of_stock_in_trade,6261,Rs million,363,,filed
+FY23,FY23,consolidated,pl,changes_in_inventories,-1541,Rs million,363,,filed
+FY23,FY23,consolidated,pl,employee_benefits_expense,21810,Rs million,363,,filed
+FY23,FY23,consolidated,pl,finance_costs,4190,Rs million,363,,filed
+FY23,FY23,consolidated,pl,depreciation_amortisation,11131,Rs million,363,,filed
+FY23,FY23,consolidated,pl,other_expenses,32106,Rs million,363,,filed
+FY23,FY23,consolidated,pl,research_development_expense,6779,Rs million,408,note 28 line within other expenses,filed
+FY23,FY23,consolidated,pl,exceptional_items,-2914,Rs million,363,,filed
+FY23,FY23,consolidated,pl,profit_before_tax,8971,Rs million,363,,filed
+FY23,FY23,consolidated,pl,tax_expense,2541,Rs million,363,,filed
+FY23,FY23,consolidated,pl,profit_for_the_year,6430,Rs million,363,,filed
+FY23,FY23,consolidated,pl,profit_attributable_to_owners,4627,Rs million,363,,filed
+FY23,FY23,consolidated,pl,profit_attributable_to_nci,1803,Rs million,363,,filed
+FY23,FY23,consolidated,pl,eps_basic,3.88,Rs,363,,filed
+FY23,FY23,consolidated,pl,eps_diluted,3.87,Rs,363,,filed
+FY23,FY23,consolidated,bs,property_plant_equipment,72769,Rs million,362,,filed
+FY23,FY23,consolidated,bs,cwip,25875,Rs million,362,,filed
+FY23,FY23,consolidated,bs,goodwill,161362,Rs million,362,,filed
+FY23,FY23,consolidated,bs,other_intangible_assets,57964,Rs million,362,,filed
+FY23,FY23,consolidated,bs,intangibles_under_development,47295,Rs million,362,,filed
+FY23,FY23,consolidated,bs,right_of_use_assets,2582,Rs million,362,,filed
+FY23,FY23,consolidated,bs,inventories,42437,Rs million,362,,filed
+FY23,FY23,consolidated,bs,trade_receivables,35732,Rs million,362,,filed
+FY23,FY23,consolidated,bs,cash_and_cash_equivalents,13235,Rs million,362,,filed
+FY23,FY23,consolidated,bs,other_bank_balances,10766,Rs million,362,bank balances other than cash and cash equivalents,filed
+FY23,FY23,consolidated,bs,current_investments,13265,Rs million,362,,filed
+FY23,FY23,consolidated,bs,total_current_assets,123340,Rs million,362,,filed
+FY23,FY23,consolidated,bs,total_assets,520428,Rs million,362,,filed
+FY23,FY23,consolidated,bs,equity_share_capital,6003,Rs million,362,,filed
+FY23,FY23,consolidated,bs,other_equity,172666,Rs million,362,,filed
+FY23,FY23,consolidated,bs,equity_attributable_to_owners,178669,Rs million,362,,filed
+FY23,FY23,consolidated,bs,non_controlling_interest,46219,Rs million,362,,filed
+FY23,FY23,consolidated,bs,total_equity,224888,Rs million,362,,filed
+FY23,FY23,consolidated,bs,borrowings_non_current,152905,Rs million,362,cash flow note p366 calls this non-current borrowings including current maturities,filed
+FY23,FY23,consolidated,bs,borrowings_current,24802,Rs million,362,,filed
+FY23,FY23,consolidated,bs,lease_liabilities_non_current,2091,Rs million,362,,filed
+FY23,FY23,consolidated,bs,lease_liabilities_current,390,Rs million,362,,filed
+FY23,FY23,consolidated,bs,total_current_liabilities,85107,Rs million,362,,filed
+FY23,FY23,consolidated,cf,net_cash_from_operating,18525,Rs million,366,,filed
+FY23,FY23,consolidated,cf,net_cash_used_in_investing,-142818,Rs million,366,,filed
+FY23,FY23,consolidated,cf,net_cash_from_financing,130487,Rs million,366,,filed
+FY23,FY23,consolidated,cf,purchase_of_ppe_and_intangibles,-15960,Rs million,366,purchase of PPE only; payment of intangible assets printed separately,filed
+FY23,FY23,consolidated,cf,interest_paid,-4856,Rs million,366,,filed
+FY23,FY23,consolidated,cf,dividends_paid,-718,Rs million,366,including to NCI,filed
+FY23,FY23,consolidated,cf,proceeds_from_borrowings,109399,Rs million,366,non-current borrowings; current borrowings shown net,filed
+FY23,FY23,consolidated,cf,repayment_of_borrowings,-281,Rs million,366,non-current borrowings,filed
+FY23,FY23,consolidated,cf,proceeds_from_share_issue,12368,Rs million,366,"issuance of shares by subsidiary, net of expense",filed
+FY23,FY23,consolidated,notes,lease_interest_expense,169,Rs million,401,,filed
+FY23,FY23,consolidated,notes,total_lease_payments,294,Rs million,401,gross payments for the year,filed
+FY23,FY23,consolidated,notes,share_based_payment_expense,1376,Rs million,407,,filed
+FY23,FY23,standalone,notes,audit_fee_statutory,4,Rs million,325,"statutory audit fee, standalone note 29",filed
+FY23,FY23,standalone,notes,audit_fee_other_services,3,Rs million,325,"other services (certification fees), standalone note 29",filed
+FY23,FY23,consolidated,notes,revenue_india,16737,Rs million,436,,filed
+FY23,FY23,standalone,notes,ratio_md_pay_to_median_employee,75.79,times,214,"Siddharth Mittal, CEO and MD",filed
+FY23,FY23,standalone,notes,median_remuneration_increase_pct,5.46,%,215,,filed
+FY23,FY23,standalone,notes,number_of_permanent_employees,3408,number,215,,filed
+FY23,FY23,consolidated,highlights,total_income,115501,Rs million,184,"Financial Highlights table, FY23 consolidated column",filed
+FY23,FY23,consolidated,highlights,expenses,101946,Rs million,184,"Financial Highlights table, FY23 consolidated column",filed
+FY23,FY23,consolidated,highlights,share_of_loss_jv_associates,-1670,Rs million,184,"Financial Highlights table, FY23 consolidated column",filed
+FY23,FY23,consolidated,highlights,profit_before_tax_and_exceptional_items,11885,Rs million,184,"Financial Highlights table, FY23 consolidated column",filed
+FY23,FY23,consolidated,highlights,exceptional_items_net,-2914,Rs million,184,"Financial Highlights table, FY23 consolidated column",filed
+FY23,FY23,consolidated,highlights,profit_before_tax,8971,Rs million,184,"Financial Highlights table, FY23 consolidated column",filed
+FY23,FY23,consolidated,highlights,income_tax,2541,Rs million,184,"Financial Highlights table, FY23 consolidated column",filed
+FY23,FY23,consolidated,highlights,non_controlling_interest,1803,Rs million,184,"Financial Highlights table, FY23 consolidated column",filed
+FY23,FY23,consolidated,highlights,profit_for_the_year,4627,Rs million,184,"Financial Highlights table, FY23 consolidated column",filed
+FY23,FY23,consolidated,highlights,other_comprehensive_income_net,1138,Rs million,184,"Financial Highlights table, FY23 consolidated column",filed
+FY23,FY23,consolidated,highlights,total_comprehensive_income,5765,Rs million,184,"Financial Highlights table, FY23 consolidated column",filed
+FY23,FY23,consolidated,highlights,eps_after_exceptional_items,3.88,Rs,184,"Financial Highlights table, FY23 consolidated column",filed
+FY24,FY24,consolidated,pl,revenue_from_operations,147557,Rs million,309,,filed
+FY24,FY24,consolidated,pl,other_income,8655,Rs million,309,,filed
+FY24,FY24,consolidated,pl,total_income,156212,Rs million,309,,filed
+FY24,FY24,consolidated,pl,cost_of_materials_consumed,50719,Rs million,309,,filed
+FY24,FY24,consolidated,pl,purchases_of_stock_in_trade,6827,Rs million,309,,filed
+FY24,FY24,consolidated,pl,changes_in_inventories,-8567,Rs million,309,,filed
+FY24,FY24,consolidated,pl,employee_benefits_expense,26641,Rs million,309,,filed
+FY24,FY24,consolidated,pl,finance_costs,9744,Rs million,309,,filed
+FY24,FY24,consolidated,pl,depreciation_amortisation,15688,Rs million,309,,filed
+FY24,FY24,consolidated,pl,other_expenses,39788,Rs million,309,,filed
+FY24,FY24,consolidated,pl,exceptional_items,-116,Rs million,309,"exceptional items, net",filed
+FY24,FY24,consolidated,pl,profit_before_tax,15252,Rs million,309,,filed
+FY24,FY24,consolidated,pl,tax_expense,2274,Rs million,309,total tax expense,filed
+FY24,FY24,consolidated,pl,profit_for_the_year,12978,Rs million,309,,filed
+FY24,FY24,consolidated,pl,profit_attributable_to_owners,10225,Rs million,309,,filed
+FY24,FY24,consolidated,pl,profit_attributable_to_nci,2753,Rs million,309,,filed
+FY24,FY24,consolidated,pl,research_development_expense,6071,Rs million,343,"line within other expenses (note 28); note 29 net R&D total 11,540 on p344",filed
+FY24,FY24,consolidated,pl,eps_basic,8.55,Rs,352,,filed
+FY24,FY24,consolidated,pl,eps_diluted,8.54,Rs,309,,filed
+FY24,FY24,consolidated,bs,property_plant_equipment,74181,Rs million,308,,filed
+FY24,FY24,consolidated,bs,cwip,39852,Rs million,308,,filed
+FY24,FY24,consolidated,bs,goodwill,163724,Rs million,308,,filed
+FY24,FY24,consolidated,bs,other_intangible_assets,62786,Rs million,308,,filed
+FY24,FY24,consolidated,bs,intangibles_under_development,40081,Rs million,308,,filed
+FY24,FY24,consolidated,bs,right_of_use_assets,5745,Rs million,308,,filed
+FY24,FY24,consolidated,bs,inventories,49439,Rs million,308,,filed
+FY24,FY24,consolidated,bs,trade_receivables,62306,Rs million,308,,filed
+FY24,FY24,consolidated,bs,cash_and_cash_equivalents,12336,Rs million,308,,filed
+FY24,FY24,consolidated,bs,other_bank_balances,10251,Rs million,308,bank balances other than cash and cash equivalents,filed
+FY24,FY24,consolidated,bs,current_investments,3156,Rs million,308,,filed
+FY24,FY24,consolidated,bs,total_current_assets,151792,Rs million,308,,filed
+FY24,FY24,consolidated,bs,total_assets,560707,Rs million,308,printed as TOTAL,filed
+FY24,FY24,consolidated,bs,equity_share_capital,6003,Rs million,308,,filed
+FY24,FY24,consolidated,bs,other_equity,191834,Rs million,308,,filed
+FY24,FY24,consolidated,bs,equity_attributable_to_owners,197837,Rs million,308,,filed
+FY24,FY24,consolidated,bs,non_controlling_interest,54911,Rs million,308,,filed
+FY24,FY24,consolidated,bs,total_equity,252748,Rs million,308,,filed
+FY24,FY24,consolidated,bs,borrowings_non_current,129324,Rs million,308,"balance sheet line; note 15 reconciliation shows 135,804 including current maturities",filed
+FY24,FY24,consolidated,bs,borrowings_current,27972,Rs million,308,,filed
+FY24,FY24,consolidated,bs,lease_liabilities_non_current,4924,Rs million,308,,filed
+FY24,FY24,consolidated,bs,lease_liabilities_current,547,Rs million,308,,filed
+FY24,FY24,consolidated,bs,trade_payables_total,958,Rs million,308,micro and small enterprises only; no combined total printed,filed
+FY24,FY24,consolidated,bs,trade_payables_total,61762,Rs million,308,creditors other than micro and small enterprises; no combined total printed,filed
+FY24,FY24,consolidated,bs,total_current_liabilities,153588,Rs million,308,,filed
+FY24,FY24,consolidated,cf,net_cash_from_operating,29539,Rs million,311,,filed
+FY24,FY24,consolidated,cf,net_cash_used_in_investing,-10045,Rs million,311,,filed
+FY24,FY24,consolidated,cf,net_cash_from_financing,-23327,Rs million,311,,filed
+FY24,FY24,consolidated,cf,interest_paid,-8474,Rs million,311,,filed
+FY24,FY24,consolidated,cf,dividends_paid,-2030,Rs million,311,including to NCI,filed
+FY24,FY24,consolidated,cf,proceeds_from_borrowings,5718,Rs million,311,"proceeds from non-current borrowings; debentures 8,000 and current borrowings net 1,248 are separate lines",filed
+FY24,FY24,consolidated,cf,repayment_of_borrowings,-27678,Rs million,311,repayment of non-current borrowings,filed
+FY24,FY24,consolidated,cf,proceeds_from_share_issue,307,Rs million,311,proceeds from exercise of share options,filed
+FY24,FY24,consolidated,cf,purchase_of_ppe_and_intangibles,-16805,Rs million,311,"purchase of property, plant and equipment only",filed
+FY24,FY24,consolidated,cf,purchase_of_ppe_and_intangibles,-2511,Rs million,311,purchase of intangible assets (separate line),filed
+FY24,FY24,consolidated,notes,lease_interest_expense,269,Rs million,337,interest expenses on lease liabilities,filed
+FY24,FY24,consolidated,notes,total_lease_payments,562,Rs million,337,payment of lease liabilities,filed
+FY24,FY24,consolidated,notes,share_based_payment_expense,1006,Rs million,342,share-based compensation expense,filed
+FY24,FY24,consolidated,notes,revenue_india,16079,Rs million,369,,filed
+FY24,FY24,consolidated,notes,revenue_outside_india,64550,Rs million,369,united_states; no single outside-India total printed,filed
+FY24,FY24,consolidated,notes,revenue_outside_india,35169,Rs million,369,european_union; no single outside-India total printed,filed
+FY24,FY24,consolidated,notes,revenue_outside_india,31759,Rs million,369,rest_of_world; no single outside-India total printed,filed
+FY24,FY24,standalone,notes,audit_fee_statutory,5,Rs million,277,standalone; statutory audit fee,filed
+FY24,FY24,standalone,notes,audit_fee_other_services,2,Rs million,277,standalone; other services (certification fees),filed
+FY24,FY24,standalone,notes,ratio_md_pay_to_median_employee,86.39,ratio,184,"Siddharth Mittal, Managing Director and CEO",filed
+FY24,FY24,standalone,notes,median_remuneration_increase_pct,5.01,%,184,,filed
+FY24,FY24,standalone,notes,number_of_permanent_employees,3681,number,184,,filed
+FY24,FY24,consolidated,highlights,consolidated_revenue,156212,Rs million,008,includes other income,filed
+FY24,FY24,consolidated,highlights,consolidated_revenue_growth,35,%,008,,filed
+FY24,FY24,consolidated,highlights,generics,27985,Rs million,008,,filed
+FY24,FY24,consolidated,highlights,generics_growth,1,%,008,,filed
+FY24,FY24,consolidated,highlights,biosimilars,88242,Rs million,008,,filed
+FY24,FY24,consolidated,highlights,biosimilars_growth,58,%,008,,filed
+FY24,FY24,consolidated,highlights,research_services,34886,Rs million,008,,filed
+FY24,FY24,consolidated,highlights,research_services_growth,9,%,008,,filed
+FY24,FY24,consolidated,highlights,ebitda,41642,Rs million,008,,filed
+FY24,FY24,consolidated,highlights,ebitda_growth,44,%,008,,filed
+FY24,FY24,consolidated,highlights,ebitda_margin,27,%,008,,filed
+FY24,FY24,consolidated,highlights,gross_rd_investment,11614,Rs million,008,,filed
+FY24,FY24,consolidated,highlights,gross_rd_investment_growth,3,%,008,,filed
+FY24,FY24,consolidated,highlights,profit_for_the_year,10300,Rs million,008,before exceptional items,filed
+FY24,FY24,consolidated,highlights,profit_for_the_year_growth,31,%,008,before exceptional items,filed
+FY24,FY24,consolidated,highlights,eps,8.6,Rs,008,,filed
+FY25,FY25,consolidated,pl,revenue_from_operations,152617,Rs million,349,,filed
+FY25,FY25,consolidated,pl,other_income,12082,Rs million,349,,filed
+FY25,FY25,consolidated,pl,total_income,164699,Rs million,349,,filed
+FY25,FY25,consolidated,pl,cost_of_materials_consumed,42767,Rs million,349,,filed
+FY25,FY25,consolidated,pl,purchases_of_stock_in_trade,6266,Rs million,349,,filed
+FY25,FY25,consolidated,pl,changes_in_inventories,2942,Rs million,349,,filed
+FY25,FY25,consolidated,pl,employee_benefits_expense,31444,Rs million,349,,filed
+FY25,FY25,consolidated,pl,finance_costs,8974,Rs million,349,,filed
+FY25,FY25,consolidated,pl,depreciation_amortisation,16870,Rs million,349,,filed
+FY25,FY25,consolidated,pl,other_expenses,39011,Rs million,349,before recovery of cost from co-development partners,filed
+FY25,FY25,consolidated,pl,exceptional_items,965,Rs million,349,net,filed
+FY25,FY25,consolidated,pl,profit_before_tax,18866,Rs million,349,,filed
+FY25,FY25,consolidated,pl,tax_expense,4572,Rs million,349,total tax expense,filed
+FY25,FY25,consolidated,pl,profit_for_the_year,14294,Rs million,349,,filed
+FY25,FY25,consolidated,pl,profit_attributable_to_owners,10133,Rs million,349,,filed
+FY25,FY25,consolidated,pl,profit_attributable_to_nci,4161,Rs million,349,,filed
+FY25,FY25,consolidated,pl,research_development_expense,5888,Rs million,386,note 28 other expenses,filed
+FY25,FY25,consolidated,pl,eps_basic,8.46,Rs,349,,filed
+FY25,FY25,consolidated,pl,eps_diluted,8.46,Rs,349,,filed
+FY25,FY25,consolidated,bs,property_plant_equipment,87082,Rs million,348,,filed
+FY25,FY25,consolidated,bs,cwip,41017,Rs million,348,,filed
+FY25,FY25,consolidated,bs,goodwill,167857,Rs million,348,,filed
+FY25,FY25,consolidated,bs,other_intangible_assets,58652,Rs million,348,,filed
+FY25,FY25,consolidated,bs,intangibles_under_development,44067,Rs million,348,,filed
+FY25,FY25,consolidated,bs,right_of_use_assets,6042,Rs million,348,,filed
+FY25,FY25,consolidated,bs,inventories,49311,Rs million,348,,filed
+FY25,FY25,consolidated,bs,trade_receivables,54879,Rs million,348,,filed
+FY25,FY25,consolidated,bs,cash_and_cash_equivalents,32271,Rs million,348,,filed
+FY25,FY25,consolidated,bs,other_bank_balances,8931,Rs million,348,,filed
+FY25,FY25,consolidated,bs,current_investments,4473,Rs million,348,,filed
+FY25,FY25,consolidated,bs,total_current_assets,162862,Rs million,348,,filed
+FY25,FY25,consolidated,bs,total_assets,587973,Rs million,348,,filed
+FY25,FY25,consolidated,bs,equity_share_capital,6003,Rs million,348,,filed
+FY25,FY25,consolidated,bs,other_equity,210437,Rs million,348,,filed
+FY25,FY25,consolidated,bs,equity_attributable_to_owners,216440,Rs million,348,,filed
+FY25,FY25,consolidated,bs,non_controlling_interest,60685,Rs million,348,,filed
+FY25,FY25,consolidated,bs,total_equity,277125,Rs million,348,,filed
+FY25,FY25,consolidated,bs,borrowings_non_current,124054,Rs million,348,,filed
+FY25,FY25,consolidated,bs,borrowings_current,53501,Rs million,348,current financial liabilities,filed
+FY25,FY25,consolidated,bs,lease_liabilities_non_current,5391,Rs million,348,,filed
+FY25,FY25,consolidated,bs,lease_liabilities_current,674,Rs million,348,,filed
+FY25,FY25,consolidated,bs,total_current_liabilities,143338,Rs million,348,,filed
+FY25,FY25,consolidated,cf,net_cash_from_operating,40612,Rs million,351,,filed
+FY25,FY25,consolidated,cf,net_cash_used_in_investing,-2341,Rs million,351,,filed
+FY25,FY25,consolidated,cf,net_cash_from_financing,-18540,Rs million,352,,filed
+FY25,FY25,consolidated,cf,purchase_of_ppe_and_intangibles,-21366,Rs million,351,PPE only; purchase of intangible assets -2067 printed separately,filed
+FY25,FY25,consolidated,cf,interest_paid,-6342,Rs million,352,,filed
+FY25,FY25,consolidated,cf,dividends_paid,-829,Rs million,351,including to NCI,filed
+FY25,FY25,consolidated,cf,proceeds_from_borrowings,96582,Rs million,351,non-current borrowings,filed
+FY25,FY25,consolidated,cf,repayment_of_borrowings,-97699,Rs million,351,non-current borrowings,filed
+FY25,FY25,consolidated,cf,proceeds_from_share_issue,99,Rs million,351,proceeds from exercise of share options,filed
+FY25,FY25,consolidated,notes,lease_interest_expense,422,Rs million,379,interest expenses on lease liabilities,filed
+FY25,FY25,consolidated,notes,total_lease_payments,697,Rs million,379,gross payments for the year (text),filed
+FY25,FY25,consolidated,notes,share_based_payment_expense,1370,Rs million,351,"share-based compensation expense, cash flow adjustment",filed
+FY25,FY25,standalone,notes,audit_fee_statutory,6,Rs million,315,,filed
+FY25,FY25,standalone,notes,audit_fee_other_services,2,Rs million,315,other services (certification fees),filed
+FY25,FY25,consolidated,notes,revenue_india,9765,Rs million,415,,filed
+FY25,FY25,standalone,notes,ratio_md_pay_to_median_employee,100.95,x,217,MD and CEO Siddharth Mittal,filed
+FY25,FY25,standalone,notes,median_remuneration_increase_pct,10.07,%,217,,filed
+FY25,FY25,standalone,notes,number_of_permanent_employees,3442,number,217,,filed
+FY25,FY21,consolidated,highlights,generics_revenue,23627,Rs million,72,five-year financial summary,filed
+FY25,FY22,consolidated,highlights,generics_revenue,23409,Rs million,72,five-year financial summary,filed
+FY25,FY23,consolidated,highlights,generics_revenue,27644,Rs million,72,five-year financial summary,filed
+FY25,FY24,consolidated,highlights,generics_revenue,27985,Rs million,72,five-year financial summary,filed
+FY25,FY25,consolidated,highlights,generics_revenue,30175,Rs million,72,five-year financial summary,filed
+FY25,FY21,consolidated,highlights,biosimilars_revenue,28002,Rs million,72,five-year financial summary,filed
+FY25,FY22,consolidated,highlights,biosimilars_revenue,34643,Rs million,72,five-year financial summary,filed
+FY25,FY23,consolidated,highlights,biosimilars_revenue,55838,Rs million,72,five-year financial summary,filed
+FY25,FY24,consolidated,highlights,biosimilars_revenue,88242,Rs million,72,five-year financial summary,filed
+FY25,FY25,consolidated,highlights,biosimilars_revenue,90174,Rs million,72,five-year financial summary,filed
+FY25,FY21,consolidated,highlights,research_manufacturing_services_revenue,21843,Rs million,72,five-year financial summary,filed
+FY25,FY22,consolidated,highlights,research_manufacturing_services_revenue,26042,Rs million,72,five-year financial summary,filed
+FY25,FY23,consolidated,highlights,research_manufacturing_services_revenue,31929,Rs million,72,five-year financial summary,filed
+FY25,FY24,consolidated,highlights,research_manufacturing_services_revenue,34886,Rs million,72,five-year financial summary,filed
+FY25,FY25,consolidated,highlights,research_manufacturing_services_revenue,36424,Rs million,72,five-year financial summary,filed
+FY25,FY21,consolidated,highlights,other_income,2545,Rs million,72,five-year financial summary,filed
+FY25,FY22,consolidated,highlights,other_income,2127,Rs million,72,five-year financial summary,filed
+FY25,FY23,consolidated,highlights,other_income,3759,Rs million,72,five-year financial summary,filed
+FY25,FY24,consolidated,highlights,other_income,8655,Rs million,72,five-year financial summary,filed
+FY25,FY25,consolidated,highlights,other_income,12082,Rs million,72,five-year financial summary,filed
+FY25,FY21,consolidated,highlights,total_revenue,73976,Rs million,72,five-year financial summary,filed
+FY25,FY22,consolidated,highlights,total_revenue,83967,Rs million,72,five-year financial summary,filed
+FY25,FY23,consolidated,highlights,total_revenue,115501,Rs million,72,five-year financial summary,filed
+FY25,FY24,consolidated,highlights,total_revenue,156212,Rs million,72,five-year financial summary,filed
+FY25,FY25,consolidated,highlights,total_revenue,164699,Rs million,72,five-year financial summary,filed
+FY25,FY21,consolidated,highlights,profit,7405,Rs million,72,five-year financial summary,filed
+FY25,FY22,consolidated,highlights,profit,6484,Rs million,72,five-year financial summary,filed
+FY25,FY23,consolidated,highlights,profit,4627,Rs million,72,five-year financial summary,filed
+FY25,FY24,consolidated,highlights,profit,10225,Rs million,72,five-year financial summary,filed
+FY25,FY25,consolidated,highlights,profit,10133,Rs million,72,five-year financial summary,filed
+FY25,FY21,consolidated,highlights,net_worth,76269,Rs million,72,five-year financial summary,filed
+FY25,FY22,consolidated,highlights,net_worth,84325,Rs million,72,five-year financial summary,filed
+FY25,FY23,consolidated,highlights,net_worth,178669,Rs million,72,five-year financial summary,filed
+FY25,FY24,consolidated,highlights,net_worth,197837,Rs million,72,five-year financial summary,filed
+FY25,FY25,consolidated,highlights,net_worth,216440,Rs million,72,five-year financial summary,filed
+FY25,FY21,consolidated,highlights,total_assets,185223,Rs million,72,five-year financial summary,filed
+FY25,FY22,consolidated,highlights,total_assets,203940,Rs million,72,five-year financial summary,filed
+FY25,FY23,consolidated,highlights,total_assets,520428,Rs million,72,five-year financial summary,filed
+FY25,FY24,consolidated,highlights,total_assets,560707,Rs million,72,five-year financial summary,filed
+FY25,FY25,consolidated,highlights,total_assets,587973,Rs million,72,five-year financial summary,filed
+FY26,FY26,consolidated,pl,revenue_from_operations,169270,Rs million,347,,filed
+FY26,FY26,consolidated,pl,other_income,3425,Rs million,347,,filed
+FY26,FY26,consolidated,pl,total_income,172695,Rs million,347,,filed
+FY26,FY26,consolidated,pl,cost_of_materials_consumed,52776,Rs million,347,,filed
+FY26,FY26,consolidated,pl,purchases_of_stock_in_trade,13626,Rs million,347,,filed
+FY26,FY26,consolidated,pl,changes_in_inventories,-9495,Rs million,347,,filed
+FY26,FY26,consolidated,pl,employee_benefits_expense,35080,Rs million,347,,filed
+FY26,FY26,consolidated,pl,finance_costs,9903,Rs million,347,,filed
+FY26,FY26,consolidated,pl,depreciation_amortisation,19567,Rs million,347,,filed
+FY26,FY26,consolidated,pl,other_expenses,43867,Rs million,347,,filed
+FY26,FY26,consolidated,pl,exceptional_items,-4029,Rs million,347,exceptional items (net),filed
+FY26,FY26,consolidated,pl,profit_before_tax,4479,Rs million,347,,filed
+FY26,FY26,consolidated,pl,tax_expense,791,Rs million,347,,filed
+FY26,FY26,consolidated,pl,profit_for_the_year,3688,Rs million,347,,filed
+FY26,FY26,consolidated,pl,profit_attributable_to_owners,3856,Rs million,347,,filed
+FY26,FY26,consolidated,pl,profit_attributable_to_nci,-168,Rs million,347,,filed
+FY26,FY26,consolidated,pl,research_development_expense,5515,Rs million,386,"note 28 line item; note 29 gross total 10,958 / net 9,821 on p387",filed
+FY26,FY26,consolidated,pl,eps_basic,2.82,Rs,347,digits garbled in page text; EPS 2.82 also on p006,filed
+FY26,FY26,consolidated,pl,eps_diluted,2.82,Rs,347,,filed
+FY26,FY26,consolidated,bs,property_plant_equipment,94728,Rs million,346,,filed
+FY26,FY26,consolidated,bs,cwip,46127,Rs million,346,,filed
+FY26,FY26,consolidated,bs,goodwill,183775,Rs million,346,,filed
+FY26,FY26,consolidated,bs,other_intangible_assets,80576,Rs million,346,,filed
+FY26,FY26,consolidated,bs,intangibles_under_development,23740,Rs million,346,,filed
+FY26,FY26,consolidated,bs,right_of_use_assets,5780,Rs million,346,,filed
+FY26,FY26,consolidated,bs,inventories,60857,Rs million,346,,filed
+FY26,FY26,consolidated,bs,trade_receivables,59868,Rs million,346,,filed
+FY26,FY26,consolidated,bs,cash_and_cash_equivalents,24165,Rs million,346,,filed
+FY26,FY26,consolidated,bs,other_bank_balances,7771,Rs million,346,bank balances other than cash and cash equivalents,filed
+FY26,FY26,consolidated,bs,current_investments,6898,Rs million,346,financial assets - investments,filed
+FY26,FY26,consolidated,bs,total_current_assets,171798,Rs million,346,,filed
+FY26,FY26,consolidated,bs,total_assets,636506,Rs million,346,,filed
+FY26,FY26,consolidated,bs,equity_share_capital,8105,Rs million,346,,filed
+FY26,FY26,consolidated,bs,other_equity,332213,Rs million,346,,filed
+FY26,FY26,consolidated,bs,equity_attributable_to_owners,340318,Rs million,346,,filed
+FY26,FY26,consolidated,bs,non_controlling_interest,25897,Rs million,346,,filed
+FY26,FY26,consolidated,bs,total_equity,366215,Rs million,346,,filed
+FY26,FY26,consolidated,bs,borrowings_non_current,107463,Rs million,346,,filed
+FY26,FY26,consolidated,bs,borrowings_current,40784,Rs million,346,"financial liabilities - borrowings, current",filed
+FY26,FY26,consolidated,bs,lease_liabilities_non_current,5370,Rs million,346,,filed
+FY26,FY26,consolidated,bs,lease_liabilities_current,724,Rs million,346,,filed
+FY26,FY26,consolidated,bs,total_current_liabilities,140692,Rs million,346,,filed
+FY26,FY26,consolidated,bs,trade_payables_total,67721,Rs million,382,"note 20 total (MSME 1,351 + others 66,370); not printed as total on balance sheet",filed
+FY26,FY26,consolidated,cf,net_cash_from_operating,19940,Rs million,349,,filed
+FY26,FY26,consolidated,cf,net_cash_used_in_investing,-20821,Rs million,349,,filed
+FY26,FY26,consolidated,cf,net_cash_from_financing,-9236,Rs million,350,,filed
+FY26,FY26,consolidated,cf,purchase_of_ppe_and_intangibles,-17979,Rs million,349,"purchase of property, plant and equipment line only; intangibles (1,138) separate line",filed
+FY26,FY26,consolidated,cf,interest_paid,-8654,Rs million,350,,filed
+FY26,FY26,consolidated,cf,dividends_paid,-908,Rs million,349,includes dividend to NCI,filed
+FY26,FY26,consolidated,cf,proceeds_from_borrowings,2664,Rs million,349,proceeds from non-current borrowings,filed
+FY26,FY26,consolidated,cf,repayment_of_borrowings,-27079,Rs million,349,repayment of non-current borrowings,filed
+FY26,FY26,consolidated,cf,proceeds_from_share_issue,85311,Rs million,349,"issuance of share capital, net",filed
+FY26,FY26,consolidated,notes,lease_interest_expense,453,Rs million,385,"interest on lease liabilities, note 26",filed
+FY26,FY26,consolidated,notes,esop_options_outstanding_year_end,60350,number,387,Biocon ESOP Plan 2000 Grant IX only,filed
+FY26,FY26,consolidated,notes,esop_options_outstanding_year_end,3087365,number,388,RSU Plan 2019 (Biocon Biologics RSUs),filed
+FY26,FY26,consolidated,notes,esop_options_outstanding_year_end,655794,number,388,RSU Plan 2020,filed
+FY26,FY26,consolidated,notes,esop_options_outstanding_year_end,3256420,number,389,RSU Plan 2025,filed
+FY26,FY26,consolidated,notes,share_based_payment_expense,1639,Rs million,385,employee benefits expense note 25,filed
+FY26,FY26,standalone,notes,audit_fee_statutory,6,Rs million,315,Holding company statutory audit fee; consolidated shows only 'Payment to auditors' 76 (p386),filed
+FY26,FY26,standalone,notes,audit_fee_other_services,2,Rs million,315,other services (certification fees); QIP-related 28 separate,filed
+FY26,FY26,consolidated,notes,revenue_india,9178,Rs million,414,geographical segment,filed
+FY26,FY26,standalone,notes,ratio_md_pay_to_median_employee,169.50,ratio,219,MD and CEO Siddharth Mittal per annexure; ESOP exercise perquisite excluded,filed
+FY26,FY26,standalone,notes,median_remuneration_increase_pct,4.87,%,219,,filed
+FY26,FY26,standalone,notes,number_of_permanent_employees,3269,number,219,on rolls of the Company,filed
+FY24,FY24,consolidated,bs,trade_payables_total_sum_of_parts,62720,Rs million,308,derived: sum of 2 printed parts; no total is printed,derived
+FY24,FY24,consolidated,cf,purchase_of_ppe_and_intangibles_sum_of_parts,-19316,Rs million,311,derived: sum of 2 printed parts; no total is printed,derived
+FY24,FY24,consolidated,notes,revenue_outside_india_sum_of_parts,131478,Rs million,369,derived: sum of 3 printed parts; no total is printed,derived
+FY26,FY26,consolidated,notes,esop_options_outstanding_year_end_sum_of_parts,7.05993e+06,number,387;388;389,derived: sum of 4 printed parts; no total is printed,derived
+,FY21,consolidated,derived,cfo_to_pat,1.37,ratio,,derived: net_cash_from_operating / profit_for_the_year,derived
+,FY21,consolidated,derived,borrowings_to_total_equity,0.51,ratio,,derived: (borrowings_non_current + borrowings_current) / total_equity; leases excluded,derived
+,FY21,consolidated,derived,receivable_days_on_revenue,76.82,days,,derived: trade_receivables / revenue_from_operations x 365 (year-end balance),derived
+,FY21,consolidated,derived,inventory_days_on_revenue,95.38,days,,"derived: inventories / revenue_from_operations x 365 (year-end balance; on revenue, not cost)",derived
+,FY22,consolidated,derived,cfo_to_pat,1.52,ratio,,derived: net_cash_from_operating / profit_for_the_year,derived
+,FY22,consolidated,derived,borrowings_to_total_equity,0.52,ratio,,derived: (borrowings_non_current + borrowings_current) / total_equity; leases excluded,derived
+,FY22,consolidated,derived,receivable_days_on_revenue,91.79,days,,derived: trade_receivables / revenue_from_operations x 365 (year-end balance),derived
+,FY22,consolidated,derived,inventory_days_on_revenue,102.50,days,,"derived: inventories / revenue_from_operations x 365 (year-end balance; on revenue, not cost)",derived
+,FY23,consolidated,derived,cfo_to_pat,2.88,ratio,,derived: net_cash_from_operating / profit_for_the_year,derived
+,FY23,consolidated,derived,borrowings_to_total_equity,0.79,ratio,,derived: (borrowings_non_current + borrowings_current) / total_equity; leases excluded,derived
+,FY23,consolidated,derived,receivable_days_on_revenue,116.72,days,,derived: trade_receivables / revenue_from_operations x 365 (year-end balance),derived
+,FY23,consolidated,derived,inventory_days_on_revenue,138.62,days,,"derived: inventories / revenue_from_operations x 365 (year-end balance; on revenue, not cost)",derived
+,FY24,consolidated,derived,cfo_to_pat,2.28,ratio,,derived: net_cash_from_operating / profit_for_the_year,derived
+,FY24,consolidated,derived,borrowings_to_total_equity,0.62,ratio,,derived: (borrowings_non_current + borrowings_current) / total_equity; leases excluded,derived
+,FY24,consolidated,derived,receivable_days_on_revenue,154.12,days,,derived: trade_receivables / revenue_from_operations x 365 (year-end balance),derived
+,FY24,consolidated,derived,inventory_days_on_revenue,122.29,days,,"derived: inventories / revenue_from_operations x 365 (year-end balance; on revenue, not cost)",derived
+,FY25,consolidated,derived,cfo_to_pat,2.84,ratio,,derived: net_cash_from_operating / profit_for_the_year,derived
+,FY25,consolidated,derived,borrowings_to_total_equity,0.64,ratio,,derived: (borrowings_non_current + borrowings_current) / total_equity; leases excluded,derived
+,FY25,consolidated,derived,receivable_days_on_revenue,131.25,days,,derived: trade_receivables / revenue_from_operations x 365 (year-end balance),derived
+,FY25,consolidated,derived,inventory_days_on_revenue,117.93,days,,"derived: inventories / revenue_from_operations x 365 (year-end balance; on revenue, not cost)",derived
+,FY26,consolidated,derived,cfo_to_pat,5.41,ratio,,derived: net_cash_from_operating / profit_for_the_year,derived
+,FY26,consolidated,derived,borrowings_to_total_equity,0.40,ratio,,derived: (borrowings_non_current + borrowings_current) / total_equity; leases excluded,derived
+,FY26,consolidated,derived,receivable_days_on_revenue,129.09,days,,derived: trade_receivables / revenue_from_operations x 365 (year-end balance),derived
+,FY26,consolidated,derived,inventory_days_on_revenue,131.23,days,,"derived: inventories / revenue_from_operations x 365 (year-end balance; on revenue, not cost)",derived
