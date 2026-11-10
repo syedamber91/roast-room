@@ -1,0 +1,138 @@
+# Sources: Filings Coach
+
+131 documents read in full or in part (2,447,433 words, estimated from characters), plus 517 SOIC course notes (private, licensed; paraphrased only, never quoted). Every document is free to read from the URL below; full page text, extracted checks and the trace from each framework step to its exact page live in the private repo learning-vault-invest, folder filings-coach/.
+
+Format: id | title | url | date | words
+
+- SOIC | SOIC course notes, 459 concept and 58 topic notes | private course notes | 2026-07 | n/a
+- bagehot-lombard-street | Lombard Street: A Description of the Money Market | https://www.gutenberg.org/ebooks/4359 | 1873 | 75020
+- bakshi-2010-the-alchemy-of-finance-at-reliable-engin | Fundoo Professor: The Alchemy of Finance at Reliable Engineers | https://fundooprofessor.wordpress.com/2010/03/16/the-alchemy-of-finance-at-reliable-engineers/ | 2010 | 6389
+- bakshi-2011-vantage-point | Fundoo Professor: Vantage Point: 8 Points of View For Evaluating a Stock | https://fundooprofessor.wordpress.com/2011/04/24/vantage_point/ | 2011 | 6973
+- bakshi-2012-flirting-with-floats-part-i | Fundoo Professor: Flirting with Floats: Part I | https://fundooprofessor.wordpress.com/2012/07/09/flirting-with-floats-part-i/ | 2012 | 1835
+- bakshi-2012-red-queen | Fundoo Professor: Run Baby Run, Says the Red Queen, Or You Will Go Nowhere | https://fundooprofessor.wordpress.com/2012/09/16/red_queen/ | 2012 | 1785
+- bakshi-2012-ultimatum | Fundoo Professor: So, Ultimately for Deccan Chronicle, it Boils Down to an Ultimatum | https://fundooprofessor.wordpress.com/2012/10/13/ultimatum/ | 2012 | 488
+- bakshi-2012-when-a-dollar-may-not-be-a-dollar | Fundoo Professor: When a Dollar May Not be a Dollar: The Value of Surplus Cash | https://fundooprofessor.wordpress.com/2012/07/01/when-a-dollar-may-not-be-a-dollar/ | 2012 | 750
+- bakshi-2013-those-warehouse-receipts-again-and-what- | Fundoo Professor: Those Warehouse Receipts Again and What to Do About Them? | https://fundooprofessor.wordpress.com/2013/08/02/those-warehouse-receipts-again-and-what-to-do-about-them/ | 2013 | 1174
+- bakshi-2015-seven-patterns | Fundoo Professor: Seven Patterns of Inefficiency in Pricing of Quality Businesses | https://fundooprofessor.wordpress.com/2015/05/17/seven-patterns/ | 2015 | 522
+- bakshi-2015-triumph-disaster | Fundoo Professor: Meeting With Triumph and Disaster: Some Lessons | https://fundooprofessor.wordpress.com/2015/09/19/triumph_disaster/ | 2015 | 3443
+- bakshi-2015-what-is-staying-power | Fundoo Professor: What is Staying Power? | https://fundooprofessor.wordpress.com/2015/06/11/what-is-staying-power/ | 2015 | 952
+- bakshi-2015-why-you-shouldnt-invest-in-a-business-th | Fundoo Professor: Why You Shouldn’t Invest in a Business That Even a Fool Can Run | https://fundooprofessor.wordpress.com/2015/03/20/why-you-shouldnt-invest-in-a-business-that-even-a-fool-can-run/ | 2015 | 1960
+- bakshi-2016-risk-seeking | Fundoo Professor: The Eventual Consequences of Risk Seeking or Risk Blind Behavior | https://fundooprofessor.wordpress.com/2016/02/24/risk-seeking/ | 2016 | 6630
+- bakshi-2020-mini-lecture-on-evaluating-operating-ski | Fundoo Professor: Mini Lecture on Evaluating Operating Skills of Business Managers | https://fundooprofessor.wordpress.com/2020/09/15/mini-lecture-on-evaluating-operating-skills-of-business-managers/ | 2020 | 1327
+- bakshi-2020-the-relevance-of-price-book | Fundoo Professor: The Relevance of Price/Book… | https://fundooprofessor.wordpress.com/2020/10/06/the-relevance-of-price-book/ | 2020 | 2468
+- brk-letter-1977 | Berkshire Hathaway Chairman's Letter 1977 | https://www.berkshirehathaway.com/letters/1977.html | 1977 | 3416
+- brk-letter-1978 | Berkshire Hathaway Chairman's Letter 1978 | https://www.berkshirehathaway.com/letters/1978.html | 1978 | 4811
+- brk-letter-1979 | Berkshire Hathaway Chairman's Letter 1979 | https://www.berkshirehathaway.com/letters/1979.html | 1979 | 7101
+- brk-letter-1980 | Berkshire Hathaway Chairman's Letter 1980 | https://www.berkshirehathaway.com/letters/1980.html | 1980 | 8142
+- brk-letter-1981 | Berkshire Hathaway Chairman's Letter 1981 | https://www.berkshirehathaway.com/letters/1981.html | 1981 | 7389
+- brk-letter-1982 | Berkshire Hathaway Chairman's Letter 1982 | https://www.berkshirehathaway.com/letters/1982.html | 1982 | 8637
+- brk-letter-1983 | Berkshire Hathaway Chairman's Letter 1983 | https://www.berkshirehathaway.com/letters/1983.html | 1983 | 12127
+- brk-letter-1984 | Berkshire Hathaway Chairman's Letter 1984 | https://www.berkshirehathaway.com/letters/1984.html | 1984 | 13571
+- brk-letter-1985 | Berkshire Hathaway Chairman's Letter 1985 | https://www.berkshirehathaway.com/letters/1985.html | 1985 | 14442
+- brk-letter-1986 | Berkshire Hathaway Chairman's Letter 1986 | https://www.berkshirehathaway.com/letters/1986.html | 1986 | 14489
+- brk-letter-1987 | Berkshire Hathaway Chairman's Letter 1987 | https://www.berkshirehathaway.com/letters/1987.html | 1987 | 13210
+- brk-letter-1988 | Berkshire Hathaway Chairman's Letter 1988 | https://www.berkshirehathaway.com/letters/1988.html | 1988 | 12384
+- brk-letter-1989 | Berkshire Hathaway Chairman's Letter 1989 | https://www.berkshirehathaway.com/letters/1989.html | 1989 | 15032
+- brk-letter-1990 | Berkshire Hathaway Chairman's Letter 1990 | https://www.berkshirehathaway.com/letters/1990.html | 1990 | 15996
+- brk-letter-1991 | Berkshire Hathaway Chairman's Letter 1991 | https://www.berkshirehathaway.com/letters/1991.html | 1991 | 9629
+- brk-letter-1992 | Berkshire Hathaway Chairman's Letter 1992 | https://www.berkshirehathaway.com/letters/1992.html | 1992 | 11805
+- brk-letter-1993 | Berkshire Hathaway Chairman's Letter 1993 | https://www.berkshirehathaway.com/letters/1993.html | 1993 | 11578
+- brk-letter-1994 | Berkshire Hathaway Chairman's Letter 1994 | https://www.berkshirehathaway.com/letters/1994.html | 1994 | 10031
+- brk-letter-1995 | Berkshire Hathaway Chairman's Letter 1995 | https://www.berkshirehathaway.com/letters/1995.html | 1995 | 12187
+- brk-letter-1996 | Berkshire Hathaway Chairman's Letter 1996 | https://www.berkshirehathaway.com/letters/1996.html | 1996 | 12241
+- brk-letter-1997 | Berkshire Hathaway Chairman's Letter 1997 | https://www.berkshirehathaway.com/letters/1997.html | 1997 | 11817
+- brk-letter-1998 | Berkshire Hathaway Chairman's Letter 1998 | https://www.berkshirehathaway.com/letters/1998pdf.pdf | 1998 | 11619
+- brk-letter-1999 | Berkshire Hathaway Chairman's Letter 1999 | https://www.berkshirehathaway.com/letters/final1999pdf.pdf | 1999 | 12596
+- brk-letter-2000 | Berkshire Hathaway Chairman's Letter 2000 | https://www.berkshirehathaway.com/letters/2000pdf.pdf | 2000 | 13874
+- brk-letter-2001 | Berkshire Hathaway Chairman's Letter 2001 | https://www.berkshirehathaway.com/letters/2001pdf.pdf | 2001 | 12974
+- brk-letter-2002 | Berkshire Hathaway Chairman's Letter 2002 | https://www.berkshirehathaway.com/letters/2002pdf.pdf | 2002 | 15461
+- brk-letter-2003 | Berkshire Hathaway Chairman's Letter 2003 | https://www.berkshirehathaway.com/letters/2003ltr.pdf | 2003 | 14520
+- brk-letter-2004 | Berkshire Hathaway Chairman's Letter 2004 | https://www.berkshirehathaway.com/letters/2004ltr.pdf | 2004 | 16731
+- brk-letter-2005 | Berkshire Hathaway Chairman's Letter 2005 | https://www.berkshirehathaway.com/letters/2005ltr.pdf | 2005 | 14902
+- brk-letter-2006 | Berkshire Hathaway Chairman's Letter 2006 | https://www.berkshirehathaway.com/letters/2006ltr.pdf | 2006 | 15636
+- brk-letter-2007 | Berkshire Hathaway Chairman's Letter 2007 | https://www.berkshirehathaway.com/letters/2007ltr.pdf | 2007 | 13342
+- brk-letter-2008 | Berkshire Hathaway Chairman's Letter 2008 | https://www.berkshirehathaway.com/letters/2008ltr.pdf | 2008 | 14138
+- brk-letter-2009 | Berkshire Hathaway Chairman's Letter 2009 | https://www.berkshirehathaway.com/letters/2009ltr.pdf | 2009 | 12107
+- brk-letter-2010 | Berkshire Hathaway Chairman's Letter 2010 | https://www.berkshirehathaway.com/letters/2010ltr.pdf | 2010 | 16771
+- brk-letter-2011 | Berkshire Hathaway Chairman's Letter 2011 | https://www.berkshirehathaway.com/letters/2011ltr.pdf | 2011 | 14792
+- brk-letter-2012 | Berkshire Hathaway Chairman's Letter 2012 | https://www.berkshirehathaway.com/letters/2012ltr.pdf | 2012 | 14858
+- brk-letter-2013 | Berkshire Hathaway Chairman's Letter 2013 | https://www.berkshirehathaway.com/letters/2013ltr.pdf | 2013 | 14184
+- brk-letter-2014 | Berkshire Hathaway Chairman's Letter 2014 | https://www.berkshirehathaway.com/letters/2014ltr.pdf | 2014 | 24920
+- brk-letter-2015 | Berkshire Hathaway Chairman's Letter 2015 | https://www.berkshirehathaway.com/letters/2015ltr.pdf | 2015 | 17864
+- brk-letter-2016 | Berkshire Hathaway Chairman's Letter 2016 | https://www.berkshirehathaway.com/letters/2016ltr.pdf | 2016 | 17311
+- brk-letter-2017 | Berkshire Hathaway Chairman's Letter 2017 | https://www.berkshirehathaway.com/letters/2017ltr.pdf | 2017 | 9723
+- brk-letter-2018 | Berkshire Hathaway Chairman's Letter 2018 | https://www.berkshirehathaway.com/letters/2018ltr.pdf | 2018 | 7991
+- brk-letter-2019 | Berkshire Hathaway Chairman's Letter 2019 | https://www.berkshirehathaway.com/letters/2019ltr.pdf | 2019 | 8128
+- brk-letter-2020 | Berkshire Hathaway Chairman's Letter 2020 | https://www.berkshirehathaway.com/letters/2020ltr.pdf | 2020 | 8131
+- brk-letter-2021 | Berkshire Hathaway Chairman's Letter 2021 | https://www.berkshirehathaway.com/letters/2021ltr.pdf | 2021 | 6067
+- brk-letter-2022 | Berkshire Hathaway Chairman's Letter 2022 | https://www.berkshirehathaway.com/letters/2022ltr.pdf | 2022 | 4439
+- brk-letter-2023 | Berkshire Hathaway Chairman's Letter 2023 | https://www.berkshirehathaway.com/letters/2023ltr.pdf | 2023 | 7713
+- brk-letter-2024 | Berkshire Hathaway Chairman's Letter 2024 | https://www.berkshirehathaway.com/letters/2024ltr.pdf | 2024 | 6254
+- brk-owners-manual | An Owner's Manual (Berkshire Hathaway) | https://www.berkshirehathaway.com/ownman.pdf | 1999 | 4907
+- butler-successful-stock-speculation | Successful Stock Speculation | https://www.gutenberg.org/ebooks/26841 | 1922 | 14412
+- clews-fifty-years-wall-street | Fifty Years in Wall Street | https://www.gutenberg.org/ebooks/70377 | 1908 | 352447
+- crump-theory-stock-exchange-speculation | The Theory of Stock Exchange Speculation | https://www.gutenberg.org/ebooks/59518 | 1887 | 41197
+- damodaran-cashvaluation | The Value of Cash and Cross Holdings | https://www.stern.nyu.edu/~adamodar/pdfiles/papers/cashvaluation.pdf | n/a | 18685
+- damodaran-commodity | Valuing Commodity and Cyclical Companies | https://www.stern.nyu.edu/~adamodar/pdfiles/papers/commodity.pdf | n/a | 13274
+- damodaran-esops | Employee Stock Options, ESOPs, Restricted Stock and Value | https://www.stern.nyu.edu/~adamodar/pdfiles/papers/esops.pdf | n/a | 18325
+- damodaran-finfirm09 | Valuing Financial Service Firms (2009) | https://www.stern.nyu.edu/~adamodar/pdfiles/papers/finfirm09.pdf | n/a | 12234
+- damodaran-growthorigins | The Origins of Growth | https://www.stern.nyu.edu/~adamodar/pdfiles/papers/growthorigins.pdf | n/a | 19443
+- damodaran-intangibles | Valuing Companies with Intangible Assets | https://www.stern.nyu.edu/~adamodar/pdfiles/papers/intangibles.pdf | n/a | 12539
+- damodaran-multiples | Valuation Multiples: First Principles | https://www.stern.nyu.edu/~adamodar/pdfiles/papers/multiples.pdf | n/a | 6826
+- damodaran-newdistress | Valuing Declining and Distressed Companies | https://www.stern.nyu.edu/~adamodar/pdfiles/papers/NewDistress.pdf | n/a | 25483
+- damodaran-newlease | Leases, Debt and Value | https://www.stern.nyu.edu/~adamodar/pdfiles/papers/newlease.pdf | n/a | 20130
+- damodaran-oplev | Dealing with Operating Leases | https://www.stern.nyu.edu/~adamodar/pdfiles/papers/oplev.pdf | n/a | 5875
+- damodaran-r-d | Dealing with R&D Expenses | https://www.stern.nyu.edu/~adamodar/pdfiles/papers/R&D.pdf | n/a | 5479
+- damodaran-returnmeasures | Measuring Returns: ROE, ROC and ROIC | https://www.stern.nyu.edu/~adamodar/pdfiles/papers/returnmeasures.pdf | n/a | 22662
+- damodaran-transparency | Transparency, Complexity and Value (complexity scoresheet paper) | https://www.stern.nyu.edu/~adamodar/pdfiles/papers/Transparency.pdf | n/a | 15848
+- damodaran-younggrowth | Valuing Young and Start-up Companies | https://www.stern.nyu.edu/~adamodar/pdfiles/papers/younggrowth.pdf | n/a | 24289
+- duguid-stock-exchange | The Stock Exchange | https://www.gutenberg.org/ebooks/59042 | 1913 | 34522
+- hamilton-stock-market-barometer | The Stock Market Barometer (OCR text) | https://archive.org/details/stockmarketbarom00hamiiala | 1922 | 104363
+- harper-psychology-of-speculation | The Psychology of Speculation | https://www.gutenberg.org/ebooks/73647 | 1926 | 17975
+- investorgov-how-to-read-10k | How to Read a 10-K (investor.gov) | https://www.investor.gov/introduction-investing/getting-started/researching-investments/how-read-10-k | n/a | 326
+- investorgov-how-to-read-10k-10q-bulletin | How to Read a 10-K/10-Q (investor.gov bulletin) | https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/how-read | n/a | 2344
+- investorgov-how-to-read-8k | How to Read an 8-K (investor.gov) | https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/how-read-8 | n/a | 2767
+- investorgov-using-edgar | Using EDGAR to Research Investments (investor.gov) | https://www.investor.gov/introduction-investing/getting-started/researching-investments/using-edgar-research-investments | n/a | 3028
+- lefevre-reminiscences-stock-operator | Reminiscences of a Stock Operator | https://www.gutenberg.org/ebooks/60979 | 1923 | 97210
+- lefevre-wall-street-stories | Wall Street Stories | https://www.gutenberg.org/ebooks/54130 | 1901 | 40661
+- mackay-popular-delusions | Memoirs of Extraordinary Popular Delusions and the Madness of Crowds | https://www.gutenberg.org/ebooks/24518 | 1841 | 272847
+- marks-memo-2000-bubble | Oaktree memo: Bubble | https://www.oaktreecapital.com/docs/default-source/memos/2000-01-02-bubble.pdf | 2000 | 6114
+- marks-memo-2000-irrational-exuberance | Oaktree memo: Irrational Exuberance | https://www.oaktreecapital.com/docs/default-source/memos/2000-05-01-irrational-exuberance.pdf | 2000 | 4156
+- marks-memo-2002-learning-from-enron | Oaktree memo: Learning from Enron | https://www.oaktreecapital.com/docs/default-source/memos/2002-03-14-learning-from-enron.pdf | 2002 | 9578
+- marks-memo-2002-returns-how-they-get-that-way | Oaktree memo: Returns and How They Get That Way | https://www.oaktreecapital.com/docs/default-source/memos/2002-11-11-returns-and-how-they-get-that-way.pdf | 2002 | 6217
+- marks-memo-2003-the-most-important-thing | Oaktree memo: The Most Important Thing | https://www.oaktreecapital.com/docs/default-source/memos/2003-07-01-the-most-important-thing.pdf | 2003 | 5997
+- marks-memo-2005-hindsight-first | Oaktree memo: Hindsight First, Please | https://www.oaktreecapital.com/docs/default-source/memos/2005-10-17-hindsight-first-please-or-what-where-they-thinking.pdf | 2005 | 6133
+- marks-memo-2006-dare-to-be-great | Oaktree memo: Dare to Be Great | https://www.oaktreecapital.com/docs/default-source/memos/2006-09-07-dare-to-be-great.pdf | 2006 | 6365
+- marks-memo-2006-risk | Oaktree memo: Risk | https://www.oaktreecapital.com/docs/default-source/memos/2006-01-19-risk.pdf | 2006 | 5725
+- marks-memo-2007-race-to-the-bottom | Oaktree memo: The Race to the Bottom | https://www.oaktreecapital.com/docs/default-source/memos/2007-02-14-the-race-to-the-bottom.pdf | 2007 | 4691
+- marks-memo-2008-nobody-knows | Oaktree memo: Nobody Knows | https://www.oaktreecapital.com/docs/default-source/memos/2008-09-19-nobody-knows.pdf | 2008 | 3196
+- marks-memo-2008-the-aviary | Oaktree memo: The Aviary | https://www.oaktreecapital.com/docs/default-source/memos/2008-05-16-the-aviary.pdf | 2008 | 7486
+- marks-memo-2009-touchstones | Oaktree memo: Touchstones | https://www.oaktreecapital.com/docs/default-source/memos/2009-11-10-touchstones.pdf | 2009 | 6628
+- marks-memo-2010-hemlines | Oaktree memo: Hemlines | https://www.oaktreecapital.com/docs/default-source/memos/2010-09-10-hemlines.pdf | 2010 | 6158
+- marks-memo-2010-warning-flags | Oaktree memo: Warning Flags | https://www.oaktreecapital.com/docs/default-source/memos/2010-05-12-warning-flags.pdf | 2010 | 5499
+- marks-memo-2011-how-quickly-they-forget | Oaktree memo: How Quickly They Forget | https://www.oaktreecapital.com/docs/default-source/memos/2011-05-25-how-quickly-they-forget.pdf | 2011 | 6539
+- marks-memo-2013-role-of-confidence | Oaktree memo: The Role of Confidence | https://www.oaktreecapital.com/docs/default-source/memos/2013-08-05-the-role-of-confidence.pdf | 2013 | 5917
+- marks-memo-2014-dare-to-be-great-ii | Oaktree memo: Dare to Be Great II | https://www.oaktreecapital.com/docs/default-source/memos/2014-04-08-dare-to-be-great-ii.pdf | 2014 | 4798
+- marks-memo-2014-getting-lucky | Oaktree memo: Getting Lucky | https://www.oaktreecapital.com/docs/default-source/memos/2014-01-16-getting-lucky.pdf | 2014 | 7336
+- marks-memo-2014-risk-revisited | Oaktree memo: Risk Revisited | https://www.oaktreecapital.com/docs/default-source/memos/2014-09-03-risk-revisited.pdf | 2014 | 10322
+- marks-memo-2015-risk-revisited-again | Oaktree memo: Risk Revisited Again | https://www.oaktreecapital.com/docs/default-source/memos/2015-06-08-risk-revisited-again.pdf | 2015 | 12670
+- nelson-abc-stock-speculation | The ABC of Stock Speculation (1902/1903 ed., OCR text) | https://archive.org/details/abcofstockspecul00nelsiala | 1903 | 69153
+- safal-30-ideas-margin-of-safety | 30 Ideas from Margin of Safety (Safal Niveshak e-book) | https://safalniveshak.wpenginepowered.com/wp-content/uploads/2013/05/30-Ideas-from-Margin-of-Safety.pdf | 2013 | 8485
+- safal-behavioural-biases | Understanding Behavioural Biases in Finance & Investing (Safal Niveshak e-book) | https://safalniveshak.wpenginepowered.com/wp-content/uploads/2013/11/Understanding-Behavioural-Biases-in-Finance-Investing.pdf | 2013 | 13640
+- safal-post-5-more-reasons-to-read-annual-reports | Safal Niveshak: 5-more-reasons-to-read-annual-reports | https://www.safalniveshak.com/5-more-reasons-to-read-annual-reports/ | n/a | 1804
+- safal-review-annual-report-review-ashok-leyland | Safal Niveshak annual report review: Ashok Leyland FY15 | http://safalniveshak.wpenginepowered.com/wp-content/uploads/2017/08/Ashok-Leyland-AR-FY15-Review.pdf | 2017 | 9427
+- safal-review-annual-report-review-bajaj-auto | Safal Niveshak annual report review: Bajaj Auto FY16 | http://safalniveshak.wpenginepowered.com/wp-content/uploads/2017/08/Bajaj-Auto-AR-FY16-Review.pdf | 2017 | 6385
+- safal-review-annual-report-review-blue-star | Safal Niveshak annual report review: Blue Star FY15 | http://safalniveshak.wpenginepowered.com/wp-content/uploads/2017/08/Blue-Star-AR-FY15-Review.pdf | 2017 | 12069
+- safal-review-annual-report-review-dmart | Safal Niveshak annual report review: D-Mart FY17 | http://safalniveshak.wpenginepowered.com/wp-content/uploads/2017/08/D-Mart-Annual-Report-FY17-Analysis-SafalNiveshak.com_.pdf | 2017 | 4696
+- safal-review-annual-report-review-exide-industries | Safal Niveshak annual report review: Exide FY15 | http://safalniveshak.wpenginepowered.com/wp-content/uploads/2017/08/Exide-AR-FY15-Review.pdf | 2017 | 21647
+- safal-review-annual-report-review-gruh-finance | Safal Niveshak annual report review: Gruh Finance FY15 | http://safalniveshak.wpenginepowered.com/wp-content/uploads/2017/08/Gruh-Finance-AR-FY15-Review.pdf | 2017 | 21635
+- safal-review-annual-report-review-indian-hotels | Safal Niveshak annual report review: Indian Hotels FY15 | http://safalniveshak.wpenginepowered.com/wp-content/uploads/2017/08/Indian-Hotels-AR-FY15-Review.pdf | 2017 | 17111
+- safal-review-annual-report-review-info-edge | Safal Niveshak annual report review: Info Edge FY17 | http://safalniveshak.wpenginepowered.com/wp-content/uploads/2017/09/Info-Edge-AR-FY17-Review-SafalNiveshak.com_.pdf | 2017 | 13966
+- safal-review-annual-report-review-symphony | Safal Niveshak annual report review: Symphony FY17 | http://safalniveshak.wpenginepowered.com/wp-content/uploads/2017/09/Symphony-AR-FY17-Review.pdf | 2017 | 8840
+- sebi-beginners-guide-share-debenture-holders | Beginners Guide: Share and Debenture Holders (SEBI) | https://investor.sebi.gov.in/pdf/reference-material/sharedebentureholder.pdf | n/a | 14531
+- sebi-financial-education-booklet-en | SEBI Financial Education Booklet (English) | https://investor.sebi.gov.in/pdf/downloadable-documents/Financial%20Education%20Booklet%20-%20English.pdf | 2021 | 22141
+- sebi-investor-reading-material | SEBI Investor Education Reading Material (English) | https://investor.sebi.gov.in/pdf/downloadable-documents/reading-mat-eng.pdf | n/a | 12614
+- sebi-workshop-material | SEBI Financial Education Workshop material | https://investor.sebi.gov.in/pdf/downloadable-documents/Workshop.pdf | n/a | 1918
+- selden-psychology-stock-market | Psychology of the Stock Market | https://www.gutenberg.org/ebooks/75570 | 1912 | 17786
+- smith-common-stocks-long-term | Common Stocks as Long Term Investments (OCR text) | https://archive.org/details/commonstocksaslo0000edga | 1924 | 31260
+- van-antwerp-stock-exchange-from-within | The Stock Exchange from Within | https://www.gutenberg.org/ebooks/60082 | 1913 | 107905
