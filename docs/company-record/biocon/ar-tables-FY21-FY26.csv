@@ -504,3 +504,11 @@ FY26,FY26,consolidated,notes,esop_options_sum_of_four_plans_mixed_entities,7.059
 ,FY26,consolidated,derived,borrowings_to_total_equity,0.40,ratio,,derived: (borrowings_non_current + borrowings_current) / total_equity; leases excluded,derived
 ,FY26,consolidated,derived,receivable_days_on_revenue,129.09,days,,derived: trade_receivables / revenue_from_operations x 365 (year-end balance),derived
 ,FY26,consolidated,derived,inventory_days_on_revenue,131.23,days,,"derived: inventories / revenue_from_operations x 365 (year-end balance; on revenue, not cost)",derived
+FY22,FY21,consolidated,pl,share_of_loss_of_jv_and_associates,-794,Rs million,106,added 2026-11-10; checked on the page; same figure as the highlights row,filed
+FY22,FY22,consolidated,pl,share_of_loss_of_jv_and_associates,-2069,Rs million,106,added 2026-11-10; checked on the page; same figure as the highlights row,filed
+FY23,FY23,consolidated,pl,share_of_loss_of_jv_and_associates,-1670,Rs million,184,"added 2026-11-10; checked on the page; same figure as the highlights row; FY24 report prints the FY23 comparative as (1,670)",filed
+FY24,FY24,consolidated,pl,share_of_loss_of_jv_and_associates,-842,Rs million,309,added 2026-11-10; checked on the page; printed (842),filed
+FY25,FY25,consolidated,pl,share_of_loss_of_jv_and_associates,0,Rs million,349,added 2026-11-10; checked on the page; printed as a dash (nil),filed
+FY26,FY26,consolidated,pl,share_of_loss_of_jv_and_associates,0,Rs million,347,added 2026-11-10; checked on the page; printed as a dash (nil),filed
+FY25,FY25,consolidated,cf,purchase_of_intangible_assets,-2067,Rs million,351,"added 2026-11-10; checked on the page; printed (2,067)",filed
+FY26,FY26,consolidated,cf,purchase_of_intangible_assets,-1138,Rs million,349,"added 2026-11-10; checked on the page; printed (1,138)",filed

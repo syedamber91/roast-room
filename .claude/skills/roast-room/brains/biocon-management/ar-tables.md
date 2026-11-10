@@ -1,6 +1,6 @@
 # Annual-report tables: BIOCON management, FY21 to FY26
 
-Read from the five annual reports' own pages (FY2021-22 to FY2025-26; FY21 comes from the FY2021-22 report's prior-year column). Each figure is the current-year column of that year's report, as first filed, and carries its source id and PDF page, e.g. `7716 (S041 p265)`. Every filed figure was checked to appear on its cited page (477 of 477). Rs million unless the unit column says otherwise. Full rows, including notes on each choice: `docs/company-record/biocon/ar-tables-FY21-FY26.csv`.
+Read from the five annual reports' own pages (FY2021-22 to FY2025-26; FY21 comes from the FY2021-22 report's prior-year column). Each figure is the current-year column of that year's report, as first filed, and carries its source id and PDF page, e.g. `7716 (S041 p265)`. Every filed figure was checked to appear on its cited page (477 of 477), and the 8 rows added on 2026-11-10 (share of loss of joint ventures and associates FY21-FY26; intangibles purchased FY25 and FY26) were each checked on their page. Rs million unless the unit column says otherwise. Full rows, including notes on each choice: `docs/company-record/biocon/ar-tables-FY21-FY26.csv`.
 
 Read before using:
 - Later reports can restate a year; this table keeps each year as first filed. FY25 revenue is 152,617 here (the FY2024-25 report's own column), which is the basis the FY2025-26 report also prints.
@@ -27,6 +27,7 @@ Read before using:
 | profit_attributable_to_nci | consolidated | Rs million | 1057 (S041 p265) | 1232 (S041 p265) | 1803 (S042 p363) | 2753 (S043 p309) | 4161 (S044 p349) | -168 (S026 p347) |
 | profit_attributable_to_owners | consolidated | Rs million | 7405 (S041 p265) | 6484 (S041 p265) | 4627 (S042 p363) | 10225 (S043 p309) | 10133 (S044 p349) | 3856 (S026 p347) |
 | profit_before_tax | consolidated | Rs million | 10677 (S041 p265) | 9831 (S041 p265) | 8971 (S042 p363) | 15252 (S043 p309) | 18866 (S044 p349) | 4479 (S026 p347) |
+| share_of_loss_of_jv_and_associates | consolidated | Rs million | -794 (S041 p106) | -2069 (S041 p106) | -1670 (S042 p184) | -842 (S043 p309) | 0 (S044 p349) | 0 (S026 p347) |
 | profit_for_the_year | consolidated | Rs million | 8462 (S041 p265) | 7716 (S041 p265) | 6430 (S042 p363) | 12978 (S043 p309) | 14294 (S044 p349) | 3688 (S026 p347) |
 | purchases_of_stock_in_trade | consolidated | Rs million | 1036 (S041 p265) | 1611 (S041 p265) | 6261 (S042 p363) | 6827 (S043 p309) | 6266 (S044 p349) | 13626 (S026 p347) |
 | research_development_expense | consolidated | Rs million | 4597 (S041 p308) | 6121 (S041 p308) | 6779 (S042 p408) | 6071 (S043 p343) | 5888 (S044 p386) | 5515 (S026 p386) |
@@ -78,7 +79,7 @@ Read before using:
 | proceeds_from_borrowings | consolidated | Rs million | 13553 (S041 p268) | 10701 (S041 p268) | 109399 (S042 p366) | 5718 (S043 p311) | 96582 (S044 p351) | 2664 (S026 p349) |
 | proceeds_from_share_issue | consolidated | Rs million | 407 (S041 p267) | 428 (S041 p267) | 12368 (S042 p366) | 307 (S043 p311) | 99 (S044 p351) | 85311 (S026 p349) |
 | purchase_of_ppe_and_intangibles | consolidated | Rs million | -15169 (S041 p267) | -16978 (S041 p267) | -15960 (S042 p366) | -16805 (S043 p311) | -21366 (S044 p351) | -17979 (S026 p349) |
-| purchase_of_intangible_assets | consolidated | Rs million |  |  |  | -2511 (S043 p311) |  |  |
+| purchase_of_intangible_assets | consolidated | Rs million |  |  |  | -2511 (S043 p311) | -2067 (S044 p351) | -1138 (S026 p349) |
 | purchase_of_ppe_and_intangibles_sum_of_parts | consolidated | Rs million |  |  |  | -19316 |  |  |
 | repayment_of_borrowings | consolidated | Rs million | -7336 (S041 p268) | -10949 (S041 p268) | -281 (S042 p366) | -27678 (S043 p311) | -97699 (S044 p351) | -27079 (S026 p349) |
 
