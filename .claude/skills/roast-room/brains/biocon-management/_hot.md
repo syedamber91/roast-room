@@ -25,6 +25,8 @@ Nothing here is live. Last close: week ending 2026-10-23 (323.50). Calls run to 
 
 Six years of annual tables, FY21 to FY26 (P&L incl. EPS, balance sheet, cash flow, lease, ESOP, audit fee, geography, remuneration annexure), each figure with source id and PDF page: ar-tables.md.
 
+Who holds the shares, 25 filings 2021-09 to 2026-09 (FII, DII, mutual funds, insurers, retail, every named holder above 1%): shareholding-detail.md (S045). Insider trades under SEBI PIT, 206 disclosures, only to 2024-03-28 because NSE lists none later: insider-trades.md (S046). Credit ratings, 54 actions by CRISIL, ICRA and India Ratings on Biocon Limited plus S&P and Fitch on Biocon Biologics, with the agencies' triggers paraphrased and page-referenced: ratings.md (S047). Bulk and block deals: not read (both exchanges refused the request).
+
 Quarter ended 2026-06-30 unless stated; year-earlier figure in brackets.
 
 - Revenue from operations 43,360, operating margin 19.5% (39,419; 19.0%).

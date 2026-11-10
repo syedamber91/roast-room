@@ -3,6 +3,16 @@
 Refreshed 2026-10-25; the annual report for the year ended 2026-03-31 was added on 2026-10-29 (first section below). The calls (last held 2026-08-06), the decks (last filed with that call) and the filed quarters (last ended 2026-06-30) did not change: no results call has been held since. Three things moved: the annual report (below), the price series and the exchange announcements.
 
 
+## Shareholding detail, insider trades and credit ratings added (2026-11-10)
+
+Three new files, all filings and none management speech, so no quote is taken from any of them.
+
+- **shareholding-detail.md (S045)**: the same 25 shareholding XBRL files as shareholding.md, read for who holds the public's shares. Mutual funds went from 2.58% of all shares (30-SEP-2021) to 22.08% (30-SEP-2026), most of the rise after 31-MAR-2025 (8.77%). Foreign portfolio investors went from 15.79% (30-SEP-2022, the first filing with the split) to 5.63% (31-MAR-2024) and 8.64% (30-SEP-2026). Mylan Inc. is named at 6.10% (05-JAN-2026) to 5.64% (30-JUN-2026) and is not named in the 30-SEP-2026 filing; the filing names only holders above 1%, so it does not say whether Mylan sold all or fell below 1%. Filings before 30-SEP-2022 use an older schema without the domestic and foreign split.
+- **insider-trades.md (S046)**: 206 insider disclosures, trades 2022-01-13 to 2024-03-28. Every promoter and promoter-group trade in that window is an inter-se transfer inside the group; there is no promoter market sale or pledge in it. NSE lists nothing for BIOCON after 2024-03-28, so the last two and a half years are not known, not empty.
+- **ratings.md (S047)**: 54 rating actions in 22 filings. Biocon Limited is rated AA+ (long term) and A1+ (short term) by CRISIL, ICRA and India Ratings throughout; CRISIL and ICRA put it on watch with developing implications in March 2022, CRISIL removed it in November 2022 and ICRA by August 2023. On the subsidiary, S&P moved Biocon Biologics from BB to CreditWatch Positive (December 2025) to BB+ Stable (January 2026), and Fitch moved its outlook from Stable to Positive at BB- (February 2026), both as stated in Biocon's press releases. CRISIL's November 2024 rationale names its downgrade triggers, including net debt to EBITDA staying above 3.5 to 3.6 times (S047, BIOCON_26112024162227_SIGNEDIntimationCRISIL, p005).
+
+Not read: bulk and block deals (NSE's and BSE's pages refused the request from a cloud session), and the insider disclosures after 2024-03-28.
+
 ## Call questions and answer states added (2026-10-30)
 
 New file qa-states.md: for each of the 14 calls (S001 to S014), the analysts' questions cut by code from the call transcript, each marked answered, partial, deflected, declined or deferred by a model, with the analyst's words and management's evidence copied verbatim (code checked both). 659 rows: 311 answered, 202 partial, 56 deflected, 30 declined, 18 deferred, 32 with no management turn after, 10 not usable. A second model, blind to the first, agreed on 23 of 30 sampled items against a bar of 24 fixed before judging, so the states are shown as a reading. The file copies only the 306 items that were not fully answered; the answered ones are counted. The call text the seat quotes as management (S001 to S014) is unchanged: this file adds the analyst's side as the analyst's.
