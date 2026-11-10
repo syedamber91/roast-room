@@ -23,6 +23,10 @@ New file derived-metrics.md (S049): margins, growth, ROE and ROCE, DuPont, lever
 
 ar-tables.md also gained: each printed part of a split line on its own row (FY24 payables 958 + 61,762 = 62,720; FY24 capex and intangibles; FY24 revenue by region; FY26 option plans), share of loss of joint ventures and associates FY21 to FY26 and intangibles purchased FY25 and FY26, each checked on its page. An earlier version showed only the first part under the total's name.
 
+## Promoter share-count rise of 57,119 explained (2026-11-10)
+
+The promoter group's share count rose from 728,024,176 to 728,081,295 (+57,119) between the 31-MAR-2026 and 29-JUN-2026 patterns. It is not a trade. It is the allotment to promoter-group member Ravi Rasendra Mazumdar in the 29-JUN-2026 Biocon Biologics share swap: he exchanged 75,000 Biocon Biologics shares for 57,119 Company shares (the allotment filing's allottee list, line 88), and his holding moved from 5,301,321 to 5,358,440, exactly +57,119. The promoters' other holdings are unchanged from September 2023 to September 2026. insider-trades.md now says so.
+
 ## Unresolved discrepancy in votes.md (found 2026-11-10, not fixed)
 
 For the postal ballot of 2026-06-08, resolutions 1, 3 and 5 are flagged "promoter group interested: Yes", yet the same rows show 721,793,134 promoter votes polled and a total polled (for example 1,192,359,030 on resolution 1) that includes them. votes.md's header says an interested promoter group's votes polled read 0, which is true of earlier meetings but not here. Either the flag means something other than "abstains" for this meeting, or the promoter group did vote; the voting-results annex itself was not re-read. Until it is, do not quote the percentage against on those three resolutions as "the public's alone". Found by a reader checking the pay resolution (Level 5, row L5-91).
