@@ -1,0 +1,417 @@
+group,metric,period,value,unit,formula,inputs
+Profit rebuilt,pbt_before_jv_and_exceptional,FY21,11345.0,Rs million,profit_before_tax - exceptional_items - share_of_loss_of_jv_and_associates,"pl profit_before_tax, exceptional_items, share_of_loss_of_jv_and_associates"
+Profit rebuilt,ebitda_company_basis,FY21,19073.0,Rs million,pbt_before_jv_and_exceptional + finance_costs + depreciation_amortisation (includes other income),"pl finance_costs, depreciation_amortisation + line above"
+Profit rebuilt,ebitda_without_other_income,FY21,16528.0,Rs million,ebitda_company_basis - other_income,"line above, pl other_income"
+Profit rebuilt,ebit_company_basis,FY21,11922.0,Rs million,pbt_before_jv_and_exceptional + finance_costs,lines above
+Profit rebuilt,cost_of_goods,FY21,22437.0,Rs million,cost_of_materials_consumed + purchases_of_stock_in_trade + changes_in_inventories (printed sign),pl lines
+Margins,gross_margin,FY21,68.5893,%,(1 - cost_of_goods / revenue_from_operations) x 100,"cost_of_goods, pl revenue_from_operations"
+Margins,ebitda_margin_company_basis,FY21,26.7013,%,ebitda_company_basis / revenue_from_operations x 100,lines above
+Margins,ebitda_margin_on_total_income_company_stated_basis,FY21,25.7827,%,"ebitda_company_basis / total_income x 100; this is the basis the company's stated margins tie to (FY22 26%, FY23 25%, FY24 27%, FY26 22%)","lines above, pl total_income"
+Margins,ebitda_margin_without_other_income,FY21,23.1384,%,(ebitda_company_basis - other_income) / revenue_from_operations x 100,lines above
+Margins,ebit_margin,FY21,16.6902,%,ebit_company_basis / revenue_from_operations x 100,lines above
+Margins,pbt_margin,FY21,14.9473,%,profit_before_tax / revenue_from_operations x 100,pl
+Margins,pat_margin_owners,FY21,10.3666,%,profit_attributable_to_owners / revenue_from_operations x 100,pl
+Margins,other_income_share_of_pbt,FY21,23.8363,%,other_income / profit_before_tax x 100,pl
+Margins,depreciation_share_of_revenue,FY21,10.0111,%,depreciation_amortisation / revenue_from_operations x 100,pl
+Margins,employee_cost_share_of_revenue,FY21,24.3732,%,employee_benefits_expense / revenue_from_operations x 100,pl
+Margins,rd_expense_share_of_revenue,FY21,6.4356,%,research_development_expense (P&L line) / revenue_from_operations x 100,pl
+Margins,exceptional_items_share_of_pbt_before_exceptional,FY21,1.1106,%,exceptional_items / pbt_before_jv_and_exceptional x 100,lines above
+Profit rebuilt,pbt_before_jv_and_exceptional,FY22,13011.0,Rs million,profit_before_tax - exceptional_items - share_of_loss_of_jv_and_associates,"pl profit_before_tax, exceptional_items, share_of_loss_of_jv_and_associates"
+Profit rebuilt,ebitda_company_basis,FY22,21829.0,Rs million,pbt_before_jv_and_exceptional + finance_costs + depreciation_amortisation (includes other income),"pl finance_costs, depreciation_amortisation + line above"
+Profit rebuilt,ebitda_without_other_income,FY22,19702.0,Rs million,ebitda_company_basis - other_income,"line above, pl other_income"
+Profit rebuilt,ebit_company_basis,FY22,13687.0,Rs million,pbt_before_jv_and_exceptional + finance_costs,lines above
+Profit rebuilt,cost_of_goods,FY22,27184.0,Rs million,cost_of_materials_consumed + purchases_of_stock_in_trade + changes_in_inventories (printed sign),pl lines
+Margins,gross_margin,FY22,66.784,%,(1 - cost_of_goods / revenue_from_operations) x 100,"cost_of_goods, pl revenue_from_operations"
+Margins,ebitda_margin_company_basis,FY22,26.6728,%,ebitda_company_basis / revenue_from_operations x 100,lines above
+Margins,ebitda_margin_on_total_income_company_stated_basis,FY22,25.9971,%,"ebitda_company_basis / total_income x 100; this is the basis the company's stated margins tie to (FY22 26%, FY23 25%, FY24 27%, FY26 22%)","lines above, pl total_income"
+Margins,ebitda_margin_without_other_income,FY22,24.0738,%,(ebitda_company_basis - other_income) / revenue_from_operations x 100,lines above
+Margins,ebit_margin,FY22,16.7241,%,ebit_company_basis / revenue_from_operations x 100,lines above
+Margins,pbt_margin,FY22,12.0125,%,profit_before_tax / revenue_from_operations x 100,pl
+Margins,pat_margin_owners,FY22,7.9228,%,profit_attributable_to_owners / revenue_from_operations x 100,pl
+Margins,other_income_share_of_pbt,FY22,21.6356,%,other_income / profit_before_tax x 100,pl
+Margins,depreciation_share_of_revenue,FY22,9.9487,%,depreciation_amortisation / revenue_from_operations x 100,pl
+Margins,employee_cost_share_of_revenue,FY22,22.9729,%,employee_benefits_expense / revenue_from_operations x 100,pl
+Margins,rd_expense_share_of_revenue,FY22,7.4792,%,research_development_expense (P&L line) / revenue_from_operations x 100,pl
+Margins,exceptional_items_share_of_pbt_before_exceptional,FY22,-8.5389,%,exceptional_items / pbt_before_jv_and_exceptional x 100,lines above
+Profit rebuilt,pbt_before_jv_and_exceptional,FY23,13555.0,Rs million,profit_before_tax - exceptional_items - share_of_loss_of_jv_and_associates,"pl profit_before_tax, exceptional_items, share_of_loss_of_jv_and_associates"
+Profit rebuilt,ebitda_company_basis,FY23,28876.0,Rs million,pbt_before_jv_and_exceptional + finance_costs + depreciation_amortisation (includes other income),"pl finance_costs, depreciation_amortisation + line above"
+Profit rebuilt,ebitda_without_other_income,FY23,25117.0,Rs million,ebitda_company_basis - other_income,"line above, pl other_income"
+Profit rebuilt,ebit_company_basis,FY23,17745.0,Rs million,pbt_before_jv_and_exceptional + finance_costs,lines above
+Profit rebuilt,cost_of_goods,FY23,36631.0,Rs million,cost_of_materials_consumed + purchases_of_stock_in_trade + changes_in_inventories (printed sign),pl lines
+Margins,gross_margin,FY23,67.2182,%,(1 - cost_of_goods / revenue_from_operations) x 100,"cost_of_goods, pl revenue_from_operations"
+Margins,ebitda_margin_company_basis,FY23,25.8417,%,ebitda_company_basis / revenue_from_operations x 100,lines above
+Margins,ebitda_margin_on_total_income_company_stated_basis,FY23,25.0006,%,"ebitda_company_basis / total_income x 100; this is the basis the company's stated margins tie to (FY22 26%, FY23 25%, FY24 27%, FY26 22%)","lines above, pl total_income"
+Margins,ebitda_margin_without_other_income,FY23,22.4777,%,(ebitda_company_basis - other_income) / revenue_from_operations x 100,lines above
+Margins,ebit_margin,FY23,15.8803,%,ebit_company_basis / revenue_from_operations x 100,lines above
+Margins,pbt_margin,FY23,8.0283,%,profit_before_tax / revenue_from_operations x 100,pl
+Margins,pat_margin_owners,FY23,4.1408,%,profit_attributable_to_owners / revenue_from_operations x 100,pl
+Margins,other_income_share_of_pbt,FY23,41.9017,%,other_income / profit_before_tax x 100,pl
+Margins,depreciation_share_of_revenue,FY23,9.9613,%,depreciation_amortisation / revenue_from_operations x 100,pl
+Margins,employee_cost_share_of_revenue,FY23,19.5182,%,employee_benefits_expense / revenue_from_operations x 100,pl
+Margins,rd_expense_share_of_revenue,FY23,6.0667,%,research_development_expense (P&L line) / revenue_from_operations x 100,pl
+Margins,exceptional_items_share_of_pbt_before_exceptional,FY23,-21.4976,%,exceptional_items / pbt_before_jv_and_exceptional x 100,lines above
+Profit rebuilt,pbt_before_jv_and_exceptional,FY24,16210.0,Rs million,profit_before_tax - exceptional_items - share_of_loss_of_jv_and_associates,"pl profit_before_tax, exceptional_items, share_of_loss_of_jv_and_associates"
+Profit rebuilt,ebitda_company_basis,FY24,41642.0,Rs million,pbt_before_jv_and_exceptional + finance_costs + depreciation_amortisation (includes other income),"pl finance_costs, depreciation_amortisation + line above"
+Profit rebuilt,ebitda_without_other_income,FY24,32987.0,Rs million,ebitda_company_basis - other_income,"line above, pl other_income"
+Profit rebuilt,ebit_company_basis,FY24,25954.0,Rs million,pbt_before_jv_and_exceptional + finance_costs,lines above
+Profit rebuilt,cost_of_goods,FY24,48979.0,Rs million,cost_of_materials_consumed + purchases_of_stock_in_trade + changes_in_inventories (printed sign),pl lines
+Margins,gross_margin,FY24,66.8067,%,(1 - cost_of_goods / revenue_from_operations) x 100,"cost_of_goods, pl revenue_from_operations"
+Margins,ebitda_margin_company_basis,FY24,28.221,%,ebitda_company_basis / revenue_from_operations x 100,lines above
+Margins,ebitda_margin_on_total_income_company_stated_basis,FY24,26.6574,%,"ebitda_company_basis / total_income x 100; this is the basis the company's stated margins tie to (FY22 26%, FY23 25%, FY24 27%, FY26 22%)","lines above, pl total_income"
+Margins,ebitda_margin_without_other_income,FY24,22.3554,%,(ebitda_company_basis - other_income) / revenue_from_operations x 100,lines above
+Margins,ebit_margin,FY24,17.5891,%,ebit_company_basis / revenue_from_operations x 100,lines above
+Margins,pbt_margin,FY24,10.3363,%,profit_before_tax / revenue_from_operations x 100,pl
+Margins,pat_margin_owners,FY24,6.9295,%,profit_attributable_to_owners / revenue_from_operations x 100,pl
+Margins,other_income_share_of_pbt,FY24,56.7467,%,other_income / profit_before_tax x 100,pl
+Margins,depreciation_share_of_revenue,FY24,10.6318,%,depreciation_amortisation / revenue_from_operations x 100,pl
+Margins,employee_cost_share_of_revenue,FY24,18.0547,%,employee_benefits_expense / revenue_from_operations x 100,pl
+Margins,rd_expense_share_of_revenue,FY24,4.1143,%,research_development_expense (P&L line) / revenue_from_operations x 100,pl
+Margins,exceptional_items_share_of_pbt_before_exceptional,FY24,-0.7156,%,exceptional_items / pbt_before_jv_and_exceptional x 100,lines above
+Profit rebuilt,pbt_before_jv_and_exceptional,FY25,17901.0,Rs million,profit_before_tax - exceptional_items - share_of_loss_of_jv_and_associates,"pl profit_before_tax, exceptional_items, share_of_loss_of_jv_and_associates"
+Profit rebuilt,ebitda_company_basis,FY25,43745.0,Rs million,pbt_before_jv_and_exceptional + finance_costs + depreciation_amortisation (includes other income),"pl finance_costs, depreciation_amortisation + line above"
+Profit rebuilt,ebitda_without_other_income,FY25,31663.0,Rs million,ebitda_company_basis - other_income,"line above, pl other_income"
+Profit rebuilt,ebit_company_basis,FY25,26875.0,Rs million,pbt_before_jv_and_exceptional + finance_costs,lines above
+Profit rebuilt,cost_of_goods,FY25,51975.0,Rs million,cost_of_materials_consumed + purchases_of_stock_in_trade + changes_in_inventories (printed sign),pl lines
+Margins,gross_margin,FY25,65.9442,%,(1 - cost_of_goods / revenue_from_operations) x 100,"cost_of_goods, pl revenue_from_operations"
+Margins,ebitda_margin_company_basis,FY25,28.6633,%,ebitda_company_basis / revenue_from_operations x 100,lines above
+Margins,ebitda_margin_on_total_income_company_stated_basis,FY25,26.5606,%,"ebitda_company_basis / total_income x 100; this is the basis the company's stated margins tie to (FY22 26%, FY23 25%, FY24 27%, FY26 22%)","lines above, pl total_income"
+Margins,ebitda_margin_without_other_income,FY25,20.7467,%,(ebitda_company_basis - other_income) / revenue_from_operations x 100,lines above
+Margins,ebit_margin,FY25,17.6094,%,ebit_company_basis / revenue_from_operations x 100,lines above
+Margins,pbt_margin,FY25,12.3617,%,profit_before_tax / revenue_from_operations x 100,pl
+Margins,pat_margin_owners,FY25,6.6395,%,profit_attributable_to_owners / revenue_from_operations x 100,pl
+Margins,other_income_share_of_pbt,FY25,64.0411,%,other_income / profit_before_tax x 100,pl
+Margins,depreciation_share_of_revenue,FY25,11.0538,%,depreciation_amortisation / revenue_from_operations x 100,pl
+Margins,employee_cost_share_of_revenue,FY25,20.6032,%,employee_benefits_expense / revenue_from_operations x 100,pl
+Margins,rd_expense_share_of_revenue,FY25,3.858,%,research_development_expense (P&L line) / revenue_from_operations x 100,pl
+Margins,exceptional_items_share_of_pbt_before_exceptional,FY25,5.3908,%,exceptional_items / pbt_before_jv_and_exceptional x 100,lines above
+Profit rebuilt,pbt_before_jv_and_exceptional,FY26,8508.0,Rs million,profit_before_tax - exceptional_items - share_of_loss_of_jv_and_associates,"pl profit_before_tax, exceptional_items, share_of_loss_of_jv_and_associates"
+Profit rebuilt,ebitda_company_basis,FY26,37978.0,Rs million,pbt_before_jv_and_exceptional + finance_costs + depreciation_amortisation (includes other income),"pl finance_costs, depreciation_amortisation + line above"
+Profit rebuilt,ebitda_without_other_income,FY26,34553.0,Rs million,ebitda_company_basis - other_income,"line above, pl other_income"
+Profit rebuilt,ebit_company_basis,FY26,18411.0,Rs million,pbt_before_jv_and_exceptional + finance_costs,lines above
+Profit rebuilt,cost_of_goods,FY26,56907.0,Rs million,cost_of_materials_consumed + purchases_of_stock_in_trade + changes_in_inventories (printed sign),pl lines
+Margins,gross_margin,FY26,66.3809,%,(1 - cost_of_goods / revenue_from_operations) x 100,"cost_of_goods, pl revenue_from_operations"
+Margins,ebitda_margin_company_basis,FY26,22.4363,%,ebitda_company_basis / revenue_from_operations x 100,lines above
+Margins,ebitda_margin_on_total_income_company_stated_basis,FY26,21.9914,%,"ebitda_company_basis / total_income x 100; this is the basis the company's stated margins tie to (FY22 26%, FY23 25%, FY24 27%, FY26 22%)","lines above, pl total_income"
+Margins,ebitda_margin_without_other_income,FY26,20.4129,%,(ebitda_company_basis - other_income) / revenue_from_operations x 100,lines above
+Margins,ebit_margin,FY26,10.8767,%,ebit_company_basis / revenue_from_operations x 100,lines above
+Margins,pbt_margin,FY26,2.6461,%,profit_before_tax / revenue_from_operations x 100,pl
+Margins,pat_margin_owners,FY26,2.278,%,profit_attributable_to_owners / revenue_from_operations x 100,pl
+Margins,other_income_share_of_pbt,FY26,76.468,%,other_income / profit_before_tax x 100,pl
+Margins,depreciation_share_of_revenue,FY26,11.5596,%,depreciation_amortisation / revenue_from_operations x 100,pl
+Margins,employee_cost_share_of_revenue,FY26,20.7243,%,employee_benefits_expense / revenue_from_operations x 100,pl
+Margins,rd_expense_share_of_revenue,FY26,3.2581,%,research_development_expense (P&L line) / revenue_from_operations x 100,pl
+Margins,exceptional_items_share_of_pbt_before_exceptional,FY26,-47.3554,%,exceptional_items / pbt_before_jv_and_exceptional x 100,lines above
+Growth,revenue_growth,FY22,14.5721,%,"revenue this year / last year - 1, x 100","pl lines, ebitda_company_basis"
+Growth,ebitda_growth_company_basis,FY22,14.4497,%,"ebitda_company_basis this year / last year - 1, x 100","pl lines, ebitda_company_basis"
+Growth,pat_growth_owners,FY22,-12.4375,%,"pat_owners this year / last year - 1, x 100","pl lines, ebitda_company_basis"
+Growth,eps_basic_growth,FY22,-12.8205,%,"eps_basic this year / last year - 1, x 100","pl lines, ebitda_company_basis"
+Growth,revenue_growth,FY23,36.5371,%,"revenue this year / last year - 1, x 100","pl lines, ebitda_company_basis"
+Growth,ebitda_growth_company_basis,FY23,32.2827,%,"ebitda_company_basis this year / last year - 1, x 100","pl lines, ebitda_company_basis"
+Growth,pat_growth_owners,FY23,-28.6397,%,"pat_owners this year / last year - 1, x 100","pl lines, ebitda_company_basis"
+Growth,eps_basic_growth,FY23,-28.6765,%,"eps_basic this year / last year - 1, x 100","pl lines, ebitda_company_basis"
+Growth,revenue_growth,FY24,32.0515,%,"revenue this year / last year - 1, x 100","pl lines, ebitda_company_basis"
+Growth,ebitda_growth_company_basis,FY24,44.2097,%,"ebitda_company_basis this year / last year - 1, x 100","pl lines, ebitda_company_basis"
+Growth,pat_growth_owners,FY24,120.9855,%,"pat_owners this year / last year - 1, x 100","pl lines, ebitda_company_basis"
+Growth,eps_basic_growth,FY24,120.3608,%,"eps_basic this year / last year - 1, x 100","pl lines, ebitda_company_basis"
+Growth,revenue_growth,FY25,3.4292,%,"revenue this year / last year - 1, x 100","pl lines, ebitda_company_basis"
+Growth,ebitda_growth_company_basis,FY25,5.0502,%,"ebitda_company_basis this year / last year - 1, x 100","pl lines, ebitda_company_basis"
+Growth,pat_growth_owners,FY25,-0.8998,%,"pat_owners this year / last year - 1, x 100","pl lines, ebitda_company_basis"
+Growth,eps_basic_growth,FY25,-1.0526,%,"eps_basic this year / last year - 1, x 100","pl lines, ebitda_company_basis"
+Growth,revenue_growth,FY26,10.9116,%,"revenue this year / last year - 1, x 100","pl lines, ebitda_company_basis"
+Growth,ebitda_growth_company_basis,FY26,-13.1832,%,"ebitda_company_basis this year / last year - 1, x 100","pl lines, ebitda_company_basis"
+Growth,pat_growth_owners,FY26,-61.9461,%,"pat_owners this year / last year - 1, x 100","pl lines, ebitda_company_basis"
+Growth,eps_basic_growth,FY26,-66.6667,%,"eps_basic this year / last year - 1, x 100","pl lines, ebitda_company_basis"
+Growth,revenue_cagr_fy21_fy26,FY21-FY26,18.8334,%,"(FY26 / FY21)^(1/5) - 1, x 100",five years FY21 to FY26
+Growth,ebitda_cagr_fy21_fy26_company_basis,FY21-FY26,14.7685,%,"(FY26 / FY21)^(1/5) - 1, x 100",five years FY21 to FY26
+Growth,eps_basic_cagr_fy21_fy26,FY21-FY26,-14.6875,%,"(EPS FY26 / EPS FY21)^(1/5) - 1, x 100",pl eps_basic
+Returns,roe_closing_equity,FY21,9.7091,%,profit_attributable_to_owners / equity_attributable_to_owners (year end) x 100,"pl, bs"
+Returns,roe_average_equity,FY21,,%,profit_attributable_to_owners / average of opening and closing equity_attributable_to_owners x 100 (blank for FY21: no FY20 balance on file),"pl, bs"
+Returns,capital_employed,FY21,143122.0,Rs million,total_assets - total_current_liabilities (year end),bs
+Returns,roce_pre_tax_closing,FY21,7.8632,%,(profit_before_tax + finance_costs) / capital_employed (year end) x 100,"pl, bs"
+Returns,roce_ebit_company_basis_closing,FY21,8.33,%,ebit_company_basis / capital_employed (year end) x 100,lines above
+Leverage,borrowings_total,FY21,43586.0,Rs million,borrowings_current + borrowings_non_current,bs
+Leverage,lease_liabilities_total,FY21,1225.0,Rs million,lease_liabilities_current + lease_liabilities_non_current,bs
+Leverage,cash_and_investments,FY21,32241.0,Rs million,cash_and_cash_equivalents + current_investments + other_bank_balances,bs (non-current investments are not on file)
+Leverage,net_debt_excluding_leases,FY21,11345.0,Rs million,borrowings_total - cash_and_investments,lines above
+Leverage,net_debt_including_leases,FY21,12570.0,Rs million,net_debt_excluding_leases + lease_liabilities_total,lines above
+Leverage,net_debt_to_ebitda_excluding_leases,FY21,0.5948,times,net_debt_excluding_leases / ebitda_company_basis,lines above
+Leverage,net_debt_to_ebitda_including_leases,FY21,0.659,times,net_debt_including_leases / ebitda_company_basis,lines above
+Leverage,net_debt_to_total_equity,FY21,0.1334,times,net_debt_excluding_leases / total_equity (incl. non-controlling interest),"lines above, bs"
+Leverage,borrowings_to_total_equity,FY21,0.5123,times,borrowings_total / total_equity,bs (same as the stored derived row)
+Leverage,short_term_share_of_borrowings,FY21,32.0516,%,borrowings_current / borrowings_total x 100,bs
+Leverage,ebit_interest_cover,FY21,20.662,times,ebit_company_basis / finance_costs,lines above
+Leverage,ebitda_interest_cover,FY21,33.0555,times,ebitda_company_basis / finance_costs,lines above
+Leverage,interest_cover_including_lease_interest,FY21,17.5841,times,"ebit_company_basis / (finance_costs + lease_interest_expense); unchecked whether finance_costs already include lease interest, so this may double count","lines above, notes lease_interest_expense"
+Balance sheet quality,goodwill_share_of_total_equity,FY21,0.3103,%,goodwill / total_equity x 100,bs
+Balance sheet quality,goodwill_and_intangibles_share_of_assets,FY21,6.4787,%,(goodwill + other_intangible_assets + intangibles_under_development) / total_assets x 100,bs
+Balance sheet quality,tangible_total_equity,FY21,73076.0,Rs million,total_equity - goodwill - other_intangible_assets - intangibles_under_development,bs
+Balance sheet quality,cash_share_of_total_assets,FY21,17.4066,%,cash_and_investments / total_assets x 100,lines above
+Cash,capex_cash,FY21,15169.0,Rs million,-(purchase_of_ppe_and_intangibles + purchase_of_intangible_assets where on file); PP&E only: intangibles purchased are not on file for this year,cf
+Cash,free_cash_flow,FY21,-3572.0,Rs million,net_cash_from_operating + purchase_of_ppe_and_intangibles + purchase_of_intangible_assets (where on file); PP&E only: intangibles purchased are not on file for this year,cf
+Cash,cfo_to_ebitda,FY21,0.608,times,net_cash_from_operating / ebitda_company_basis,"cf, lines above"
+Cash,fcf_to_pat_owners,FY21,-0.4824,times,free_cash_flow / profit_attributable_to_owners,lines above
+Cash,capex_to_depreciation,FY21,2.1212,times,capex_cash / depreciation_amortisation,lines above
+Cash,capex_share_of_revenue,FY21,21.2359,%,capex_cash / revenue_from_operations x 100,lines above
+Cash,dividends_paid_to_fcf,FY21,,%,-dividends_paid / free_cash_flow x 100; dividends paid include dividends to non-controlling interests; FY21 and FY22 not on file,"cf, lines above"
+Working capital,inventory_days_on_cost_of_goods,FY21,303.6542,days,inventories / cost_of_goods x 365 (year-end balance; cost_of_goods includes the inventory change),"bs, lines above"
+Working capital,payable_days_on_cost_of_goods,FY21,246.2778,days,"trade_payables_total / cost_of_goods x 365 (FY24 uses the sum of the two printed lines); blank where payables are not on file (FY23, FY25)","bs, lines above"
+Working capital,trade_working_capital,FY21,18560.0,Rs million,inventories + trade_receivables - trade_payables_total; blank where payables are not on file,bs
+Returns,roe_closing_equity,FY22,7.6893,%,profit_attributable_to_owners / equity_attributable_to_owners (year end) x 100,"pl, bs"
+Returns,roe_average_equity,FY22,8.075,%,profit_attributable_to_owners / average of opening and closing equity_attributable_to_owners x 100 (blank for FY21: no FY20 balance on file),"pl, bs"
+Returns,capital_employed,FY22,165660.0,Rs million,total_assets - total_current_liabilities (year end),bs
+Returns,roce_pre_tax_closing,FY22,6.3425,%,(profit_before_tax + finance_costs) / capital_employed (year end) x 100,"pl, bs"
+Returns,roce_ebit_company_basis_closing,FY22,8.2621,%,ebit_company_basis / capital_employed (year end) x 100,lines above
+DuPont (average balances),net_margin_owners,FY22,7.9228,%,profit_attributable_to_owners / revenue_from_operations x 100,pl
+DuPont (average balances),asset_turnover,FY22,0.4206,times,revenue_from_operations / average total_assets,"pl, bs"
+DuPont (average balances),equity_multiplier,FY22,2.4233,times,average total_assets / average equity_attributable_to_owners,bs
+DuPont (average balances),roe_from_dupont,FY22,8.075,%,net margin x asset turnover x equity multiplier x 100 (equals roe_average_equity),three lines above
+DuPont (average balances),return_on_average_assets,FY22,3.3323,%,net margin x asset turnover x 100,lines above
+Leverage,borrowings_total,FY22,49040.0,Rs million,borrowings_current + borrowings_non_current,bs
+Leverage,lease_liabilities_total,FY22,2426.0,Rs million,lease_liabilities_current + lease_liabilities_non_current,bs
+Leverage,cash_and_investments,FY22,29652.0,Rs million,cash_and_cash_equivalents + current_investments + other_bank_balances,bs (non-current investments are not on file)
+Leverage,net_debt_excluding_leases,FY22,19388.0,Rs million,borrowings_total - cash_and_investments,lines above
+Leverage,net_debt_including_leases,FY22,21814.0,Rs million,net_debt_excluding_leases + lease_liabilities_total,lines above
+Leverage,net_debt_to_ebitda_excluding_leases,FY22,0.8882,times,net_debt_excluding_leases / ebitda_company_basis,lines above
+Leverage,net_debt_to_ebitda_including_leases,FY22,0.9993,times,net_debt_including_leases / ebitda_company_basis,lines above
+Leverage,net_debt_to_total_equity,FY22,0.2047,times,net_debt_excluding_leases / total_equity (incl. non-controlling interest),"lines above, bs"
+Leverage,borrowings_to_total_equity,FY22,0.5178,times,borrowings_total / total_equity,bs (same as the stored derived row)
+Leverage,short_term_share_of_borrowings,FY22,18.4645,%,borrowings_current / borrowings_total x 100,bs
+Leverage,ebit_interest_cover,FY22,20.247,times,ebit_company_basis / finance_costs,lines above
+Leverage,ebitda_interest_cover,FY22,32.2914,times,ebitda_company_basis / finance_costs,lines above
+Leverage,interest_cover_including_lease_interest,FY22,17.2598,times,"ebit_company_basis / (finance_costs + lease_interest_expense); unchecked whether finance_costs already include lease interest, so this may double count","lines above, notes lease_interest_expense"
+Balance sheet quality,goodwill_share_of_total_equity,FY22,0.2788,%,goodwill / total_equity x 100,bs
+Balance sheet quality,goodwill_and_intangibles_share_of_assets,FY22,6.4485,%,(goodwill + other_intangible_assets + intangibles_under_development) / total_assets x 100,bs
+Balance sheet quality,tangible_total_equity,FY22,81549.0,Rs million,total_equity - goodwill - other_intangible_assets - intangibles_under_development,bs
+Balance sheet quality,cash_share_of_total_assets,FY22,14.5396,%,cash_and_investments / total_assets x 100,lines above
+Cash,capex_cash,FY22,16978.0,Rs million,-(purchase_of_ppe_and_intangibles + purchase_of_intangible_assets where on file); PP&E only: intangibles purchased are not on file for this year,cf
+Cash,free_cash_flow,FY22,-5212.0,Rs million,net_cash_from_operating + purchase_of_ppe_and_intangibles + purchase_of_intangible_assets (where on file); PP&E only: intangibles purchased are not on file for this year,cf
+Cash,cfo_to_ebitda,FY22,0.539,times,net_cash_from_operating / ebitda_company_basis,"cf, lines above"
+Cash,fcf_to_pat_owners,FY22,-0.8038,times,free_cash_flow / profit_attributable_to_owners,lines above
+Cash,capex_to_depreciation,FY22,2.0852,times,capex_cash / depreciation_amortisation,lines above
+Cash,capex_share_of_revenue,FY22,20.7454,%,capex_cash / revenue_from_operations x 100,lines above
+Cash,dividends_paid_to_fcf,FY22,,%,-dividends_paid / free_cash_flow x 100; dividends paid include dividends to non-controlling interests; FY21 and FY22 not on file,"cf, lines above"
+Working capital,inventory_days_on_cost_of_goods,FY22,308.5797,days,inventories / cost_of_goods x 365 (year-end balance; cost_of_goods includes the inventory change),"bs, lines above"
+Working capital,payable_days_on_cost_of_goods,FY22,215.9736,days,"trade_payables_total / cost_of_goods x 365 (FY24 uses the sum of the two printed lines); blank where payables are not on file (FY23, FY25)","bs, lines above"
+Working capital,trade_working_capital,FY22,27479.0,Rs million,inventories + trade_receivables - trade_payables_total; blank where payables are not on file,bs
+Returns,roe_closing_equity,FY23,2.5897,%,profit_attributable_to_owners / equity_attributable_to_owners (year end) x 100,"pl, bs"
+Returns,roe_average_equity,FY23,3.5187,%,profit_attributable_to_owners / average of opening and closing equity_attributable_to_owners x 100 (blank for FY21: no FY20 balance on file),"pl, bs"
+Returns,capital_employed,FY23,435321.0,Rs million,total_assets - total_current_liabilities (year end),bs
+Returns,roce_pre_tax_closing,FY23,3.0233,%,(profit_before_tax + finance_costs) / capital_employed (year end) x 100,"pl, bs"
+Returns,roce_ebit_company_basis_closing,FY23,4.0763,%,ebit_company_basis / capital_employed (year end) x 100,lines above
+DuPont (average balances),net_margin_owners,FY23,4.1408,%,profit_attributable_to_owners / revenue_from_operations x 100,pl
+DuPont (average balances),asset_turnover,FY23,0.3085,times,revenue_from_operations / average total_assets,"pl, bs"
+DuPont (average balances),equity_multiplier,FY23,2.7543,times,average total_assets / average equity_attributable_to_owners,bs
+DuPont (average balances),roe_from_dupont,FY23,3.5187,%,net margin x asset turnover x equity multiplier x 100 (equals roe_average_equity),three lines above
+DuPont (average balances),return_on_average_assets,FY23,1.2775,%,net margin x asset turnover x 100,lines above
+Leverage,borrowings_total,FY23,177707.0,Rs million,borrowings_current + borrowings_non_current,bs
+Leverage,lease_liabilities_total,FY23,2481.0,Rs million,lease_liabilities_current + lease_liabilities_non_current,bs
+Leverage,cash_and_investments,FY23,37266.0,Rs million,cash_and_cash_equivalents + current_investments + other_bank_balances,bs (non-current investments are not on file)
+Leverage,net_debt_excluding_leases,FY23,140441.0,Rs million,borrowings_total - cash_and_investments,lines above
+Leverage,net_debt_including_leases,FY23,142922.0,Rs million,net_debt_excluding_leases + lease_liabilities_total,lines above
+Leverage,net_debt_to_ebitda_excluding_leases,FY23,4.8636,times,net_debt_excluding_leases / ebitda_company_basis,lines above
+Leverage,net_debt_to_ebitda_including_leases,FY23,4.9495,times,net_debt_including_leases / ebitda_company_basis,lines above
+Leverage,net_debt_to_total_equity,FY23,0.6245,times,net_debt_excluding_leases / total_equity (incl. non-controlling interest),"lines above, bs"
+Leverage,borrowings_to_total_equity,FY23,0.7902,times,borrowings_total / total_equity,bs (same as the stored derived row)
+Leverage,short_term_share_of_borrowings,FY23,13.9567,%,borrowings_current / borrowings_total x 100,bs
+Leverage,ebit_interest_cover,FY23,4.2351,times,ebit_company_basis / finance_costs,lines above
+Leverage,ebitda_interest_cover,FY23,6.8916,times,ebitda_company_basis / finance_costs,lines above
+Leverage,interest_cover_including_lease_interest,FY23,4.0709,times,"ebit_company_basis / (finance_costs + lease_interest_expense); unchecked whether finance_costs already include lease interest, so this may double count","lines above, notes lease_interest_expense"
+Balance sheet quality,goodwill_share_of_total_equity,FY23,71.7522,%,goodwill / total_equity x 100,bs
+Balance sheet quality,goodwill_and_intangibles_share_of_assets,FY23,51.2311,%,(goodwill + other_intangible_assets + intangibles_under_development) / total_assets x 100,bs
+Balance sheet quality,tangible_total_equity,FY23,-41733.0,Rs million,total_equity - goodwill - other_intangible_assets - intangibles_under_development,bs
+Balance sheet quality,cash_share_of_total_assets,FY23,7.1606,%,cash_and_investments / total_assets x 100,lines above
+Cash,capex_cash,FY23,15960.0,Rs million,-(purchase_of_ppe_and_intangibles + purchase_of_intangible_assets where on file); PP&E only: intangibles purchased are not on file for this year,cf
+Cash,free_cash_flow,FY23,2565.0,Rs million,net_cash_from_operating + purchase_of_ppe_and_intangibles + purchase_of_intangible_assets (where on file); PP&E only: intangibles purchased are not on file for this year,cf
+Cash,cfo_to_ebitda,FY23,0.6415,times,net_cash_from_operating / ebitda_company_basis,"cf, lines above"
+Cash,fcf_to_pat_owners,FY23,0.5544,times,free_cash_flow / profit_attributable_to_owners,lines above
+Cash,capex_to_depreciation,FY23,1.4338,times,capex_cash / depreciation_amortisation,lines above
+Cash,capex_share_of_revenue,FY23,14.2829,%,capex_cash / revenue_from_operations x 100,lines above
+Cash,dividends_paid_to_fcf,FY23,27.9922,%,-dividends_paid / free_cash_flow x 100; dividends paid include dividends to non-controlling interests; FY21 and FY22 not on file,"cf, lines above"
+Working capital,inventory_days_on_cost_of_goods,FY23,422.8524,days,inventories / cost_of_goods x 365 (year-end balance; cost_of_goods includes the inventory change),"bs, lines above"
+Working capital,payable_days_on_cost_of_goods,FY23,,days,"trade_payables_total / cost_of_goods x 365 (FY24 uses the sum of the two printed lines); blank where payables are not on file (FY23, FY25)","bs, lines above"
+Working capital,trade_working_capital,FY23,,Rs million,inventories + trade_receivables - trade_payables_total; blank where payables are not on file,bs
+Returns,roe_closing_equity,FY24,5.1684,%,profit_attributable_to_owners / equity_attributable_to_owners (year end) x 100,"pl, bs"
+Returns,roe_average_equity,FY24,5.4315,%,profit_attributable_to_owners / average of opening and closing equity_attributable_to_owners x 100 (blank for FY21: no FY20 balance on file),"pl, bs"
+Returns,capital_employed,FY24,407119.0,Rs million,total_assets - total_current_liabilities (year end),bs
+Returns,roce_pre_tax_closing,FY24,6.1397,%,(profit_before_tax + finance_costs) / capital_employed (year end) x 100,"pl, bs"
+Returns,roce_ebit_company_basis_closing,FY24,6.375,%,ebit_company_basis / capital_employed (year end) x 100,lines above
+DuPont (average balances),net_margin_owners,FY24,6.9295,%,profit_attributable_to_owners / revenue_from_operations x 100,pl
+DuPont (average balances),asset_turnover,FY24,0.273,times,revenue_from_operations / average total_assets,"pl, bs"
+DuPont (average balances),equity_multiplier,FY24,2.8715,times,average total_assets / average equity_attributable_to_owners,bs
+DuPont (average balances),roe_from_dupont,FY24,5.4315,%,net margin x asset turnover x equity multiplier x 100 (equals roe_average_equity),three lines above
+DuPont (average balances),return_on_average_assets,FY24,1.8915,%,net margin x asset turnover x 100,lines above
+Leverage,borrowings_total,FY24,157296.0,Rs million,borrowings_current + borrowings_non_current,bs
+Leverage,lease_liabilities_total,FY24,5471.0,Rs million,lease_liabilities_current + lease_liabilities_non_current,bs
+Leverage,cash_and_investments,FY24,25743.0,Rs million,cash_and_cash_equivalents + current_investments + other_bank_balances,bs (non-current investments are not on file)
+Leverage,net_debt_excluding_leases,FY24,131553.0,Rs million,borrowings_total - cash_and_investments,lines above
+Leverage,net_debt_including_leases,FY24,137024.0,Rs million,net_debt_excluding_leases + lease_liabilities_total,lines above
+Leverage,net_debt_to_ebitda_excluding_leases,FY24,3.1591,times,net_debt_excluding_leases / ebitda_company_basis,lines above
+Leverage,net_debt_to_ebitda_including_leases,FY24,3.2905,times,net_debt_including_leases / ebitda_company_basis,lines above
+Leverage,net_debt_to_total_equity,FY24,0.5205,times,net_debt_excluding_leases / total_equity (incl. non-controlling interest),"lines above, bs"
+Leverage,borrowings_to_total_equity,FY24,0.6223,times,borrowings_total / total_equity,bs (same as the stored derived row)
+Leverage,short_term_share_of_borrowings,FY24,17.783,%,borrowings_current / borrowings_total x 100,bs
+Leverage,ebit_interest_cover,FY24,2.6636,times,ebit_company_basis / finance_costs,lines above
+Leverage,ebitda_interest_cover,FY24,4.2736,times,ebitda_company_basis / finance_costs,lines above
+Leverage,interest_cover_including_lease_interest,FY24,2.592,times,"ebit_company_basis / (finance_costs + lease_interest_expense); unchecked whether finance_costs already include lease interest, so this may double count","lines above, notes lease_interest_expense"
+Balance sheet quality,goodwill_share_of_total_equity,FY24,64.7776,%,goodwill / total_equity x 100,bs
+Balance sheet quality,goodwill_and_intangibles_share_of_assets,FY24,47.5455,%,(goodwill + other_intangible_assets + intangibles_under_development) / total_assets x 100,bs
+Balance sheet quality,tangible_total_equity,FY24,-13843.0,Rs million,total_equity - goodwill - other_intangible_assets - intangibles_under_development,bs
+Balance sheet quality,cash_share_of_total_assets,FY24,4.5912,%,cash_and_investments / total_assets x 100,lines above
+Cash,capex_cash,FY24,19316.0,Rs million,-(purchase_of_ppe_and_intangibles + purchase_of_intangible_assets where on file); PP&E and intangibles,cf
+Cash,free_cash_flow,FY24,10223.0,Rs million,net_cash_from_operating + purchase_of_ppe_and_intangibles + purchase_of_intangible_assets (where on file); PP&E and intangibles,cf
+Cash,cfo_to_ebitda,FY24,0.7094,times,net_cash_from_operating / ebitda_company_basis,"cf, lines above"
+Cash,fcf_to_pat_owners,FY24,0.9998,times,free_cash_flow / profit_attributable_to_owners,lines above
+Cash,capex_to_depreciation,FY24,1.2313,times,capex_cash / depreciation_amortisation,lines above
+Cash,capex_share_of_revenue,FY24,13.0905,%,capex_cash / revenue_from_operations x 100,lines above
+Cash,dividends_paid_to_fcf,FY24,19.8572,%,-dividends_paid / free_cash_flow x 100; dividends paid include dividends to non-controlling interests; FY21 and FY22 not on file,"cf, lines above"
+Working capital,inventory_days_on_cost_of_goods,FY24,368.428,days,inventories / cost_of_goods x 365 (year-end balance; cost_of_goods includes the inventory change),"bs, lines above"
+Working capital,payable_days_on_cost_of_goods,FY24,467.4003,days,"trade_payables_total / cost_of_goods x 365 (FY24 uses the sum of the two printed lines); blank where payables are not on file (FY23, FY25)","bs, lines above"
+Working capital,trade_working_capital,FY24,49025.0,Rs million,inventories + trade_receivables - trade_payables_total; blank where payables are not on file,bs
+Returns,roe_closing_equity,FY25,4.6817,%,profit_attributable_to_owners / equity_attributable_to_owners (year end) x 100,"pl, bs"
+Returns,roe_average_equity,FY25,4.8919,%,profit_attributable_to_owners / average of opening and closing equity_attributable_to_owners x 100 (blank for FY21: no FY20 balance on file),"pl, bs"
+Returns,capital_employed,FY25,444635.0,Rs million,total_assets - total_current_liabilities (year end),bs
+Returns,roce_pre_tax_closing,FY25,6.2613,%,(profit_before_tax + finance_costs) / capital_employed (year end) x 100,"pl, bs"
+Returns,roce_ebit_company_basis_closing,FY25,6.0443,%,ebit_company_basis / capital_employed (year end) x 100,lines above
+DuPont (average balances),net_margin_owners,FY25,6.6395,%,profit_attributable_to_owners / revenue_from_operations x 100,pl
+DuPont (average balances),asset_turnover,FY25,0.2657,times,revenue_from_operations / average total_assets,"pl, bs"
+DuPont (average balances),equity_multiplier,FY25,2.7727,times,average total_assets / average equity_attributable_to_owners,bs
+DuPont (average balances),roe_from_dupont,FY25,4.8919,%,net margin x asset turnover x equity multiplier x 100 (equals roe_average_equity),three lines above
+DuPont (average balances),return_on_average_assets,FY25,1.7643,%,net margin x asset turnover x 100,lines above
+Leverage,borrowings_total,FY25,177555.0,Rs million,borrowings_current + borrowings_non_current,bs
+Leverage,lease_liabilities_total,FY25,6065.0,Rs million,lease_liabilities_current + lease_liabilities_non_current,bs
+Leverage,cash_and_investments,FY25,45675.0,Rs million,cash_and_cash_equivalents + current_investments + other_bank_balances,bs (non-current investments are not on file)
+Leverage,net_debt_excluding_leases,FY25,131880.0,Rs million,borrowings_total - cash_and_investments,lines above
+Leverage,net_debt_including_leases,FY25,137945.0,Rs million,net_debt_excluding_leases + lease_liabilities_total,lines above
+Leverage,net_debt_to_ebitda_excluding_leases,FY25,3.0147,times,net_debt_excluding_leases / ebitda_company_basis,lines above
+Leverage,net_debt_to_ebitda_including_leases,FY25,3.1534,times,net_debt_including_leases / ebitda_company_basis,lines above
+Leverage,net_debt_to_total_equity,FY25,0.4759,times,net_debt_excluding_leases / total_equity (incl. non-controlling interest),"lines above, bs"
+Leverage,borrowings_to_total_equity,FY25,0.6407,times,borrowings_total / total_equity,bs (same as the stored derived row)
+Leverage,short_term_share_of_borrowings,FY25,30.1321,%,borrowings_current / borrowings_total x 100,bs
+Leverage,ebit_interest_cover,FY25,2.9948,times,ebit_company_basis / finance_costs,lines above
+Leverage,ebitda_interest_cover,FY25,4.8746,times,ebitda_company_basis / finance_costs,lines above
+Leverage,interest_cover_including_lease_interest,FY25,2.8603,times,"ebit_company_basis / (finance_costs + lease_interest_expense); unchecked whether finance_costs already include lease interest, so this may double count","lines above, notes lease_interest_expense"
+Balance sheet quality,goodwill_share_of_total_equity,FY25,60.5709,%,goodwill / total_equity x 100,bs
+Balance sheet quality,goodwill_and_intangibles_share_of_assets,FY25,46.0184,%,(goodwill + other_intangible_assets + intangibles_under_development) / total_assets x 100,bs
+Balance sheet quality,tangible_total_equity,FY25,6549.0,Rs million,total_equity - goodwill - other_intangible_assets - intangibles_under_development,bs
+Balance sheet quality,cash_share_of_total_assets,FY25,7.7682,%,cash_and_investments / total_assets x 100,lines above
+Cash,capex_cash,FY25,23433.0,Rs million,-(purchase_of_ppe_and_intangibles + purchase_of_intangible_assets where on file); PP&E and intangibles,cf
+Cash,free_cash_flow,FY25,17179.0,Rs million,net_cash_from_operating + purchase_of_ppe_and_intangibles + purchase_of_intangible_assets (where on file); PP&E and intangibles,cf
+Cash,cfo_to_ebitda,FY25,0.9284,times,net_cash_from_operating / ebitda_company_basis,"cf, lines above"
+Cash,fcf_to_pat_owners,FY25,1.6954,times,free_cash_flow / profit_attributable_to_owners,lines above
+Cash,capex_to_depreciation,FY25,1.389,times,capex_cash / depreciation_amortisation,lines above
+Cash,capex_share_of_revenue,FY25,15.3541,%,capex_cash / revenue_from_operations x 100,lines above
+Cash,dividends_paid_to_fcf,FY25,4.8257,%,-dividends_paid / free_cash_flow x 100; dividends paid include dividends to non-controlling interests; FY21 and FY22 not on file,"cf, lines above"
+Working capital,inventory_days_on_cost_of_goods,FY25,346.2918,days,inventories / cost_of_goods x 365 (year-end balance; cost_of_goods includes the inventory change),"bs, lines above"
+Working capital,payable_days_on_cost_of_goods,FY25,,days,"trade_payables_total / cost_of_goods x 365 (FY24 uses the sum of the two printed lines); blank where payables are not on file (FY23, FY25)","bs, lines above"
+Working capital,trade_working_capital,FY25,,Rs million,inventories + trade_receivables - trade_payables_total; blank where payables are not on file,bs
+Returns,roe_closing_equity,FY26,1.1331,%,profit_attributable_to_owners / equity_attributable_to_owners (year end) x 100,"pl, bs"
+Returns,roe_average_equity,FY26,1.3852,%,profit_attributable_to_owners / average of opening and closing equity_attributable_to_owners x 100 (blank for FY21: no FY20 balance on file),"pl, bs"
+Returns,capital_employed,FY26,495814.0,Rs million,total_assets - total_current_liabilities (year end),bs
+Returns,roce_pre_tax_closing,FY26,2.9007,%,(profit_before_tax + finance_costs) / capital_employed (year end) x 100,"pl, bs"
+Returns,roce_ebit_company_basis_closing,FY26,3.7133,%,ebit_company_basis / capital_employed (year end) x 100,lines above
+DuPont (average balances),net_margin_owners,FY26,2.278,%,profit_attributable_to_owners / revenue_from_operations x 100,pl
+DuPont (average balances),asset_turnover,FY26,0.2765,times,revenue_from_operations / average total_assets,"pl, bs"
+DuPont (average balances),equity_multiplier,FY26,2.1993,times,average total_assets / average equity_attributable_to_owners,bs
+DuPont (average balances),roe_from_dupont,FY26,1.3852,%,net margin x asset turnover x equity multiplier x 100 (equals roe_average_equity),three lines above
+DuPont (average balances),return_on_average_assets,FY26,0.6298,%,net margin x asset turnover x 100,lines above
+Leverage,borrowings_total,FY26,148247.0,Rs million,borrowings_current + borrowings_non_current,bs
+Leverage,lease_liabilities_total,FY26,6094.0,Rs million,lease_liabilities_current + lease_liabilities_non_current,bs
+Leverage,cash_and_investments,FY26,38834.0,Rs million,cash_and_cash_equivalents + current_investments + other_bank_balances,bs (non-current investments are not on file)
+Leverage,net_debt_excluding_leases,FY26,109413.0,Rs million,borrowings_total - cash_and_investments,lines above
+Leverage,net_debt_including_leases,FY26,115507.0,Rs million,net_debt_excluding_leases + lease_liabilities_total,lines above
+Leverage,net_debt_to_ebitda_excluding_leases,FY26,2.881,times,net_debt_excluding_leases / ebitda_company_basis,lines above
+Leverage,net_debt_to_ebitda_including_leases,FY26,3.0414,times,net_debt_including_leases / ebitda_company_basis,lines above
+Leverage,net_debt_to_total_equity,FY26,0.2988,times,net_debt_excluding_leases / total_equity (incl. non-controlling interest),"lines above, bs"
+Leverage,borrowings_to_total_equity,FY26,0.4048,times,borrowings_total / total_equity,bs (same as the stored derived row)
+Leverage,short_term_share_of_borrowings,FY26,27.5108,%,borrowings_current / borrowings_total x 100,bs
+Leverage,ebit_interest_cover,FY26,1.8591,times,ebit_company_basis / finance_costs,lines above
+Leverage,ebitda_interest_cover,FY26,3.835,times,ebitda_company_basis / finance_costs,lines above
+Leverage,interest_cover_including_lease_interest,FY26,1.7778,times,"ebit_company_basis / (finance_costs + lease_interest_expense); unchecked whether finance_costs already include lease interest, so this may double count","lines above, notes lease_interest_expense"
+Balance sheet quality,goodwill_share_of_total_equity,FY26,50.1823,%,goodwill / total_equity x 100,bs
+Balance sheet quality,goodwill_and_intangibles_share_of_assets,FY26,45.2613,%,(goodwill + other_intangible_assets + intangibles_under_development) / total_assets x 100,bs
+Balance sheet quality,tangible_total_equity,FY26,78124.0,Rs million,total_equity - goodwill - other_intangible_assets - intangibles_under_development,bs
+Balance sheet quality,cash_share_of_total_assets,FY26,6.1011,%,cash_and_investments / total_assets x 100,lines above
+Cash,capex_cash,FY26,19117.0,Rs million,-(purchase_of_ppe_and_intangibles + purchase_of_intangible_assets where on file); PP&E and intangibles,cf
+Cash,free_cash_flow,FY26,823.0,Rs million,net_cash_from_operating + purchase_of_ppe_and_intangibles + purchase_of_intangible_assets (where on file); PP&E and intangibles,cf
+Cash,cfo_to_ebitda,FY26,0.525,times,net_cash_from_operating / ebitda_company_basis,"cf, lines above"
+Cash,fcf_to_pat_owners,FY26,0.2134,times,free_cash_flow / profit_attributable_to_owners,lines above
+Cash,capex_to_depreciation,FY26,0.977,times,capex_cash / depreciation_amortisation,lines above
+Cash,capex_share_of_revenue,FY26,11.2938,%,capex_cash / revenue_from_operations x 100,lines above
+Cash,dividends_paid_to_fcf,FY26,110.3281,%,-dividends_paid / free_cash_flow x 100; dividends paid include dividends to non-controlling interests; FY21 and FY22 not on file,"cf, lines above"
+Working capital,inventory_days_on_cost_of_goods,FY26,390.3352,days,inventories / cost_of_goods x 365 (year-end balance; cost_of_goods includes the inventory change),"bs, lines above"
+Working capital,payable_days_on_cost_of_goods,FY26,434.3607,days,"trade_payables_total / cost_of_goods x 365 (FY24 uses the sum of the two printed lines); blank where payables are not on file (FY23, FY25)","bs, lines above"
+Working capital,trade_working_capital,FY26,53004.0,Rs million,inventories + trade_receivables - trade_payables_total; blank where payables are not on file,bs
+Price multiples,close_on_or_before_31_march,FY21,395.25,Rs,last weekly close on or before 2021-03-31 (week ending 2021-03-26),weekly bars S039
+Price multiples,shares_outstanding_31_march,FY21,1200567573.0,shares,"implied_total_shares in the shareholding filing for 31 March (FY21: the 30-SEP-2021 filing, the earliest on file)",shareholding list S032
+Price multiples,market_cap,FY21,474524.3332,Rs million,"close x shares_outstanding / 1,000,000",lines above
+Price multiples,pe_basic_eps,FY21,63.3413,times,close / eps_basic (year of the year-end close),"lines above, pl eps_basic"
+Price multiples,price_to_book_owners_equity,FY21,6.2217,times,market_cap / equity_attributable_to_owners,"lines above, bs"
+Price multiples,price_to_sales,FY21,6.6431,times,market_cap / revenue_from_operations,lines above
+Price multiples,enterprise_value,FY21,495901.3332,Rs million,market_cap + net_debt_including_leases + non_controlling_interest (book value),lines above
+Price multiples,ev_to_ebitda_company_basis,FY21,26.0002,times,enterprise_value / ebitda_company_basis,lines above
+Price multiples,earnings_yield,FY21,1.5787,%,eps_basic / close x 100,lines above
+Price multiples,fcf_yield_on_market_cap,FY21,-0.7528,%,free_cash_flow / market_cap x 100,lines above
+Price multiples,close_on_or_before_31_march,FY22,348.9,Rs,last weekly close on or before 2022-03-31 (week ending 2022-03-25),weekly bars S039
+Price multiples,shares_outstanding_31_march,FY22,1200567573.0,shares,"implied_total_shares in the shareholding filing for 31 March (FY21: the 30-SEP-2021 filing, the earliest on file)",shareholding list S032
+Price multiples,market_cap,FY22,418878.0189,Rs million,"close x shares_outstanding / 1,000,000",lines above
+Price multiples,pe_basic_eps,FY22,64.136,times,close / eps_basic (year of the year-end close),"lines above, pl eps_basic"
+Price multiples,price_to_book_owners_equity,FY22,4.9674,times,market_cap / equity_attributable_to_owners,"lines above, bs"
+Price multiples,price_to_sales,FY22,5.1183,times,market_cap / revenue_from_operations,lines above
+Price multiples,enterprise_value,FY22,451067.0189,Rs million,market_cap + net_debt_including_leases + non_controlling_interest (book value),lines above
+Price multiples,ev_to_ebitda_company_basis,FY22,20.6637,times,enterprise_value / ebitda_company_basis,lines above
+Price multiples,earnings_yield,FY22,1.5592,%,eps_basic / close x 100,lines above
+Price multiples,fcf_yield_on_market_cap,FY22,-1.2443,%,free_cash_flow / market_cap x 100,lines above
+Price multiples,close_on_or_before_31_march,FY23,206.35,Rs,last weekly close on or before 2023-03-31 (week ending 2023-03-31),weekly bars S039
+Price multiples,shares_outstanding_31_march,FY23,1200567573.0,shares,"implied_total_shares in the shareholding filing for 31 March (FY21: the 30-SEP-2021 filing, the earliest on file)",shareholding list S032
+Price multiples,market_cap,FY23,247737.126,Rs million,"close x shares_outstanding / 1,000,000",lines above
+Price multiples,pe_basic_eps,FY23,53.183,times,close / eps_basic (year of the year-end close),"lines above, pl eps_basic"
+Price multiples,price_to_book_owners_equity,FY23,1.3866,times,market_cap / equity_attributable_to_owners,"lines above, bs"
+Price multiples,price_to_sales,FY23,2.217,times,market_cap / revenue_from_operations,lines above
+Price multiples,enterprise_value,FY23,436878.126,Rs million,market_cap + net_debt_including_leases + non_controlling_interest (book value),lines above
+Price multiples,ev_to_ebitda_company_basis,FY23,15.1295,times,enterprise_value / ebitda_company_basis,lines above
+Price multiples,earnings_yield,FY23,1.8803,%,eps_basic / close x 100,lines above
+Price multiples,fcf_yield_on_market_cap,FY23,1.0354,%,free_cash_flow / market_cap x 100,lines above
+Price multiples,close_on_or_before_31_march,FY24,264.15,Rs,last weekly close on or before 2024-03-31 (week ending 2024-03-28),weekly bars S039
+Price multiples,shares_outstanding_31_march,FY24,1200567573.0,shares,"implied_total_shares in the shareholding filing for 31 March (FY21: the 30-SEP-2021 filing, the earliest on file)",shareholding list S032
+Price multiples,market_cap,FY24,317129.9171,Rs million,"close x shares_outstanding / 1,000,000",lines above
+Price multiples,pe_basic_eps,FY24,30.8947,times,close / eps_basic (year of the year-end close),"lines above, pl eps_basic"
+Price multiples,price_to_book_owners_equity,FY24,1.603,times,market_cap / equity_attributable_to_owners,"lines above, bs"
+Price multiples,price_to_sales,FY24,2.1492,times,market_cap / revenue_from_operations,lines above
+Price multiples,enterprise_value,FY24,509064.9171,Rs million,market_cap + net_debt_including_leases + non_controlling_interest (book value),lines above
+Price multiples,ev_to_ebitda_company_basis,FY24,12.2248,times,enterprise_value / ebitda_company_basis,lines above
+Price multiples,earnings_yield,FY24,3.2368,%,eps_basic / close x 100,lines above
+Price multiples,fcf_yield_on_market_cap,FY24,3.2236,%,free_cash_flow / market_cap x 100,lines above
+Price multiples,close_on_or_before_31_march,FY25,341.7,Rs,last weekly close on or before 2025-03-31 (week ending 2025-03-28),weekly bars S039
+Price multiples,shares_outstanding_31_march,FY25,1200567573.0,shares,"implied_total_shares in the shareholding filing for 31 March (FY21: the 30-SEP-2021 filing, the earliest on file)",shareholding list S032
+Price multiples,market_cap,FY25,410233.9543,Rs million,"close x shares_outstanding / 1,000,000",lines above
+Price multiples,pe_basic_eps,FY25,40.3901,times,close / eps_basic (year of the year-end close),"lines above, pl eps_basic"
+Price multiples,price_to_book_owners_equity,FY25,1.8954,times,market_cap / equity_attributable_to_owners,"lines above, bs"
+Price multiples,price_to_sales,FY25,2.688,times,market_cap / revenue_from_operations,lines above
+Price multiples,enterprise_value,FY25,608863.9543,Rs million,market_cap + net_debt_including_leases + non_controlling_interest (book value),lines above
+Price multiples,ev_to_ebitda_company_basis,FY25,13.9185,times,enterprise_value / ebitda_company_basis,lines above
+Price multiples,earnings_yield,FY25,2.4759,%,eps_basic / close x 100,lines above
+Price multiples,fcf_yield_on_market_cap,FY25,4.1876,%,free_cash_flow / market_cap x 100,lines above
+Price multiples,close_on_or_before_31_march,FY26,370.1,Rs,last weekly close on or before 2026-03-31 (week ending 2026-03-27),weekly bars S039
+Price multiples,shares_outstanding_31_march,FY26,1621073650.0,shares,"implied_total_shares in the shareholding filing for 31 March (FY21: the 30-SEP-2021 filing, the earliest on file)",shareholding list S032
+Price multiples,market_cap,FY26,599959.3678,Rs million,"close x shares_outstanding / 1,000,000",lines above
+Price multiples,pe_basic_eps,FY26,131.2411,times,close / eps_basic (year of the year-end close),"lines above, pl eps_basic"
+Price multiples,price_to_book_owners_equity,FY26,1.7629,times,market_cap / equity_attributable_to_owners,"lines above, bs"
+Price multiples,price_to_sales,FY26,3.5444,times,market_cap / revenue_from_operations,lines above
+Price multiples,enterprise_value,FY26,741363.3678,Rs million,market_cap + net_debt_including_leases + non_controlling_interest (book value),lines above
+Price multiples,ev_to_ebitda_company_basis,FY26,19.5209,times,enterprise_value / ebitda_company_basis,lines above
+Price multiples,earnings_yield,FY26,0.762,%,eps_basic / close x 100,lines above
+Price multiples,fcf_yield_on_market_cap,FY26,0.1372,%,free_cash_flow / market_cap x 100,lines above
+Today,close_latest_week,2026-10-23,323.5,Rs,"last weekly close, week ending 2026-10-23",weekly bars S039
+Today,market_cap_latest,2026-10-23,527158.2339,Rs million,"close x implied_total_shares in the latest shareholding filing (1,629,546,318); the categories in that filing sum to 1,629,694,135, 0.009% more",lines above
+Today,highest_weekly_close_on_file,2020-12-24,481.95,Rs,highest weekly close since 2019-12-06,weekly bars S039
+Today,fall_from_highest_close,2026-10-23,-32.8769,%,"latest close / highest weekly close - 1, x 100",lines above
+Today,gain_needed_to_recover_highest_close,2026-10-23,48.9799,%,"highest weekly close / latest close - 1, x 100",lines above
+Today,biocon_price_change_1y,2026-10-23,-9.1675,%,"latest close / close in week ending 2025-10-17 - 1, x 100 (price only, no dividends)",weekly bars S039
+Today,nifty500_price_change_1y,2026-10-23,-9.1976,%,"latest close / close in week ending 2025-10-17 - 1, x 100 (price only)",weekly bars S040
+Today,biocon_minus_nifty500_1y,2026-10-23,0.0301,%,"biocon_price_change - nifty500_price_change, in percentage points",lines above
+Today,biocon_price_change_3y,2026-10-23,40.0736,%,"latest close / close in week ending 2023-10-20 - 1, x 100 (price only, no dividends)",weekly bars S039
+Today,nifty500_price_change_3y,2026-10-23,24.5157,%,"latest close / close in week ending 2023-10-20 - 1, x 100 (price only)",weekly bars S040
+Today,biocon_minus_nifty500_3y,2026-10-23,15.5579,%,"biocon_price_change - nifty500_price_change, in percentage points",lines above
+Today,biocon_price_change_5y,2026-10-23,-0.0926,%,"latest close / close in week ending 2021-10-22 - 1, x 100 (price only, no dividends)",weekly bars S039
+Today,nifty500_price_change_5y,2026-10-23,39.143,%,"latest close / close in week ending 2021-10-22 - 1, x 100 (price only)",weekly bars S040
+Today,biocon_minus_nifty500_5y,2026-10-23,-39.2356,%,"biocon_price_change - nifty500_price_change, in percentage points",lines above
