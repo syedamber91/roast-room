@@ -1,0 +1,22 @@
+query,window_filed,all_companies_rows,biocon_rows,note
+no symbol,2024-04-01 to 2024-04-15,240,4,BIOCON rows are the 4 trades of 27-28 Mar 2024
+no symbol,2024-04-01 to 2024-04-30,388,4,
+no symbol,2025-02-01 to 2025-02-28,1398,,
+no symbol,2025-04-01 to 2025-04-30,323,,
+no symbol,2025-07-01 to 2025-07-31,537,,
+no symbol,2025-10-01 to 2025-10-31,520,,
+no symbol,2026-01-01 to 2026-01-31,720,,
+no symbol,2026-04-01 to 2026-04-30,392,,
+no symbol,2026-05-01 to 2026-05-15,3,0,last rows filed 2026-05-01 and 2026-05-02
+no symbol,2026-05-16 to 2026-05-31,0,0,
+no symbol,2026-06-01 to 2026-06-15,0,0,
+no symbol,2026-06-16 to 2026-06-30,0,0,
+no symbol,2026-07-01 to 2026-07-31,0,0,
+no symbol,2026-09-01 to 2026-09-30,0,0,
+no symbol,2026-10-01 to 2026-10-31,0,0,
+symbol=BIOCON,2024-04-01 to 2025-03-31,,4,all four filed 2 to 5 Apr 2024
+symbol=BIOCON,2025-04-01 to 2026-03-31,,0,
+symbol=BIOCON,2026-04-01 to 2026-11-10,,0,
+symbol=HDFCBANK,2025-01-01 to 2025-12-31,35,,control: other companies do return rows; last trade date 24 Mar 2025
+symbol=RELIANCE,2025-01-01 to 2025-12-31,2,,control; trades 9 to 12 Sep 2025
+symbol=SYNGENE,2025-01-01 to 2025-12-31,0,,another company with none
