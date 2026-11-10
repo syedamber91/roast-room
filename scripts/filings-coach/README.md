@@ -19,6 +19,7 @@ owner approves.
 | `verify.py` | Checks every extracted line mechanically: SOIC timestamps against the note, book quotes word for word against the page. Failed lines are never used. |
 | `merge.py` | Puts verified checks in one file, tags their tier (soic / book / us-guide / classic), writes per-level files. |
 | `BRIEF.md` | The brief for the Opus drafters that write framework levels from the merged checks. |
+| `test_pipeline.py` | Tests for quote and cite verification and change detection: `python3 -m unittest test_pipeline -v`. |
 | `propose.py` + `PROPOSE.md` | After new sources are read: lists checks no step cites yet and support that was retired, then briefs a Sonnet router and an Opus reviewer to write `docs/filings-coach/proposals/<date>.md`. |
 
 ## Adding new sources (the normal loop)
