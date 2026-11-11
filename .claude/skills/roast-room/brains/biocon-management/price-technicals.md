@@ -132,7 +132,7 @@ Signs showing: **3 of 3** (a count of the three signs above, the ladder's `exit_
 
 ## Price move around results dates
 
-Dates are the 20 dates of BIOCON's own results filings (a filing in the NSE results group whose first pages say it carries financial results; read from the filings' text, not from every board-meeting outcome). The announcement can come before or after the market closes, so both sessions are shown: 'event day' is the first session on or after the filing date. Gap = that session's open against the previous close. Volume = that session's volume divided by the average of the 20 sessions before the event day. Two-session move = close of the session after the event day over the close before it; Nifty 50 over the same two sessions beside it. Prices and volume are Yahoo's, volume not bonus-adjusted.
+Dates are the 21 dates of BIOCON's own results filings (a filing in the NSE results group whose first pages say it carries financial results; read from the filings' text, not from every board-meeting outcome; the newest filing is read from its announcement line, whose PDF is not held). The four 2021 results filings are outside this table, which starts at the 2022-01-20 filing, because the price history used for the 20-session baseline begins in 2019 but the filings held begin in 2022. The announcement can come before or after the market closes, so both sessions are shown: 'event day' is the first session on or after the filing date. Gap = that session's open against the previous close. Volume = that session's volume divided by the average of the 20 sessions before the event day. Two-session move = close of the session after the event day over the close before it; Nifty 50 over the same two sessions beside it. Prices and volume are Yahoo's, volume not bonus-adjusted.
 
 | Results filing date | Event day | Open | Close | Volume | Next day | Open | Close | Volume | Avg volume, 20 sessions before |
 |---|---|---|---|---|---|---|---|---|---|
@@ -156,6 +156,7 @@ Dates are the 20 dates of BIOCON's own results filings (a filing in the NSE resu
 | 2026-02-12 | 2026-02-12 | 377.20 | 375.05 | 8,323,909 | 2026-02-13 | 374.00 | 377.95 | 5,387,172 | 2,909,378 |
 | 2026-05-07 | 2026-05-07 | 384.00 | 382.25 | 5,229,003 | 2026-05-08 | 379.00 | 380.40 | 5,679,695 | 3,627,537 |
 | 2026-08-05 | 2026-08-05 | 426.00 | 425.20 | 3,296,172 | 2026-08-06 | 428.00 | 436.60 | 10,929,015 | 6,644,588 |
+| 2026-11-04 | 2026-11-04 | 341.85 | 344.45 | 8,966,739 | 2026-11-05 | 352.00 | 362.00 | 6,787,308 | 2,874,846 |
 
 Readings from those levels. 'Held' = the session closed beyond the previous close in the direction of its gap (a gap under 0.5% is called no gap, this file's own cut). 'Prior high' = the highest close of the 250 sessions before the event day.
 
@@ -181,6 +182,7 @@ Readings from those levels. 'Held' = the session closed beyond the previous clos
 | 2026-02-12 | 375.20 | +0.53% | faded | -0.28% | no gap | +0.73% | -1.86% | 2.86x | 1.85x | 421.60 | -10.4% |
 | 2026-05-07 | 380.60 | +0.89% | held | -0.85% | held | -0.05% | -0.64% | 1.44x | 1.57x | 421.60 | -9.8% |
 | 2026-08-05 | 422.00 | +0.95% | held | +0.66% | held | +3.46% | +0.09% | 0.50x | 1.64x | 440.70 | -0.9% |
+| 2026-11-04 | 343.00 | -0.34% | no gap | +2.19% | held | +5.54% | +3.05% | 3.12x | 2.36x | 440.70 | -17.9% |
 
 Intraday fill, later sessions and old resistance. 'Filled intraday' = for a gap of 0.5% or more, the session traded back to the previous close at some point, whatever it closed at (so a gap can be 'held' on the close and still 'filled intraday'). 'Later volume' = volume of sessions +2 to +5 after the event day against the same 20-session average, and 'later closes' = each of those sessions' close against the event-day close, so heavy volume can be read as selling only where the close fell. 'Old resistance' = the nearest swing high above the previous close among the 250 sessions before the event day, a high strictly above every other high in the 11 sessions centred on it, with the whole window ending before the event day (this file's own cut); 'cleared' if the next close is above it, 'stuck' if not.
 
@@ -206,6 +208,7 @@ Intraday fill, later sessions and old resistance. 'Filled intraday' = for a gap 
 | 2026-02-12 | filled intraday | no gap | 0.72 / 0.38 / 0.51 / 0.96 | +1.4 / +1.1 / +1.0 / +2.0 | 382.00 | -1.1% | stuck |
 | 2026-05-07 | filled intraday | filled intraday | 3.56 / 3.10 / 3.16 / 2.23 | +2.1 / +5.3 / +9.2 / +9.6 | 382.00 | -0.4% | stuck |
 | 2026-08-05 | not filled | filled intraday | 0.79 / 0.34 / 0.29 / 0.57 | +0.3 / +0.2 / +0.2 / +0.5 | 424.95 | +2.7% | cleared |
+| 2026-11-04 | no gap | not filled | 1.78 / 1.03 | +6.0 / +7.0 | 385.25 | -6.0% | stuck |
 
 ## Sharp daily moves matched to the filings that day
 
@@ -244,4 +247,4 @@ Intraday fill, later sessions and old resistance. 'Filled intraday' = for a gap 
 | 2025-12-04 | -5.3% | 388.35 | none in the feed |
 | 2026-07-14 | +6.4% | 437.30 | Certificate under SEBI (Depositories and Participants) Regulations, 2018: Biocon Limited has informed the Exchange about Certificate under SEBI  |
 | 2026-10-28 | +5.5% | 350.70 | none in the feed |
-| 2026-11-05 | +5.1% | 362.00 | none in the feed |
+| 2026-11-05 | +5.1% | 362.00 | Analysts/Institutional Investor Meet/Con. Call Updates: Biocon Limited has informed the Exchange about Link of Recording; General Updates: Biocon Limited has informed the Exchange about Communication regarding; Investor Presentation: Biocon Limited has informed the Exchange about Investor Presentati |
