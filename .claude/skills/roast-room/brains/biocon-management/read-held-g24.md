@@ -23,7 +23,7 @@ Held calls: pre-2022-11 calls held are two: Q4 FY22 call (filings text 2022-05-0
 
 Rule in code (classify): for revenue, growth, margin and level targets, higher is better: above the top of the window = beat; inside = in line (a floor target met = in line); below the bottom = miss. For R&D-share targets (a spending level, not a result), above / within / below range, never counted as beat or miss. A dated target is in line if the filed date is on or before the guided end, else a miss. The filed figure is the company-printed number in a results filing or annual report (first printed reading); a figure derived from filed rows is labelled DERIVED and is shown but is the filed figure only where nothing is printed. Third-party data is not used. Where the guide uses words (mid-teens, high teens, mid-30s) no number is stated; the window is this code's reading, tabled below with a narrower and a wider one.
 
-Windows used (code's own reading of words): mid-teens = 12 to 18; high teens = 16 to 20; low teens to high single digits = 7 to 14; mid-30s to 40% = 33 to 40; mid to high 30s = 33 to 40; mid-20s = 23 to 27; around 12% = 11 to 13; double-digit = 10 to no top; single digit to low double digits = 1 to 13
+Windows used (code's own reading of words): mid-teens = 12 to 18; high teens = 16 to 20; low teens to high single digits = 7 to 14; mid-30s to 40% = 33 to 40; mid to high 30s = 33 to 40; mid-20s = 23 to 27; around 12% = 11 to 13; double-digit = 10 to no top; single digit to low double digits = 1 to 13; around 10% = 9 to 11; high single digit = 7 to 9
 
 ### 1. Call figure against filed figure
 
@@ -39,19 +39,26 @@ Windows used (code's own reading of words): mid-teens = 12 to 18; high teens = 1
 | G8 | Viatris deal closure date (guided: second half of CY2022) | by 2022-12-31 | 2022-11-30 (end of November (year read from FY23 call context)); data/management-text/call-2023-05-24.md line 21: "we concluded this deal at the end of November" | in line | 2022-11-29 (filed Regulation 30 disclosure, completion date); data/filings/text/2022-11-29_BIOCON_29112022183212_PressRelease_29112022/p001.txt line 40: "on 29, November, 2022 completed the acquisition of the biosimilars" | differs | in line | no |
 | G9 | Biologics quarterly revenue Rs crore, Q3 FY23 (guided: higher than ~1,000 after Q2) | >= 1000 | 1500.0 (as printed); data/management-text/call-2023-02-15.md line 50: "we are at a ₹1500 crores level this quarter for Biocon Biologics" | in line (floor met) | 1507.0 (printed in the Q3 FY23 press release); data/filings/text/2023-02-14_BIOCON_14022023195034_PressRelease_signed/p003.txt line 44: "Biocon Biologics recorded its highest ever quarterly revenue of Rs 1,507 crore" | same | in line (floor met) | no |
 | G10 | Biologics quarterly revenue Rs crore, Q4 FY23 (guided: to cross 2,000) | >= 2000 | 2102.0 (as printed); data/management-text/call-2023-05-24.md line 21: "Biocon Biologics recorded revenues of ₹2,102 crores for Q4" | in line (floor met) | 2102.0 (printed in the Q4 FY23 investor deck); data/filings/text/2023-05-24_BIOCON_24052023160532_InvestorPresentationQ4_signed/p025.txt line 15: "Revenue 2,102 982 114" | same | in line (floor met) | no |
-| G11 | Group R&D, % of revenue ex-Syngene, FY24 | 11 to 13 | 10.0 (as printed); data/management-text/call-2024-05-16.md line 22: "R&D investment for the full year was INR 1,154 crore, up 3% year-on-year and representing 10% of revenues" | below range | 10.0 (printed in the FY24 annual report (p208)); annual-report/FY24/p208.md line 17: "Net R&D was at 10% of revenue ex-Syngene" | same | below range | no |
+| G11 | Biocon Biologics R&D, % of revenue, FY24 (year read from 'as we accrue full revenues from Viatris', the code's reading) | 11 to 13 | 10.0 (as printed); data/management-text/call-2024-05-16.md line 22: "We also continue to invest in our pipeline to support future growth with an R&D spend at 10% of revenues" | below range | 10.0 (printed in the Q4 FY24 press release, Biocon Biologics section (p008)); data/filings/text/2024-05-16_BIOCON_16052024175855_PressRelease_160524_signed/p008.txt line 41: "to drive future growth with R&D investments at 10% of its revenue" | same | below range | no |
 | G12 | Generics revenue growth, FY24, % | 12 to 18 | 1.0 (as printed); data/management-text/call-2024-05-16.md line 22: "Generics delivering a modest 1% year-on-year growth" | miss | 1.0 (printed in the FY24 annual report (p075)); annual-report/FY24/p075.md line 28: "reflecting a growth of 1%" | same | miss | no |
 | G13 | Generics revenue growth, FY24, % (revised guide) | 7 to 14 | 1.0 (as printed); data/management-text/call-2024-05-16.md line 22: "Generics delivering a modest 1% year-on-year growth" | miss | 1.0 (printed in the FY24 annual report (p075)); annual-report/FY24/p075.md line 28: "reflecting a growth of 1%" | same | miss | no |
 | G14 | Biologics core EBITDA margin, Q2 FY24, % | 33 to 40 | 34.0 (as printed); data/management-text/call-2023-11-10.md line 22: "core EBITDA of ₹660 crores with margins of 34%" | in line | 34.0 (printed in the Q2 FY24 press release); data/filings/text/2023-11-10_BIOCON_10112023171756_PressRelease_signed/p007.txt line 41: "Core EBITDA at Rs 660 crore, grew by 47%, reflecting healthy margins of 34%" | same | in line | no |
 | G15 | Biologics core EBITDA margin, Q3 FY24, % | 33 to 40 | 28.0 (as printed); data/management-text/call-2024-02-09.md line 22: "core EBITDA of INR 587 crores with a margin of 28%" | miss | 28.0 (printed in the Q3 FY24 press release); data/filings/text/2024-02-08_BIOCON_08022024203450_PressRelease_080224_signed/p008.txt line 15: "Core EBITDA at Rs 587 crore, with Core EBITDA margins at 28%" | same | miss | no |
 | G16 | Generics EBITDA margin, FY25, % | 10 to 12 | 12.0 (as printed); data/management-text/call-2025-05-09.md line 23: "EBITDA for FY'25 was INR 377 crores with EBITDA margin at 12%" | in line | 12.0 (printed in the Q4 FY25 investor deck (p010): EBITDA % of total revenue); data/filings/text/2025-05-09_Biocon2_09052025081203_IR09052025/p010.txt line 33: "% of Total Revenue 12% 14%" | same | in line | no |
 | G17 | Biologics R&D, % of revenue, FY25 (guide read 7-9; the call says '6%, 7% to 9%') | 7 to 9 | 7.0 (as printed); data/management-text/call-2025-05-09.md line 23: "This R&D investments for the year were at 7% of revenue" | within range | 7.0 (printed in the Q4 FY25 press release); data/filings/text/2025-05-08_Biocon2_08052025194632_PressRelease/p007.txt line 41: "R&D investment of Rs 592 crore, representing 7% of FY25 revenue" | same | within range | no |
-| G18 | Syngene operating EBITDA margin, FY26, % | 23 to 27 | 25.0 (as printed); data/management-text/call-2026-05-08.md line 20: "Operating EBITDA margin at 25% for the year was in line with Syngene's revised full year guidance." | in line | 25.0 (printed in the Q4 FY26 press release (EBITDA margin; the filing does not say 'operating')); data/filings/text/2026-05-07_BIOCON_07052026233651_Covering_Letter_Press_Release/p004.txt line 7: "full-year revenue from operations grew 3%, and with an EBITDA margin of 25%" | same | in line | no |
+| G18 | Biocon Biologics EBITDA margin, FY26, % (guide: the Biologics CEO; the old pairing with Syngene's 25% is dropped) | 23 to 27 | none (call text gives no outcome figure) | not scored | 26.0 (printed in the Q4 FY26 press release, Biosimilars section (adjusted for the BFI divestment gain)); data/filings/text/2026-05-07_BIOCON_07052026233651_Covering_Letter_Press_Release/p006.txt line 4: "FY26 EBITDA at Rs 2,751 crore, up 40% YoY, adjusted for BFI divestment gain; representing EBITDA Margin of 26%" | n/a | in line | n/a |
 | G19 | Five biosimilar launches, guided within 12 to 18 months of 2025-05-08 (end = 2026-11-08, DERIVED: 2025-05-08 + 18 months) | by 2026-11-08 | none (call text gives no outcome figure) | not scored | 2026-04-07 (fifth launch (denosumab, US) filed; date = the filing's date, 'today announced'); data/filings/text/2026-04-07_BIOCON_07042026160635_Pressrelease07042026/p002.txt line 16: "today announced the commercial launch of Bosaya" | n/a | in line | n/a |
 | G20 | Biologics R&D, % of revenue, FY26 full year (guide 7-9) | 7 to 9 | none (call text gives no outcome figure) | not scored | 6.0 (printed in the FY26 annual report, Biosimilars section (p233)); annual-report/FY26/p233.md line 41: "R&D expenditure at approximately 6% of revenues, directed towards advancing the biosimilars pipeline" | n/a | below range | n/a |
 | G21 | Syngene revenue growth, FY25, % (guided on a constant-currency basis; filed figure is reported growth) | 1 to 13 | none (call text gives no outcome figure) | not scored | 4.0 (printed in the Q4 FY25 press release (reported, not constant currency)); data/filings/text/2025-05-08_Biocon2_08052025194632_PressRelease/p008.txt line 29: "FY25 Revenue Up 4% at Rs 3,642 Crore" | n/a | in line | n/a |
+| G22 | Biocon Biologics annual revenue, FY24: guided to reach US$1 billion (floor; the filing states the mark was crossed) | >= 1.0 | none (call text gives no outcome figure) | not scored | 1.0 (printed in the Q4 FY24 press release: the USD 1 billion mark was crossed (a statement, value 1.0 stands for 'crossed'; revenue Rs 8,824 crore)); data/filings/text/2024-05-16_BIOCON_16052024175855_PressRelease_160524_signed/p008.txt line 35: "Biocon Biologics crossed the USD 1 billion annual revenue mark in FY24" | n/a | in line (floor met) | n/a |
+| G23 | Syngene revenue growth, FY24, % (guided on a constant-currency basis; filed figure is reported growth) | 12 to 18 | 9.0 (as printed); data/management-text/call-2024-05-16.md line 22: "Syngene delivered a 9% year-on-year revenue growth" | miss | 9.0 (printed in the Q4 FY24 press release (reported, not constant currency)); data/filings/text/2024-05-16_BIOCON_16052024175855_PressRelease_160524_signed/p010.txt line 31: "FY24 Revenue at Rs 3,489 Crore, up 9%" | same | miss | no |
+| G24 | Biocon Biologics R&D, % of revenue, FY25 (guide 8-9, the 2024-05-16 call) | 8 to 9 | 7.0 (as printed); data/management-text/call-2025-05-09.md line 23: "This R&D investments for the year were at 7% of revenue" | below range | 7.0 (printed in the Q4 FY25 press release); data/filings/text/2025-05-08_Biocon2_08052025194632_PressRelease/p007.txt line 41: "R&D investment of Rs 592 crore, representing 7% of FY25 revenue" | same | below range | no |
+| G25 | Generics R&D, % of Generics revenue, FY24 ('next year' in the answer, qa-pairs line 51) | 9 to 11 | none (call text gives no outcome figure) | not scored | 8.0 (printed in the Q4 FY25 investor deck, Generics page (p010): FY24 column); data/filings/text/2025-05-09_Biocon2_09052025081203_IR09052025/p010.txt line 31: "% of Revenue 9.5% 8%" | n/a | below range | n/a |
+| G26 | Generics revenue growth, H2 FY23 over H2 FY22, % | 7 to 9 | none (call text gives no outcome figure) | not scored | 8.4 (DERIVED: (Q3 FY23 718 + Q4 FY23 717) / (Q3 FY22 607 + Q4 FY22 717) - 1; all four are printed in the two press releases); data/filings/text/2023-02-14_BIOCON_14022023195034_PressRelease_signed/p006.txt line 26: "Q3FY23 revenue at Rs 718 Crore, up 18% (YoY) from Rs 607 Crore in Q3FY22"; data/filings/text/2023-02-14_BIOCON_14022023195034_PressRelease_signed/p006.txt line 26: "Q3FY23 revenue at Rs 718 Crore, up 18% (YoY) from Rs 607 Crore in Q3FY22"; data/filings/text/2023-05-23_BIOCON_23052023211340_PressRelease_signed/p007.txt line 37: "Q4FY23 revenue at Rs 717 Crore, same as in Q4FY22"; data/filings/text/2023-05-23_BIOCON_23052023211340_PressRelease_signed/p007.txt line 37: "Q4FY23 revenue at Rs 717 Crore, same as in Q4FY22" | n/a | in line | n/a |
+| G27 | Generics revenue growth, FY25, % | 7 to 9 | none (call text gives no outcome figure) | not scored | 8.0 (printed in the Q4 FY25 investor deck, Generics page (p010)); data/filings/text/2025-05-09_Biocon2_09052025081203_IR09052025/p010.txt line 27: "Operating Revenue 3,017 2,799 8" | n/a | in line | n/a |
+| G28 | Generics R&D, % of revenue, FY26 ('similar trajectory' with no year stated; FY26 is the code's reading) | 8 to 10 | none (call text gives no outcome figure) | not scored | 10.0 (printed in the FY26 annual report, UN goals table (p010)); annual-report/FY26/p010.md line 10: "10% of revenues invested in R&D by Generics business" | n/a | within range | n/a |
 
-Quote check by code: 21 of 21 rows have every guide, call and filed quote found on the stated line (whitespace ignored, 30 words max).
+Quote check by code: 28 of 28 rows have every guide, call and filed quote found on the stated line (whitespace ignored, 30 words max).
 
 Guidance quotes (date, file, line, quote):
 
@@ -72,10 +79,17 @@ Guidance quotes (date, file, line, quote):
 - G15: 2023-05-24, data/management-text/call-2023-05-24.md line 99: "I think we have guided for mid-30%s to 40% margins."
 - G16: 2025-01-31, data/management-text/call-2025-01-31.md line 120: "directionally, what I have guided for is an EBITDA margin of 10% to 12%."
 - G17: 2025-01-31, data/management-text/call-2025-01-31.md line 30: "R&D in that 6%, 7% to 9% range that we have guided."
-- G18: 2026-02-13, data/management-text/call-2026-02-13.md line 25: "those margins have been higher than what our guidance has been in the mid-20s."
+- G18: 2026-02-13, data/management-text/call-2026-02-13.md line 27: "We did say that we will have the mid-20s for the current financial year."
 - G19: 2025-05-08, data/filings/text/2025-05-08_Biocon2_08052025194632_PressRelease/p004.txt line 33: "positioned to launch 5 new products in the next 12-18 months"
 - G20: 2025-11-12, data/management-text/call-2025-11-12.md line 28: "we would be in that 7% to 9% of revenues for R&D"
 - G21: 2024-05-16, data/management-text/call-2024-05-16.md line 22: "guidance for fiscal '25 includes revenue growth at single digit to low double digits"
+- G22: 2023-11-10, data/management-text/call-2023-11-10.md line 22: "we remain on track to deliver US$1 billion revenue for Biocon Biologics"
+- G23: 2023-11-10, data/management-text/call-2023-11-10.md line 22: "mid- Transcript - Biocon Limited Q2 FY24 Earnings Call Page 7 of 23 teen constant currency growth in Syngene"
+- G24: 2024-05-16, data/management-text/call-2024-05-16.md line 22: "expect R&D investments to be in the 8% to 9% of revenues range"
+- G25: 2023-05-24, data/management-text/call-2023-05-24.md line 111: "generics R&D will be around 10% of segment revenues"
+- G26: 2022-11-15, data/management-text/call-2022-11-15.md line 51: "the second half of this ﬁscal, we do expect a high single digit growth compared to second half of last year"
+- G27: 2024-08-09, data/management-text/call-2024-08-09.md line 44: "For the overall year, we still expect like a high single-digit kind of growth levels for the business."
+- G28: 2025-11-12, data/management-text/call-2025-11-12.md line 30: "I expect it to be in a similar trajectory of 8% to 10% of revenues."
 
 ### 2. Other filed readings per row (differences flagged)
 
@@ -104,31 +118,37 @@ Guidance quotes (date, file, line, quote):
   - DERIVED from the deck's own rows: EBITDA 377 / operating revenue 3,017 x 100 = 12.5 -> beat, CLASS DIFFERS (beat): data/filings/text/2025-05-09_Biocon2_09052025081203_IR09052025/p010.txt line 32: "EBITDA 377 394 (4)"; data/filings/text/2025-05-09_Biocon2_09052025081203_IR09052025/p010.txt line 27: "Operating Revenue 3,017 2,799 8"
 - G17 (filed figure 7.0, class within range):
   - DERIVED: R&D 592 / BBL revenue from operations 9,017 x 100 = 6.6 -> below range, CLASS DIFFERS (below range): data/filings/text/2025-05-08_Biocon2_08052025194632_PressRelease/p007.txt line 41: "R&D investment of Rs 592"; data/filings/text/2025-05-08_Biocon2_08052025194632_PressRelease/p007.txt line 29: "FY25 Revenue at Rs 9,017 Crore"
+- G18 (filed figure 26.0, class in line):
+  - DERIVED: FY26 Biosimilars EBITDA 2,751 / Biosimilars FY26 revenue 10,431 x 100 (the table row is the same segment as the section above) = 26.4 -> in line, same class: data/filings/text/2026-05-07_BIOCON_07052026233651_Covering_Letter_Press_Release/p006.txt line 4: "FY26 EBITDA at Rs 2,751 crore"; data/filings/text/2026-05-07_BIOCON_07052026233651_Covering_Letter_Press_Release/p004.txt line 28: "Biosimilars 2,756 2,463 2,463 12 10,431 9,017 9,017 16"
 - G20 (filed figure 6.0, class below range):
   - printed in the FY26 annual report, UN goals table (p010) = 6.0 -> below range, same class: annual-report/FY26/p010.md line 10: "6% of revenues invested in R&D by Biosimilars business"
 - G21 (filed figure 4.0, class in line):
   - Syngene CEO in the same release: 'in line with our earlier guidance' = 4.0 -> in line, same class: data/filings/text/2025-05-08_Biocon2_08052025194632_PressRelease/p004.txt line 41: "reported revenue growth of 4%, are in line with our earlier guidance"
+- G25 (filed figure 8.0, class below range):
+  - DERIVED: FY24 R&D 237 / FY24 operating revenue 2,799 x 100 = 8.5 -> below range, same class: data/filings/text/2025-05-09_Biocon2_09052025081203_IR09052025/p010.txt line 30: "R&D 286 237 21"; data/filings/text/2025-05-09_Biocon2_09052025081203_IR09052025/p010.txt line 27: "Operating Revenue 3,017 2,799 8"
+- G27 (filed figure 8.0, class in line):
+  - DERIVED: operating revenue 3,017 / 2,799 - 1 = 7.8 -> in line, same class: data/filings/text/2025-05-09_Biocon2_09052025081203_IR09052025/p010.txt line 27: "Operating Revenue 3,017 2,799 8"; data/filings/text/2025-05-09_Biocon2_09052025081203_IR09052025/p010.txt line 27: "Operating Revenue 3,017 2,799 8"
 - G19 extra: call 2025-11-12: four launched, fifth imminent (management's own tally; separate filed dates for the four not read): data/management-text/call-2025-11-12.md line 16: "we have delivered on this commitment with successful launches of b Ustekinumab, bAspart, bBevacizumab and bAflibercept across geographies, and we expect an imminent launch of bDenosumab"
 
 Rows where the filed figure differs from the call figure by more than rounding: G6, G8. Rows where the beat/miss/range class changes when the filed figure replaces the call figure: G6. A row that has only a filed figure (no call-side outcome) is not counted as a change.
 
 ### 3. Counts
 
-Call text only (first pass, 18 rows with a call-side figure): beats 1, misses 3, in line 8 (floor met 3), R&D-share rows above range 3, below range 2, within range 1.
-After the filing check, all rows with a held filed figure, else the call class (21 rows): beats 2, misses 3, in line 9 (floor met 3), R&D-share rows above range 3, below range 3, within range 1.
+Call text only (first pass, 18 rows with a call-side figure): beats 1, misses 4, in line 7 (floor met 3), R&D-share rows above range 3, below range 3, within range 1.
+After the filing check, all rows with a held filed figure, else the call class (28 rows): beats 2, misses 4, in line 12 (floor met 4), R&D-share rows above range 3, below range 5, within range 2.
 
 ### 4. Independent statements
 
-Raw rows: 21. Distinct outcomes: 19. Distinct guide statements: 20. Independent statements (rows linked by a shared guide statement or a shared outcome count once): 18.
+Raw rows: 28. Distinct outcomes: 25. Distinct guide statements: 25. Independent statements (rows linked by a shared guide statement or a shared outcome count once): 22.
 
-Linked rows: G1+G2; G12+G13; G14+G15.
+Linked rows: G1+G2; G12+G13; G14+G15; G17+G21+G24; G22+G23.
 - G1 and G2 share one outcome (FY23 Biologics R&D share): two restated guides, one outcome. G3 is its own outcome (Q2 FY23) but is the third restatement of the same guide topic.
 - G12 and G13 share one outcome (Generics FY24 growth): the original and the revised guide, one outcome.
 - G14 and G15 share one guide statement (the 2023-05-24 'mid-30s to 40%' line) against two different quarters: two outcomes, one guide statement. Counted as one independent statement with a split result (in line and miss).
 
-Class tally on distinct outcomes (after the filing check): beats 2, misses 2, in line 9 (floor met 3), R&D-share rows above range 2, below range 3, within range 1.
-Class tally on all raw rows (after the filing check): beats 2, misses 3, in line 9 (floor met 3), R&D-share rows above range 3, below range 3, within range 1.
-Linked groups whose rows carry different classes: G14+G15.
+Class tally on distinct outcomes (after the filing check): beats 2, misses 3, in line 12 (floor met 4), R&D-share rows above range 2, below range 4, within range 2.
+Class tally on all raw rows (after the filing check): beats 2, misses 4, in line 12 (floor met 4), R&D-share rows above range 3, below range 5, within range 2.
+Linked groups whose rows carry different classes: G14+G15, G17+G21+G24, G22+G23.
 
 ### 5. Where the word windows decide the class
 
@@ -141,17 +161,24 @@ The calls give no number for these words. The scoring uses the middle window (th
 | G6 | mid to high 30s | 35 to 39 | 33 to 40 | 32 to 41 | 39.7 (call + DERIVED from the deck's own rows) | beat | in line | in line | YES |
 | G6 | mid to high 30s | 35 to 39 | 33 to 40 | 32 to 41 | 41.0 (printed in the Q4 FY23 investor deck + printed in the FY23 annual report) | beat | beat | in line | YES |
 | G7 | high teens | 17 to 19 | 16 to 20 | 15 to 21 | 23.0 (call + printed in the Q4 FY23 press release) | beat | beat | beat | no |
-| G11 | around 12% | 11.5 to 12.5 | 11 to 13 | 10 to 14 | 10.0 (call + printed in the FY24 annual report) | below range | below range | within range | YES |
+| G11 | around 12% | 11.5 to 12.5 | 11 to 13 | 10 to 14 | 10.0 (call + printed in the Q4 FY24 press release, Biocon Biologics section) | below range | below range | within range | YES |
 | G12 | mid-teens | 14 to 16 | 12 to 18 | 11 to 19 | 1.0 (call + printed in the FY24 annual report + ar-tables csv row generics_growth FY24) | miss | miss | miss | no |
 | G12 | mid-teens | 14 to 16 | 12 to 18 | 11 to 19 | 6.1 (DERIVED, operating-revenue basis) | miss | miss | miss | no |
 | G13 | low teens to high single digits | 8 to 13 | 7 to 14 | 6 to 15 | 1.0 (call + printed in the FY24 annual report + ar-tables csv row generics_growth FY24) | miss | miss | miss | no |
 | G13 | low teens to high single digits | 8 to 13 | 7 to 14 | 6 to 15 | 6.1 (DERIVED, operating-revenue basis) | miss | miss | in line | YES |
 | G14 | mid-30s to 40% | 35 to 40 | 33 to 40 | 31 to 40 | 34.0 (call + printed in the Q2 FY24 press release) | miss | in line | in line | YES |
 | G15 | mid-30s to 40% | 35 to 40 | 33 to 40 | 31 to 40 | 28.0 (call + printed in the Q3 FY24 press release) | miss | miss | miss | no |
-| G18 | mid-20s | 24 to 26 | 23 to 27 | 22 to 28 | 25.0 (call + printed in the Q4 FY26 press release) | in line | in line | in line | no |
+| G18 | mid-20s | 24 to 26 | 23 to 27 | 22 to 28 | 26.0 (printed in the Q4 FY26 press release, Biosimilars section) | in line | in line | in line | no |
+| G18 | mid-20s | 24 to 26 | 23 to 27 | 22 to 28 | 26.4 (DERIVED) | beat | in line | in line | YES |
 | G21 | single digit to low double digits | 1 to 12 | 1 to 13 | 1 to 15 | 4.0 (printed in the Q4 FY25 press release + Syngene CEO in the same release) | in line | in line | in line | no |
+| G23 | mid-teens | 14 to 16 | 12 to 18 | 11 to 19 | 9.0 (call + printed in the Q4 FY24 press release) | miss | miss | miss | no |
+| G25 | around 10% | 9.5 to 10.5 | 9 to 11 | 8 to 12 | 8.0 (printed in the Q4 FY25 investor deck, Generics page) | below range | below range | within range | YES |
+| G25 | around 10% | 9.5 to 10.5 | 9 to 11 | 8 to 12 | 8.5 (DERIVED) | below range | below range | within range | YES |
+| G26 | high single digit | 8 to 9 | 7 to 9 | 7 to 10 | 8.4 (DERIVED) | in line | in line | in line | no |
+| G27 | high single digit | 8 to 9 | 7 to 9 | 7 to 10 | 8.0 (printed in the Q4 FY25 investor deck, Generics page) | in line | in line | in line | no |
+| G27 | high single digit | 8 to 9 | 7 to 9 | 7 to 10 | 7.8 (DERIVED) | miss | in line | in line | YES |
 
-Beat/miss/in-line classes that depend on the word reading: G13, G14, G6. Cost-share classes that depend on it: G11. Rows whose class is the same under all three readings: G12, G15, G18, G21, G5, G7.
+Beat/miss/in-line classes that depend on the word reading: G13, G14, G18, G27, G6. Cost-share classes that depend on it: G11, G25. Rows whose class is the same under all three readings: G12, G15, G21, G23, G26, G5, G7.
 Rows with a stated number in the guide (G1-G4, G8-G10, G16, G17, G19, G20) use no word window, so they do not appear here.
 
 ### 6. Statements the first pass left unscored
