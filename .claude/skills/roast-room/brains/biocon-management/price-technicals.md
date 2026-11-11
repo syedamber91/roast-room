@@ -249,6 +249,30 @@ Direction of the trade count: median of the first 60 sessions 28,368, of the las
 
 The step's shrinking-trade-count test is written for a small company; BIOCON is a large one (market cap in the derived-metrics file), so it is shown here for completeness.
 
+## Weekly screen, the eight legs of FC-L8-D1, as at 2026-11-09 (the newest daily session)
+
+The eight legs are the ones the step lists (learning-vault-invest/filings-coach/framework/framework.md, step FC-L8-D1, the 'Check' line). Weekly bars are rebuilt from the daily file by ISO week, so the week ending 2026-11-09 holds only the sessions to that date; the older reading is the same calculation at the week ending 2026-10-23, the date of the weekly tables above. RSI and ADX bars are read from the rulebook with their keys; the EMA 5% and the 52-week-high 20% are the step's own stated figures (not rulebook entries); legs 6 to 8 state no bar, so only the readings are printed. 'at or above' and 'below' compare a reading with a bar; they are not a verdict.
+
+| Leg | Bar | Reading as at 2026-11-09 | Reading as at the week ending 2026-10-23 |
+|---|---|---|---|
+| 1. weekly RSI(14) up through its bar | 50 (rules[id=entry_rsi-001].check_rule) | 44.88, below | 24.38, below |
+| 2. weekly ADX(14) up through its bar | 20 (rules[id=entry_adx-001].check_rule) | 25.88, at or above | 23.72, at or above |
+| 3. close above the 30-week EMA (one version: about 5% above it) | 0%, and 5% (step text, H1-176; not in the rulebook) | -3.88%; 5% leg: below | -16.63%; 5% leg: below |
+| 4. close at or above the V-Stop (V-Stop positive) | price at or above the V-Stop (observations[id=entry_vstop_context-001].reference_band, band >= 0) | -2.35% from the V-Stop 377.38 | -14.28% from the V-Stop 377.38 |
+| 5. close within 20% of the 52-week high (weekly highs) | 20% (step text, H1-233; not in the rulebook) | -17.59% from 447.15 (2026-07-17); 20% leg: at or above | -27.65% from 447.15 (2026-07-17); 20% leg: below |
+| 6. abnormal volume against the stock's own average | no bar stated | last 20 sessions 0.88x the 250-session mean; last session 0.88x the 20 before it | last 20 sessions 0.68x the 250-session mean; last session 1.35x the 20 before it |
+| 7. 50-day volume surge with rising relative strength | no bar stated | 50-session mean volume 0.66x the 50 before; RS line (BIOCON / Nifty 500, daily closes) -11.77% over 50 sessions | 50-session mean volume 0.61x the 50 before; RS line (BIOCON / Nifty 500, daily closes) -16.07% over 50 sessions |
+| 8. relative strength at a 52-week high while the index is flat | no bar stated | RS line -18.09% from its 52-week high (2026-05-15); Mansfield RS -10.2, 52-week high 15.2 (2026-05-15); Nifty 500 +4.60% over 26 weeks, -1.13% over 52 | RS line -20.91% from its 52-week high (2026-05-15); Mansfield RS -14.0, 52-week high 15.2 (2026-05-15); Nifty 500 -5.06% over 26 weeks, -9.54% over 52 |
+
+Crossings of the two bars (weekly bars; an up-cross is the first week at or above the bar after a week below it):
+
+| Indicator | Bar | Newest crossings as at the newest session |
+|---|---|---|
+| weekly RSI(14) | 50 | up-cross 2026-05-08 (45.3 to 54.1) ; down-cross 2026-09-04 (52.3 to 46.3) |
+| weekly ADX(14) | 20 | up-cross 2026-10-16 (19.9 to 21.5) ; down-cross 2026-07-31 (20.1 to 19.7) |
+
+The 20% leg reads -27.65% at the week ending 2026-10-23 and -17.59% at 2026-11-09; the table above uses the newer date.
+
 ## Price move around results dates
 
 Dates are the 25 dates of BIOCON's own results filings (a filing in the NSE results group whose first pages say it carries financial results; read from the filings' text, not from every board-meeting outcome; a filing whose PDF is not held, the 2021 ones and the newest, is taken from its announcement line when that line says 'financial results for the period'). The announcement can come before or after the market closes, so both sessions are shown: 'event day' is the first session on or after the filing date. Gap = that session's open against the previous close. Volume = that session's volume divided by the average of the 20 sessions before the event day. Two-session move = close of the session after the event day over the close before it; Nifty 50 over the same two sessions beside it. Prices and volume are Yahoo's, volume not bonus-adjusted. 'n/a' = a session that has not traded yet (prices end 2026-11-09). The table starts at 2021-01-21, the first results filing in the announcements held (they begin 2021-01-07). 2025-01-30 and 2025-01-31 are the same quarter (the results were filed on 01-30 after the close, the integrated filing on 01-31); both are shown.
