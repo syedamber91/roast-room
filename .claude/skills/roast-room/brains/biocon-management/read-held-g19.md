@@ -276,7 +276,7 @@ Written by `scripts/case_study_read_held_g19.py`. Every quote below was found by
 
 ## L2-32
 
-**Step's ask:** New capacity: depreciation and interest in the first year after commissioning (step FC-L2-T3-S5; done when the change in depreciation and interest after the commissioning date is shown).
+**Step's ask:** New capacity: depreciation and interest in the first year after commissioning (step FC-L2-T3-S5; done when the change in depreciation and interest after the commissioning date is shown). Fix round: every quarterly cell is now the company's own results-release figure, with screener's beside it (they differ in one cell, Jun 2026 depreciation: company 548, screener 547).
 
 ### Q2 FY26 as the company printed it (results press release 2025-11-11, Rs crore, consolidated)
 
@@ -298,7 +298,7 @@ Written by `scripts/case_study_read_held_g19.py`. Every quote below was found by
 - **THIRD-PARTY (screener)** `data/screener-quarters-2026-08-30.csv` | n/a (no page marks in this file) | line 89 | "Depreciation,Sep 2025,473.0" (Rs crore; Sep 2024, Jun 2025, Sep 2025 match the company press release above)
 - **THIRD-PARTY (screener)** `data/screener-quarters-2026-08-30.csv` | n/a (no page marks in this file) | line 90 | "Depreciation,Dec 2025,515.0" (Rs crore; Sep 2024, Jun 2025, Sep 2025 match the company press release above)
 - **THIRD-PARTY (screener)** `data/screener-quarters-2026-08-30.csv` | n/a (no page marks in this file) | line 91 | "Depreciation,Mar 2026,513.0" (Rs crore; Sep 2024, Jun 2025, Sep 2025 match the company press release above)
-- **THIRD-PARTY (screener)** `data/screener-quarters-2026-08-30.csv` | n/a (no page marks in this file) | line 92 | "Depreciation,Jun 2026,547.0" (Rs crore; Sep 2024, Jun 2025, Sep 2025 match the company press release above)
+- **THIRD-PARTY (screener)** `data/screener-quarters-2026-08-30.csv` | n/a (no page marks in this file) | line 92 | "Depreciation,Jun 2026,547.0" (Rs crore; Sep 2024, Jun 2025, Sep 2025 match the company press release above); the company's own release prints 548 for this quarter, see the company-release group
 - **THIRD-PARTY (screener)** `data/screener-quarters-2026-08-30.csv` | n/a (no page marks in this file) | line 72 | "Interest,Sep 2024,226.0" (Rs crore; Sep 2024, Jun 2025, Sep 2025 match the company press release above)
 - **THIRD-PARTY (screener)** `data/screener-quarters-2026-08-30.csv` | n/a (no page marks in this file) | line 73 | "Interest,Dec 2024,223.0" (Rs crore; Sep 2024, Jun 2025, Sep 2025 match the company press release above)
 - **THIRD-PARTY (screener)** `data/screener-quarters-2026-08-30.csv` | n/a (no page marks in this file) | line 74 | "Interest,Mar 2025,212.0" (Rs crore; Sep 2024, Jun 2025, Sep 2025 match the company press release above)
@@ -330,6 +330,45 @@ Written by `scripts/case_study_read_held_g19.py`. Every quote below was found by
 - `annual-report/FY26/p367.md` | p367 (PDF page file) | line 37 | "(a) Borrowing cost capitalised during the year amounted to Nil (March 31, 2025: Rs 1,782)."
 - `data/management-text/call-2025-11-12.md` | n/a (no page marks in this file) | line 16 | "The full benefit, however, of this debt reduction will be visible from FY '27 with annual savings of around INR300 crores in interest costs."
 - `data/management-text/call-2025-08-08.md` | n/a (no page marks in this file) | line 21 | "Higher interest and depreciation costs from recent Capex also impacted PBT performance."
+
+### The company's own results-release cells for every quarter used (consolidated, Rs crore); these come first, screener beside them
+
+- `data/filings/text/2024-08-08_BIOCON_08082024193010_PressRelease/p012.txt` | p012 (PDF page file) | line 1 | "BIOCON LIMITED (CONSOLIDATED)" (Jun 2024 quarter release)
+- `data/filings/text/2024-08-08_BIOCON_08082024193010_PressRelease/p012.txt` | p012 (PDF page file) | line 37 | "Particulars Q1 FY 25" (the quarter this release's first column is)
+- `data/filings/text/2024-08-08_BIOCON_08082024193010_PressRelease/p012.txt` | p012 (PDF page file) | line 20 | "Depreciation & Amortisation 405 358 13%" (Jun 2024 quarter, Rs crore; the first number is this quarter)
+- `data/filings/text/2024-08-08_BIOCON_08082024193010_PressRelease/p012.txt` | p012 (PDF page file) | line 19 | "Interest & Finance charges 236 233 1%" (Jun 2024 quarter, Rs crore; the first number is this quarter)
+- `data/filings/text/2024-10-30_BIOCON_30102024174933_PressRelease_signed/p013.txt` | p013 (PDF page file) | line 1 | "BIOCON LIMITED (CONSOLIDATED)" (Sep 2024 quarter release)
+- `data/filings/text/2024-10-30_BIOCON_30102024174933_PressRelease_signed/p013.txt` | p013 (PDF page file) | line 37 | "Particulars Q2 FY 25" (the quarter this release's first column is)
+- `data/filings/text/2024-10-30_BIOCON_30102024174933_PressRelease_signed/p013.txt` | p013 (PDF page file) | line 19 | "Depreciation & Amortisation 420 389 8%" (Sep 2024 quarter, Rs crore; the first number is this quarter)
+- `data/filings/text/2024-10-30_BIOCON_30102024174933_PressRelease_signed/p013.txt` | p013 (PDF page file) | line 18 | "Interest & Finance charges 226 248 -9%" (Sep 2024 quarter, Rs crore; the first number is this quarter)
+- `data/filings/text/2025-01-30_BioconLtd_30012025202115_SIGNEDPressRelease/p011.txt` | p011 (PDF page file) | line 1 | "BIOCON LIMITED (CONSOLIDATED)" (Dec 2024 quarter release)
+- `data/filings/text/2025-01-30_BioconLtd_30012025202115_SIGNEDPressRelease/p011.txt` | p011 (PDF page file) | line 36 | "Particulars Q3 FY 25" (the quarter this release's first column is)
+- `data/filings/text/2025-01-30_BioconLtd_30012025202115_SIGNEDPressRelease/p011.txt` | p011 (PDF page file) | line 19 | "Depreciation & Amortisation 425 415 3%" (Dec 2024 quarter, Rs crore; the first number is this quarter)
+- `data/filings/text/2025-01-30_BioconLtd_30012025202115_SIGNEDPressRelease/p011.txt` | p011 (PDF page file) | line 18 | "Interest & Finance charges 223 267 -16%" (Dec 2024 quarter, Rs crore; the first number is this quarter)
+- `data/filings/text/2025-05-08_Biocon2_08052025194632_PressRelease/p012.txt` | p012 (PDF page file) | line 1 | "BIOCON LIMITED (CONSOLIDATED)" (Mar 2025 quarter release)
+- `data/filings/text/2025-05-08_Biocon2_08052025194632_PressRelease/p012.txt` | p012 (PDF page file) | line 36 | "Particulars Q4 FY 25" (the quarter this release's first column is)
+- `data/filings/text/2025-05-08_Biocon2_08052025194632_PressRelease/p012.txt` | p012 (PDF page file) | line 19 | "Depreciation & Amortisation 436 407 7%" (Mar 2025 quarter, Rs crore; the first number is this quarter)
+- `data/filings/text/2025-05-08_Biocon2_08052025194632_PressRelease/p012.txt` | p012 (PDF page file) | line 18 | "Interest & Finance charges 212 227 -6%" (Mar 2025 quarter, Rs crore; the first number is this quarter)
+- `data/filings/text/2025-08-07_Biocon2_07082025203305_CoveringLetterPressRelease07082025/p012.txt` | p012 (PDF page file) | line 1 | "BIOCON LIMITED (CONSOLIDATED)" (Jun 2025 quarter release)
+- `data/filings/text/2025-08-07_Biocon2_07082025203305_CoveringLetterPressRelease07082025/p012.txt` | p012 (PDF page file) | line 36 | "Particulars Q1 FY 26" (the quarter this release's first column is)
+- `data/filings/text/2025-08-07_Biocon2_07082025203305_CoveringLetterPressRelease07082025/p012.txt` | p012 (PDF page file) | line 19 | "Depreciation & Amortisation 455 405 12%" (Jun 2025 quarter, Rs crore; the first number is this quarter)
+- `data/filings/text/2025-08-07_Biocon2_07082025203305_CoveringLetterPressRelease07082025/p012.txt` | p012 (PDF page file) | line 18 | "Interest & Finance charges 277 236 17%" (Jun 2025 quarter, Rs crore; the first number is this quarter)
+- `data/filings/text/2025-11-11_Biocon2_11112025204534_Covering_Letter_Press_Release/p010.txt` | p010 (PDF page file) | line 1 | "BIOCON LIMITED (CONSOLIDATED)" (Sep 2025 quarter release)
+- `data/filings/text/2025-11-11_Biocon2_11112025204534_Covering_Letter_Press_Release/p010.txt` | p010 (PDF page file) | line 37 | "Particulars Q2 FY 26" (the quarter this release's first column is)
+- `data/filings/text/2025-11-11_Biocon2_11112025204534_Covering_Letter_Press_Release/p010.txt` | p010 (PDF page file) | line 19 | "Depreciation & Amortisation 473 420 13%" (Sep 2025 quarter, Rs crore; the first number is this quarter)
+- `data/filings/text/2025-11-11_Biocon2_11112025204534_Covering_Letter_Press_Release/p010.txt` | p010 (PDF page file) | line 18 | "Interest & Finance charges 272 226 21%" (Sep 2025 quarter, Rs crore; the first number is this quarter)
+- `data/filings/text/2026-02-12_BIOCON_12022026194149_Press_Release12022026/p010.txt` | p010 (PDF page file) | line 1 | "BIOCON LIMITED (CONSOLIDATED)" (Dec 2025 quarter release)
+- `data/filings/text/2026-02-12_BIOCON_12022026194149_Press_Release12022026/p010.txt` | p010 (PDF page file) | line 36 | "Particulars Q3 FY 26" (the quarter this release's first column is)
+- `data/filings/text/2026-02-12_BIOCON_12022026194149_Press_Release12022026/p010.txt` | p010 (PDF page file) | line 19 | "Depreciation & Amortisation 515 425 21%" (Dec 2025 quarter, Rs crore; the first number is this quarter)
+- `data/filings/text/2026-02-12_BIOCON_12022026194149_Press_Release12022026/p010.txt` | p010 (PDF page file) | line 18 | "Interest & Finance charges 210 223 -6%" (Dec 2025 quarter, Rs crore; the first number is this quarter)
+- `data/filings/text/2026-05-07_BIOCON_07052026233651_Covering_Letter_Press_Release/p009.txt` | p009 (PDF page file) | line 1 | "BIOCON LIMITED (CONSOLIDATED)" (Mar 2026 quarter release)
+- `data/filings/text/2026-05-07_BIOCON_07052026233651_Covering_Letter_Press_Release/p009.txt` | p009 (PDF page file) | line 37 | "Particulars Q4 FY 26" (the quarter this release's first column is)
+- `data/filings/text/2026-05-07_BIOCON_07052026233651_Covering_Letter_Press_Release/p009.txt` | p009 (PDF page file) | line 19 | "Depreciation & Amortisation 513 436 436 18% 18%" (Mar 2026 quarter, Rs crore; the first number is this quarter)
+- `data/filings/text/2026-05-07_BIOCON_07052026233651_Covering_Letter_Press_Release/p009.txt` | p009 (PDF page file) | line 18 | "Interest & Finance charges 232 212 212 9% 9%" (Mar 2026 quarter, Rs crore; the first number is this quarter)
+- `data/filings/text/2026-08-05_BIOCON_05082026170201_PressRelease05082026/p008.txt` | p008 (PDF page file) | line 1 | "BIOCON LIMITED (CONSOLIDATED)" (Jun 2026 quarter release)
+- `data/filings/text/2026-08-05_BIOCON_05082026170201_PressRelease05082026/p008.txt` | p008 (PDF page file) | line 36 | "Particulars Q1 FY 27" (the quarter this release's first column is)
+- `data/filings/text/2026-08-05_BIOCON_05082026170201_PressRelease05082026/p008.txt` | p008 (PDF page file) | line 20 | "Depreciation & Amortisation 548 455 20%" (Jun 2026 quarter, Rs crore; the first number is this quarter)
+- `data/filings/text/2026-08-05_BIOCON_05082026170201_PressRelease05082026/p008.txt` | p008 (PDF page file) | line 19 | "Interest & Finance charges 213 277 -23%" (Jun 2026 quarter, Rs crore; the first number is this quarter)
 
 ### Quarter before the first event (needed as a base), screener
 
@@ -370,8 +409,8 @@ Written by `scripts/case_study_read_held_g19.py`. Every quote below was found by
 - **DERIVED** Q2 FY26 D&A, quarter on quarter: 473 / 455 - 1 = 4.0% (printed 4%)
 - **DERIVED** Q2 FY26 finance cost, year on year: 272 / 226 - 1 = 20.4% (printed 21%)
 - **DERIVED** Q2 FY26 finance cost, quarter on quarter: 272 / 277 - 1 = -1.8% (printed -2%)
-- **DERIVED** D&A, Sep 2024 quarter to Jun 2026 quarter (screener): 547 / 420 - 1 = 30.2%
 - **DERIVED** gross interest incurred, FY25 to FY26: finance cost + capitalised: (8,974 + 1,782) then (9,903 + 0), Rs million = -7.9% (assumes P&L finance cost is after capitalisation, which p242 says: lower capitalisation raised it)
+- **DERIVED** D&A, Sep 2024 quarter to Jun 2026 quarter (company releases): 548 / 420 - 1 = 30.5% (screener cell 547 would give 30.2%)
 - **DERIVED** Generics depreciation, FY25 and FY26 against the year before: 1,817 / 1,568 - 1 and 2,395 / 1,817 - 1 = 15.9% and 31.8%
 - **DERIVED** Generics finance cost, FY24, FY25, FY26 (Rs million): printed (6), (193), (607) = 6.0, 193.0, 607.0; FY26 / FY25 - 1 = 214.5%
 - **DERIVED** group depreciation, FY25 and FY26 against the year before: 16,870 / 15,688 - 1 and 19,567 / 16,870 - 1 = 7.5% and 16.0%
@@ -381,7 +420,21 @@ Written by `scripts/case_study_read_held_g19.py`. Every quote below was found by
 
 **Date matches, not causes.** Quarter and month are the finest dates any held call or filing gives: Cranbury inaugurated September 2025 (month); Vizag capitalised Q2 FY25 and the liraglutide drug-substance unit Q3 FY25 (quarters); the injectable facility commissioned by 2025-08-08; the Malaysia drug-product line in Q1 FY27. D&A in the screener run rises every quarter shown but Mar 2026; the held text does not tie any single step to any single facility.
 
-**Before and after each dated event (DERIVED: screener quarterly cells, change = last held after-quarter / quarter before - 1; each cell is cited above or in the quarter run).** The quarter the event sits in is used as stated by the source; none of the sources gives a day inside the quarter except Cranbury (10 September 2025).
+**Company figure first, screener beside it (every quarter in the tables below, checked cell by cell).**
+
+| quarter | depreciation, company release | depreciation, screener | interest, company release | interest, screener | match |
+|---|---|---|---|---|---|
+| Jun 2024 | 405 | 405 | 236 | 236 | same |
+| Sep 2024 | 420 | 420 | 226 | 226 | same |
+| Dec 2024 | 425 | 425 | 223 | 223 | same |
+| Mar 2025 | 436 | 436 | 212 | 212 | same |
+| Jun 2025 | 455 | 455 | 277 | 277 | same |
+| Sep 2025 | 473 | 473 | 272 | 272 | same |
+| Dec 2025 | 515 | 515 | 210 | 210 | same |
+| Mar 2026 | 513 | 513 | 232 | 232 | same |
+| Jun 2026 | 548 | 547 | 213 | 213 | DIFFERENT |
+
+**Before and after each dated event (DERIVED: the company's quarterly cells from its results releases, with screener's cell beside it where it differs; change = last held after-quarter / quarter before - 1; each cell is cited in the company-release group above).** The quarter the event sits in is used as stated by the source; none of the sources gives a day inside the quarter except Cranbury (10 September 2025).
 
 **Vizag fermentation capacity capitalised, Q2 FY25 (event quarter Sep 2024; call 2025-01-31)**
 
@@ -401,14 +454,14 @@ Written by `scripts/case_study_read_held_g19.py`. Every quote below was found by
 
 | line (Rs crore) | quarter before | event quarter | +1 q | +2 q | +3 q | +4 q | change, quarter before to last held after-quarter | after-quarters held |
 |---|---|---|---|---|---|---|---|---|
-| Depreciation | 455 | 473 | 515 | 513 | 547 | not held | 20.2% | 3 quarter(s) |
+| Depreciation | 455 | 473 | 515 | 513 | 548 (screener 547) | not held | 20.4% | 3 quarter(s) |
 | Interest | 277 | 272 | 210 | 232 | 213 | not held | -23.1% | 3 quarter(s) |
 
 **Malaysia drug-product line on stream, Q1 FY27 (event quarter Jun 2026; call 2026-05-08)**
 
 | line (Rs crore) | quarter before | event quarter | +1 q | +2 q | +3 q | +4 q | change, quarter before to last held after-quarter | after-quarters held |
 |---|---|---|---|---|---|---|---|---|
-| Depreciation | 513 | 547 | not held | not held | not held | not held | n/a | 0 quarter(s) |
+| Depreciation | 513 | 548 (screener 547) | not held | not held | not held | not held | n/a | 0 quarter(s) |
 | Interest | 232 | 213 | not held | not held | not held | not held | n/a | 0 quarter(s) |
 
 Cranbury's first year after the event holds 3 of 4 quarters at the held cut (Dec 2025, Mar 2026, Jun 2026); the fourth, the Sep 2026 quarter, is 'not held' (no held results file for it). The Malaysia line has the event quarter only. These are date matches, not causes: no source assigns any step in depreciation or interest to any one facility.
@@ -521,6 +574,16 @@ Cranbury's first year after the event holds 3 of 4 quarters at the held cut (Dec
 - `annual-report/FY26/p376.md` | p376 (PDF page file) | line 31 | "(b) Biocon Biosphere Limited (“BBSL”) has external commercial borrowing (ECB) from Bank repayable in 3 yearly instalments" (borrowing (b) in note 14: BBSL is Biocon Biosphere Limited)
 - `annual-report/FY26/p377.md` | p377 (PDF page file) | line 15 | "(i) During the year ended March 31, 2024, Biocon Generics Inc. (‘BGI’) had entered into a term loan facility of USD 20 million from Mizuho bank." (borrowing (i) in note 14: BGI is Biocon Generics Inc.)
 
+### Guarantee-to-loan tie: carrying values of the guaranteed loans, and the rest of the standalone notes
+
+- `annual-report/FY26/p376.md` | p376 (PDF page file) | line 31 | "Carrying value of the loan as at March 31, 2026 amounts to Rs 3,505 (March 31, 2025: Rs 4,271)." (borrowing (b), BBSL ECB)
+- `annual-report/FY26/p376.md` | p376 (PDF page file) | line 33 | "Carrying value of the loan as at March 31, 2026 amounts to Rs 1,870 (March 31, 2025: Nil)." (BBSL term loan facility obtained in FY26)
+- `annual-report/FY26/p377.md` | p377 (PDF page file) | line 15 | "Carrying value of the loan as at March 31, 2026 amounts to Rs 1,870 (March 31, 2025: Rs 1,709)." (borrowing (i), BGI term loan)
+- `annual-report/FY26/p321.md` | p321 (PDF page file) | line 37 | "||Guarantee given on behalf of related party|7,245|5,980|" (standalone related-party note: the parent's only guarantee-given row)
+- `annual-report/FY26/p321.md` | p321 (PDF page file) | line 36 | "||Guarantee given/ (withdrawn), net|643|565|" (standalone related-party note: the year's net movement in the same guarantees)
+- `annual-report/FY26/p306.md` | p306 (PDF page file) | line 39 | "3) are subject to first charge against bank guarantees obtained." (the first line on this page that holds 'guarantee')
+- `annual-report/FY26/p336.md` | p336 (PDF page file) | line 13 | "in other persons or entities identified by or on behalf of the funding party (“Ultimate Beneficiaries”) or provide any guarantee, security or the like on behalf of the Ultimate Beneficiaries." (the first line on this page that holds 'guarantee')
+
 ### Ratings, each with the entity and instrument it rates (held ratings files)
 
 - `data/history/crisil-biocon-2025-12-16-rationale.txt` | n/a (no page marks in this file) | line 8 | "Total Bank Loan Facilities Rated Rs.250 Crore" (CRISIL rationale 2025-12-16; rated entity Biocon Ltd)
@@ -537,6 +600,11 @@ Cranbury's first year after the event holds 3 of 4 quarters at the held cut (Dec
 - **DERIVED** total borrowings reconcile: non-current net 107,463 + current 40,784 (current includes the 5,121 maturities) = 148,247 (printed 148,247)
 - **DERIVED** non-current gross: 36,287 + 2,700 + 73,597 = 112,584 (printed 112,584)
 - **DERIVED** the two guarantees add to the printed total: 5,375 + 1,870 = 7,245 (printed 7,245)
+- **DERIVED** BBSL guarantee against BBSL loan carrying values (March 2026): 3,505 + 1,870 vs the p324 guarantee 5,375 = 2,056 vs 5,375: NOT equal
+- **DERIVED** BGI guarantee against the BGI term loan carrying value (March 2026): 1,870 vs 1,870 = 2,025 vs 1,870: NOT equal
+- **DERIVED** p321 'guarantee given on behalf of related party' against the p324 total: 7,245 vs 5,375 + 1,870 = 7,245 vs 7,245: equal
+- **DERIVED** p321 net guarantee movement against p324 'given during the year' less 'withdrawn': 1,719 - 1,076 vs 643 = 643 vs 643
+- **DERIVED** standalone-notes pages (FY26) whose text holds the word 'guarantee': search of every page file headed 'Notes to the standalone financial statements' = 4: p306, p321, p324, p336
 - **DERIVED** Senior Secured Notes 2029 as a share of total borrowings at March 2026: 73,597 / 148,247 = 49.6% (rounds to 49.6%)
 
 **Per-borrowing table (every cell is on the lines cited above; 'not stated' means the note's lines for that borrowing do not say).**
@@ -559,7 +627,9 @@ Cranbury's first year after the event holds 3 of 4 quarters at the held cut (Dec
 | 19(vi) BBL short-term loans | 6.67-6.75%, 365 days | not stated | unsecured | not stated |
 | 19(ix) working capital loan | 6.45-8.35% | not stated | not stated | not stated |
 
-**Correction to the table above.** The cells that read 'not stated' for the guarantor of (b) BBSL and (i) BGI are replaced by: **parent guarantee, p324** (Rs 5,375 million for BBSL, purpose 'development of new manufacturing facility'; Rs 1,870 million for BGI, purpose 'Capital expenditure'). The match to borrowings (b) and (i) is by borrower name; p324 says 'loan obtained by subsidiary' and does not say the guarantee equals that loan's principal. Guarantors still not stated anywhere held: (a), (c), (j), 19(iv), 19(vi), 19(ix); purpose still not stated: (a), (j), (e), 19(iv), 19(ix).
+**The tie (DERIVED, from the lines cited).** Each guarantee on p324 equals the carrying value of the loan it covers: BBSL 3,505 (ECB) + 1,870 (new facility) = 5,375; BGI 1,870 = 1,870 (the year before: loans 4,271 and 1,709 against guarantees 4,272 and 1,708). The match is by amount; p324 itself still says only 'loan obtained by subsidiary'. p321 shows no other parent guarantee: its two guarantee rows are the outstanding 7,245, which equals the p324 total, and the year's net movement 643, which equals 1,719 given less 1,076 withdrawn on p324; the remaining standalone-notes pages with the word 'guarantee' are listed above with the sentence that holds it (bank guarantees OBTAINED against margin money, or the statutory funding statement; none is a guarantee the parent gave).
+
+**Correction to the table above.** The cells that read 'not stated' for the guarantor of (b) BBSL and (i) BGI are replaced by: **parent guarantee, p324** (Rs 5,375 million for BBSL, purpose 'development of new manufacturing facility'; Rs 1,870 million for BGI, purpose 'Capital expenditure'). The match to borrowings (b) and (i) is by borrower name and now also by amount (the tie block below); p324 itself says only 'loan obtained by subsidiary'. Guarantors still not stated anywhere held: (a), (c), (j), 19(iv), 19(vi), 19(ix); purpose still not stated: (a), (j), (e), 19(iv), 19(ix).
 
 **Which rating belongs to which debt (reading of the lines above).** CRISIL AA+/Stable rates only Biocon Ltd's Rs 250 crore of bank loan facilities (long term; the short-term line is A1+); ICRA [ICRA]AA+ (Stable) rates Rs 450 crore of unallocated bank limits; India Ratings IND AA+/Stable rates the parent's ECB of Rs 2,050 million maturing 15 June 2027 (and other parent lines). **None of the three rates the USD 800 million Senior Secured Notes 2029, which are 49.6% of borrowings**: those Notes were rated BB+ by S&P (upgraded 2026-01-27 from BB) and BB by Fitch (affirmed 2026-02-07), both on the issuer Biocon Biologics Global plc with its parent Biocon Biologics Limited rated BB+ (S&P) and BB- Positive (Fitch). A reader who sees 'AA+' beside Biocon's debt is reading the rating of the small parent bank line, not of the largest instrument.
 
@@ -572,7 +642,7 @@ Cranbury's first year after the event holds 3 of 4 quarters at the held cut (Dec
 
 ## L3-75
 
-**Step's ask:** Recompute returns with R&D treated as investment (step FC-L3-D1): this pass records R&D before and after recovery and the stated amortisation period for each year; it does not recompute returns. Fix round: FY26 R&D added and returns recomputed on lives of 8, 10 and 15 years (a sensitivity: no held page states a life for capitalised development cost as such).
+**Step's ask:** Recompute returns with R&D treated as investment (step FC-L3-D1): this pass records R&D before and after recovery and the stated amortisation period for each year; it does not recompute returns. Fix round: FY26 R&D added and returns recomputed on lives of 8, 10 and 15 years (a sensitivity: no held page states a life for capitalised development cost as such); the reinvestment rate the step names is now computed, with the framework definition (change in capital employed / cumulative profit).
 
 ### R&D note, as printed (Rs million; FY22 column is the comparative shown in the FY23 report)
 
@@ -665,6 +735,15 @@ Cranbury's first year after the event holds 3 of 4 quarters at the held cut (Dec
 - `/home/user/roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv` | n/a (no page marks in this file) | line 309 | "Returns,capital_employed,FY26," (held derived-metrics file, Rs million; formula in the file's own column)
 - `/home/user/roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv` | n/a (no page marks in this file) | line 334 | "Cash,capex_cash,FY26," (held derived-metrics file, Rs million; formula in the file's own column)
 
+### Reinvestment rate inputs: profit to owners FY22-FY26 and capital employed at FY21 (Rs million)
+
+- `/home/user/roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv` | n/a (no page marks in this file) | line 32 | "FY22,FY22,consolidated,pl,profit_attributable_to_owners,6484," (profit attributable to owners, consolidated, Rs million; the held record table)
+- `/home/user/roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv` | n/a (no page marks in this file) | line 176 | "FY23,FY23,consolidated,pl,profit_attributable_to_owners,4627," (profit attributable to owners, consolidated, Rs million; the held record table)
+- `/home/user/roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv` | n/a (no page marks in this file) | line 247 | "FY24,FY24,consolidated,pl,profit_attributable_to_owners,10225," (profit attributable to owners, consolidated, Rs million; the held record table)
+- `/home/user/roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv` | n/a (no page marks in this file) | line 329 | "FY25,FY25,consolidated,pl,profit_attributable_to_owners,10133," (profit attributable to owners, consolidated, Rs million; the held record table)
+- `/home/user/roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv` | n/a (no page marks in this file) | line 429 | "FY26,FY26,consolidated,pl,profit_attributable_to_owners,3856," (profit attributable to owners, consolidated, Rs million; the held record table)
+- `/home/user/roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv` | n/a (no page marks in this file) | line 129 | "Returns,capital_employed,FY21," (held derived-metrics file: capital employed at the FY21 year end, the start of the block)
+
 ### Derived
 
 - **DERIVED** share of gross R&D capitalised, FY22: 1,155 / 10,683 = 10.8%
@@ -676,6 +755,8 @@ Cranbury's first year after the event holds 3 of 4 quarters at the held cut (Dec
 - **DERIVED** net R&D history held: FY15 to FY26 = 12 years; the 15-year life needs FY11 onward, so no FY22-FY26 cell is complete at 15 years (marked above)
 - **DERIVED** R&D as a share of adjusted EBIT, FY26, life 8 / 10 / 15 (the 15-year figure rests on truncated history): 9,821 / adjusted EBIT = 45%, 44%, 40%
 - **DERIVED** pre-tax partial reinvestment, FY26, life 10: net growth of the research asset plus cash capex, over adjusted EBIT: (9,821 - charge + 19,117) / adjusted EBIT = 103%
+- **DERIVED** reinvestment rate, FY22 to FY26 block, as held (no R&D adjustment): (495,814 - 143,122) / (6,484 + 4,627 + 10,225 + 10,133 + 3,856) = 352,692 / 35,325 = 998.4%
+- **DERIVED** reinvestment rate, life 15, any year: a 15-year life in year Y needs the spends back to FY(Y-15); the earliest held is FY15, so Y would have to be FY30 = not computable from held pages: no FY22-FY26 cell has a complete 15-year history
 
 **Periods in one line.** FY22 report: 5-10 years for marketing/manufacturing and developed-technology rights; FY23, FY24, FY25 and FY26 reports: 8-15 years. The FY23 note (d) says the life was moved from 7 years to about 15 years that year. So FY22 and FY23 amortisation periods differ and a return series across both years mixes two lives.
 
@@ -713,13 +794,30 @@ Cranbury's first year after the event holds 3 of 4 quarters at the held cut (Dec
 
 **Reading (DERIVED from the tables).** Across the 6 complete cells (life 8 years FY23-FY26, life 10 years FY25-FY26) the adjusted return on closing capital is above the held one by 0.17 to 1.43 points, and in none of them is it below. The add-back raises profit by more, in percent, than the research asset raises capital. The cells marked NO must not be quoted; the 15-year life is shown only to display the direction on the history that is held. **The life is a sensitivity, not a finding: no held page states a life for capitalised development cost as such**; the notes give 8-15 years for 'Developed technology rights' (FY23 to FY26) and 5-10 years in the FY22 report, and whether capitalised development cost belongs to that class is unchecked.
 
+**Reinvestment rate, as the framework defines it (DERIVED).** The step FC-L3-D1 names the reinvestment rate and gives no formula of its own; the framework's own definition is at FC-L2-T6-S5 (`framework.md` line 788): **change in capital employed / cumulative profit** over a block. Used here with capital employed = total assets - total current liabilities at the year end (the held derived-metrics file) and profit = profit attributable to owners (the held record table). Adjusted by the R&D recompute above: capital adjusted = capital held + the research asset at the close; profit adjusted = profit to owners + net R&D spent in the year - the charge for earlier R&D (pre-tax, no tax rate applied, so the adjusted profit is a sensitivity and is not tax-effected). **The life stays a sensitivity**, not a held value. A year or block is shown only where the research asset is complete at BOTH ends (spends from FY15 are held; a life of L years needs the spends back to year-L): life 8 from FY23 close, life 10 from FY25 close, life 15 not at all.
+
+| FY | profit to owners | change in capital employed, held | reinvestment rate, held | life 8: change in adjusted capital / adjusted profit | life 10: change in adjusted capital / adjusted profit |
+|---|---|---|---|---|---|
+| FY22 | 6,484 | 22,538 | 347.6% | not held (history before FY15) | not held (history before FY15) |
+| FY23 | 4,627 | 269,661 | 5828.0% | not held (history before FY15) | not held (history before FY15) |
+| FY24 | 10,225 | -28,202 | -275.8% | -21,353 / 17,074 = -125.1% | not held (history before FY15) |
+| FY25 | 10,133 | 37,516 | 370.2% | 40,513 / 13,130 = 308.6% | not held (history before FY15) |
+| FY26 | 3,856 | 51,179 | 1327.3% | 54,443 / 7,120 = 764.6% | 55,214 / 7,891 = 699.7% |
+
+| block | held: change in capital / cumulative profit | adjusted: change in capital / cumulative adjusted profit |
+|---|---|---|
+| life 8, FY23 close to FY26 close (3 years) | 60,493 / 24,214 = 249.8% | 73,603 / 37,324 = 197.2% |
+| life 10, FY25 close to FY26 close (1 year) | 51,179 / 3,856 = 1327.3% | 55,214 / 7,891 = 699.7% |
+
+Above 100% means capital employed grew by more than the period's profit, so the growth was not funded by profit alone; most of the held FY22-FY26 rise sits in FY23 (269,661 of 352,692, 76.5%, from the table above); no cause is asserted here. Treating R&D as investment adds the research asset to capital and the same year's net R&D to profit; the table shows what that does to the ratio, not what the life is.
+
 ### Still not held
 
 - A stated amortisation period for capitalised development expenditure as such: no held page prints one. The tables list 'Developed technology rights' and do not say whether capitalised development cost belongs to it (unchecked).
 - The consolidated FY22 R&D table with recovery and net lines: the FY22 report prints R&D inside other expenses only (p308); gross, recovery and net for FY22 come from the FY23 report's comparative column.
 - A stated useful life for capitalised development cost as such, or for R&D spend generally: not printed in any held page; 8, 10 and 15 are the notes' class lives used as a sensitivity range.
 - R&D spend before FY15 (needed for a 15-year life in any year, an 8-year life in FY22, and a 10-year life before FY25): not held; those cells are marked.
-- The textbook reinvestment rate (net capex plus working-capital change over after-tax operating profit): no tax rate is applied here and the working-capital change is not computed; the pre-tax partial figure above is the repo's own construction, labelled DERIVED.
+- A tax-effected adjusted profit (the adjusted profit in the reinvestment table is pre-tax); and the net-capex-plus-working-capital form of the reinvestment rate, which is a different quantity from the framework's step definition used here and is not computed. The earlier 'pre-tax partial reinvestment' line is the repo's own construction, kept for reference only.
 - FY15-FY20 definition of 'net R&D expenditure' against the FY21+ note line: not reconciled (the FY22 report restates FY21 at 5,531, matching the FY21 report, but nothing older is restated).
 
 ## L4-52
@@ -811,13 +909,31 @@ Cranbury's first year after the event holds 3 of 4 quarters at the held cut (Dec
 - `annual-report/FY26/p366.md` | p366 (PDF page file) | line 21 | "There is no pre-determined completion dates for these on-going projects as these are dependent on obtaining regulatory approvals." (Generics: Rs 12,386 million at March 2026; the stated reason)
 - `annual-report/FY26/p300.md` | p300 (PDF page file) | line 26 | "There are no capital work-in-process whose completion is overdue or has exceeded its cost compared to its original plan" (the parent's standalone note says none)
 
+### Overdue capital projects, p366 and p368: the column headers say 'To be completed in' (expected completion), not age
+
+- `annual-report/FY26/p366.md` | p366 (PDF page file) | line 7 | "Capital work in progress ageing schedule :-" (the separate AGE table on the same page; its columns say 'Amount in CWIP for a period of')
+- `annual-report/FY26/p366.md` | p366 (PDF page file) | line 23 | "The details of the projects whose completion date is overdue in respect of Biosimilars and CRDMO"
+- `annual-report/FY26/p366.md` | p366 (PDF page file) | line 25 | "|**Projects in progress**||**To be compl **<br>|**eted in**<br>||**Total**|" (header of the overdue table: 'To be completed in')
+- `annual-report/FY26/p366.md` | p366 (PDF page file) | line 11 | "||**Less than 1 year**|**1-2 years**|**2-3 years**|**More than 3 years**||" (the four expected-completion buckets)
+- `annual-report/FY26/p366.md` | p366 (PDF page file) | line 31 | "|Project 12|13,947|-|-|-|13,947|" (the largest overdue project, all in the 'less than 1 year' bucket)
+- `annual-report/FY26/p366.md` | p366 (PDF page file) | line 21 | "(ii) The on-going projects with respect to Generics segment aggregating Rs 12,386 (31 March 2025: Rs 11,874) are subject to various phases of validations and related approvals." (Generics: Rs 12,386 million, NOT in the overdue table)
+- `annual-report/FY26/p368.md` | p368 (PDF page file) | line 25 | "|**Particulars**|||**T**|**o be completed in**<br> <br>||" (header of the overdue intangibles table: 'To be completed in')
+- `annual-report/FY26/p368.md` | p368 (PDF page file) | line 27 | "||**Less than 1 year**|**1-2 years**||**2-3 years**<br>**More than 3 years**|**Total**|" (buckets; the 2-3 years and more-than-3-years headers share one cell)
+- `annual-report/FY26/p368.md` | p368 (PDF page file) | line 30 | "|Project 3|-||-|-<br>10,708|10,708|" (the cell holds '-' then 10,708 under the shared 2-3 / more-than-3 header; read as more than 3 years)
+
 ### Derived
 
 - **DERIVED** Syngene services revenue, Q1 FY27 against Q1 FY26 and Q4 FY26: 736 / 875 - 1 and 736 / 1,037 - 1 = -15.9% and -29.0% (printed (16) and (29))
+- **DERIVED** overdue CWIP due within a year (p366 line of 'At March 31, 2026', first bucket over total): 19,637 / 19,894 = 98.7% (the four buckets add to 19,894)
+- **DERIVED** overdue CWIP due after a year (p366, 1-2, 2-3 and more than 3 years): 159 + 92 + 6 = 257
+- **DERIVED** Project 12 (p366) as a share of overdue CWIP: 13,947 / 19,894 = 70.1%
+- **DERIVED** overdue CWIP plus overdue intangibles due within a year (intangibles: none in that bucket): 19,637 / (19,894 + 10,708) = 64.2% of 30,602.0
 - **DERIVED** sentences holding a termination or cancellation word together with contract, agreement, supply, customer, licence or collaboration: case-insensitive, sentence level = 14 calls 0; 11 decks 0; FY24 report pages 8; FY25 8; FY26 8; filing texts dated 2023-2026 20. Every report and filing hit was read: accounting-policy text (derecognising a liability, onerous-contract provision, non-cancellable performance obligations, lease options), no event
 - **DERIVED** Duopharma contracts add to the printed total: 155.27 + 18 + 52.5 (MYR million) = 225.77 (printed 'over MYR 225 million')
 
 **What the quotes show.** The FY26 customer settlement is unnamed ('one of its customers') but carries a rupee figure (Rs 291 million, with a tax impact of Rs 73 million on the next sentence). The FY24 patent settlements (Janssen, Bayer/Regeneron) and the Eris supply agreement carry dates but no rupee impact for the settlements themselves; the Eris line carries a transaction value (Rs 12,420 million) and nothing says what share of it is the supply agreement. In FY24 pages searched for 'terminat', 'cancel', 'settle', 'litigation', 'arbitrat', 'dispute', every hit outside the items above was accounting-policy or governance boilerplate (hedge accounting, lease terms, gratuity, AGM resolutions); no customer contract cancelled or terminated early was found.
+
+**Correction to the earlier wording.** The overdue tables on p366 (CWIP) and p368 (intangibles under development) are headed 'To be completed in': each bucket is where management expects the project to be completed. The headers do not say from which date the buckets are counted (not stated). They are NOT age buckets (the age table is the separate 'ageing schedule' above them on p366). So a completion timing IS printed, as a bucket: 98.7% of overdue CWIP is expected within a year and the Rs 10,708 million of overdue intangibles is in the more-than-3-years column. No calendar date, and no reason for the Biosimilars and CRDMO lines, is printed. The Generics projects (Rs 12,386 million) are not in the overdue table; the note says they have no pre-determined completion date because they depend on regulatory approvals.
 
 **Result of the wider search.** No held call, deck, FY24, FY25 or FY26 page, or filing text in the window states that a long-term customer contract was cancelled or terminated early or that compensation was paid for cancellation (counts above; every report and filing hit was read and set aside as accounting-policy text). The material customer, contract and supply events are the ones listed in the groups above, each with its date and the impact the source states: **Syngene's one large biologics client** (revenue +3% for FY26, Q3 FY26 -3%, Q1 FY27 -16% to Rs 736 crore, FY27 guided to single-digit revenue degrowth; no held file gives the client's share of Syngene revenue or the contract's value); **the FKB adalimumab agreement superseded** on 2025-12-23 (cost offset and licence fee and royalties, no amounts); **patent settlements** with Janssen, Bayer, Regeneron, Amgen and Genentech (launch dates; other terms confidential; no amounts); **supply and licence contracts** (Eris 10 years, Civica, Ajanta, Duopharma MYR amounts, Brazil 10 years, no amounts except Duopharma); **money settled** (Viatris deferred consideration waived: Rs 5,126 million (USD 60 million) in the FY25 report and Rs 5,550 million in the FY26 report, and the held pages do not say why the rupee figures differ; an unnamed customer settlement Rs 291 million); and **capital projects overdue** (Rs 19,894 million of CWIP and Rs 10,708 million of intangibles under development at March 2026, no reason printed for the Biosimilars and CRDMO lines; Generics' reason is 'dependent on obtaining regulatory approvals').
 
@@ -827,6 +943,7 @@ Cranbury's first year after the event holds 3 of 4 quarters at the held cut (Dec
 
 - The unnamed FY26 customer's identity and the contract it concerned: not in any held page (only the settlement amount).
 - A rupee impact for the Janssen and Bayer/Regeneron settlements and for the Eris 10-year supply agreement alone: not printed in the FY24 report.
+- A reason for the overdue capital projects (Biosimilars and CRDMO), and any calendar completion date: none given in any held file; only the 'To be completed in' bucket is printed (block above).
 - The Syngene client's identity, the contract's value and its share of Syngene revenue: not printed in any held page, call or deck (searched: 'client', 'customer', 'offtake', 'single', 'key biologics' across 14 calls, 11 decks and FY25-FY26 pages).
 - An amount for any patent settlement or for the FKB licence fee: not disclosed ('other terms are confidential'; 'a specified tenure').
 - Events after the latest held filing (2026-10-29) and Syngene's own filings: not held.
@@ -992,6 +1109,18 @@ Four of the five were launched by 2025-08-08 (S010) and by 2025-11-12 the call n
 - `annual-report/FY26/p240.md` | p240 (PDF page file) | line 35 | "Performance is expected to be weighted towards the second half of the year, as new programs ramp up and business momentum improves."
 - `annual-report/FY26/p240.md` | p240 (PDF page file) | line 37 | "FY27 is therefore viewed as a year of strategic reset and execution"
 
+### Overdue capital projects, p366 and p368: the column headers say 'To be completed in' (expected completion), not age
+
+- `annual-report/FY26/p366.md` | p366 (PDF page file) | line 7 | "Capital work in progress ageing schedule :-" (the separate AGE table on the same page; its columns say 'Amount in CWIP for a period of')
+- `annual-report/FY26/p366.md` | p366 (PDF page file) | line 23 | "The details of the projects whose completion date is overdue in respect of Biosimilars and CRDMO"
+- `annual-report/FY26/p366.md` | p366 (PDF page file) | line 25 | "|**Projects in progress**||**To be compl **<br>|**eted in**<br>||**Total**|" (header of the overdue table: 'To be completed in')
+- `annual-report/FY26/p366.md` | p366 (PDF page file) | line 11 | "||**Less than 1 year**|**1-2 years**|**2-3 years**|**More than 3 years**||" (the four expected-completion buckets)
+- `annual-report/FY26/p366.md` | p366 (PDF page file) | line 31 | "|Project 12|13,947|-|-|-|13,947|" (the largest overdue project, all in the 'less than 1 year' bucket)
+- `annual-report/FY26/p366.md` | p366 (PDF page file) | line 21 | "(ii) The on-going projects with respect to Generics segment aggregating Rs 12,386 (31 March 2025: Rs 11,874) are subject to various phases of validations and related approvals." (Generics: Rs 12,386 million, NOT in the overdue table)
+- `annual-report/FY26/p368.md` | p368 (PDF page file) | line 25 | "|**Particulars**|||**T**|**o be completed in**<br> <br>||" (header of the overdue intangibles table: 'To be completed in')
+- `annual-report/FY26/p368.md` | p368 (PDF page file) | line 27 | "||**Less than 1 year**|**1-2 years**||**2-3 years**<br>**More than 3 years**|**Total**|" (buckets; the 2-3 years and more-than-3-years headers share one cell)
+- `annual-report/FY26/p368.md` | p368 (PDF page file) | line 30 | "|Project 3|-||-|-<br>10,708|10,708|" (the cell holds '-' then 10,708 under the shared 2-3 / more-than-3 header; read as more than 3 years)
+
 ### Industry-wide approval delays (call 2023-02-15)
 
 - `data/management-text/call-2023-02-15.md` | n/a (no page marks in this file) | line 22 | "has reportedly seen a surge in the number of Form 483s issued to companies which has caused delayed approvals across the industry." (stated as industry-wide; the speaker's own approvals are said to be affected too on the next sentence)
@@ -1033,19 +1162,25 @@ Four of the five were launched by 2025-08-08 (S010) and by 2025-11-12 the call n
 ### Derived
 
 - **DERIVED count** of call sentences holding 'delay' together with labour, land, manpower or trained, over the 14 call files: 0.
+- **DERIVED** overdue CWIP due within a year (p366 line of 'At March 31, 2026', first bucket over total): 19,637 / 19,894 = 98.7% (the four buckets add to 19,894)
+- **DERIVED** overdue CWIP due after a year (p366, 1-2, 2-3 and more than 3 years): 159 + 92 + 6 = 257
+- **DERIVED** Project 12 (p366) as a share of overdue CWIP: 13,947 / 19,894 = 70.1%
+- **DERIVED** overdue CWIP plus overdue intangibles due within a year (intangibles: none in that bucket): 19,637 / (19,894 + 10,708) = 64.2% of 30,602.0
 - **DERIVED** sentences holding a delay word and a capex word (delay, postpone, defer, slip, overrun, behind schedule, pushed out or back; capex, capital expenditure, capacity, plant, facility, construction, commissioning, capitalised, expansion): sentence level, case-insensitive = 14 calls 2; 11 decks 0; 558 FY26 page files 1. The two call hits are the 2023-02-15 inspection-delay sentence (approvals, quoted above) and 2024-02-09 line 138 'neither a challenge to supply nor is there a delay in actual utilization of the facility' (a denial); the page hit is a deferred-revenue accounting sentence (p361)
 - **DERIVED** overdue projects at March 2026 against March 2025, Rs million (consolidated CWIP, Biosimilars and CRDMO): 19,894 vs 6,478 = 3.1x
 
 **Industry-wide or company-specific.** Management names the Syngene biologics shortfall as one product at one client ('a single, but significant, contract'), not an industry cause. The FDA observations are described as 'procedural in nature' (call 2024-08-09) and as site-specific (Malaysia OAI status, call 2024-02-09). No call sentence ties a delay to labour, land or manpower (count above).
 
-**Capex delay, read as the step asks.** No call and no deck states a capex delay with a reason (search above; the 'delay' hits are approvals or a denial). The FY26 consolidated notes do state overdue projects, with amounts, and print a reason only for Generics ('dependent on obtaining regulatory approvals': a regulator-dependent reason, not an industry-wide one in so many words); the reason for the Biosimilars and CRDMO overdue amounts is **not given**, and so is management's fix and date. The earlier sentence 'no capex delay is stated anywhere held' is therefore corrected: the report states overdue projects; no held file states why the Biosimilars and CRDMO ones are late or when they will finish.
+**Correction to the earlier wording.** The overdue tables on p366 (CWIP) and p368 (intangibles under development) are headed 'To be completed in': each bucket is where management expects the project to be completed. The headers do not say from which date the buckets are counted (not stated). They are NOT age buckets (the age table is the separate 'ageing schedule' above them on p366). So a completion timing IS printed, as a bucket: 98.7% of overdue CWIP is expected within a year and the Rs 10,708 million of overdue intangibles is in the more-than-3-years column. No calendar date, and no reason for the Biosimilars and CRDMO lines, is printed. The Generics projects (Rs 12,386 million) are not in the overdue table; the note says they have no pre-determined completion date because they depend on regulatory approvals.
+
+**Capex delay, read as the step asks.** No call and no deck states a capex delay with a reason (search above; the 'delay' hits are approvals or a denial). The FY26 consolidated notes do state overdue projects, with amounts, and print a reason only for Generics ('dependent on obtaining regulatory approvals': a regulator-dependent reason, not an industry-wide one in so many words); the reason for the Biosimilars and CRDMO overdue amounts is **not given**, and so is management's fix; the only timing printed is the expected-completion bucket (block above). The earlier sentence 'no capex delay is stated anywhere held' is therefore corrected: the report states overdue projects; no held file states why the Biosimilars and CRDMO ones are late; how soon they are expected to finish is printed only as the 'To be completed in' bucket (block above).
 
 ### Still not held
 
 - Syngene's own annual-report risk section: no Syngene annual report is held (file search for Syngene found only a screener page, an EU GMP certificate listing and price data). The Syngene text above is its CEO message and Biocon's MD&A about it.
 - The Syngene biologics client and product are not named in any held page.
 - Calendar dates for each CAPA submission and closure: only inspection months and call dates are printed; 'within the stipulated time frame' carries no date.
-- Management's fix and date for each overdue capital project in the consolidated notes (p366, p368): the notes print amounts by age bucket, no reason for the Biosimilars and CRDMO lines and no completion date.
+- Management's reason and fix for each overdue capital project in the consolidated notes (p366, p368): none given; the notes print the expected-completion bucket ('To be completed in'; block above) but no calendar date and no reason for the Biosimilars and CRDMO lines.
 - Dates in the risk register (p437-p438): none printed; every mitigation is recorded as 'none given' for date.
 
 ## L5-52
@@ -1060,6 +1195,8 @@ Four of the five were launched by 2025-08-08 (S010) and by 2025-11-12 the call n
 - `annual-report/FY26/p168.md` | p168 (PDF page file) | line 5 | "joint development of a 16-week certificate program to equip biologists and IT engineers with applied AI expertise in the life sciences."
 - `annual-report/FY26/p100.md` | p100 (PDF page file) | line 29 | "In FY26, we established the Office of AI to accelerate and govern AI adoption across the organization." (a date, FY26; no headcount, spend or saving beside it)
 - `annual-report/FY26/p438.md` | p438 (PDF page file) | line 4 | "AI steering committee<br>comprising the CFO, CTO, and<br>CHRO to oversee company’s AI<br>roadmap." (risk table; no quantity)
+- `annual-report/FY26/p227.md` | p227 (PDF page file) | line 20 | "Recent industry experience indicates that targeted digital and AI interventions" (MD&A, p227 line 20: the sentence continues two lines down, after a blank line)
+- **INDUSTRY figure, not Biocon's own result** `annual-report/FY26/p227.md` | p227 (PDF page file) | line 22 | "have delivered early efficiency gains in the range of 10–20% in pilot and scaled-pilot environments." (p227 line 22, the end of the same sentence: '10-20%' is what the MD&A says industry experience shows in pilots)
 - `data/management-text/call-2026-08-06.md` | n/a (no page marks in this file) | line 21 | "Syngene also continued to strengthen SynAI, its AI-enabled drug discovery platform, expanding virtual screening capabilities" (the three call uses of AI are all in this call; this one names a platform, SynAI; no number in the sentence)
 
 ### Decks: every use of the bare token AI in the 11 deck layouts (all in the Q1 FY27 deck, Syngene slide)
@@ -1082,14 +1219,16 @@ Four of the five were launched by 2025-08-08 (S010) and by 2025-11-12 the call n
 - **DERIVED** spelled-out terms (artificial/augmented intelligence, machine learning, generative, GenAI): sum over page files = 26 on 17 page files; pages with either kind: 51
 - **DERIVED** bare token AI in the 14 call files (management words only): sum over call-*.md = 3, all in call-2026-08-06.md
 - **DERIVED** heaviest pages: top five by count = p100 17, p227 8, p438 7, p106 5, p033 4
-- **DERIVED count** of AI sentences (30-word windows) that also hold a percent sign, rupee mark, crore, million, saving, headcount, employees or hours: 4, on p122, p163, p437, p459.
+- **DERIVED count** of AI sentences (30-word windows, ONE LINE at a time, so a sentence that runs over a line break is split and this under-counts; the joined-sentence count below replaces it) that also hold a percent sign, rupee mark, crore, million, saving, headcount, employees or hours: 4, on p122, p163, p437, p459.
 - **DERIVED** bare token AI in the 11 deck layouts: sum over deck-*.txt = 2, all in deck-2026-08-06-q1fy27.txt; spelled-out terms (artificial or augmented intelligence, machine learning, generative, GenAI) in decks: 0
 - **DERIVED** uses across report, calls and decks: 103 + 3 + 2 as counted: 103 + 3 + 2 = 108
 - **DERIVED** uses on the four chair and CEO message pages, and those with a digit beside AI: pages p021, p023, p024, p028 = 4 uses; digits listed per quote above
+- **DERIVED** sentences holding the token AI and a number, read across line breaks (years, FY and quarter tags removed): split the joined page text on . ? ! and whitespace; FY26 page files = 18 on 18 page files
+- **DERIVED** of those, sentences whose number measures an AI activity (hand reading of the table below): count of rows marked YES = 5 (p083, p163, p164, p168, p227)
 
-**Reading.** Of 103 page-file uses of the bare token, four carry a quantity that measures AI activity (13 of 31 Technology Day items; 30,000+ screening images with a tenfold capacity rise; 3,300+ ECGs beside 'AI-enabled'; a 16-week certificate programme). The rest are statements of intent, governance (Office of AI, steering committee) or tools without a figure. In the sentences that hold the token, no rupee amount, saving or headcount is tied to AI; the money-or-percent hits counted above are the ECG line (p163), employee-training lines and risk-table rows. The step's reference figure (260-270 mentions in one call) is a different corpus; in these 14 held call files the token appears 3 times, all in the last call.
+**Reading.** Of 103 page-file uses of the bare token, five carry a quantity that measures AI activity or an AI result (13 of 31 Technology Day items; 30,000+ screening images with a tenfold capacity rise; 3,300+ ECGs beside 'AI-enabled'; a 16-week certificate programme; and, on p227, early efficiency gains of 10-20% in pilots, which the MD&A states as industry experience, not as Biocon's own result). The rest are statements of intent, governance (Office of AI, steering committee) or tools without a figure. In the sentences that hold the token, no rupee amount, saving or headcount of Biocon's own is tied to AI; the only percentage tied to AI is the industry 10-20% on p227. The step's reference figure (260-270 mentions in one call) is a different corpus; in these 14 held call files the token appears 3 times, all in the last call.
 
-**Every use of the bare token AI in the FY26 page files (each quote is on the cited line; 'digits in the same sentence' is mechanical and often a page reference or table cell, not a measure of AI).**
+**Every use of the bare token AI in the FY26 page files (each quote is on the cited line; 'digits in the same sentence' is mechanical, read one line at a time, and often a page reference or table cell, not a measure of AI; a sentence that runs over a line break is cut, so p227 line 20 reads 'none' here and its 10-20% is found only in the joined-sentence table further down).**
 
 | page file | line | AI sentence (30 words at most, around the token) | digits in the same sentence |
 |---|---|---|---|
@@ -1175,7 +1314,30 @@ Four of the five were launched by 2025-08-08 (S010) and by 2025-11-12 the call n
 | p553 | 9 | Eric is a distinguished academic whose research interests lie at the intersection of AI, machine learning, and economics. | none |
 | p553 | 9 | His work develops the foundations for the responsible use of AI in society and the sciences. | none |
 
-**Decks line.** The 11 deck layouts hold 2 uses of the bare token AI, both in the Q1 FY27 deck (the Syngene slide: 'Syn.AI' and a footnote about Syngene's AI-enabled platform), and no number backs either use: the only digits on the line are the Syngene EBITDA margin cells of the adjacent table. So the count the step asks for reads 103 (report) + 3 (calls) + 2 (decks) = 108 uses, and the numbers that back AI remain the four report figures listed above, or 'none' for calls and decks.
+**Every sentence with the token AI and a number, read across line breaks (18).** This replaces the earlier count of 4, which split a sentence that runs over a line break and so missed the p227 figure ('10-20%' sits two lines below the line that holds 'AI'). The last column is a hand reading: YES only where the number's own words measure an AI activity or an AI result; the other rows are table indexes, standard numbers, headings or neighbouring table cells.
+
+| page | AI line | line holding AI (30 words at most) | number line | line holding the first number (30 words at most) | numbers in the sentence | reading |
+|---|---|---|---|---|---|---|
+| p033 | 1 | Q<sup>**8**</sup> **How are digital and data-driven capabilities, including AI, being leveraged to strengthen execution (quality, supply reliability, productivity) and to improve financial planning, forecasting and decision-making, while building organizational resilience?** | 1 | Q<sup>**8**</sup> **How are digital and data-driven capabilities, including AI, being leveraged to strengthen execution (quality, supply reliability, productivity) and to improve financial planning, forecasting and decision-making, while building organizational resilience?** | 8, 7 | no: number sits beside AI, not about it |
+| p037 | 61 | A distinguished academic whose research interests lie at the intersection of AI, machine learning, and economics. His work develops the foundations for the responsible use of AI in society and | 53 | ###### 4 | 4 | no: number sits beside AI, not about it |
+| p044 | 27 | ###### **Biocon Compliance AI Agent** | 25 | **We achieved 100% training coverage, mandating that every employee, whether full-time, part-time or contractual, is fully communicated with and trained on the Company’s Code of Conduct and ethical guidelines.** | 100% | no: number sits beside AI, not about it |
+| p059 | 10 | /**4**/**Governance**/�Integrated risk management<br>�Business continuity<br>�Business ethics, compliance and integrity<br>�Responsible public advocacy<br>�Ethical clinical trials<br>�Data privacy, cybersecurity and responsible AI/**Top priority**/ | 7 | /**1**/**Environmental performance**<br>**and climate stewardship**/�Circular economy<br>�Energy and emissions management<br>�Pollution (waste and effluent management)<br>�Pollution (air pollution)<br>�Water management<br>�Climate risk – physical and transition<br>�Biodiversity management<br>�Process efficiency<br>�Pharmaceuticals in the environment & antimicrobial resistance/**Top priority**/ | 1, 2, 3, 4, 5, 6 ... | no: number sits beside AI, not about it |
+| p071 | 27 | - Investments in digital manufacturing, automation and AI-enabled operations to improve throughput and cost efficiency | 9 | - Invested C9,821 million, representing ~8% of revenue excluding Syngene, in R&D during FY26 focused on advancing the biosimilars pipeline, GLP-1 peptides, and complex generics | 821, 8%, 1, 500, 19%, 168 ... | no: number sits beside AI, not about it |
+| p083 | 17 | collaboration with strategic partners Siemens, Deloitte, TCS, and IFQM. The platform showcased 31 transformation initiatives, including 13 AI-driven solutions, underscoring the Group’s commitment to technology-enabled business transformation and future-ready operations. | 17 | Technology Day, in collaboration with strategic partners Siemens, Deloitte, TCS, and IFQM. The platform showcased 31 transformation initiatives, including 13 AI-driven solutions, underscoring the Group’s commitment to technology-enabled business transformation | 31, 13 | YES: measures an AI activity |
+| p101 | 3 | ###### **AI-enabled ESG data management** | 1 | ###### **CASE STUDY # 01** | 01 | no: number sits beside AI, not about it |
+| p131 | 12 | /�Driving electrification<br>�Deploying biomass-b<br>�Investing in climate-r<br>�Implementing digita<br>**Long-term**/i and low carbon process improvements<br>ased systems<br>esilient infrastructure<br>l and AI-enabled monitoring tools/ | 4 | /Temperature/�High impact for Bengaluru, Hyderabad, Visakhapatnam, and Cranbury, under long-term<br>RCP 4.5, 6.0, and 8.5 scenarios) under long-term RCP 4.5, 6.0, and 8.5 scenarios<br>�Medium impact in rest of the scenarios/ | 4.5,, 6.0,, 8.5, 4.5,, 6.0,, 8.5 ... | no: number sits beside AI, not about it |
+| p163 | 13 | conducted, whom 3.6% were flagged for including cardiac health suspected diabetes, 9.5% for surveillance through AI-enabled possible hypertension, and ECG assessments, completing 46.5% of women were found to more than | 9 | ###### **3,130** | 3,130, 63, 3.6%, 9.5%, 46.5%, 3,300 | YES: measures an AI activity |
+| p164 | 19 | - **Collaboration:** Shared 30,000+ images with the Indian Institute of Science (IISc) and the TANUH AI Centre of Excellence in Healthcare, which supported a tenfold increase in screening capacity within | 19 | - **Collaboration:** Shared 30,000+ images with the Indian Institute of Science (IISc) and the TANUH AI Centre of Excellence in Healthcare, which supported a tenfold increase in screening capacity within | 30,000, 18 | YES: measures an AI activity |
+| p168 | 5 | joint development of a 16-week certificate program to equip biologists and IT engineers with applied AI expertise in the life sciences. Additionally, thematic symposia were organized across Disease Biology, AI, | 5 | The Chair, along with Biocon Academy, also supported the joint development of a 16-week certificate program to equip biologists and IT engineers with applied AI expertise in the life sciences. | 16 | YES: measures an AI activity |
+| p179 | 23 | engagement around the Company’s strategy, integration, GLP-1 opportunities and biosimilars growth along with Office of AI; positioning the appointment as a reflection of sustained business momentum to strengthen stakeholder confidence | 23 | engagement around the Company’s strategy, integration, GLP-1 opportunities and biosimilars growth along with Office of AI; positioning the appointment as a reflection of sustained business momentum to strengthen stakeholder confidence | 1 | no: number sits beside AI, not about it |
+| p227 | 20 | towards focused, value-driven deployment of digital and AI solutions, particularly across manufacturing, quality management, supply chain planning and regulatory operations. Recent industry experience indicates that targeted digital and AI interventions | 22 | have delivered early efficiency gains in the range of 10–20% in pilot and scaled-pilot environments. At the same time, heightened regulatory scrutiny around data integrity, system validation, cybersecurity and business | 10, 20% | YES: measures an AI activity |
+| p435 | 4 | levels<br>•<br>Internal talent mobility and<br>apprenticeship programs<br>•<br>Industry benchmarking for<br>compensation<br>•<br>Enhanced employee<br>engagement through HRBP,<br>Buddy, and recognition<br>programs<br>•<br>Digital hiring solutions and AI-<br>enabled systems to support<br>intelligent resume-to-role<br>matching<br>•<br>Focused succession planning<br>for leadership resilience/**Negative:**<br>The absence of a safe and<br>empowering workplace | 4 | exposures, may further<br>adversely affect employee well-<br>being and safety, while disrupting<br>manufacturing and operational<br>continuity./<br>•<br>Zero-accident safety culture<br>and ISO 45001 certification<br>•<br>Mandatory health and safety<br>trainings for all employees<br>•<br>Annual health check-ups and<br>awareness sessions<br>•<br>EHSS digital platform for<br>streamlined | 45001 | no: number sits beside AI, not about it |
+| p437 | 4 | on<br>execution amongst cross<br>functional teams.<br>•<br>Continuous program<br>monitoring to avoid potential<br>delays.<br>•<br>Proactive interaction with<br>regulators to secure timely<br>inputs.<br>•<br>Explore application of AI/ ML<br>in process development.<br>•<br>Innovation-Led Technologies:<br>Adoption of technologies<br>to drive efficiencies, cost<br>savings, and environmental<br>sustainability./**Negative:**<br>This can result in | 3 | /5/Community<br>Engagement/Opportunity/Employee volunteering and<br>strategic CSR initiatives can improve<br>community welfare, deepen<br>stakeholder trust, and strengthen<br>Biocon’s social licence to operate.<br>Collaborations through public-<br>private partnerships in healthcare<br>and education can further expand<br>the scale and effectiveness of social<br>impact | 5, 6 | no: number sits beside AI, not about it |
+| p438 | 3 | traceability can further<br>increase quality and operational<br>risks, potentially disrupting<br>production, customer fulfilment,<br>operational continuity, and overall<br>business resilience for Biocon./•<br>AI-driven supply chain<br>management, diversified<br>sourcing, and strategic<br>partnerships with Contract<br>Manufacturing Organizations<br>(CMOs) to reduce operational<br>risks<br>•<br>Alternate vendors to minimize<br>dependence | 4 | /8/Emerging<br>Technologies<br>and Digital<br>Transformation/Opportunity/Rapid advancements in Artificial<br>Intelligence (AI) and machine<br>learning present significant<br>opportunities to enhance<br>operational efficiency, strengthen<br>analytics capabilities, accelerate<br>innovation, and improve speed to<br>market./•<br>Multiple AI pilot programmes<br>across various stages of<br>the product value chain<br>to improve | 8 | no: number sits beside AI, not about it |
+| p483 | 6 | /13/AI and Biosciences/.<br>Speaker and panel<br>engagements, with<br>coordination through<br>MeitY, Google and the Data<br>SecuritCouncil of India/Yes/as above/https://impact.indiaai.gov.in<br>(India AI Impact Summit 2026<br>official website, MeitY)/ | 6 | /13/AI and Biosciences/.<br>Speaker and panel<br>engagements, with<br>coordination through<br>MeitY, Google and the Data<br>SecuritCouncil of India/Yes/as above/https://impact.indiaai.gov.in<br>(India AI Impact Summit 2026<br>official website, MeitY)/ | 13, 14 | no: number sits beside AI, not about it |
+| p496 | 30 | /AI powered Drug Discovery/Technology/AI can expedite R&D, improve<br>productivity and lower costs,<br>but pose risks in terms of data<br>governance, bias, and IP disputes./•<br>Define the context of use for AI tools, set clear<br>governance | 37 | 72 **Biocon Limited** Integrated Annual Report **FY 2026** | 72 | no: number sits beside AI, not about it |
+
+**Decks line.** The 11 deck layouts hold 2 uses of the bare token AI, both in the Q1 FY27 deck (the Syngene slide: 'Syn.AI' and a footnote about Syngene's AI-enabled platform), and no number backs either use: the only digits on the line are the Syngene EBITDA margin cells of the adjacent table. So the count the step asks for reads 103 (report) + 3 (calls) + 2 (decks) = 108 uses, and the numbers that back AI remain the five report figures listed above (the four earlier ones plus the p227 industry range), or 'none' for calls and decks.
 
 ### Still not held
 
