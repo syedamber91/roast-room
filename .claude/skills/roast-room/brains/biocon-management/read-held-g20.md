@@ -37,7 +37,24 @@ Every quote below was re-checked against its line by the script before this file
 
 **Reading 2. ROCE range over the ten year-ends FY17 to FY26 (DERIVED from the table above).** Pre-tax ROCE: low 2.90% (FY26), high 14.05% (FY19); EBIT-basis ROCE: low 3.71% (FY26), high 11.91% (FY19). FY16 (eleventh year-end) reads 11.49% pre-tax and 8.81% EBIT basis, inside that range. EBITDA margin on total income: low 21.99% (FY26), high 27.87% (FY17).
 
-**Reading 3. Against the rulebook bars (a comparison, not a verdict).** Rulebook `capital_efficiency_gate-001` check_rule is '>= 15' and `capital_efficiency-001` reference_band is '>= 20'. Pre-tax ROCE at or above 15: none of the ten year-ends FY17-FY26; at or above 20: none. Highest is FY19 at 14.05%.
+**Reading 3a. Pre-tax ROCE on two capital bases, side by side, FY17 to FY26 (DERIVED, consolidated).** Closing basis = (PBT + finance costs) / (total assets - current liabilities at the year end). Average basis = (PBT + finance costs) / ((capital employed at the previous year end + capital employed at this year end) / 2). Same numerator in both; only the denominator differs. FY21 to FY26 numerators are the csv's profit before tax and finance costs, and the closing figure rebuilt from them equals the held L2-54 figure in all six years.
+
+| Year | PBT + finance costs | Closing capital employed | Average capital employed | ROCE, closing basis % | ROCE, average basis % |
+|---|---|---|---|---|---|
+| FY17 | 8,757 | 77,159 | 72,541.5 | 11.35 | 12.07 |
+| FY18 | 6,715 | 78,484 | 77,821.5 | 8.56 | 8.63 |
+| FY19 | 12,858 | 91,539 | 85,011.5 | 14.05 | 15.13 |
+| FY20 | 12,798 | 104,358 | 97,948.5 | 12.26 | 13.07 |
+| FY21 | 11,254 | 143,122 | 123,740.0 | 7.86 | 9.09 |
+| FY22 | 10,507 | 165,660 | 154,391.0 | 6.34 | 6.81 |
+| FY23 | 13,161 | 435,321 | 300,490.5 | 3.02 | 4.38 |
+| FY24 | 24,996 | 407,119 | 421,220.0 | 6.14 | 5.93 |
+| FY25 | 27,840 | 444,635 | 425,877.0 | 6.26 | 6.54 |
+| FY26 | 14,382 | 495,814 | 470,224.5 | 2.90 | 3.06 |
+
+Average-basis range FY17-FY26: low 3.06% (FY26), high 15.13% (FY19); closing-basis range: low 2.90% (FY26), high 14.05% (FY19). The low and high years are the same on both bases.
+
+**Reading 3. Against the rulebook bars (a comparison, not a verdict), stated per basis.** Rulebook `capital_efficiency_gate-001` check_rule is '>= 15' and `capital_efficiency-001` reference_band is '>= 20'. On CLOSING capital employed, pre-tax ROCE is at or above 15 in: none of the ten year-ends FY17-FY26 (highest FY19 at 14.05%). On AVERAGE capital employed, pre-tax ROCE is at or above 15 in: FY19 (15.13%). At or above 20 on either basis: none. So 'no year reaches the 15 bar' holds on closing capital employed only; on average capital employed FY19 crosses it. The rulebook line does not say which capital base its bar uses (not stated in the key read).
 
 **Reading 4. What the company prints for ROCE and for a return on capital.** (a) A ROCE figure under that name is printed only from the FY22 report: note 44 'Ratio Analysis' of the STANDALONE notes gives FY21 4.65%, FY22 1.75%, FY23 25.01%, FY24 2.70%, FY25 6.25%, FY26 0.69% (each year agrees with the next report's prior-year column), defined as earnings before interest and taxes over (tangible net worth + total borrowings - deferred tax asset). It is a standalone ratio on the company's own definition, so it is not comparable with the consolidated derived ROCE above; the FY23 note's printed reason is 'Exceptional gain' and the FY24 note names it as a gain on sale of shares of a subsidiary in the previous year. (b) Before FY21 no ROCE ratio is printed: a whole-word search for ROCE or 'return on capital' over 1789 page files of the FY16-FY21 reports returns 1 line (data/history/ar-fy18/p024.txt line 3, qualitative, no figure). (c) The consolidated highlights print 'Return on Net Assets' where 'Net Assets = Total Assets - Current Liabilities' (FY20 report p049 line 38; FY26 report p071 line 49); its numerator is profit after tax and minorities, so it is a post-tax return on the same capital the derived ROCE uses. Capital employed rebuilt from the balance sheet equals the printed net assets in every year FY16-FY20: FY16 67,924 ties, FY17 77,159 ties, FY18 78,484 ties, FY19 91,539 ties, FY20 104,358 ties. Printed percent equals profit over closing net assets (rounded) in FY16, FY17, FY18, FY19, FY20 (FY16-FY20); FY21-FY25 are read from the FY25 report's own table.
 
@@ -241,6 +258,18 @@ Every quote below was re-checked against its line by the script before this file
 - `PATCSV/FY26` Profit attributable to owners FY26 = 3,856 Rs million [HELD]: roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv, pdf p347, line 429: "FY26,FY26,consolidated,pl,profit_attributable_to_owners,3856,Rs million,347,,filed"
 - `RULE/gate` ROCE bar (gate) = 15 [RULEBOOK]: soic-ladder/rulebook/soic-ladder-rules-v1.yaml, id capital_efficiency_gate-001, line 139: "check_rule: ">= 15"" (rulebook key capital_efficiency_gate-001.check_rule; a comparison, not a verdict)
 - `RULE/band` ROCE reference band = 20 [RULEBOOK]: soic-ladder/rulebook/soic-ladder-rules-v1.yaml, id capital_efficiency-001, line 230: "reference_band: ">= 20"" (rulebook key capital_efficiency-001.reference_band; a comparison, not a verdict)
+- `PBTCSV/FY21` Profit before tax FY21 = 10,677 Rs million [HELD]: roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv, pdf p265, line 27: "FY22,FY21,consolidated,pl,profit_before_tax,10677,Rs million,265,,filed"
+- `FINCSV/FY21` Finance costs FY21 = 577 Rs million [HELD]: roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv, pdf p265, line 17: "FY22,FY21,consolidated,pl,finance_costs,577,Rs million,265,,filed"
+- `PBTCSV/FY22` Profit before tax FY22 = 9,831 Rs million [HELD]: roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv, pdf p265, line 26: "FY22,FY22,consolidated,pl,profit_before_tax,9831,Rs million,265,,filed"
+- `FINCSV/FY22` Finance costs FY22 = 676 Rs million [HELD]: roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv, pdf p265, line 16: "FY22,FY22,consolidated,pl,finance_costs,676,Rs million,265,,filed"
+- `PBTCSV/FY23` Profit before tax FY23 = 8,971 Rs million [HELD]: roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv, pdf p363, line 173: "FY23,FY23,consolidated,pl,profit_before_tax,8971,Rs million,363,,filed"
+- `FINCSV/FY23` Finance costs FY23 = 4,190 Rs million [HELD]: roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv, pdf p363, line 168: "FY23,FY23,consolidated,pl,finance_costs,4190,Rs million,363,,filed"
+- `PBTCSV/FY24` Profit before tax FY24 = 15,252 Rs million [HELD]: roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv, pdf p309, line 244: "FY24,FY24,consolidated,pl,profit_before_tax,15252,Rs million,309,,filed"
+- `FINCSV/FY24` Finance costs FY24 = 9,744 Rs million [HELD]: roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv, pdf p309, line 240: "FY24,FY24,consolidated,pl,finance_costs,9744,Rs million,309,,filed"
+- `PBTCSV/FY25` Profit before tax FY25 = 18,866 Rs million [HELD]: roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv, pdf p349, line 326: "FY25,FY25,consolidated,pl,profit_before_tax,18866,Rs million,349,,filed"
+- `FINCSV/FY25` Finance costs FY25 = 8,974 Rs million [HELD]: roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv, pdf p349, line 322: "FY25,FY25,consolidated,pl,finance_costs,8974,Rs million,349,,filed"
+- `PBTCSV/FY26` Profit before tax FY26 = 4,479 Rs million [HELD]: roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv, pdf p347, line 426: "FY26,FY26,consolidated,pl,profit_before_tax,4479,Rs million,347,,filed"
+- `FINCSV/FY26` Finance costs FY26 = 9,903 Rs million [HELD]: roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv, pdf p347, line 422: "FY26,FY26,consolidated,pl,finance_costs,9903,Rs million,347,,filed"
 
 ### Still not held
 
@@ -250,6 +279,7 @@ Every quote below was re-checked against its line by the script before this file
 - Pre-FY16 (Indian GAAP, FY12-FY15) revenue, margin and returns on the Ind AS basis: not used, because the basis changes at FY16 (FY17 report restates FY16).
 - Segment-level ROCE and the end-market split needed to call the business steady or cyclical: not read in this pass, and no label is given.
 - Screener's ROCE series is third party and is not reconciled here (see L8-2).
+- Which capital base (closing or average) the rulebook bar of 15 is meant for: the yaml key states only the number, so both bases are shown.
 
 ## L7-21
 
@@ -404,21 +434,35 @@ On the weekly close the ten year-ends FY17-FY26 read low 30.89 (FY24), median 48
 | FY25 | 1,200,567,573 | 410,234 | 341.70 | 410,234 | 10,133 | 600 | 9,533 | 829 | 99 |
 | FY26 | 1,621,073,650 | 599,959 | 360.90 | 585,045 | 3,856 | 668 | 3,188 | 908 | 86,015 |
 
-**Reading 2. The ten-year span FY16 to FY26 and every rolling five-year window (DERIVED).** Profit kept = profit to owners less dividends paid in the years after the opening year-end up to the closing one (the step: 'profit kept after dividends'). The test is the step's own (rolling five years, at least one rupee of market value per rupee kept; the framework's Number line for this step, an example and not a rulebook rule). Columns: held ratio is L7-46's own; 'daily' swaps the closes; 'consolidated' swaps the dividends for the consolidated cash line (includes dividends to minorities); 'net of own issue' takes the proceeds from share-option exercise and the FY26 share-capital issue out of the rise (shares issued add market value without being kept profit; share issues by subsidiaries are listed, not netted).
+**Reading 2. The ten-year span FY16 to FY26 and every rolling five-year window (DERIVED).** Profit kept = profit to owners less dividends paid in the years after the opening year-end up to the closing one (the step: 'profit kept after dividends'). The test is the step's own (rolling five years, at least one rupee of market value per rupee kept; the framework's Number line for this step, an example and not a rulebook rule). Columns: held ratio is L7-46's own; 'daily' swaps the closes; 'consolidated' swaps the dividends for the consolidated cash line (includes dividends to minorities); 'net of cash issue proceeds only' takes the cash from share-option exercise and the FY26 share-capital issue out of the rise (shares issued add market value without being kept profit; share issues by subsidiaries are listed, not netted).
 
-| Window | Rise in market cap (weekly) | Profit kept, sum | Rise per rupee kept | Held (L7-46) | Same? | Against Re 1 (comparison) | Per rupee, daily closes | Profit kept, consolidated dividends | Per rupee, consolidated dividends | Own share-issue proceeds in window | Per rupee, net of own issue |
-|---|---|---|---|---|---|---|---|---|---|---|---|
-| FY16 to FY26 | 507,169 | 63,453 | 7.99 | 7.99 | same | at or above 1 | 7.70 | 62,344 | 8.14 | 88,649 | 6.60 |
-| FY16 to FY21 | 381,734 | 31,797 | 12.01 | 12.01 | same | at or above 1 | 12.40 | 31,504 | 12.12 | 1,505 | 11.96 |
-| FY17 to FY22 | 192,418 | 32,160 | 5.98 | 5.98 | same | at or above 1 | 5.49 | 31,867 | 6.04 | 1,740 | 5.93 |
-| FY18 to FY23 | -108,603 | 33,156 | -3.28 | -3.28 | same | below 1 | -3.28 | 32,839 | -3.31 | 1,765 | -3.33 |
-| FY19 to FY24 | -47,040 | 33,221 | -1.42 | -1.42 | same | below 1 | -1.42 | 32,774 | -1.44 | 1,755 | -1.47 |
-| FY20 to FY25 | 76,994 | 35,873 | 2.15 | 2.15 | same | at or above 1 | 2.39 | 35,297 | 2.18 | 1,536 | 2.10 |
-| FY21 to FY26 | 125,435 | 31,656 | 3.96 | 3.96 | same | at or above 1 | 2.97 | 30,840 | 4.07 | 87,144 | 1.21 |
+| Window | Rise in market cap (weekly) | Profit kept, sum | Rise per rupee kept | Held (L7-46) | Same? | Against Re 1 (comparison) | Per rupee, daily closes | Profit kept, consolidated dividends | Per rupee, consolidated dividends | Cash proceeds of own share issues in window | Per rupee, net of cash issue proceeds only | Non-cash preferential shares in window (DERIVED) | Per rupee, fully netted (cash and non-cash) |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| FY16 to FY26 | 507,169 | 63,453 | 7.99 | 7.99 | same | at or above 1 | 7.70 | 62,344 | 8.14 | 88,649 | 6.60 | 63,391 | 5.60 |
+| FY16 to FY21 | 381,734 | 31,797 | 12.01 | 12.01 | same | at or above 1 | 12.40 | 31,504 | 12.12 | 1,505 | 11.96 | 0 | 11.96 |
+| FY17 to FY22 | 192,418 | 32,160 | 5.98 | 5.98 | same | at or above 1 | 5.49 | 31,867 | 6.04 | 1,740 | 5.93 | 0 | 5.93 |
+| FY18 to FY23 | -108,603 | 33,156 | -3.28 | -3.28 | same | below 1 | -3.28 | 32,839 | -3.31 | 1,765 | -3.33 | 0 | -3.33 |
+| FY19 to FY24 | -47,040 | 33,221 | -1.42 | -1.42 | same | below 1 | -1.42 | 32,774 | -1.44 | 1,755 | -1.47 | 0 | -1.47 |
+| FY20 to FY25 | 76,994 | 35,873 | 2.15 | 2.15 | same | at or above 1 | 2.39 | 35,297 | 2.18 | 1,536 | 2.10 | 0 | 2.10 |
+| FY21 to FY26 | 125,435 | 31,656 | 3.96 | 3.96 | same | at or above 1 | 2.97 | 30,840 | 4.07 | 87,144 | 1.21 | 63,391 | -0.79 |
+
+**Reading 2b. The non-cash FY26 issue, read from the page.** 171,279,553 shares of Rs 5 each were allotted on 5 January 2026 to the selling holders of Biocon Biologics shares by share swap (FY26 report p267 line 51); no cash came in, so no cash-flow row holds it, and it is already inside the 1,621,073,650 share count. Value DERIVED = shares x the held FY26 close used for the market cap: 171,279,553 x 370.10 / 1,000,000 = 63,391 million. (Sensitivity: at the daily close on or before 5 January 2026, 391.35, it reads 67,030 million; the allotment-date price is not printed in the report.) The 'cash proceeds only' column above leaves this out, so it is NOT fully net of own issue.
+
+**Reading 2c. The same windows on the retained-earnings BALANCE (L7-46, held), beside profit kept.** The balance carries equity movements that are not profit (L7-46 other movements: FY23 +88,559, FY26 -52,859), so the two measures can sit on opposite sides of Re 1. Profit kept is the step's own measure and stays the headline; the balance measure is shown beside it, cited to computed-ratios.md section L7-46.
+
+| Window | Change in retained-earnings balance | Rise per rupee of balance change (L7-46) | Against Re 1 | Rise per rupee of profit kept (above) | Same side? |
+|---|---|---|---|---|---|
+| FY16 to FY26 | 108,251 | 4.69 | at or above 1 | 7.99 | same side |
+| FY16 to FY21 | 30,689 | 12.44 | at or above 1 | 12.01 | same side |
+| FY17 to FY22 | 29,248 | 6.58 | at or above 1 | 5.98 | same side |
+| FY18 to FY23 | 118,565 | -0.92 | below 1 | -3.28 | same side |
+| FY19 to FY24 | 123,939 | -0.38 | below 1 | -1.42 | same side |
+| FY20 to FY25 | 130,450 | 0.59 | below 1 | 2.15 | DIFFERENT SIDES |
+| FY21 to FY26 | 77,562 | 1.62 | at or above 1 | 3.96 | same side |
 
 **Reading 3. FY21 share count.** The held cap for FY21 uses 1,200,567,573 shares (a later filing); the FY21 report prints 1,200,000,000 shares at 31 March 2021 (note 14). On the printed count the FY21 cap is 474,300 (held 474,524), so FY16 to FY21 reads 12.00 (held 12.01) and FY21 to FY26 reads 3.97 (held 3.96); no window crosses the step's Re 1 line either way. FY22-FY26 equity share capital read here, at Rs 5 a share: FY22 6,003 -> 1,200.6 million shares; FY23 6,003 -> 1,200.6 million shares; FY24 6,003 -> 1,200.6 million shares; FY25 6,003 -> 1,200.6 million shares; FY26 8,105 -> 1,621.0 million shares (held counts: FY22-FY25 1,200,567,573, FY26 1,621,073,650).
 
-**Reading 4. What the table says, in numbers only.** Rise per rupee kept on the held measure is at or above 1 in FY16 to FY26 (7.99), FY16 to FY21 (12.01), FY17 to FY22 (5.98), FY20 to FY25 (2.15), FY21 to FY26 (3.96); below 1 in FY18 to FY23 (-3.28), FY19 to FY24 (-1.42). Netting only the company's own share issues, the FY21-FY26 window falls to 1.21 and FY16-FY26 to 6.60: the FY26 issue (86,015 incl. exercises) is most of the rise in the last window. Share issues by subsidiaries (cash into the subsidiary, from outside holders): FY20 5,363, FY21 7,663, FY23 12,368 (listed, not netted). No verdict is drawn: a date match is not a cause.
+**Reading 4. What the table says, in numbers only.** Rise per rupee kept on the held measure is at or above 1 in FY16 to FY26 (7.99), FY16 to FY21 (12.01), FY17 to FY22 (5.98), FY20 to FY25 (2.15), FY21 to FY26 (3.96); below 1 in FY18 to FY23 (-3.28), FY19 to FY24 (-1.42). Netting the cash proceeds of own share issues only, FY21-FY26 falls to 1.21 and FY16-FY26 to 6.60; netting the non-cash preferential shares as well, FY21-FY26 reads -0.79 (raw 3.96) and FY16-FY26 reads 5.60. The FY26 issues (cash 86,015 incl. exercises, non-cash 63,391) are more than the whole rise in the last window. On the balance measure FY20-FY25 reads 0.59 against 2.15 on profit kept: opposite sides of Re 1. Share issues by subsidiaries (cash into the subsidiary, from outside holders): FY20 5,363, FY21 7,663, FY23 12,368 (listed, not netted). No verdict is drawn: a date match is not a cause.
 
 ### Sources (every figure: file, page, line, verbatim quote of at most 30 words)
 
@@ -527,6 +571,22 @@ On the weekly close the ten year-ends FY17-FY26 read low 30.89 (FY24), median 48
 - `ESC/FY25` Equity share capital FY25 = 6,003 Rs million [HELD]: roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv, pdf p348, line 347: "FY25,FY25,consolidated,bs,equity_share_capital,6003,Rs million,348,,filed"
 - `ESC/FY26` Equity share capital FY26 = 8,105 Rs million [HELD]: roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv, pdf p346, line 447: "FY26,FY26,consolidated,bs,equity_share_capital,8105,Rs million,346,,filed"
 - `STEP/bar` The step's own bar: one rupee of market value per rupee kept (an example, not a rulebook rule) = 1 times [STEP TEXT]: /home/user/learning-vault-invest/filings-coach/framework/framework.md, md line, line 3345: "- **Number:** None stated by an Indian source. Buffett's test uses a five-year rolling basis and at least one dollar of market value for each dollar kept (example, B9-91)."
+- `NONCASH/FY26-shares` Equity shares allotted 5 January 2026 as share-swap consideration for Biocon Biologics shares (not cash) = 171,279,553 shares [PRINTED]: annual-report/FY26/p267.md, p267, line 51: "- The Company on January 05, 2026 has allotted 171,279,553 Equity Shares of ` 5 each on a preferential basis to (a) Mylan Inc.; (b) Serum Institute Life Sciences Private" (FY26 report note; the issue is by share swap, so no cash row exists in the cash flow)
+- `DCLOSE/2026-01-05` Daily close on or before 5 January 2026 (the allotment date) = 391.35 Rs (bonus-adjusted) [THIRD-PARTY]: data/macro/BIOCON_NS-daily-long.csv, csv row, line 2720: "2026-01-05,390.8825378417969,391.3500061035156,398.95001220703125,388.45001220703125,392.95001220703125,1485564"
+- `BALCHG/FY16-FY26` Change in retained-earnings balance, FY16 to FY26 (L7-46) = 108,251 Rs million [HELD]: brains/biocon-management/computed-ratios.md, md line, line 3201: "| 507,169 | 69,110 | 5,657 | 63,453 | 7.99 | at or above 1 | 8.06 | 108,251 | 4.69 | at or above 1 | same side |"
+- `BALRAT/FY16-FY26` Rise per rupee of balance change, FY16 to FY26 (L7-46) = 4.69 times [HELD]: brains/biocon-management/computed-ratios.md, md line, line 3201: "| 507,169 | 69,110 | 5,657 | 63,453 | 7.99 | at or above 1 | 8.06 | 108,251 | 4.69 | at or above 1 | same side |"
+- `BALCHG/FY16-FY21` Change in retained-earnings balance, FY16 to FY21 (L7-46) = 30,689 Rs million [HELD]: brains/biocon-management/computed-ratios.md, md line, line 3202: "| 381,734 | 33,785 | 1,988 | 31,797 | 12.01 | at or above 1 | 11.93 | 30,689 | 12.44 | at or above 1 | same side |"
+- `BALRAT/FY16-FY21` Rise per rupee of balance change, FY16 to FY21 (L7-46) = 12.44 times [HELD]: brains/biocon-management/computed-ratios.md, md line, line 3202: "| 381,734 | 33,785 | 1,988 | 31,797 | 12.01 | at or above 1 | 11.93 | 30,689 | 12.44 | at or above 1 | same side |"
+- `BALCHG/FY17-FY22` Change in retained-earnings balance, FY17 to FY22 (L7-46) = 29,248 Rs million [HELD]: brains/biocon-management/computed-ratios.md, md line, line 3203: "| 192,418 | 34,148 | 1,988 | 32,160 | 5.98 | at or above 1 | 5.95 | 29,248 | 6.58 | at or above 1 | same side |"
+- `BALRAT/FY17-FY22` Rise per rupee of balance change, FY17 to FY22 (L7-46) = 6.58 times [HELD]: brains/biocon-management/computed-ratios.md, md line, line 3203: "| 192,418 | 34,148 | 1,988 | 32,160 | 5.98 | at or above 1 | 5.95 | 29,248 | 6.58 | at or above 1 | same side |"
+- `BALCHG/FY18-FY23` Change in retained-earnings balance, FY18 to FY23 (L7-46) = 118,565 Rs million [HELD]: brains/biocon-management/computed-ratios.md, md line, line 3204: "| 35,051 | 1,895 | 33,156 | -3.28 | below 1 (market cap fell) | -3.39 | 118,565 | -0.92 | below 1 (market cap fell) | same side |"
+- `BALRAT/FY18-FY23` Rise per rupee of balance change, FY18 to FY23 (L7-46) = -0.92 times [HELD]: brains/biocon-management/computed-ratios.md, md line, line 3204: "| 35,051 | 1,895 | 33,156 | -3.28 | below 1 (market cap fell) | -3.39 | 118,565 | -0.92 | below 1 (market cap fell) | same side |"
+- `BALCHG/FY19-FY24` Change in retained-earnings balance, FY19 to FY24 (L7-46) = 123,939 Rs million [HELD]: brains/biocon-management/computed-ratios.md, md line, line 3205: "| 36,223 | 3,002 | 33,221 | -1.42 | below 1 (market cap fell) | -1.42 | 123,939 | -0.38 | below 1 (market cap fell) | same side |"
+- `BALRAT/FY19-FY24` Rise per rupee of balance change, FY19 to FY24 (L7-46) = -0.38 times [HELD]: brains/biocon-management/computed-ratios.md, md line, line 3205: "| 36,223 | 3,002 | 33,221 | -1.42 | below 1 (market cap fell) | -1.42 | 123,939 | -0.38 | below 1 (market cap fell) | same side |"
+- `BALCHG/FY20-FY25` Change in retained-earnings balance, FY20 to FY25 (L7-46) = 130,450 Rs million [HELD]: brains/biocon-management/computed-ratios.md, md line, line 3206: "to FY25 | 76,994 | 38,874 | 3,001 | 35,873 | 2.15 | at or above 1 | 2.18 | 130,450 | 0.59 | below 1 | DIFFERENT SIDES |"
+- `BALRAT/FY20-FY25` Rise per rupee of balance change, FY20 to FY25 (L7-46) = 0.59 times [HELD]: brains/biocon-management/computed-ratios.md, md line, line 3206: "to FY25 | 76,994 | 38,874 | 3,001 | 35,873 | 2.15 | at or above 1 | 2.18 | 130,450 | 0.59 | below 1 | DIFFERENT SIDES |"
+- `BALCHG/FY21-FY26` Change in retained-earnings balance, FY21 to FY26 (L7-46) = 77,562 Rs million [HELD]: brains/biocon-management/computed-ratios.md, md line, line 3207: "| 125,435 | 35,325 | 3,669 | 31,656 | 3.96 | at or above 1 | 4.06 | 77,562 | 1.62 | at or above 1 | same side |"
+- `BALRAT/FY21-FY26` Rise per rupee of balance change, FY21 to FY26 (L7-46) = 1.62 times [HELD]: brains/biocon-management/computed-ratios.md, md line, line 3207: "| 125,435 | 35,325 | 3,669 | 31,656 | 3.96 | at or above 1 | 4.06 | 77,562 | 1.62 | at or above 1 | same side |"
 
 ### Still not held
 
@@ -534,6 +594,7 @@ On the weekly close the ten year-ends FY17-FY26 read low 30.89 (FY24), median 48
 - Share counts at each 31 March FY22-FY25 from a 31-March filing: the held 1,200,567,573 is a later shareholding-filing count; the FY22-FY25 balance-sheet share capital (6,003 at Rs 5) is consistent with it to the million, which is the only check read here.
 - Whether FY23's 12,368 (share issue by a subsidiary) or the FY26 purchase of subsidiary shares (36,287, same cash-flow page) changed the parent's own market value: not stated in a held figure, so neither is netted.
 - A market cap at the 31 March close itself for FY26 (held uses the week ending 2026-03-27; the daily close on or before 31 March is 2026-03-30).
+- The market price on the allotment date as a printed figure: the report prints none; the held daily close (third party) is used only as a sensitivity.
 - Any threshold other than the step's own example of one rupee of value per rupee kept (no rulebook key exists for it).
 
 ## L8-2
