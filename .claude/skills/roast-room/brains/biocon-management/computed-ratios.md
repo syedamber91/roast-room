@@ -1102,31 +1102,31 @@ not a cause.
 
 | Event | Date on the row (feed or record) | Event's own date | Anchor used for the windows | Day 0 note | What it is | Source (file and line, or record) |
 |---|---|---|---|---|---|---|
-| results | 2021-01-21 | same as the row date | 2021-01-21: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:290 (section 'Price move around results dates') |
-| results | 2021-04-28 | same as the row date | 2021-04-28: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:291 (section 'Price move around results dates') |
-| results | 2021-07-22 | same as the row date | 2021-07-22: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:292 (section 'Price move around results dates') |
-| results | 2021-10-21 | same as the row date | 2021-10-21: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:293 (section 'Price move around results dates') |
-| results | 2022-01-20 | same as the row date | 2022-01-20: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:294 (section 'Price move around results dates') |
-| results | 2022-04-28 | same as the row date | 2022-04-28: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:295 (section 'Price move around results dates') |
-| results | 2022-07-27 | same as the row date | 2022-07-27: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:296 (section 'Price move around results dates') |
-| results | 2022-11-14 | same as the row date | 2022-11-14: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:297 (section 'Price move around results dates') |
-| results | 2023-02-14 | same as the row date | 2023-02-14: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:298 (section 'Price move around results dates') |
-| results | 2023-05-23 | same as the row date | 2023-05-23: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:299 (section 'Price move around results dates') |
-| results | 2023-08-10 | same as the row date | 2023-08-10: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:300 (section 'Price move around results dates') |
-| results | 2023-11-10 | same as the row date | 2023-11-10: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:301 (section 'Price move around results dates') |
-| results | 2024-02-08 | same as the row date | 2024-02-08: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:302 (section 'Price move around results dates') |
-| results | 2024-05-16 | same as the row date | 2024-05-16: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:303 (section 'Price move around results dates') |
-| results | 2024-08-08 | same as the row date | 2024-08-08: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:304 (section 'Price move around results dates') |
-| results | 2024-10-30 | same as the row date | 2024-10-30: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:305 (section 'Price move around results dates') |
-| results | 2025-01-30 | same as the row date | 2025-01-30: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:306 (section 'Price move around results dates') |
-| results | 2025-01-31 | same as the row date | 2025-01-31: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:307 (section 'Price move around results dates') |
-| results | 2025-05-08 | same as the row date | 2025-05-08: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:308 (section 'Price move around results dates') |
-| results | 2025-08-07 | same as the row date | 2025-08-07: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:309 (section 'Price move around results dates') |
-| results | 2025-11-11 | same as the row date | 2025-11-11: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:310 (section 'Price move around results dates') |
-| results | 2026-02-12 | same as the row date | 2026-02-12: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:311 (section 'Price move around results dates') |
-| results | 2026-05-07 | same as the row date | 2026-05-07: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:312 (section 'Price move around results dates') |
-| results | 2026-08-05 | same as the row date | 2026-08-05: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:313 (section 'Price move around results dates') |
-| results | 2026-11-04 | same as the row date | 2026-11-04: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:314 (section 'Price move around results dates') |
+| results | 2021-01-21 | same as the row date | 2021-01-21: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:308 (section 'Price move around results dates') |
+| results | 2021-04-28 | same as the row date | 2021-04-28: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:309 (section 'Price move around results dates') |
+| results | 2021-07-22 | same as the row date | 2021-07-22: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:310 (section 'Price move around results dates') |
+| results | 2021-10-21 | same as the row date | 2021-10-21: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:311 (section 'Price move around results dates') |
+| results | 2022-01-20 | same as the row date | 2022-01-20: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:312 (section 'Price move around results dates') |
+| results | 2022-04-28 | same as the row date | 2022-04-28: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:313 (section 'Price move around results dates') |
+| results | 2022-07-27 | same as the row date | 2022-07-27: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:314 (section 'Price move around results dates') |
+| results | 2022-11-14 | same as the row date | 2022-11-14: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:315 (section 'Price move around results dates') |
+| results | 2023-02-14 | same as the row date | 2023-02-14: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:316 (section 'Price move around results dates') |
+| results | 2023-05-23 | same as the row date | 2023-05-23: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:317 (section 'Price move around results dates') |
+| results | 2023-08-10 | same as the row date | 2023-08-10: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:318 (section 'Price move around results dates') |
+| results | 2023-11-10 | same as the row date | 2023-11-10: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:319 (section 'Price move around results dates') |
+| results | 2024-02-08 | same as the row date | 2024-02-08: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:320 (section 'Price move around results dates') |
+| results | 2024-05-16 | same as the row date | 2024-05-16: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:321 (section 'Price move around results dates') |
+| results | 2024-08-08 | same as the row date | 2024-08-08: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:322 (section 'Price move around results dates') |
+| results | 2024-10-30 | same as the row date | 2024-10-30: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:323 (section 'Price move around results dates') |
+| results | 2025-01-30 | same as the row date | 2025-01-30: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:324 (section 'Price move around results dates') |
+| results | 2025-01-31 | same as the row date | 2025-01-31: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:325 (section 'Price move around results dates') |
+| results | 2025-05-08 | same as the row date | 2025-05-08: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:326 (section 'Price move around results dates') |
+| results | 2025-08-07 | same as the row date | 2025-08-07: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:327 (section 'Price move around results dates') |
+| results | 2025-11-11 | same as the row date | 2025-11-11: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:328 (section 'Price move around results dates') |
+| results | 2026-02-12 | same as the row date | 2026-02-12: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:329 (section 'Price move around results dates') |
+| results | 2026-05-07 | same as the row date | 2026-05-07: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:330 (section 'Price move around results dates') |
+| results | 2026-08-05 | same as the row date | 2026-08-05: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:331 (section 'Price move around results dates') |
+| results | 2026-11-04 | same as the row date | 2026-11-04: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:332 (section 'Price move around results dates') |
 | vote | 2024-04-23 | same as the row date | 2024-04-23: own date (the record is dated that day) | - | meeting date, 6 resolution(s) | roast-room/docs/company-record/biocon/voting-results-2026-10-30.csv:2 |
 | vote | 2024-08-09 | same as the row date | 2024-08-09: own date (the record is dated that day) | - | meeting date, 21 resolution(s) | roast-room/docs/company-record/biocon/voting-results-2026-10-30.csv:8 |
 | vote | 2024-09-23 | same as the row date | 2024-09-23: own date (the record is dated that day) | - | meeting date, 10 resolution(s) | roast-room/docs/company-record/biocon/voting-results-2026-10-30.csv:29 |
@@ -1768,6 +1768,976 @@ not a cause.
 - Quarterly EPS here is screener's printed figure on weighted shares (Dec-2025 shows 1.08 beside a Net Profit of -52 on the same page). The company's own basic EPS is held in its results filings for 12 of 13 quarters (not Sep 2026) and differs from screener in 5 of 12: Dec23 5.52 vs 5.50, Jun24 5.51 vs 5.49, Jun25 0.26 vs 0.23, Sep25 0.66 vs 0.63, Mar26 0.79 vs 0.78 (no sign flips). Jun 2026 growth is +278.26% on screener's base and +234.6% on the company's own 0.26; Sep 2026 is -60.32% against -62.1% on the company's 0.66.
 - Annual FY21 growth depends on FY20 EPS restated for the 2020 bonus issue.
 - The price columns sit beside the growth column by date only. A date match is not a cause.
+
+## L1-3: Where to download the quarterly results filings: every link held
+
+**Formula in words.** Count the rows of filings/manifest.csv whose group is 'results', by NSE feed category; count distinct documents by their sha256; list each row with its date, category, page count and URL.
+
+**Inputs (held)**
+
+| Input | Period | Value | Unit | Basis | Source file |
+|---|---|---|---|---|---|
+| results rows listed in filings/manifest.csv | all | 51 | rows | n/a | soic-ladder/docs/idea/case-study/BIOCON/data/filings/manifest.csv (group=results) |
+
+**Computed result, DERIVED**
+
+*Counts (DERIVED)*
+
+| Item | Rows |
+|---|---|
+| Outcome of Board Meeting | 39 |
+| Financial Result Updates | 11 |
+| Integrated Filing- Financial | 1 |
+| all rows | 51 |
+| distinct documents (by sha256) | 31 |
+| documents listed more than once (same or different feed category) | 15 |
+
+*Every held results link (held, copied; the last rows come from the gap manifest, not from manifest.csv)*
+
+| Date | Feed category | Pages | Fetch status | URL |
+|---|---|---|---|---|
+| 2022-01-20 | Outcome of Board Meeting | 11 | ok | https://nsearchives.nseindia.com/corporate/BIOCON_20012022215552_OutcomeOfBM_Bioco.pdf |
+| 2022-01-20 | Financial Result Updates | 11 | ok | https://nsearchives.nseindia.com/corporate/OutcomeOfBM_Bioco_20012022215720.pdf |
+| 2022-04-28 | Outcome of Board Meeting | 24 | ok | https://nsearchives.nseindia.com/corporate/BIOCON_28042022204831_OutcomeofBioconBoardMeeting_28042022.pdf |
+| 2022-04-28 | Financial Result Updates | 24 | ok | https://nsearchives.nseindia.com/corporate/Outcome_of_Biocon_Board_Meeting_28042022_28042022205445.pdf |
+| 2022-07-27 | Outcome of Board Meeting | 14 | ok | https://nsearchives.nseindia.com/corporate/BIOCON_27072022185748_OutcomeBM.pdf |
+| 2022-11-14 | Outcome of Board Meeting | 19 | ok | https://nsearchives.nseindia.com/corporate/BIOCON_14112022201854_OutcomeofBM.pdf |
+| 2023-02-14 | Financial Result Updates | 15 | ok | https://nsearchives.nseindia.com/corporate/Initmation_BM_Outcome_signed_14022023191312.pdf |
+| 2023-04-26 | Outcome of Board Meeting | 2 | ok | https://nsearchives.nseindia.com/corporate/BIOCON_26042023212908_Outcome_BM_260423.pdf |
+| 2023-04-26 | Outcome of Board Meeting | 2 | ok | https://nsearchives.nseindia.com/corporate/BIOCON_26042023213716_Outcome_BM_260423.pdf |
+| 2023-05-23 | Outcome of Board Meeting | 22 | ok | https://nsearchives.nseindia.com/corporate/BIOCON_23052023200700_Outcome_BM_signed.pdf |
+| 2023-05-23 | Financial Result Updates | 22 | ok | https://nsearchives.nseindia.com/corporate/Outcome_BM_signed_23052023200553.pdf |
+| 2023-08-10 | Outcome of Board Meeting | 16 | ok | https://nsearchives.nseindia.com/corporate/BIOCON_10082023195116_Outcome_BM_100823_signed.pdf |
+| 2023-08-10 | Financial Result Updates | 16 | ok | https://nsearchives.nseindia.com/corporate/Outcome_BM_100823_signed_10082023195006.pdf |
+| 2023-11-10 | Outcome of Board Meeting | 16 | ok | https://nsearchives.nseindia.com/corporate/BIOCON_10112023162449_Intimation_Outcome_BM_Results_signed.pdf |
+| 2023-11-10 | Financial Result Updates | 16 | ok | https://nsearchives.nseindia.com/corporate/Intimation_Outcome_BM_Results_signed_10112023162326.pdf |
+| 2024-02-08 | Outcome of Board Meeting | 13 | ok | https://nsearchives.nseindia.com/corporate/BIOCON_08022024190414_Outcome_BoardMeeting_signed.pdf |
+| 2024-02-08 | Outcome of Board Meeting | 13 | ok | https://nsearchives.nseindia.com/corporate/BIOCON_08022024190951_Outcome_BoardMeeting_signed.pdf |
+| 2024-02-08 | Financial Result Updates | 13 | ok | https://nsearchives.nseindia.com/corporate/Outcome_BoardMeeting_signed_08022024190618.pdf |
+| 2024-05-16 | Financial Result Updates | 27 | ok | https://nsearchives.nseindia.com/corporate/BMOutcome_160524_signed_16052024171046.pdf |
+| 2024-08-08 | Outcome of Board Meeting | 13 | ok | https://nsearchives.nseindia.com/corporate/BIOCON_08082024183010_Outcome.pdf |
+| 2024-08-08 | Financial Result Updates | 13 | ok | https://nsearchives.nseindia.com/corporate/Outcome_08082024183231.pdf |
+| 2024-10-30 | Outcome of Board Meeting | 16 | ok | https://nsearchives.nseindia.com/corporate/BIOCON_30102024172855_Outcome_signed.pdf |
+| 2024-10-30 | Financial Result Updates | 16 | ok | https://nsearchives.nseindia.com/corporate/Outcome_signed_30102024173052.pdf |
+| 2025-01-27 | Outcome of Board Meeting | 1 | ok | https://nsearchives.nseindia.com/corporate/Bioconlimited_27012025093242_Outcome27012025.pdf |
+| 2025-01-30 | Outcome of Board Meeting | 13 | ok | https://nsearchives.nseindia.com/corporate/BioconLtd_30012025200831_FINALOUTCOMESIGNED.pdf |
+| 2025-01-30 | Financial Result Updates | 13 | ok | https://nsearchives.nseindia.com/corporate/FINALOUTCOMESIGNED_30012025204753.pdf |
+| 2025-01-31 | Integrated Filing- Financial | 13 | ok | https://nsearchives.nseindia.com/corporate/BioconLtd_31012025161817_SIGNEDIntegratedFin.pdf |
+| 2025-04-04 | Outcome of Board Meeting | 1 | ok | https://nsearchives.nseindia.com/corporate/BioconLtd_04042025205225_BM_Outcome_signed.pdf |
+| 2025-04-23 | Outcome of Board Meeting | 5 | ok | https://nsearchives.nseindia.com/corporate/Biocon2_23042025201033_SE.pdf |
+| 2025-05-08 | Outcome of Board Meeting | 28 | ok | https://nsearchives.nseindia.com/corporate/BIOCON_08052025194232_OutcomeofBM08052025.pdf |
+| 2025-05-08 | Outcome of Board Meeting | 28 | ok | https://nsearchives.nseindia.com/corporate/BIOCON_08052025195418_OutcomeofBM08052025.pdf |
+| 2025-06-26 | Outcome of Board Meeting | 3 | ok | https://nsearchives.nseindia.com/corporate/Biocon2_26062025195856_SEintimationBM26062025.pdf |
+| 2025-07-09 | Outcome of Board Meeting | 2 | ok | https://nsearchives.nseindia.com/corporate/Biocon2_09072025200504_SEIntimationonCSappoitment.pdf |
+| 2025-08-07 | Outcome of Board Meeting | 14 | ok | https://nsearchives.nseindia.com/corporate/Biocon2_07082025202612_OutcomeofBM07082025.pdf |
+| 2025-08-07 | Outcome of Board Meeting | 3 | ok | https://nsearchives.nseindia.com/corporate/Biocon2_07082025204819_SEIntimationAcquisitionFinalProzeal.pdf |
+| 2025-09-09 | Outcome of Board Meeting | 5 | ok | https://nsearchives.nseindia.com/corporate/Biocon2_09092025200708_SE_Intimation_on_CS_appointment.pdf |
+| 2025-10-01 | Outcome of Board Meeting | 1 | ok | https://nsearchives.nseindia.com/corporate/Bioconlimited_01102025200501_NCDEarlyRedemption.pdf |
+| 2025-11-11 | Outcome of Board Meeting | 18 | ok | https://nsearchives.nseindia.com/corporate/Biocon2_11112025202622_Outcome_of_BM11112025.pdf |
+| 2025-11-11 | Outcome of Board Meeting | 18 | ok | https://nsearchives.nseindia.com/corporate/Biocon2_11112025203157_Outcome_of_BM11112025.pdf |
+| 2025-12-06 | Outcome of Board Meeting | 13 | ok | https://nsearchives.nseindia.com/corporate/BIOCON_06122025101327_BM_Outcome06122025.pdf |
+| 2026-02-12 | Outcome of Board Meeting | 17 | ok | https://nsearchives.nseindia.com/corporate/BIOCON_12022026190829_Outcome_of_BM12022026.pdf |
+| 2026-02-12 | Outcome of Board Meeting | 17 | ok | https://nsearchives.nseindia.com/corporate/BIOCON_12022026191251_Outcome_of_BM12022026.pdf |
+| 2026-03-27 | Outcome of Board Meeting | 13 | ok | https://nsearchives.nseindia.com/corporate/BIOCON_27032026115323_Outcome_of_BM27032026.pdf |
+| 2026-03-27 | Outcome of Board Meeting | 13 | ok | https://nsearchives.nseindia.com/corporate/BIOCON_27032026115733_OutcomeofBM27032026.pdf |
+| 2026-03-27 | Outcome of Board Meeting | 13 | ok | https://nsearchives.nseindia.com/corporate/BIOCON_27032026120203_OutcomeofBM27032026.pdf |
+| 2026-03-27 | Outcome of Board Meeting | 13 | ok | https://nsearchives.nseindia.com/corporate/BIOCON_27032026120510_OutcomeofBM27032026.pdf |
+| 2026-05-07 | Outcome of Board Meeting | 50 | ok | https://nsearchives.nseindia.com/corporate/BIOCON_07052026232841_Outcome_of_BM-Final.pdf |
+| 2026-05-07 | Outcome of Board Meeting | 50 | ok | https://nsearchives.nseindia.com/corporate/BIOCON_07052026233320_Outcome_of_BM-Final.pdf |
+| 2026-05-07 | Outcome of Board Meeting | 50 | ok | https://nsearchives.nseindia.com/corporate/BIOCON_07052026233418_Outcome_of_BM-Final.pdf |
+| 2026-05-07 | Outcome of Board Meeting | 50 | ok | https://nsearchives.nseindia.com/corporate/BIOCON_07052026233507_Outcome_of_BM-Final.pdf |
+| 2026-08-05 | Outcome of Board Meeting | 14 | ok | https://nsearchives.nseindia.com/corporate/BIOCON_05082026164940_Outcome_of_BM05082026.pdf |
+| 2026-11-04 | Outcome of Board Meeting (gap manifest label q2fy27-a) | not held | ok | https://nsearchives.nseindia.com/corporate/BIOCON_04112026131527_BMOutcome.pdf |
+| 2026-11-04 | Outcome of Board Meeting (gap manifest label q2fy27-b) | not held | ok | https://nsearchives.nseindia.com/corporate/Bioconlimited_04112026132508_BMOutcome.pdf |
+
+**Caveats**
+
+- Dates run 2022-01-20 to 2026-08-05. The same PDF is often listed more than once, under two feed categories (for example 'Financial Result Updates' and 'Outcome of Board Meeting') or twice under one, so 51 rows are 31 documents.
+- The Sep-2026 quarter (filed 2026-11-04) is not in filings/manifest.csv; its two links (same PDF) come from data/gap-manifest-2026-11-04.json and are listed last.
+
+## L2-26: Which cost or revenue line moved the latest margin (bridge, Q1 FY27 and Q2 FY27 against the year-ago quarters)
+
+**Formula in words.** For each quarter: line as % of revenue from operations now, a year ago and in the prior quarter; the change in points; its effect on the operating margin (minus the change for a cost). The effects add up to the margin change.
+
+**Inputs (held)**
+
+| Input | Period | Value | Unit | Basis | Source file |
+|---|---|---|---|---|---|
+| consolidated statement, quarter ended 30 June 2026 (columns: Jun 2026, Mar 2026, Jun 2025) | file | read | Rs million | consolidated | soic-ladder/docs/idea/case-study/BIOCON/data/excerpts/consolidated-2026-06-30.txt |
+| consolidated statement, quarter ended 30 September 2026 (columns: Sep 2026, Jun 2026 as restated, Sep 2025) | file | read | Rs million | consolidated | soic-ladder/docs/idea/case-study/BIOCON/data/excerpts/consolidated-2026-09-30.txt |
+
+**Computed result, DERIVED**
+
+*Q1 FY27 (quarter ended 30 June 2026): lines as % of revenue from operations (DERIVED)*
+
+| Line | Now, Rs million | Now, % of revenue | Year-ago, Rs million | Year-ago, % of revenue | Change, points | Effect on operating margin, points | Prior quarter, Rs million | Prior quarter, % of revenue | Change on prior quarter, points |
+|---|---|---|---|---|---|---|---|---|---|
+| materials consumed | 14,241 | 32.84 | 12,240 | 31.05 | 1.79 | -1.79 | 13,588 | 30.08 | 2.76 |
+| purchases of stock-in-trade | 3,819 | 8.81 | 8,371 | 21.24 | -12.43 | 12.43 | 2,226 | 4.93 | 3.88 |
+| changes in inventories | -3,384 | -7.80 | -6,560 | -16.64 | 8.84 | -8.84 | -1,821 | -4.03 | -3.77 |
+| materials, net (the three above) | 14,676 | 33.85 | 14,051 | 35.65 | -1.80 | 1.80 | 13,993 | 30.98 | 2.87 |
+| employee benefits | 9,161 | 21.13 | 8,331 | 21.13 | -0.01 | 0.01 | 9,121 | 20.19 | 0.93 |
+| other expenses | 11,067 | 25.52 | 9,722 | 24.66 | 0.86 | -0.86 | 11,977 | 26.52 | -0.99 |
+| recovery from co-development partners (net, printed negative) | -16 | -0.04 | -346 | -0.88 | 0.84 | -0.84 | -128 | -0.28 | 0.25 |
+| operating margin before other income (revenue less the cost lines above) | 8,472 | 19.54 | 7,661 | 19.43 | 0.10 | (the sum of the effects above) | 10,203 | 22.59 | -3.05 |
+| below the margin: other income | 545 | 1.26 | 797 | 2.02 | -0.76 | n/a (not in the operating margin) | 525 | 1.16 | 0.09 |
+| below the margin: finance costs | 2,132 | 4.92 | 2,767 | 7.02 | -2.10 | n/a (not in the operating margin) | 2,315 | 5.13 | -0.21 |
+| below the margin: depreciation and amortisation | 5,474 | 12.62 | 4,550 | 11.54 | 1.08 | n/a (not in the operating margin) | 5,134 | 11.37 | 1.26 |
+| below the margin: exceptional items (net, printed) | -135 | -0.31 | -172 | -0.44 | 0.12 | n/a (not in the operating margin) | -804 | -1.78 | 1.47 |
+| revenue from operations (Rs million) | 43,360 | 100.00 | 39,419 | 100.00 | revenue 10.00% year on year |  | 45,166 | 100.00 | revenue -4.00% on the prior quarter |
+
+*Q2 FY27 (quarter ended 30 September 2026): lines as % of revenue from operations (DERIVED)*
+
+| Line | Now, Rs million | Now, % of revenue | Year-ago, Rs million | Year-ago, % of revenue | Change, points | Effect on operating margin, points | Prior quarter, Rs million | Prior quarter, % of revenue | Change on prior quarter, points |
+|---|---|---|---|---|---|---|---|---|---|
+| materials consumed | 16,690 | 38.03 | 13,675 | 31.84 | 6.19 | -6.19 | 14,241 | 32.84 | 5.18 |
+| purchases of stock-in-trade | 3,112 | 7.09 | 1,350 | 3.14 | 3.95 | -3.95 | 3,819 | 8.81 | -1.72 |
+| changes in inventories | -4,588 | -10.45 | 445 | 1.04 | -11.49 | 11.49 | -3,384 | -7.80 | -2.65 |
+| materials, net (the three above) | 15,214 | 34.66 | 15,470 | 36.01 | -1.35 | 1.35 | 14,676 | 33.85 | 0.82 |
+| employee benefits | 8,919 | 20.32 | 8,982 | 20.91 | -0.59 | 0.59 | 9,281 | 21.40 | -1.08 |
+| other expenses | 11,892 | 27.10 | 10,281 | 23.93 | 3.16 | -3.16 | 10,947 | 25.25 | 1.85 |
+| recovery from co-development partners (net, printed negative) | -445 | -1.01 | -132 | -0.31 | -0.71 | 0.71 | -16 | -0.04 | -0.98 |
+| operating margin before other income (revenue less the cost lines above) | 8,309 | 18.93 | 8,354 | 19.45 | -0.52 | (the sum of the effects above) | 8,472 | 19.54 | -0.61 |
+| below the margin: other income | 345 | 0.79 | 930 | 2.17 | -1.38 | n/a (not in the operating margin) | 545 | 1.26 | -0.47 |
+| below the margin: finance costs | 2,401 | 5.47 | 2,722 | 6.34 | -0.87 | n/a (not in the operating margin) | 2,132 | 4.92 | 0.55 |
+| below the margin: depreciation and amortisation | 5,638 | 12.85 | 4,730 | 11.01 | 1.83 | n/a (not in the operating margin) | 5,474 | 12.62 | 0.22 |
+| below the margin: exceptional items (net, printed) | -67 | -0.15 | -119 | -0.28 | 0.12 | n/a (not in the operating margin) | -135 | -0.31 | 0.16 |
+| revenue from operations (Rs million) | 43,889 | 100.00 | 42,955 | 100.00 | revenue 2.17% year on year |  | 43,360 | 100.00 | revenue 1.22% on the prior quarter |
+
+**Caveats**
+
+- The operating margin here is revenue from operations less materials (consumed, purchased, change in stock), employee benefits and other expenses, plus the recovery from co-development partners; other income, finance costs and depreciation sit below it. It is this table's own definition, not the company's EBITDA, which includes other income (derived metric ebitda_company_basis).
+- Each quarter uses its own filing's columns. The Sep-2026 filing restates the Jun-2026 quarter (employee benefits 9,281 against 9,161 filed in June; other expenses 10,947 against 11,067), a 120 shift between the two lines with no change in the total; the Jun-2025 quarter is shown as the June filing printed it because the September filing holds no restated Jun-2025 column. The FY26 column in the Sep filing is restated the same way (employee 35,521 against 35,080).
+- A change in a line's share of revenue is a fact about the filing; it is not a cause. A date match between a line and a call sentence is not a cause either.
+
+## L3-28: Cause of the latest margin change and the line showing it
+
+**Formula in words.** Take the cost line whose share of revenue moved most year on year (from the L2-26 bridge); show employee plus other expenses beside it; quote management's own sentences and the FY26 annual-report paragraph unchanged.
+
+**Inputs (held)**
+
+| Input | Period | Value | Unit | Basis | Source file |
+|---|---|---|---|---|---|
+| consolidated statement, quarter ended 30 June 2026 (columns: Jun 2026, Mar 2026, Jun 2025) | file | read | Rs million | consolidated | soic-ladder/docs/idea/case-study/BIOCON/data/excerpts/consolidated-2026-06-30.txt |
+| consolidated statement, quarter ended 30 September 2026 (columns: Sep 2026, Jun 2026 as restated, Sep 2025) | file | read | Rs million | consolidated | soic-ladder/docs/idea/case-study/BIOCON/data/excerpts/consolidated-2026-09-30.txt |
+
+**Computed result, DERIVED**
+
+*Largest-moving cost line, year on year (DERIVED)*
+
+| Quarter | Line | Change in % of revenue, points | Effect on operating margin, points | Employee + other expenses, change in Rs million % | Employee + other expenses, change in % of revenue, points | Operating margin before other income, change in points |
+|---|---|---|---|---|---|---|
+| Q1 FY27 (quarter ended 30 June 2026) | materials, net (the three above) | -1.80 | 1.80 | 12.05 | 0.85 | 0.10 |
+| Q2 FY27 (quarter ended 30 September 2026) | other expenses | 3.16 | -3.16 | 8.04 | 2.57 | -0.52 |
+
+*Management's words (call 2026-08-06, Q1 FY27) and the FY26 annual report; sentences copied unchanged, checked to be in the file*
+
+| Sentence | Check |
+|---|---|
+| And I think you should note the work that we have done on opex across all three companies from quarter four to quarter one and even year-on-year, you will see a significant drop in the operating expenses. | verbatim in soic-ladder/docs/idea/case-study/BIOCON/data/management-text/call-2026-08-06.md |
+| We focused on getting cost out of the system that's helped as well and operating leverage has started to play. | verbatim in soic-ladder/docs/idea/case-study/BIOCON/data/management-text/call-2026-08-06.md |
+| The improvement was driven by a favorable revenue mix and operating leverage benefits. | verbatim in soic-ladder/docs/idea/case-study/BIOCON/annual-report/FY26/p067.md |
+
+**Caveats**
+
+- The Q2 FY27 call (after the 2026-11-04 filing) is not held: no management words about the Sep-2026 quarter are on file, so that quarter's cause is the filed lines alone.
+- The FY26 annual-report paragraph (p067) says margins expanded by about 200 basis points to 22% on a like-to-like basis ('lower 13% on a reported basis'); the reported margin on total income fell from 26.56% (FY25) to 21.99% (FY26) in the held derived metric. It is a full-year paragraph, not the latest quarter's.
+- The call sentences are management's explanation, not a verified cause. The CFO's 'opex ... even year-on-year' sentence does not define 'operating expenses'; the two lines shown here (employee, other expenses) are not a test of it.
+
+## L2-57: ROE before exceptional items and on tangible equity; buyback
+
+**Formula in words.** ROE (owners) = profit to owners / average of opening and closing equity attributable to owners, x 100, on the deck's reported net profit and on its net profit before exceptional items (Rs crore x 10 = Rs million). ROE (tangible) = profit for the year (all holders) / tangible total equity (total equity less goodwill and intangibles), closing and average, n/m where the base is zero or negative.
+
+**Inputs (held)**
+
+| Input | Period | Value | Unit | Basis | Source file |
+|---|---|---|---|---|---|
+| Net Profit (Before exceptional items), deck | FY22 | 722 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| Net Profit (Before exceptional items), deck | FY23 | 787 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| Net Profit (Before exceptional items), deck | FY24 | 1,030 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| Net Profit (Before exceptional items), deck | FY25 | 981 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| Net Profit (Before exceptional items), deck | FY26 | 436 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| Net Profit (Reported), deck | FY22 | 648 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| Net Profit (Reported), deck | FY23 | 463 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| Net Profit (Reported), deck | FY24 | 1,022 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| Net Profit (Reported), deck | FY25 | 1,013 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| Net Profit (Reported), deck | FY26 | 386 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| bs.equity_attributable_to_owners | FY21 | 76,269 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.equity_attributable_to_owners, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.equity_attributable_to_owners | FY22 | 84,325 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.equity_attributable_to_owners, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.equity_attributable_to_owners | FY23 | 178,669 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.equity_attributable_to_owners, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.equity_attributable_to_owners | FY24 | 197,837 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.equity_attributable_to_owners, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.equity_attributable_to_owners | FY25 | 216,440 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.equity_attributable_to_owners, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.equity_attributable_to_owners | FY26 | 340,318 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.equity_attributable_to_owners, filed; AR pdf p264, p308, p346, p348, p362) |
+| tangible_total_equity | FY21 | 73,076 | Rs million | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=tangible_total_equity; derived, held) |
+| tangible_total_equity | FY22 | 81,549 | Rs million | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=tangible_total_equity; derived, held) |
+| tangible_total_equity | FY23 | -41,733 | Rs million | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=tangible_total_equity; derived, held) |
+| tangible_total_equity | FY24 | -13,843 | Rs million | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=tangible_total_equity; derived, held) |
+| tangible_total_equity | FY25 | 6,549 | Rs million | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=tangible_total_equity; derived, held) |
+| tangible_total_equity | FY26 | 78,124 | Rs million | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=tangible_total_equity; derived, held) |
+| bs.total_equity | FY21 | 85,076 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.total_equity, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.total_equity | FY22 | 94,700 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.total_equity, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.total_equity | FY23 | 224,888 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.total_equity, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.total_equity | FY24 | 252,748 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.total_equity, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.total_equity | FY25 | 277,125 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.total_equity, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.total_equity | FY26 | 366,215 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.total_equity, filed; AR pdf p264, p308, p346, p348, p362) |
+| pl.profit_for_the_year | FY21 | 8,462 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.profit_for_the_year, filed; AR pdf p265, p309, p347, p349, p363) |
+| pl.profit_for_the_year | FY22 | 7,716 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.profit_for_the_year, filed; AR pdf p265, p309, p347, p349, p363) |
+| pl.profit_for_the_year | FY23 | 6,430 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.profit_for_the_year, filed; AR pdf p265, p309, p347, p349, p363) |
+| pl.profit_for_the_year | FY24 | 12,978 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.profit_for_the_year, filed; AR pdf p265, p309, p347, p349, p363) |
+| pl.profit_for_the_year | FY25 | 14,294 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.profit_for_the_year, filed; AR pdf p265, p309, p347, p349, p363) |
+| pl.profit_for_the_year | FY26 | 3,688 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.profit_for_the_year, filed; AR pdf p265, p309, p347, p349, p363) |
+| goodwill_share_of_total_equity | FY21 | 0.31 | % | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=goodwill_share_of_total_equity; derived, held) |
+| goodwill_share_of_total_equity | FY22 | 0.28 | % | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=goodwill_share_of_total_equity; derived, held) |
+| goodwill_share_of_total_equity | FY23 | 71.75 | % | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=goodwill_share_of_total_equity; derived, held) |
+| goodwill_share_of_total_equity | FY24 | 64.78 | % | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=goodwill_share_of_total_equity; derived, held) |
+| goodwill_share_of_total_equity | FY25 | 60.57 | % | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=goodwill_share_of_total_equity; derived, held) |
+| goodwill_share_of_total_equity | FY26 | 50.18 | % | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=goodwill_share_of_total_equity; derived, held) |
+| cf.proceeds_from_share_issue | FY21 | 407 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (cf.proceeds_from_share_issue, filed; AR pdf p267, p311, p349, p351, p366) |
+| cf.proceeds_from_share_issue | FY22 | 428 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (cf.proceeds_from_share_issue, filed; AR pdf p267, p311, p349, p351, p366) |
+| cf.proceeds_from_share_issue | FY23 | 12,368 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (cf.proceeds_from_share_issue, filed; AR pdf p267, p311, p349, p351, p366) |
+| cf.proceeds_from_share_issue | FY24 | 307 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (cf.proceeds_from_share_issue, filed; AR pdf p267, p311, p349, p351, p366) |
+| cf.proceeds_from_share_issue | FY25 | 99 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (cf.proceeds_from_share_issue, filed; AR pdf p267, p311, p349, p351, p366) |
+| cf.proceeds_from_share_issue | FY26 | 85,311 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (cf.proceeds_from_share_issue, filed; AR pdf p267, p311, p349, p351, p366) |
+
+**Computed result, DERIVED**
+
+*ROE on owners' equity, reported and before exceptional items (DERIVED)*
+
+| Year | Reported profit, Rs crore (deck) | Before exceptional items, Rs crore (deck) | Average owners' equity, Rs million | ROE reported % | ROE before exceptional items % | Difference, points |
+|---|---|---|---|---|---|---|
+| FY22 | 648 | 722 | 80,297 | 8.07 | 8.99 | 0.92 |
+| FY23 | 463 | 787 | 131,497 | 3.52 | 5.98 | 2.46 |
+| FY24 | 1,022 | 1,030 | 188,253 | 5.43 | 5.47 | 0.04 |
+| FY25 | 1,013 | 981 | 207,138 | 4.89 | 4.74 | -0.15 |
+| FY26 | 386 | 436 | 278,379 | 1.39 | 1.57 | 0.18 |
+
+*ROE on tangible total equity (DERIVED)*
+
+| Year | Profit for the year, Rs million | Tangible total equity, Rs million (closing) | Tangible equity as % of total equity | Average tangible equity, Rs million | ROE on closing tangible equity % | ROE on average tangible equity % (only where opening and closing are both positive) | Goodwill % of total equity (held) | Share-issue proceeds, Rs million (held) |
+|---|---|---|---|---|---|---|---|---|
+| FY22 | 7,716 | 81,549 | 86.11 | 77,312 | 9.46 | 9.98 | 0.28 | 428 |
+| FY23 | 6,430 | -41,733 | -18.56 | 19,908 | n/m (base <= 0) | n/m (opening or closing base <= 0) | 71.75 | 12,368 |
+| FY24 | 12,978 | -13,843 | -5.48 | -27,788 | n/m (base <= 0) | n/m (opening or closing base <= 0) | 64.78 | 307 |
+| FY25 | 14,294 | 6,549 | 2.36 | -3,647 | 218.26 | n/m (opening or closing base <= 0) | 60.57 | 99 |
+| FY26 | 3,688 | 78,124 | 21.33 | 42,336 | 4.72 | 8.71 | 50.18 | 85,311 |
+
+*Buyback: what the held pages say (secretarial auditor's list of regulations)*
+
+| Year | Sentence | Check |
+|---|---|---|
+| FY22 | The Securities and Exchange Board of India (Buyback of Securities) Regulations, 2018 (Not Applicable to the Company during the Audit Period) | verbatim in soic-ladder/docs/idea/case-study/BIOCON/annual-report/FY22/p127.md |
+| FY23 | The Securities and Exchange Board of India (Buyback of Securities) Regulations, 2018 (Not Applicable to the Company during the Audit Period) | verbatim in soic-ladder/docs/idea/case-study/BIOCON/annual-report/FY23/p207.md |
+| FY24 | The Securities and Exchange Board of India (Buyback of Securities) Regulations, 2018 (Not Applicable to the Company during the Audit Period) | verbatim in soic-ladder/docs/idea/case-study/BIOCON/annual-report/FY24/p178.md |
+| FY25 | The Securities and Exchange Board of India (Buy-Back of Securities) Regulations, 2018 (Not Applicable to the Company during the Audit Period) | verbatim in soic-ladder/docs/idea/case-study/BIOCON/annual-report/FY25/p211.md |
+| FY26 | The Securities and Exchange Board of India (Buy-Back of Securities) Regulations, 2018 (Not Applicable to the Company during the Audit Period) | verbatim in soic-ladder/docs/idea/case-study/BIOCON/annual-report/FY26/p212.md |
+
+**Caveats**
+
+- A return over a base that is a few per cent of total equity is not a return a reader can use: FY25's closing-base figure (218%) divides by a tangible equity of 6,549, which the 'tangible equity as % of total equity' column shows is about 2% of total equity.
+- Goodwill is about 72% of total equity in FY23 against 0.3% in FY22 (held metric), so tangible equity is negative in FY23 and FY24 and the tangible ROE is n/m there; the held files do not say what caused the jump.
+- No buyback payment line is in the held cash-flow table (only share-issue proceeds); the secretarial auditor lists the SEBI buyback regulations as 'Not Applicable to the Company during the Audit Period' in each year FY22 to FY26. That is the auditor's list, not a cash-flow check; a line missing from a table of selected lines is not proof of none.
+- The deck's exceptional items (net of tax and NCI) were charges in FY22, FY23, FY24 and FY26 and a gain in FY25, so the before-exceptional ROE sits above the reported one in FY22, FY23, FY24 and FY26 and below it in FY25. Profit for the year is before NCI and tangible equity includes NCI's share, so the two tangible bases match each other and not the owners' basis above.
+
+## L3-22: Adjusted PAT and adjusted growth
+
+**Formula in words.** Adjusted PAT (after tax and non-controlling interest) = the deck's printed 'Net Profit (Before exceptional items)', Rs crore. Growth = this year / last year - 1. The bar is the rulebook's PAT growth rule, shown as a comparison only. Tie-out: before-exceptional + exceptional (net of tax and NCI) - reported should be 0, and reported should match the annual report's profit to owners / 10.
+
+**Inputs (held)**
+
+| Input | Period | Value | Unit | Basis | Source file |
+|---|---|---|---|---|---|
+| Net Profit (Before exceptional items), deck | FY22 | 722 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| Net Profit (Before exceptional items), deck | FY23 | 787 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| Net Profit (Before exceptional items), deck | FY24 | 1,030 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| Net Profit (Before exceptional items), deck | FY25 | 981 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| Net Profit (Before exceptional items), deck | FY26 | 436 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| Exceptional item, net of tax & NCI, deck | FY22 | -74 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| Exceptional item, net of tax & NCI, deck | FY23 | -324 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| Exceptional item, net of tax & NCI, deck | FY24 | -8 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| Exceptional item, net of tax & NCI, deck | FY25 | 32 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| Exceptional item, net of tax & NCI, deck | FY26 | -50 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| Net Profit (Reported), deck | FY22 | 648 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| Net Profit (Reported), deck | FY23 | 463 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| Net Profit (Reported), deck | FY24 | 1,022 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| Net Profit (Reported), deck | FY25 | 1,013 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| Net Profit (Reported), deck | FY26 | 386 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| pl.profit_attributable_to_owners | FY21 | 7,405 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.profit_attributable_to_owners, filed; AR pdf p265, p309, p347, p349, p363) |
+| pl.profit_attributable_to_owners | FY22 | 6,484 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.profit_attributable_to_owners, filed; AR pdf p265, p309, p347, p349, p363) |
+| pl.profit_attributable_to_owners | FY23 | 4,627 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.profit_attributable_to_owners, filed; AR pdf p265, p309, p347, p349, p363) |
+| pl.profit_attributable_to_owners | FY24 | 10,225 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.profit_attributable_to_owners, filed; AR pdf p265, p309, p347, p349, p363) |
+| pl.profit_attributable_to_owners | FY25 | 10,133 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.profit_attributable_to_owners, filed; AR pdf p265, p309, p347, p349, p363) |
+| pl.profit_attributable_to_owners | FY26 | 3,856 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.profit_attributable_to_owners, filed; AR pdf p265, p309, p347, p349, p363) |
+| bar >= 20 | bar | 20 | % | n/a | soic-ladder/rulebook/soic-ladder-rules-v1.yaml (rules[id=canslim_pat-001].check_rule) |
+
+**Computed result, DERIVED**
+
+*Adjusted PAT, growth and tie-out (DERIVED)*
+
+| Year | Adjusted PAT, Rs crore | Adjusted growth % | vs rulebook PAT-growth bar (key rules[id=canslim_pat-001].check_rule) | Reported, Rs crore (deck) | Reported growth % | Tie-out: before + exceptional - reported | Annual report profit to owners / 10, Rs crore |
+|---|---|---|---|---|---|---|---|
+| FY22 | 722 | not held | not held | 648 | not held | 0 | 648.4 |
+| FY23 | 787 | 9.00 | below 20 | 463 | -28.55 | 0 | 462.7 |
+| FY24 | 1,030 | 30.88 | at or above 20 | 1,022 | 120.73 | 0 | 1,022.5 |
+| FY25 | 981 | -4.76 | below 20 | 1,013 | -0.88 | 0 | 1,013.3 |
+| FY26 | 436 | -55.56 | below 20 | 386 | -61.90 | 0 | 385.6 |
+
+**Caveats**
+
+- The after-tax adjusted figure is the deck's own printed line: the exceptional line is printed net of tax and NCI, so no tax rate is assumed here. The deck rounds to the crore, so the tie-out can be off by 1.
+- FY22 growth is 'not held': the deck starts at FY22 and no FY21 adjusted figure is on file. The bar is for PAT growth year on year; reading the comparison is not a verdict on the company.
+
+## L7-14: Which EPS for the P/E: reported against before exceptional items
+
+**Formula in words.** EPS before exceptional items = reported basic EPS x (deck net profit before exceptional items / deck net profit reported). P/E = the last weekly close on or before 31 March / EPS, on the reported and on the adjusted EPS.
+
+**Inputs (held)**
+
+| Input | Period | Value | Unit | Basis | Source file |
+|---|---|---|---|---|---|
+| pl.eps_basic | FY21 | 6.24 | Rs | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.eps_basic, filed; AR pdf p316, p347, p349, p352, p363) |
+| pl.eps_basic | FY22 | 5.44 | Rs | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.eps_basic, filed; AR pdf p316, p347, p349, p352, p363) |
+| pl.eps_basic | FY23 | 3.88 | Rs | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.eps_basic, filed; AR pdf p316, p347, p349, p352, p363) |
+| pl.eps_basic | FY24 | 8.55 | Rs | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.eps_basic, filed; AR pdf p316, p347, p349, p352, p363) |
+| pl.eps_basic | FY25 | 8.46 | Rs | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.eps_basic, filed; AR pdf p316, p347, p349, p352, p363) |
+| pl.eps_basic | FY26 | 2.82 | Rs | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.eps_basic, filed; AR pdf p316, p347, p349, p352, p363) |
+| eps_basic_current_share_basis | FY22 | 5.44 | Rs | consolidated | roast-room/docs/company-record/biocon/ten-year-inputs-FY16-FY26.csv (line=eps_basic_current_share_basis) |
+| eps_basic_current_share_basis | FY23 | 3.88 | Rs | consolidated | roast-room/docs/company-record/biocon/ten-year-inputs-FY16-FY26.csv (line=eps_basic_current_share_basis) |
+| eps_basic_current_share_basis | FY24 | 8.55 | Rs | consolidated | roast-room/docs/company-record/biocon/ten-year-inputs-FY16-FY26.csv (line=eps_basic_current_share_basis) |
+| eps_basic_current_share_basis | FY25 | 8.46 | Rs | consolidated | roast-room/docs/company-record/biocon/ten-year-inputs-FY16-FY26.csv (line=eps_basic_current_share_basis) |
+| eps_basic_current_share_basis | FY26 | 2.82 | Rs | consolidated | roast-room/docs/company-record/biocon/ten-year-inputs-FY16-FY26.csv (line=eps_basic_current_share_basis) |
+| close_on_or_before_31_march | FY21 | 395.25 | Rs | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=close_on_or_before_31_march; derived, held) |
+| close_on_or_before_31_march | FY22 | 348.90 | Rs | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=close_on_or_before_31_march; derived, held) |
+| close_on_or_before_31_march | FY23 | 206.35 | Rs | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=close_on_or_before_31_march; derived, held) |
+| close_on_or_before_31_march | FY24 | 264.15 | Rs | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=close_on_or_before_31_march; derived, held) |
+| close_on_or_before_31_march | FY25 | 341.70 | Rs | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=close_on_or_before_31_march; derived, held) |
+| close_on_or_before_31_march | FY26 | 370.10 | Rs | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=close_on_or_before_31_march; derived, held) |
+| Net Profit (Before exceptional items), deck | FY22 | 722 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| Net Profit (Before exceptional items), deck | FY23 | 787 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| Net Profit (Before exceptional items), deck | FY24 | 1,030 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| Net Profit (Before exceptional items), deck | FY25 | 981 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| Net Profit (Before exceptional items), deck | FY26 | 436 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| Net Profit (Reported), deck | FY22 | 648 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| Net Profit (Reported), deck | FY23 | 463 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| Net Profit (Reported), deck | FY24 | 1,022 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| Net Profit (Reported), deck | FY25 | 1,013 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+| Net Profit (Reported), deck | FY26 | 386 | Rs crore | consolidated, company-printed | soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2026-06-01_BIOCON_01062026083128_IR_Presentation/p029.txt (financial-highlights slide) |
+
+**Computed result, DERIVED**
+
+*Reported and adjusted EPS and P/E (DERIVED)*
+
+| Year | Reported basic EPS, Rs | Deck ratio before / reported | EPS before exceptional items, Rs (derived) | P/E on reported EPS | P/E on adjusted EPS | Reported EPS on the current share basis, Rs (held, for reference) |
+|---|---|---|---|---|---|---|
+| FY22 | 5.44 | 1.114 | 6.06 | 64.14 | 57.56 | 5.44 |
+| FY23 | 3.88 | 1.700 | 6.60 | 53.18 | 31.29 | 3.88 |
+| FY24 | 8.55 | 1.008 | 8.62 | 30.89 | 30.65 | 8.55 |
+| FY25 | 8.46 | 0.968 | 8.19 | 40.39 | 41.71 | 8.46 |
+| FY26 | 2.82 | 1.130 | 3.19 | 131.24 | 116.19 | 2.82 |
+
+**Caveats**
+
+- No filing or deck prints EPS before exceptional items; this one is derived and rests on the deck's rounded crore figures (a ratio of two numbers each rounded to the crore).
+- The scaling treats the exceptional item as spread over the same share count, which is true of basic EPS. Which EPS suits a P/E is the reader's choice; both are shown.
+
+## L4-13: Group chart with percentages through each layer (Biocon Limited at the top)
+
+**Formula in words.** Parent of each subsidiary from the related-party note (standalone statements, p319-p320); group holding % and NCI % from note 39 (consolidated, p410-p411). Layer 1 = held directly by Biocon Limited. Product = the holding % along the chain, where 'wholly-owned subsidiary of X' is 100% of X and a direct link carries the printed group %; it is compared with the printed group %.
+
+**Inputs (held)**
+
+| Input | Period | Value | Unit | Basis | Source file |
+|---|---|---|---|---|---|
+| note 39(a) subsidiaries (FY26) | rows | 39 | entities | consolidated | soic-ladder/docs/idea/case-study/BIOCON/annual-report/FY26/p410.md, p411.md |
+| related-party note subsidiary list | rows | 39 | entities | standalone note | soic-ladder/docs/idea/case-study/BIOCON/annual-report/FY26/p319.md, p320.md |
+
+**Computed result, DERIVED**
+
+*Chart (layer, printed group %, chain product, tie, NCI %) (DERIVED)*
+
+| Entity (indent = layer below its parent) | Layer | Group % printed (note 39) | Product along the chain % | Check | NCI % printed |
+|---|---|---|---|---|---|
+| Biocon Academy | 1 | 100.0 | 100.0 | ties | nil (printed '-') |
+| Biocon Biologics Limited | 1 | 98.7 | 98.7 | ties | 1.3 |
+| -- Biocon Biologics (Thailand) Co. Ltd | 2 | 98.7 | 98.7 | ties | 1.3 |
+| -- Biocon Biologics Belgium BV | 2 | 98.7 | 98.7 | ties | 1.3 |
+| -- Biocon Biologics Croatia LLC | 2 | 98.7 | 98.7 | ties | 1.3 |
+| -- Biocon Biologics Finland OY | 2 | 98.7 | 98.7 | ties | 1.3 |
+| -- Biocon Biologics France S.A.S | 2 | 98.7 | 98.7 | ties | 1.3 |
+| -- Biocon Biologics Global PLC | 2 | 98.7 | 98.7 | ties | 1.3 |
+| -- Biocon Biologics Greece SINGLE MEMBER P.C | 2 | 98.7 | 98.7 | ties | 1.3 |
+| -- Biocon Biologics International Limited | 2 | 98.7 | 98.7 | ties | 1.3 |
+| -- -- Biocon Biologics Canada Inc. | 3 | 98.7 | 98.7 | ties | 1.3 |
+| -- -- Biocon Biologics FZ–LLC | 3 | 98.7 | 98.7 | ties | 1.3 |
+| -- -- Biocon Biologics Germany GmbH | 3 | 98.7 | 98.7 | ties | 1.3 |
+| -- -- Biocon Biologics Healthcare Malaysia SDN. BHD | 3 | 98.7 | 98.7 | ties | 1.3 |
+| -- -- Biocon Biologics Inc. | 3 | 98.7 | 98.7 | ties | 1.3 |
+| -- -- Biocon Biologics Ireland Limited | 3 | 98.7 | 98.7 | ties | 1.3 |
+| -- -- Biocon Biologics do Brasil Ltda. | 3 | 98.7 | 98.7 | ties | 1.3 |
+| -- -- Biocon Sdn Bhd | 3 | 98.7 | 98.7 | ties | 1.3 |
+| -- Biocon Biologics Italy S.R.L | 2 | 98.7 | 98.7 | ties | 1.3 |
+| -- Biocon Biologics Morocco S.A.R.L.A.U | 2 | 98.7 | 98.7 | ties | 1.3 |
+| -- Biocon Biologics Philippines Inc | 2 | 98.7 | 98.7 | ties | 1.3 |
+| -- Biocon Biologics South Africa (PTY) Ltd | 2 | 98.7 | 98.7 | ties | 1.3 |
+| -- Biocon Biologics Spain, S.L. | 2 | 98.7 | 98.7 | ties | 1.3 |
+| -- Biocon Biologics Switzerland AG | 2 | 98.7 | 98.7 | ties | 1.3 |
+| -- Biocon Biologics UK PLC | 2 | 98.7 | 98.7 | ties | 1.3 |
+| Biocon Biosphere Limited | 1 | 100.0 | 100.0 | ties | nil (printed '-') |
+| Biocon FZ LLC. | 1 | 100.0 | 100.0 | ties | nil (printed '-') |
+| Biocon SA | 1 | 100.0 | 100.0 | ties | nil (printed '-') |
+| Syngene International Limited | 1 | 52.4 | 52.4 | ties | 47.6 |
+| -- Syngene Manufacturing Solutions Limited | 2 | 52.4 | 52.4 | ties | 47.6 |
+| -- Syngene Scientific Solutions Limited | 2 | 52.4 | 52.4 | ties | 47.6 |
+| -- Syngene USA Inc. | 2 | 52.4 | 52.4 | ties | 47.6 |
+
+*Count of entities by layer (DERIVED)*
+
+| Layer | Entities |
+|---|---|
+| 1 | 6 |
+| 2 | 19 |
+| 3 | 13 |
+
+*Where the board report names a different parent from the related-party note (13 entities; parent words as printed)*
+
+| Entity | Parent in the related-party note | Parent named in the board report |
+|---|---|---|
+| Biocon Biologics (Thailand) Co. Ltd | Biocon Biologics Limited | BBIL |
+| Biocon Biologics Belgium BV | Biocon Biologics Limited | BBIL |
+| Biocon Biologics Croatia LLC | Biocon Biologics Limited | BBIL |
+| Biocon Biologics Finland OY | Biocon Biologics Limited | BBIL |
+| Biocon Biologics France S.A.S | Biocon Biologics Limited | BBIL |
+| Biocon Biologics Greece SINGLE MEMBER P.C | Biocon Biologics Limited | BBIL |
+| Biocon Biologics Italy S.R.L | Biocon Biologics Limited | BBIL |
+| Biocon Biologics Morocco S.A.R.L.A.U | Biocon Biologics Limited | BBIL |
+| Biocon Biologics Philippines Inc | Biocon Biologics Limited | BBIL |
+| Biocon Biologics South Africa (PTY) Ltd | Biocon Biologics Limited | BBIL |
+| Biocon Biologics Spain, S.L. | Biocon Biologics Limited | BBIL |
+| Biocon Biologics Switzerland AG | Biocon Biologics Limited | BBIL |
+| Biocon Pharma UK Limited | Biocon Pharma Limited | the Company with its |
+
+**Caveats**
+
+- 38 of 39 note-39 entities are placed; 0 related-party name(s) unplaced: none. Names were matched by exact name or 'formerly known as' alias, else the closest name at 0.9 or better.
+- Form AOC-1 (the holding column the row names) is named on p191 of the FY26 pages held; pages carrying a '% of shareholding' column: none. So the holding % here is note 39's, not AOC-1's.
+- The related-party note puts many Biologics subsidiaries under Biocon Biologics Limited where the board report says Biocon Biologics International Limited (see the last table); the percentages are the same either way (all 98.7%) and only the layer differs. The chart follows the related-party note.
+- The related-party list is dated to the standalone statements and uses the older names; the chart does not show any restructuring after 31 March 2026.
+
+## L4-42: Preferential and QIP allottees and the lock-in end date
+
+**Formula in words.** For each equity allotment in the feed: the 90th NSE session after the allotment date, counted on the held bhavcopy calendar. The 90-trading-day term is the one the notices state for the allottees' PRE-preferential holding, counted from the date of trading approval. The date of trading approval is not held, so this is the EARLIEST possible end, not the end.
+
+**Inputs (held)**
+
+| Input | Period | Value | Unit | Basis | Source file |
+|---|---|---|---|---|---|
+| held NSE session calendar (bhavcopy files fetched) | sessions | 329 | dates | n/a | soic-ladder/docs/idea/case-study/BIOCON/data/macro/bhavcopy-manifest.csv (status ok) |
+| held NSE session calendar (bhavcopy files fetched) | first | 2025-08-01 | dates | n/a | soic-ladder/docs/idea/case-study/BIOCON/data/macro/bhavcopy-manifest.csv (status ok) |
+| held NSE session calendar (bhavcopy files fetched) | last | 2026-11-09 | dates | n/a | soic-ladder/docs/idea/case-study/BIOCON/data/macro/bhavcopy-manifest.csv (status ok) |
+
+**Computed result, DERIVED**
+
+*Equity and other issues in the feed, with the earliest possible 90-session date (DERIVED)*
+
+| Allotment / issue date | Feed category | Kind | Feed text (cut) | Earliest possible end of a 90-session lock-in | Calendar held after the date |
+|---|---|---|---|---|---|
+| 2023-02-21 | Allotment of Securities | debt or paper | regarding allotment of 107000 securities pursuant to Non Convertible Securities at its... | n/a (a board outcome, or not an equity allotment) | n/a |
+| 2023-05-19 | Allotment of Securities | debt or paper | regarding allotment of 50000 securities pursuant to Non Convertible Securities at its... | n/a (a board outcome, or not an equity allotment) | n/a |
+| 2025-11-11 | Issue of Securities | debt or paper | about issue of Securities through of Issuance of Commercial Papers | n/a (a board outcome, or not an equity allotment) | n/a |
+| 2025-12-06 | Issue of Securities | debt or paper | about fund raising through issuance of Commercial Papers | n/a (a board outcome, or not an equity allotment) | n/a |
+| 2025-12-06 | Issue of Securities | equity | about issue of Securities on preferential basis | n/a (a board outcome, or not an equity allotment) | n/a |
+| 2025-12-06 | Issue of Securities | type not stated in the feed text | about raising of funds by way of issuance of any instrument or security | n/a (a board outcome, or not an equity allotment) | n/a |
+| 2026-01-05 | Allotment of Securities | equity | regarding allotment of 17,12,79,553 equity shares pursuant to Preferential Issue at its... | 2026-05-11 | 220 sessions held after the date |
+| 2026-01-14 | Allotment of Securities | equity | regarding allotment of 11,26,64,585 securities pursuant to Qualified Institution... | 2026-05-20 | 213 sessions held after the date |
+| 2026-06-29 | Allotment of Securities | equity | regarding allotment of 8786362 securities pursuant to Preferential Issue at its meeting... | 2026-11-02 | 95 sessions held after the date |
+
+*What the held notices say about lock-in (sentences copied unchanged, checked to be in the file)*
+
+| Source file | Sentence | Check |
+|---|---|---|
+| soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2025-12-07_BIOCON_07122025141941_Biocon_EGM_Intimation/p024.txt | The Equity Shares to be issued and allotted shall be subject to lock-in for such period as specified under Chapter V of the SEBI ICDR Regulations. | verbatim in soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2025-12-07_BIOCON_07122025141941_Biocon_EGM_Intimation/p024.txt |
+| soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2025-12-07_BIOCON_07122025141941_Biocon_EGM_Intimation/p024.txt | The entire pre-preferential allotment shareholding, if any, of the Proposed Allottees shall be locked-in from the Relevant Date up to a period of 90 (ninety) trading days from the date of trading approval, as per the SEBI ICDR Regulations. | verbatim in soic-ladder/docs/idea/case-study/BIOCON/data/filings/text/2025-12-07_BIOCON_07122025141941_Biocon_EGM_Intimation/p024.txt |
+
+**Caveats**
+
+- NOT COMPUTABLE as an end date: (1) the lock-in for the NEW shares is stated only as 'such period as specified under Chapter V of the SEBI ICDR Regulations', with no number in any held file, and this file does not supply one from memory; (2) the date of trading approval, the start of the stated 90 sessions, is not held; (3) QIP shares carry no lock-in term in the held notices.
+- Held notices name a lock-in only in the EGM notice of 2025-12-07 (the preferential issue allotted 2026-01-05) and in the postal-ballot notice of 2026-05-09 (p039, the same two sentences; that it is the notice behind the 2026-06-29 allotment is not confirmed in the held files); no QIP document with a lock-in term is held.
+- The 2025-06-19 QIP allotment (97 qualified buyers) is known from the EGM notice text, not from a feed row, and the held calendar starts after it, so no session count is possible for it.
+
+## L4-46: ROE before and two years after each issue
+
+**Formula in words.** Each issue's fiscal year t is read from its date (April to March). ROE at t-1, t and t+2 are held metrics (average-equity ROE / closing-equity ROE); where t+2 is after FY26 the issue has not matured and the cell says so.
+
+**Inputs (held)**
+
+| Input | Period | Value | Unit | Basis | Source file |
+|---|---|---|---|---|---|
+| roe_average_equity | FY21 | not held | % | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=roe_average_equity; derived, held) |
+| roe_average_equity | FY22 | 8.07 | % | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=roe_average_equity; derived, held) |
+| roe_average_equity | FY23 | 3.52 | % | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=roe_average_equity; derived, held) |
+| roe_average_equity | FY24 | 5.43 | % | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=roe_average_equity; derived, held) |
+| roe_average_equity | FY25 | 4.89 | % | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=roe_average_equity; derived, held) |
+| roe_average_equity | FY26 | 1.39 | % | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=roe_average_equity; derived, held) |
+| roe_closing_equity | FY21 | 9.71 | % | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=roe_closing_equity; derived, held) |
+| roe_closing_equity | FY22 | 7.69 | % | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=roe_closing_equity; derived, held) |
+| roe_closing_equity | FY23 | 2.59 | % | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=roe_closing_equity; derived, held) |
+| roe_closing_equity | FY24 | 5.17 | % | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=roe_closing_equity; derived, held) |
+| roe_closing_equity | FY25 | 4.68 | % | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=roe_closing_equity; derived, held) |
+| roe_closing_equity | FY26 | 1.13 | % | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=roe_closing_equity; derived, held) |
+| cf.proceeds_from_share_issue | FY21 | 407 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (cf.proceeds_from_share_issue, filed; AR pdf p267, p311, p349, p351, p366) |
+| cf.proceeds_from_share_issue | FY22 | 428 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (cf.proceeds_from_share_issue, filed; AR pdf p267, p311, p349, p351, p366) |
+| cf.proceeds_from_share_issue | FY23 | 12,368 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (cf.proceeds_from_share_issue, filed; AR pdf p267, p311, p349, p351, p366) |
+| cf.proceeds_from_share_issue | FY24 | 307 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (cf.proceeds_from_share_issue, filed; AR pdf p267, p311, p349, p351, p366) |
+| cf.proceeds_from_share_issue | FY25 | 99 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (cf.proceeds_from_share_issue, filed; AR pdf p267, p311, p349, p351, p366) |
+| cf.proceeds_from_share_issue | FY26 | 85,311 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (cf.proceeds_from_share_issue, filed; AR pdf p267, p311, p349, p351, p366) |
+
+**Computed result, DERIVED**
+
+*Per issue (DERIVED from held ROE; ROE shown as average-equity / closing-equity, %)*
+
+| Date | Issue | Kind | Fiscal year t | ROE t-1 | ROE t | ROE t+2 | Share-issue proceeds in t, Rs million (held) |
+|---|---|---|---|---|---|---|---|
+| 2023-02-21 | Allotment of Securities: regarding allotment of 107000 securities pursuant to Non Convertible Securities... | debt or paper | FY23 | 8.07 / 7.69 | 3.52 / 2.59 | 4.89 / 4.68 | 12,368 |
+| 2023-05-19 | Allotment of Securities: regarding allotment of 50000 securities pursuant to Non Convertible Securities... | debt or paper | FY24 | 3.52 / 2.59 | 5.43 / 5.17 | 1.39 / 1.13 | 307 |
+| 2025-06-19 | QIP allotment to 97 qualified buyers, 13,63,63,635 shares at Rs 330 (EGM notice p024; not a feed row) | equity | FY26 | 4.89 / 4.68 | 1.39 / 1.13 | not matured (FY28 is after FY26) | 85,311 |
+| 2025-11-11 | Issue of Securities: about issue of Securities through of Issuance of Commercial Papers | debt or paper | FY26 | 4.89 / 4.68 | 1.39 / 1.13 | not matured (FY28 is after FY26) | 85,311 |
+| 2025-12-06 | Issue of Securities: about fund raising through issuance of Commercial Papers | debt or paper | FY26 | 4.89 / 4.68 | 1.39 / 1.13 | not matured (FY28 is after FY26) | 85,311 |
+| 2025-12-06 | Issue of Securities: about issue of Securities on preferential basis | equity | FY26 | 4.89 / 4.68 | 1.39 / 1.13 | not matured (FY28 is after FY26) | 85,311 |
+| 2025-12-06 | Issue of Securities: about raising of funds by way of issuance of any instrument or security | type not stated in the feed text | FY26 | 4.89 / 4.68 | 1.39 / 1.13 | not matured (FY28 is after FY26) | 85,311 |
+| 2026-01-05 | Allotment of Securities: regarding allotment of 17,12,79,553 equity shares pursuant to Preferential... | equity | FY26 | 4.89 / 4.68 | 1.39 / 1.13 | not matured (FY28 is after FY26) | 85,311 |
+| 2026-01-14 | Allotment of Securities: regarding allotment of 11,26,64,585 securities pursuant to Qualified... | equity | FY26 | 4.89 / 4.68 | 1.39 / 1.13 | not matured (FY28 is after FY26) | 85,311 |
+| 2026-06-29 | Allotment of Securities: regarding allotment of 8786362 securities pursuant to Preferential Issue at its... | equity | FY27 | 1.39 / 1.13 | not held / not held | not matured (FY29 is after FY26) | not held |
+
+**Caveats**
+
+- ROE FY21 is held on closing equity only (no FY20 balance), so an average-equity ROE at FY21 prints 'not held'.
+- The two 2023 rows are debt allotments (non-convertible securities), shown because the feed lists them under 'Allotment of Securities'; an equity issue changes the denominator of ROE, a debt issue does not, so only the equity rows speak to the question.
+- The FY26 issues are the three equity events of 2025-26 (QIP June 2025, preferential January 2026 to Mylan, QIP January 2026); the June 2026 preferential falls in FY27, whose ROE is not held. ROE after an issue is a date-ordered fact; it is not shown to be caused by the issue.
+- Share-issue proceeds in FY23 (12,368) are a subsidiary's issue to outside holders, per the L7-47 note, not the company's own.
+
+## L5-63: Retained earnings against the change in market value over rolling five years
+
+**Formula in words.** Only one five-year window can be formed from the held market caps (FY21 to FY26); the one-year steps are shown too. Retained earnings are not a held line, so the change in other equity (reserves) stands in and is labelled as such. Ratio = change in market cap / change in other equity.
+
+**Inputs (held)**
+
+| Input | Period | Value | Unit | Basis | Source file |
+|---|---|---|---|---|---|
+| market_cap | FY21 | 474,524.33 | Rs million | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=market_cap; derived, held) |
+| market_cap | FY22 | 418,878.02 | Rs million | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=market_cap; derived, held) |
+| market_cap | FY23 | 247,737.13 | Rs million | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=market_cap; derived, held) |
+| market_cap | FY24 | 317,129.92 | Rs million | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=market_cap; derived, held) |
+| market_cap | FY25 | 410,233.95 | Rs million | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=market_cap; derived, held) |
+| market_cap | FY26 | 599,959.37 | Rs million | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=market_cap; derived, held) |
+| bs.other_equity | FY21 | 70,269 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.other_equity, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.other_equity | FY22 | 78,322 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.other_equity, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.other_equity | FY23 | 172,666 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.other_equity, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.other_equity | FY24 | 191,834 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.other_equity, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.other_equity | FY25 | 210,437 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.other_equity, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.other_equity | FY26 | 332,213 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.other_equity, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.equity_attributable_to_owners | FY21 | 76,269 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.equity_attributable_to_owners, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.equity_attributable_to_owners | FY22 | 84,325 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.equity_attributable_to_owners, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.equity_attributable_to_owners | FY23 | 178,669 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.equity_attributable_to_owners, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.equity_attributable_to_owners | FY24 | 197,837 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.equity_attributable_to_owners, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.equity_attributable_to_owners | FY25 | 216,440 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.equity_attributable_to_owners, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.equity_attributable_to_owners | FY26 | 340,318 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.equity_attributable_to_owners, filed; AR pdf p264, p308, p346, p348, p362) |
+| pl.profit_attributable_to_owners | FY21 | 7,405 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.profit_attributable_to_owners, filed; AR pdf p265, p309, p347, p349, p363) |
+| pl.profit_attributable_to_owners | FY22 | 6,484 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.profit_attributable_to_owners, filed; AR pdf p265, p309, p347, p349, p363) |
+| pl.profit_attributable_to_owners | FY23 | 4,627 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.profit_attributable_to_owners, filed; AR pdf p265, p309, p347, p349, p363) |
+| pl.profit_attributable_to_owners | FY24 | 10,225 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.profit_attributable_to_owners, filed; AR pdf p265, p309, p347, p349, p363) |
+| pl.profit_attributable_to_owners | FY25 | 10,133 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.profit_attributable_to_owners, filed; AR pdf p265, p309, p347, p349, p363) |
+| pl.profit_attributable_to_owners | FY26 | 3,856 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.profit_attributable_to_owners, filed; AR pdf p265, p309, p347, p349, p363) |
+| cf.proceeds_from_share_issue | FY21 | 407 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (cf.proceeds_from_share_issue, filed; AR pdf p267, p311, p349, p351, p366) |
+| cf.proceeds_from_share_issue | FY22 | 428 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (cf.proceeds_from_share_issue, filed; AR pdf p267, p311, p349, p351, p366) |
+| cf.proceeds_from_share_issue | FY23 | 12,368 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (cf.proceeds_from_share_issue, filed; AR pdf p267, p311, p349, p351, p366) |
+| cf.proceeds_from_share_issue | FY24 | 307 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (cf.proceeds_from_share_issue, filed; AR pdf p267, p311, p349, p351, p366) |
+| cf.proceeds_from_share_issue | FY25 | 99 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (cf.proceeds_from_share_issue, filed; AR pdf p267, p311, p349, p351, p366) |
+| cf.proceeds_from_share_issue | FY26 | 85,311 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (cf.proceeds_from_share_issue, filed; AR pdf p267, p311, p349, p351, p366) |
+
+**Computed result, DERIVED**
+
+*One-year steps (DERIVED, Rs million)*
+
+| Step | Change in market cap | Change in other equity | Market cap per rupee of other equity | Share-issue proceeds in the year | Market cap change net of proceeds |
+|---|---|---|---|---|---|
+| FY21 to FY22 | -55,646 | 8,053 | -6.91 | 428 | -56,074 |
+| FY22 to FY23 | -171,141 | 94,344 | -1.81 | 12,368 | -183,509 |
+| FY23 to FY24 | 69,393 | 19,168 | 3.62 | 307 | 69,086 |
+| FY24 to FY25 | 93,104 | 18,603 | 5.00 | 99 | 93,005 |
+| FY25 to FY26 | 189,725 | 121,776 | 1.56 | 85,311 | 104,414 |
+
+*The five-year window FY21 to FY26 (DERIVED, Rs million)*
+
+| Item | Value |
+|---|---|
+| market cap FY26 less FY21 | 125,435 |
+| other equity (reserves) FY26 less FY21 | 261,944 |
+| market cap change per rupee of change in other equity (times) | 0.48 |
+| equity attributable to owners FY26 less FY21 | 264,049 |
+| market cap change per rupee of change in owners' equity (times) | 0.48 |
+| sum of share-issue proceeds FY22-FY26 | 98,513 |
+| market cap change net of those proceeds | 26,922 |
+| ... per rupee of change in other equity, net of proceeds (times) | 0.10 |
+| sum of profit to owners FY22-FY26 (for scale) | 35,325 |
+| market cap change per rupee of profit earned FY22-FY26 (times; dividends FY22 are not held, so no retained figure) | 3.55 |
+
+**Caveats**
+
+- Other equity is not retained earnings: it holds share premium, OCI reserves and other reserve movements (it jumped from 78,322 to 172,666 in FY23 with no matching profit; the held files do not say why), so the ratio is not 'value created per rupee kept'. L7-47 holds the profit-less-dividends version for FY22 to FY26.
+- Market cap FY26 rests on 1,621,073,650 shares (after the issues of 2025-26) against 1,200,567,573 before, so the unadjusted change includes new capital; the net-of-proceeds line takes the share-issue cash out and nothing else.
+- Windows starting before FY21 are not possible: the share count behind market cap is not held before FY21 (price-only history is in the ten-year file).
+
+## L5-64: Returns by segment and new capital against old
+
+**Formula in words.** Net segment assets (capital employed) = segment assets - segment liabilities at year end (note 40, the CODM's table). Return = segment result / net segment assets, and (segment result + segment finance costs) / net segment assets. New against old = the FY25 to FY26 change in net assets set beside the change in segment result.
+
+**Inputs (held)**
+
+| Input | Period | Value | Unit | Basis | Source file |
+|---|---|---|---|---|---|
+| segment tables, note 40 (FY26, FY25 on p413-p414; FY24, FY23 on p368) | years | 4 | tables | consolidated | soic-ladder/docs/idea/case-study/BIOCON/annual-report/FY26/p413.md, p414.md; soic-ladder/docs/idea/case-study/BIOCON/annual-report/FY24/p368.md |
+| bs.total_assets | FY21 | 185,223 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.total_assets, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.total_assets | FY22 | 203,940 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.total_assets, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.total_assets | FY23 | 520,428 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.total_assets, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.total_assets | FY24 | 560,707 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.total_assets, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.total_assets | FY25 | 587,973 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.total_assets, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.total_assets | FY26 | 636,506 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.total_assets, filed; AR pdf p264, p308, p346, p348, p362) |
+
+**Computed result, DERIVED**
+
+*Return on net segment assets by year (DERIVED, Rs million)*
+
+| Year | Segment | Segment assets | Segment liabilities | Net segment assets | Segment result | Result / net assets % | (Result + finance costs) / net assets % |
+|---|---|---|---|---|---|---|---|
+| FY23 | Generics | 58,526 | 17,496 | 41,030 | 3,921 | 9.56 | 9.39 |
+| FY23 | Biosimilars | 401,589 | 236,789 | 164,800 | 4,030 | 2.45 | 0.64 |
+| FY23 | CRDMO | 58,310 | 22,130 | 36,180 | 5,936 | 16.41 | 15.16 |
+| FY24 | Generics | 71,067 | 19,757 | 51,310 | 2,304 | 4.49 | 4.48 |
+| FY24 | Biosimilars | 431,435 | 257,344 | 174,091 | 2,957 | 1.70 | -3.26 |
+| FY24 | CRDMO | 61,516 | 18,939 | 42,577 | 6,319 | 14.84 | 13.73 |
+| FY25 | Generics | 83,271 | 31,004 | 52,267 | 1,755 | 3.36 | 2.99 |
+| FY25 | Biosimilars | 444,400 | 239,121 | 205,279 | 11,961 | 5.83 | 2.34 |
+| FY25 | CRDMO | 67,959 | 20,691 | 47,268 | 6,279 | 13.28 | 12.16 |
+| FY26 | Generics | 89,926 | 37,561 | 52,365 | -1,348 | -2.57 | -3.73 |
+| FY26 | Biosimilars | 478,881 | 211,789 | 267,092 | 5,876 | 2.20 | -0.96 |
+| FY26 | CRDMO | 70,549 | 22,147 | 48,402 | 4,875 | 10.07 | 9.06 |
+
+*New capital against old, FY25 to FY26 (DERIVED, Rs million)*
+
+| Segment | Net assets FY25 | Net assets FY26 | Change in net assets (new capital) | New capital as % of old | Change in segment result | Change in result per rupee of new capital % | Return on old capital FY25 % |
+|---|---|---|---|---|---|---|---|
+| Generics | 52,267 | 52,365 | 98 | 0.19 | -3,103 | -3,166.33 | 3.36 |
+| Biosimilars | 205,279 | 267,092 | 61,813 | 30.11 | -6,085 | -9.84 | 5.83 |
+| CRDMO | 47,268 | 48,402 | 1,134 | 2.40 | -1,404 | -123.81 | 13.28 |
+
+*Check: segment assets total against the balance sheet total assets*
+
+| Year | Segment table total | Balance sheet total assets | Check |
+|---|---|---|---|
+| FY23 | 520,428 | 520,428 | ties |
+| FY24 | 560,707 | 560,707 | ties |
+| FY25 | 587,973 | 587,973 | ties |
+| FY26 | 636,506 | 636,506 | ties |
+
+**Caveats**
+
+- Segment liabilities are the group's liabilities allocated to segments, borrowings included: FY26 total assets 636,506 less total liabilities 270,291 is 366,215, the held balance-sheet total equity. Net segment assets are therefore an equity-like base, and the result (after finance costs) over it is a pre-tax return on that base; the second column adds finance costs back.
+- FY23 and FY24 name the third segment 'Research' (shown here as CRDMO) and carry a 'Novels' segment with no assets but a segment result (4,736 in FY24, 318 in FY23, mostly other income), which has no capital to earn on and is left out of the table. The segment result includes other income and, in FY25, large Biosimilars other income (11,275); the table does not strip it out.
+- The year-end base is used, not an average, because FY22 and earlier segment tables are not read here. A change in result over a change in capital is dominated by the result where capital barely moved (read it with the 'new capital as % of old' column) and is n/m where capital fell.
+
+## L5-85: Net insider buying or selling by quarter
+
+**Formula in words.** Group the PIT disclosure rows by calendar quarter of the trade date. Open market = Market Purchase and Market Sale only; ESOP = shares acquired on exercise (not a market buy); inter-se = transfers among promoters (net of buy and sell); pledge rows counted, not netted; promoters + promoter group + KMP = their net shares in every mode. Net = bought less sold, shares; value in Rs crore.
+
+**Inputs (held)**
+
+| Input | Period | Value | Unit | Basis | Source file |
+|---|---|---|---|---|---|
+| PIT disclosure rows (NSE insider-trading list) | rows | 206 | rows | n/a | roast-room/docs/company-record/biocon/insider-trades-pit-2026-11-10.csv |
+
+**Computed result, DERIVED**
+
+*By quarter (DERIVED)*
+
+| Quarter | Rows | Open-market bought, shares | Open-market sold, shares | Net open market, shares | Net open market value, Rs crore | ESOP shares acquired | Inter-se net, shares | Pledge rows | Promoters + group + KMP net, shares (any mode) | Their rows |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 2022-Q1 | 23 | 0 | 99,600 | -99,600 | -3.84 | 116,000 | 0 | 1 | 0 | 0 |
+| 2022-Q2 | 20 | 2,000,000 | 9,000 | 1,991,000 | 64.27 | 101,312 | 0 | 5 | 0 | 0 |
+| 2022-Q3 | 16 | 0 | 42,000 | -42,000 | -1.21 | 88,125 | 1,308,712 | 0 | 1,308,712 | 4 |
+| 2022-Q4 | 23 | 0 | 343,033 | -343,033 | -9.23 | 313,928 | 0 | 0 | 0 | 0 |
+| 2023-Q1 | 10 | 0 | 66,674 | -66,674 | -1.48 | 138,242 | 0 | 2 | 90,000 | 1 |
+| 2023-Q2 | 18 | 0 | 150,670 | -150,670 | -3.76 | 702,400 | 0 | 0 | 100 | 1 |
+| 2023-Q3 | 53 | 0 | 139,316 | -139,316 | -3.68 | 1,095,812 | 0 | 0 | 0 | 2 |
+| 2023-Q4 | 24 | 0 | 57,094 | -57,094 | -1.39 | 611,691 | 0 | 0 | 0 | 0 |
+| 2024-Q1 | 19 | 0 | 58,998 | -58,998 | -1.58 | 27,292 | 0 | 2 | 0 | 0 |
+| all quarters held | 206 | 2,000,000 | 966,385 | 1,033,615 | 38.09 | 3,194,802 | 1,308,712 | 10 | 1,398,812 | 8 |
+
+**Caveats**
+
+- 9 quarters are held (2022-Q1 to 2024-Q1); every later quarter, 2024-Q2 to 2026-Q4, is NOT HELD: NSE's list returns no BIOCON row filed after 5 April 2024 although the same call returns rows for other companies in every month to April 2026 (insider-feed-coverage-2026-11-10.csv); the cause is not established here.
+- 'Not stated' (117 of 206 rows) is NSE's blank in the person-category field, so those rows cannot be assigned to promoters, KMP or employees; they are in the open-market and ESOP columns but not in the promoter + KMP column.
+- The open-market column is mostly sales (84 'Market Sale' rows against 3 'Market Purchase' rows, the three purchases totalling 2,000,000 shares in category 'Other'), and ESOP exercises are not purchases, so net buying by quarter is not 'insiders buying'. No buy or sell view is drawn.
+
+## L6-32: Peers' margins in the same years, and the long price history
+
+**Formula in words.** Screener's 'P&L OPM %' (operating profit margin, third party) for Mar 2021 to Mar 2026 for BIOCON and the seven peers screener lists; median over the peers held each year; BIOCON less that median. The company-printed and derived margins sit beside, never replaced by, screener's.
+
+**Inputs (held)**
+
+| Input | Period | Value | Unit | Basis | Source file |
+|---|---|---|---|---|---|
+| Sun Pharma OPM (screener, third party) | Mar 2021 | 25 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/SUNPHARMA.txt |
+| Sun Pharma OPM (screener, third party) | Mar 2022 | 27 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/SUNPHARMA.txt |
+| Sun Pharma OPM (screener, third party) | Mar 2023 | 27 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/SUNPHARMA.txt |
+| Sun Pharma OPM (screener, third party) | Mar 2024 | 27 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/SUNPHARMA.txt |
+| Sun Pharma OPM (screener, third party) | Mar 2025 | 29 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/SUNPHARMA.txt |
+| Sun Pharma OPM (screener, third party) | Mar 2026 | 28 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/SUNPHARMA.txt |
+| Divi's Labs OPM (screener, third party) | Mar 2021 | 41 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/DIVISLAB.txt |
+| Divi's Labs OPM (screener, third party) | Mar 2022 | 43 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/DIVISLAB.txt |
+| Divi's Labs OPM (screener, third party) | Mar 2023 | 31 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/DIVISLAB.txt |
+| Divi's Labs OPM (screener, third party) | Mar 2024 | 28 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/DIVISLAB.txt |
+| Divi's Labs OPM (screener, third party) | Mar 2025 | 32 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/DIVISLAB.txt |
+| Divi's Labs OPM (screener, third party) | Mar 2026 | 33 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/DIVISLAB.txt |
+| Torrent Pharma OPM (screener, third party) | Mar 2021 | 31 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/TORNTPHARM.txt |
+| Torrent Pharma OPM (screener, third party) | Mar 2022 | 29 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/TORNTPHARM.txt |
+| Torrent Pharma OPM (screener, third party) | Mar 2023 | 30 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/TORNTPHARM.txt |
+| Torrent Pharma OPM (screener, third party) | Mar 2024 | 31 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/TORNTPHARM.txt |
+| Torrent Pharma OPM (screener, third party) | Mar 2025 | 32 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/TORNTPHARM.txt |
+| Torrent Pharma OPM (screener, third party) | Mar 2026 | 33 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/TORNTPHARM.txt |
+| Laurus Labs OPM (screener, third party) | Mar 2021 | 32 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/LAURUSLABS.txt |
+| Laurus Labs OPM (screener, third party) | Mar 2022 | 29 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/LAURUSLABS.txt |
+| Laurus Labs OPM (screener, third party) | Mar 2023 | 26 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/LAURUSLABS.txt |
+| Laurus Labs OPM (screener, third party) | Mar 2024 | 15 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/LAURUSLABS.txt |
+| Laurus Labs OPM (screener, third party) | Mar 2025 | 19 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/LAURUSLABS.txt |
+| Laurus Labs OPM (screener, third party) | Mar 2026 | 26 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/LAURUSLABS.txt |
+| Zydus Lifesciences OPM (screener, third party) | Mar 2021 | 24 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/ZYDUSLIFE.txt |
+| Zydus Lifesciences OPM (screener, third party) | Mar 2022 | 22 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/ZYDUSLIFE.txt |
+| Zydus Lifesciences OPM (screener, third party) | Mar 2023 | 22 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/ZYDUSLIFE.txt |
+| Zydus Lifesciences OPM (screener, third party) | Mar 2024 | 28 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/ZYDUSLIFE.txt |
+| Zydus Lifesciences OPM (screener, third party) | Mar 2025 | 30 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/ZYDUSLIFE.txt |
+| Zydus Lifesciences OPM (screener, third party) | Mar 2026 | 31 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/ZYDUSLIFE.txt |
+| Dr Reddy's OPM (screener, third party) | Mar 2021 | 20 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/DRREDDY.txt |
+| Dr Reddy's OPM (screener, third party) | Mar 2022 | 17 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/DRREDDY.txt |
+| Dr Reddy's OPM (screener, third party) | Mar 2023 | 26 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/DRREDDY.txt |
+| Dr Reddy's OPM (screener, third party) | Mar 2024 | 28 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/DRREDDY.txt |
+| Dr Reddy's OPM (screener, third party) | Mar 2025 | 26 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/DRREDDY.txt |
+| Dr Reddy's OPM (screener, third party) | Mar 2026 | 19 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/DRREDDY.txt |
+| Cipla OPM (screener, third party) | Mar 2021 | 22 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/CIPLA.txt |
+| Cipla OPM (screener, third party) | Mar 2022 | 21 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/CIPLA.txt |
+| Cipla OPM (screener, third party) | Mar 2023 | 22 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/CIPLA.txt |
+| Cipla OPM (screener, third party) | Mar 2024 | 24 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/CIPLA.txt |
+| Cipla OPM (screener, third party) | Mar 2025 | 26 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/CIPLA.txt |
+| Cipla OPM (screener, third party) | Mar 2026 | 21 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/CIPLA.txt |
+| BIOCON OPM (screener, third party) | Mar 2021 | 22 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/BIOCON.txt |
+| BIOCON OPM (screener, third party) | Mar 2022 | 22 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/BIOCON.txt |
+| BIOCON OPM (screener, third party) | Mar 2023 | 22 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/BIOCON.txt |
+| BIOCON OPM (screener, third party) | Mar 2024 | 22 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/BIOCON.txt |
+| BIOCON OPM (screener, third party) | Mar 2025 | 21 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/BIOCON.txt |
+| BIOCON OPM (screener, third party) | Mar 2026 | 21 | % | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/BIOCON.txt |
+| ebitda_margin_on_total_income_company_stated_basis | FY21 | 25.78 | % | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=ebitda_margin_on_total_income_company_stated_basis; derived, held) |
+| ebitda_margin_on_total_income_company_stated_basis | FY22 | 26.00 | % | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=ebitda_margin_on_total_income_company_stated_basis; derived, held) |
+| ebitda_margin_on_total_income_company_stated_basis | FY23 | 25.00 | % | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=ebitda_margin_on_total_income_company_stated_basis; derived, held) |
+| ebitda_margin_on_total_income_company_stated_basis | FY24 | 26.66 | % | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=ebitda_margin_on_total_income_company_stated_basis; derived, held) |
+| ebitda_margin_on_total_income_company_stated_basis | FY25 | 26.56 | % | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=ebitda_margin_on_total_income_company_stated_basis; derived, held) |
+| ebitda_margin_on_total_income_company_stated_basis | FY26 | 21.99 | % | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=ebitda_margin_on_total_income_company_stated_basis; derived, held) |
+| ebitda_margin_without_other_income | FY21 | 23.14 | % | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=ebitda_margin_without_other_income; derived, held) |
+| ebitda_margin_without_other_income | FY22 | 24.07 | % | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=ebitda_margin_without_other_income; derived, held) |
+| ebitda_margin_without_other_income | FY23 | 22.48 | % | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=ebitda_margin_without_other_income; derived, held) |
+| ebitda_margin_without_other_income | FY24 | 22.36 | % | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=ebitda_margin_without_other_income; derived, held) |
+| ebitda_margin_without_other_income | FY25 | 20.75 | % | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=ebitda_margin_without_other_income; derived, held) |
+| ebitda_margin_without_other_income | FY26 | 20.41 | % | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=ebitda_margin_without_other_income; derived, held) |
+
+**Computed result, DERIVED**
+
+*Operating margin, screener, % (peers third party; DERIVED median and difference)*
+
+| Year | Sun Pharma | Divi's Labs | Torrent Pharma | Laurus Labs | Zydus Lifesciences | Dr Reddy's | Cipla | Peers held | Peer median OPM % | BIOCON screener OPM % | BIOCON less peer median, points | BIOCON company-stated EBITDA margin on total income % (derived, company basis) | BIOCON EBITDA margin without other income % (derived from filed lines) |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Mar 2021 | 25 | 41 | 31 | 32 | 24 | 20 | 22 | 7 of 7 | 25.0 | 22 | -3.0 | 25.78 | 23.14 |
+| Mar 2022 | 27 | 43 | 29 | 29 | 22 | 17 | 21 | 7 of 7 | 27.0 | 22 | -5.0 | 26.00 | 24.07 |
+| Mar 2023 | 27 | 31 | 30 | 26 | 22 | 26 | 22 | 7 of 7 | 26.0 | 22 | -4.0 | 25.00 | 22.48 |
+| Mar 2024 | 27 | 28 | 31 | 15 | 28 | 28 | 24 | 7 of 7 | 28.0 | 22 | -6.0 | 26.66 | 22.36 |
+| Mar 2025 | 29 | 32 | 32 | 19 | 30 | 26 | 26 | 7 of 7 | 29.0 | 21 | -8.0 | 26.56 | 20.75 |
+| Mar 2026 | 28 | 33 | 33 | 26 | 31 | 19 | 21 | 7 of 7 | 28.0 | 21 | -7.0 | 21.99 | 20.41 |
+
+*BIOCON year-end close, FY16 to FY26 (held, ten-year derived file; daily close on or before 31 March)*
+
+| Year | Close, Rs |
+|---|---|
+| FY16 | 80.56 |
+| FY17 | 188.72 |
+| FY18 | 296.95 |
+| FY19 | 303.48 |
+| FY20 | 270.55 |
+| FY21 | 408.90 |
+| FY22 | 335.60 |
+| FY23 | 206.35 |
+| FY24 | 264.15 |
+| FY25 | 341.70 |
+| FY26 | 360.90 |
+
+*BIOCON price change to 2026-11-09 (held, derived, % price only)*
+
+| Window | Value % |
+|---|---|
+| price_change_1y | -3.13 |
+| price_change_3y | 62.30 |
+| price_change_5y | 6.20 |
+| price_change_10y | 148.89 |
+| price_cagr_10y | 9.55 |
+
+**Caveats**
+
+- The seven peers are screener's own peer list for BIOCON (an approximated set, not a hand-named one) and OPM is screener's definition (sales less operating expenses, before other income), restated by Screener; it is not the companies' own EBITDA.
+- Screener's BIOCON OPM (whole per cent) and the margin derived from the filed lines without other income differ by 0.3 to 2.1 points across the six years; the two are different computations and neither replaces the other.
+- Peer prices are not held (only BIOCON's, Nifty Pharma and Nifty 500); the long price history here is BIOCON's. FY26 appears as 360.90 here (daily close on or before 31 March) and as 370.10 in the five-year file (weekly bar): two held files, two conventions.
+
+## L6-68: Breadth reading and phase
+
+**Formula in words.** Newest session in the derived breadth file: stocks above their own 200-session average / stocks measured. Phase = where that share sits against the course's stated bands (H4-177), read from the framework file, not from the rulebook.
+
+**Inputs (held)**
+
+| Input | Period | Value | Unit | Basis | Source file |
+|---|---|---|---|---|---|
+| Nifty 500 breadth, 200-session average (derived file) | sessions | 114 | sessions | n/a | soic-ladder/docs/idea/case-study/BIOCON/data/macro/breadth-nifty500-200dma-derived.txt |
+| Nifty 500 breadth, 200-session average (derived file) | newest | 2026-11-09 | sessions | n/a | soic-ladder/docs/idea/case-study/BIOCON/data/macro/breadth-nifty500-200dma-derived.txt |
+
+**Computed result, DERIVED**
+
+*Newest reading (DERIVED)*
+
+| Date | Above | Measured | Share % | Phase under the stated bands |
+|---|---|---|---|---|
+| 2026-11-09 | 225 | 481 | 46.8 | between 40% and 60%: inside none of the three stated bands |
+
+*Last ten sessions*
+
+| Date | Above | Measured | Share % | Phase under the stated bands |
+|---|---|---|---|---|
+| 2026-10-27 | 154 | 481 | 32.0 | below 40%: the weakening band |
+| 2026-10-28 | 149 | 481 | 31.0 | below 40%: the weakening band |
+| 2026-10-29 | 160 | 481 | 33.3 | below 40%: the weakening band |
+| 2026-10-30 | 147 | 481 | 30.6 | below 40%: the weakening band |
+| 2026-11-02 | 164 | 481 | 34.1 | below 40%: the weakening band |
+| 2026-11-03 | 176 | 481 | 36.6 | below 40%: the weakening band |
+| 2026-11-04 | 196 | 481 | 40.7 | between 40% and 60%: inside none of the three stated bands |
+| 2026-11-05 | 214 | 481 | 44.5 | between 40% and 60%: inside none of the three stated bands |
+| 2026-11-06 | 220 | 481 | 45.7 | between 40% and 60%: inside none of the three stated bands |
+| 2026-11-09 | 225 | 481 | 46.8 | between 40% and 60%: inside none of the three stated bands |
+
+*Range over the sessions held (DERIVED)*
+
+| Item | Date | Share % |
+|---|---|---|
+| lowest | 2026-10-23 | 25.8 |
+| highest | 2026-08-03 | 59.0 |
+
+**Caveats**
+
+- Bands as stated in the framework file (FC-L6-T5-S6, H4-177): bull above 60-70%, weakening below 40%, bear below 25%; the course gives no phase name for the stretch between 40% and 60%, and none is invented here. They are not in the rulebook.
+- The index line from the price file for the same date (derived there, quoted): Nifty 500 (the benchmark) to its newest session, week ending 2026-11-09: close 23,567.00, 30-week EMA 22,792.41, gap +3.40%
+- The breadth figure is DERIVED by this repo's fetch job from unadjusted closes (a split or bonus in the window reads as a fall), today's Nifty 500 list is applied to every date (survivors only), and only 313 sessions are held, so the 200-session average exists only for the last 113. It is not an NSE statistic. No view on the market is drawn.
+
+## L7-10: Minority (non-controlling) interest, valued
+
+**Formula in words.** Minority at market = 47.6% (note 39: ownership held by non-controlling interest, March 2026) x Syngene's market cap. Set beside book NCI (balance sheet and note 39(b)). Share count: market cap / price, from screener's rounded figures. Biocon's own 52.4% at the same market value is shown for scale.
+
+**Inputs (held)**
+
+| Input | Period | Value | Unit | Basis | Source file |
+|---|---|---|---|---|---|
+| NCI % Syngene (note 39) | FY26 | 47.60 | % | consolidated | soic-ladder/docs/idea/case-study/BIOCON/annual-report/FY26/p410.md |
+| book NCI total / Syngene's (Rs million) | total | 25,897 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv; soic-ladder/docs/idea/case-study/BIOCON/annual-report/FY26/p411.md |
+| book NCI total / Syngene's (Rs million) | Syngene | 23,044 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv; soic-ladder/docs/idea/case-study/BIOCON/annual-report/FY26/p411.md |
+
+**Computed result, DERIVED**
+
+*Minority at market against book (DERIVED)*
+
+| Item | Value |
+|---|---|
+| Syngene market cap, Rs crore (screener, third party) | 17,636 |
+| Syngene price on the page, Rs (screener) / held close 2026-11-09, Rs | 437 / 436.90 |
+| implied Syngene shares (market cap / price), million; range from the rounding of both | 403.6 (403.1 to 404.0) |
+| minority (47.6%) at market, Rs million | 83,947 |
+| book non-controlling interest, all subsidiaries, 31 March 2026, Rs million | 25,897 |
+| book accumulated NCI of Syngene alone (note 39(b)), Rs million | 23,044 |
+| Syngene minority at market / book NCI of Syngene (times) | 3.64 |
+| Syngene minority at market / total book NCI (times) | 3.24 |
+| book NCI not Syngene's (total less Syngene's), Rs million, mostly Biocon Biologics' 1.3% (BBL unlisted: not valued) | 2,853 |
+| Biocon's own stake (52.4%) at Syngene's market value, Rs million | 92,413 |
+| ... as % of Biocon's market cap (screener, third party) | 15.39 |
+
+**Caveats**
+
+- Syngene's market cap and price are screener's (third party) from the page fetched 2026-11-10 (price 437 matches the held 2026-11-09 close of the Syngene daily file); no Syngene share count is held, so the count is implied from two rounded figures and is approximate.
+- Biocon Biologics' 1.3% minority is not valued: BBL is unlisted and no price for it is held. A market value for a listed subsidiary's minority is a value on one day and is not what NCI would be sold for.
+- Book NCI total fell from 60,685 (FY25) to 25,897 (FY26); note 39 prints the Biologics minority falling from 23.2% to 1.3% over the same year, and Syngene's accumulated NCI is 23,044 of the 25,897, so the March 2026 book NCI mostly sits in Syngene.
+
+## L7-46: Retained earnings and book value per share by year
+
+**Formula in words.** BVPS (Rs) = equity attributable to owners (Rs million) x 1,000,000 / shares outstanding at 31 March. Reserves per share = other equity x 1,000,000 / the same shares. P/B = the 31-March weekly close / BVPS, set beside the held price-to-book (market cap / owners' equity).
+
+**Inputs (held)**
+
+| Input | Period | Value | Unit | Basis | Source file |
+|---|---|---|---|---|---|
+| bs.equity_attributable_to_owners | FY21 | 76,269 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.equity_attributable_to_owners, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.equity_attributable_to_owners | FY22 | 84,325 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.equity_attributable_to_owners, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.equity_attributable_to_owners | FY23 | 178,669 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.equity_attributable_to_owners, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.equity_attributable_to_owners | FY24 | 197,837 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.equity_attributable_to_owners, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.equity_attributable_to_owners | FY25 | 216,440 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.equity_attributable_to_owners, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.equity_attributable_to_owners | FY26 | 340,318 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.equity_attributable_to_owners, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.other_equity | FY21 | 70,269 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.other_equity, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.other_equity | FY22 | 78,322 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.other_equity, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.other_equity | FY23 | 172,666 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.other_equity, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.other_equity | FY24 | 191,834 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.other_equity, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.other_equity | FY25 | 210,437 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.other_equity, filed; AR pdf p264, p308, p346, p348, p362) |
+| bs.other_equity | FY26 | 332,213 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.other_equity, filed; AR pdf p264, p308, p346, p348, p362) |
+| shares_outstanding_31_march | FY21 | 1,200,567,573 | shares | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=shares_outstanding_31_march; derived, held) |
+| shares_outstanding_31_march | FY22 | 1,200,567,573 | shares | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=shares_outstanding_31_march; derived, held) |
+| shares_outstanding_31_march | FY23 | 1,200,567,573 | shares | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=shares_outstanding_31_march; derived, held) |
+| shares_outstanding_31_march | FY24 | 1,200,567,573 | shares | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=shares_outstanding_31_march; derived, held) |
+| shares_outstanding_31_march | FY25 | 1,200,567,573 | shares | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=shares_outstanding_31_march; derived, held) |
+| shares_outstanding_31_march | FY26 | 1,621,073,650 | shares | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=shares_outstanding_31_march; derived, held) |
+| close_on_or_before_31_march | FY21 | 395.25 | Rs | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=close_on_or_before_31_march; derived, held) |
+| close_on_or_before_31_march | FY22 | 348.90 | Rs | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=close_on_or_before_31_march; derived, held) |
+| close_on_or_before_31_march | FY23 | 206.35 | Rs | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=close_on_or_before_31_march; derived, held) |
+| close_on_or_before_31_march | FY24 | 264.15 | Rs | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=close_on_or_before_31_march; derived, held) |
+| close_on_or_before_31_march | FY25 | 341.70 | Rs | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=close_on_or_before_31_march; derived, held) |
+| close_on_or_before_31_march | FY26 | 370.10 | Rs | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=close_on_or_before_31_march; derived, held) |
+| price_to_book_owners_equity | FY21 | 6.22 | times | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=price_to_book_owners_equity; derived, held) |
+| price_to_book_owners_equity | FY22 | 4.97 | times | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=price_to_book_owners_equity; derived, held) |
+| price_to_book_owners_equity | FY23 | 1.39 | times | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=price_to_book_owners_equity; derived, held) |
+| price_to_book_owners_equity | FY24 | 1.60 | times | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=price_to_book_owners_equity; derived, held) |
+| price_to_book_owners_equity | FY25 | 1.90 | times | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=price_to_book_owners_equity; derived, held) |
+| price_to_book_owners_equity | FY26 | 1.76 | times | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=price_to_book_owners_equity; derived, held) |
+| Book Value (screener, third party) | page | 214 | Rs per share | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/BIOCON.txt |
+
+**Computed result, DERIVED**
+
+*BVPS by year (DERIVED)*
+
+| Year | Equity attributable to owners, Rs million | Other equity, Rs million | Shares at 31 March | BVPS, Rs | Other equity per share, Rs | Close on or before 31 March, Rs | P/B on this BVPS | Held price-to-book (market cap / equity) |
+|---|---|---|---|---|---|---|---|---|
+| FY21 | 76,269 | 70,269 | 1,200,567,573 | 63.53 | 58.53 | 395.25 | 6.22 | 6.22 |
+| FY22 | 84,325 | 78,322 | 1,200,567,573 | 70.24 | 65.24 | 348.90 | 4.97 | 4.97 |
+| FY23 | 178,669 | 172,666 | 1,200,567,573 | 148.82 | 143.82 | 206.35 | 1.39 | 1.39 |
+| FY24 | 197,837 | 191,834 | 1,200,567,573 | 164.79 | 159.79 | 264.15 | 1.60 | 1.60 |
+| FY25 | 216,440 | 210,437 | 1,200,567,573 | 180.28 | 175.28 | 341.70 | 1.90 | 1.90 |
+| FY26 | 340,318 | 332,213 | 1,621,073,650 | 209.93 | 204.93 | 370.10 | 1.76 | 1.76 |
+
+*FY26 against screener's current figure (third party, shown beside, not replacing)*
+
+| Item | Value, Rs |
+|---|---|
+| BVPS FY26 (derived above) | 209.93 |
+| Screener 'Book Value' on the BIOCON page fetched 2026-11-10 | 214.00 |
+
+**Caveats**
+
+- Retained earnings are not a held line; other equity (reserves) stands in and includes share premium and OCI, so its per-share figure is not 'retained earnings per share'.
+- The FY21 share count is the Sep-2021 filing reused (nothing earlier on file) and FY26 uses the 31-March-2026 filing's count (1,621,073,650); screener's figure is on its own share count and date. Book value here is after the NCI split (owners' share only). FY16 to FY20 BVPS is not held: shares before FY21 are not on file.
 
 ## Already held (not recomputed)
 
