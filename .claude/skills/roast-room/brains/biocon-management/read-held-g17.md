@@ -231,7 +231,66 @@ A negative provision (FY24 = -182) is a reversal. The FY21 doubtful-debts cell p
 
 The FY26 cash flow prints 'Exceptional items non-cash, (net) [refer note 32]' = -552 and the FY25 cash flow prints 'Exceptional items, (net) (refer note 32)' = 1,300 (both lines in the tables above). The note gives no cash/non-cash split by item, so no item is assigned to either figure here.
 
-**Still not held:** whether any single item in the 'Increase in other assets' and 'trade payables, other liabilities and provisions' lines is a customer advance or a vendor advance (the statement does not split them; the advances note was not read here); the cash/non-cash split inside note 32 (the note does not say which items make up the FY26 non-cash (552) or FY25 1,300); FY21 line values come only from the FY22 report's comparative column (the FY21 report's own cash flow page was not re-read).
+**Note 32 items for FY24, FY23, FY22 and FY21 (added; each item quoted from the note of the report named):**
+- FY24 d) Syngene: transaction costs, Unit 3 biologics facility: Rs 111 million (charge). docs/idea/case-study/BIOCON/annual-report/FY24/p352.md p352 line 34 "transaction costs of Rs 111 for the year ended March 31, 2024"
+- FY24 e) reversal of excess PLI accrual: Rs 166 million (credit). docs/idea/case-study/BIOCON/annual-report/FY24/p352.md p352 line 36 "reversed Rs. 166 of excess PLI accrual made in the books for the year ended March 31, 2023"
+- FY24 f) BBL advisory, legal and valuation experts: Rs 1,582 million (charge). docs/idea/case-study/BIOCON/annual-report/FY24/p352.md p352 line 38 "recorded Rs. 1,582 million in the year ended March 31, 2024 as an expense"
+- FY24 g) gain on a working-capital receivable settled above its carrying value: Rs 8,050 million (credit). docs/idea/case-study/BIOCON/annual-report/FY24/p352.md p352 line 40 "difference of Rs. 8,050  is recorded as a gain"
+- FY24 h) impairment of an intangible asset (BBL subsidiary): Rs 3,854 million (charge). docs/idea/case-study/BIOCON/annual-report/FY24/p352.md p352 line 42 "carrying value of the intangible asset amounting Rs. 3,854"
+- FY24 i) provision for inventory (BBL subsidiary): Rs 2,366 million (charge). docs/idea/case-study/BIOCON/annual-report/FY24/p352.md p352 line 44 "lower probability of liquation amounting Rs. 2,366"
+- FY24 j) impairment of an intangible asset: Rs 91 million (charge). docs/idea/case-study/BIOCON/annual-report/FY24/p352.md p352 line 46 "carrying value of the intangible asset amounting Rs. 91"
+- FY23 a) BBL advisory, legal and valuation experts (Viatris deal): Rs 2,374 million (charge). docs/idea/case-study/BIOCON/annual-report/FY23/p417.md p417 line 9 "has recorded ` 2,374 during the year ended March 31, 2023"
+- FY23 b) impairment of licensed products (Viatris deal): Rs 470 million (charge). docs/idea/case-study/BIOCON/annual-report/FY23/p417.md p417 line 11 "impairment of certain intangible assets amounting to ` 470 ."
+- FY22 a) loss on modifying the Goldman Sachs debentures: Rs 274 million (charge). docs/idea/case-study/BIOCON/annual-report/FY22/p316.md p316 line 39 "The amount of ` 274 was charged in the statement of profit and"
+- FY22 b) reversal of SEIS claim receivables: Rs 427 million (charge). docs/idea/case-study/BIOCON/annual-report/FY22/p317.md p317 line 5 "reversed the SEIS claim receivables of ` 427"
+- FY22 c) BBL advisory, legal and valuation experts: Rs 410 million (charge). docs/idea/case-study/BIOCON/annual-report/FY22/p317.md p317 line 7 "amounts aggregating to ` 410 have been recorded as an expense"
+- FY21 d) Syngene fire: insurance disbursements and loss, shown net: Rs 350 million (credit). docs/idea/case-study/BIOCON/data/history/ar-fy21/p304.txt p304 line 25 "on a net basis as ` 350 and ` 713 for the year ended March 31, 2021"
+- FY21 e) Biosimilars: severance for exit of key personnel: Rs 224 million (charge). docs/idea/case-study/BIOCON/data/history/ar-fy21/p304.txt p304 line 33 "incurred severance cost amounting to ` 224 arising from exit"
+
+FY24 note 32 items a, b and c carry no FY24 profit-and-loss amount: a) a Rs 12,400 inter-corporate deposit from SILS settled by transferring BBL shares (booked in equity), b) the Rs 470 impairment is a FY23 item (listed under FY23 above), c) the Syngene share sale of FY23 went to other equity. FY21's note 32 also lists FY20 items (a, b, c, f), not repeated here.
+
+**The FY24 item g gain of 8,050 (page FY24/p352, one note paragraph):**
+- Receipt and carrying value: docs/idea/case-study/BIOCON/annual-report/FY24/p352.md p352 line 40 "received Rs. 18,269 towards working capital under the existing arrangements"
+- docs/idea/case-study/BIOCON/annual-report/FY24/p352.md p352 line 40 "recorded these receivables at fair value of Rs. 10,219"
+- DERIVED: 18,269 - 10,219 = 8,050, the difference the note prints as 8,050 (check: OK).
+- The same paragraph gives the tax on this gain: docs/idea/case-study/BIOCON/annual-report/FY24/p352.md p352 line 40 "Consequential tax impact of Rs. 407"
+- Fair-value movement table (note 36 D), contingent consideration receivable column: docs/idea/case-study/BIOCON/annual-report/FY24/p359.md p359 line 25 "|Derecognised on account of conversion to Equity shares|-|(10,219)|-|-|-|". The amount 10,219 is the same as the carrying value above; the note 32 paragraph does not link the two, and no page says whether the 18,269 arrived as cash or as shares, so this reading is a pointer, not a cash finding.
+- Which cash-flow movement line carries the 18,269: not printed. The FY24 cash flow (page FY24/p311) lists no line for it; the pages that repeat the paragraph are FY24/p159, FY24/p208, FY25/p191 and FY25/p396, and none says which line.
+
+**The printed lines each year is reconciled to (each from its own report; FY21 from the FY21 report):**
+- FY21 P&L exceptional line = 126 (a gain is positive). docs/idea/case-study/BIOCON/data/history/ar-fy21/p261.txt p261 line 28 "Exceptional items, net 32  126  675"
+  FY21 cash-flow add-back line = -350 (a charge added back is positive). docs/idea/case-study/BIOCON/data/history/ar-fy21/p263.txt p263 line 22 "Exceptional items, net  (350)  (675)"
+- FY22 P&L exceptional line = -1,111 (a gain is positive). docs/idea/case-study/BIOCON/annual-report/FY22/p265.md p265 line 26 "|**i**<br>Exceptional items, net<br>**i**|32|(1,111)<br>|126<br>|"
+  FY22 cash-flow add-back line = 1,111 (a charge added back is positive). docs/idea/case-study/BIOCON/annual-report/FY22/p267.md p267 line 24 "|Exceptional items, net|1,111|(350)|"
+- FY23 P&L exceptional line = -2,914 (a gain is positive). docs/idea/case-study/BIOCON/annual-report/FY23/p363.md p363 line 28 "|**i**<br>Exceptional items, net<br>**i**|32|(2,914)|(1,111)|"
+  FY23 cash-flow add-back line = 498 (a charge added back is positive). docs/idea/case-study/BIOCON/annual-report/FY23/p366.md p366 line 25 "|<br>Exceptional items, net<br>**i**|498|1,111|"
+- FY24 P&L exceptional line = -116 (a gain is positive). docs/idea/case-study/BIOCON/annual-report/FY24/p309.md p309 line 29 "|**i**<br>Exceptional items, net<br>32<br>**i**|(116)|(2,914)|"
+  FY24 cash-flow add-back line = 6,116 (a charge added back is positive). docs/idea/case-study/BIOCON/annual-report/FY24/p311.md p311 line 26 "|Exceptional items, net<br>**i**|6,116|498|"
+- FY25 P&L exceptional line = 965 (a gain is positive). docs/idea/case-study/BIOCON/annual-report/FY25/p349.md p349 line 26 "|Exceptional items (net)|32|965|(116)|"
+  FY25 cash-flow add-back line = 1,300 (a charge added back is positive). docs/idea/case-study/BIOCON/annual-report/FY25/p351.md p351 line 28 "|Exceptional items, (net) (refer note 32)<br>i|1,300|6,116|"
+- FY26 P&L exceptional line = -4,029 (a gain is positive). docs/idea/case-study/BIOCON/annual-report/FY26/p347.md p347 line 22 "|Exceptional items (net)<br>i|32|(4,029)|965|"
+  FY26 cash-flow add-back line = -552 (a charge added back is positive). docs/idea/case-study/BIOCON/annual-report/FY26/p349.md p349 line 24 "|Exceptional items non-cash, (net) [refer note 32]<br>i|(552)|1,300|"
+
+**DERIVED table (Rs million).** Formulas: net charge from items = charges listed - credits listed; P&L charge = minus the P&L line; items minus P&L = net charge from items - P&L charge; not added back = P&L charge - cash-flow add-back (a figure that is positive means the P&L charge is larger than what the cash flow adds back).
+
+| Year | P&L line (gain +) | Charges listed | Credits listed | Net charge from items | P&L charge | Items minus P&L | Cash-flow add-back | Not added back |
+|---|---|---|---|---|---|---|---|---|
+| FY21 | 126 | 224 | 350 | -126 | -126 | 0 | -350 | 224 |
+| FY22 | -1,111 | 1,111 | 0 | 1,111 | 1,111 | 0 | 1,111 | 0 |
+| FY23 | -2,914 | 2,844 | 0 | 2,844 | 2,914 | -70 | 498 | 2,416 |
+| FY24 | -116 | 8,004 | 8,216 | -212 | 116 | -328 | 6,116 | -6,000 |
+| FY25 | 965 | 1,377 | 2,341 | -964 | -965 | 1 | 1,300 | -2,265 |
+| FY26 | -4,029 | 5,871 | 1,842 | 4,029 | 4,029 | 0 | -552 | 4,581 |
+
+Reading the table: FY21, FY22, FY26 and (to 1) FY25 agree item list to P&L line. FY23's list is 70 short of the P&L line and FY24's list nets to a CREDIT of 212 against a P&L CHARGE of 116 (a 328 difference): the pages read give no further item for either year (not held). In FY22 the add-back equals the whole P&L charge (1,111 = 1,111); in FY21 the add-back (-350) equals the one credit item and the severance 224 is not added back (350 - 224 = 126 is the P&L gain, DERIVED). In FY23 the add-back is 498 against a 2,914 charge; in FY24 it is 6,116 against a 116 charge, 6,000 MORE than the P&L line: the pages do not say what the 6,000 is (not held).
+
+**Cash or non-cash, item by item: not printed in note 32 for any year FY21 to FY26, so the items are kept and none is assigned.** The only cash-type words on the held pages: FY21 'Biocon Biologics has paid severance of ` 224 million' and FY24 'received Rs. 18,269 million towards working capital' (quoted below and in the 8,050 block above); the derivable split is net only (the 'Not added back' column).
+- FY21 management discussion wording: docs/idea/case-study/BIOCON/data/history/ar-fy21/p152.txt p152 line 37 "has paid severance of ` 224 million to the erstwhile leadership team"
+- Cross-read: the FY23 report's note 32 repeats the FY22 item 410: docs/idea/case-study/BIOCON/annual-report/FY23/p417.md p417 line 9 "and ` 410 for the year ended March 31, 2022"
+- Cross-read: the FY23 report's note 32 repeats the FY22 item 274: docs/idea/case-study/BIOCON/annual-report/FY23/p417.md p417 line 15 "The amount of ` 274 was charged in the statement of profit and loss"
+- Cross-read: the FY23 report's note 32 repeats the FY22 item 427: docs/idea/case-study/BIOCON/annual-report/FY23/p417.md p417 line 17 "reversed the SEIS claim receivables of ` 427"
+
+**Still not held:** whether any single item in the 'Increase in other assets' and 'trade payables, other liabilities and provisions' lines is a customer advance or a vendor advance (the statement does not split them; the advances note was not read here); the cash/non-cash split of each note 32 item in every year FY21 to FY26 (the note prints none; only the net 'Not added back' column above is derivable); the items behind the 70 gap in FY23, the 328 gap in FY24 and the 6,000 by which the FY24 add-back exceeds the P&L line; which cash-flow line carries the FY24 receipt of 18,269; FY21 cash-flow figures come from the FY21 report's own page (data/history/ar-fy21/p263.txt) and agree with the FY22 report's comparative column.
 
 ## L3-23
 
@@ -364,7 +423,85 @@ The FY26 cash flow prints 'Exceptional items non-cash, (net) [refer note 32]' = 
 - DERIVED (a count, not a reading): page files containing 'tax holiday' or section 80-IA, FY24 = 0, FY25 = 0, FY26 = 0 (FY22 = 2, FY23 = 3). Absence from the page text of these reports is what was searched; a reader of the PDF itself may differ.
 - Pointer only, no tax-holiday amount: docs/idea/case-study/BIOCON/annual-report/FY26/p375.md p375 line 21 "The SEZ re-investment reserve has been created out of profit of eligible SEZ units in terms of the provisions of section 10AA(1)(ii) of the Income-tax Act, 1961"
 
-**Still not held:** a stated end date for the FY22/FY23 tax holiday units; the tax-rate reconciliation line effect of the holiday in rupees (the FY23 text gives the effective rate only: see FY23 p184 line 42); one-time tax items beyond those recorded in the earlier pass (indexation benefit 199 and top-up tax 444 in FY25, tax on exceptional items 971 in FY26, recorded elsewhere, not re-read here).
+**One-time tax lines in the consolidated tax note (note 38, 'Reconciliation of effective tax rate'); a positive figure raises tax expense, a bracketed one lowers it; column 1 = the report year:**
+- FY22 report: Exempt income and other deductions (not named one-time; shown because it is the largest line a reader might tie to a holiday, and no page does): FY22 = -1,717; FY21 = -1,595. docs/idea/case-study/BIOCON/annual-report/FY22/p327.md p327 line 29 "|Exempt income and other deductions|(1,717)|(1,595)|"
+- FY22 report: Reversal of provision for tax for earlier years: FY22 = 0; FY21 = -418. docs/idea/case-study/BIOCON/annual-report/FY22/p327.md p327 line 32 "|Reversal of provision for tax for earlier years|-|(418)|"
+  Other lines of the FY22 reconciliation, label only (not named one-time by the note; read them on docs/idea/case-study/BIOCON/annual-report/FY22/p327.md): Profit before tax; Tax at statutoryincome tax rate 34.94%(March 31,2021 - 34.94%); Difference in overseas/domestic tax rates; Non-deductible expense; Tax losses on which no deferred tax has been recognised; Gain on dilution of interest in a subsidiary/ associate; Share in loss/ (profit) of joint venture and associate; Others; Income tax expense.
+- FY23 report: Exempt income and other deductions (not named one-time; shown because it is the largest line a reader might tie to a holiday, and no page does): FY23 = -1,478; FY22 = -1,717. docs/idea/case-study/BIOCON/annual-report/FY23/p429.md p429 line 37 "|Exempt income and other deductions|(1,478)|(1,717)|"
+- FY23 report: MAT write off on account of adoption of new tax regime: FY23 = 1,071; FY22 = 0. docs/idea/case-study/BIOCON/annual-report/FY23/p429.md p429 line 40 "|MAT write off on account of adoption of new tax regime [refer note a below]|1,071|-|"
+  Other lines of the FY23 reconciliation, label only (not named one-time by the note; read them on docs/idea/case-study/BIOCON/annual-report/FY23/p429.md): Profit before tax; Tax at statutory income tax rate 25.17% (March 31, 2022- 34.94%); Difference in overseas/domestic tax rates; Non-deductible expense; Tax losses on which no deferred tax has been recognised; Gain on dilution of interest in associate; Share in loss/ (profit) of joint venture and associate; Others; Income tax expense.
+- FY24 report: Exempt income and other deductions (not named one-time; shown because it is the largest line a reader might tie to a holiday, and no page does): FY24 = -2,040; FY23 = -1,478. docs/idea/case-study/BIOCON/annual-report/FY24/p363.md p363 line 22 "||Exempt income and other deductions|(2,040)|(1,478)|"
+- FY24 report: MAT write off on account of adoption of new tax regime: FY24 = 0; FY23 = 1,071. docs/idea/case-study/BIOCON/annual-report/FY24/p363.md p363 line 25 "||MAT write off on account of adoption of new tax regime [refer note (a) below]|-|1,071|"
+- FY24 report: Difference in rates for Top-up Tax: FY24 = 510; FY23 = 0. docs/idea/case-study/BIOCON/annual-report/FY24/p363.md p363 line 28 "||Difference in rates for Top-up Tax|510|-|"
+- FY24 report: Tax for earlier years: FY24 = -334; FY23 = 20. docs/idea/case-study/BIOCON/annual-report/FY24/p363.md p363 line 29 "||Tax for earlier years|(334)|20|"
+  Other lines of the FY24 reconciliation, label only (not named one-time by the note; read them on docs/idea/case-study/BIOCON/annual-report/FY24/p363.md): Profit before tax; Tax at statutory income tax rate 25.17% (March 31, 2023- 25.17%); Difference in overseas/domestic tax rates; Non-deductible expense/ (income); Tax losses on which no deferred tax has been recognised; Fair value & dilution gain in associate; Share in loss/ (profit) of joint venture and associate; Others; Income tax expense.
+- FY25 report: Exempt income and other deductions (not named one-time; shown because it is the largest line a reader might tie to a holiday, and no page does): FY25 = -2,326; FY24 = -2,040. docs/idea/case-study/BIOCON/annual-report/FY25/p409.md p409 line 31 "|Exempt income and other deductions|(2,326)|(2,040)|"
+- FY25 report: Tax expense on removal of indexation benefit: FY25 = 199; FY24 = 0. docs/idea/case-study/BIOCON/annual-report/FY25/p409.md p409 line 34 "|Tax expense on removal of indexation benefit|199|-|"
+- FY25 report: Difference in rates for Top-up Tax: FY25 = 444; FY24 = 510. docs/idea/case-study/BIOCON/annual-report/FY25/p409.md p409 line 37 "|Difference in rates for Top-up Tax|444|510|"
+- FY25 report: Tax for earlier years: FY25 = -69; FY24 = -334. docs/idea/case-study/BIOCON/annual-report/FY25/p409.md p409 line 38 "|Tax for earlier years|(69)|(334)|"
+  Other lines of the FY25 reconciliation, label only (not named one-time by the note; read them on docs/idea/case-study/BIOCON/annual-report/FY25/p409.md): Profit before tax; Tax at statutory income tax rate 25.17% (March 31, 2024- 25.17%); Difference in overseas/domestic tax rates; Non-deductible expense/ (income); Tax losses on which no deferred tax has been recognised; Fair value & dilution gain in associate; Share in loss/ (profit) of joint venture and associate; Others; Income tax expense.
+- FY26 report: Exempt income and other deductions (not named one-time; shown because it is the largest line a reader might tie to a holiday, and no page does): FY26 = -4; FY25 = -2,326. docs/idea/case-study/BIOCON/annual-report/FY26/p408.md p408 line 28 "|Exempt income and other deductions|(4)|(2,326)|"
+- FY26 report: Tax expense on removal of indexation benefit: FY26 = 0; FY25 = 199. docs/idea/case-study/BIOCON/annual-report/FY26/p408.md p408 line 30 "|Tax expense on removal of indexation benefit|-|199|"
+- FY26 report: Difference in rates for Top-up Tax: FY26 = 0; FY25 = 444. docs/idea/case-study/BIOCON/annual-report/FY26/p408.md p408 line 31 "|Difference in rates for Top-up Tax|-|444|"
+- FY26 report: Tax for earlier years: FY26 = 109; FY25 = -69. docs/idea/case-study/BIOCON/annual-report/FY26/p408.md p408 line 32 "|Tax for earlier years|109|(69)|"
+  Other lines of the FY26 reconciliation, label only (not named one-time by the note; read them on docs/idea/case-study/BIOCON/annual-report/FY26/p408.md): Profit before tax; Tax at statutory income tax rate 25.17% (March 31, 2025- 25.17%); Difference in overseas/domestic tax rates; Non-deductible expense/ (income); Others; Income tax expense.
+
+- FY25 'Others' line: docs/idea/case-study/BIOCON/annual-report/FY25/p409.md p409 line 39 "|Others [refer note (i) below]|(1,204)|(249)|"
+  and its note: docs/idea/case-study/BIOCON/annual-report/FY25/p409.md p409 line 44 "(i) Amounts for year ended March 31, 2025, includes tax impact on sale on business [refer note 42C].". The part of 'Others' that is the tax on the sale of the business is NOT printed as a figure.
+- FY25 tax expense line (note 38 a), the same 199 as a deferred-tax charge: docs/idea/case-study/BIOCON/annual-report/FY25/p409.md p409 line 16 "|Tax expense on removal of indexation benefit*|199|-|"
+  stated reason: docs/idea/case-study/BIOCON/annual-report/FY25/p409.md p409 line 46 "Pursuant to amendment in The Finance Act, 2024, resulting in withdrawal of indexation benefit on Long-Term Capital Gain"
+- FY23 MAT write-off, stated reason: docs/idea/case-study/BIOCON/annual-report/FY24/p363.md p363 line 35 "has written off Minimum Alternate Tax (MAT) balance of Rs. 1,071  in the consolidated financial statements for the year ended March 31, 2023, which can no longer be carried forward"
+- Reason for the top-up tax lines (FY24 510, FY25 444): not printed; no held page names the law or the reason for 'Difference in rates for Top-up Tax' (searched the consolidated tax notes FY24 to FY26 and the management discussion of each year).
+
+**Management-discussion lines in the consolidated results table (a bracketed figure lowers tax expense):**
+- Tax on exceptional item, FY21 = 95; year before 656. docs/idea/case-study/BIOCON/data/history/ar-fy21/p151.txt p151 line 25 "Tax on exceptional item 95 656 (86)%"
+- Tax on exceptional item, FY22 = -292; year before 95. docs/idea/case-study/BIOCON/annual-report/FY22/p159.md p159 line 50 "|Tax on exceptional item<br>**i**|(292)|95|(407)%|"
+- Tax on exceptional item, FY23 = -293; year before -292. docs/idea/case-study/BIOCON/annual-report/FY23/p240.md p240 line 6 "|Tax on exceptional item|(293)|(292)|0%|"
+- Tax on exceptional item, FY24 = -34; year before -293. docs/idea/case-study/BIOCON/annual-report/FY24/p207.md p207 line 54 "|Tax on exceptional item|(34)|(293)|(88%)|"
+- Tax on exceptional item, FY25 = 217; year before -34. docs/idea/case-study/BIOCON/annual-report/FY25/p239.md p239 line 48 "|Tax on exceptional item|217|(34)|-|"
+- Tax on exceptional item, FY26 = -971; year before 212. docs/idea/case-study/BIOCON/annual-report/FY26/p241.md p241 line 24 "|Tax on exceptional item|(971)|212||"
+- Tax expense on adoption of new tax regime - exceptional, FY23 = 1,071; year before 0. docs/idea/case-study/BIOCON/annual-report/FY23/p239.md p239 line 43 "|Tax expense on adoption of new tax regime – exceptional|1,071|-|-|"
+- Tax expense on adoption of new tax regime - exceptional, FY24 = 0; year before 1,071. docs/idea/case-study/BIOCON/annual-report/FY24/p207.md p207 line 55 "|Tax expense on adoption of new tax re-<br>gime – exceptional<br>**i**|-|1,071|(100%)|"
+- Tax expense on adoption of new tax regime - exceptional, FY25 = 199; year before 0. docs/idea/case-study/BIOCON/annual-report/FY25/p239.md p239 line 49 "|Tax expense on adoption of new tax regime – exceptional|199|-|-|"
+- Tax expense on adoption of new tax regime - exceptional, FY26 = 0; year before 199. docs/idea/case-study/BIOCON/annual-report/FY26/p241.md p241 line 25 "|Tax expense on adoption of new tax regime - exceptional<br>**i**|-|199||"
+- Label mismatch to note: the FY25 and FY26 management tables print 199 under 'adoption of new tax regime - exceptional', while the tax note prints the same 199 as 'removal of indexation benefit' (reason quoted above); the FY23 figure 1,071 under the same MD&A label is the MAT write-off.
+- The FY25 'tax on exceptional item' is 217 as first filed and 212 in the FY26 report's comparative column (DERIVED difference 5; no reason printed).
+
+**DERIVED: one-time tax items by year (Rs million, as printed; each cell is the report's own column, else the next report's comparative marked so; 'no row' = the table has no such line).** Formula: none; cells are copied from the lines above.
+
+| Item | FY21 | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|---|
+| MAT balance written off on adopting the new tax regime | no row | 0 (next report) | 1,071 | 0 | no row | no row |
+| Difference in rates for top-up tax | no row | no row | 0 (next report) | 510 | 444 | 0 |
+| Tax expense on removal of indexation benefit | no row | no row | no row | 0 (next report) | 199 | 0 |
+| Tax for earlier years / reversal of provision for earlier years | -418 (FY22 report) | 0 | 20 (next report) | -334 | -69 | 109 |
+| Tax on exceptional item (management table) | 95 | -292 | -293 | -34 | 217 | -971 |
+| Tax expense on adoption of new tax regime - exceptional (management table) | no row | no row | 1,071 | 0 | 199 | 0 |
+
+**Tax holiday: more statements read (added):**
+- FY21 auditor's key audit matter: docs/idea/case-study/BIOCON/data/history/ar-fy21/p253.txt p253 line 24 "account of tax holiday benefits, which would expire over a period of"
+- FY21 auditor's key audit matter: docs/idea/case-study/BIOCON/data/history/ar-fy21/p253.txt p253 line 58 "respect to new undertakings being setup having tax holiday"
+  The only expiry wording is for the MAT credits ('would expire over a period of 15 years'); it is not an end date for the holiday and not a calendar year.
+- FY24 management's effective-tax-rate sentence: docs/idea/case-study/BIOCON/annual-report/FY24/p158.md p158 line 46 "The effective tax rate (ETR) for the year before the exceptional item was 15% (15% in FY23)"
+- FY25 management's effective-tax-rate sentence: docs/idea/case-study/BIOCON/annual-report/FY25/p240.md p240 line 58 "was 23% compared to 15% in FY24. Increase is mainly due to higher ETR in Biosimilars and Research services"
+- FY26 management's effective-tax-rate sentence: docs/idea/case-study/BIOCON/annual-report/FY26/p190.md p190 line 54 "was 21% (23% in FY25)"
+  None of the FY24 to FY26 sentences mentions a holiday ending; FY25's stated reason is 'higher ETR in Biosimilars and Research services'. A date match between a rate rise and a holiday is not a cause, so none is claimed.
+- August 2023 stock-exchange intimation, pending tax disputes (a pointer to a dispute over the claim, not an end date): docs/idea/case-study/BIOCON/data/filings/text/2023-08-21_BIOCON_21082023211415_Intimation_Reg30_signed/p002.txt p002 line 35 "deduction u/s 35(2AB), tax holiday"
+  continues: docs/idea/case-study/BIOCON/data/filings/text/2023-08-21_BIOCON_21082023211415_Intimation_Reg30_signed/p002.txt p002 line 36 "claimed u/s 10AA/80IAB , addition"
+
+**What was searched for a holiday end date or a rupee effect (regex `tax[- ]holiday|80[- ]?IAC?\b`, case-insensitive; DERIVED counts of files, not readings):**
+- annual-report page files FY22: 2 of 496 files hold a match.
+- annual-report page files FY23: 3 of 517 files hold a match.
+- annual-report page files FY24: 0 of 473 files hold a match.
+- annual-report page files FY25: 0 of 558 files hold a match.
+- annual-report page files FY26: 0 of 558 files hold a match.
+- FY21 report text (data/history/ar-fy21): 2 of 376 files hold a match.
+- filings text (data/filings/text): 6 of 7424 files hold a match.
+- management call text (data/management-text): 0 of 14 files hold a match.
+- deck text (data/decks-layout): 0 of 11 files hold a match.
+- 'Exempt income and other deductions' is the only reconciliation line of that size and it is not labelled as a holiday line (readings above); attributing it to a holiday would be an assumption, so no rupee effect is stated.
+
+**Still not held:** a stated end date for the tax holiday units and its rupee effect: not printed in any held file (searched: see the counts above); the reason for the top-up tax lines of FY24 (510) and FY25 (444); the part of the FY25 'Others' line that is the tax on the sale of the business; whether a holiday ended (no page says so); standalone MAT closing balances for FY24 to FY26 (no MAT row in those tables).
 
 ## L3-64
 
@@ -423,9 +560,59 @@ The FY26 cash flow prints 'Exceptional items non-cash, (net) [refer note 32]' = 
 
 Check against the figures held earlier (derived-metrics-FY21-FY26.csv, `cash_share_of_total_assets`, same formula A): FY21 17.4066 vs mine 17.41%; FY22 14.5396 vs mine 14.54%; FY23 7.1606 vs mine 7.16%; FY24 4.5912 vs mine 4.59%; FY25 7.7682 vs mine 7.77%; FY26 6.1011 vs mine 6.10%.
 
-**Basis notes:** FY21 associates/JV (1,795) is read from a row with a garbled label (see FY22 lines above). Other bank deposits and inter-corporate deposits that sit under 'other financial assets' are not in A, B or C (the held formula excludes them; their amounts are not read here). The step's own example is 'cash at 60-70% of total assets' (S3-160, example); no threshold is stated.
+**ICDs (inter-corporate deposits) and long bank deposits, wherever the company filed them (added; consolidated notes, each report's own year; FY21 from the FY22 report's comparative column):**
+- ICDs inside current investments, FY21 = 5,850 (note 10 current investments (FY22 report, comparative column)). docs/idea/case-study/BIOCON/annual-report/FY22/p295.md p295 line 29 "|Inter corporate deposits with financial institutions *|9,659|5,850|"
+- ICDs inside current investments, FY22 = 9,659 (note 10 current investments). docs/idea/case-study/BIOCON/annual-report/FY22/p295.md p295 line 29 "|Inter corporate deposits with financial institutions *|9,659|5,850|"
+- ICDs inside current investments, FY23 = 8,822 (note 10 current investments). docs/idea/case-study/BIOCON/annual-report/FY23/p395.md p395 line 33 "|Inter corporate deposits with financial institutions *|8,822|9,659|"
+- ICDs inside current investments, FY24 = 0 (note 10 current investments (printed '-')). docs/idea/case-study/BIOCON/annual-report/FY24/p331.md p331 line 43 "|Inter corporate deposits with financial institutions *|-|8,822|"
+- ICDs inside non-current investments, FY21 = 4,150 (note 5 non-current investments (FY22 report, comparative column)). docs/idea/case-study/BIOCON/annual-report/FY22/p292.md p292 line 34 "|Inter corporate deposits with financial institutions *<br>2,629|4,150|"
+- ICDs inside non-current investments, FY22 = 2,629 (note 5 non-current investments). docs/idea/case-study/BIOCON/annual-report/FY22/p292.md p292 line 34 "|Inter corporate deposits with financial institutions *<br>2,629|4,150|"
+- ICDs inside non-current investments, FY23 = 5,380 (note 5 non-current investments). docs/idea/case-study/BIOCON/annual-report/FY23/p392.md p392 line 34 "|Inter corporate deposits with financial institutions *|5,380|2,629|"
+- ICDs inside non-current investments, FY24 = 4 (note 5 non-current investments). docs/idea/case-study/BIOCON/annual-report/FY24/p329.md p329 line 48 "|Inter corporate deposits with financial institutions *|4|5,380|"
+- ICDs inside non-current investments, FY25 = 0 (note 5 non-current investments (printed '-')). docs/idea/case-study/BIOCON/annual-report/FY25/p371.md p371 line 49 "|Inter corporate deposits with financial institutions *<br>Total unquoted investments in deposits|-<br>-|4<br>4|"
+- ICDs in other financial assets, current, FY24 = 5,380 (note 6 other financial assets, current). docs/idea/case-study/BIOCON/annual-report/FY24/p330.md p330 line 33 "|Inter corporate deposits with financial institutions *|5,380||"
+- ICDs in other financial assets, current, FY25 = 3,595 (note 6 other financial assets, current). docs/idea/case-study/BIOCON/annual-report/FY25/p372.md p372 line 32 "|Inter corporate deposits with financial institutions *|3,595|5,380|"
+- ICDs in other financial assets, non-current, FY26 = 2,453 (note 6 other financial assets, non-current). docs/idea/case-study/BIOCON/annual-report/FY26/p370.md p370 line 27 "|Inter corporate deposits with financial institutions *|2,453|-|"
+- ICDs in other financial assets, current, FY26 = 1,600 (note 6 other financial assets, current). docs/idea/case-study/BIOCON/annual-report/FY26/p370.md p370 line 32 "|Inter corporate deposits with financial institutions *|1,600|3,595|"
+- bank deposits with maturity over 12 months (other financial assets, non-current), FY21 = 1,389 (note 6 other financial assets, non-current (FY22 report, comparative column)). docs/idea/case-study/BIOCON/annual-report/FY22/p293.md p293 line 11 "|Bank deposits with maturity of more than 12 months|-|1,389|"
+- bank deposits with maturity over 12 months (other financial assets, non-current), FY22 = 0 (note 6 other financial assets, non-current (printed '-')). docs/idea/case-study/BIOCON/annual-report/FY22/p293.md p293 line 11 "|Bank deposits with maturity of more than 12 months|-|1,389|"
+- bank deposits with maturity over 12 months (other financial assets, non-current), FY23 = 1,250 (note 6 other financial assets, non-current). docs/idea/case-study/BIOCON/annual-report/FY23/p393.md p393 line 22 "||Bank deposits with maturity of more than 12 months|1,250|-|"
+- bank deposits with maturity over 12 months (other financial assets, non-current), FY24 = 2 (note 6 other financial assets, non-current). docs/idea/case-study/BIOCON/annual-report/FY24/p330.md p330 line 28 "|Bank deposits with maturity of more than 12 months|2|1,250|"
+- bank deposits with maturity over 12 months (other financial assets, non-current), FY25 = 18 (note 6 other financial assets, non-current). docs/idea/case-study/BIOCON/annual-report/FY25/p372.md p372 line 28 "|Bank deposits with maturity of more than 12 months|18|2|"
+- bank deposits with maturity over 12 months (other financial assets, non-current), FY26 = 2,754 (note 6 other financial assets, non-current). docs/idea/case-study/BIOCON/annual-report/FY26/p370.md p370 line 28 "|Bank deposits with maturity of more than 12 months|2,754|18|"
+- ICDs inside current investments, FY25: no row printed (0 ICD rows on the page). docs/idea/case-study/BIOCON/annual-report/FY25/p373.md p373 line 55 "|Total current investments|4,473|3,156|"
+- ICDs inside current investments, FY26: no row printed (0 ICD rows on the page). docs/idea/case-study/BIOCON/annual-report/FY26/p372.md p372 line 16 "|**Total current investments**|6,898|4,473|"
+- ICDs inside non-current investments, FY26: no row printed (0 ICD rows on the page). docs/idea/case-study/BIOCON/annual-report/FY26/p369.md p369 line 50 "|**Total non-current investments**|10,893|6,797|"
+- ICDs in other financial assets, non-current and ICDs in other financial assets, current, FY21/FY22: no row printed (0 ICD rows on the page). docs/idea/case-study/BIOCON/annual-report/FY22/p293.md p293 line 5 "###### **6 (a) . Other financial assets**"
+- ICDs in other financial assets, non-current and ICDs in other financial assets, current, FY23: no row printed (0 ICD rows on the page). docs/idea/case-study/BIOCON/annual-report/FY23/p393.md p393 line 15 "###### **6. (a) Other financial assets**"
+- ICDs in other financial assets, non-current, FY24: no row printed (0 ICD rows on the non-current block of the table). docs/idea/case-study/BIOCON/annual-report/FY24/p330.md p330 line 25 "|**(i) Non-current**|||"
+- ICDs in other financial assets, non-current, FY25: no row printed (0 ICD rows on the non-current block of the table). docs/idea/case-study/BIOCON/annual-report/FY25/p372.md p372 line 7 "###### 5. Non-current investments (continued...)"
 
-**Still not held:** inter-corporate deposits and other bank deposits (in other financial assets); the breakdown of note 5 non-current investments by instrument; retained earnings for three years and the stated use of the January 2026 preferential/QIP raise (other parts of the same step).
+Check (DERIVED): in every year the ICD figure inside current investments is no larger than the balance-sheet current-investments line, and the one inside non-current investments is no larger than the non-current line.
+
+**Step's own definition (FC-L3-T4-S5, `framework.md`):** Open = 'cash and bank balances including "bank balances other than cash", current investments'; Check = 'Measure idle cash and investments as a share of total assets'. That Open list is series A above (cash + bank balances other than cash + current investments). The step does not name inter-corporate deposits or long bank deposits.
+
+**DERIVED: like-for-like series (Rs million).** Formulas: A as printed = cash + bank balances other than cash + current investments (table above); ICDs outside current investments = ICDs in non-current investments + ICDs in other financial assets (non-current and current); the ICDs inside current investments are already in A, so they are not added again; LFL = A + ICDs outside current investments (ICDs counted wherever filed); LFL+ = LFL + bank deposits over 12 months; share = value / total assets x 100; gap = (LFL+ - A) / total assets, in percentage points.
+
+| Year | A as printed | A % | ICDs in current inv. (inside A) | ICDs in non-current inv. | ICDs in other fin. assets | ICDs, all places | LFL | LFL % | Bank dep. over 12 m | LFL+ | LFL+ % | Gap, points |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| FY21 | 32,241 | 17.41% | 5,850 | 4,150 | 0 | 10,000 | 36,391 | 19.65% | 1,389 | 37,780 | 20.40% | 2.99 |
+| FY22 | 29,652 | 14.54% | 9,659 | 2,629 | 0 | 12,288 | 32,281 | 15.83% | 0 | 32,281 | 15.83% | 1.29 |
+| FY23 | 37,266 | 7.16% | 8,822 | 5,380 | 0 | 14,202 | 42,646 | 8.19% | 1,250 | 43,896 | 8.43% | 1.27 |
+| FY24 | 25,743 | 4.59% | 0 | 4 | 5,380 | 5,384 | 31,127 | 5.55% | 2 | 31,129 | 5.55% | 0.96 |
+| FY25 | 45,675 | 7.77% | 0 | 0 | 3,595 | 3,595 | 49,270 | 8.38% | 18 | 49,288 | 8.38% | 0.61 |
+| FY26 | 38,834 | 6.10% | 0 | 0 | 4,053 | 4,053 | 42,887 | 6.74% | 2,754 | 45,641 | 7.17% | 1.07 |
+
+- DERIVED, FY23 to FY24 move: A as printed 7.16% to 4.59% = -2.57 points; LFL 8.19% to 5.55% = -2.64 points; LFL+ 8.43% to 5.55% = -2.88 points.
+- DERIVED, FY24 numerator: ICDs outside A in FY24 = 5,384 against A as printed 25,743 (20.9% of it); FY26 gap (LFL+ minus A) = 1.07 points of assets.
+
+- DERIVED, the narrower adjustment (A + ICDs and long deposits in other financial assets only, the arithmetic of the demotion note): FY23 7.40% to FY24 5.55% = -1.85 points. It is NOT like-for-like: FY23's 5,380 of ICDs sat in non-current investments, which that adjustment leaves out, while the same amount in FY24 sits in other financial assets and is counted.
+
+**Which series matches the step:** series A matches the step's Open list word for word, but its content is not constant. ICDs by place, FY21 to FY26: inside current investments (a line A includes) FY21 5,850; FY22 9,659; FY23 8,822; FY24 0; FY25 0; FY26 0; inside non-current investments (a line A leaves out) FY21 4,150; FY22 2,629; FY23 5,380; FY24 4; FY25 0; FY26 0; in other financial assets, non-current plus current (a line A leaves out) FY21 0; FY22 0; FY23 0; FY24 5,380; FY25 3,595; FY26 4,053. LFL holds the content the same every year (cash, bank balances, current investments and ICDs wherever filed) and is the series to compare across years; LFL+ adds the long bank deposits and is shown separately because the step names neither. Read this way the FY23 to FY24 fall is about the same size in both series (see the move lines above): the amounts do not show deposits moving out of current investments into other financial assets, because the 8,822 of FY23 current-investment ICDs is not printed again in FY24, while FY24's 5,380 in other financial assets equals the amount printed as a non-current-investment ICD at March 2023 (FY23/p392). The pages do not say whether the two 5,380 figures are the same deposits, so no flow between lines is claimed. What the as-printed series does carry is a level gap to LFL+ of 0.61 to 2.99 points of assets across the six years (Gap column). No threshold is applied: the step's only figure is an example ('cash at 60-70% of total assets') and it is not used.
+
+**Basis notes:** FY21 associates/JV (1,795) is read from a row with a garbled label (see FY22 lines above). Inter-corporate deposits and long bank deposits that sit under 'other financial assets' are not in A, B or C; they are read in the ICD block above and added only in the LFL and LFL+ columns. The step's own example is 'cash at 60-70% of total assets' (S3-160, example); no threshold is stated.
+
+**Still not held:** the breakdown of note 5 non-current investments by instrument (ICDs are the only instrument read); the standalone (Biocon Limited) series; whether the 5,380 ICD of March 2023 and March 2024 is the same deposit; retained earnings for three years and the stated use of the January 2026 preferential/QIP raise (other parts of the same step).
 
 ## L5-33
 
@@ -593,8 +780,106 @@ Check against the figures held earlier (derived-metrics-FY21-FY26.csv, `cash_sha
 - cf_intangibles: FY22 = 2,270; FY21 = 2,294. docs/idea/case-study/BIOCON/annual-report/FY22/p267.md p267 line 36 "|Payment of intangible assets|(2,270)|(2,294)|"
 - cf_intangibles: FY23 = 1,303; FY22 = 2,270 (comparative column). docs/idea/case-study/BIOCON/annual-report/FY23/p366.md p366 line 37 "|Payment of intangible assets|(1,303)|(2,270)|"
 
+**Additions to intangibles, FY24 to FY26 (added; consolidated note 4(a), gross carrying amount, 'Additions' rows; Rs million):**
+- FY24 additions (block proved by the line above it: FY24): computer software 1,395 + product-related intangibles 8,709 = 10,104 (check OK); intangible assets under development 3,479. docs/idea/case-study/BIOCON/annual-report/FY25/p369.md p369 line 15 "|Additions|-|1,395|8,709|10,104|3,479|"
+  same block, disposals/transfers out of intangibles under development = 7,291. docs/idea/case-study/BIOCON/annual-report/FY25/p369.md p369 line 17 "|Disposals/transfers|-|(1)|(9)|(10)|(7,291)|"
+- FY25 additions (block proved by the line above it: FY25): computer software 467 + product-related intangibles 709 = 1,176 (check OK); intangible assets under development 2,311. docs/idea/case-study/BIOCON/annual-report/FY25/p369.md p369 line 22 "|Additions|-|467|709|1,176|2,311|"
+  same block, disposals/transfers out of intangibles under development = 270. docs/idea/case-study/BIOCON/annual-report/FY25/p369.md p369 line 24 "|Disposals/transfers|-|(8)|-|(8)|(270)|"
+- FY25 additions (block proved by the line above it: FY25): computer software 467 + product-related intangibles 709 = 1,176 (check OK); intangible assets under development 2,311. docs/idea/case-study/BIOCON/annual-report/FY26/p367.md p367 line 12 "|Additions|-|467|709|1,176|2,311|"
+  same block, disposals/transfers out of intangibles under development = 270. docs/idea/case-study/BIOCON/annual-report/FY26/p367.md p367 line 13 "|Disposals/transfers|-|(8)|-|(8)|(270)|"
+- FY26 additions (block proved by the line above it: FY26): computer software 501 + product-related intangibles 24,951 = 25,452 (check OK); intangible assets under development 1,053. docs/idea/case-study/BIOCON/annual-report/FY26/p367.md p367 line 17 "|Additions|-|501|24,951|25,452|1,053|"
+  same block, disposals/transfers out of intangibles under development = 24,798. docs/idea/case-study/BIOCON/annual-report/FY26/p367.md p367 line 18 "|Disposals/transfers|-|(1)|(5,586)|(5,587)|(24,798)|"
+- FY25 additions read in two reports agree: both print 467 + 709 = 1,176 and 2,311 (the two lines above).
+- FY24 split of the under-development additions (FY24 report; the page reader stacked the cells, so the pair is read by position after the FY23 pair 1,678 + 152): docs/idea/case-study/BIOCON/annual-report/FY24/p327.md p327 line 9 "3,472<br>7<br>-<br>-<br>(7,291)"
+  DERIVED: products under development (internally generated) 3,472 + marketing rights 7 = 3,479, equal to the FY24 under-development additions 3,479 read above (check OK). For FY25 and FY26 the tables print ONE under-development column, so the products / marketing-rights split is not printed.
+- Transfers out of under-development in FY26 are 24,798 and product-related additions are 24,951 in the same table; the page does not say they are the same assets, so no link is claimed (the earlier note stands: adding additions rows double-counts what moves from development into completed assets).
+
+**Note 29 'Research and development expenses' (consolidated), FY21 to FY26 (added; Rs million; FY22 is the FY23 report's comparative column; FY21 is the FY21 report's own note):**
+- FY21 R&D expenses (own line) = 4,597. docs/idea/case-study/BIOCON/data/history/ar-fy21/p296.txt p296 line 6 "Research & development expenses  4,597  3,996"
+- FY21 total before recovery = 8,575. docs/idea/case-study/BIOCON/data/history/ar-fy21/p296.txt p296 line 8 "8,575  7,666"
+- FY21 recovery from co-development partners = -2,305. docs/idea/case-study/BIOCON/data/history/ar-fy21/p296.txt p296 line 9 "Less: Recovery of product development costs from co-development partners (net)  (2,305)  (2,248)"
+- FY21 expenses capitalised to intangible assets = -739. docs/idea/case-study/BIOCON/data/history/ar-fy21/p296.txt p296 line 10 "Product development costs capitalised  (739)  (1,026)"
+- FY21 net R&D expense = 5,531. docs/idea/case-study/BIOCON/data/history/ar-fy21/p296.txt p296 line 11 "5,531  4,392"
+- FY22 R&D expenses (own line) = 6,121. docs/idea/case-study/BIOCON/annual-report/FY23/p409.md p409 line 11 "|Research and development expenses|6,779|6,121|"
+- FY22 total before recovery = 10,683. docs/idea/case-study/BIOCON/annual-report/FY23/p409.md p409 line 16 "||**13,741**|**10,683**|"
+- FY22 recovery from co-development partners = -3,578. docs/idea/case-study/BIOCON/annual-report/FY23/p409.md p409 line 17 "|Less: Recovery of product development costs from co-development partners (net)|(1,789)|(3,578)|"
+- FY22 expenses capitalised to intangible assets = -1,155. docs/idea/case-study/BIOCON/annual-report/FY23/p409.md p409 line 18 "|Less: Expenses capitalized to intangible assets|(758)|(1,155)|"
+- FY22 net R&D expense = 5,950. docs/idea/case-study/BIOCON/annual-report/FY23/p409.md p409 line 19 "||**11,194**|**5,950**|"
+- FY23 R&D expenses (own line) = 6,779. docs/idea/case-study/BIOCON/annual-report/FY23/p409.md p409 line 11 "|Research and development expenses|6,779|6,121|"
+- FY23 total before recovery = 13,741. docs/idea/case-study/BIOCON/annual-report/FY23/p409.md p409 line 16 "||**13,741**|**10,683**|"
+- FY23 recovery from co-development partners = -1,789. docs/idea/case-study/BIOCON/annual-report/FY23/p409.md p409 line 17 "|Less: Recovery of product development costs from co-development partners (net)|(1,789)|(3,578)|"
+- FY23 expenses capitalised to intangible assets = -758. docs/idea/case-study/BIOCON/annual-report/FY23/p409.md p409 line 18 "|Less: Expenses capitalized to intangible assets|(758)|(1,155)|"
+- FY23 net R&D expense = 11,194. docs/idea/case-study/BIOCON/annual-report/FY23/p409.md p409 line 19 "||**11,194**|**5,950**|"
+- FY24 R&D expenses (own line) = 6,071. docs/idea/case-study/BIOCON/annual-report/FY24/p344.md p344 line 11 "|Research and development expenses|6,071|6,779|"
+- FY24 total before recovery = 12,452. docs/idea/case-study/BIOCON/annual-report/FY24/p344.md p344 line 16 "||**12,452**|**13,741**|"
+- FY24 recovery from co-development partners = -838. docs/idea/case-study/BIOCON/annual-report/FY24/p344.md p344 line 17 "|Less: Recovery of product development costs from co-development partners (net)|(838)|(1,789)|"
+- FY24 expenses capitalised to intangible assets = -74. docs/idea/case-study/BIOCON/annual-report/FY24/p344.md p344 line 18 "|Less: Expenses capitalized to intangible assets|(74)|(758)|"
+- FY24 net R&D expense = 11,540. docs/idea/case-study/BIOCON/annual-report/FY24/p344.md p344 line 19 "||**11,540**|**11,194**|"
+- FY25 R&D expenses (own line) = 5,888. docs/idea/case-study/BIOCON/annual-report/FY25/p387.md p387 line 11 "|Research and development expenses|5,888|6,071|"
+- FY25 total before recovery = 10,264. docs/idea/case-study/BIOCON/annual-report/FY25/p387.md p387 line 15 "||10,264|12,452|"
+- FY25 recovery from co-development partners = -1,476. docs/idea/case-study/BIOCON/annual-report/FY25/p387.md p387 line 16 "|Less: Recovery of product development costs from co-development partners (net)|(1,476)|(838)|"
+- FY25 expenses capitalised to intangible assets = 0. docs/idea/case-study/BIOCON/annual-report/FY25/p387.md p387 line 17 "|Less: Expenses capitalized to intangible assets|-|(74)|"
+- FY25 net R&D expense = 8,788. docs/idea/case-study/BIOCON/annual-report/FY25/p387.md p387 line 18 "||8,788|11,540|"
+- FY26 R&D expenses (own line) = 5,515. docs/idea/case-study/BIOCON/annual-report/FY26/p387.md p387 line 9 "|Research and development expenses|5,515|5,888|"
+- FY26 total before recovery = 10,958. docs/idea/case-study/BIOCON/annual-report/FY26/p387.md p387 line 13 "||10,958|10,264|"
+- FY26 recovery from co-development partners = -1,137. docs/idea/case-study/BIOCON/annual-report/FY26/p387.md p387 line 14 "|Less: Recovery of product development costs from co-development partners, (net)|(1,137)|(1,476)|"
+- FY26 expenses capitalised to intangible assets: no such row printed in note 29 (page p387.md).
+- FY26 net R&D expense = 9,821. docs/idea/case-study/BIOCON/annual-report/FY26/p387.md p387 line 15 "||9,821|8,788|"
+
+Cross-reads of comparative columns against each year's own report (DERIVED, equal or not):
+- FY24: the FY25 report's year-before column equals the FY24 report's own for total, recovery and net: yes.
+- FY25: the FY26 report's year-before column equals the FY25 report's own for total, recovery and net: yes.
+- Cross-read, FY22 report note 28 (other expenses): FY22 expenses capitalised = -1,155, matching the note 29 figure above. docs/idea/case-study/BIOCON/annual-report/FY22/p308.md p308 line 35 "|Less: Expenses capitalized to intangible assets|(1,155)|(739)|"
+- Cross-read, FY22 report note 28 (other expenses): FY21 expenses capitalised = -739, matching the note 29 figure above. docs/idea/case-study/BIOCON/annual-report/FY22/p308.md p308 line 35 "|Less: Expenses capitalized to intangible assets|(1,155)|(739)|"
+- FY26: no 'expenses capitalised to intangible assets' row is printed in note 28 (annual-report/FY26/p386.md) or note 29 (annual-report/FY26/p387.md) (searched both pages; 0 matches), so FY26 capitalised R&D is NOT PRINTED, not nil.
+
+Net R&D in the management-discussion table against the note 29 net (DERIVED difference):
+- FY24 management table net R&D = 11,540; note 29 net = 11,540; difference 0. docs/idea/case-study/BIOCON/annual-report/FY24/p207.md p207 line 46 "|Research and development expenses,<br>net of recovery partners|11,540|11,194|3%|"
+- FY25 management table net R&D = 8,585; note 29 net = 8,788; difference -203 (no reason is printed on the pages read, not held). docs/idea/case-study/BIOCON/annual-report/FY25/p239.md p239 line 40 "|Research and development expenses, net of recovery partners|8,585|11,540|-26%|"
+- FY26 management table net R&D = 9,821; note 29 net = 9,821; difference 0. docs/idea/case-study/BIOCON/annual-report/FY26/p241.md p241 line 16 "|Research and development expenses, net of recovery partners|9,821|8,585|14%|"
+
+**DERIVED table (Rs million).** Formulas: check = total - recovery - capitalised = net; shares = figure / revenue from operations x 100 (revenue from the consolidated P&L lines read in L5-33); capitalised share = capitalised / total x 100.
+
+| Year | R&D own line | Total before recovery | Recovery | Capitalised | Net | Check | Total % of revenue | Net % of revenue | Capitalised % of total |
+|---|---|---|---|---|---|---|---|---|---|
+| FY21 | 4,597 | 8,575 | 2,305 | 739 | 5,531 | OK | 12.0% | 7.7% | 8.6% |
+| FY22 | 6,121 | 10,683 | 3,578 | 1,155 | 5,950 | OK | 13.1% | 7.3% | 10.8% |
+| FY23 | 6,779 | 13,741 | 1,789 | 758 | 11,194 | OK | 12.3% | 10.0% | 5.5% |
+| FY24 | 6,071 | 12,452 | 838 | 74 | 11,540 | OK | 8.4% | 7.8% | 0.6% |
+| FY25 | 5,888 | 10,264 | 1,476 | 0 | 8,788 | OK | 6.7% | 5.8% | 0.0% |
+| FY26 | 5,515 | 10,958 | 1,137 | not printed | 9,821 | OK | 6.5% | 5.8% | not printed |
+
+**DERIVED table: what was added to intangibles against the R&D the notes say was capitalised (Rs million; additions are accruals, not cash paid).** Formula: none; cells are the figures read above and in the FY22/FY23 lines earlier in this section.
+
+| Year | Additions, other intangibles (total) | Additions, under development (total) | of which products under development | Expenses capitalised to intangible assets (note 29) |
+|---|---|---|---|---|
+| FY21 | 3,257 | 2,020 | 1,800 | 739 |
+| FY22 | 834 | 1,613 | 1,467 | 1,155 |
+| FY23 | 252 | 1,830 | 1,678 | 758 |
+| FY24 | 10,104 | 3,479 | 3,472 | 74 |
+| FY25 | 1,176 | 2,311 | not printed | 0 |
+| FY26 | 25,452 | 1,053 | not printed | not printed |
+
+**Lives and peers (added):**
+- Company's own amortisation life, FY26 policy note (acquired and product-related intangibles, NOT a life for capitalising research): docs/idea/case-study/BIOCON/annual-report/FY26/p357.md p357 line 13 "|—<br>Computer software|3-5 years|"
+- Company's own amortisation life, FY26 policy note (acquired and product-related intangibles, NOT a life for capitalising research): docs/idea/case-study/BIOCON/annual-report/FY26/p357.md p357 line 15 "|—<br>Marketing and Manufacturing rights|8-15 years|"
+- Company's own amortisation life, FY26 policy note (acquired and product-related intangibles, NOT a life for capitalising research): docs/idea/case-study/BIOCON/annual-report/FY26/p357.md p357 line 16 "|—<br>Developed technology rights|8-15 years|"
+- Company's own amortisation life, FY26 policy note (acquired and product-related intangibles, NOT a life for capitalising research): docs/idea/case-study/BIOCON/annual-report/FY26/p357.md p357 line 17 "|—<br>Brands|8-15 years|"
+- The step (FC-L7-D1) says to capitalise research 'over a life that fits the business (longer for drugs, shorter for software)' and prints no number for drugs; its only figure is an example, 'a 10-year research life, unamortised share from 10% for the oldest year to 100% for the current year (example, B11-110)', from a US source. No life is chosen or applied here; a life for BIOCON's research is not held.
+
+**What was searched for peer figures (the 10 text pages in `data/peers`: BIOCON's own page and nine others, screener summaries, third-party):**
+- 'intangible': 0 of 10 peer files hold a match.
+- 'capitalis/capitaliz': 3 of 10 peer files hold a match.
+  BIOCON: docs/idea/case-study/BIOCON/data/peers/BIOCON.txt line 92 "Company might be capitalizing the interest cost" (a screener flag about interest cost, not research).
+  LAURUSLABS: docs/idea/case-study/BIOCON/data/peers/LAURUSLABS.txt line 93 "Company might be capitalizing the interest cost" (a screener flag about interest cost, not research).
+  TORNTPHARM: docs/idea/case-study/BIOCON/data/peers/TORNTPHARM.txt line 74 "Company might be capitalizing the interest cost" (a screener flag about interest cost, not research).
+- Row label 'R&D Expenditure (Percentage of Turnover)' or 'R&D Spend as % of Sales': printed in 8 of 10 peer files; 'Requires Premium' appears in 9 of 10. Example (CIPLA):
+  docs/idea/case-study/BIOCON/data/peers/CIPLA.txt line 184 "R&D Expenditure (Percentage of Turnover)% ・Standalone data"
+  next line: docs/idea/case-study/BIOCON/data/peers/CIPLA.txt line 185 "Requires Premium". The label is there, the value is behind a paywall: no number is held.
+
+
 **Basis notes:** the additions in note 4(a) are accruals (they include internally generated development spend moved in and, in FY23, acquired intangibles), not cash paid; the cash-flow payment line is a different quantity and is shown only to prevent the two being mixed. 'Disposals/transfers' of intangible assets under development in the same table (FY22 -345 matches the FY22 additions to developed technology rights 345) are transfers out of development into completed assets, so adding the two additions rows double-counts what moved between them (the FY22 transfer is printed on FY22/p290.md; not netted above).
 
-**Still not held:** additions to intangibles for FY24 to FY26 (not read in this pass; the same note 4(a) tables carry them); the R&D expense and the capitalised-R&D split for FY22 to FY24 are held in earlier passes (FY22 report: R&D inside other expenses 6,121, FY23 note 29, FY24 note 29) and were not re-read here; the useful life to capitalise research over (FC-L7-D1 asks for one that fits drugs; no source here states one, and none is assumed); the post-adjustment multiples the step's done-when asks for.
+**Still not held:** the capitalisation life for research that the step asks for (its own wording gives no number for drugs; none is chosen here; the company's printed amortisation lives are listed above and are a different thing); peers' R&D, capitalised R&D and multiples before and after adjustment (searched, not held: see the counts above), so the step's 'two peers before and after' done-when is NOT met; the products / marketing-rights split of under-development additions for FY25 and FY26 (one column printed); the reason the FY25 management-table net R&D differs from the note 29 net; FY26 capitalised R&D (no row printed).
 
-_Readings logged: 373 cited lines, each quote checked against its line._
+_Readings logged: 523 cited lines, each quote checked against its line._
