@@ -282,36 +282,36 @@ Under the two 'Outlook' headings of the Syngene letters, the sentence that follo
 
 ### Still not held
 
-- Decks for outlook beyond one year were not read (see the added section below for the calls).
+- Decks for outlook beyond one year were not read (see the added section below for the calls); the decks were counted for L5-51 only.
 - Statements inside charts or picture text of the letters.
 
 ### Added (fix round 28): outlook beyond one year in the CALLS, the step's named source
 
 **Ask restated:** the step names the question-and-answer part of each transcript. The 14 held management-only call files (`data/management-text/call-<held date>.md`, analyst and moderator turns removed) were read here; 'line' is the line of the speaker paragraph in that file, 'speaker' is the label as printed, and every quote is re-found on its line by the code.
 
-**Method.** (1) A strict cue scan counts sentences that hold a horizon cue (list: next N years/months, next couple/few years, coming years, years to come, decade, N-year, five/ten years, by 2027-2039, calendar 2026-2029, FY27-FY39, CAGR, mid-teen(s) growth, over the next); that count is DERIVED and is a count of sentences, not of statements. (2) A person read every cue-hit sentence and also read the sentences matching 'target*, guid*, aspir*, ambiti*, FY27-FY39, mid-teen*, decade, outlook'; the statements that state a horizon beyond one year from the call date, or that say the company gives none, are listed below. The kind column is a reader's label, not a held fact. Horizons are as the sentence states them; a sentence with no end year is marked 'no end year'.
+**Method.** (1) A strict cue scan counts sentences that hold a horizon cue (list: next N years/months, next couple/few years, coming years, years to come, decade, N-year, five/ten years, by 2027-2039, calendar 2026-2029, FY27-FY39 (also written FY '27 or FY'27 in the transcripts), CAGR, mid-teen(s) growth, over the next, through/till/until 2026-2039, calendar '26 or fiscal '27 (apostrophe years), a bare '27 to '39, and beyond, longer term, from here on); that count is DERIVED and is a count of sentences, not of statements. (2) A person read every cue-hit sentence and also read the sentences matching 'target*, guid*, aspir*, ambiti*, FY27-FY39, mid-teen*, decade, outlook'; the statements that state a horizon beyond one year from the call date, or that say the company gives none, are listed below. The kind column is a reader's label, not a held fact. Horizons are as the sentence states them; a sentence with no end year is marked 'no end year'.
 
-| Call held | Quarter | cue-hit sentences | listed statements | of which Q&A | own | market | contract | outside body | declines to guide |
-|---|---|---|---|---|---|---|---|---|---|
-| 2022-11-15 | Q2 FY23 | 4 | 2 | 0 | 1 | 0 | 1 | 0 | 0 |
-| 2023-02-15 | Q3 FY23 | 9 | 6 | 5 | 5 | 1 | 0 | 0 | 0 |
-| 2023-05-24 | Q4 FY23 | 5 | 2 | 0 | 1 | 0 | 1 | 0 | 0 |
-| 2023-11-10 | Q2 FY24 | 2 | 4 | 4 | 3 | 1 | 0 | 0 | 0 |
-| 2024-02-09 | Q3 FY24 | 5 | 2 | 1 | 2 | 0 | 0 | 0 | 0 |
-| 2024-05-16 | Q4 FY24 | 9 | 4 | 1 | 2 | 1 | 1 | 0 | 0 |
-| 2024-08-09 | Q1 FY25 | 5 | 3 | 2 | 2 | 0 | 0 | 0 | 1 |
-| 2025-01-31 | Q3 FY25 | 10 | 9 | 9 | 7 | 1 | 0 | 0 | 1 |
-| 2025-05-09 | Q4 FY25 | 3 | 2 | 2 | 1 | 0 | 0 | 0 | 1 |
-| 2025-08-08 | Q1 FY26 | 7 | 4 | 4 | 4 | 0 | 0 | 0 | 0 |
-| 2025-11-12 | Q2 FY26 | 5 | 2 | 2 | 2 | 0 | 0 | 0 | 0 |
-| 2026-02-13 | Q3 FY26 | 3 | 4 | 2 | 1 | 1 | 0 | 1 | 1 |
-| 2026-05-08 | Q4 FY26 | 8 | 2 | 2 | 2 | 0 | 0 | 0 | 0 |
-| 2026-08-06 | Q1 FY27 | 11 | 4 | 3 | 3 | 0 | 0 | 0 | 1 |
-| total |  | 86 | 50 | 37 | 36 | 5 | 3 | 1 | 5 |
+| Call held | Quarter | cue-hit sentences | listed statements | of which Q&A | own | market | contract | outside body | declines to guide | pointer |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 2022-11-15 | Q2 FY23 | 4 | 2 | 0 | 1 | 0 | 1 | 0 | 0 | 0 |
+| 2023-02-15 | Q3 FY23 | 10 | 6 | 5 | 5 | 1 | 0 | 0 | 0 | 0 |
+| 2023-05-24 | Q4 FY23 | 5 | 2 | 0 | 1 | 0 | 1 | 0 | 0 | 0 |
+| 2023-11-10 | Q2 FY24 | 4 | 5 | 4 | 4 | 1 | 0 | 0 | 0 | 0 |
+| 2024-02-09 | Q3 FY24 | 5 | 2 | 1 | 2 | 0 | 0 | 0 | 0 | 0 |
+| 2024-05-16 | Q4 FY24 | 13 | 5 | 2 | 3 | 1 | 1 | 0 | 0 | 0 |
+| 2024-08-09 | Q1 FY25 | 5 | 4 | 3 | 2 | 0 | 0 | 0 | 2 | 0 |
+| 2025-01-31 | Q3 FY25 | 10 | 9 | 9 | 6 | 1 | 0 | 0 | 1 | 1 |
+| 2025-05-09 | Q4 FY25 | 5 | 5 | 5 | 2 | 0 | 0 | 0 | 3 | 0 |
+| 2025-08-08 | Q1 FY26 | 15 | 7 | 7 | 4 | 0 | 1 | 0 | 2 | 0 |
+| 2025-11-12 | Q2 FY26 | 7 | 2 | 2 | 2 | 0 | 0 | 0 | 0 | 0 |
+| 2026-02-13 | Q3 FY26 | 6 | 4 | 2 | 1 | 1 | 0 | 1 | 1 | 0 |
+| 2026-05-08 | Q4 FY26 | 15 | 4 | 4 | 2 | 0 | 0 | 0 | 2 | 0 |
+| 2026-08-06 | Q1 FY27 | 11 | 5 | 4 | 3 | 0 | 0 | 0 | 2 | 0 |
+| total |  | 115 | 62 | 48 | 38 | 5 | 4 | 1 | 13 | 1 |
 
-Of the 45 forward statements listed (DERIVED), 36 are company expectations or targets (29 said in Q&A), 5 are market projections, 3 contract terms, 1 an outside body's view quoted by management; a further 5 statements say management does not give guidance. The reader's reading of the company expectations is in the Reading paragraph below.
+**At least 48 forward statements are listed (DERIVED; a lower bound, not a census: the cue lists miss statements worded with none of their cues, and a review after the first version found four company statements the first cue list missed because the transcripts write "FY '27" or 'through to 2030').** Of them, at least 38 are company expectations or targets (30 said in Q&A), 5 are market projections, 4 contract terms (a debt maturity, bonds due '29, was moved here after review), 1 an outside body's view quoted by management. A further 1 listed item is a pointer with no figure in the call text (2025-01-31, 'The CAGRs that we mentioned are from 2023 onwards') and is not counted as a statement; and at least 13 statements say management does not give guidance. The reader's reading of the company expectations is in the Reading paragraph below.
 
-**Growth and revenue** (17)
+**Growth and revenue** (18)
 
 - 2022-11-15 (Q2 FY23), Prepared remarks, Kiran Mazumdar-Shaw, Executive Chairperson, Biocon Limited [company's own; horizon: years to come]: `data/management-text/call-2022-11-15.md` line 23: "is expected to be transformational for the manufacturing services division in the years to come."
 - 2023-02-15 (Q3 FY23), Prepared remarks, Kiran Mazumdar-Shaw, Executive Chairperson, Biocon Limited [company's own; horizon: next 5 years and beyond (THE POINTER the earlier grader already had)]: `data/management-text/call-2023-02-15.md` line 22: "will actually allow us to drive that mid-teens growth over the next 5 years and beyond."
@@ -322,10 +322,11 @@ Of the 45 forward statements listed (DERIVED), 36 are company expectations or ta
 - 2024-02-09 (Q3 FY24), Q&A, Siddharth Mittal, CEO & Managing Director, Biocon Limited [company's own; horizon: next fiscal (FY25)]: `data/management-text/call-2024-02-09.md` line 74: "we should be able to get back to the mid-teen kind of growth level in the next fiscal."
 - 2024-02-09 (Q3 FY24), Prepared remarks, Peter Bains, Group CEO, Biocon Limited [company's own; horizon: coming years]: `data/management-text/call-2024-02-09.md` line 22: "we expect peptides, and particularly GLPs, to play a major role as a future growth driver."
 - 2024-05-16 (Q4 FY24), Prepared remarks, Peter Bains, Group CEO, Biocon Limited [company's own; horizon: coming years]: `data/management-text/call-2024-05-16.md` line 22: "it is expected to increase and overtake APIs as a share of our business mix in the coming years."
+- 2024-05-16 (Q4 FY24), Q&A, Peter Bains, Group CEO, Biocon Limited [company's own; horizon: mid and longer term, no end year (added after review)]: `data/management-text/call-2024-05-16.md` line 60: "growth aspirations in the mid and the longer term"
 - 2024-08-09 (Q1 FY25), Prepared remarks, Peter Bains, Group CEO, Biocon Limited [company's own; horizon: coming years]: `data/management-text/call-2024-08-09.md` line 20: "Our extensive GLP portfolio led by Liraglutide will be the major growth driver"
 - 2025-01-31 (Q3 FY25), Q&A, Siddharth Mittal, CEO & Managing Director, Biocon Limited [company's own; horizon: mid-teen growth, reaffirmed, no end year]: `data/management-text/call-2025-01-31.md` line 118: "I had addressed a previous question where I had reaffirmed that we are looking at the mid-teen kind of growth."
 - 2025-01-31 (Q3 FY25), Q&A, Siddharth Mittal, CEO & Managing Director, Biocon Limited [company's own; horizon: next 2 to 3 years]: `data/management-text/call-2025-01-31.md` line 118: "So, sum total of all, we definitely expect a good growth over the next 2 to 3 years."
-- 2025-01-31 (Q3 FY25), Q&A, Shreehas Tambe, CEO & Managing Director, Biocon Biologics Limited [company's own; horizon: pointer to a deck figure, no number in the call text]: `data/management-text/call-2025-01-31.md` line 114: "The CAGRs that we mentioned are from 2023 onwards."
+- 2025-01-31 (Q3 FY25), Q&A, Shreehas Tambe, CEO & Managing Director, Biocon Biologics Limited [pointer, no figure in the call text; horizon: pointer to a deck figure, no number in the call text]: `data/management-text/call-2025-01-31.md` line 114: "The CAGRs that we mentioned are from 2023 onwards."
 - 2025-08-08 (Q1 FY26), Q&A, Kiran Mazumdar Shaw, Executive Chairperson, Biocon Limited [company's own; horizon: next 5 years]: `data/management-text/call-2025-08-08.md` line 105: "we are very well positioned to really surge into a leadership position in the next 5 years."
 - 2025-11-12 (Q2 FY26), Q&A, Siddharth Mittal, Chief Executive Officer & Managing Director, Biocon Limited [company's own; horizon: next decade plus]: `data/management-text/call-2025-11-12.md` line 58: "puts us in a very comfortable position to capture the opportunity for next decade plus period"
 - 2026-02-13 (Q3 FY26), Prepared remarks, Kiran Mazumdar Shaw, Executive Chairperson, Biocon Group [outside body's view; horizon: next 12 to 18 months (S&P's view)]: `data/management-text/call-2026-02-13.md` line 21: "the stable outlook reflects its view that Biocon will sustain good earnings momentum over the next 12 to 18 months"
@@ -338,23 +339,26 @@ Of the 45 forward statements listed (DERIVED), 36 are company expectations or ta
 - 2025-08-08 (Q1 FY26), Q&A, Kiran Mazumdar Shaw, Executive Chairperson, Biocon Limited [company's own; horizon: coming years]: `data/management-text/call-2025-08-08.md` line 105: "in the coming years, you will see that everything that we are doing is going to go straight to the bottom line."
 - 2026-08-06 (Q1 FY27), Q&A, Shreehas Tambe, Chief Executive Officer & Managing Director, Biocon Limited [company's own; horizon: mid-20s, no end year]: `data/management-text/call-2026-08-06.md` line 33: "We have always directed this to say we will be in the mid-20s, and it will ramp up."
 
-**Capex and capacity** (8)
+**Capex and capacity** (10)
 
-- 2023-02-15 (Q3 FY23), Q&A, M.B. Chinappa, Chief Financial Officer, Biocon Biologics Limited [company's own; horizon: per annum, no end year]: `data/management-text/call-2023-02-15.md` line 204: "We have given guidance of ₹100 to ₹150 million CapEx per annum."
+- 2023-02-15 (Q3 FY23), Q&A, M.B. Chinappa, Chief Financial Officer, Biocon Biologics Limited [company's own; horizon: per annum, no end year; currency as printed in the call text, see the discrepancy note below]: `data/management-text/call-2023-02-15.md` line 204: "We have given guidance of ₹100 to ₹150 million CapEx per annum."
 - 2023-05-24 (Q4 FY23), Prepared remarks, Kiran Mazumdar-Shaw, Executive Chairperson, Biocon Limited [company's own; horizon: coming years]: `data/management-text/call-2023-05-24.md` line 21: "Investments in R&D and Capex towards a pipeline of complex products including peptides and oncology molecules are expected to play out positively in the coming years."
 - 2024-05-16 (Q4 FY24), Q&A, Peter Bains, Group CEO, Biocon Limited [company's own; horizon: no end year]: `data/management-text/call-2024-05-16.md` line 46: "I think that what you will see is that Capex will taper down, calibrate down from recent levels"
 - 2024-08-09 (Q1 FY25), Q&A, Siddharth Mittal, CEO & Managing Director, Biocon Limited [company's own; horizon: next 5 years]: `data/management-text/call-2024-08-09.md` line 48: "the volume of business that we are targeting over the next 5 years, we will have capacities by end of this year."
 - 2025-05-09 (Q4 FY25), Q&A, Kedar Upadhye, Chief Financial Officer, Biocon Biologics Limited [company's own; horizon: next couple of years]: `data/management-text/call-2025-05-09.md` line 75: "we expect to spend about USD 100 million over the next couple of years."
+- 2025-05-09 (Q4 FY25), Q&A, Siddharth Mittal, CEO & Managing Director, Biocon Limited\ [company's own; horizon: from FY27 onwards (added after review: the transcript writes FY '27)]: `data/management-text/call-2025-05-09.md` line 79: "it will be only small bit of maintenance Capex from FY '27 onwards."
+- 2025-08-08 (Q1 FY26), Q&A, Shreehas Tambe, CEO & Managing Director, Biocon Biologics Limited [company's own; horizon: calendar '26 and beyond (added after review: apostrophe year)]: `data/management-text/call-2025-08-08.md` line 55: "we believe we will be in a position to meet that demand as it comes up in calendar '26 and beyond."
 - 2025-11-12 (Q2 FY26), Q&A, Siddharth Mittal, Chief Executive Officer & Managing Director, Biocon Limited [company's own; horizon: next couple of years]: `data/management-text/call-2025-11-12.md` line 58: "demand which we anticipate over the next couple of years, we are very confident that we will not have capacity constraints"
 - 2026-02-13 (Q3 FY26), Q&A, Shreehas Tambe, Chief Executive Officer & Managing Director, Biocon Biologics Limited [company's own; horizon: a year or 1.5 years after Feb 2026]: `data/management-text/call-2026-02-13.md` line 73: "the drug substance expansion, which is also expected to double our capacity will come in a year or 1.5 years after this."
 - 2026-05-08 (Q4 FY26), Q&A, Shreehas Tambe, Chief Executive Officer & Managing Director, Biocon Limited [company's own; horizon: coming quarters and coming years]: `data/management-text/call-2026-05-08.md` line 70: "as that demand ramps up in the coming quarters and coming years, you will start seeing better utilization"
 
 **Debt** (1)
 
-- 2025-08-08 (Q1 FY26), Q&A, Siddharth Mittal, CEO & Managing Director, Biocon Limited [company's own; horizon: bonds due '29]: `data/management-text/call-2025-08-08.md` line 35: "which are 5 years bond, which will be due for repayment in"
+- 2025-08-08 (Q1 FY26), Q&A, Siddharth Mittal, CEO & Managing Director, Biocon Limited [contract term; horizon: bonds due '29 (a debt maturity, relabelled a contract term after review)]: `data/management-text/call-2025-08-08.md` line 35: "which are 5 years bond, which will be due for repayment in"
 
-**Pipeline and launches** (7)
+**Pipeline and launches** (8)
 
+- 2023-11-10 (Q2 FY24), Prepared remarks, Peter Bains, Biocon Group CEO [company's own; horizon: through to 2030 (added after review: the cue list had no 'through to 20xx')]: `data/management-text/call-2023-11-10.md` line 22: "new product launches planned almost every year through to 2030."
 - 2023-11-10 (Q2 FY24), Q&A, Shreehas Tambe, Chief Executive Officer & Managing Director, Biocon Biologics Limited [company's own; horizon: '24 and '25]: `data/management-text/call-2023-11-10.md` line 38: "guided for a slower 2023 with pick up beginning in '24 and '25 being the real opportunity."
 - 2025-01-31 (Q3 FY25), Q&A, Siddharth Mittal, CEO & Managing Director, Biocon Limited [company's own; horizon: FY 2026 and FY 2027]: `data/management-text/call-2025-01-31.md` line 118: "starting with Liraglutide in FY 2026 and start of Semaglutide in FY 2027."
 - 2025-01-31 (Q3 FY25), Q&A, Siddharth Mittal, CEO & Managing Director, Biocon Limited [company's own; horizon: FY 2028]: `data/management-text/call-2025-01-31.md` line 118: "And in FY 2028, we will see a significant contribution coming from both Lira, Sema"
@@ -377,23 +381,36 @@ Of the 45 forward statements listed (DERIVED), 36 are company expectations or ta
 - 2023-05-24 (Q4 FY23), Prepared remarks, Kiran Mazumdar-Shaw, Executive Chairperson, Biocon Limited [contract term; horizon: 10-year contract]: `data/management-text/call-2023-05-24.md` line 21: "signing of a 10-year biologics manufacturing agreement with Zoetis, expected to be worth around US$500 million over the contract period."
 - 2024-05-16 (Q4 FY24), Prepared remarks, Peter Bains, Group CEO, Biocon Limited [contract term; horizon: 10-year contract]: `data/management-text/call-2024-05-16.md` line 22: "We have also signed a 10-year supply agreement with Eris for these products as part of the collaboration."
 
-**Guidance declined** (5)
+**Guidance declined** (13)
 
 - 2024-08-09 (Q1 FY25), Q&A, Shreehas Tambe, CEO & Managing Director, Biocon Biologics Limited [declines to guide; horizon: n/a]: `data/management-text/call-2024-08-09.md` line 66: "we have not given guidance in terms of our projections in the past and we continue to stay with this."
+- 2024-08-09 (Q1 FY25), Q&A, Shreehas Tambe, CEO & Managing Director, Biocon Biologics Limited [declines to guide; horizon: n/a]: `data/management-text/call-2024-08-09.md` line 32: "we have not provided any guidance on the numbers at this point to my knowledge."
 - 2025-01-31 (Q3 FY25), Q&A, Shreehas Tambe, CEO & Managing Director, Biocon Biologics Limited [declines to guide; horizon: n/a]: `data/management-text/call-2025-01-31.md` line 116: "And I think we have kind of tried to avoid giving specific guidance."
 - 2025-05-09 (Q4 FY25), Q&A, Kedar Upadhye, Chief Financial Officer, Biocon Biologics Limited [declines to guide; horizon: n/a]: `data/management-text/call-2025-05-09.md` line 51: "we don't give forward-looking guidance."
+- 2025-05-09 (Q4 FY25), Q&A, Kedar Upadhye, Chief Financial Officer, Biocon Biologics Limited [declines to guide; horizon: n/a]: `data/management-text/call-2025-05-09.md` line 51: "We're not giving the guidance, but directionally, you are right."
+- 2025-05-09 (Q4 FY25), Q&A, Shreehas Tambe, Chief Executive Officer & Managing Director, Biocon Biologics Limited [declines to guide; horizon: n/a]: `data/management-text/call-2025-05-09.md` line 69: "we've not guided anything specific"
+- 2025-08-08 (Q1 FY26), Q&A, Kedar Upadhye, Chief Financial Officer, Biocon Biologics Limited [declines to guide; horizon: n/a]: `data/management-text/call-2025-08-08.md` line 117: "we don't want to guide specifically at this stage."
+- 2025-08-08 (Q1 FY26), Q&A, Kedar Upadhye, Chief Financial Officer, Biocon Biologics Limited [declines to guide; horizon: n/a]: `data/management-text/call-2025-08-08.md` line 119: "we don't specifically guide for any range"
 - 2026-02-13 (Q3 FY26), Q&A, Shreehas Tambe, Chief Executive Officer & Managing Director, Biocon Biologics Limited [declines to guide; horizon: n/a]: `data/management-text/call-2026-02-13.md` line 27: "refrained from giving specific guidance for the future."
+- 2026-05-08 (Q4 FY26), Q&A, Shreehas Tambe, Chief Executive Officer & Managing Director, Biocon Limited [declines to guide; horizon: n/a]: `data/management-text/call-2026-05-08.md` line 24: "while we've not guided specifically on any numbers"
+- 2026-05-08 (Q4 FY26), Q&A, Kedar Upadhye, Chief Financial Officer, Biocon Limited [declines to guide; horizon: n/a]: `data/management-text/call-2026-05-08.md` line 58: "we don't guide specifically Tushar"
+- 2026-08-06 (Q1 FY27), Q&A, Kedar Upadhye, Chief Financial Officer, Biocon Limited [declines to guide; horizon: n/a]: `data/management-text/call-2026-08-06.md` line 45: "we are not guiding specifically"
 - 2026-08-06 (Q1 FY27), Q&A, Shreehas Tambe, Chief Executive Officer & Managing Director, Biocon Limited [declines to guide; horizon: n/a]: `data/management-text/call-2026-08-06.md` line 33: "I do not think we have guided anything beyond that"
 
-**The pointer the earlier grader already had:** 'mid-teens growth over the next 5 years and beyond' on the call held 2023-02-15 is the first Growth item for that date above, said in the Prepared remarks. It is one of 45 forward statements found here, so the earlier count of one numeric multi-year target is not the full list; it was also later cut: on 2023-11-10 the same speaker (Biocon Limited's chief executive) moved the figure to 'low teens to high single digits' (Growth items above).
+**Unit discrepancy, kept visible and not reconciled (capex range).** The call held 2023-02-15 and the FY22 Biocon Biologics letter print the same 100-150 million range with different currency marks:
+- call, Q&A, M.B. Chinappa, Chief Financial Officer, Biocon Biologics Limited: `data/management-text/call-2023-02-15.md` line 204: "We have given guidance of ₹100 to ₹150 million CapEx per annum."
+- FY22 Biocon Biologics letter: `annual-report/FY22/p038.md` line 27: "within the overall USD 100-150 million range for annual capex over three years"
+The call text prints a rupee sign, the letter prints USD. The held files do not say which is right (a transcription error in the call text is possible but not shown by anything held); so the capex statement dated 2023-02-15 above is listed with its currency flagged, and no rupee or dollar figure is taken from it. Not held: the Biocon Biologics presentation or filing for that guidance.
 
-**Reading (counts and quotes only).** The calls do carry multi-year statements, mostly qualitative ('coming years', 'next decade'). The statements with a number and a horizon from the company itself are: mid-teens growth for Generics over five years (2023-02-15), a capex range per annum (2023-02-15), capacity for the next five years' volume (2024-08-09), about USD 100 million capex over the next couple of years (2025-05-09), and five launches in 12 to 18 months (2025-08-08). From 2024-08-09 on, management says 5 times, on 5 calls, that it gives no guidance (listed under 'Guidance declined'). This is a count of statements; it does not say whether they were met.
+**The pointer the earlier grader already had:** 'mid-teens growth over the next 5 years and beyond' on the call held 2023-02-15 is the first Growth item for that date above, said in the Prepared remarks. It is one of at least 48 forward statements found here, so the earlier count of one numeric multi-year target is not the full list; it was also later cut: on 2023-11-10 the same speaker (Biocon Limited's chief executive) moved the figure to 'low teens to high single digits' (Growth items above).
+
+**Reading (counts and quotes only).** The calls do carry multi-year statements, mostly qualitative ('coming years', 'next decade'). The statements with a number and a horizon from the company itself are: mid-teens growth for Generics over five years (2023-02-15), a capex range per annum (2023-02-15), capacity for the next five years' volume (2024-08-09), about USD 100 million capex over the next couple of years (2025-05-09), and five launches in 12 to 18 months (2025-08-08). From 2024-08-09 on, at least 13 listed statements, on at least 7 calls, say management does not give guidance (listed under 'Guidance declined'). A regex scan of all 14 call files (DERIVED; pattern: not/n't/never/refrain*/avoid* within 40 characters before 'guid*', or 'guid*' then not/n't within 30 characters, or 'refrain* from giving', or 'avoid* giving') finds decline wording on 7 calls (2024-08-09 lines 32,66, 2025-01-31 lines 114,116, 2025-05-09 lines 51,69,89, 2025-08-08 lines 117,119, 2026-02-13 lines 27,49, 2026-05-08 lines 24,58,82, 2026-08-06 lines 33,45); both counts are lower bounds, and some regex hits are declines about something other than forward guidance (capacity of a facility, competitors, market share), so the regex count is a pointer to read, not a count of guidance declines. This is a count of statements; it does not say whether they were met.
 
 **Still not held / UNCHECKED:** only sentences matching the cue lists were read; a multi-year statement worded with none of the cues would be missed. Analyst questions are not in the held text, so the question that prompted an answer is not shown. Deck text (decks-layout) was not read for this row. The annual-report letters' statements are in the sections above.
 
 ## L5-51
 
-**Ask (step FC-L5-T4-S1, row L5-51):** judge the tone of the letters, calls and decks: conservative or promotional, words or numbers; count a theme word and check whether numbers back it. This group read the annual-report letters (FY22 to FY26) and, in the added section, the calls' opening remarks; decks are not covered (reason given in the added section).
+**Ask (step FC-L5-T4-S1, row L5-51):** judge the tone of the letters, calls and decks: conservative or promotional, words or numbers; count a theme word and check whether numbers back it. This group read the annual-report letters (FY22 to FY26) and, in the added section, the calls' opening remarks, the 11 held decks (numeric share and word counts), the topics of the prepared remarks, and a labelled reader's pass on guidance against outcome.
 
 ### Method (stated in the code; every count is DERIVED and says nothing about sincerity)
 
@@ -401,6 +418,7 @@ Of the 45 forward statements listed (DERIVED), 36 are company expectations or ta
 - Hedging words: may, might, could, should, expect*, anticipat*, believe*, hope*, intend*, subject to, likely, potential*
 - Quantified token: a number that carries %, a unit (million, billion, crore, x, times, fold, MW, GW, tonnes, lakh) or a currency mark. Bare numbers, years, FY labels, days and ordinals are not counted.
 - Theme words: growth, innovat*, integrat*, transform*, AI, digital*, sustainab*, access*, affordab* (the main theme word of a year is the one with the highest count in that year's core letters).
+- Pull-quote lines are dropped before every count in this section and in L5-53 (rule: a line set entirely in capitals with five or more words, which repeats a sentence of the body). A reader who recounts a word from the raw pages without that rule gets a higher count where a pull-quote holds the word: FY22 'growth' is 18 here and 20 on the raw pages (the two lines are listed under the theme table).
 - Key sentences per letter are picked by four fixed rules, not by judgement: the first sentence of the body, the last sentence, the sentence with the most quantified tokens, and the sentence with the most confidence plus hedging words (first wins a tie). Sentences are cut at 30 words where longer.
 
 ### Per letter (DERIVED counts)
@@ -447,17 +465,36 @@ Core letters by year (DERIVED sums; the ratio columns divide the year's counts b
 | FY25 | 13 | 5 | 3 | 1 | 1 | 6 | 6 | 9 | 5 | growth | 8 | 2 |
 | FY26 | 6 | 7 | 6 | 4 | 3 | 1 | 5 | 8 | 6 | access | 7 | 1 |
 
-The numbers that back the main theme word, first two sentences per year that contain both:
+The numbers that back the main theme word: every core-letter sentence that contains the main theme word and a quantified token (15 sentences in all, DERIVED; an earlier version listed only the first two per year, 9 of them). Sentences are cut at 30 words where longer:
 
 - FY22, sentence with 'growth' and a number: `annual-report/FY22/p018.md` line 35: "The performance of our portfolio of commercialized biosimilars in both developed and emerging markets yielded a 24% growth in our Biosimilars business revenues this year."
 - FY22, sentence with 'growth' and a number (cut at 30 words): `annual-report/FY22/p019.md` line 47: "Our Research Services business, Syngene, which delivered a revenue growth of 19%, is well poised to capture opportunities arising from the growing global demand for CRO and CDMO services through"
+- FY22, sentence with 'growth' and a number (cut at 30 words): `annual-report/FY22/p028.md` line 19: "In FY22, Biocon Biologics recorded a healthy 24% growth over the previous year, taking its revenues to ` 34,643 million, with the most significant growth driver being interchangeable bGlargine attaining"
+- FY22, sentence with 'growth' and a number (cut at 30 words): `annual-report/FY22/p029.md` line 31: "In FY22, Syngene, our contract research, development and manufacturing company, delivered revenue growth of 19% to ` 26,042 million on the back of sustained growth in all divisions, across small"
 - FY23, sentence with 'growth' and a number (cut at 30 words): `annual-report/FY23/p033.md` line 25: "The Biosimilars business reported a growth of 61%, contributing nearly half of Biocon Limited’s consolidated revenue of ` 115,501 million (~USD 1.4 billion), which increased 38% from the last financial"
 - FY23, sentence with 'growth' and a number: `annual-report/FY23/p039.md` line 7: "The business saw a steady growth of 13% Y-o-Y in FY23, clocking `26,367 million (USD 321 million)."
+- FY23, sentence with 'growth' and a number: `annual-report/FY23/p042.md` line 15: "year for the Biosimilars business, clocking growth of 61% and 68% in revenues and core EBITDA, respectively, to close with a top line of `55,838 million (USD 681 million)."
+- FY23, sentence with 'growth' and a number (cut at 30 words): `annual-report/FY23/p044.md` line 7: "Our contract research, development and manufacturing organization, Syngene, delivered a very positive FY23 performance, clocking a revenue growth of 23% to `31,929 million (USD 389 million), surpassing its upgraded mid-year"
 - FY24, sentence with 'growth' and a number (cut at 30 words): `annual-report/FY24/p030.md` line 17: "In 2023, the global biopharmaceuticals market was valued at USD 1.4 trillion, and is anticipated to grow at a compounded annual growth rate (CAGR) between 5% and 8% to ~USD"
 - FY24, sentence with 'growth' and a number (cut at 30 words): `annual-report/FY24/p032.md` line 11: "At the same time, the business was able to maintain strong momentum for its commercialized products, crossing the USD 1 billion annual sales threshold and delivering commendable market share growth"
+- FY24, sentence with 'growth' and a number (cut at 30 words): `annual-report/FY24/p034.md` line 15: "The fiscal year under review, FY24, saw a robust performance at the Group level with consolidated revenues growing by 35% to `H` 156,212 million, led by a 58% growth in"
+- FY24, sentence with 'growth' and a number: `annual-report/FY24/p034.md` line 15: "Net Profit of the Group, after exceptional items, also reported a healthy 121% growth to `H` 10,225 million."
 - FY25, sentence with 'growth' and a number: `annual-report/FY25/p021.md` line 7: "This was led by a 15%* growth in our Biosimilars business, with the Generics businesses and Research Services revenues growing by 8% and 4%, respectively."
 - FY25, sentence with 'growth' and a number: `annual-report/FY25/p021.md` line 33: "The Generics business concluded the year with an 8% growth in FY25 over the previous year."
 - FY26, sentence with 'access' and a number: `annual-report/FY26/p020.md` line 21: "In FY26 alone, Biocon benefited over 23 million patients globally through our generics and biosimilars, reinforcing our mission to expand access to life-changing medicines."
+
+Raw-page recount of the theme words (DERIVED): all-capitals pull-quote lines are dropped from every count in this section (rule in `is_pull_quote`: a line set entirely in capitals with five or more words, which repeats a sentence of the body). Counting every line of the pages instead gives these main-theme-word counts:
+
+| Year | main theme word | count used here (pull-quotes dropped) | count on all lines | difference |
+|---|---|---|---|---|
+| FY22 | growth | 18 | 20 | 2 |
+| FY23 | growth | 32 | 32 | 0 |
+| FY24 | growth | 29 | 29 | 0 |
+| FY25 | growth | 13 | 13 | 0 |
+| FY26 | access | 8 | 8 | 0 |
+
+- FY22, pull-quote line dropped from the counts: `annual-report/FY22/p027.md` line 35: "WE ARE ALSO INVESTING IN A SYNTHETIC API FACILITY IN HYDERABAD AND AN INJECTABLE FACILITY IN BENGALURU, BOTH OF WHICH ARE STRATEGICALLY IMPORTANT FOR OUR LONG-TERM GROWTH."
+- FY22, pull-quote line dropped from the counts: `annual-report/FY22/p031.md` line 15: "EACH OF OUR BUSINESS SEGMENTS IS WELLPOSITIONED FOR FUTURE GROWTH ON THE BACK OF CAPACITY EXPANSIONS, CUSTOMER ACQUISITIONS AND A ROBUST PIPELINE."
 
 ### Key sentences of the core letters (picked by the four rules above)
 
@@ -534,7 +571,7 @@ The numbers that back the main theme word, first two sentences per year that con
 ### Reading of the counts
 
 - The counts are descriptive. A high count of confidence words does not mean promotion and a low count does not mean caution; the step's own test is whether numbers back the words, and the quantified-token and theme-sentence columns are the nearest countable form of that test.
-- The step's 'conservative or promotional' call is not made here; the tone anchors in `voice.md` were not re-graded.
+- The step's 'conservative or promotional' call is not made from these counts; a labelled reader's note on it, built on guidance against outcome, is in the added section below. The tone anchors in `voice.md` were not re-graded.
 
 ### Letter boundaries used
 
@@ -560,8 +597,8 @@ The numbers that back the main theme word, first two sentences per year that con
 
 ### Still not held
 
-- Tone of the decks (not covered, see the added section); the concall opening remarks are counted in the added section.
-- Any judgement of tone: not made (the brief for this group forbids a verdict on sincerity).
+- The decks and the concall opening remarks are counted in the added section.
+- Any held-fact judgement of tone: none; the one labelled reader's note is in the added section, and no verdict on sincerity is made anywhere.
 
 ### Added (fix round 28): the calls' opening remarks next to the letters (DERIVED, same word lists and same quantified-token rule as above)
 
@@ -595,7 +632,115 @@ Per call (DERIVED):
 | 2026-05-08 | Q4 FY26 | 1487 | 32 | 21.5 | 8 | 5 | 5.4 | 3.4 |
 | 2026-08-06 | Q1 FY27 | 1421 | 23 | 16.2 | 16 | 10 | 11.3 | 7.0 |
 
-**Decks: not covered.** The held deck text (`data/decks-layout/deck-*.txt`) is slide layout text: tables, chart labels and a cover letter (the Q1 FY26 deck's page 2 holds only the call title and date). A per-1,000-word count over it would measure table density, not tone, and slide text is not easy to read as running prose; so no deck count or tone reading is made here.
+### Decks: numeric share and the same word lists (DERIVED)
+
+**Why this is counted:** the step's Open names the deck and its Check asks whether it is built on data or on show. An earlier version skipped the decks on the ground that a count would only measure table density; table density is a direct measure of 'built on data', so the 11 held decks are counted here. **Definitions (code):** the deck files are slide layout text (`data/decks-layout/deck-*.txt`, one '=== ... page N ===' marker per slide, marker lines left out). A token is a whitespace-separated piece of text; a **numeric token** is a token that holds at least one digit (so '13%', '2,721', 'FY26' and a phone number all count); **numeric share** = numeric tokens / all tokens x 100. Confidence and hedging words are counted with exactly the lists printed in the Method section above, divided by tokens (not by the letters' word count), so the per-1,000 figures are close to but not identical in basis with the letters' and calls' figures. A high numeric share says a deck is mostly figures; it does not say the figures are right or that the deck is candid, and cover, legal and agenda slides lower the share.
+
+| Deck (date and quarter) | Pages | Tokens | Numeric tokens | numeric share % | Confidence words | Hedging words | confidence per 1,000 tokens | hedging per 1,000 tokens |
+|---|---|---|---|---|---|---|---|---|
+| 2024-02-09-q3fy24 | 35 | 3991 | 418 | 10.5 | 22 | 11 | 5.5 | 2.8 |
+| 2024-05-17-q4fy24 | 21 | 2147 | 420 | 19.6 | 11 | 14 | 5.1 | 6.5 |
+| 2024-08-09-q1fy25 | 18 | 1517 | 342 | 22.5 | 7 | 17 | 4.6 | 11.2 |
+| 2024-10-30-q2fy25 | 20 | 1629 | 348 | 21.4 | 9 | 10 | 5.5 | 6.1 |
+| 2025-01-31-q3fy25 | 17 | 1574 | 357 | 22.7 | 8 | 8 | 5.1 | 5.1 |
+| 2025-05-09-q4fy25 | 17 | 1405 | 344 | 24.5 | 8 | 8 | 5.7 | 5.7 |
+| 2025-08-08-q1fy26 | 16 | 1456 | 255 | 17.5 | 12 | 5 | 8.2 | 3.4 |
+| 2025-11-12-q2fy26 | 16 | 1425 | 243 | 17.1 | 15 | 9 | 10.5 | 6.3 |
+| 2026-02-13-q3fy26 | 16 | 1208 | 240 | 19.9 | 9 | 5 | 7.5 | 4.1 |
+| 2026-05-08-q4fy26 | 17 | 1500 | 360 | 24.0 | 6 | 9 | 4.0 | 6.0 |
+| 2026-08-06-q1fy27 | 16 | 1167 | 201 | 17.2 | 6 | 6 | 5.1 | 5.1 |
+
+Each deck file, with its first page marker re-found on its line:
+
+- `data/decks-layout/deck-2024-02-09-q3fy24.txt` line 1: "=== deck-2024-02-09-q3fy24 page 1 ==="
+- `data/decks-layout/deck-2024-05-17-q4fy24.txt` line 1: "=== deck-2024-05-17-q4fy24 page 1 ==="
+- `data/decks-layout/deck-2024-08-09-q1fy25.txt` line 1: "=== deck-2024-08-09-q1fy25 page 1 ==="
+- `data/decks-layout/deck-2024-10-30-q2fy25.txt` line 1: "=== deck-2024-10-30-q2fy25 page 1 ==="
+- `data/decks-layout/deck-2025-01-31-q3fy25.txt` line 1: "=== deck-2025-01-31-q3fy25 page 1 ==="
+- `data/decks-layout/deck-2025-05-09-q4fy25.txt` line 1: "=== deck-2025-05-09-q4fy25 page 1 ==="
+- `data/decks-layout/deck-2025-08-08-q1fy26.txt` line 1: "=== deck-2025-08-08-q1fy26 page 1 ==="
+- `data/decks-layout/deck-2025-11-12-q2fy26.txt` line 1: "=== deck-2025-11-12-q2fy26 page 1 ==="
+- `data/decks-layout/deck-2026-02-13-q3fy26.txt` line 1: "=== deck-2026-02-13-q3fy26 page 1 ==="
+- `data/decks-layout/deck-2026-05-08-q4fy26.txt` line 1: "=== deck-2026-05-08-q4fy26 page 1 ==="
+- `data/decks-layout/deck-2026-08-06-q1fy27.txt` line 1: "=== deck-2026-08-06-q1fy27 page 1 ==="
+
+### Topics of the prepared remarks (the topics management raises without being asked), DERIVED
+
+Topic word lists (whole words, * = any ending; a sentence can hold several topics, so a row's topic counts do not sum to its sentence count):
+
+- Biosimilars: biosimilar*, Biologics, adalimumab, ustekinumab, bevacizumab, aspart, denosumab, insulin*
+- Generics and APIs: generic*, API, APIs, formulation*, statin*
+- Syngene and research services: Syngene, CRDMO, CDMO, research services
+- GLP-1 and peptides: GLP*, liraglutide, semaglutide, peptide*, tirzepatide
+- Debt and interest: debt, deleverag*, borrowing*, interest cost*, net debt
+- Capex and capacity: capex, capacity, capacities, facility, facilities, plant*
+- R&D and launches: R&D, pipeline, launch*, approval*
+- Quality and regulators: FDA, inspection*, EIR, compliance, EMA
+- Margin and profit: EBITDA, margin*, net profit, PBT
+- Merger and integration: Viatris, Mylan, merger, integration, integrated
+
+Prepared-remarks sentences holding each topic's words, per call (DERIVED counts):
+
+| Call held | Quarter | Prepared sentences | Biosimilars | Generics and APIs | Syngene and research services | GLP-1 and peptides | Debt and interest | Capex and capacity | R&D and launches | Quality and regulators | Margin and profit | Merger and integration |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 2022-11-15 | Q2 FY23 | 108 | 18 | 8 | 6 | 1 | 1 | 3 | 11 | 0 | 7 | 17 |
+| 2023-02-15 | Q3 FY23 | 113 | 35 | 7 | 7 | 3 | 6 | 5 | 22 | 10 | 12 | 17 |
+| 2023-05-24 | Q4 FY23 | 143 | 29 | 16 | 13 | 3 | 6 | 8 | 22 | 5 | 18 | 14 |
+| 2023-11-10 | Q2 FY24 | 138 | 27 | 15 | 6 | 2 | 1 | 9 | 12 | 4 | 12 | 9 |
+| 2024-02-09 | Q3 FY24 | 104 | 23 | 15 | 10 | 2 | 6 | 10 | 15 | 4 | 13 | 9 |
+| 2024-05-16 | Q4 FY24 | 190 | 38 | 27 | 21 | 15 | 3 | 18 | 25 | 7 | 20 | 4 |
+| 2024-08-09 | Q1 FY25 | 93 | 17 | 13 | 11 | 4 | 0 | 7 | 11 | 9 | 12 | 1 |
+| 2025-01-31 | Q3 FY25 | 103 | 20 | 16 | 11 | 5 | 0 | 4 | 23 | 9 | 18 | 6 |
+| 2025-05-09 | Q4 FY25 | 77 | 17 | 10 | 9 | 6 | 0 | 5 | 14 | 2 | 14 | 1 |
+| 2025-08-08 | Q1 FY26 | 96 | 30 | 7 | 14 | 8 | 0 | 11 | 14 | 2 | 8 | 2 |
+| 2025-11-12 | Q2 FY26 | 83 | 18 | 9 | 14 | 2 | 3 | 3 | 15 | 2 | 8 | 6 |
+| 2026-02-13 | Q3 FY26 | 106 | 26 | 16 | 8 | 6 | 2 | 7 | 17 | 6 | 15 | 7 |
+| 2026-05-08 | Q4 FY26 | 85 | 21 | 11 | 5 | 4 | 2 | 1 | 14 | 1 | 15 | 4 |
+| 2026-08-06 | Q1 FY27 | 62 | 18 | 8 | 5 | 2 | 1 | 2 | 9 | 1 | 7 | 4 |
+| total |  | 1501 | 337 | 178 | 140 | 63 | 31 | 93 | 224 | 62 | 179 | 101 |
+
+Topics by total sentences across the 14 calls (DERIVED): Biosimilars 337, R&D and launches 224, Margin and profit 179, Generics and APIs 178, Syngene and research services 140, Merger and integration 101, Capex and capacity 93, GLP-1 and peptides 63, Quality and regulators 62, Debt and interest 31.
+Why this answers 'topics management raises without being asked': the prepared remarks are read out before any analyst question; the held call file separates them under a heading, e.g. `data/management-text/call-2024-08-09.md` line 18: "## Prepared remarks". What the analysts asked is not held (the held text keeps management's answers only), so a topic that appears here is one management chose to raise first; a topic absent here may still be raised in answers.
+
+### Guidance against outcome (the held values), then a labelled reader's pass
+
+Each row pairs what management guided, quoted from a call, with what it reported, quoted from a call. Every quote is re-found on its line. The one-line reading after each pair restates the two values and says if they match; it is not a verdict.
+
+**Generics growth guide: mid-teens (2023-02-15), cut to low teens to high single digits (2023-11-10), reaffirmed as mid-teens (2025-01-31)**
+- guide, 2023-02-15 (Q3 FY23), Prepared remarks, Kiran Mazumdar-Shaw, Executive Chairperson, Biocon Limited: `data/management-text/call-2023-02-15.md` line 22: "will actually allow us to drive that mid-teens growth over the next 5 years and beyond."
+- guide, 2023-11-10 (Q2 FY24), Q&A, Siddharth Mittal, CEO & Managing Director, Biocon Limited: `data/management-text/call-2023-11-10.md` line 104: "the guidance that I had given last year of mid-teens might be more titrated down to low teens to high single digits."
+- guide, 2025-01-31 (Q3 FY25), Q&A, Siddharth Mittal, CEO & Managing Director, Biocon Limited: `data/management-text/call-2025-01-31.md` line 118: "I had addressed a previous question where I had reaffirmed that we are looking at the mid-teen kind of growth."
+- outcome, 2023-11-10 (Q2 FY24), Q&A, Siddharth Mittal, CEO & Managing Director, Biocon Limited: `data/management-text/call-2023-11-10.md` line 104: "we've had a H1 growth of 9% in the Generics business."
+- outcome, 2025-05-09 (Q4 FY25), Prepared remarks, Kiran Mazumdar Shaw, Executive Chairperson, Biocon Limited: `data/management-text/call-2025-05-09.md` line 23: "For FY'25, Revenue from Operations was INR 3,017 crores, reflecting an 8% year-on-year increase."
+- Reading (values only): reported growth was 9% (H1 of FY24) and 8% (FY25), against a guide worded as mid-teens over five years: below the guide on both held outcomes, and the guide was itself revised on 2023-11-10; the two are not like for like (a five-year pace against single periods).
+
+**Biocon Biologics research and development spend guide: 12% of revenue (the sentence sits in the Biocon Biologics full-year paragraph of the call)**
+- guide, 2023-05-24 (Q4 FY23), Prepared remarks, Kiran Mazumdar-Shaw, Executive Chairperson, Biocon Limited: `data/management-text/call-2023-05-24.md` line 21: "which is higher than our guidance of 12% on account of the closing timelines of the Viatris transaction."
+- outcome, 2023-05-24 (Q4 FY23), Prepared remarks, Kiran Mazumdar-Shaw, Executive Chairperson, Biocon Limited: `data/management-text/call-2023-05-24.md` line 21: "Net R&D spend for the year was at 16%"
+- Reading (values only): Biocon Biologics' reported FY23 net R&D spend was 16% against a 12% guide: above the guide, with a cause stated in the sentence (the closing timeline of the Viatris deal).
+
+**Biosimilar launches guide: five products in 12 to 18 months**
+- guide, 2025-11-12 (Q2 FY26), Prepared remarks, Kiran Mazumdar Shaw, Executive Chairperson, Biocon Group: `data/management-text/call-2025-11-12.md` line 16: "we had guided to launch five biosimilar products over the next 12 to 18 months"
+- outcome, 2025-08-08 (Q1 FY26), Q&A, Shreehas Tambe, CEO & Managing Director, Biocon Biologics Limited: `data/management-text/call-2025-08-08.md` line 97: "Four of those five are already now getting to launch, four of them we've launched."
+- outcome, 2025-11-12 (Q2 FY26), Prepared remarks, Kiran Mazumdar Shaw, Executive Chairperson, Biocon Group: `data/management-text/call-2025-11-12.md` line 16: "we expect an imminent launch of bDenosumab"
+- Reading (values only): four of the five launched by August 2025 and the fifth was 'imminent' in November 2025, while the same sentence says the commitment was delivered: management words it as delivered; by the held text the fifth had not yet launched.
+
+**EBITDA margin guide of 10% to 12%, with 13% to 14% 'in 1 or 2 years' (reader's reading: Generics, from the surrounding sentences on the Liraglutide and Vizag facilities; the quoted sentence does not name the segment)**
+- guide, 2025-01-31 (Q3 FY25), Q&A, Siddharth Mittal, CEO & Managing Director, Biocon Limited: `data/management-text/call-2025-01-31.md` line 120: "directionally, what I have guided for is an EBITDA margin of 10% to 12%."
+- guide, 2025-01-31 (Q3 FY25), Q&A, Siddharth Mittal, CEO & Managing Director, Biocon Limited: `data/management-text/call-2025-01-31.md` line 120: "but we will get closer to 13%, 14% in 1 or 2 years."
+- outcome, 2025-05-09 (Q4 FY25), Prepared remarks, Kiran Mazumdar Shaw, Executive Chairperson, Biocon Limited: `data/management-text/call-2025-05-09.md` line 23: "EBITDA for FY'25 was INR 377 crores with EBITDA margin at 12%."
+- Reading (values only): the FY25 Generics margin (the paragraph it sits in is the Generics business) is stated as 12% (DERIVED 377 / 3,017 = 12.5%), at the top of the 10% to 12% range; the sentence does not say which year the range was a guide for, and the 13% to 14% horizon had not run its course in the held text.
+
+**The FY26 letters' wording on profit (a fact about the words):** the Chairperson's letter prints revenue and EBITDA as growth rates and net profit as a level: `annual-report/FY26/p021.md` line 1: "Operating revenue and EBITDA grew at 13% and 25%, respectively, on a like-to-like basis, and Net Profit was". DERIVED context from the report's table: consolidated profit attributable to shareholders 10,133 (FY25) to 3,856 (FY26), change -61.9% (formula (FY26 - FY25) / FY25 x 100), from `annual-report/FY26/p347.md` line 43: "Shareholders of the Company<br>||3,856<br>|10,133<br>|". The letter's sentence prints no year-ago profit figure and no change.
+
+#### READER'S NOTE, NOT A HELD FACT: is the guidance conservative or promotional?
+
+A person's reading of the four guide-and-outcome pairs and the letter wording above, offered because the step asks for a call and an absent call is worse than a labelled one. It is a reading of these held values only; it is no finding about sincerity, and it does not generalise past the four pairs.
+
+- Of the four pairs: one outcome was below its guide on both held readings (Generics growth), one spend came in above its guide with a stated cause (Biocon Biologics' R&D), one was reported as delivered while the held text shows the fifth item still to come (launches), and one sat at the top of its range (Generics margin).
+- On the growth guide the held outcomes sit below the number given, and the guide was cut once and reaffirmed later: that reads as promotional on that number. On margins and launches the guides were given as ranges or counts and the outcomes were at or near them: that reads as neither conservative nor promotional, just met or nearly met. Management also states misses and revisions in its own words on the calls (the guide cut on 2023-11-10; the R&D overshoot; 'slower than what we had initially planned' on 2023-11-10).
+- Reader's call, labelled: mixed, leaning promotional on the headline growth number, plain on the rest. The letters add a wording point: net profit is printed as a level with no year-ago figure in a year when the report's own table shows a fall, while revenue and EBITDA are printed as growth rates; that is about how the sentence is built, not about intent.
+- What would change this reading: a held outcome for more guides (only four pairs are held), the analysts' questions (not held), and the later years' outcomes for the margin and launch guides.
 
 **Key sentences of each call's Prepared remarks (picked by the same two fixed rules as for letters; each quote re-found on its line):**
 
@@ -630,14 +775,14 @@ Per call (DERIVED):
 
 ### READER'S NOTE, NOT A HELD FACT (tone of letters and calls)
 
-This note is a person's reading of the counts and quotes above. It consists only of the DERIVED counts in the two tables, the quotes listed, and a short list of what a reader may infer, each inference tied to a quote. It issues no tone verdict and says nothing about sincerity.
+This note is a person's reading of the counts and quotes above. It consists only of the DERIVED counts in the tables, the quotes listed, and a short list of what a reader may infer, each inference tied to a quote. It makes no finding about sincerity; its one labelled call on 'conservative or promotional' is in the guidance-against-outcome block above, marked there as a reader's note.
 
 - A reader may infer that, in FY26, the calls' prepared remarks carry more quantified tokens per 1,000 words than the core letters (21.6 against 7.7) and fewer confidence words per 1,000 (11.2 against 13.4): the two documents are written to the same word lists but at different densities. Tied to the counts in the first table.
 - A reader may infer that weak results are described as planned rather than as misses: Peter Bains, Group CEO, Biocon Limited says (Prepared remarks, data/management-text/call-2024-08-09.md line 20): "Overall, while the performance for the quarter was muted, it was in line with our expectations".
 - A reader may infer that plain wording exists on the calls when a question is direct: Kiran Mazumdar Shaw, Executive Chairperson, Biocon Limited (Q&A, data/management-text/call-2025-08-08.md line 105): "You are right that the debt burden is what is dragging down the perspective or the perception of what investors feel about this acquisition."
 - A reader may infer that forward wording is directional rather than numeric: Siddharth Mittal, CEO & Managing Director, Biocon Limited (Q&A, data/management-text/call-2025-01-31.md line 118): "we definitely expect a good growth over the next 2 to 3 years." (no figure follows the horizon in that sentence).
 
-**Still not held:** a deck reading (see above); the question-and-answer tone (only the Prepared remarks were counted here); any judgement of 'conservative' or 'promotional', which no count answers.
+**Still not held:** the deck's topic list (the decks are layout text; topics were listed for the calls' prepared remarks only); the question-and-answer tone (only the Prepared remarks were counted here); a held-fact answer to 'conservative or promotional', which no count answers (the labelled reader's pass above is not a held fact); the analysts' questions.
 
 ## L5-53
 
@@ -842,7 +987,16 @@ Hits per weak-quarter call (DERIVED counts):
 - a self-correction, Q3 FY23 call: `/home/user/roast-room/.claude/skills/roast-room/brains/biocon-management/voice.md` line 35: "if it led you to believe anything different then I would like to correct myself."
   - on the call held 2023-02-15 (Q3 FY23), Q&A, Shreehas Tambe, CEO & Managing Director, Biocon Biologics Limited: `data/management-text/call-2023-02-15.md` line 152: "if it led you to believe anything different then I would like to correct myself."
 
-**Reading (words and quotes, no verdict on candour).** In the letters the step words appear once and no admission-list hit admits a mistake (sections above). On the calls the picture is different in kind: management does say plain things when asked, the clearest being the debt-burden answer on 2025-08-08, and it states weak results with a cause named outside the company (pricing, raw materials, the dollar) or as 'in line with expectations'. Hits on the step's two words ('mistake*', 'error*') across the 4 weak-quarter calls: 0 (DERIVED).
+**Adverse remarks found by a wider scan after the first version (words such as slower than, below expectations, wrongly, titrated down, observations cited; each quote re-found on its line). Reader's description only; none is read as an admission of an own mistake by product and period:**
+
+- FY23 Biocon Limited CEO letter: US FDA inspection, three observations cited, answered with a corrective-action plan: `annual-report/FY23/p041.md` line 7: "Three observations were cited, to which we responded with a comprehensive Corrective and Preventive Actions (CAPA)." -- reader: inspection findings described with a corrective action; the sentence does not call them a mistake
+- FY25 Biocon Limited CEO letter: US FDA pre-approval inspection, observations answered: `annual-report/FY25/p022.md` line 19: "We responded to the observations and received the Establishment Inspection Report (EIR)" -- reader: inspection findings described with a response; the number of observations is not stated in the sentence
+- 2023-11-10 call (not a classed weak-quarter call: no year-ago pair is held for Sep 2023), Q&A, Shreehas Tambe, Chief Executive Officer & Managing Director, Biocon Biologics Limited: `data/management-text/call-2023-11-10.md` line 38: "'23 has been slower than what we had initially planned" -- reader: adverse fact against a plan, stated by the Biocon Biologics chief executive; cause given in the same answer as a slower ramp of one product (Adalimumab), not a management decision
+- 2023-11-10 call, Q&A, Siddharth Mittal, CEO & Managing Director, Biocon Limited: `data/management-text/call-2023-11-10.md` line 104: "the guidance that I had given last year of mid-teens might be more titrated down" -- reader: a guide revised downward by the Biocon Limited chief executive (the same item is listed under L5-13)
+- 2024-05-16 call (not a classed weak-quarter call: no year-ago pair is held for Mar 2024), Prepared remarks, Peter Bains, Group CEO, Biocon Limited: `data/management-text/call-2024-05-16.md` line 22: "performance came in below expectations due to pricing and demand challenges in the API business as well as the impact of some regulatory delays" -- reader: adverse fact against expectations with outside causes named (pricing, demand, regulatory delays)
+- 2023-02-15 call (before the held quarters table starts), Q&A, M.B. Chinappa, Chief Financial Officer, Biocon Biologics Limited: `data/management-text/call-2023-02-15.md` line 144: "Wrongly classiﬁed certain markets particularly Germany, Japan, Australia, New Zealand and Canada" -- reader: states that certain markets were classified wrongly; the sentence does not say by whom or in which report, and the analyst's question is not in the held text
+
+**Reading (words and quotes, no verdict on candour).** In the letters the step words appear once and no admission-list hit admits a mistake (sections above). On the four weak-quarter calls read here (and only those: the scope of this sentence is the four calls), the picture is different in kind from the letters: management does say plain things when asked, the clearest being the debt-burden answer on 2025-08-08, and in the hits read it states weak results with a cause named outside the company (pricing, raw materials, the dollar) or as 'in line with expectations'. The wider scan above adds adverse remarks on three calls outside the four (2023-02-15, 2023-11-10, 2024-05-16); they too name outside causes or revise a guide, and none was read as an own-mistake admission, but that wider scan is not an exhaustive read of those calls. Hits on the step's two words ('mistake*', 'error*') across the 4 weak-quarter calls: 0 (DERIVED).
 
 **Still not held / UNCHECKED:** the call for the Sep 2024 weak quarter; a year-on-year pair for the quarters before 2024-12-31 from filed numbers (the screener pair is third-party); analyst questions (not in the held text); admissions worded with none of the listed words.
 
@@ -1037,6 +1191,35 @@ For Prof. Ravi Rasendra Mazumdar and Eric Vivek Mazumdar the profile pages list 
 - how the price was fixed: `data/filings/text/2025-12-07_BIOCON_07122025141941_Biocon_EGM_Intimation/p025.txt` line 23: "Accordingly, the price per Equity Share to be issued is fixed at Rs. 405.78"
 - DERIVED: 17,12,79,553 shares (171,279,553) x Rs 405.78 = Rs 6,950.2 crore against the stated Rs 6,950 crore; 6,950 crore / 26,19,17,480 BBL shares = Rs 265.35 per BBL share.
 
-**Reading (counts and quotes, no verdict).** On related-party resolutions where the promoter group did not vote, the public's votes against were 26.40% (BBL, 2024-04-23; 26.49% of institutions) and 0.00% to 1.07% on the other related-party resolutions listed. The December 2025 related-party (Mylan) and preferential-issue resolutions drew 0.81% and 0.27% against. The largest recent dissent in this set is on non-related-party resolutions (limits, staff share plans), which the votes file prints at 8.85% to 20.11% of all votes in the rows listed. The held record shows who was paid what in the December 2025 share-and-cash deal (above) and that non-controlling interests fell by the amount printed; it does not say how the minority holders of the listed company were affected beyond the votes.
+**Reading (counts and quotes, no verdict).** On related-party resolutions where the promoter group did not vote, the public's votes against were 26.40% (BBL, 2024-04-23; 26.49% of institutions) and 0.00% to 1.07% on the other related-party resolutions listed. The December 2025 related-party (Mylan) and preferential-issue resolutions drew 0.81% and 0.27% against. The largest recent dissent in this set is on non-related-party resolutions (limits, staff share plans), which the votes file prints at 8.85% to 20.11% of all votes in the rows listed. The held record shows who was paid what in the December 2025 share-and-cash deal (above), that non-controlling interests fell by the amount printed, and, from the same EGM notice, how the listed company's own public holders' share changes (next block).
 
-**Still not held:** how any single institution voted; the staff-treatment record beyond the share-plan votes (no pay-equity or grievance data is held); the Biocon Biologics minority holders' own view of the price.
+**What the same EGM notice prints about the listed company's own minority (public) holders** (earlier versions of this section said the held record did not show this; that was wrong, the notice prints it):
+
+Holdings before and after the issue (the notice's own table, with pre-issue holdings as at 28 November 2025):
+
+- pre- and post-issue total of shares: `data/filings/text/2025-12-07_BIOCON_07122025141941_Biocon_EGM_Intimation/p022.txt` line 41: "Total (A+B) 133,69,63,635"
+- Indian public holders, pre then post (share count unchanged, share of the larger total falls): `data/filings/text/2025-12-07_BIOCON_07122025141941_Biocon_EGM_Intimation/p022.txt` line 38: "Indian Public 16,49,14,071 12.33% 16,49,14,071 10.93%"
+- promoter and promoter group, pre then post: `data/filings/text/2025-12-07_BIOCON_07122025141941_Biocon_EGM_Intimation/p022.txt` line 31: "Sub-total (A) 72,80,24,176 54.45% 72,80,24,176 48.27%"
+- DERIVED (shares printed in the table: pre-issue 1,336,963,635, post-issue 1,508,243,188): new shares = 1,508,243,188 - 1,336,963,635 = 171,279,553, which equals the 17,12,79,553 shares the notice says it will issue; as a share of the pre-issue count = 12.81% (formula new shares / pre-issue shares x 100).
+- DERIVED re-computation of the printed percentages: Indian public 164,914,071 / 1,336,963,635 = 12.33% before and / 1,508,243,188 = 10.93% after (printed 12.33% and 10.93%); promoter group 728,024,176 / 1,336,963,635 = 54.45% before and / 1,508,243,188 = 48.27% after (printed 54.45% and 48.27%). The public holders' share count does not change; their share of the larger total falls by 12.33 - 10.93 = 1.40 percentage points and the promoter group's by 54.45 - 48.27 = 6.18 percentage points (DERIVED).
+
+Price test, swap ratios and fairness opinion (the notice's pricing page):
+
+- relevant date for the floor price: `data/filings/text/2025-12-07_BIOCON_07122025141941_Biocon_EGM_Intimation/p022.txt` line 12: "price for equity shares to be issued is Monday, December 1, 2025"
+- valuer's floor price: `data/filings/text/2025-12-07_BIOCON_07122025141941_Biocon_EGM_Intimation/p025.txt` line 5: "states that the floor price per"
+- valuer's floor price figure: `data/filings/text/2025-12-07_BIOCON_07122025141941_Biocon_EGM_Intimation/p025.txt` line 6: "Equity Share is Rs. 405.78"
+- 90 trading days' volume weighted average price before the relevant date: `data/filings/text/2025-12-07_BIOCON_07122025141941_Biocon_EGM_Intimation/p025.txt` line 9: "i.e. Rs. 376.58"
+- 10 trading days' volume weighted average price before the relevant date: `data/filings/text/2025-12-07_BIOCON_07122025141941_Biocon_EGM_Intimation/p025.txt` line 13: "preceding the Relevant Date: i.e. Rs. 405.78"
+- swap ratio per 100 BBL shares acquired from Mylan: `data/filings/text/2025-12-07_BIOCON_07122025141941_Biocon_EGM_Intimation/p025.txt` line 34: "for every 100 equity share(s) of BBL (on an as-converted basis) acquired from Mylan, 61.70 Equity"
+- swap ratio per 100 BBL shares acquired from Serum, TCGF and Activ Pine: `data/filings/text/2025-12-07_BIOCON_07122025141941_Biocon_EGM_Intimation/p025.txt` line 36: "for every 100 equity share (s) of BBL acquired from each of Serum, TCGF and Activ  Pine, 70.28"
+- fairness opinion giver and date: `data/filings/text/2025-12-07_BIOCON_07122025141941_Biocon_EGM_Intimation/p025.txt` line 45: "Morgan Stanley India Company Private Limited dated December 6, 2025 confirming that the share"
+- what the fairness opinion says about the price: `data/filings/text/2025-12-07_BIOCON_07122025141941_Biocon_EGM_Intimation/p025.txt` line 48: "fair from a financial point of view to the Company."
+- Reading of those lines (restating printed values only): the valuer's floor price and the 10-day average price are both Rs 405.78 and the 90-day average price is Rs 376.58; the issue price is fixed at the Rs 405.78 quoted earlier in this section. A fairness opinion is held as printed; this section makes no judgement of whether the price was fair to the listed company's minority holders, and the notice's own words are limited to 'fair from a financial point of view to the Company'.
+
+Related-party contracts disclosure (Form AOC-2), FY26 Board's report, beside the Rs 73,560 million Mylan share swap quoted above:
+
+- `annual-report/FY26/p200.md` line 36: "there are no contracts or arrangements with related parties which are required to be disclosed under Section 134(3)(h)"
+- `annual-report/FY26/p200.md` line 36: "in Form AOC-2 for Financial Year 2025-26"
+- The two statements are listed together and not reconciled: the Board's report says no related-party contract needs AOC-2 disclosure for FY26, while the notes (FY26 p380) and the EGM notice record the Mylan swap and the share issue.
+
+**Still not held:** how any single institution voted; the staff-treatment record beyond the share-plan votes (no pay-equity or grievance data is held); the Biocon Biologics minority holders' own view of the price; the valuation report itself (the notice says it is on the company's website, not held); the Edelweiss convertible debentures are not read in this section.
