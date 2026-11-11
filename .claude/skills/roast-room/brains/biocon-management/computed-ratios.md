@@ -2204,7 +2204,7 @@ not a cause.
 | 2 | 24 |
 | 3 | 8 |
 
-*Where the board report names a different parent from the related-party note (12 entities; parent words as printed)*
+*Where the board report names a different parent from the related-party note (14 entities; parent words as printed)*
 
 | Entity | Parent in the related-party note | Parent named in the board report |
 |---|---|---|
@@ -2213,6 +2213,7 @@ not a cause.
 | Biocon Biologics Croatia LLC | Biocon Biologics Limited | BBIL |
 | Biocon Biologics Finland OY | Biocon Biologics Limited | BBIL |
 | Biocon Biologics France S.A.S | Biocon Biologics Limited | BBIL |
+| Biocon Biologics Global PLC | Biocon Biologics Limited | BBIL |
 | Biocon Biologics Greece SINGLE MEMBER P.C | Biocon Biologics Limited | BBIL |
 | Biocon Biologics Italy S.R.L | Biocon Biologics Limited | BBIL |
 | Biocon Biologics Morocco S.A.R.L.A.U | Biocon Biologics Limited | BBIL |
@@ -2220,12 +2221,16 @@ not a cause.
 | Biocon Biologics South Africa (PTY) Ltd | Biocon Biologics Limited | BBIL |
 | Biocon Biologics Spain, S.L. | Biocon Biologics Limited | BBIL |
 | Biocon Biologics Switzerland AG | Biocon Biologics Limited | BBIL |
+| Biocon Pharma Malta I Limited | Biocon Pharma Limited | BPML |
 
 **Caveats**
 
 - 39 of 39 note-39 entities are placed in the chart; 0 note-39 entit(ies) unplaced: none; 0 related-party name(s) with no note-39 entity: none. Names were matched by exact name or 'formerly known as' alias, else the closest name at 0.9 or better.
 - Form AOC-1 (the holding column the row names) is named on p191 of the FY26 pages held; pages carrying a '% of shareholding' column: none. So the holding % here is note 39's, not AOC-1's.
-- The related-party note puts many Biologics subsidiaries under Biocon Biologics Limited where the board report says Biocon Biologics International Limited (see the last table); the percentages are the same either way (all 98.7%) and only the layer differs. The chart follows the related-party note.
+- Board report read: 34 entities. 34 compared with the related-party note, of which 14 differ: Biocon Biologics (Thailand) Co. Ltd, Biocon Biologics Belgium BV, Biocon Biologics Croatia LLC, Biocon Biologics Finland OY, Biocon Biologics France S.A.S, Biocon Biologics Global PLC, Biocon Biologics Greece SINGLE MEMBER P.C, Biocon Biologics Italy S.R.L, Biocon Biologics Morocco S.A.R.L.A.U, Biocon Biologics Philippines Inc, Biocon Biologics South Africa (PTY) Ltd, Biocon Biologics Spain, S.L., Biocon Biologics Switzerland AG, Biocon Pharma Malta I Limited. No related-party line for 0: none. No note-39 entity for 0: none. A heading the board report does not mark as a heading is not read.
+- Where the two differ, the printed % is note 39's either way and only the layer differs (many Biologics subsidiaries sit under Biocon Biologics Limited in the related-party note and under Biocon Biologics International Limited in the board report). The chart follows the related-party note.
+- NeoBiocon FZ LLC, a joint venture, is not one of the 39 note-39 subsidiaries and is not on the chart; basis: equity-accounted (the page says it is accounted for using the equity method). Held page soic-ladder/docs/idea/case-study/BIOCON/annual-report/FY26/p412.md, line 60: "NeoBiocon FZ LLC (“NeoBiocon”) , incorporated in Dubai as at March 31, 2026 holding 49% (March 31, 2025: 49%) of the equity stake and accounted for using the equity method."
+- The deck's own group ownership chart is not held, so the chart here is built from note 39 and the related-party note, not checked against the deck.
 - The related-party list is dated to the standalone statements and uses the older names; the chart does not show any restructuring after 31 March 2026.
 
 ## L4-42: Preferential and QIP allottees and the lock-in end date
