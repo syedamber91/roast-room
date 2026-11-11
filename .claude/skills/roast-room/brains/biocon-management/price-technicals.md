@@ -187,11 +187,11 @@ Volume on up sessions against down sessions (a session is up when its close is a
 | last 50 sessions | 22 | 3,878,260 | 28 | 2,686,916 | 1.44x | 1.33x (without 2026-09-09) | 12 of 22 | 9 of 28 |
 | last 126 sessions | 57 | 5,159,825 | 69 | 3,377,924 | 1.53x | 1.33x (without 2026-07-14) | 26 of 57 | 18 of 69 |
 
-The heaviest volume sessions of the last 252 (volume against the average of the 20 sessions before). 'Held explanation' = a bulk or block deal in the NSE list held for that date; 'none held' means no deal in that list, NOT that nothing happened: MSCI, FTSE and BSE index notices are not held, so a heavy session without a deal may be an index rebalance. 'Usual index rebalance day' is a calendar rule (the third Friday of March, June, September or December), not a notice:
+The heaviest volume sessions of the last 252 (volume against the average of the 20 sessions before). 'Held explanation' = a bulk or block deal in the NSE list held for that date, a DATE MATCH only, so each is tested against the session (deal shares against the volume, deal price against the day's range) and is not claimed as the cause; 'none held' means no deal in that list, NOT that nothing happened: MSCI, FTSE and BSE index notices are not held, so a heavy session without a deal may be an index rebalance. 'Usual index rebalance day' is a calendar rule (the third Friday of March, June, September or December), not a notice:
 
 | Session | Volume | x 20-session average | Close move | Held explanation | Usual index rebalance day |
 |---|---|---|---|---|---|
-| 2026-07-14 | 43,015,136 | 10.35x | +6.41% | block BUY 18,437,500 sh by ICICI PRUDENTIAL MUTUAL FUND; block BUY 5,829,005 sh by HDFC MUTUAL FUND (+24 more) | no |
+| 2026-07-14 | 43,015,136 | 10.35x | +6.41% | block BUY 18,437,500 sh by ICICI PRUDENTIAL MUTUAL FUND; block BUY 5,829,005 sh by HDFC MUTUAL FUND (+24 more) [buy-side deal shares 64,421,009 = 150% of the session volume; MORE than the session traded, so these lines are not all in the session volume; 26 of 26 deal prices outside the day's range 422.20-444.50] | no |
 | 2025-11-12 | 16,384,325 | 6.53x | +5.40% | none held | no |
 | 2026-04-07 | 15,931,957 | 4.38x | -4.21% | none held | no |
 | 2026-05-11 | 12,928,412 | 4.21x | +2.64% | none held | no |
