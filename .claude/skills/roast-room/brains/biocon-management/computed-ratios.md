@@ -951,7 +951,7 @@ not a cause.
 
 **Caveats**
 
-- Quarterly EPS is screener's printed figure on weighted shares; weighted share counts are not held, so it cannot be rebuilt from our files (Dec-2025 shows 1.08 beside a Net Profit of -52 on the same page).
+- Quarterly EPS here is screener's printed figure on weighted shares (Dec-2025 shows 1.08 beside a Net Profit of -52 on the same page). The company's own basic EPS is held in its results filings for 12 of 13 quarters (not Sep 2026) and differs from screener in 5 of 12: Dec23 5.52 vs 5.50, Jun24 5.51 vs 5.49, Jun25 0.26 vs 0.23, Sep25 0.66 vs 0.63, Mar26 0.79 vs 0.78 (no sign flips). Jun 2026 growth is +278.26% on screener's base and +234.6% on the company's own 0.26; Sep 2026 is -60.32% against -62.1% on the company's 0.66.
 - Annual FY21 growth depends on FY20 EPS restated for the 2020 bonus issue.
 - The price columns sit beside the growth column by date only. A date match is not a cause.
 
