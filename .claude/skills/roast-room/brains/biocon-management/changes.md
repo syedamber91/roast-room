@@ -160,3 +160,5 @@ The results-date section of price-technicals.md also shows, for each gap, whethe
 The results-date table in price-technicals.md now includes the newest filing, 2026-11-04 (the Q2 FY27 results, read from its announcement line because its PDF is not held), and says that the four 2021 results filings fall outside the table. The sharp-moves table now also reads the latest announcements file, so 2026-11-05 shows the filings of 2026-11-04 instead of "none in the feed".
 
 The results-date table in price-technicals.md now has 25 dates: the four 2021 results filings (2021-01-21, 04-28, 07-22 and 10-21, read from their announcement lines because their PDFs are not held) are added, and sessions that have not traded yet read n/a instead of being left out. The earlier caption reason for leaving out 2021 was wrong and is removed.
+
+The caption of the results-date table now says what n/a means, why the table starts at 2021-01-21, and that 2025-01-30 and 2025-01-31 are the same quarter; the sharp-moves table now starts at 2021-01-08 (it had started at 2022) and cuts filing titles at a word boundary.
