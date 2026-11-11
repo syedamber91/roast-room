@@ -187,6 +187,23 @@ Volume on up sessions against down sessions (a session is up when its close is a
 | last 50 sessions | 22 | 3,878,260 | 28 | 2,686,916 | 1.44x | 1.33x (without 2026-09-09) | 12 of 22 | 9 of 28 |
 | last 126 sessions | 57 | 5,159,825 | 69 | 3,377,924 | 1.53x | 1.33x (without 2026-07-14) | 26 of 57 | 18 of 69 |
 
+The heaviest volume sessions of the last 252 (volume against the average of the 20 sessions before). 'Held explanation' = a bulk or block deal in the NSE list held for that date; 'none held' means no deal in that list, NOT that nothing happened: MSCI, FTSE and BSE index notices are not held, so a heavy session without a deal may be an index rebalance. 'Usual index rebalance day' is a calendar rule (the third Friday of March, June, September or December), not a notice:
+
+| Session | Volume | x 20-session average | Close move | Held explanation | Usual index rebalance day |
+|---|---|---|---|---|---|
+| 2026-07-14 | 43,015,136 | 10.35x | +6.41% | block BUY 18,437,500 sh by ICICI PRUDENTIAL MUTUAL FUND; block BUY 5,829,005 sh by HDFC MUTUAL FUND (+24 more) | no |
+| 2025-11-12 | 16,384,325 | 6.53x | +5.40% | none held | no |
+| 2026-04-07 | 15,931,957 | 4.38x | -4.21% | none held | no |
+| 2026-05-11 | 12,928,412 | 4.21x | +2.64% | none held | no |
+| 2026-09-09 | 10,271,402 | 3.94x | +0.69% | none held | no |
+| 2026-03-20 | 12,193,711 | 3.87x | +3.36% | none held | yes |
+| 2025-11-13 | 12,453,552 | 3.79x | +2.73% | none held | no |
+| 2026-01-20 | 9,421,803 | 3.52x | -2.45% | none held | no |
+| 2026-11-04 | 8,966,739 | 3.12x | +0.42% | none held | no |
+| 2026-05-12 | 11,231,905 | 3.12x | +3.07% | none held | no |
+
+Sessions of the last 252 with volume at least 2 times the prior 20-session average on which the close fell (7): 2025-11-20 (2.01x, -3.65%); 2025-12-04 (2.57x, -5.28%); 2026-01-20 (3.52x, -2.45%); 2026-02-12 (2.63x, -0.04%); 2026-04-07 (4.38x, -4.21%); 2026-06-24 (2.29x, -0.60%); 2026-07-01 (2.02x, -0.02%).
+
 Index changes that name BIOCON in the NSE Indices press releases held (every release text held was searched for the company's name):
 
 | Index | Action | Announced | Effective | Volume on the session before the effective date (x 20-session average) | Volume on the effective date (x) | Source file |
