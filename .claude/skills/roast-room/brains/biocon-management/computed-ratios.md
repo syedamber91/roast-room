@@ -320,6 +320,12 @@ not a cause.
 | profit_growth | FY24 | 120.99 | % | consolidated | roast-room/docs/company-record/biocon/derived-ten-year-FY16-FY26.csv (metric=profit_growth; derived, held) |
 | profit_growth | FY25 | -0.90 | % | consolidated | roast-room/docs/company-record/biocon/derived-ten-year-FY16-FY26.csv (metric=profit_growth; derived, held) |
 | profit_growth | FY26 | -61.95 | % | consolidated | roast-room/docs/company-record/biocon/derived-ten-year-FY16-FY26.csv (metric=profit_growth; derived, held) |
+| ebitda_without_other_income | FY21 | 16,528 | Rs million | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=ebitda_without_other_income; derived, held) |
+| ebitda_without_other_income | FY22 | 19,702 | Rs million | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=ebitda_without_other_income; derived, held) |
+| ebitda_without_other_income | FY23 | 25,117 | Rs million | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=ebitda_without_other_income; derived, held) |
+| ebitda_without_other_income | FY24 | 32,987 | Rs million | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=ebitda_without_other_income; derived, held) |
+| ebitda_without_other_income | FY25 | 31,663 | Rs million | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=ebitda_without_other_income; derived, held) |
+| ebitda_without_other_income | FY26 | 34,553 | Rs million | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=ebitda_without_other_income; derived, held) |
 
 **Computed result, DERIVED**
 
@@ -350,6 +356,16 @@ not a cause.
 | FY25 | 5.05 | revenue from operations | 3.43 | 1.47 | -0.90 | profit down |
 | FY26 | -13.18 | revenue from operations | 10.91 | -1.21 | -61.95 | EBITDA down, profit down |
 
+*EBITDA WITHOUT other income (operating profit proper), FY22-FY26*
+
+| Year | EBITDA ex other income growth % | Revenue growth % | EBITDA ex other income / revenue | Flag |
+|---|---|---|---|---|
+| FY22 | 19.20 | 14.57 | 1.32 | - |
+| FY23 | 27.48 | 36.54 | 0.75 | - |
+| FY24 | 31.33 | 32.05 | 0.98 | - |
+| FY25 | -4.01 | 3.43 | -1.17 | EBITDA down |
+| FY26 | 9.13 | 10.91 | 0.84 | - |
+
 *EBIT (company basis) against revenue, FY22-FY26*
 
 | Year | EBIT prior | EBIT | EBIT growth % | Revenue growth % | EBIT / revenue |
@@ -362,7 +378,7 @@ not a cause.
 
 **Caveats**
 
-- 'Operating profit' here is company-basis EBITDA, which includes other income. FY18 uses total income, not revenue from operations.
+- The first two tables use company-basis EBITDA, which includes other income (12,082 in FY25, 3,425 in FY26), and that choice decides which years are down years; the third table repeats the ratio on EBITDA without other income (derived-metrics ebitda_without_other_income), where FY25 is the down year. Revenue did not fall in any held year. FY18 uses total income, not revenue from operations.
 - FY17 EBITDA growth is not held (blank in the ten-year file).
 
 ## L6-38: Operating cash flow over interest, each year
