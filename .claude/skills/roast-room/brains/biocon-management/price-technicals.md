@@ -130,6 +130,39 @@ Signs showing: **3 of 3** (a count of the three signs above, the ladder's `exit_
 | average daily volume, last 250 sessions | 3,877,761 shares | Yahoo volume |
 | 250-session average traded value as a share of market cap | 0.291% per day | market cap Rs 52,716 crore (S049, latest weekly close) |
 
+## Daily readings to 2026-11-09 (the newest daily session)
+
+Everything in the weekly sections above ends at the week ending 2026-10-23; these readings use the daily file to its last session. Weekly bars are rebuilt from the daily rows by ISO week (the newest week may be partial), and the EMAs are the ladder's plain EMA over those weekly closes.
+
+| Reading | Value | How |
+|---|---|---|
+| latest daily close | 368.50 | 2026-11-09 |
+| 30-week EMA on weekly closes through 2026-11-09 | 383.36 | ladder `_ema_series(30)` on bars rebuilt from daily; close gap -3.88% |
+| 10-week EMA | 366.81 | same; close gap +0.46% |
+| 200-day EMA gap | -4.41% | daily closes |
+| move over the last session | +0.93% | close / previous close - 1 |
+| move over the last 5 sessions | +3.89% | |
+| move since the week ending 2026-10-23 | +13.91% | the last weekly close held above |
+| largest single-week rise, last 52 weeks | +13.07% | week ending 2026-05-15 |
+| largest single-week fall, last 52 weeks | -7.36% | week ending 2026-10-23 |
+| daily on-balance volume now | 1,792,437,714 | change over the last 126 sessions +61,033,322; over 26 weeks (130 sessions) +69,474,525 |
+| average daily volume, 20 and 50 sessions | 3,411,959 and 3,211,108 | last session 2,955,204 = 0.88x the 20 sessions before it |
+
+Volume by price band, last 252 sessions (each session's volume placed in the band its close falls in):
+
+| Band low | Band high | Volume | Share |
+|---|---|---|---|
+| 323.50 | 338.15 | 14,158,794 | 1.4% |
+| 338.15 | 352.80 | 84,898,995 | 8.7% |
+| 352.80 | 367.45 | 80,336,482 | 8.2% |
+| 367.45 | 382.10 | 152,116,553 | 15.5% |
+| 382.10 | 396.75 | 197,302,480 | 20.2% |
+| 396.75 | 411.40 | 102,381,628 | 10.5% |
+| 411.40 | 426.05 | 171,417,981 | 17.5% |
+| 426.05 | 440.70 | 176,166,299 | 18.0% |
+
+Nifty 500 (the benchmark) at the week ending 2026-10-23: close 21,427.60, 30-week EMA 22,741.83, gap -5.78%, 30-week EMA change over 4 weeks -1.19%.
+
 ## Price move around results dates
 
 Dates are the 25 dates of BIOCON's own results filings (a filing in the NSE results group whose first pages say it carries financial results; read from the filings' text, not from every board-meeting outcome; a filing whose PDF is not held, the 2021 ones and the newest, is taken from its announcement line when that line says 'financial results for the period'). The announcement can come before or after the market closes, so both sessions are shown: 'event day' is the first session on or after the filing date. Gap = that session's open against the previous close. Volume = that session's volume divided by the average of the 20 sessions before the event day. Two-session move = close of the session after the event day over the close before it; Nifty 50 over the same two sessions beside it. Prices and volume are Yahoo's, volume not bonus-adjusted. 'n/a' = a session that has not traded yet (prices end 2026-11-09). The table starts at 2021-01-21, the first results filing in the announcements held (they begin 2021-01-07). 2025-01-30 and 2025-01-31 are the same quarter (the results were filed on 01-30 after the close, the integrated filing on 01-31); both are shown.
