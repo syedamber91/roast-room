@@ -1102,31 +1102,31 @@ not a cause.
 
 | Event | Date on the row (feed or record) | Event's own date | Anchor used for the windows | Day 0 note | What it is | Source (file and line, or record) |
 |---|---|---|---|---|---|---|
-| results | 2021-01-21 | same as the row date | 2021-01-21: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:308 (section 'Price move around results dates') |
-| results | 2021-04-28 | same as the row date | 2021-04-28: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:309 (section 'Price move around results dates') |
-| results | 2021-07-22 | same as the row date | 2021-07-22: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:310 (section 'Price move around results dates') |
-| results | 2021-10-21 | same as the row date | 2021-10-21: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:311 (section 'Price move around results dates') |
-| results | 2022-01-20 | same as the row date | 2022-01-20: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:312 (section 'Price move around results dates') |
-| results | 2022-04-28 | same as the row date | 2022-04-28: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:313 (section 'Price move around results dates') |
-| results | 2022-07-27 | same as the row date | 2022-07-27: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:314 (section 'Price move around results dates') |
-| results | 2022-11-14 | same as the row date | 2022-11-14: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:315 (section 'Price move around results dates') |
-| results | 2023-02-14 | same as the row date | 2023-02-14: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:316 (section 'Price move around results dates') |
-| results | 2023-05-23 | same as the row date | 2023-05-23: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:317 (section 'Price move around results dates') |
-| results | 2023-08-10 | same as the row date | 2023-08-10: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:318 (section 'Price move around results dates') |
-| results | 2023-11-10 | same as the row date | 2023-11-10: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:319 (section 'Price move around results dates') |
-| results | 2024-02-08 | same as the row date | 2024-02-08: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:320 (section 'Price move around results dates') |
-| results | 2024-05-16 | same as the row date | 2024-05-16: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:321 (section 'Price move around results dates') |
-| results | 2024-08-08 | same as the row date | 2024-08-08: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:322 (section 'Price move around results dates') |
-| results | 2024-10-30 | same as the row date | 2024-10-30: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:323 (section 'Price move around results dates') |
-| results | 2025-01-30 | same as the row date | 2025-01-30: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:324 (section 'Price move around results dates') |
-| results | 2025-01-31 | same as the row date | 2025-01-31: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:325 (section 'Price move around results dates') |
-| results | 2025-05-08 | same as the row date | 2025-05-08: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:326 (section 'Price move around results dates') |
-| results | 2025-08-07 | same as the row date | 2025-08-07: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:327 (section 'Price move around results dates') |
-| results | 2025-11-11 | same as the row date | 2025-11-11: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:328 (section 'Price move around results dates') |
-| results | 2026-02-12 | same as the row date | 2026-02-12: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:329 (section 'Price move around results dates') |
-| results | 2026-05-07 | same as the row date | 2026-05-07: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:330 (section 'Price move around results dates') |
-| results | 2026-08-05 | same as the row date | 2026-08-05: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:331 (section 'Price move around results dates') |
-| results | 2026-11-04 | same as the row date | 2026-11-04: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:332 (section 'Price move around results dates') |
+| results | 2021-01-21 | same as the row date | 2021-01-21: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:337 (section 'Price move around results dates') |
+| results | 2021-04-28 | same as the row date | 2021-04-28: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:338 (section 'Price move around results dates') |
+| results | 2021-07-22 | same as the row date | 2021-07-22: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:339 (section 'Price move around results dates') |
+| results | 2021-10-21 | same as the row date | 2021-10-21: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:340 (section 'Price move around results dates') |
+| results | 2022-01-20 | same as the row date | 2022-01-20: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:341 (section 'Price move around results dates') |
+| results | 2022-04-28 | same as the row date | 2022-04-28: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:342 (section 'Price move around results dates') |
+| results | 2022-07-27 | same as the row date | 2022-07-27: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:343 (section 'Price move around results dates') |
+| results | 2022-11-14 | same as the row date | 2022-11-14: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:344 (section 'Price move around results dates') |
+| results | 2023-02-14 | same as the row date | 2023-02-14: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:345 (section 'Price move around results dates') |
+| results | 2023-05-23 | same as the row date | 2023-05-23: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:346 (section 'Price move around results dates') |
+| results | 2023-08-10 | same as the row date | 2023-08-10: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:347 (section 'Price move around results dates') |
+| results | 2023-11-10 | same as the row date | 2023-11-10: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:348 (section 'Price move around results dates') |
+| results | 2024-02-08 | same as the row date | 2024-02-08: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:349 (section 'Price move around results dates') |
+| results | 2024-05-16 | same as the row date | 2024-05-16: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:350 (section 'Price move around results dates') |
+| results | 2024-08-08 | same as the row date | 2024-08-08: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:351 (section 'Price move around results dates') |
+| results | 2024-10-30 | same as the row date | 2024-10-30: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:352 (section 'Price move around results dates') |
+| results | 2025-01-30 | same as the row date | 2025-01-30: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:353 (section 'Price move around results dates') |
+| results | 2025-01-31 | same as the row date | 2025-01-31: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:354 (section 'Price move around results dates') |
+| results | 2025-05-08 | same as the row date | 2025-05-08: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:355 (section 'Price move around results dates') |
+| results | 2025-08-07 | same as the row date | 2025-08-07: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:356 (section 'Price move around results dates') |
+| results | 2025-11-11 | same as the row date | 2025-11-11: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:357 (section 'Price move around results dates') |
+| results | 2026-02-12 | same as the row date | 2026-02-12: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:358 (section 'Price move around results dates') |
+| results | 2026-05-07 | same as the row date | 2026-05-07: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:359 (section 'Price move around results dates') |
+| results | 2026-08-05 | same as the row date | 2026-08-05: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:360 (section 'Price move around results dates') |
+| results | 2026-11-04 | same as the row date | 2026-11-04: own date (the record is dated that day) | - | results filing date | roast-room/.claude/skills/roast-room/brains/biocon-management/price-technicals.md:361 (section 'Price move around results dates') |
 | vote | 2024-04-23 | same as the row date | 2024-04-23: own date (the record is dated that day) | - | meeting date, 6 resolution(s) | roast-room/docs/company-record/biocon/voting-results-2026-10-30.csv:2 |
 | vote | 2024-08-09 | same as the row date | 2024-08-09: own date (the record is dated that day) | - | meeting date, 21 resolution(s) | roast-room/docs/company-record/biocon/voting-results-2026-10-30.csv:8 |
 | vote | 2024-09-23 | same as the row date | 2024-09-23: own date (the record is dated that day) | - | meeting date, 10 resolution(s) | roast-room/docs/company-record/biocon/voting-results-2026-10-30.csv:29 |
@@ -2322,7 +2322,7 @@ not a cause.
 
 ## L5-63: Retained earnings against the change in market value over rolling five years
 
-**Formula in words.** Only one five-year window can be formed from the held market caps (FY21 to FY26); the one-year steps are shown too. Retained earnings are not a held line, so the change in other equity (reserves) stands in and is labelled as such. Ratio = change in market cap / change in other equity.
+**Formula in words.** Ratio = change in market cap / change in consolidated RETAINED earnings (the closing balance printed in the statement of changes in equity, not other equity). Only one five-year window can be formed from the held years (FY21 to FY26); the one-year steps are shown too. Other equity and owners' equity sit beside it because an earlier version of this row used other equity as a stand-in. Close convention: retained earnings = the closing balance at 31 March of each year (the statement of changes in equity's 'Balance at March 31'); market cap = the last WEEKLY close on or before 31 March (a week-ending date, 26 March 2021 for FY21) x shares at 31 March, as in the held derived-metrics 'market_cap'; the last DAILY close on or before 31 March is shown beside it.
 
 **Inputs (held)**
 
@@ -2334,6 +2334,12 @@ not a cause.
 | market_cap | FY24 | 317,129.92 | Rs million | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=market_cap; derived, held) |
 | market_cap | FY25 | 410,233.95 | Rs million | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=market_cap; derived, held) |
 | market_cap | FY26 | 599,959.37 | Rs million | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=market_cap; derived, held) |
+| retained earnings (printed, statement of changes in equity) | FY21 | 62,358 | Rs million | consolidated | held annual-report pages, statement of changes in equity (file and line for every year-end in the table 'Retained earnings by year-end') |
+| retained earnings (printed, statement of changes in equity) | FY22 | 68,273 | Rs million | consolidated | held annual-report pages, statement of changes in equity (file and line for every year-end in the table 'Retained earnings by year-end') |
+| retained earnings (printed, statement of changes in equity) | FY23 | 160,859 | Rs million | consolidated | held annual-report pages, statement of changes in equity (file and line for every year-end in the table 'Retained earnings by year-end') |
+| retained earnings (printed, statement of changes in equity) | FY24 | 176,028 | Rs million | consolidated | held annual-report pages, statement of changes in equity (file and line for every year-end in the table 'Retained earnings by year-end') |
+| retained earnings (printed, statement of changes in equity) | FY25 | 189,591 | Rs million | consolidated | held annual-report pages, statement of changes in equity (file and line for every year-end in the table 'Retained earnings by year-end') |
+| retained earnings (printed, statement of changes in equity) | FY26 | 139,920 | Rs million | consolidated | held annual-report pages, statement of changes in equity (file and line for every year-end in the table 'Retained earnings by year-end') |
 | bs.other_equity | FY21 | 70,269 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.other_equity, filed; AR pdf p264, p308, p346, p348, p362) |
 | bs.other_equity | FY22 | 78,322 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.other_equity, filed; AR pdf p264, p308, p346, p348, p362) |
 | bs.other_equity | FY23 | 172,666 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.other_equity, filed; AR pdf p264, p308, p346, p348, p362) |
@@ -2358,39 +2364,80 @@ not a cause.
 | cf.proceeds_from_share_issue | FY24 | 307 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (cf.proceeds_from_share_issue, filed; AR pdf p267, p311, p349, p351, p366) |
 | cf.proceeds_from_share_issue | FY25 | 99 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (cf.proceeds_from_share_issue, filed; AR pdf p267, p311, p349, p351, p366) |
 | cf.proceeds_from_share_issue | FY26 | 85,311 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (cf.proceeds_from_share_issue, filed; AR pdf p267, p311, p349, p351, p366) |
+| market cap on the last daily close on or before 31 March | FY21 | 490,912.07 | Rs million | consolidated | BIOCON_NS-daily-long.csv close x shares_outstanding_31_march |
+| market cap on the last daily close on or before 31 March | FY22 | 402,910.48 | Rs million | consolidated | BIOCON_NS-daily-long.csv close x shares_outstanding_31_march |
+| market cap on the last daily close on or before 31 March | FY23 | 247,737.13 | Rs million | consolidated | BIOCON_NS-daily-long.csv close x shares_outstanding_31_march |
+| market cap on the last daily close on or before 31 March | FY24 | 317,129.92 | Rs million | consolidated | BIOCON_NS-daily-long.csv close x shares_outstanding_31_march |
+| market cap on the last daily close on or before 31 March | FY25 | 410,233.95 | Rs million | consolidated | BIOCON_NS-daily-long.csv close x shares_outstanding_31_march |
+| market cap on the last daily close on or before 31 March | FY26 | 585,045.47 | Rs million | consolidated | BIOCON_NS-daily-long.csv close x shares_outstanding_31_march |
 
 **Computed result, DERIVED**
 
+*Retained earnings by year-end, consolidated (PRINTED; other equity beside it)*
+
+| Year-end | Retained earnings | Other equity (balance sheet) | Retained as % of other equity | Pages that print it | Where (file, line) |
+|---|---|---|---|---|---|
+| FY21 | 62,358 | 70,269 | 88.74 | 2 page(s) agree | FY22/p266.md line 1; FY23/p364.md line 10 |
+| FY22 | 68,273 | 78,322 | 87.17 | 3 page(s) agree | FY22/p266.md line 1; FY23/p364.md line 10; FY24/p310.md line 9 |
+| FY23 | 160,859 | 172,666 | 93.16 | 3 page(s) agree | FY23/p365.md line 11; FY24/p310.md line 9; FY25/p350.md line 12 |
+| FY24 | 176,028 | 191,834 | 91.76 | 3 page(s) agree | FY24/p310.md line 9; FY25/p350.md line 12; FY26/p348.md line 11 |
+| FY25 | 189,591 | 210,437 | 90.09 | 2 page(s) agree | FY25/p350.md line 12; FY26/p348.md line 11 |
+| FY26 | 139,920 | 332,213 | 42.12 | 1 page(s) agree | FY26/p348.md line 11 |
+
 *One-year steps (DERIVED, Rs million)*
 
-| Step | Change in market cap | Change in other equity | Market cap per rupee of other equity | Share-issue proceeds in the year | Market cap change net of proceeds |
-|---|---|---|---|---|---|
-| FY21 to FY22 | -55,646 | 8,053 | -6.91 | 428 | -56,074 |
-| FY22 to FY23 | -171,141 | 94,344 | -1.81 | 12,368 | -183,509 |
-| FY23 to FY24 | 69,393 | 19,168 | 3.62 | 307 | 69,086 |
-| FY24 to FY25 | 93,104 | 18,603 | 5.00 | 99 | 93,005 |
-| FY25 to FY26 | 189,725 | 121,776 | 1.56 | 85,311 | 104,414 |
+| Step | Change in market cap | Change in retained earnings | Market cap per rupee of retained | Profit to owners in the year | Change in retained not from that profit | Change in other equity (beside) | Market cap per rupee of other equity (beside) | Share-issue proceeds in the year | Market cap change net of proceeds |
+|---|---|---|---|---|---|---|---|---|---|
+| FY21 to FY22 | -55,646 | 5,915 | -9.41 | 6,484 | -569 | 8,053 | -6.91 | 428 | -56,074 |
+| FY22 to FY23 | -171,141 | 92,586 | -1.85 | 4,627 | 87,959 | 94,344 | -1.81 | 12,368 | -183,509 |
+| FY23 to FY24 | 69,393 | 15,169 | 4.57 | 10,225 | 4,944 | 19,168 | 3.62 | 307 | 69,086 |
+| FY24 to FY25 | 93,104 | 13,563 | 6.86 | 10,133 | 3,430 | 18,603 | 5.00 | 99 | 93,005 |
+| FY25 to FY26 | 189,725 | -49,671 | -3.82 | 3,856 | -53,527 | 121,776 | 1.56 | 85,311 | 104,414 |
 
 *The five-year window FY21 to FY26 (DERIVED, Rs million)*
 
 | Item | Value |
 |---|---|
-| market cap FY26 less FY21 | 125,435 |
-| other equity (reserves) FY26 less FY21 | 261,944 |
-| market cap change per rupee of change in other equity (times) | 0.48 |
-| equity attributable to owners FY26 less FY21 | 264,049 |
-| market cap change per rupee of change in owners' equity (times) | 0.48 |
+| market cap FY26 less FY21 (weekly close on or before 31 March) | 125,435 |
+| RETAINED earnings FY26 less FY21 (printed) | 77,562 |
+| market cap change per rupee of change in retained earnings (times) | 1.62 |
+| ... against the step's example of 1 (B1-179, B9-91; no rulebook rule): a comparison, not a verdict | at or above 1 |
+| ... net of the share-issue proceeds FY22-FY26 (times) | 0.35 |
 | sum of share-issue proceeds FY22-FY26 | 98,513 |
-| market cap change net of those proceeds | 26,922 |
-| ... per rupee of change in other equity, net of proceeds (times) | 0.10 |
-| sum of profit to owners FY22-FY26 (for scale) | 35,325 |
-| market cap change per rupee of profit earned FY22-FY26 (times; dividends FY22 are not held, so no retained figure) | 3.55 |
+| market cap FY26 less FY21 on the last DAILY close on or before 31 March | 94,133 |
+| ... per rupee of change in retained earnings, daily closes (times) | 1.21 |
+| other equity (reserves) FY26 less FY21, beside | 261,944 |
+| market cap change per rupee of change in other equity (times), beside | 0.48 |
+| equity attributable to owners FY26 less FY21, beside | 264,049 |
+| market cap change per rupee of change in owners' equity (times), beside | 0.48 |
+| sum of profit to owners FY22-FY26, for scale | 35,325 |
+| retained earnings change less that profit (movements that are not profit to owners) | 42,237 |
+
+*Quotes: the printed cell of each year-end (first page above) and the heading cell on the same line*
+
+| Year-end | Retained earnings | File | Line | Number cell (verbatim, 30 words at most) | Heading cell (verbatim) |
+|---|---|---|---|---|---|
+| FY21 | 62,358 | annual-report/FY22/p266.md | 1 | `**9**<br>**1,325**<br>**1,292**<br>**801**<br>**1,617**<br>**62,358**<br> **-**<br>**1,541**<br>**(1,343)**<br>**2,015**<br>**(207)**` | `**Retained**<br>**earnings**` |
+| FY22 | 68,273 | annual-report/FY22/p266.md | 1 | `**9**<br>**1,363**<br>**1,292**<br>**801**<br>**1,617**<br>**68,273**<br>**-**<br>**2,041**<br>**(324)**<br>**2,732**<br>**579**` | `**Retained**<br>**earnings**` |
+| FY23 | 160,859 | annual-report/FY23/p365.md | 11 | `-<br>-<br>-<br>299<br>-<br> <br>**1,292**<br>**801  1,617 1,60,859**<br>**-**` | `**Retained**<br>**earnings**` |
+| FY24 | 176,028 | annual-report/FY24/p310.md | 9 | ` -<br>**2,285**<br>**9**<br>**1,363**<br>**1,292**<br>**840**<br>**1,878**<br>**176,028**<br> **-**<br>**3,201**<br>**(971)**` | `**Retained**<br>**earnings**` |
+| FY25 | 189,591 | annual-report/FY25/p350.md | 12 | `(1,718)<br>-<br>54<br>-<br>(600)<br>-<br>5<br>8<br>189,591<br>**irectors o**` | `**Retained**<br>**earnings**` |
+| FY26 | 139,920 | annual-report/FY26/p348.md | 11 | `(232)<br>1,309<br>50<br>(53,633)<br>(668)<br>-<br>-<br>-<br> (353)<br>139,920<br>**of Biocon**` | `**Retained**<br>**earnings**` |
+
+*Check: does the printed retained-earnings column add up to its own closing balance? (one page, two years)*
+
+| Year | Opening | Sum of printed movements | Printed closing | Result |
+|---|---|---|---|---|
+| FY25 | 176,028 | 13,563 | 189,591 | ties |
+| FY26 | 189,591 | -49,671 | 139,920 | ties |
 
 **Caveats**
 
-- Other equity is not retained earnings: it holds share premium, OCI reserves and other reserve movements (it jumped from 78,322 to 172,666 in FY23 with no matching profit; the held files do not say why), so the ratio is not 'value created per rupee kept'. L7-47 holds the profit-less-dividends version for FY22 to FY26.
+- Every balance is a figure printed on a held page (OCR text of the annual report; the statement is a rotated table, so cells are spread over lines). Years with two or three pages are read on each and kept only if the pages agree. The FY21 report itself is not held; Mar-21 is the opening column of the FY22 and FY23 reports.
+- Retained earnings also moved for reasons other than profit: the step column 'Change in retained not from that profit' is largest in FY23 (+87,959) and FY26 (-53,527). On FY26's page a (53,633) cell sits in the retained-earnings column; by position among the 13 listed movement rows (the total-other-equity column carries 13 movement values against 13 row labels) it falls on 'Loss on purchase of shares in a subsidiary'; that positional read is not independently confirmed. The change in retained earnings is therefore not 'profit kept after dividends'; L7-47 holds the profit-less-dividends version for FY22 to FY26.
+- Other equity is not retained earnings: it also holds securities premium, reserves for share-based payment, hedging, currency translation and others (each is a column of the same printed statement); the 'retained as % of other equity' column shows how much of it is retained.
 - Market cap FY26 rests on 1,621,073,650 shares (after the issues of 2025-26) against 1,200,567,573 before, so the unadjusted change includes new capital; the net-of-proceeds line takes the share-issue cash out and nothing else.
-- Windows starting before FY21 are not possible: the share count behind market cap is not held before FY21 (price-only history is in the ten-year file).
+- Windows starting before FY21 are not possible: the share count behind market cap is not held before FY21 (price-only history is in the ten-year file), and no retained-earnings page is held before Mar-21.
 
 ## L5-64: Returns by segment and new capital against old
 
@@ -2450,15 +2497,16 @@ not a cause.
 - FY23 and FY24 name the third segment 'Research' (shown here as CRDMO) and carry a 'Novels' segment with no assets but a segment result (4,736 in FY24, 318 in FY23, mostly other income), which has no capital to earn on and is left out of the table. The segment result includes other income and, in FY25, large Biosimilars other income (11,275); the table does not strip it out.
 - The year-end base is used, not an average, because FY22 and earlier segment tables are not read here. A change in result over a change in capital is dominated by the result where capital barely moved (read it with the 'new capital as % of old' column) and is n/m where capital fell.
 
-## L5-85: Net insider buying or selling by quarter
+## L5-85: Net insider buying or selling by quarter, beside management's statements
 
-**Formula in words.** Group the PIT disclosure rows by calendar quarter of the trade date. Open market = Market Purchase and Market Sale only; ESOP = shares acquired on exercise (not a market buy); inter-se = transfers among promoters (net of buy and sell); pledge rows counted, not netted; promoters + promoter group + KMP = their net shares in every mode. Net = bought less sold, shares; value in Rs crore.
+**Formula in words.** Group the PIT disclosure rows by calendar quarter of the trade date. Open market = Market Purchase and Market Sale only; ESOP = shares acquired on exercise (not a market buy); inter-se = transfers among promoters (net of buy and sell); pledge rows counted, not netted; promoters + promoter group + KMP = their net shares in every mode. Net = bought less sold, shares; value in Rs crore. Beside each held quarter: every sentence of the held earnings-call text (management's words only) that holds one of the search words, quoted with file and line.
 
 **Inputs (held)**
 
 | Input | Period | Value | Unit | Basis | Source file |
 |---|---|---|---|---|---|
 | PIT disclosure rows (NSE insider-trading list) | rows | 206 | rows | n/a | roast-room/docs/company-record/biocon/insider-trades-pit-2026-11-10.csv |
+| held call texts searched (management turns only) | calls | 14 | files | n/a | soic-ladder/docs/idea/case-study/BIOCON/data/management-text/call-*.md |
 
 **Computed result, DERIVED**
 
@@ -2477,9 +2525,50 @@ not a cause.
 | 2024-Q1 | 19 | 0 | 58,998 | -58,998 | -1.58 | 27,292 | 0 | 2 | 0 | 0 |
 | all quarters held | 206 | 2,000,000 | 966,385 | 1,033,615 | 38.09 | 3,194,802 | 1,308,712 | 10 | 1,398,812 | 8 |
 
+*The 9 held quarters beside the call sentences held*
+
+| Quarter | Net open market, shares | PIT rows | Calls held in the quarter | Management sentences with the search words (file, line, quote) |
+|---|---|---|---|---|
+| 2022-Q1 | -99,600 | 23 | no call held in the quarter | no call to search |
+| 2022-Q2 | 1,991,000 | 20 | no call held in the quarter | no call to search |
+| 2022-Q3 | -42,000 | 16 | no call held in the quarter | no call to search |
+| 2022-Q4 | -343,033 | 23 | call-2022-11-15.md | none found in the call(s) held |
+| 2023-Q1 | -66,674 | 10 | call-2023-02-15.md | none found in the call(s) held |
+| 2023-Q2 | -150,670 | 18 | call-2023-05-24.md | none found in the call(s) held |
+| 2023-Q3 | -139,316 | 53 | no call held in the quarter | no call to search |
+| 2023-Q4 | -57,094 | 24 | call-2023-11-10.md | none found in the call(s) held |
+| 2024-Q1 | -58,998 | 19 | call-2024-02-09.md | none found in the call(s) held |
+
+*Every matching sentence in every held call, with whether it falls in a quarter that has insider rows*
+
+| Call held | Quarter | File | Line | Quote (30 words at most) | In a quarter with insider rows? |
+|---|---|---|---|---|---|
+| 2025-08-08 | 2025-Q3 | soic-ladder/docs/idea/case-study/BIOCON/data/management-text/call-2025-08-08.md | 105 | "And I think what we've done, thus far, is extremely encouraging as far as I'm concerned as a promoter." | no: outside the quarters with insider rows |
+
+*Calls searched*
+
+| Call file | Quarter held | Sentences found |
+|---|---|---|
+| call-2022-11-15.md | 2022-Q4 | 0 |
+| call-2023-02-15.md | 2023-Q1 | 0 |
+| call-2023-05-24.md | 2023-Q2 | 0 |
+| call-2023-11-10.md | 2023-Q4 | 0 |
+| call-2024-02-09.md | 2024-Q1 | 0 |
+| call-2024-05-16.md | 2024-Q2 | 0 |
+| call-2024-08-09.md | 2024-Q3 | 0 |
+| call-2025-01-31.md | 2025-Q1 | 0 |
+| call-2025-05-09.md | 2025-Q2 | 0 |
+| call-2025-08-08.md | 2025-Q3 | 1 |
+| call-2025-11-12.md | 2025-Q4 | 0 |
+| call-2026-02-13.md | 2026-Q1 | 0 |
+| call-2026-05-08.md | 2026-Q2 | 0 |
+| call-2026-08-06.md | 2026-Q3 | 0 |
+
 **Caveats**
 
-- 9 quarters are held (2022-Q1 to 2024-Q1); every later quarter, 2024-Q2 to 2026-Q4, is NOT HELD: NSE's list returns no BIOCON row filed after 5 April 2024 although the same call returns rows for other companies in every month to April 2026 (insider-feed-coverage-2026-11-10.csv); the cause is not established here.
+- 9 quarters are held (2022-Q1 to 2024-Q1), the last trade in the held file is dated 2024-03-28; 2024-Q2 onward is NOT HELD, so no quarter after 2024-Q1 can be tabled: NSE's list returns no BIOCON row filed after 5 April 2024 although the same call returns rows for other companies in every month to April 2026 (insider-feed-coverage-2026-11-10.csv); the cause is not established here.
+- Words searched in the call text (case-insensitive): promoter|insider|pledg|skin in the game|my own (?:shares|stake|money)|(?:buy|buying|bought|sell|selling|sold) (?:more |our |my )?(?:own )?shares. 1 sentence(s) match across 14 calls, 0 of them in a quarter with insider rows. Calls held after 2024-Q1 (call-2024-05-16.md, call-2024-08-09.md, call-2025-01-31.md, call-2025-05-09.md, call-2025-08-08.md, call-2025-11-12.md, call-2026-02-13.md, call-2026-05-08.md, call-2026-08-06.md) cannot be set beside any insider row because none is held for their quarters. Quarters before the first call held (call-2022-11-15.md) have insider rows and no call.
+- A sentence that holds a search word is a candidate, not a statement about insider dealing: read the quote. The annual-report prose (statements-ar-fy22 to fy26, section T11) is not call text and was not searched here.
 - 'Not stated' (117 of 206 rows) is NSE's blank in the person-category field, so those rows cannot be assigned to promoters, KMP or employees; they are in the open-market and ESOP columns but not in the promoter + KMP column.
 - The open-market column is mostly sales (84 'Market Sale' rows against 3 'Market Purchase' rows, the three purchases totalling 2,000,000 shares in category 'Other'), and ESOP exercises are not purchases, so net buying by quarter is not 'insiders buying'. No buy or sell view is drawn.
 
@@ -2682,7 +2771,7 @@ not a cause.
 
 ## L7-46: Retained earnings and book value per share by year
 
-**Formula in words.** BVPS (Rs) = equity attributable to owners (Rs million) x 1,000,000 / shares outstanding at 31 March. Reserves per share = other equity x 1,000,000 / the same shares. P/B = the 31-March weekly close / BVPS, set beside the held price-to-book (market cap / owners' equity).
+**Formula in words.** BVPS (Rs) = equity attributable to owners (Rs million) x 1,000,000 / shares outstanding at 31 March. Retained earnings per share and other equity per share = each x 1,000,000 / the same shares. P/B = the 31-March weekly close / BVPS, beside the held price-to-book. Cumulative retained = retained earnings at the year-end less the Mar-21 balance, set beside the rise in market cap over the same span. Close convention: retained earnings = the closing balance at 31 March of each year (the statement of changes in equity's 'Balance at March 31'); market cap = the last WEEKLY close on or before 31 March (a week-ending date, 26 March 2021 for FY21) x shares at 31 March, as in the held derived-metrics 'market_cap'; the last DAILY close on or before 31 March is shown beside it.
 
 **Inputs (held)**
 
@@ -2694,6 +2783,12 @@ not a cause.
 | bs.equity_attributable_to_owners | FY24 | 197,837 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.equity_attributable_to_owners, filed; AR pdf p264, p308, p346, p348, p362) |
 | bs.equity_attributable_to_owners | FY25 | 216,440 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.equity_attributable_to_owners, filed; AR pdf p264, p308, p346, p348, p362) |
 | bs.equity_attributable_to_owners | FY26 | 340,318 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.equity_attributable_to_owners, filed; AR pdf p264, p308, p346, p348, p362) |
+| retained earnings (printed, statement of changes in equity) | FY21 | 62,358 | Rs million | consolidated | held annual-report pages, statement of changes in equity (file and line for every year-end in the table 'Retained earnings by year-end') |
+| retained earnings (printed, statement of changes in equity) | FY22 | 68,273 | Rs million | consolidated | held annual-report pages, statement of changes in equity (file and line for every year-end in the table 'Retained earnings by year-end') |
+| retained earnings (printed, statement of changes in equity) | FY23 | 160,859 | Rs million | consolidated | held annual-report pages, statement of changes in equity (file and line for every year-end in the table 'Retained earnings by year-end') |
+| retained earnings (printed, statement of changes in equity) | FY24 | 176,028 | Rs million | consolidated | held annual-report pages, statement of changes in equity (file and line for every year-end in the table 'Retained earnings by year-end') |
+| retained earnings (printed, statement of changes in equity) | FY25 | 189,591 | Rs million | consolidated | held annual-report pages, statement of changes in equity (file and line for every year-end in the table 'Retained earnings by year-end') |
+| retained earnings (printed, statement of changes in equity) | FY26 | 139,920 | Rs million | consolidated | held annual-report pages, statement of changes in equity (file and line for every year-end in the table 'Retained earnings by year-end') |
 | bs.other_equity | FY21 | 70,269 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.other_equity, filed; AR pdf p264, p308, p346, p348, p362) |
 | bs.other_equity | FY22 | 78,322 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.other_equity, filed; AR pdf p264, p308, p346, p348, p362) |
 | bs.other_equity | FY23 | 172,666 | Rs million | consolidated | roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (bs.other_equity, filed; AR pdf p264, p308, p346, p348, p362) |
@@ -2719,19 +2814,63 @@ not a cause.
 | price_to_book_owners_equity | FY25 | 1.90 | times | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=price_to_book_owners_equity; derived, held) |
 | price_to_book_owners_equity | FY26 | 1.76 | times | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=price_to_book_owners_equity; derived, held) |
 | Book Value (screener, third party) | page | 214 | Rs per share | consolidated (screener page, third party) | soic-ladder/docs/idea/case-study/BIOCON/data/peers/BIOCON.txt |
+| market_cap | FY21 | 474,524.33 | Rs million | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=market_cap; derived, held) |
+| market_cap | FY22 | 418,878.02 | Rs million | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=market_cap; derived, held) |
+| market_cap | FY23 | 247,737.13 | Rs million | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=market_cap; derived, held) |
+| market_cap | FY24 | 317,129.92 | Rs million | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=market_cap; derived, held) |
+| market_cap | FY25 | 410,233.95 | Rs million | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=market_cap; derived, held) |
+| market_cap | FY26 | 599,959.37 | Rs million | consolidated | roast-room/docs/company-record/biocon/derived-metrics-FY21-FY26.csv (metric=market_cap; derived, held) |
+| market cap on the last daily close on or before 31 March | FY21 | 490,912.07 | Rs million | consolidated | BIOCON_NS-daily-long.csv close x shares_outstanding_31_march |
+| market cap on the last daily close on or before 31 March | FY22 | 402,910.48 | Rs million | consolidated | BIOCON_NS-daily-long.csv close x shares_outstanding_31_march |
+| market cap on the last daily close on or before 31 March | FY23 | 247,737.13 | Rs million | consolidated | BIOCON_NS-daily-long.csv close x shares_outstanding_31_march |
+| market cap on the last daily close on or before 31 March | FY24 | 317,129.92 | Rs million | consolidated | BIOCON_NS-daily-long.csv close x shares_outstanding_31_march |
+| market cap on the last daily close on or before 31 March | FY25 | 410,233.95 | Rs million | consolidated | BIOCON_NS-daily-long.csv close x shares_outstanding_31_march |
+| market cap on the last daily close on or before 31 March | FY26 | 585,045.47 | Rs million | consolidated | BIOCON_NS-daily-long.csv close x shares_outstanding_31_march |
 
 **Computed result, DERIVED**
 
+*Retained earnings by year-end, consolidated (PRINTED; other equity beside it)*
+
+| Year-end | Retained earnings | Other equity (balance sheet) | Retained as % of other equity | Pages that print it | Where (file, line) |
+|---|---|---|---|---|---|
+| FY21 | 62,358 | 70,269 | 88.74 | 2 page(s) agree | FY22/p266.md line 1; FY23/p364.md line 10 |
+| FY22 | 68,273 | 78,322 | 87.17 | 3 page(s) agree | FY22/p266.md line 1; FY23/p364.md line 10; FY24/p310.md line 9 |
+| FY23 | 160,859 | 172,666 | 93.16 | 3 page(s) agree | FY23/p365.md line 11; FY24/p310.md line 9; FY25/p350.md line 12 |
+| FY24 | 176,028 | 191,834 | 91.76 | 3 page(s) agree | FY24/p310.md line 9; FY25/p350.md line 12; FY26/p348.md line 11 |
+| FY25 | 189,591 | 210,437 | 90.09 | 2 page(s) agree | FY25/p350.md line 12; FY26/p348.md line 11 |
+| FY26 | 139,920 | 332,213 | 42.12 | 1 page(s) agree | FY26/p348.md line 11 |
+
 *BVPS by year (DERIVED)*
 
-| Year | Equity attributable to owners, Rs million | Other equity, Rs million | Shares at 31 March | BVPS, Rs | Other equity per share, Rs | Close on or before 31 March, Rs | P/B on this BVPS | Held price-to-book (market cap / equity) |
-|---|---|---|---|---|---|---|---|---|
-| FY21 | 76,269 | 70,269 | 1,200,567,573 | 63.53 | 58.53 | 395.25 | 6.22 | 6.22 |
-| FY22 | 84,325 | 78,322 | 1,200,567,573 | 70.24 | 65.24 | 348.90 | 4.97 | 4.97 |
-| FY23 | 178,669 | 172,666 | 1,200,567,573 | 148.82 | 143.82 | 206.35 | 1.39 | 1.39 |
-| FY24 | 197,837 | 191,834 | 1,200,567,573 | 164.79 | 159.79 | 264.15 | 1.60 | 1.60 |
-| FY25 | 216,440 | 210,437 | 1,200,567,573 | 180.28 | 175.28 | 341.70 | 1.90 | 1.90 |
-| FY26 | 340,318 | 332,213 | 1,621,073,650 | 209.93 | 204.93 | 370.10 | 1.76 | 1.76 |
+| Year | Equity attributable to owners, Rs million | Retained earnings, Rs million | Other equity, Rs million | Shares at 31 March | BVPS, Rs | Retained earnings per share, Rs | Other equity per share, Rs (beside) | Close on or before 31 March, Rs | P/B on this BVPS | Held price-to-book (market cap / equity) |
+|---|---|---|---|---|---|---|---|---|---|---|
+| FY21 | 76,269 | 62,358 | 70,269 | 1,200,567,573 | 63.53 | 51.94 | 58.53 | 395.25 | 6.22 | 6.22 |
+| FY22 | 84,325 | 68,273 | 78,322 | 1,200,567,573 | 70.24 | 56.87 | 65.24 | 348.90 | 4.97 | 4.97 |
+| FY23 | 178,669 | 160,859 | 172,666 | 1,200,567,573 | 148.82 | 133.99 | 143.82 | 206.35 | 1.39 | 1.39 |
+| FY24 | 197,837 | 176,028 | 191,834 | 1,200,567,573 | 164.79 | 146.62 | 159.79 | 264.15 | 1.60 | 1.60 |
+| FY25 | 216,440 | 189,591 | 210,437 | 1,200,567,573 | 180.28 | 157.92 | 175.28 | 341.70 | 1.90 | 1.90 |
+| FY26 | 340,318 | 139,920 | 332,213 | 1,621,073,650 | 209.93 | 86.31 | 204.93 | 370.10 | 1.76 | 1.76 |
+
+*Quotes: the printed cell of each year-end (first page above) and the heading cell on the same line*
+
+| Year-end | Retained earnings | File | Line | Number cell (verbatim, 30 words at most) | Heading cell (verbatim) |
+|---|---|---|---|---|---|
+| FY21 | 62,358 | annual-report/FY22/p266.md | 1 | `**9**<br>**1,325**<br>**1,292**<br>**801**<br>**1,617**<br>**62,358**<br> **-**<br>**1,541**<br>**(1,343)**<br>**2,015**<br>**(207)**` | `**Retained**<br>**earnings**` |
+| FY22 | 68,273 | annual-report/FY22/p266.md | 1 | `**9**<br>**1,363**<br>**1,292**<br>**801**<br>**1,617**<br>**68,273**<br>**-**<br>**2,041**<br>**(324)**<br>**2,732**<br>**579**` | `**Retained**<br>**earnings**` |
+| FY23 | 160,859 | annual-report/FY23/p365.md | 11 | `-<br>-<br>-<br>299<br>-<br> <br>**1,292**<br>**801  1,617 1,60,859**<br>**-**` | `**Retained**<br>**earnings**` |
+| FY24 | 176,028 | annual-report/FY24/p310.md | 9 | ` -<br>**2,285**<br>**9**<br>**1,363**<br>**1,292**<br>**840**<br>**1,878**<br>**176,028**<br> **-**<br>**3,201**<br>**(971)**` | `**Retained**<br>**earnings**` |
+| FY25 | 189,591 | annual-report/FY25/p350.md | 12 | `(1,718)<br>-<br>54<br>-<br>(600)<br>-<br>5<br>8<br>189,591<br>**irectors o**` | `**Retained**<br>**earnings**` |
+| FY26 | 139,920 | annual-report/FY26/p348.md | 11 | `(232)<br>1,309<br>50<br>(53,633)<br>(668)<br>-<br>-<br>-<br> (353)<br>139,920<br>**of Biocon**` | `**Retained**<br>**earnings**` |
+
+*Cumulative retained earnings against the rise in market cap, from FY21 (DERIVED, Rs million)*
+
+| Span | Change in retained earnings | Rise in market cap (weekly close) | Rise per rupee retained (times) | Rise in market cap (daily close) | Rise per rupee retained, daily closes (times) |
+|---|---|---|---|---|---|
+| FY21 to FY22 | 5,915 | -55,646 | -9.41 | -88,002 | -14.88 |
+| FY21 to FY23 | 98,501 | -226,787 | -2.30 | -243,175 | -2.47 |
+| FY21 to FY24 | 113,670 | -157,394 | -1.38 | -173,782 | -1.53 |
+| FY21 to FY25 | 127,233 | -64,290 | -0.51 | -80,678 | -0.63 |
+| FY21 to FY26 | 77,562 | 125,435 | 1.62 | 94,133 | 1.21 |
 
 *FY26 against screener's current figure (third party, shown beside, not replacing)*
 
@@ -2742,8 +2881,8 @@ not a cause.
 
 **Caveats**
 
-- Retained earnings are not a held line; other equity (reserves) stands in and includes share premium and OCI, so its per-share figure is not 'retained earnings per share'.
-- The FY21 share count is the Sep-2021 filing reused (nothing earlier on file) and FY26 uses the 31-March-2026 filing's count (1,621,073,650); screener's figure is on its own share count and date. Book value here is after the NCI split (owners' share only). FY16 to FY20 BVPS is not held: shares before FY21 are not on file.
+- The step asks for a ten-year span; six year-ends are held (FY21 to FY26). FY16 to FY20 retained earnings, reserves and share counts are not held (shares before FY21 are not on file), so the ten-year span is 'not held' and the FY21 to FY26 row is the only five-year window. The step's bar is Re 1 of market value per Re 1 retained (example B1-179, B9-91; no rulebook rule): the FY26 row is the comparison.
+- The cumulative change in retained earnings is a change in a balance, not profit kept after dividends: see L5-63's one-year step table, column 'Change in retained not from that profit', for the years where it is large. The FY21 share count is the Sep-2021 filing reused (nothing earlier on file) and FY26 uses the 31-March-2026 filing's count (1,621,073,650); screener's figure is on its own share count and date. Book value here is after the NCI split (owners' share only).
 
 ## Already held (not recomputed)
 
