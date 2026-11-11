@@ -171,6 +171,48 @@ How the list was made: the FY22 to FY26 notes on business combinations and acqui
 
 **Reading the marking, and what the step's second clause needs.** The step asks each new business line since listing to be marked related or unrelated, with a reason. The held notes say it directly only for rows 1, 7, 9 and 10 (the company's own wording in the filings, quoted above). For the biosimilars, Eywa, Unit 3 and Emergent deals the held notes and the related-party list do not describe the seller either way; saying 'unrelated' for them would be this reading's inference, so the marking there is 'not stated'. The new business LINES since listing that these deals touch are: biosimilars (BBL, the largest), biologics contract manufacturing (Syngene Unit 3 and the Baltimore site), US oral-solid-dose generics (Eywa), and captive solar power (rows 1, 7, 10, which the filings say are outside the main business only in the sense that they secure captive power status). Whether each line was close to the old core is a judgement; the held files give the company's reason (rows 1, 7, 10: captive power status) and no reason for the others beyond the strategy text already quoted for Viatris.
 
+### Size of each deal against its BUYER's total assets (added after the grader's finding on row L4-48)
+
+Method: buyer entity as the notes or filings name it; buyer total assets at the year-end nearest BEFORE the deal; every ratio is DERIVED = deal amount / total assets, both as printed. Amounts are Rs million unless stated. Where the buyer's own total assets are not printed in a held page the line says 'buyer total assets not held' and, where useful, gives the Group's instead (the Group is the consolidated Biocon Limited). Biocon Limited's own (standalone) total assets: not held in annual-report/FY22 to FY26 (the segment, subsidiary and Group tables are all consolidated or pre-elimination; searched 'Total assets').
+
+Total assets held, with their cites:
+
+- BBL (Biocon Biologics), 31 Mar 2022 = 96,951 (comparative column of the FY23 summarised balance sheet).
+  - `annual-report/FY23/p433.md` line 13: "|**Total assets**|**4,01,648**|**96,951**|"
+- Syngene, 31 Mar 2023 = 58,310 and 31 Mar 2024 = 61,516 (FY24 p366); 31 Mar 2025 = 67,959 (FY25 p412).
+  - `annual-report/FY24/p366.md` line 13: "|**Syngene International Limited**|||"
+  - `annual-report/FY24/p366.md` line 19: "|**Total assets**|**61,516**|**58,310**|"
+  - `annual-report/FY25/p412.md` line 42: "|Total assets|67,959|61,516|"
+- Group, Mar 2022 / Mar 2023 / Mar 2024 / Mar 2025 / Mar 2026.
+  - `annual-report/FY22/p332.md` line 5: "|**Total assets**||||||**2,03,940**|"
+  - `annual-report/FY24/p368.md` line 65: "|**Total assets**||||||**520,428**|"
+  - `annual-report/FY24/p368.md` line 35: "|**Total assets**||||||**560,707**|"
+  - `annual-report/FY25/p414.md` line 58: "|Total assets|||||**587,973**|"
+  - `annual-report/FY26/p413.md` line 55: "|Total assets|||||**636,506**|"
+
+| # | Deal | Buyer entity (as named) | Deal amount (as held) | Buyer total assets, year-end before | Size vs buyer (DERIVED) | Size vs Group (DERIVED) |
+|---|---|---|---|---|---|---|
+| 1 | AMPYR solar stake, 2022-06 | Biocon Limited | Rs 7.5 crore (printed) | buyer total assets not held | not computed | not computed (printed amount only) |
+| 2 | Viatris biosimilars, 2022-11 | BBL | 247,255 | BBL Mar 2022: 96,951 | 2.55x | 1.21x of Group Mar 2022 (203,940) |
+| 3 | Covidshield merger (withdrawn) | BBL | not stated | BBL Mar 2022: 96,951 | not computed (no amount) | not computed |
+| 4 | Eywa plant, 2023-09 | Biocon Generics Inc. (step-down subsidiary) | USD 7.7 million = about Rs 643 million (rate is an ASSUMPTION, see Deal 2) | buyer total assets not held | not computed | 0.12% of Group Mar 2023 (520,428) |
+| 5 | Unit 3, 2023-12 | Syngene | 5,632 (note); 6,170 (business review) | Syngene Mar 2023: 58,310 | 9.66% (5,632); 10.58% (6,170) | 1.08% / 1.19% of Group Mar 2023 |
+| 6 | Emergent site, quarter to 2025-03 | Syngene USA Inc. (subsidiary of Syngene) | price not printed; capitalised cost 2,981 + 311 = 3,292 | Syngene Mar 2024: 61,516 | 5.35% (cost, not price); 4.84% against Mar 2025 (67,959) | 0.59% of Group Mar 2024 |
+| 7 | Pro-zeal solar stake, 2025-08 | Biocon Limited | up to Rs 1.40 crore (printed) | buyer total assets not held | not computed | not computed (printed amount only) |
+| 8 | BBL shares from Mylan et al, 2026-01 | Biocon Limited | share swap DERIVED Rs 69,502 million, plus USD 400 million cash (printed) | buyer total assets not held | not computed | swap part 11.8% of Group Mar 2025 (cash part not converted: no held rate at the date) |
+| 9 | Preference shares of BBSL and BPL, 2026-03 | Biocon Limited | Rs 115.34 crore + Rs 200 crore (printed) = 3,153 million DERIVED | buyer total assets not held | not computed | 0.54% of Group Mar 2025 (intra-group) |
+| 10 | AMPIN solar stake, 2026-06 | Biocon Limited | Rs 5.476 crore (printed) | buyer total assets not held | not computed | not computed (printed amount only) |
+| 11 | BBL shares from 127 holders, 2026-06 | Biocon Limited | share swap DERIVED Rs 3,307 million | buyer total assets not held | not computed | 0.52% of Group Mar 2026 (636,506) |
+| 12 | BBL OCDs from Goldman Sachs AIFs, FY26 | Biocon Limited (the note says 'the company') | not stated | buyer total assets not held | not computed (no amount) | not computed |
+
+- Buyer entity for row 4, named by the company:
+  - `data/filings/text/2023-09-02_BIOCON_02092023145241_SEIntimationPressRelease/p002.txt` line 13: "Biocon Generics Inc.,  has acquired Eywa Pharma Inc."
+- Buyer entity for row 5, named by the note:
+  - `annual-report/FY24/p373.md` line 29: "Board of Directors of Syngene entered into a binding term sheet for acquiring Unit 3"
+- The Unit 3 and Emergent deals are now set against their own buyer, Syngene (rows 5 and 6), as well as the Group. Syngene's Mar 2023 and Mar 2024 figures are before inter-company eliminations, as the page says. Row 2's 'vs buyer' uses BBL's Mar 2022 figure, the year-end before the Nov 2022 close; the buyer BBL's total assets were 4,01,648 a year later, after the deal (same page), so only the earlier column is a before-deal size.
+- The solar stakes (rows 1, 7, 10) carry the printed amounts only; Biocon Limited's own total assets are not held, so no ratio is computed for them.
+- Out of scope here: whether each deal's business line is related or unrelated to the buyer's existing lines is row L4-49's question (graded NOT_APPLICABLE for this step), not this row's. The 'Related or unrelated marking' column in the table above records related-PARTY wording only, as the filings print it.
+
 ### Later write-down
 
 - Goodwill: no goodwill impairment is printed in FY24, FY25 or FY26; FY26 says so in words.
@@ -194,7 +236,8 @@ How the list was made: the FY22 to FY26 notes on business combinations and acqui
 - Whether the sellers in the Viatris (before closing), Eywa, Unit 3 and Emergent deals were related parties: the held notes do not say.
 - The price and funding of the Goldman Sachs OCD purchase, and of the Covidshield merger.
 - BBL's own revenue before the deal (only the Biosimilars segment figure and BBL's net assets are printed).
-- Syngene's own size, so the Unit 3 deal cannot be set against its buyer; and why the business review says 6,170 and the note 5,632.
+- Why the business review says 6,170 and the note 5,632 (both are set against Syngene's total assets above).
+- Total assets of Biocon Limited (standalone) and of Biocon Generics Inc.: not held, so rows 1, 4, 7 to 12 have no size-against-buyer ratio; solar stakes carry printed amounts only.
 - Whether the 3,854 and 91 impairments relate to acquired assets: the notes say only 'uncertainty of ability to commercialize'.
 - The cause of the 264 goodwill difference between the FY25 and FY26 reports.
 
