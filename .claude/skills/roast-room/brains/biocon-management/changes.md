@@ -144,3 +144,7 @@ New source S038 (debt-covenants.md), read by hand from the annual report's page 
 ## Price and volume readings added (2026-11-10)
 
 New source S051 (price-technicals.md), computed with the ladder's own indicator module (not re-written) from the weekly bars to 2026-10-23: the close is 16.63% below its 30-week EMA, weekly RSI is 24.38, ADX 23.72, Mansfield relative strength against the Nifty 500 is -13.53 and the close is 14.28% below the V-Stop, so all three price exit signs show. All are derived from price and none is a pass or a fail. The file also lists the 14 weekly closes below the 30-week EMA in three years, 27 results-date moves against the Nifty 50, and the daily moves of 5% or more with the filings of that day or the day before (many have none in the feed). Yahoo volume is not adjusted for bonus issues. Data pack: D05f added.
+
+## Results-date table corrected (2026-11-11)
+
+An adversarial re-check found that the 27 "results dates" in price-technicals.md (S051) were every 'Outcome of Board Meeting' announcement, about nine of them not results meetings (fund raising, postal ballots), and that two results dates were missing. The table now uses the 20 dates of BIOCON's own results filings (a filing in the NSE results group whose first pages say it carries financial results) and adds the gap on the event day and the next day, the two-session move against the Nifty 50, and each session's volume against the average of the 20 sessions before it. Any earlier reading of "27 results-date moves" is superseded.
