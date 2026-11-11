@@ -2557,6 +2557,7 @@ not a cause.
 - Basis by year: FY16 is printed on two bases, IGAAP in the FY16 report (retained 32,344, 'Net Surplus in the statement of profit and loss') and Ind AS in the FY17 report's restated comparative (31,669); the windows use Ind AS for FY16 so every year is on one basis, and the FY16-opening table shows both. FY17 onward is Ind AS in every report; Mar-19 and Mar-20 are printed by two or three reports that agree. The FY20 report's opening FY20 balance is before the Ind AS 116 adjustment of (4) that the FY21 report shows (52,085 adjusted); the year-end balances used are the printed closings.
 - Share basis: FY16 to FY20 market cap = bonus-adjusted close x year-end shares x bonus factor (x6 FY16-FY17, x2 FY18-FY19, x1 FY20; the factors are the 2:1 bonus of June 2017 and the 1:1 bonus of June 2019), so it equals the unadjusted price x the shares then outstanding. FY21 to FY25 use the 1,200,567,573 shareholding-filing count and FY26 1,621,073,650, as before (the FY16 to FY20 counts are the share-capital notes' round 200, 600 and 1,200 million). Nothing is netted for share-issue proceeds in FY16 to FY20 (not held in the record), so FY16-based windows include new capital raised in FY22 to FY26 (98,513 in the FY21-FY26 table).
 - Close convention again: the weekly close on or before 31 March = the close of the last session of the last Monday-to-Sunday week whose last session is on or before 31 March (the held weekly bars' own rule: week ending 26 March 2021 for FY21). FY21 to FY26 use the held weekly bars; FY16 to FY20 are built the same way from the held daily file (the 10.5-year weekly price artifact is not held here), and the method check table shows the build gives the held weekly close for FY20 to FY26 (the held weekly bars start 2019-12-06). The close is Yahoo's, adjusted for the two bonus issues, not for dividends, so it sits on today's share count.
+- Caveat on the window labels: every rolling window above is on the change in the retained-earnings BALANCE, not profit kept after dividends; for FY20 to FY25 the balance ratio is 0.59 (below 1) while profit kept over FY21 to FY25 is 35,873 (profit 38,874 less dividends paid 3,001), a ratio of 2.15 (at or above 1); L7-46 holds every window on both measures.
 
 ## L5-64: Returns by segment and new capital against old
 
@@ -3000,6 +3001,39 @@ not a cause.
 | market cap at the weekly close (FY16-FY20 derived here; FY21-FY26 held) | FY24 | 317,129.92 | Rs million | consolidated | close x shares at 31 March |
 | market cap at the weekly close (FY16-FY20 derived here; FY21-FY26 held) | FY25 | 410,233.95 | Rs million | consolidated | close x shares at 31 March |
 | market cap at the weekly close (FY16-FY20 derived here; FY21-FY26 held) | FY26 | 599,959.37 | Rs million | consolidated | close x shares at 31 March |
+| profit attributable to owners (FY16 restated to Ind AS; FY16-FY20 highlights rows of the held reports, FY21-FY26 held) | FY16 | 5,504 | Rs million | Ind AS, consolidated | data/history ar-fy16..ar-fy20 highlights rows; roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.profit_attributable_to_owners, filed; AR pdf p265, p309, p347, p349, p363) |
+| profit attributable to owners (FY16 restated to Ind AS; FY16-FY20 highlights rows of the held reports, FY21-FY26 held) | FY17 | 6,121 | Rs million | Ind AS, consolidated | data/history ar-fy16..ar-fy20 highlights rows; roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.profit_attributable_to_owners, filed; AR pdf p265, p309, p347, p349, p363) |
+| profit attributable to owners (FY16 restated to Ind AS; FY16-FY20 highlights rows of the held reports, FY21-FY26 held) | FY18 | 3,724 | Rs million | Ind AS, consolidated | data/history ar-fy16..ar-fy20 highlights rows; roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.profit_attributable_to_owners, filed; AR pdf p265, p309, p347, p349, p363) |
+| profit attributable to owners (FY16 restated to Ind AS; FY16-FY20 highlights rows of the held reports, FY21-FY26 held) | FY19 | 9,053 | Rs million | Ind AS, consolidated | data/history ar-fy16..ar-fy20 highlights rows; roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.profit_attributable_to_owners, filed; AR pdf p265, p309, p347, p349, p363) |
+| profit attributable to owners (FY16 restated to Ind AS; FY16-FY20 highlights rows of the held reports, FY21-FY26 held) | FY20 | 7,482 | Rs million | Ind AS, consolidated | data/history ar-fy16..ar-fy20 highlights rows; roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.profit_attributable_to_owners, filed; AR pdf p265, p309, p347, p349, p363) |
+| profit attributable to owners (FY16 restated to Ind AS; FY16-FY20 highlights rows of the held reports, FY21-FY26 held) | FY21 | 7,405 | Rs million | Ind AS, consolidated | data/history ar-fy16..ar-fy20 highlights rows; roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.profit_attributable_to_owners, filed; AR pdf p265, p309, p347, p349, p363) |
+| profit attributable to owners (FY16 restated to Ind AS; FY16-FY20 highlights rows of the held reports, FY21-FY26 held) | FY22 | 6,484 | Rs million | Ind AS, consolidated | data/history ar-fy16..ar-fy20 highlights rows; roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.profit_attributable_to_owners, filed; AR pdf p265, p309, p347, p349, p363) |
+| profit attributable to owners (FY16 restated to Ind AS; FY16-FY20 highlights rows of the held reports, FY21-FY26 held) | FY23 | 4,627 | Rs million | Ind AS, consolidated | data/history ar-fy16..ar-fy20 highlights rows; roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.profit_attributable_to_owners, filed; AR pdf p265, p309, p347, p349, p363) |
+| profit attributable to owners (FY16 restated to Ind AS; FY16-FY20 highlights rows of the held reports, FY21-FY26 held) | FY24 | 10,225 | Rs million | Ind AS, consolidated | data/history ar-fy16..ar-fy20 highlights rows; roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.profit_attributable_to_owners, filed; AR pdf p265, p309, p347, p349, p363) |
+| profit attributable to owners (FY16 restated to Ind AS; FY16-FY20 highlights rows of the held reports, FY21-FY26 held) | FY25 | 10,133 | Rs million | Ind AS, consolidated | data/history ar-fy16..ar-fy20 highlights rows; roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.profit_attributable_to_owners, filed; AR pdf p265, p309, p347, p349, p363) |
+| profit attributable to owners (FY16 restated to Ind AS; FY16-FY20 highlights rows of the held reports, FY21-FY26 held) | FY26 | 3,856 | Rs million | Ind AS, consolidated | data/history ar-fy16..ar-fy20 highlights rows; roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.profit_attributable_to_owners, filed; AR pdf p265, p309, p347, p349, p363) |
+| dividends paid in the year, standalone cash flow (includes dividend tax where the line says so) | FY16 | 2,107 | Rs million | standalone | standalone cash-flow lines of the held FY17 to FY26 reports (older-annual-reports.md ids fyNN-cash-fyNN) |
+| dividends paid in the year, standalone cash flow (includes dividend tax where the line says so) | FY17 | 0 | Rs million | standalone | standalone cash-flow lines of the held FY17 to FY26 reports (older-annual-reports.md ids fyNN-cash-fyNN) |
+| dividends paid in the year, standalone cash flow (includes dividend tax where the line says so) | FY18 | 693 | Rs million | standalone | standalone cash-flow lines of the held FY17 to FY26 reports (older-annual-reports.md ids fyNN-cash-fyNN) |
+| dividends paid in the year, standalone cash flow (includes dividend tax where the line says so) | FY19 | 694 | Rs million | standalone | standalone cash-flow lines of the held FY17 to FY26 reports (older-annual-reports.md ids fyNN-cash-fyNN) |
+| dividends paid in the year, standalone cash flow (includes dividend tax where the line says so) | FY20 | 601 | Rs million | standalone | standalone cash-flow lines of the held FY17 to FY26 reports (older-annual-reports.md ids fyNN-cash-fyNN) |
+| dividends paid in the year, standalone cash flow (includes dividend tax where the line says so) | FY21 | 0 | Rs million | standalone | standalone cash-flow lines of the held FY17 to FY26 reports (older-annual-reports.md ids fyNN-cash-fyNN) |
+| dividends paid in the year, standalone cash flow (includes dividend tax where the line says so) | FY22 | 0 | Rs million | standalone | standalone cash-flow lines of the held FY17 to FY26 reports (older-annual-reports.md ids fyNN-cash-fyNN) |
+| dividends paid in the year, standalone cash flow (includes dividend tax where the line says so) | FY23 | 600 | Rs million | standalone | standalone cash-flow lines of the held FY17 to FY26 reports (older-annual-reports.md ids fyNN-cash-fyNN) |
+| dividends paid in the year, standalone cash flow (includes dividend tax where the line says so) | FY24 | 1,801 | Rs million | standalone | standalone cash-flow lines of the held FY17 to FY26 reports (older-annual-reports.md ids fyNN-cash-fyNN) |
+| dividends paid in the year, standalone cash flow (includes dividend tax where the line says so) | FY25 | 600 | Rs million | standalone | standalone cash-flow lines of the held FY17 to FY26 reports (older-annual-reports.md ids fyNN-cash-fyNN) |
+| dividends paid in the year, standalone cash flow (includes dividend tax where the line says so) | FY26 | 668 | Rs million | standalone | standalone cash-flow lines of the held FY17 to FY26 reports (older-annual-reports.md ids fyNN-cash-fyNN) |
+| dividends declared for the year, Board report total (FY16 includes dividend tax as printed) | FY16 | 1,107 | Rs million | standalone | Board report text or events-after-the-reporting-period note of the held FY16 to FY26 reports (older-annual-reports.md ids fyNN-payout-total) |
+| dividends declared for the year, Board report total (FY16 includes dividend tax as printed) | FY17 | 600 | Rs million | standalone | Board report text or events-after-the-reporting-period note of the held FY16 to FY26 reports (older-annual-reports.md ids fyNN-payout-total) |
+| dividends declared for the year, Board report total (FY16 includes dividend tax as printed) | FY18 | 600 | Rs million | standalone | Board report text or events-after-the-reporting-period note of the held FY16 to FY26 reports (older-annual-reports.md ids fyNN-payout-total) |
+| dividends declared for the year, Board report total (FY16 includes dividend tax as printed) | FY19 | 600 | Rs million | standalone | Board report text or events-after-the-reporting-period note of the held FY16 to FY26 reports (older-annual-reports.md ids fyNN-payout-total) |
+| dividends declared for the year, Board report total (FY16 includes dividend tax as printed) | FY20 | 0 | Rs million | standalone | Board report text or events-after-the-reporting-period note of the held FY16 to FY26 reports (older-annual-reports.md ids fyNN-payout-total) |
+| dividends declared for the year, Board report total (FY16 includes dividend tax as printed) | FY21 | 0 | Rs million | standalone | Board report text or events-after-the-reporting-period note of the held FY16 to FY26 reports (older-annual-reports.md ids fyNN-payout-total) |
+| dividends declared for the year, Board report total (FY16 includes dividend tax as printed) | FY22 | 600 | Rs million | standalone | Board report text or events-after-the-reporting-period note of the held FY16 to FY26 reports (older-annual-reports.md ids fyNN-payout-total) |
+| dividends declared for the year, Board report total (FY16 includes dividend tax as printed) | FY23 | 1,800 | Rs million | standalone | Board report text or events-after-the-reporting-period note of the held FY16 to FY26 reports (older-annual-reports.md ids fyNN-payout-total) |
+| dividends declared for the year, Board report total (FY16 includes dividend tax as printed) | FY24 | 600 | Rs million | standalone | Board report text or events-after-the-reporting-period note of the held FY16 to FY26 reports (older-annual-reports.md ids fyNN-payout-total) |
+| dividends declared for the year, Board report total (FY16 includes dividend tax as printed) | FY25 | 600 | Rs million | standalone | Board report text or events-after-the-reporting-period note of the held FY16 to FY26 reports (older-annual-reports.md ids fyNN-payout-total) |
+| dividends declared for the year, Board report total (FY16 includes dividend tax as printed) | FY26 | 810 | Rs million | standalone | Board report text or events-after-the-reporting-period note of the held FY16 to FY26 reports (older-annual-reports.md ids fyNN-payout-total) |
 
 **Computed result, DERIVED**
 
@@ -3143,6 +3177,69 @@ not a cause.
 | FY25 | 2025-03-28 | 341.70 | 2025-03-28 | 341.70 | same |
 | FY26 | 2026-03-27 | 370.10 | 2026-03-27 | 370.10 | same |
 
+*Profit kept after dividends, every year FY16 to FY26 (DERIVED, Rs million)*
+
+| Year | Profit to owners | Dividends paid in the year (standalone cash) | Profit kept (profit less dividends paid) | Dividends declared for the year (beside) | Profit kept on dividends declared (beside) | Change in retained-earnings balance | Other movements (balance change less profit kept), DERIVED |
+|---|---|---|---|---|---|---|---|
+| FY16 | 5,504 | 2,107 | 3,397 | 1,107 | 4,397 | not held | not held |
+| FY16 on IGAAP profit (FY16 report) | 8,961 | 2,107 | 6,854 | 1,107 | 7,854 | not held | not held |
+| FY17 | 6,121 | 0 | 6,121 | 600 | 5,521 | 7,356 | 1,235 |
+| FY18 | 3,724 | 693 | 3,031 | 600 | 3,124 | 3,269 | 238 |
+| FY19 | 9,053 | 694 | 8,359 | 600 | 8,453 | 9,795 | 1,436 |
+| FY20 | 7,482 | 601 | 6,881 | 0 | 7,482 | 7,052 | 171 |
+| FY21 | 7,405 | 0 | 7,405 | 0 | 7,405 | 3,217 | -4,188 |
+| FY22 | 6,484 | 0 | 6,484 | 600 | 5,884 | 5,915 | -569 |
+| FY23 | 4,627 | 600 | 4,027 | 1,800 | 2,827 | 92,586 | 88,559 |
+| FY24 | 10,225 | 1,801 | 8,424 | 600 | 9,625 | 15,169 | 6,745 |
+| FY25 | 10,133 | 600 | 9,533 | 600 | 9,533 | 13,563 | 4,030 |
+| FY26 | 3,856 | 668 | 3,188 | 810 | 3,046 | -49,671 | -52,859 |
+
+*The ten-year span and every rolling five-year window on PROFIT KEPT after dividends, beside the retained-earnings balance change (DERIVED, Rs million)*
+
+| Window (profit of the years after the opening year-end) | Rise in market cap (weekly close) | Profit to owners, sum | Dividends paid, sum | Profit kept, sum | Rise per rupee of profit kept (times) | Against Re 1 (comparison, not a verdict) | Same, on dividends declared (times, beside) | Change in retained-earnings balance (beside) | Rise per rupee of balance change (times, as printed above) | Against Re 1 (balance) | Do the two measures agree? |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| FY16 to FY26 | 507,169 | 69,110 | 5,657 | 63,453 | 7.99 | at or above 1 | 8.06 | 108,251 | 4.69 | at or above 1 | same side |
+| FY16 to FY21 | 381,734 | 33,785 | 1,988 | 31,797 | 12.01 | at or above 1 | 11.93 | 30,689 | 12.44 | at or above 1 | same side |
+| FY17 to FY22 | 192,418 | 34,148 | 1,988 | 32,160 | 5.98 | at or above 1 | 5.95 | 29,248 | 6.58 | at or above 1 | same side |
+| FY18 to FY23 | -108,603 | 35,051 | 1,895 | 33,156 | -3.28 | below 1 (market cap fell) | -3.39 | 118,565 | -0.92 | below 1 (market cap fell) | same side |
+| FY19 to FY24 | -47,040 | 36,223 | 3,002 | 33,221 | -1.42 | below 1 (market cap fell) | -1.42 | 123,939 | -0.38 | below 1 (market cap fell) | same side |
+| FY20 to FY25 | 76,994 | 38,874 | 3,001 | 35,873 | 2.15 | at or above 1 | 2.18 | 130,450 | 0.59 | below 1 | DIFFERENT SIDES |
+| FY21 to FY26 | 125,435 | 35,325 | 3,669 | 31,656 | 3.96 | at or above 1 | 4.06 | 77,562 | 1.62 | at or above 1 | same side |
+
+*Where each profit and dividend figure was read (file under case-study/BIOCON, line, verbatim quote of 30 words at most)*
+
+| What | Year | Value | File | Line | Quote |
+|---|---|---|---|---|---|
+| profit to owners | FY16 | 5,504 | data/history/ar-fy17/p046.txt | 60 | `5,089 4,138 4,974 5,504 6,121` |
+| profit to owners | FY17 | 6,121 | data/history/ar-fy17/p046.txt | 60 | `5,089 4,138 4,974 5,504 6,121` |
+| profit to owners | FY18 | 3,724 | data/history/ar-fy19/p067.txt | 9 | `4,974  6,121 5,504  3,724 9,053` |
+| profit to owners | FY19 | 9,053 | data/history/ar-fy19/p067.txt | 9 | `4,974  6,121 5,504  3,724 9,053` |
+| profit to owners | FY20 | 7,482 | data/history/ar-fy20/p049.txt | 29 | `5,504 6,121 3,724 9,053 7,482  5,504 6,121 3,724 9,053 7,482` |
+| FY16 profit on the old (IGAAP) basis | FY16 | 8,961 | data/history/ar-fy16/p051.txt | 8 | `3,384  5,089  4,138  4,974 8,961` |
+| dividends paid in the year, standalone | FY16 | 2,107 | data/history/ar-fy17/p179.txt | 48 | `Dividend paid on equity shares including tax thereon  -  (2,107)` |
+| dividends paid in the year, standalone | FY17 | 0 | data/history/ar-fy17/p179.txt | 48 | `Dividend paid on equity shares including tax thereon  -  (2,107)` |
+| dividends paid in the year, standalone | FY18 | 693 | data/history/ar-fy18/p156.txt | 47 | `Dividend paid on equity shares including tax thereon  (693)  -` |
+| dividends paid in the year, standalone | FY19 | 694 | data/history/ar-fy19/p198.txt | 46 | `Dividend paid on equity shares including tax thereon  (694)  (693)` |
+| dividends paid in the year, standalone | FY20 | 601 | data/history/ar-fy20/p216.txt | 8 | `Dividend paid on equity shares including tax thereon  (601)  (694)` |
+| dividends paid in the year, standalone | FY21 | 0 | data/history/ar-fy21/p200.txt | 4 | `Dividend paid on equity shares including tax thereon  -    (601)` |
+| dividends paid in the year, standalone | FY22 | 0 | annual-report/FY23/p291.md | 57 | `Dividend Paid/(600)/-/` |
+| dividends paid in the year, standalone | FY23 | 600 | annual-report/FY23/p291.md | 57 | `Dividend Paid/(600)/-/` |
+| dividends paid in the year, standalone | FY24 | 1,801 | annual-report/FY24/p251.md | 59 | `Dividend Paid/(1,801)/(600)/` |
+| dividends paid in the year, standalone | FY25 | 600 | annual-report/FY25/p287.md | 58 | `Dividend Paid/(600)/(1,801)/` |
+| dividends paid in the year, standalone | FY26 | 668 | annual-report/FY26/p285.md | 57 | `Dividend paid/<br> (668)/<br> (600)/` |
+| dividends declared for the year | FY16 | 1,107 | data/history/ar-fy16/p111.txt | 11 | `` entailing a pay-out of ` 1,107 mn (including dividend `` |
+| dividends declared for the year | FY17 | 600 | data/history/ar-fy17/p098.txt | 30 | `` amounting to ` 600 mn. In view of net cash generated from operations being substantially deployed in capex and taking into `` |
+| dividends declared for the year | FY18 | 600 | data/history/ar-fy18/p079.txt | 22 | `` out of ` 600 mn. The dividend pay-out is subject to approval of Members at the ensuing Annual General Meeting (AGM). `` |
+| dividends declared for the year | FY19 | 600 | data/history/ar-fy19/p115.txt | 26 | `entailing a pay-out of H 600 mn. The dividend pay-out is subject to approval of members at the ensuing Annual` |
+| dividends declared for the year | FY20 | 0 | data/history/ar-fy20/p114.txt | 22 | `not to recommend the dividend for FY 2019-20 in order to` |
+| dividends declared for the year | FY21 | 0 | data/history/ar-fy21/p112.txt | 6 | `would not be appropriate to declare a dividend for the financial year 2020-` |
+| dividends declared for the year | FY22 | 600 | annual-report/FY22/p111.md | 9 | `` dividend payout will be approximately ` 60 Crores. `` |
+| dividends declared for the year | FY23 | 1,800 | annual-report/FY23/p190.md | 23 | `` dividend payout will be approximately ` 1,800 million. `` |
+| dividends declared for the year | FY24 | 600 | annual-report/FY24/p298.md | 11 | `each amounting to Rs. 600 as on the record date for distribution of final dividend. The proposed dividend is subject to approval of the shareholders in the ensuing Annual General` |
+| dividends declared for the year | FY25 | 600 | annual-report/FY25/p337.md | 9 | `each amounting to Rs. 600 as on the record date for distribution of final dividend. The proposed dividend is subject to approval of the shareholders in the ensuing Annual General` |
+| dividends declared for the year | FY26 | 810 | annual-report/FY26/p196.md | 31 | `` dividend payout will be approximately ` 810 million subject to the adjustments if any, on account of further issuance of shares by the Company before the record date in respect `` |
+| profit to owners FY21-FY26 (held series, not re-read) | FY21-FY26 | see inputs | data/history ar-fy16..ar-fy20 highlights rows; roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv (pl.profit_attributable_to_owners, filed; AR pdf p265, p309, p347, p349, p363) | held | not quoted: read from the held ar-tables csv |
+
 **Caveats**
 
 - The ten-year span FY16 to FY26 is formed from eleven year-ends: retained earnings FY16 to FY20 are printed in the held FY16 to FY21 reports, share counts in their share-capital notes, closes from the held daily file. The step's bar is Re 1 of market value per Re 1 retained (example B1-179, B9-91; no rulebook rule): the window rows are the comparison, not a verdict. The change in retained earnings over ten years is a change in a balance, not profit kept after dividends: see L5-63's one-year step table, column 'Change in retained not from that profit' (FY22 to FY26 only; FY17 to FY21 are not split into profit and other movements here).
@@ -3150,6 +3247,14 @@ not a cause.
 - Basis by year: FY16 is printed on two bases, IGAAP in the FY16 report (retained 32,344, 'Net Surplus in the statement of profit and loss') and Ind AS in the FY17 report's restated comparative (31,669); the windows use Ind AS for FY16 so every year is on one basis, and the FY16-opening table shows both. FY17 onward is Ind AS in every report; Mar-19 and Mar-20 are printed by two or three reports that agree. The FY20 report's opening FY20 balance is before the Ind AS 116 adjustment of (4) that the FY21 report shows (52,085 adjusted); the year-end balances used are the printed closings.
 - Share basis: FY16 to FY20 market cap = bonus-adjusted close x year-end shares x bonus factor (x6 FY16-FY17, x2 FY18-FY19, x1 FY20; the factors are the 2:1 bonus of June 2017 and the 1:1 bonus of June 2019), so it equals the unadjusted price x the shares then outstanding. FY21 to FY25 use the 1,200,567,573 shareholding-filing count and FY26 1,621,073,650, as before (the FY16 to FY20 counts are the share-capital notes' round 200, 600 and 1,200 million). Nothing is netted for share-issue proceeds in FY16 to FY20 (not held in the record), so FY16-based windows include new capital raised in FY22 to FY26 (98,513 in the FY21-FY26 table).
 - Close convention again: the weekly close on or before 31 March = the close of the last session of the last Monday-to-Sunday week whose last session is on or before 31 March (the held weekly bars' own rule: week ending 26 March 2021 for FY21). FY21 to FY26 use the held weekly bars; FY16 to FY20 are built the same way from the held daily file (the 10.5-year weekly price artifact is not held here), and the method check table shows the build gives the held weekly close for FY20 to FY26 (the held weekly bars start 2019-12-06). The close is Yahoo's, adjusted for the two bonus issues, not for dividends, so it sits on today's share count.
+- Profit kept after dividends = profit to owners for the year less dividends PAID in the year, the step's own words (FC-L7-T3-S3 Open line: 'retained earnings (profit kept after dividends)'; done-when: 'cumulative retained profit'). A window counts the years AFTER its opening year-end, so FY16 to FY26 counts FY17 to FY26.
+- Which dividend: the cash paid in the year, standalone (the parent's own cash flow, which is what went to owners; the older lines say 'including tax thereon'). The dividend declared for the year sits beside it (its sums and ratios are in the table). Consolidated cash lines (L7-47) include dividends paid to non-controlling holders and are not used here. Cash paid and declared differ mainly in timing: a year's final dividend is mostly paid in the next year.
+- FY16 basis: profit is 5,504 on Ind AS (FY17 report, the basis the balances use) and 8,961 on the old basis (FY16 report); both are shown. FY16's profit enters no window, because every window opens at a year-end.
+- FY20 declared is 0 on the Board text (not recommended, COVID-19); the FY20 and FY21 reports' five-year tables print 0.5 for it, unreconciled (older-annual-reports.md); the 601 paid in FY20 is the FY19 final dividend.
+- The FY16 to FY20 profit rows are labelled PAT or Profit without saying 'attributable to owners'; the held ten-year-inputs line calls them profit after non-controlling interest. Not checked against a page that says so.
+- Why the two measures differ: the retained-earnings balance also moves for things that are neither profit nor dividend (other comprehensive income, shares issued, deals with minority holders); the FY23 equity statement lists `Gain on sale of shares<br>|in a subsidiary<br>Issue of shares<br>by a subsidiary<br>NCI impact` (annual-report/FY23/p365.md line 14); how much of each lands in the retained column is not itemised here.
+- Other movements FY16 to FY26 (DERIVED): change in the retained-earnings balance 108,251 less sum of profit kept 63,453 (profit 69,110 less dividends paid 5,657) = 44,798.
+- Windows on different sides of Re 1 on the two measures: FY20 to FY25.
 
 ## Already held (not recomputed)
 
