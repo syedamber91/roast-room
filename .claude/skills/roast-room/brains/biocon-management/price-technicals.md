@@ -178,6 +178,37 @@ Advance and decline, the last 10 sessions: constituents of today's Nifty 500 lis
 | 2026-11-06 | 216 | 277 | 2 |
 | 2026-11-09 | 317 | 177 | 1 |
 
+On-balance volume against price over the same windows (daily file to 2026-11-09): over the last 126 sessions OBV +61,033,322 and the close -3.13% (380.40 on 2026-05-08 to 368.50); over the last 130 sessions OBV +69,474,525 and the close +2.19%. Volume is not bonus-adjusted, so only changes in OBV mean anything, not its level.
+
+Volume on up sessions against down sessions (a session is up when its close is above the previous close):
+
+| Window | Up sessions | Mean volume on up sessions | Down sessions | Mean volume on down sessions | Up over down |
+|---|---|---|---|---|---|
+| last 50 sessions | 22 | 3,878,260 | 28 | 2,686,916 | 1.44x |
+| last 126 sessions | 57 | 5,159,825 | 69 | 3,377,924 | 1.53x |
+
+Index changes that name BIOCON in the NSE Indices press releases held (every release text held was searched for the company's name):
+
+| Index | Action | Announced | Effective | Volume on the session before the effective date (x 20-session average) | Volume on the effective date (x) | Source file |
+|---|---|---|---|---|---|---|
+| Nifty India FPI 150 | included | 2026-08-10 | 2026-09-30 | 0.84x | 0.57x | niftyindices-ind_prs10082026.txt |
+| Nifty500 Shariah | included | 2026-08-10 | 2026-08-31 | 0.67x | 1.16x | niftyindices-ind_prs10082026_3.txt |
+
+Number of trades per session (NSE security-wise bhavcopy, 313 sessions from 2025-08-01): median 36,592, last 10 sessions below. Delivery percent is the share of the traded quantity taken for delivery.
+
+| Session | Trades | Traded quantity | Delivery % |
+|---|---|---|---|
+| 2026-10-27 | 34,936 | 3,040,821 | 49.32 |
+| 2026-10-28 | 47,369 | 4,259,637 | 48.11 |
+| 2026-10-29 | 40,780 | 3,113,378 | 36.81 |
+| 2026-10-30 | 23,461 | 2,063,637 | 47.12 |
+| 2026-11-02 | 30,646 | 2,174,472 | 41.64 |
+| 2026-11-03 | 38,722 | 3,443,215 | 39.91 |
+| 2026-11-04 | 94,900 | 8,966,739 | 21.89 |
+| 2026-11-05 | 55,564 | 6,787,308 | 35.99 |
+| 2026-11-06 | 42,537 | 5,123,511 | 53.47 |
+| 2026-11-09 | 42,385 | 2,955,204 | 34.51 |
+
 ## Price move around results dates
 
 Dates are the 25 dates of BIOCON's own results filings (a filing in the NSE results group whose first pages say it carries financial results; read from the filings' text, not from every board-meeting outcome; a filing whose PDF is not held, the 2021 ones and the newest, is taken from its announcement line when that line says 'financial results for the period'). The announcement can come before or after the market closes, so both sessions are shown: 'event day' is the first session on or after the filing date. Gap = that session's open against the previous close. Volume = that session's volume divided by the average of the 20 sessions before the event day. Two-session move = close of the session after the event day over the close before it; Nifty 50 over the same two sessions beside it. Prices and volume are Yahoo's, volume not bonus-adjusted. 'n/a' = a session that has not traded yet (prices end 2026-11-09). The table starts at 2021-01-21, the first results filing in the announcements held (they begin 2021-01-07). 2025-01-30 and 2025-01-31 are the same quarter (the results were filed on 01-30 after the close, the integrated filing on 01-31); both are shown.
