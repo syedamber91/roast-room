@@ -154,3 +154,5 @@ The results-date section of price-technicals.md also now lists, for each of the 
 ## India macro series added (2026-11-11)
 
 New source S052 (macro-india.md): CPI inflation on the RBI fiscal-year basis and the World Bank calendar-year basis, real and derived nominal GDP growth, deposit rates, and Biocon's five-year revenue growth in real terms (derived). Three framework rows moved from partial to present after an adversarial re-check: L2-9, L2-55, L7-50. L6-0 and L8-61 stay partial. The fetch ran on the VPS; the ledger of every fix is filings-coach/FIXES.csv in learning-vault-invest.
+
+The results-date section of price-technicals.md also shows, for each gap, whether it filled during the day, the volume and the close of sessions +2 to +5 after the event day (so heavy later volume is read as selling only where the close fell), and an old-resistance level taken from swing highs (strictly higher than every other high within 5 sessions each side, with the whole window ending before the event day; a rule of this file, not the course).
