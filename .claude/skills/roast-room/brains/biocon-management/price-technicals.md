@@ -182,6 +182,31 @@ Readings from those levels. 'Held' = the session closed beyond the previous clos
 | 2026-05-07 | 380.60 | +0.89% | held | -0.85% | held | -0.05% | -0.64% | 1.44x | 1.57x | 421.60 | -9.8% |
 | 2026-08-05 | 422.00 | +0.95% | held | +0.66% | held | +3.46% | +0.09% | 0.50x | 1.64x | 440.70 | -0.9% |
 
+Intraday fill, later sessions and old resistance. 'Filled intraday' = for a gap of 0.5% or more, the session traded back to the previous close at some point, whatever it closed at (so a gap can be 'held' on the close and still 'filled intraday'). 'Later volume' = volume of sessions +2 to +5 after the event day against the same 20-session average. 'Old resistance' = the nearest swing high above the previous close among the 250 sessions before the event day, a high strictly above every other high in the 11 sessions centred on it (this file's own cut); 'cleared' if the next close is above it, 'stuck' if not.
+
+| Results filing date | Event-day gap filled intraday? | Next-day gap filled intraday? | Later volume, sessions +2 to +5 (x avg) | Old resistance (swing high) | Next close vs it | Call |
+|---|---|---|---|---|---|---|
+| 2022-01-20 | no gap | no gap | 1.56 / 1.37 / 0.85 / 0.83 | 369.60 | +2.0% | cleared |
+| 2022-04-28 | filled intraday | no gap | 1.01 / 0.68 / 0.27 / 0.41 | 382.50 | -3.7% | stuck |
+| 2022-07-27 | no gap | not filled | 3.16 / 1.18 / 1.22 / 1.07 | 340.00 | -9.8% | stuck |
+| 2022-11-14 | no gap | no gap | 1.23 / 0.61 / 0.79 / 0.87 | 299.15 | -5.1% | stuck |
+| 2023-02-14 | no gap | filled intraday | 2.20 / 2.01 / 2.60 / 1.29 | 277.00 | -14.0% | stuck |
+| 2023-05-23 | no gap | not filled | 2.18 / 1.12 / 0.81 / 0.50 | 245.45 | -1.0% | stuck |
+| 2023-08-10 | no gap | filled intraday | 1.52 / 0.80 / 0.44 / 0.91 | 270.50 | -5.3% | stuck |
+| 2023-11-10 | no gap | filled intraday | 0.95 / 1.34 / 0.53 / 1.43 | 232.70 | -2.3% | stuck |
+| 2024-02-08 | filled intraday | filled intraday | 0.96 / 0.82 / 0.74 / 0.65 | 294.50 | -7.2% | stuck |
+| 2024-05-16 | filled intraday | no gap | 0.41 / 0.31 / 0.87 / 2.64 | 315.00 | -2.9% | stuck |
+| 2024-08-08 | no gap | no gap | 1.08 / 0.85 / 0.93 / 0.76 | 349.45 | -3.6% | stuck |
+| 2024-10-30 | filled intraday | filled intraday | 0.21 / 1.53 / 0.89 / 0.84 | 331.00 | -4.5% | stuck |
+| 2025-01-30 | filled intraday | filled intraday | 0.33 / 0.25 / 0.44 / 1.18 | 373.85 | -3.0% | stuck |
+| 2025-01-31 | filled intraday | no gap | 0.25 / 0.43 / 1.17 / 1.02 | 373.85 | -0.9% | stuck |
+| 2025-05-08 | no gap | no gap | 2.41 / 1.43 / 1.03 / 1.01 | 349.45 | -5.6% | stuck |
+| 2025-08-07 | no gap | filled intraday | 1.04 / 1.45 / 0.49 / 0.52 | 364.65 | -5.8% | stuck |
+| 2025-11-11 | no gap | filled intraday | 5.01 / 1.34 / 1.51 / 2.99 | 399.60 | +1.6% | cleared |
+| 2026-02-12 | filled intraday | no gap | 0.72 / 0.38 / 0.51 / 0.96 | 382.00 | -1.1% | stuck |
+| 2026-05-07 | filled intraday | filled intraday | 3.56 / 3.10 / 3.16 / 2.23 | 382.00 | -0.4% | stuck |
+| 2026-08-05 | not filled | filled intraday | 0.79 / 0.34 / 0.29 / 0.57 | 424.95 | +2.7% | cleared |
+
 ## Sharp daily moves matched to the filings that day
 
 'Sharp' is this file's own cut: a daily close-to-close move of 5% or more either way (the course names no number). Filings listed are every NSE announcement dated that day or the day before, category and a short title only.
