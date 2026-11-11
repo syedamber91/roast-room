@@ -161,7 +161,22 @@ Volume by price band, last 252 sessions (each session's volume placed in the ban
 | 411.40 | 426.05 | 171,417,981 | 17.5% |
 | 426.05 | 440.70 | 176,166,299 | 18.0% |
 
-Nifty 500 (the benchmark) at the week ending 2026-10-23: close 21,427.60, 30-week EMA 22,741.83, gap -5.78%, 30-week EMA change over 4 weeks -1.19%.
+Nifty 500 (the benchmark) to its newest session, week ending 2026-11-09: close 23,567.00, 30-week EMA 22,792.41, gap +3.40%, 30-week EMA change over 4 weeks -0.18% (weekly bars to 2026-10-23 from the frozen file, the later days from the niftyindices daily price file, grouped by ISO week; the newest week may be partial). A gap read at the earlier week ending would have the opposite sign if the index has since risen.
+
+Advance and decline, the last 10 sessions: constituents of today's Nifty 500 list (survivors only, closes not adjusted for splits or bonuses) with a close on both that day and the day before. Closes are held for 313 sessions from 2025-08-01, so nothing earlier can be counted. Range-bound duration is not computed: the course gives no definition and none is invented here.
+
+| Session | Advancers | Decliners | Unchanged |
+|---|---|---|---|
+| 2026-10-27 | 356 | 139 | 0 |
+| 2026-10-28 | 253 | 240 | 2 |
+| 2026-10-29 | 327 | 167 | 1 |
+| 2026-10-30 | 114 | 380 | 1 |
+| 2026-11-02 | 401 | 92 | 2 |
+| 2026-11-03 | 311 | 183 | 1 |
+| 2026-11-04 | 406 | 89 | 0 |
+| 2026-11-05 | 356 | 136 | 3 |
+| 2026-11-06 | 216 | 277 | 2 |
+| 2026-11-09 | 317 | 177 | 1 |
 
 ## Price move around results dates
 
