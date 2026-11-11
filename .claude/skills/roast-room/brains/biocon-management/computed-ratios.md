@@ -2327,7 +2327,7 @@ not a cause.
 
 ## L5-63: Retained earnings against the change in market value over rolling five years
 
-**Formula in words.** Ratio = change in market cap / change in consolidated RETAINED earnings (the closing balance printed in the statement of changes in equity, not other equity). Only one five-year window can be formed from the held years (FY21 to FY26); the one-year steps are shown too. Other equity and owners' equity sit beside it because an earlier version of this row used other equity as a stand-in. Close convention: retained earnings = the closing balance at 31 March of each year (the statement of changes in equity's 'Balance at March 31'); market cap = the last WEEKLY close on or before 31 March (a week-ending date, 26 March 2021 for FY21) x shares at 31 March, as in the held derived-metrics 'market_cap'; the last DAILY close on or before 31 March is shown beside it.
+**Formula in words.** Ratio = change in market cap / change in consolidated RETAINED earnings (the closing balance printed in the statement of changes in equity, not other equity). Every rolling five-year window the data allows is formed (FY16-FY21, FY17-FY22, FY18-FY23, FY19-FY24, FY20-FY25, FY21-FY26), and the ten-year span FY16-FY26 is in L7-46; the one-year steps are shown too. Other equity and owners' equity sit beside it because an earlier version of this row used other equity as a stand-in. Close convention: retained earnings = the closing balance at 31 March of each year (the statement of changes in equity's 'Balance at March 31'); market cap = the last WEEKLY close on or before 31 March (a week-ending date, 26 March 2021 for FY21) x shares at 31 March, as in the held derived-metrics 'market_cap'; the last DAILY close on or before 31 March is shown beside it.
 
 **Inputs (held)**
 
@@ -2375,6 +2375,50 @@ not a cause.
 | market cap on the last daily close on or before 31 March | FY24 | 317,129.92 | Rs million | consolidated | BIOCON_NS-daily-long.csv close x shares_outstanding_31_march |
 | market cap on the last daily close on or before 31 March | FY25 | 410,233.95 | Rs million | consolidated | BIOCON_NS-daily-long.csv close x shares_outstanding_31_march |
 | market cap on the last daily close on or before 31 March | FY26 | 585,045.47 | Rs million | consolidated | BIOCON_NS-daily-long.csv close x shares_outstanding_31_march |
+| market cap at the weekly close (FY16-FY20 derived here; FY21-FY26 held) | FY16 | 92,790.00 | Rs million | consolidated | close x shares at 31 March |
+| market cap at the weekly close (FY16-FY20 derived here; FY21-FY26 held) | FY17 | 226,459.99 | Rs million | consolidated | close x shares at 31 March |
+| market cap at the weekly close (FY16-FY20 derived here; FY21-FY26 held) | FY18 | 356,340.01 | Rs million | consolidated | close x shares at 31 March |
+| market cap at the weekly close (FY16-FY20 derived here; FY21-FY26 held) | FY19 | 364,170.01 | Rs million | consolidated | close x shares at 31 March |
+| market cap at the weekly close (FY16-FY20 derived here; FY21-FY26 held) | FY20 | 333,240.01 | Rs million | consolidated | close x shares at 31 March |
+| market cap at the weekly close (FY16-FY20 derived here; FY21-FY26 held) | FY21 | 474,524.33 | Rs million | consolidated | close x shares at 31 March |
+| market cap at the weekly close (FY16-FY20 derived here; FY21-FY26 held) | FY22 | 418,878.02 | Rs million | consolidated | close x shares at 31 March |
+| market cap at the weekly close (FY16-FY20 derived here; FY21-FY26 held) | FY23 | 247,737.13 | Rs million | consolidated | close x shares at 31 March |
+| market cap at the weekly close (FY16-FY20 derived here; FY21-FY26 held) | FY24 | 317,129.92 | Rs million | consolidated | close x shares at 31 March |
+| market cap at the weekly close (FY16-FY20 derived here; FY21-FY26 held) | FY25 | 410,233.95 | Rs million | consolidated | close x shares at 31 March |
+| market cap at the weekly close (FY16-FY20 derived here; FY21-FY26 held) | FY26 | 599,959.37 | Rs million | consolidated | close x shares at 31 March |
+| other equity, owners (FY16-FY20 printed in the statement of changes in equity; FY21-FY26 balance sheet) | FY16 | 39,338 | Rs million | consolidated | data/history statements of changes in equity (column 12) and the held ar-tables |
+| other equity, owners (FY16-FY20 printed in the statement of changes in equity; FY21-FY26 balance sheet) | FY17 | 47,377 | Rs million | consolidated | data/history statements of changes in equity (column 12) and the held ar-tables |
+| other equity, owners (FY16-FY20 printed in the statement of changes in equity; FY21-FY26 balance sheet) | FY18 | 48,808 | Rs million | consolidated | data/history statements of changes in equity (column 12) and the held ar-tables |
+| other equity, owners (FY16-FY20 printed in the statement of changes in equity; FY21-FY26 balance sheet) | FY19 | 57,980 | Rs million | consolidated | data/history statements of changes in equity (column 12) and the held ar-tables |
+| other equity, owners (FY16-FY20 printed in the statement of changes in equity; FY21-FY26 balance sheet) | FY20 | 61,058 | Rs million | consolidated | data/history statements of changes in equity (column 12) and the held ar-tables |
+| other equity, owners (FY16-FY20 printed in the statement of changes in equity; FY21-FY26 balance sheet) | FY21 | 70,269 | Rs million | consolidated | data/history statements of changes in equity (column 12) and the held ar-tables |
+| other equity, owners (FY16-FY20 printed in the statement of changes in equity; FY21-FY26 balance sheet) | FY22 | 78,322 | Rs million | consolidated | data/history statements of changes in equity (column 12) and the held ar-tables |
+| other equity, owners (FY16-FY20 printed in the statement of changes in equity; FY21-FY26 balance sheet) | FY23 | 172,666 | Rs million | consolidated | data/history statements of changes in equity (column 12) and the held ar-tables |
+| other equity, owners (FY16-FY20 printed in the statement of changes in equity; FY21-FY26 balance sheet) | FY24 | 191,834 | Rs million | consolidated | data/history statements of changes in equity (column 12) and the held ar-tables |
+| other equity, owners (FY16-FY20 printed in the statement of changes in equity; FY21-FY26 balance sheet) | FY25 | 210,437 | Rs million | consolidated | data/history statements of changes in equity (column 12) and the held ar-tables |
+| other equity, owners (FY16-FY20 printed in the statement of changes in equity; FY21-FY26 balance sheet) | FY26 | 332,213 | Rs million | consolidated | data/history statements of changes in equity (column 12) and the held ar-tables |
+| shares on today's basis, 31 March | FY16 | 1,200,000,000 | shares | consolidated | FY16-FY20 derived above; FY21-FY26 the held shareholding-filing counts |
+| shares on today's basis, 31 March | FY17 | 1,200,000,000 | shares | consolidated | FY16-FY20 derived above; FY21-FY26 the held shareholding-filing counts |
+| shares on today's basis, 31 March | FY18 | 1,200,000,000 | shares | consolidated | FY16-FY20 derived above; FY21-FY26 the held shareholding-filing counts |
+| shares on today's basis, 31 March | FY19 | 1,200,000,000 | shares | consolidated | FY16-FY20 derived above; FY21-FY26 the held shareholding-filing counts |
+| shares on today's basis, 31 March | FY20 | 1,200,000,000 | shares | consolidated | FY16-FY20 derived above; FY21-FY26 the held shareholding-filing counts |
+| shares on today's basis, 31 March | FY21 | 1,200,567,573 | shares | consolidated | FY16-FY20 derived above; FY21-FY26 the held shareholding-filing counts |
+| shares on today's basis, 31 March | FY22 | 1,200,567,573 | shares | consolidated | FY16-FY20 derived above; FY21-FY26 the held shareholding-filing counts |
+| shares on today's basis, 31 March | FY23 | 1,200,567,573 | shares | consolidated | FY16-FY20 derived above; FY21-FY26 the held shareholding-filing counts |
+| shares on today's basis, 31 March | FY24 | 1,200,567,573 | shares | consolidated | FY16-FY20 derived above; FY21-FY26 the held shareholding-filing counts |
+| shares on today's basis, 31 March | FY25 | 1,200,567,573 | shares | consolidated | FY16-FY20 derived above; FY21-FY26 the held shareholding-filing counts |
+| shares on today's basis, 31 March | FY26 | 1,621,073,650 | shares | consolidated | FY16-FY20 derived above; FY21-FY26 the held shareholding-filing counts |
+| weekly close on or before 31 March (FY16-FY20 built from daily; FY21-FY26 held weekly bars) | FY16 | 77.32 | Rs | exchange price (bonus-adjusted) | BIOCON_NS-daily-long.csv (FY16-FY20); derived-metrics close_on_or_before_31_march (FY21-FY26) |
+| weekly close on or before 31 March (FY16-FY20 built from daily; FY21-FY26 held weekly bars) | FY17 | 188.72 | Rs | exchange price (bonus-adjusted) | BIOCON_NS-daily-long.csv (FY16-FY20); derived-metrics close_on_or_before_31_march (FY21-FY26) |
+| weekly close on or before 31 March (FY16-FY20 built from daily; FY21-FY26 held weekly bars) | FY18 | 296.95 | Rs | exchange price (bonus-adjusted) | BIOCON_NS-daily-long.csv (FY16-FY20); derived-metrics close_on_or_before_31_march (FY21-FY26) |
+| weekly close on or before 31 March (FY16-FY20 built from daily; FY21-FY26 held weekly bars) | FY19 | 303.48 | Rs | exchange price (bonus-adjusted) | BIOCON_NS-daily-long.csv (FY16-FY20); derived-metrics close_on_or_before_31_march (FY21-FY26) |
+| weekly close on or before 31 March (FY16-FY20 built from daily; FY21-FY26 held weekly bars) | FY20 | 277.70 | Rs | exchange price (bonus-adjusted) | BIOCON_NS-daily-long.csv (FY16-FY20); derived-metrics close_on_or_before_31_march (FY21-FY26) |
+| weekly close on or before 31 March (FY16-FY20 built from daily; FY21-FY26 held weekly bars) | FY21 | 395.25 | Rs | exchange price (bonus-adjusted) | BIOCON_NS-daily-long.csv (FY16-FY20); derived-metrics close_on_or_before_31_march (FY21-FY26) |
+| weekly close on or before 31 March (FY16-FY20 built from daily; FY21-FY26 held weekly bars) | FY22 | 348.90 | Rs | exchange price (bonus-adjusted) | BIOCON_NS-daily-long.csv (FY16-FY20); derived-metrics close_on_or_before_31_march (FY21-FY26) |
+| weekly close on or before 31 March (FY16-FY20 built from daily; FY21-FY26 held weekly bars) | FY23 | 206.35 | Rs | exchange price (bonus-adjusted) | BIOCON_NS-daily-long.csv (FY16-FY20); derived-metrics close_on_or_before_31_march (FY21-FY26) |
+| weekly close on or before 31 March (FY16-FY20 built from daily; FY21-FY26 held weekly bars) | FY24 | 264.15 | Rs | exchange price (bonus-adjusted) | BIOCON_NS-daily-long.csv (FY16-FY20); derived-metrics close_on_or_before_31_march (FY21-FY26) |
+| weekly close on or before 31 March (FY16-FY20 built from daily; FY21-FY26 held weekly bars) | FY25 | 341.70 | Rs | exchange price (bonus-adjusted) | BIOCON_NS-daily-long.csv (FY16-FY20); derived-metrics close_on_or_before_31_march (FY21-FY26) |
+| weekly close on or before 31 March (FY16-FY20 built from daily; FY21-FY26 held weekly bars) | FY26 | 370.10 | Rs | exchange price (bonus-adjusted) | BIOCON_NS-daily-long.csv (FY16-FY20); derived-metrics close_on_or_before_31_march (FY21-FY26) |
 
 **Computed result, DERIVED**
 
@@ -2382,7 +2426,7 @@ not a cause.
 
 | Year-end | Retained earnings | Other equity (balance sheet) | Retained as % of other equity | Pages that print it | Where (file, line) |
 |---|---|---|---|---|---|
-| FY21 | 62,358 | 70,269 | 88.74 | 2 page(s) agree | FY22/p266.md line 1; FY23/p364.md line 10 |
+| FY21 | 62,358 | 70,269 | 88.74 | 3 page(s) agree | FY22/p266.md line 1; FY23/p364.md line 10; data/history/ar-fy21/p262.txt line 95 |
 | FY22 | 68,273 | 78,322 | 87.17 | 3 page(s) agree | FY22/p266.md line 1; FY23/p364.md line 10; FY24/p310.md line 9 |
 | FY23 | 160,859 | 172,666 | 93.16 | 3 page(s) agree | FY23/p365.md line 11; FY24/p310.md line 9; FY25/p350.md line 12 |
 | FY24 | 176,028 | 191,834 | 91.76 | 3 page(s) agree | FY24/p310.md line 9; FY25/p350.md line 12; FY26/p348.md line 11 |
@@ -2436,13 +2480,83 @@ not a cause.
 | FY25 | 176,028 | 13,563 | 189,591 | ties |
 | FY26 | 189,591 | -49,671 | 139,920 | ties |
 
+*Every rolling five-year window the data allows, FY16-FY21 to FY21-FY26 (DERIVED, Rs million)*
+
+| Window | Change in retained earnings | Rise in market cap (weekly close) | Rise per rupee retained (times) | Against Re 1 (comparison, not a verdict) | Change in other equity (beside) | Rise per rupee of other equity (times, beside) | Basis |
+|---|---|---|---|---|---|---|---|
+| FY16 to FY21 | 30,689 | 381,734 | 12.44 | at or above 1 | 30,931 | 12.34 | Ind AS throughout (FY16 as restated in the FY17 report) |
+| FY17 to FY22 | 29,248 | 192,418 | 6.58 | at or above 1 | 30,945 | 6.22 | Ind AS throughout |
+| FY18 to FY23 | 118,565 | -108,603 | -0.92 | below 1 (market cap fell) | 123,858 | -0.88 | Ind AS throughout |
+| FY19 to FY24 | 123,939 | -47,040 | -0.38 | below 1 (market cap fell) | 133,854 | -0.35 | Ind AS throughout |
+| FY20 to FY25 | 130,450 | 76,994 | 0.59 | below 1 | 149,379 | 0.52 | Ind AS throughout |
+| FY21 to FY26 | 77,562 | 125,435 | 1.62 | at or above 1 | 261,944 | 0.48 | Ind AS throughout |
+
+*Windows that start at FY16, on each FY16 balance the reports print (DERIVED, Rs million)*
+
+| Window | Opening balance | Change in retained earnings | Rise in market cap | Rise per rupee retained (times) |
+|---|---|---|---|---|
+| FY16 to FY21 | FY16 Ind AS: 31,669 | 30,689 | 381,734 | 12.44 |
+| FY16 to FY21 | FY16 IGAAP: 32,344 | 30,014 | 381,734 | 12.72 |
+| FY16 to FY26 | FY16 Ind AS: 31,669 | 108,251 | 507,169 | 4.69 |
+| FY16 to FY26 | FY16 IGAAP: 32,344 | 107,576 | 507,169 | 4.71 |
+
+*Retained earnings FY16 to FY21 on every page that prints it, with its basis (PRINTED; consolidated, Rs million)*
+
+| Year-end | Retained earnings | Basis | File | Line | Row (verbatim, 30 words at most) | Column heading |
+|---|---|---|---|---|---|---|
+| FY16 | 31,669 | Ind AS | data/history/ar-fy17/p227.txt | 59 | `Balance at March 31, 2016  2,788  9  801  3,459  31,669  -  608 (577) 657 (32) (44) 39,338  2,658  41,996` | `Retained / earnings (two header lines)` |
+| FY16 | 31,669 | Ind AS | data/history/ar-fy17/p228.txt | 39 | `Balance at March 31, 2016  2,788  9  801  3,459  31,669  -  608 (577) 657 (32) (44) 39,338  2,658  41,996` | `Retained / earnings (two header lines)` |
+| FY16 | 32,344 | IGAAP | data/history/ar-fy16/p217.txt | 28 | `Net Surplus in the statement of profit and loss  32,344  24,531` | not on that page |
+| FY17 | 39,025 | Ind AS | data/history/ar-fy17/p228.txt | 60 | `Balance as at March 31, 2017  2,908  9  801  3,459  39,025  -  675 (727) 539  768  (80) 47,377  3,761  51,138` | `Retained / earnings (two header lines)` |
+| FY17 | 39,025 | Ind AS | data/history/ar-fy18/p204.txt | 64 | `Balance at March 31, 2017  2,908  9  801  3,459  39,025  -  675 (727) 539 768 (80)  47,377  3,761  51,138` | `Retained / earnings (two header lines)` |
+| FY18 | 42,294 | Ind AS | data/history/ar-fy18/p205.txt | 55 | `Balance at March 31, 2018  1,032  9  801  3,459  42,294  -  685  (829)  660  788  (91)  48,808  4,677  53,485` | `Retained / earnings (two header lines)` |
+| FY18 | 42,294 | Ind AS | data/history/ar-fy19/p247.txt | 52 | `Balance at March 31, 2018  1,032  9  801  3,459  42,294  -  685  (829) 660 788  (91)  48,808  4,677  53,485` | `Retained / earnings (two header lines)` |
+| FY18 | 42,294 | Ind AS | data/history/ar-fy20/p276.txt | 45 | `Balance at April 01, 2018  1,032  9  801  3,459  42,294  –  685  (829) 660  788  (91)  48,808  4,677  53,485` | `Retained / earnings (two header lines)` |
+| FY19 | 52,089 | Ind AS | data/history/ar-fy19/p247.txt | 71 | `Balance at March 31, 2019  1,171  9  801  3,459  52,089  -  772  (1,144)  1,079  264  (520)  57,980  6,089  64,069` | `Retained / earnings (two header lines)` |
+| FY19 | 52,089 | Ind AS | data/history/ar-fy20/p276.txt | 59 | `Balance at March 31, 2019  1,171  9  801  3,459  52,089  –  772  (1,144)  1,079  264  (520)  57,980  6,089  64,069` | `Retained / earnings (two header lines)` |
+| FY19 | 52,089 | Ind AS | data/history/ar-fy21/p262.txt | 60 | `Balance at April 01, 2019 1,171 - 9 - - 801 3,459 52,089 - 772 (1,144) 1,079 264 (520) 57,980 6,089 64,069` | `Retained / earnings (two header lines)` |
+| FY20 | 59,141 | Ind AS | data/history/ar-fy20/p276.txt | 75 | `Balance at March 31, 2020  238  9  801  1,617  59,141  –  1,088  (1,345)  2,186  (1,290)  (1,387)  61,058  6,773  67,831` | `Retained / earnings (two header lines)` |
+| FY20 | 59,141 | Ind AS | data/history/ar-fy21/p262.txt | 80 | `Balance at March 31, 2020 238 - 9 - - 801 1,617 59,141 - 1,088 (1,345) 2,186 (1,290) (1,387) 61,058 6,773 67,831` | `Retained / earnings (two header lines)` |
+| FY21 | 62,358 | Ind AS | data/history/ar-fy21/p262.txt | 95 | `Balance at March 31, 2021  619  959  9  1,325  1,292  801  1,617  62,358  -    1,541  (1,343)  2,015  (207)  (717)  70,269  8,807  79,076` | `Retained / earnings (two header lines)` |
+
+*Share counts at 31 March, FY16 to FY20, and the check that shares x Rs 5 = owners' equity less other equity (PRINTED, then DERIVED)*
+
+| Year-end | Shares as printed | Bonus factor to today's basis | Shares on today's basis | Shares x Rs 5, Rs million | Owners' equity less other equity, Rs million | Result | Where (file, line, verbatim row) |
+|---|---|---|---|---|---|---|---|
+| FY16 | 200,000,000 | x6 | 1,200,000,000 | 1,000 | 1,000 | ties | data/history/ar-fy16/p216.txt line 15: `Outstanding at the end of the year  200,000,000  1,000  200,000,000  1,000`; data/history/ar-fy17/p246.txt line 18: `Outstanding at the end of the year  200,000,000  1,000  200,000,000  1,000` |
+| FY17 | 200,000,000 | x6 | 1,200,000,000 | 1,000 | 1,000 | ties | data/history/ar-fy17/p246.txt line 18: `Outstanding at the end of the year  200,000,000  1,000  200,000,000  1,000`; data/history/ar-fy18/p224.txt line 12: `Outstanding at the end of the year  600,000,000  3,000  200,000,000  1,000` |
+| FY18 | 600,000,000 | x2 | 1,200,000,000 | 3,000 | 3,000 | ties | data/history/ar-fy18/p224.txt line 12: `Outstanding at the end of the year  600,000,000  3,000  200,000,000  1,000`; data/history/ar-fy19/p266.txt line 12: `Outstanding at the end of the year  600,000,000  3,000  600,000,000  3,000` |
+| FY19 | 600,000,000 | x2 | 1,200,000,000 | 3,000 | 3,000 | ties | data/history/ar-fy19/p266.txt line 12: `Outstanding at the end of the year  600,000,000  3,000  600,000,000  3,000`; data/history/ar-fy20/p297.txt line 44: `Outstanding at the end of the year  1,200,000,000  6,000  600,000,000  3,000` |
+| FY20 | 1,200,000,000 | x1 | 1,200,000,000 | 6,000 | 6,000 | ties | data/history/ar-fy20/p297.txt line 44: `Outstanding at the end of the year  1,200,000,000  6,000  600,000,000  3,000`; data/history/ar-fy21/p285.txt line 38: `Outstanding at the end of the year  1,200,000,000  6,000  1,200,000,000  6,000` |
+
+*The two bonus issues that set the factor (PRINTED)*
+
+| Issue | File | Line | Sentence (verbatim, 30 words at most) |
+|---|---|---|---|
+| FY18 bonus, 2:1 | data/history/ar-fy18/p224.txt | 33 | `` The Company has allotted 400,000,000 equity shares of ` 5 each fully paid up as bonus shares on June 19, 2017 in the ratio of 2:1 (two equity shares  `` |
+| FY20 bonus, 1:1 | data/history/ar-fy20/p114.txt | 16 | `of 1 equity share for every 1 equity share held as on the record date to commemorate the 40th anniversary of the company. The ` |
+
+*Method check: weekly closes built from the daily file against the held weekly bars, FY20 to FY26 (the held weekly bars start 2019-12-06, so FY16 to FY19 have no held weekly bar to check against)*
+
+| Year | Week ending (built) | Close built from daily | Week ending (held weekly bars) | Close held (weekly bars) | Result |
+|---|---|---|---|---|---|
+| FY20 | 2020-03-27 | 277.70 | 2020-03-27 | 277.70 | same |
+| FY21 | 2021-03-26 | 395.25 | 2021-03-26 | 395.25 | same |
+| FY22 | 2022-03-25 | 348.90 | 2022-03-25 | 348.90 | same |
+| FY23 | 2023-03-31 | 206.35 | 2023-03-31 | 206.35 | same |
+| FY24 | 2024-03-28 | 264.15 | 2024-03-28 | 264.15 | same |
+| FY25 | 2025-03-28 | 341.70 | 2025-03-28 | 341.70 | same |
+| FY26 | 2026-03-27 | 370.10 | 2026-03-27 | 370.10 | same |
+
 **Caveats**
 
-- Every balance is a figure printed on a held page (OCR text of the annual report; the statement is a rotated table, so cells are spread over lines). Years with two or three pages are read on each and kept only if the pages agree. The FY21 report itself is not held; Mar-21 is the opening column of the FY22 and FY23 reports.
+- Every balance is a figure printed on a held page (OCR text of the annual report; the statement is a rotated table, so cells are spread over lines). Years with two or three pages are read on each and kept only if the pages agree. Mar-21 is printed in the FY21 report itself (data/history/ar-fy21/p262.txt, which also prints Mar-19 and Mar-20) and again as the opening column of the FY22 and FY23 reports.
 - Retained earnings also moved for reasons other than profit: the step column 'Change in retained not from that profit' is largest in FY23 (+87,959) and FY26 (-53,527). On FY26's page a (53,633) cell sits in the retained-earnings column; by position among the 13 listed movement rows (the total-other-equity column carries 13 movement values against 13 row labels) it falls on 'Loss on purchase of shares in a subsidiary'; that positional read is not independently confirmed. The change in retained earnings is therefore not 'profit kept after dividends'; L7-47 holds the profit-less-dividends version for FY22 to FY26.
 - Other equity is not retained earnings: it also holds securities premium, reserves for share-based payment, hedging, currency translation and others (each is a column of the same printed statement); the 'retained as % of other equity' column shows how much of it is retained.
 - Market cap FY26 rests on 1,621,073,650 shares (after the issues of 2025-26) against 1,200,567,573 before, so the unadjusted change includes new capital; the net-of-proceeds line takes the share-issue cash out and nothing else.
-- Windows starting before FY21 are not possible: the share count behind market cap is not held before FY21 (price-only history is in the ten-year file), and no retained-earnings page is held before Mar-21.
+- Basis by year: FY16 is printed on two bases, IGAAP in the FY16 report (retained 32,344, 'Net Surplus in the statement of profit and loss') and Ind AS in the FY17 report's restated comparative (31,669); the windows use Ind AS for FY16 so every year is on one basis, and the FY16-opening table shows both. FY17 onward is Ind AS in every report; Mar-19 and Mar-20 are printed by two or three reports that agree. The FY20 report's opening FY20 balance is before the Ind AS 116 adjustment of (4) that the FY21 report shows (52,085 adjusted); the year-end balances used are the printed closings.
+- Share basis: FY16 to FY20 market cap = bonus-adjusted close x year-end shares x bonus factor (x6 FY16-FY17, x2 FY18-FY19, x1 FY20; the factors are the 2:1 bonus of June 2017 and the 1:1 bonus of June 2019), so it equals the unadjusted price x the shares then outstanding. FY21 to FY25 use the 1,200,567,573 shareholding-filing count and FY26 1,621,073,650, as before (the FY16 to FY20 counts are the share-capital notes' round 200, 600 and 1,200 million). Nothing is netted for share-issue proceeds in FY16 to FY20 (not held in the record), so FY16-based windows include new capital raised in FY22 to FY26 (98,513 in the FY21-FY26 table).
+- Close convention again: the weekly close on or before 31 March = the close of the last session of the last Monday-to-Sunday week whose last session is on or before 31 March (the held weekly bars' own rule: week ending 26 March 2021 for FY21). FY21 to FY26 use the held weekly bars; FY16 to FY20 are built the same way from the held daily file (the 10.5-year weekly price artifact is not held here), and the method check table shows the build gives the held weekly close for FY20 to FY26 (the held weekly bars start 2019-12-06). The close is Yahoo's, adjusted for the two bonus issues, not for dividends, so it sits on today's share count.
 
 ## L5-64: Returns by segment and new capital against old
 
@@ -2831,6 +2945,61 @@ not a cause.
 | market cap on the last daily close on or before 31 March | FY24 | 317,129.92 | Rs million | consolidated | BIOCON_NS-daily-long.csv close x shares_outstanding_31_march |
 | market cap on the last daily close on or before 31 March | FY25 | 410,233.95 | Rs million | consolidated | BIOCON_NS-daily-long.csv close x shares_outstanding_31_march |
 | market cap on the last daily close on or before 31 March | FY26 | 585,045.47 | Rs million | consolidated | BIOCON_NS-daily-long.csv close x shares_outstanding_31_march |
+| equity attributable to owners (FY16-FY20 held net worth; FY21-FY26 held) | FY16 | 40,338 | Rs million | consolidated | held ten-year-inputs net_worth_owners FY16-FY20, then the held ar-tables |
+| equity attributable to owners (FY16-FY20 held net worth; FY21-FY26 held) | FY17 | 48,377 | Rs million | consolidated | held ten-year-inputs net_worth_owners FY16-FY20, then the held ar-tables |
+| equity attributable to owners (FY16-FY20 held net worth; FY21-FY26 held) | FY18 | 51,808 | Rs million | consolidated | held ten-year-inputs net_worth_owners FY16-FY20, then the held ar-tables |
+| equity attributable to owners (FY16-FY20 held net worth; FY21-FY26 held) | FY19 | 60,980 | Rs million | consolidated | held ten-year-inputs net_worth_owners FY16-FY20, then the held ar-tables |
+| equity attributable to owners (FY16-FY20 held net worth; FY21-FY26 held) | FY20 | 67,058 | Rs million | consolidated | held ten-year-inputs net_worth_owners FY16-FY20, then the held ar-tables |
+| equity attributable to owners (FY16-FY20 held net worth; FY21-FY26 held) | FY21 | 76,269 | Rs million | consolidated | held ten-year-inputs net_worth_owners FY16-FY20, then the held ar-tables |
+| equity attributable to owners (FY16-FY20 held net worth; FY21-FY26 held) | FY22 | 84,325 | Rs million | consolidated | held ten-year-inputs net_worth_owners FY16-FY20, then the held ar-tables |
+| equity attributable to owners (FY16-FY20 held net worth; FY21-FY26 held) | FY23 | 178,669 | Rs million | consolidated | held ten-year-inputs net_worth_owners FY16-FY20, then the held ar-tables |
+| equity attributable to owners (FY16-FY20 held net worth; FY21-FY26 held) | FY24 | 197,837 | Rs million | consolidated | held ten-year-inputs net_worth_owners FY16-FY20, then the held ar-tables |
+| equity attributable to owners (FY16-FY20 held net worth; FY21-FY26 held) | FY25 | 216,440 | Rs million | consolidated | held ten-year-inputs net_worth_owners FY16-FY20, then the held ar-tables |
+| equity attributable to owners (FY16-FY20 held net worth; FY21-FY26 held) | FY26 | 340,318 | Rs million | consolidated | held ten-year-inputs net_worth_owners FY16-FY20, then the held ar-tables |
+| other equity, owners (FY16-FY20 printed in the statement of changes in equity; FY21-FY26 balance sheet) | FY16 | 39,338 | Rs million | consolidated | data/history statements of changes in equity (column 12) and the held ar-tables |
+| other equity, owners (FY16-FY20 printed in the statement of changes in equity; FY21-FY26 balance sheet) | FY17 | 47,377 | Rs million | consolidated | data/history statements of changes in equity (column 12) and the held ar-tables |
+| other equity, owners (FY16-FY20 printed in the statement of changes in equity; FY21-FY26 balance sheet) | FY18 | 48,808 | Rs million | consolidated | data/history statements of changes in equity (column 12) and the held ar-tables |
+| other equity, owners (FY16-FY20 printed in the statement of changes in equity; FY21-FY26 balance sheet) | FY19 | 57,980 | Rs million | consolidated | data/history statements of changes in equity (column 12) and the held ar-tables |
+| other equity, owners (FY16-FY20 printed in the statement of changes in equity; FY21-FY26 balance sheet) | FY20 | 61,058 | Rs million | consolidated | data/history statements of changes in equity (column 12) and the held ar-tables |
+| other equity, owners (FY16-FY20 printed in the statement of changes in equity; FY21-FY26 balance sheet) | FY21 | 70,269 | Rs million | consolidated | data/history statements of changes in equity (column 12) and the held ar-tables |
+| other equity, owners (FY16-FY20 printed in the statement of changes in equity; FY21-FY26 balance sheet) | FY22 | 78,322 | Rs million | consolidated | data/history statements of changes in equity (column 12) and the held ar-tables |
+| other equity, owners (FY16-FY20 printed in the statement of changes in equity; FY21-FY26 balance sheet) | FY23 | 172,666 | Rs million | consolidated | data/history statements of changes in equity (column 12) and the held ar-tables |
+| other equity, owners (FY16-FY20 printed in the statement of changes in equity; FY21-FY26 balance sheet) | FY24 | 191,834 | Rs million | consolidated | data/history statements of changes in equity (column 12) and the held ar-tables |
+| other equity, owners (FY16-FY20 printed in the statement of changes in equity; FY21-FY26 balance sheet) | FY25 | 210,437 | Rs million | consolidated | data/history statements of changes in equity (column 12) and the held ar-tables |
+| other equity, owners (FY16-FY20 printed in the statement of changes in equity; FY21-FY26 balance sheet) | FY26 | 332,213 | Rs million | consolidated | data/history statements of changes in equity (column 12) and the held ar-tables |
+| shares on today's basis, 31 March | FY16 | 1,200,000,000 | shares | consolidated | FY16-FY20 derived above; FY21-FY26 the held shareholding-filing counts |
+| shares on today's basis, 31 March | FY17 | 1,200,000,000 | shares | consolidated | FY16-FY20 derived above; FY21-FY26 the held shareholding-filing counts |
+| shares on today's basis, 31 March | FY18 | 1,200,000,000 | shares | consolidated | FY16-FY20 derived above; FY21-FY26 the held shareholding-filing counts |
+| shares on today's basis, 31 March | FY19 | 1,200,000,000 | shares | consolidated | FY16-FY20 derived above; FY21-FY26 the held shareholding-filing counts |
+| shares on today's basis, 31 March | FY20 | 1,200,000,000 | shares | consolidated | FY16-FY20 derived above; FY21-FY26 the held shareholding-filing counts |
+| shares on today's basis, 31 March | FY21 | 1,200,567,573 | shares | consolidated | FY16-FY20 derived above; FY21-FY26 the held shareholding-filing counts |
+| shares on today's basis, 31 March | FY22 | 1,200,567,573 | shares | consolidated | FY16-FY20 derived above; FY21-FY26 the held shareholding-filing counts |
+| shares on today's basis, 31 March | FY23 | 1,200,567,573 | shares | consolidated | FY16-FY20 derived above; FY21-FY26 the held shareholding-filing counts |
+| shares on today's basis, 31 March | FY24 | 1,200,567,573 | shares | consolidated | FY16-FY20 derived above; FY21-FY26 the held shareholding-filing counts |
+| shares on today's basis, 31 March | FY25 | 1,200,567,573 | shares | consolidated | FY16-FY20 derived above; FY21-FY26 the held shareholding-filing counts |
+| shares on today's basis, 31 March | FY26 | 1,621,073,650 | shares | consolidated | FY16-FY20 derived above; FY21-FY26 the held shareholding-filing counts |
+| weekly close on or before 31 March (FY16-FY20 built from daily; FY21-FY26 held weekly bars) | FY16 | 77.32 | Rs | exchange price (bonus-adjusted) | BIOCON_NS-daily-long.csv (FY16-FY20); derived-metrics close_on_or_before_31_march (FY21-FY26) |
+| weekly close on or before 31 March (FY16-FY20 built from daily; FY21-FY26 held weekly bars) | FY17 | 188.72 | Rs | exchange price (bonus-adjusted) | BIOCON_NS-daily-long.csv (FY16-FY20); derived-metrics close_on_or_before_31_march (FY21-FY26) |
+| weekly close on or before 31 March (FY16-FY20 built from daily; FY21-FY26 held weekly bars) | FY18 | 296.95 | Rs | exchange price (bonus-adjusted) | BIOCON_NS-daily-long.csv (FY16-FY20); derived-metrics close_on_or_before_31_march (FY21-FY26) |
+| weekly close on or before 31 March (FY16-FY20 built from daily; FY21-FY26 held weekly bars) | FY19 | 303.48 | Rs | exchange price (bonus-adjusted) | BIOCON_NS-daily-long.csv (FY16-FY20); derived-metrics close_on_or_before_31_march (FY21-FY26) |
+| weekly close on or before 31 March (FY16-FY20 built from daily; FY21-FY26 held weekly bars) | FY20 | 277.70 | Rs | exchange price (bonus-adjusted) | BIOCON_NS-daily-long.csv (FY16-FY20); derived-metrics close_on_or_before_31_march (FY21-FY26) |
+| weekly close on or before 31 March (FY16-FY20 built from daily; FY21-FY26 held weekly bars) | FY21 | 395.25 | Rs | exchange price (bonus-adjusted) | BIOCON_NS-daily-long.csv (FY16-FY20); derived-metrics close_on_or_before_31_march (FY21-FY26) |
+| weekly close on or before 31 March (FY16-FY20 built from daily; FY21-FY26 held weekly bars) | FY22 | 348.90 | Rs | exchange price (bonus-adjusted) | BIOCON_NS-daily-long.csv (FY16-FY20); derived-metrics close_on_or_before_31_march (FY21-FY26) |
+| weekly close on or before 31 March (FY16-FY20 built from daily; FY21-FY26 held weekly bars) | FY23 | 206.35 | Rs | exchange price (bonus-adjusted) | BIOCON_NS-daily-long.csv (FY16-FY20); derived-metrics close_on_or_before_31_march (FY21-FY26) |
+| weekly close on or before 31 March (FY16-FY20 built from daily; FY21-FY26 held weekly bars) | FY24 | 264.15 | Rs | exchange price (bonus-adjusted) | BIOCON_NS-daily-long.csv (FY16-FY20); derived-metrics close_on_or_before_31_march (FY21-FY26) |
+| weekly close on or before 31 March (FY16-FY20 built from daily; FY21-FY26 held weekly bars) | FY25 | 341.70 | Rs | exchange price (bonus-adjusted) | BIOCON_NS-daily-long.csv (FY16-FY20); derived-metrics close_on_or_before_31_march (FY21-FY26) |
+| weekly close on or before 31 March (FY16-FY20 built from daily; FY21-FY26 held weekly bars) | FY26 | 370.10 | Rs | exchange price (bonus-adjusted) | BIOCON_NS-daily-long.csv (FY16-FY20); derived-metrics close_on_or_before_31_march (FY21-FY26) |
+| market cap at the weekly close (FY16-FY20 derived here; FY21-FY26 held) | FY16 | 92,790.00 | Rs million | consolidated | close x shares at 31 March |
+| market cap at the weekly close (FY16-FY20 derived here; FY21-FY26 held) | FY17 | 226,459.99 | Rs million | consolidated | close x shares at 31 March |
+| market cap at the weekly close (FY16-FY20 derived here; FY21-FY26 held) | FY18 | 356,340.01 | Rs million | consolidated | close x shares at 31 March |
+| market cap at the weekly close (FY16-FY20 derived here; FY21-FY26 held) | FY19 | 364,170.01 | Rs million | consolidated | close x shares at 31 March |
+| market cap at the weekly close (FY16-FY20 derived here; FY21-FY26 held) | FY20 | 333,240.01 | Rs million | consolidated | close x shares at 31 March |
+| market cap at the weekly close (FY16-FY20 derived here; FY21-FY26 held) | FY21 | 474,524.33 | Rs million | consolidated | close x shares at 31 March |
+| market cap at the weekly close (FY16-FY20 derived here; FY21-FY26 held) | FY22 | 418,878.02 | Rs million | consolidated | close x shares at 31 March |
+| market cap at the weekly close (FY16-FY20 derived here; FY21-FY26 held) | FY23 | 247,737.13 | Rs million | consolidated | close x shares at 31 March |
+| market cap at the weekly close (FY16-FY20 derived here; FY21-FY26 held) | FY24 | 317,129.92 | Rs million | consolidated | close x shares at 31 March |
+| market cap at the weekly close (FY16-FY20 derived here; FY21-FY26 held) | FY25 | 410,233.95 | Rs million | consolidated | close x shares at 31 March |
+| market cap at the weekly close (FY16-FY20 derived here; FY21-FY26 held) | FY26 | 599,959.37 | Rs million | consolidated | close x shares at 31 March |
 
 **Computed result, DERIVED**
 
@@ -2838,7 +3007,7 @@ not a cause.
 
 | Year-end | Retained earnings | Other equity (balance sheet) | Retained as % of other equity | Pages that print it | Where (file, line) |
 |---|---|---|---|---|---|
-| FY21 | 62,358 | 70,269 | 88.74 | 2 page(s) agree | FY22/p266.md line 1; FY23/p364.md line 10 |
+| FY21 | 62,358 | 70,269 | 88.74 | 3 page(s) agree | FY22/p266.md line 1; FY23/p364.md line 10; data/history/ar-fy21/p262.txt line 95 |
 | FY22 | 68,273 | 78,322 | 87.17 | 3 page(s) agree | FY22/p266.md line 1; FY23/p364.md line 10; FY24/p310.md line 9 |
 | FY23 | 160,859 | 172,666 | 93.16 | 3 page(s) agree | FY23/p365.md line 11; FY24/p310.md line 9; FY25/p350.md line 12 |
 | FY24 | 176,028 | 191,834 | 91.76 | 3 page(s) agree | FY24/p310.md line 9; FY25/p350.md line 12; FY26/p348.md line 11 |
@@ -2884,10 +3053,103 @@ not a cause.
 | BVPS FY26 (derived above) | 209.93 |
 | Screener 'Book Value' on the BIOCON page fetched 2026-11-10 | 214.00 |
 
+*Every year FY16 to FY26: retained earnings, book value per share and market cap (DERIVED, Rs million unless the head says Rs)*
+
+| Year | Retained earnings | Basis | Other equity (beside) | Owners' equity | Shares on today's basis | BVPS on today's basis, Rs | Retained earnings per share, Rs | Weekly close on or before 31 March, Rs | Week ending of that close | Market cap |
+|---|---|---|---|---|---|---|---|---|---|---|
+| FY16 | 31,669 | Ind AS (restated; IGAAP printed in the FY16 report) | 39,338 | 40,338 | 1,200,000,000 | 33.62 | 26.39 | 77.32 | 2016-03-23 | 92,790 |
+| FY17 | 39,025 | Ind AS | 47,377 | 48,377 | 1,200,000,000 | 40.31 | 32.52 | 188.72 | 2017-03-31 | 226,460 |
+| FY18 | 42,294 | Ind AS | 48,808 | 51,808 | 1,200,000,000 | 43.17 | 35.24 | 296.95 | 2018-03-28 | 356,340 |
+| FY19 | 52,089 | Ind AS | 57,980 | 60,980 | 1,200,000,000 | 50.82 | 43.41 | 303.48 | 2019-03-28 | 364,170 |
+| FY20 | 59,141 | Ind AS | 61,058 | 67,058 | 1,200,000,000 | 55.88 | 49.28 | 277.70 | 2020-03-27 | 333,240 |
+| FY21 | 62,358 | Ind AS | 70,269 | 76,269 | 1,200,567,573 | 63.53 | 51.94 | 395.25 | 2021-03-26 | 474,524 |
+| FY22 | 68,273 | Ind AS | 78,322 | 84,325 | 1,200,567,573 | 70.24 | 56.87 | 348.90 | 2022-03-25 | 418,878 |
+| FY23 | 160,859 | Ind AS | 172,666 | 178,669 | 1,200,567,573 | 148.82 | 133.99 | 206.35 | 2023-03-31 | 247,737 |
+| FY24 | 176,028 | Ind AS | 191,834 | 197,837 | 1,200,567,573 | 164.79 | 146.62 | 264.15 | 2024-03-28 | 317,130 |
+| FY25 | 189,591 | Ind AS | 210,437 | 216,440 | 1,200,567,573 | 180.28 | 157.92 | 341.70 | 2025-03-28 | 410,234 |
+| FY26 | 139,920 | Ind AS | 332,213 | 340,318 | 1,621,073,650 | 209.93 | 86.31 | 370.10 | 2026-03-27 | 599,959 |
+
+*The ten-year span FY16 to FY26: cumulative retained earnings beside the rise in market cap (DERIVED, Rs million)*
+
+| Window | Change in retained earnings | Rise in market cap (weekly close) | Rise per rupee retained (times) | Against Re 1 (comparison, not a verdict) | Change in other equity (beside) | Rise per rupee of other equity (times, beside) | Basis |
+|---|---|---|---|---|---|---|---|
+| FY16 to FY26 | 108,251 | 507,169 | 4.69 | at or above 1 | 292,875 | 1.73 | Ind AS throughout (FY16 as restated in the FY17 report) |
+
+*Every rolling five-year window, FY16-FY21 to FY21-FY26 (DERIVED, Rs million)*
+
+| Window | Change in retained earnings | Rise in market cap (weekly close) | Rise per rupee retained (times) | Against Re 1 (comparison, not a verdict) | Change in other equity (beside) | Rise per rupee of other equity (times, beside) | Basis |
+|---|---|---|---|---|---|---|---|
+| FY16 to FY21 | 30,689 | 381,734 | 12.44 | at or above 1 | 30,931 | 12.34 | Ind AS throughout (FY16 as restated in the FY17 report) |
+| FY17 to FY22 | 29,248 | 192,418 | 6.58 | at or above 1 | 30,945 | 6.22 | Ind AS throughout |
+| FY18 to FY23 | 118,565 | -108,603 | -0.92 | below 1 (market cap fell) | 123,858 | -0.88 | Ind AS throughout |
+| FY19 to FY24 | 123,939 | -47,040 | -0.38 | below 1 (market cap fell) | 133,854 | -0.35 | Ind AS throughout |
+| FY20 to FY25 | 130,450 | 76,994 | 0.59 | below 1 | 149,379 | 0.52 | Ind AS throughout |
+| FY21 to FY26 | 77,562 | 125,435 | 1.62 | at or above 1 | 261,944 | 0.48 | Ind AS throughout |
+
+*Windows that start at FY16, on each FY16 balance the reports print (DERIVED, Rs million)*
+
+| Window | Opening balance | Change in retained earnings | Rise in market cap | Rise per rupee retained (times) |
+|---|---|---|---|---|
+| FY16 to FY21 | FY16 Ind AS: 31,669 | 30,689 | 381,734 | 12.44 |
+| FY16 to FY21 | FY16 IGAAP: 32,344 | 30,014 | 381,734 | 12.72 |
+| FY16 to FY26 | FY16 Ind AS: 31,669 | 108,251 | 507,169 | 4.69 |
+| FY16 to FY26 | FY16 IGAAP: 32,344 | 107,576 | 507,169 | 4.71 |
+
+*Retained earnings FY16 to FY21 on every page that prints it, with its basis (PRINTED; consolidated, Rs million)*
+
+| Year-end | Retained earnings | Basis | File | Line | Row (verbatim, 30 words at most) | Column heading |
+|---|---|---|---|---|---|---|
+| FY16 | 31,669 | Ind AS | data/history/ar-fy17/p227.txt | 59 | `Balance at March 31, 2016  2,788  9  801  3,459  31,669  -  608 (577) 657 (32) (44) 39,338  2,658  41,996` | `Retained / earnings (two header lines)` |
+| FY16 | 31,669 | Ind AS | data/history/ar-fy17/p228.txt | 39 | `Balance at March 31, 2016  2,788  9  801  3,459  31,669  -  608 (577) 657 (32) (44) 39,338  2,658  41,996` | `Retained / earnings (two header lines)` |
+| FY16 | 32,344 | IGAAP | data/history/ar-fy16/p217.txt | 28 | `Net Surplus in the statement of profit and loss  32,344  24,531` | not on that page |
+| FY17 | 39,025 | Ind AS | data/history/ar-fy17/p228.txt | 60 | `Balance as at March 31, 2017  2,908  9  801  3,459  39,025  -  675 (727) 539  768  (80) 47,377  3,761  51,138` | `Retained / earnings (two header lines)` |
+| FY17 | 39,025 | Ind AS | data/history/ar-fy18/p204.txt | 64 | `Balance at March 31, 2017  2,908  9  801  3,459  39,025  -  675 (727) 539 768 (80)  47,377  3,761  51,138` | `Retained / earnings (two header lines)` |
+| FY18 | 42,294 | Ind AS | data/history/ar-fy18/p205.txt | 55 | `Balance at March 31, 2018  1,032  9  801  3,459  42,294  -  685  (829)  660  788  (91)  48,808  4,677  53,485` | `Retained / earnings (two header lines)` |
+| FY18 | 42,294 | Ind AS | data/history/ar-fy19/p247.txt | 52 | `Balance at March 31, 2018  1,032  9  801  3,459  42,294  -  685  (829) 660 788  (91)  48,808  4,677  53,485` | `Retained / earnings (two header lines)` |
+| FY18 | 42,294 | Ind AS | data/history/ar-fy20/p276.txt | 45 | `Balance at April 01, 2018  1,032  9  801  3,459  42,294  –  685  (829) 660  788  (91)  48,808  4,677  53,485` | `Retained / earnings (two header lines)` |
+| FY19 | 52,089 | Ind AS | data/history/ar-fy19/p247.txt | 71 | `Balance at March 31, 2019  1,171  9  801  3,459  52,089  -  772  (1,144)  1,079  264  (520)  57,980  6,089  64,069` | `Retained / earnings (two header lines)` |
+| FY19 | 52,089 | Ind AS | data/history/ar-fy20/p276.txt | 59 | `Balance at March 31, 2019  1,171  9  801  3,459  52,089  –  772  (1,144)  1,079  264  (520)  57,980  6,089  64,069` | `Retained / earnings (two header lines)` |
+| FY19 | 52,089 | Ind AS | data/history/ar-fy21/p262.txt | 60 | `Balance at April 01, 2019 1,171 - 9 - - 801 3,459 52,089 - 772 (1,144) 1,079 264 (520) 57,980 6,089 64,069` | `Retained / earnings (two header lines)` |
+| FY20 | 59,141 | Ind AS | data/history/ar-fy20/p276.txt | 75 | `Balance at March 31, 2020  238  9  801  1,617  59,141  –  1,088  (1,345)  2,186  (1,290)  (1,387)  61,058  6,773  67,831` | `Retained / earnings (two header lines)` |
+| FY20 | 59,141 | Ind AS | data/history/ar-fy21/p262.txt | 80 | `Balance at March 31, 2020 238 - 9 - - 801 1,617 59,141 - 1,088 (1,345) 2,186 (1,290) (1,387) 61,058 6,773 67,831` | `Retained / earnings (two header lines)` |
+| FY21 | 62,358 | Ind AS | data/history/ar-fy21/p262.txt | 95 | `Balance at March 31, 2021  619  959  9  1,325  1,292  801  1,617  62,358  -    1,541  (1,343)  2,015  (207)  (717)  70,269  8,807  79,076` | `Retained / earnings (two header lines)` |
+
+*Share counts at 31 March, FY16 to FY20, and the check that shares x Rs 5 = owners' equity less other equity (PRINTED, then DERIVED)*
+
+| Year-end | Shares as printed | Bonus factor to today's basis | Shares on today's basis | Shares x Rs 5, Rs million | Owners' equity less other equity, Rs million | Result | Where (file, line, verbatim row) |
+|---|---|---|---|---|---|---|---|
+| FY16 | 200,000,000 | x6 | 1,200,000,000 | 1,000 | 1,000 | ties | data/history/ar-fy16/p216.txt line 15: `Outstanding at the end of the year  200,000,000  1,000  200,000,000  1,000`; data/history/ar-fy17/p246.txt line 18: `Outstanding at the end of the year  200,000,000  1,000  200,000,000  1,000` |
+| FY17 | 200,000,000 | x6 | 1,200,000,000 | 1,000 | 1,000 | ties | data/history/ar-fy17/p246.txt line 18: `Outstanding at the end of the year  200,000,000  1,000  200,000,000  1,000`; data/history/ar-fy18/p224.txt line 12: `Outstanding at the end of the year  600,000,000  3,000  200,000,000  1,000` |
+| FY18 | 600,000,000 | x2 | 1,200,000,000 | 3,000 | 3,000 | ties | data/history/ar-fy18/p224.txt line 12: `Outstanding at the end of the year  600,000,000  3,000  200,000,000  1,000`; data/history/ar-fy19/p266.txt line 12: `Outstanding at the end of the year  600,000,000  3,000  600,000,000  3,000` |
+| FY19 | 600,000,000 | x2 | 1,200,000,000 | 3,000 | 3,000 | ties | data/history/ar-fy19/p266.txt line 12: `Outstanding at the end of the year  600,000,000  3,000  600,000,000  3,000`; data/history/ar-fy20/p297.txt line 44: `Outstanding at the end of the year  1,200,000,000  6,000  600,000,000  3,000` |
+| FY20 | 1,200,000,000 | x1 | 1,200,000,000 | 6,000 | 6,000 | ties | data/history/ar-fy20/p297.txt line 44: `Outstanding at the end of the year  1,200,000,000  6,000  600,000,000  3,000`; data/history/ar-fy21/p285.txt line 38: `Outstanding at the end of the year  1,200,000,000  6,000  1,200,000,000  6,000` |
+
+*The two bonus issues that set the factor (PRINTED)*
+
+| Issue | File | Line | Sentence (verbatim, 30 words at most) |
+|---|---|---|---|
+| FY18 bonus, 2:1 | data/history/ar-fy18/p224.txt | 33 | `` The Company has allotted 400,000,000 equity shares of ` 5 each fully paid up as bonus shares on June 19, 2017 in the ratio of 2:1 (two equity shares  `` |
+| FY20 bonus, 1:1 | data/history/ar-fy20/p114.txt | 16 | `of 1 equity share for every 1 equity share held as on the record date to commemorate the 40th anniversary of the company. The ` |
+
+*Method check: weekly closes built from the daily file against the held weekly bars, FY20 to FY26 (the held weekly bars start 2019-12-06, so FY16 to FY19 have no held weekly bar to check against)*
+
+| Year | Week ending (built) | Close built from daily | Week ending (held weekly bars) | Close held (weekly bars) | Result |
+|---|---|---|---|---|---|
+| FY20 | 2020-03-27 | 277.70 | 2020-03-27 | 277.70 | same |
+| FY21 | 2021-03-26 | 395.25 | 2021-03-26 | 395.25 | same |
+| FY22 | 2022-03-25 | 348.90 | 2022-03-25 | 348.90 | same |
+| FY23 | 2023-03-31 | 206.35 | 2023-03-31 | 206.35 | same |
+| FY24 | 2024-03-28 | 264.15 | 2024-03-28 | 264.15 | same |
+| FY25 | 2025-03-28 | 341.70 | 2025-03-28 | 341.70 | same |
+| FY26 | 2026-03-27 | 370.10 | 2026-03-27 | 370.10 | same |
+
 **Caveats**
 
-- The step asks for a ten-year span; six year-ends are held (FY21 to FY26). FY16 to FY20 retained earnings, reserves and share counts are not held (shares before FY21 are not on file), so the ten-year span is 'not held' and the FY21 to FY26 row is the only five-year window. The step's bar is Re 1 of market value per Re 1 retained (example B1-179, B9-91; no rulebook rule): the FY26 row is the comparison.
+- The ten-year span FY16 to FY26 is formed from eleven year-ends: retained earnings FY16 to FY20 are printed in the held FY16 to FY21 reports, share counts in their share-capital notes, closes from the held daily file. The step's bar is Re 1 of market value per Re 1 retained (example B1-179, B9-91; no rulebook rule): the window rows are the comparison, not a verdict. The change in retained earnings over ten years is a change in a balance, not profit kept after dividends: see L5-63's one-year step table, column 'Change in retained not from that profit' (FY22 to FY26 only; FY17 to FY21 are not split into profit and other movements here).
 - The cumulative change in retained earnings is a change in a balance, not profit kept after dividends: see L5-63's one-year step table, column 'Change in retained not from that profit', for the years where it is large. The FY21 share count is the Sep-2021 filing reused (nothing earlier on file) and FY26 uses the 31-March-2026 filing's count (1,621,073,650); screener's figure is on its own share count and date. Book value here is after the NCI split (owners' share only).
+- Basis by year: FY16 is printed on two bases, IGAAP in the FY16 report (retained 32,344, 'Net Surplus in the statement of profit and loss') and Ind AS in the FY17 report's restated comparative (31,669); the windows use Ind AS for FY16 so every year is on one basis, and the FY16-opening table shows both. FY17 onward is Ind AS in every report; Mar-19 and Mar-20 are printed by two or three reports that agree. The FY20 report's opening FY20 balance is before the Ind AS 116 adjustment of (4) that the FY21 report shows (52,085 adjusted); the year-end balances used are the printed closings.
+- Share basis: FY16 to FY20 market cap = bonus-adjusted close x year-end shares x bonus factor (x6 FY16-FY17, x2 FY18-FY19, x1 FY20; the factors are the 2:1 bonus of June 2017 and the 1:1 bonus of June 2019), so it equals the unadjusted price x the shares then outstanding. FY21 to FY25 use the 1,200,567,573 shareholding-filing count and FY26 1,621,073,650, as before (the FY16 to FY20 counts are the share-capital notes' round 200, 600 and 1,200 million). Nothing is netted for share-issue proceeds in FY16 to FY20 (not held in the record), so FY16-based windows include new capital raised in FY22 to FY26 (98,513 in the FY21-FY26 table).
+- Close convention again: the weekly close on or before 31 March = the close of the last session of the last Monday-to-Sunday week whose last session is on or before 31 March (the held weekly bars' own rule: week ending 26 March 2021 for FY21). FY21 to FY26 use the held weekly bars; FY16 to FY20 are built the same way from the held daily file (the 10.5-year weekly price artifact is not held here), and the method check table shows the build gives the held weekly close for FY20 to FY26 (the held weekly bars start 2019-12-06). The close is Yahoo's, adjusted for the two bonus issues, not for dividends, so it sits on today's share count.
 
 ## Already held (not recomputed)
 
