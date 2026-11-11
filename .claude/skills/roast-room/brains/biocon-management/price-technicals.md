@@ -132,10 +132,14 @@ Signs showing: **3 of 3** (a count of the three signs above, the ladder's `exit_
 
 ## Price move around results dates
 
-Dates are the 21 dates of BIOCON's own results filings (a filing in the NSE results group whose first pages say it carries financial results; read from the filings' text, not from every board-meeting outcome; the newest filing is read from its announcement line, whose PDF is not held). The four 2021 results filings are outside this table, which starts at the 2022-01-20 filing, because the price history used for the 20-session baseline begins in 2019 but the filings held begin in 2022. The announcement can come before or after the market closes, so both sessions are shown: 'event day' is the first session on or after the filing date. Gap = that session's open against the previous close. Volume = that session's volume divided by the average of the 20 sessions before the event day. Two-session move = close of the session after the event day over the close before it; Nifty 50 over the same two sessions beside it. Prices and volume are Yahoo's, volume not bonus-adjusted.
+Dates are the 25 dates of BIOCON's own results filings (a filing in the NSE results group whose first pages say it carries financial results; read from the filings' text, not from every board-meeting outcome; a filing whose PDF is not held, the 2021 ones and the newest, is taken from its announcement line when that line says 'financial results for the period'). The announcement can come before or after the market closes, so both sessions are shown: 'event day' is the first session on or after the filing date. Gap = that session's open against the previous close. Volume = that session's volume divided by the average of the 20 sessions before the event day. Two-session move = close of the session after the event day over the close before it; Nifty 50 over the same two sessions beside it. Prices and volume are Yahoo's, volume not bonus-adjusted.
 
 | Results filing date | Event day | Open | Close | Volume | Next day | Open | Close | Volume | Avg volume, 20 sessions before |
 |---|---|---|---|---|---|---|---|---|---|
+| 2021-01-21 | 2021-01-21 | 455.00 | 441.95 | 3,617,650 | 2021-01-22 | 422.40 | 393.75 | 28,411,474 | 3,689,841 |
+| 2021-04-28 | 2021-04-28 | 398.00 | 390.85 | 11,363,709 | 2021-04-29 | 388.00 | 393.90 | 13,684,521 | 3,357,049 |
+| 2021-07-22 | 2021-07-22 | 407.25 | 403.00 | 2,808,364 | 2021-07-23 | 392.00 | 398.15 | 5,803,946 | 2,154,891 |
+| 2021-10-21 | 2021-10-21 | 346.00 | 344.95 | 4,144,347 | 2021-10-22 | 342.00 | 323.80 | 7,224,929 | 1,987,944 |
 | 2022-01-20 | 2022-01-20 | 366.00 | 364.20 | 1,513,144 | 2022-01-21 | 364.00 | 377.10 | 9,950,400 | 2,824,145 |
 | 2022-04-28 | 2022-04-28 | 385.00 | 376.75 | 1,707,353 | 2022-04-29 | 377.00 | 368.45 | 3,420,515 | 3,135,059 |
 | 2022-07-27 | 2022-07-27 | 318.25 | 323.30 | 1,004,738 | 2022-07-28 | 316.00 | 306.75 | 8,467,901 | 1,507,079 |
@@ -162,6 +166,10 @@ Readings from those levels. 'Held' = the session closed beyond the previous clos
 
 | Results filing date | Close before | Gap event day | Held | Gap next day | Held | Two-session move | Nifty 50 | Volume event day (x avg) | Volume next day (x avg) | Prior 250-session high close | Next close vs it |
 |---|---|---|---|---|---|---|---|---|---|---|---|
+| 2021-01-21 | 449.80 | +1.16% | faded | -4.42% | held | -12.46% | -1.86% | 0.98x | 7.70x | 483.60 | -18.6% |
+| 2021-04-28 | 398.10 | -0.03% | no gap | -0.73% | faded | -1.06% | +1.65% | 3.39x | 4.08x | 483.60 | -18.5% |
+| 2021-07-22 | 404.25 | +0.74% | faded | -2.73% | held | -1.51% | +1.43% | 1.30x | 2.69x | 483.60 | -17.7% |
+| 2021-10-21 | 341.75 | +1.24% | held | -0.86% | held | -5.25% | -0.83% | 2.08x | 3.63x | 483.60 | -33.0% |
 | 2022-01-20 | 367.35 | -0.37% | no gap | -0.05% | no gap | +2.65% | -1.79% | 0.54x | 3.52x | 451.60 | -16.5% |
 | 2022-04-28 | 381.95 | +0.80% | faded | +0.07% | no gap | -3.53% | +0.38% | 0.54x | 1.09x | 415.00 | -11.2% |
 | 2022-07-27 | 318.25 | +0.00% | no gap | -2.26% | held | -3.61% | +2.70% | 0.67x | 5.62x | 407.25 | -24.7% |
@@ -188,6 +196,10 @@ Intraday fill, later sessions and old resistance. 'Filled intraday' = for a gap 
 
 | Results filing date | Event-day gap filled intraday? | Next-day gap filled intraday? | Later volume, sessions +2 to +5 (x avg) | Later closes, sessions +2 to +5 (% vs event-day close) | Old resistance (swing high) | Next close vs it | Call |
 |---|---|---|---|---|---|---|---|
+| 2021-01-21 | filled intraday | not filled | 3.69 / 2.83 / 2.47 / 1.79 | -13.4 / -14.6 / -14.0 / -15.9 | 463.90 | -15.1% | stuck |
+| 2021-04-28 | no gap | filled intraday | 2.89 / 1.03 / 1.04 / 1.86 | -2.9 / -3.2 / -4.5 / -2.4 | 400.50 | -1.6% | stuck |
+| 2021-07-22 | filled intraday | not filled | 0.99 / 2.09 / 0.91 / 3.58 | -3.3 / -5.8 / -5.3 / -5.1 | 407.10 | -2.2% | stuck |
+| 2021-10-21 | filled intraday | not filled | 1.75 / 1.57 / 1.42 / 1.64 | -6.9 / -3.3 / -2.1 / -2.1 | 366.25 | -11.6% | stuck |
 | 2022-01-20 | no gap | no gap | 1.56 / 1.37 / 0.85 / 0.83 | +2.4 / +2.8 / -1.3 / -0.0 | 369.60 | +2.0% | cleared |
 | 2022-04-28 | filled intraday | no gap | 1.01 / 0.68 / 0.27 / 0.41 | -1.0 / -2.6 / -3.9 / -7.6 | 382.50 | -3.7% | stuck |
 | 2022-07-27 | no gap | not filled | 3.16 / 1.18 / 1.22 / 1.07 | -5.0 / -4.4 / -3.8 / -4.6 | 340.00 | -9.8% | stuck |
@@ -208,7 +220,7 @@ Intraday fill, later sessions and old resistance. 'Filled intraday' = for a gap 
 | 2026-02-12 | filled intraday | no gap | 0.72 / 0.38 / 0.51 / 0.96 | +1.4 / +1.1 / +1.0 / +2.0 | 382.00 | -1.1% | stuck |
 | 2026-05-07 | filled intraday | filled intraday | 3.56 / 3.10 / 3.16 / 2.23 | +2.1 / +5.3 / +9.2 / +9.6 | 382.00 | -0.4% | stuck |
 | 2026-08-05 | not filled | filled intraday | 0.79 / 0.34 / 0.29 / 0.57 | +0.3 / +0.2 / +0.2 / +0.5 | 424.95 | +2.7% | cleared |
-| 2026-11-04 | no gap | not filled | 1.78 / 1.03 | +6.0 / +7.0 | 385.25 | -6.0% | stuck |
+| 2026-11-04 | no gap | not filled | 1.78 / 1.03 / n/a / n/a | +6.0 / +7.0 / n/a / n/a | 385.25 | -6.0% | stuck |
 
 ## Sharp daily moves matched to the filings that day
 
@@ -221,30 +233,30 @@ Intraday fill, later sessions and old resistance. 'Filled intraday' = for a gap 
 | 2022-02-25 | +5.5% | 394.55 | none in the feed |
 | 2022-02-28 | -11.6% | 348.85 | none in the feed |
 | 2022-04-21 | +6.1% | 373.95 | none in the feed |
-| 2022-05-20 | +5.4% | 340.00 | Press Release: Biocon Limited has informed the Exchange about press release dated 19- |
-| 2022-06-09 | +5.2% | 337.15 | Press Release: Biocon Limited has informed the Exchange about press release dated 09-; Schedule of Analysts/Institutional Investor Meet/Con. Call: Biocon Limited has informed the Exchange about Analysts/Institutional  |
-| 2022-07-28 | -5.1% | 306.75 | Cessation: Biocon Limited  has informed the Exchange about cessation of Mary Harn; General updates: Biocon Limited has informed the Exchange about Presentation and video ; Investor Presentation: Biocon Limited has informed the Exchange about Investor Presentation; Outcome of Board Meeting: Biocon Li |
-| 2023-03-17 | -8.8% | 202.30 | Analysts/Institutional Investor Meet/Con. Call Updates: Biocon Limited has informed the Exchange about Investor Meeting |
-| 2023-06-30 | +8.4% | 265.50 | Press Release: Biocon Limited has informed the Exchange regarding a press release dat; Trading Window: Biocon Limited has informed the Exchange regarding the Trading Window  |
-| 2023-07-24 | -5.5% | 249.50 | Analysts/Institutional Investor Meet/Con. Call Updates: Biocon Limited has informed the Exchange about Schedule of meet; Copy of Newspaper Publication: Biocon Limited has informed the Exchange about Copy of Newspaper Publi; Press Release: Biocon Limited has informed the Exchange regarding a press re |
-| 2023-10-18 | -6.4% | 238.65 | Updates: Biocon Limited has informed the Exchange regarding 'Company Statement  |
+| 2022-05-20 | +5.4% | 340.00 | Press Release: Biocon Limited has informed the Exchange about press release |
+| 2022-06-09 | +5.2% | 337.15 | Press Release: Biocon Limited has informed the Exchange about press release; Schedule of Analysts/Institutional Investor Meet/Con. Call: Biocon Limited has informed the Exchange about Analysts/Inst |
+| 2022-07-28 | -5.1% | 306.75 | Cessation: Biocon Limited  has informed the Exchange about cessation of; General updates: Biocon Limited has informed the Exchange about Presentation ; Investor Presentation: Biocon Limited has informed the Exchange about Investor Pres; Outcome of Board Meeting: Biocon Limited  has informed the Exchange about Board Meetin; Press Release: Biocon Limited has informed the Exchange about press release; Schedule of Analysts/Institutional Investor Meet/Con. Call: Biocon Limited has informed the Exchange about Schedule of A |
+| 2023-03-17 | -8.8% | 202.30 | Analysts/Institutional Investor Meet/Con. Call Updates: Biocon Limited has informed the Exchange about Investor Meet |
+| 2023-06-30 | +8.4% | 265.50 | Press Release: Biocon Limited has informed the Exchange regarding a press r; Trading Window: Biocon Limited has informed the Exchange regarding the Tradi |
+| 2023-07-24 | -5.5% | 249.50 | Analysts/Institutional Investor Meet/Con. Call Updates: Biocon Limited has informed the Exchange about Schedule of m; Copy of Newspaper Publication: Biocon Limited has informed the Exchange about Copy of Newsp; Press Release: Biocon Limited has informed the Exchange regarding a press r; Shareholders meeting: Biocon Limited has submitted the Exchange a copy Srutinizers; Updates: Biocon Limited has informed the Exchange regarding 'Company  |
+| 2023-10-18 | -6.4% | 238.65 | Updates: Biocon Limited has informed the Exchange regarding 'Company  |
 | 2024-01-03 | +6.1% | 282.35 | none in the feed |
 | 2024-03-13 | -6.5% | 252.85 | none in the feed |
-| 2024-03-14 | +5.8% | 267.40 | Resignation: Biocon Limited has informed the Exchange regarding Resignation of Mr I; Updates: Biocon Limited has informed the Exchange regarding 'Biocon Biologics L; Updates: Biocon Limited has informed the Exchange regarding 'Updated list of KM |
-| 2024-03-15 | -5.9% | 251.65 | Resignation: Biocon Limited has informed the Exchange regarding Resignation of Mr I; Updates: Biocon Limited has informed the Exchange regarding 'Biocon Biologics L; Updates: Biocon Limited has informed the Exchange regarding 'Updated list of KM |
-| 2024-04-26 | +5.1% | 306.40 | Updates: Biocon Limited has informed the Exchange regarding 'Intimation under R |
-| 2024-06-04 | -6.1% | 290.90 | Analysts/Institutional Investor Meet/Con. Call Updates: Biocon Limited has informed the Exchange about Schedule of meet; Updates: Biocon Limited has informed the Exchange regarding 'Notification to St |
-| 2024-06-06 | +9.0% | 332.75 | Analysts/Institutional Investor Meet/Con. Call Updates: Biocon Limited has informed the Exchange about Meeting conducted with  |
+| 2024-03-14 | +5.8% | 267.40 | Resignation: Biocon Limited has informed the Exchange regarding Resignati; Updates: Biocon Limited has informed the Exchange regarding 'Biocon B; Updates: Biocon Limited has informed the Exchange regarding 'Updated  |
+| 2024-03-15 | -5.9% | 251.65 | Resignation: Biocon Limited has informed the Exchange regarding Resignati; Updates: Biocon Limited has informed the Exchange regarding 'Biocon B; Updates: Biocon Limited has informed the Exchange regarding 'Updated  |
+| 2024-04-26 | +5.1% | 306.40 | Updates: Biocon Limited has informed the Exchange regarding 'Intimati |
+| 2024-06-04 | -6.1% | 290.90 | Analysts/Institutional Investor Meet/Con. Call Updates: Biocon Limited has informed the Exchange about Schedule of m; Updates: Biocon Limited has informed the Exchange regarding 'Notifica |
+| 2024-06-06 | +9.0% | 332.75 | Analysts/Institutional Investor Meet/Con. Call Updates: Biocon Limited has informed the Exchange about Meeting condu |
 | 2024-11-11 | +8.5% | 348.70 | none in the feed |
-| 2025-01-07 | +6.8% | 382.35 | Press Release: Biocon Limited has informed the Exchange regarding a press release dat; Updates: Biocon Limited has informed the Exchange regarding 'Notification to St |
+| 2025-01-07 | +6.8% | 382.35 | Press Release: Biocon Limited has informed the Exchange regarding a press r; Updates: Biocon Limited has informed the Exchange regarding 'Notifica |
 | 2025-01-14 | +6.1% | 387.65 | none in the feed |
 | 2025-02-05 | +5.2% | 390.25 | none in the feed |
-| 2025-04-04 | -5.2% | 327.80 | Outcome of Board Meeting: Biocon Limited has informed the Exchange regarding  Board meeting held |
-| 2025-04-07 | -6.2% | 307.50 | Outcome of Board Meeting: Biocon Limited has informed the Exchange regarding  Board meeting held |
-| 2025-05-05 | +5.6% | 335.90 | Press Release: Biocon Limited has informed the Exchange regarding a press release dat; Shareholders meeting: Biocon Limited has informed the Exchange regarding Notice of Postal Ba |
-| 2025-08-08 | -5.7% | 343.35 | Acquisition: Biocon Limited has informed the Exchange about Acquisition; Analysts/Institutional Investor Meet/Con. Call Updates: Biocon Limited has informed the Exchange about Link of Recording; Change in Director(s): Biocon Limited has informed the Exchange regarding Change in Director(; Investor P |
-| 2025-11-12 | +5.4% | 405.90 | Agreements: Biocon Limited has informed the Exchange about Agreements; Analysts/Institutional Investor Meet/Con. Call Updates: Biocon Limited has informed the Exchange about Link of Recording; Investor Presentation: Biocon Limited has informed the Exchange about Investor Presentation; Issue of Secur |
+| 2025-04-04 | -5.2% | 327.80 | Outcome of Board Meeting: Biocon Limited has informed the Exchange regarding  Board me |
+| 2025-04-07 | -6.2% | 307.50 | Outcome of Board Meeting: Biocon Limited has informed the Exchange regarding  Board me |
+| 2025-05-05 | +5.6% | 335.90 | Press Release: Biocon Limited has informed the Exchange regarding a press r; Shareholders meeting: Biocon Limited has informed the Exchange regarding Notice of |
+| 2025-08-08 | -5.7% | 343.35 | Acquisition: Biocon Limited has informed the Exchange about Acquisition; Analysts/Institutional Investor Meet/Con. Call Updates: Biocon Limited has informed the Exchange about Link of Recor; Change in Director(s): Biocon Limited has informed the Exchange regarding Change in; Investor Presentation: Biocon Limited has informed the Exchange about Investor Pres; Monitoring Agency Report: Monitoring Agency Report; Outcome of Board Meeting: Biocon Limited has informed the Exchange regarding Outcome o; Outcome of Board Meeting: Biocon Limited has submitted to the Exchange, the financial ; Press Release: Biocon Limited has informed the Exchange regarding a press r; Shareholders meeting: Biocon Limited has informed the Exchange regarding Proceedin; Updates: Biocon Limited has informed the Exchange regarding Chairpers |
+| 2025-11-12 | +5.4% | 405.90 | Agreements: Biocon Limited has informed the Exchange about Agreements; Analysts/Institutional Investor Meet/Con. Call Updates: Biocon Limited has informed the Exchange about Link of Recor; Investor Presentation: Biocon Limited has informed the Exchange about Investor Pres; Issue of Securities: Biocon Limited has informed the Exchange about issue of Secu; Monitoring Agency Report: Monitoring Agency Report for the quarter ended on September ; Outcome of Board Meeting: Biocon Limited has informed the Exchange regarding Outcome o; Outcome of Board Meeting: Biocon Limited has submitted to the Exchange, the financial ; Press Release: Biocon Limited has informed the Exchange regarding a press r; Redemption: Biocon Limited has informed the Exchange about  outcome of t |
 | 2025-12-04 | -5.3% | 388.35 | none in the feed |
-| 2026-07-14 | +6.4% | 437.30 | Certificate under SEBI (Depositories and Participants) Regulations, 2018: Biocon Limited has informed the Exchange about Certificate under SEBI  |
+| 2026-07-14 | +6.4% | 437.30 | Certificate under SEBI (Depositories and Participants) Regulations, 2018: Biocon Limited has informed the Exchange about Certificate u |
 | 2026-10-28 | +5.5% | 350.70 | none in the feed |
-| 2026-11-05 | +5.1% | 362.00 | Analysts/Institutional Investor Meet/Con. Call Updates: Biocon Limited has informed the Exchange about Link of Recording; General Updates: Biocon Limited has informed the Exchange about Communication regarding; Investor Presentation: Biocon Limited has informed the Exchange about Investor Presentati |
+| 2026-11-05 | +5.1% | 362.00 | Analysts/Institutional Investor Meet/Con. Call Updates: Biocon Limited has informed the Exchange about Link of Recor; General Updates: Biocon Limited has informed the Exchange about Communication; Investor Presentation: Biocon Limited has informed the Exchange about Investor Pres; Outcome of Board Meeting: Biocon Limited has informed the Exchange regarding Outcome o; Outcome of Board Meeting: Biocon Limited has submitted to the Exchange, the financial ; Press Release: Biocon Limited has informed the Exchange regarding a press r; Resignation of Director/KMP/SMP: Biocon Limited has informed the Exchange about Resignation o |
