@@ -2183,6 +2183,13 @@ not a cause.
 | -- Biocon Biologics UK PLC | 2 | 98.7 | 98.7 | ties | 1.3 |
 | Biocon Biosphere Limited | 1 | 100.0 | 100.0 | ties | nil (printed '-') |
 | Biocon FZ LLC. | 1 | 100.0 | 100.0 | ties | nil (printed '-') |
+| Biocon Pharma Limited ('BPL') | 1 | 100.0 | 100.0 | ties | nil (printed '-') |
+| -- Biocon Generics Inc. | 2 | 100.0 | 100.0 | ties | nil (printed '-') |
+| -- Biocon Pharma Inc. | 2 | 100.0 | 100.0 | ties | nil (printed '-') |
+| -- Biocon Pharma Ireland Limited | 2 | 100.0 | 100.0 | ties | nil (printed '-') |
+| -- Biocon Pharma Malta I Limited | 2 | 100.0 | 100.0 | ties | nil (printed '-') |
+| -- Biocon Pharma Malta Limited | 2 | 100.0 | 100.0 | ties | nil (printed '-') |
+| -- Biocon Pharma UK Limited | 2 | 100.0 | 100.0 | ties | nil (printed '-') |
 | Biocon SA | 1 | 100.0 | 100.0 | ties | nil (printed '-') |
 | Syngene International Limited | 1 | 52.4 | 52.4 | ties | 47.6 |
 | -- Syngene Manufacturing Solutions Limited | 2 | 52.4 | 52.4 | ties | 47.6 |
@@ -2193,11 +2200,11 @@ not a cause.
 
 | Layer | Entities |
 |---|---|
-| 1 | 6 |
-| 2 | 19 |
-| 3 | 13 |
+| 1 | 7 |
+| 2 | 24 |
+| 3 | 8 |
 
-*Where the board report names a different parent from the related-party note (13 entities; parent words as printed)*
+*Where the board report names a different parent from the related-party note (12 entities; parent words as printed)*
 
 | Entity | Parent in the related-party note | Parent named in the board report |
 |---|---|---|
@@ -2213,11 +2220,10 @@ not a cause.
 | Biocon Biologics South Africa (PTY) Ltd | Biocon Biologics Limited | BBIL |
 | Biocon Biologics Spain, S.L. | Biocon Biologics Limited | BBIL |
 | Biocon Biologics Switzerland AG | Biocon Biologics Limited | BBIL |
-| Biocon Pharma UK Limited | Biocon Pharma Limited | the Company with its |
 
 **Caveats**
 
-- 38 of 39 note-39 entities are placed; 0 related-party name(s) unplaced: none. Names were matched by exact name or 'formerly known as' alias, else the closest name at 0.9 or better.
+- 39 of 39 note-39 entities are placed in the chart; 0 note-39 entit(ies) unplaced: none; 0 related-party name(s) with no note-39 entity: none. Names were matched by exact name or 'formerly known as' alias, else the closest name at 0.9 or better.
 - Form AOC-1 (the holding column the row names) is named on p191 of the FY26 pages held; pages carrying a '% of shareholding' column: none. So the holding % here is note 39's, not AOC-1's.
 - The related-party note puts many Biologics subsidiaries under Biocon Biologics Limited where the board report says Biocon Biologics International Limited (see the last table); the percentages are the same either way (all 98.7%) and only the layer differs. The chart follows the related-party note.
 - The related-party list is dated to the standalone statements and uses the older names; the chart does not show any restructuring after 31 March 2026.
