@@ -42,7 +42,15 @@ Latest spot in the Yahoo file: `chart.result[0].meta.regularMarketPrice` = 93.70
 At the latest Yahoo spot 93.707 the plan reads Rs 18,741 to 23,427 million (DERIVED).
 Actual FY26 capex_cash in USD (DERIVED = 19,117 / 88.793): 215 million, against the plan of 200-250 for FY2026.
 
-**Still not held:** any capex plan other than ICRA's USD range (FY26-FY27); the company's own USD capex guidance was not searched in this task beyond the ICRA text. The plan is group-level, the cash and debt are consolidated, so the bases match; ICRA says it is funded 'mainly by internal accruals and existing reserves, coupled with some portion of debt' (p005 same paragraph), which is its statement, not a computed split.
+**Second source on the same plan, CRISIL (agency, held):** `soic-ladder/docs/idea/case-study/BIOCON/data/history/crisil-biocon-2025-12-16-rationale.txt` | line 41 | line 41 | "large annual or ganic capex of $200–250 million"; funding: `soic-ladder/docs/idea/case-study/BIOCON/data/history/crisil-biocon-2025-12-16-rationale.txt` | line 41 | line 41 | "funded through cash accrual and liquid surplus with low reliance on external borrowing"
+
+**Management's own words (Q3 FY26 call, 13 Feb 2026, answer to an analyst question on capex for FY26 and FY27):** `roast-room/.claude/skills/roast-room/brains/biocon-management/qa-states.md` | line 317 | line 317 | "That has moderated to less than $225 million." This is a bound, later than ICRA. DERIVED at USD 225m x 88.793 = Rs 19,979 million = 0.51x of cash and investments 38,834; it sits inside the range above.
+
+**CFO against the plan (the step's own ask; DERIVED, plan range as above):** FY26 net cash from operating activities, consolidated, printed: `roast-room/docs/company-record/biocon/ar-tables-FY21-FY26.csv` | line 458 | line 458 | "FY26,FY26,consolidated,cf,net_cash_from_operating,19940". CFO / plan = 19,940 / 17,759 to 19,940 / 22,198 = **0.90-1.12x** of one year's plan (low USD 200m gives the higher ratio).
+
+**Period note:** the plan covers FY26 and FY27 while cash and debt are at 31 March 2026; FY26 is already spent (capex_cash above), so the balances are read against the FY27 year of the plan. The FY26 rate is used for both years.
+
+**Still not held:** a single full-year capex plan printed by the company in its own MD&A (searched: ICRA, CRISIL, the Q3 FY26 call; the company gives only the bound above). ICRA's statement that the plan is funded 'mainly by internal accruals and existing reserves, coupled with some portion of debt' (p005 same paragraph) is its statement, not a computed split.
 
 ## L3-52  Step ask: measure debt and its direction against the expansion plan (FC-L3-T4-S1): planned capex vs net worth; source of debt reduction
 
@@ -68,9 +76,21 @@ DERIVED fall = 177,555 - 148,247 = 29,308 Rs million (16.5%).
 - `soic-ladder/docs/idea/case-study/BIOCON/annual-report/FY26/p349.md` | p349 | line 57 | "Proceeds from current borrowings (net of repayments)|349|6,846|"
 - `soic-ladder/docs/idea/case-study/BIOCON/annual-report/FY26/p349.md` | p349 | line 48 | "Proceeds from issuance of share capital, (net)<br>Purchase of equity shares of subsidiary|85,311<br>(36,287)|"
 
-DERIVED: non-current repayment less non-current proceeds = 27,079 - 2,664 = 24,415; with current borrowings net proceeds of 349 the cash-flow net repayment is 24,066. The balance-sheet fall is 29,308, so about 5,242 of the fall is not a cash repayment on these lines (**what makes up that difference is not established here**). Share-issue proceeds of 85,311 and a 36,287 purchase of subsidiary shares fall in the same year; a coinciding year is not a cause, so the filings' own sentence (ICRA, above: QIP money partly used to repay structured debt of Kotak, commercial paper and Goldman OCDs) is the only stated link. The QIP figure there is Rs 4,500 crore = 45,000 million as ICRA prints it, against 85,311 of issuance proceeds in the cash flow (the two figures are not reconciled here).
+- `soic-ladder/docs/idea/case-study/BIOCON/annual-report/FY26/p349.md` | p349 | line 53 | "Proceeds from/(repayment) of non-recourse factoring arrangement|(1,650)|1,067|"
 
-**Still not held:** a line-by-line repayment schedule tied to the QIP; the company's own statement of what each repayment was paid from.
+**The company's own statement of the source (read first):** `soic-ladder/docs/idea/case-study/BIOCON/annual-report/FY26/p023.md` | p023 | line 9 | line 9 | "The fund raise allowed us to retire the structured debt and buy out minority stakeholders in Biocon Biologics". Two QIPs (note on share capital): `soic-ladder/docs/idea/case-study/BIOCON/annual-report/FY26/p307.md` | p307 | line 7 | "aggregate amount of Rs. 45,000 to meet certain financial commitments and/or debt obligations"; `soic-ladder/docs/idea/case-study/BIOCON/annual-report/FY26/p307.md` | p307 | line 9 | "aggregate amount of Rs. 41,500 to acquire BBL equity shares from Mylan Inc". So only part of the equity raise went to debt: the June 2025 tranche (45,000) names debt obligations, the January 2026 tranche (41,500) names buying BBL shares from Mylan and BBL debentures. DERIVED: 45,000 + 41,500 = 86,500 gross against 85,311 net issue proceeds in the cash flow (difference 1,189 = issue costs and other, not itemised).
+
+**The company's own bridge of borrowings (note, Rs million, consolidated):**
+- `soic-ladder/docs/idea/case-study/BIOCON/annual-report/FY26/p350.md` | p350 | line 30 | "Non- current borrowings (including<br>current maturities)|143,008|(24,415)|(46,308)|1,272|39,027|112,584|"
+- `soic-ladder/docs/idea/case-study/BIOCON/annual-report/FY26/p350.md` | p350 | line 31 | "Current borrowings|31,514|(1,301)|(530)|-|2,930|32,613|"
+
+DERIVED, from those two rows: opening 143,008 + 31,514 = 174,522; cash flows -24,415 + -1,301 = -25,716; non-current non-cash items -46,308 + -530 + 1,272 + 39,027 = -6,539 and current non-cash items 2,930; total non-cash = **-3,609**; closing 112,584 + 32,613 = 145,197.
+Cash net repayment: the current-borrowings cash flow of (1,301) = 349 net proceeds less the (1,650) non-recourse factoring line (p349 above), so cash net repayment = 24,415 + 1,301 = **25,716**, not 24,066 (which left the factoring line out).
+How much of the 29,308 fall in borrowings the bridge explains (DERIVED): cash 25,716 + non-cash 3,609 = 29,325, i.e. 100.1% of 29,308; remaining difference -17. The table's opening and closing (174,522 / 145,197) differ from the balance-sheet borrowings (177,555 / 148,247) by 3,033 / 3,050: that classification difference is not itemised in the filing pages read, and it nets to the -17 left over. Biggest non-cash items: exchange effect (46,308) on non-current, other 39,027 (the filing gives no breakdown of 'other').
+
+**Free cash flow against the repayment (DERIVED):** CFO 19,940 less capex 19,117 = 823 against net repayment 25,716 and subsidiary-share and debenture purchases of 36,287 + 21,715 = 58,002, while equity proceeds were 85,311; the reduction was therefore paid from new equity, not from operating cash (company's words above).
+
+**Still not held:** a line-by-line tie of each repayment to a QIP tranche (the company states use of proceeds only at purpose level); itemisation of the 3,033 / 3,050 classification difference and of the 39,027 'other'.
 
 ## L6-76  Step ask: exports, currency, geography and customer-sector exposure (FC-L6-T6-S5): revenue by geography, rupee and dollar growth
 
@@ -110,17 +130,26 @@ DERIVED: non-current repayment less non-current proceeds = 27,079 - 2,664 = 24,4
 | Rest of world | 20,919 | 21,468 | 41,791 | 31,759 | 33,948 | 33,977 |
 | Total | 71,431 | 81,840 | 111,742 | 147,557 | 152,617 | 169,270 |
 
-Label note: FY21-FY23 reports print 'Ireland'; FY24 onward print 'European union (including Ireland)' and the FY24 report's FY23 column carries the same 11,784 as FY23's Ireland row. Restatement differences found between reports: none.
+Label note: FY21-FY23 reports print 'Ireland'; FY24 onward print 'European union (including Ireland)' and the FY24 report's FY23 column carries the same 11,784 as FY23's Ireland row.
+**Restatement: FY21 was restated in the FY22 report (the earlier sentence 'none' was wrong).** FY21's own report prints (consolidated, Rs million): `soic-ladder/docs/idea/case-study/BIOCON/data/history/ar-fy21/p320.txt` | p320 | line 40 | "Rest of the world  20,546  17,737"; `soic-ladder/docs/idea/case-study/BIOCON/data/history/ar-fy21/p320.txt` | p320 | line 41 | "Total  71,058  63,005". The FY22 report's comparative column prints Rest of the world 20,919 and Total 71,431 (table above, FY21 column). Difference: Rest of the world +373, Total +373 (DERIVED; India, USA and Ireland agree at 13,596, 23,589, 13,327). The table above uses the restated FY21, labelled 'FY21 as restated in the FY22 report'. FY22 growth on the restated base: Rest of the world 2.6%, Total 14.6% (DERIVED); on FY21's own printed figures it would read 4.5% and 15.2%.
+From FY22 onward each report's comparative column equals the prior report's own printed figure (read by this script; no difference was flagged: none).
 
-**DERIVED growth, rupee and dollar (rupee = this year / last year - 1; dollar = same revenue divided by the FY Yahoo average above, then the same ratio):**
+**Not like-for-like (flag, FY24):** the FY24 report relabels 'Ireland' as 'European union (including Ireland)' with an unrestated prior column, so the FY24 growth cells marked † (Ireland / EU +198%, Rest of world -24%) mix a re-mapping, if any, with real change; the company states no cause. Do not quote them as growth. Combined Ireland / EU + Rest of world (DERIVED): FY22 38,331, FY23 53,575, FY24 66,928, FY25 72,429, FY26 80,144; growth FY23 +39.8%, FY24 +24.9%, FY25 +8.2%, FY26 +10.7%.
+
+**Export share (done-when; DERIVED = (Total - India) / Total):** FY21 81.0%, FY22 83.4%, FY23 85.0%, FY24 89.1%, FY25 93.6%, FY26 94.6%. Basis: consolidated, Rs million; the geography pages print no basis sentence (the standalone note says revenue is allocated by location of customers).
+
+**DERIVED growth, rupee and dollar (rupee = this year / last year - 1; dollar = same revenue divided by the FY Yahoo average above, then the same ratio; † = not like-for-like, see flag):**
 
 | Region | FY22 INR % | FY22 USD % | FY23 INR % | FY23 USD % | FY24 INR % | FY24 USD % | FY25 INR % | FY25 USD % | FY26 INR % | FY26 USD % |
 |---|---|---|---|---|---|---|---|---|---|---|
 | India | -0.2 | -0.6 | 23.4 | 14.0 | -3.9 | -6.5 | -39.3 | -40.6 | -6.0 | -10.4 |
 | USA | 26.9 | 26.5 | 38.3 | 27.8 | 55.8 | 51.7 | 9.1 | 6.7 | 13.5 | 8.2 |
-| Ireland / EU incl. Ireland | 26.5 | 26.1 | -30.1 | -35.4 | 198.4 | 190.5 | 9.4 | 7.0 | 20.0 | 14.3 |
-| Rest of world | 2.6 | 2.2 | 94.7 | 79.8 | -24.0 | -26.0 | 6.9 | 4.5 | 0.1 | -4.6 |
+| Ireland / EU incl. Ireland | 26.5 | 26.1 | -30.1 | -35.4 | 198.4† | 190.5† | 9.4 | 7.0 | 20.0 | 14.3 |
+| Rest of world | 2.6 | 2.2 | 94.7 | 79.8 | -24.0† | -26.0† | 6.9 | 4.5 | 0.1 | -4.6 |
 | Total | 14.6 | 14.2 | 36.5 | 26.1 | 32.1 | 28.6 | 3.4 | 1.1 | 10.9 | 5.7 |
+
+**USD growth uncertainty band (DERIVED):** the dollar column is a conversion at a third-party average, not a company figure. Total revenue USD growth on the Yahoo base vs the World Bank 9/12+3/12 blend: FY22 14.2 vs 13.0; FY23 26.1 vs 28.8; FY24 28.6 vs 26.9; FY25 1.1 vs 1.4. Largest gap 2.7 points (FY23). Read every dollar-growth cell as about +/-1 to 3 points, not the one decimal printed; no region changes sign between the two bases.
+
 
 Check that the four regions add to the printed total: FY21 ok, FY22 ok, FY23 ok, FY24 ok, FY25 ok, FY26 ok (DERIVED).
 
@@ -129,7 +158,24 @@ Check that the four regions add to the printed total: FY21 ok, FY22 ok, FY23 ok,
 ## L7-82  Step ask: holding companies, listed stakes and demergers (FC-L7-T5-S3): shares held and carrying value
 
 **Shares and carrying value (filed, Rs million, quoted investments at fair value through OCI):** `soic-ladder/docs/idea/case-study/BIOCON/annual-report/FY26/p369.md` | p369 | line 12 | "Bicara Therapeutics Inc. : 5,523,897 (March 31, 2025 - 5,523,897) equity shares of USD 0.0001 each|10,271|6,149|"
-Total quoted investments line: 10,271 (FY26) and 6,237 (FY25); Bicara is 10,271 of it.
+Bicara parent-only (a different holder; the 5,523,897 above is the group figure, subsidiaries hold the rest): `soic-ladder/docs/idea/case-study/BIOCON/annual-report/FY26/p302.md` | p302 | line 35 | "Bicara Therapeutics Inc. : 115,757  (March 31, 2025: 115,757) equity shares of USD 0.0001 each|216|129|"
+Non-current quoted investments total 10,271 (FY26) and 6,237 (FY25) is Bicara alone at FY26 (Equillium left the non-current line, below).
+
+**All listed stakes found in the held pages (three):**
+
+| Stake | Shares | Carrying value, Rs million | Held where | Market value |
+|---|---|---|---|---|
+| Syngene International (52.4%) | 212,277,055 | cost 20,089 (FY25 20,089), standalone | parent-only note | see below |
+| Bicara Therapeutics | 5,523,897 | 10,271 (FY25 6,149), fair value through OCI | consolidated non-current | see table below |
+| Equillium Inc. | 2,316,134 | 433 (FY25 88 non-current), current investments | consolidated, reclassified to current in FY26 | price not held |
+
+- Syngene: `soic-ladder/docs/idea/case-study/BIOCON/annual-report/FY26/p302.md` | p302 | line 32 | "Syngene International Limited - 212,277,055 (March 31, 2025: 212,277,055) equity shares of Rs. 10 each|20,089|20,089|"; holding: `soic-ladder/docs/idea/case-study/BIOCON/annual-report/FY26/p410.md` | p410 | line 16 | "Syngene International Limited|India|52.4|52.5". Carrying value is the standalone cost; in the consolidated accounts Syngene is a subsidiary and has no investment carrying line.
+- Equillium: `soic-ladder/docs/idea/case-study/BIOCON/annual-report/FY26/p372.md` | p372 | line 14 | "(c)   Equillium Inc., USA - 2,316,134 (March 31, 2025 - Nil) Common Stock, par value USD 0.001 each" (value 433 on the same row, p372 line 15 `|433|-|`); prior year non-current: `soic-ladder/docs/idea/case-study/BIOCON/annual-report/FY26/p369.md` | p369 | line 10 | "Equillium Inc., USA - Nil (March 31, 2025 - 2,316,134) Common Stock, par value USD 0.001 each".
+
+**Syngene market value (price third party, never replaces the printed cost):** `soic-ladder/docs/idea/case-study/BIOCON/data/macro/SYNGENE-daily.csv` | line | line 1569 | "2026-03-30,388.7997131347656,389.8999938964844" (last close on or before 31 March 2026; no 31 March row). DERIVED: 212,277,055 x 389.90 / 1,000,000 = Rs 82,767 million against cost 20,089 (4.12x). Latest bar 2026-11-09 close 436.90, DERIVED Rs 92,744 million.
+**Equillium market value: price not held.** Searched `data/macro` (file list and manifest: no Equillium / EQLS price file; held price files are BCAX, BIOCON, SYNGENE, NIFTY series) and the peer folder. Carrying value per share is DERIVED Rs 186.95 (433 million / 2,316,134), which is a carrying value, not a price.
+
+**Share-count assumption (stated, unverified):** the latest-price rows (Syngene and Bicara) assume the share counts are unchanged since 31 March 2026. No later holding filing is held, so this is unverified; the filed shares, carrying values and the 31 March market values do not need it.
 
 **Share price (Nasdaq BCAX close, held daily file):**
 - `soic-ladder/docs/idea/case-study/BIOCON/data/macro/BCAX-daily-long.csv` | line 388 | "2026-03-31,19.889999389648438,19.889999389648438"
@@ -146,7 +192,7 @@ Total quoted investments line: 10,271 (FY26) and 6,237 (FY25); Bicara is 10,271 
 | 31 Mar 2025 | 13.03 | 85.539 | 6,157 | 6,149 | +0.1% |
 | 2026-11-09 (latest bar, spot rate of 2026-11-12, dates differ by up to 3 days) | 9.98 | 93.707 | 5,166 | not filed yet | n/a |
 
-**Still not held:** the share count after 31 March 2026 (no later filing read here), so the latest row assumes the 5,523,897 shares are unchanged (stated, not verified); the carrying-value method (fair value) is the filing's, the two sets match within the gaps shown because the filed value is a fair value at the same date.
+**Still not held:** the share count after 31 March 2026 (no later filing read here), so the latest rows assume unchanged counts (stated, not verified); an Equillium price; the carrying-value method (fair value) is the filing's, the two sets match within the gaps shown because the filed value is a fair value at the same date.
 
 ## L7-20  Step ask: peers, own-history bands and P/E screens (FC-L7-T1-S5): peer list and peer multiples (median)
 
