@@ -1,10 +1,69 @@
 # Hot sheet: BIOCON management, on the record
 
 <!-- generated:coverage START -->
-**Coverage line.** Of 653 reading steps, 388 are done, 164 part, 45 not found and 56 not answerable. That counts reading done, not how the company is doing. 782 public findings are indexed in `evidence-index.md`; the counts are in `coverage.md`. Findings file sha256 3523b7db1045c4d4.
+**Coverage line.** Of 653 reading steps, 388 are done, 164 part, 45 not found and 56 not answerable. That counts reading done, not how the company is doing. 760 public findings are indexed in `evidence-index.md` (each ends with its finding id; a line with a source id, page, basis and as-of date is a citation); `coverage.md` lists 209 gaps by topic with a reason. Findings file sha256 bea0fb7eb8724680.
+
+**Route.** Read this file, then `coverage.md` or `evidence-index.md` (one of them, by Grep on a topic word), then at most two more files. For ratios, margins, returns and leverage see `computed-ratios.md`, `derived-metrics.md`, `derived-ten-year.md`; for hand-read annual-report items see the `read-held-g*.md` files.
+
+**File index.**
+- `ar-tables.md`: Annual-report tables: BIOCON management, FY21 to FY26
+- `books.md`: books: document index
+- `bulk-block-deals.md`: Bulk and block deals, BIOCON: S048
+- `changes.md`: changes: what moved since the calls and decks the brain was built from
+- `computed-ratios.md`: computed-ratios: BIOCON, rows closed by computation from held data
+- `coverage.md`: Coverage: how much of the reading is done, and what is missing
+- `debt-covenants.md`: Debt covenants, maturities and facilities, BIOCON: S038
+- `derived-metrics.md`: Derived metrics, BIOCON: S049
+- `derived-ten-year.md`: Ten-year derived view, BIOCON: S050
+- `evidence-index.md`: Evidence index: BIOCON public findings, by topic
+- `frameworks.md`: Frameworks: BIOCON management, on the record
+- `insider-trades.md`: Insider trades (SEBI PIT disclosures), BIOCON: S046
+- `limits-and-rpt-notice.md`: Approved limits and the Mylan transaction, BIOCON: S035
+- `macro-india.md`: India macro series and real revenue growth, BIOCON: S052
+- `numbers.md`: numbers: BIOCON, filed quarters and price
+- `older-annual-reports.md`: Older annual reports: dividends, payout and share basis, BIOCON FY12 to FY26
+- `positions.md`: Positions: BIOCON management, on the record
+- `price-technicals.md`: Price and volume readings, BIOCON: S051
+- `prices.md`: Prices: BIOCON management, weekly price history
+- `principles.md`: Principles: BIOCON management, on the record
+- `promoter-declarations.md`: Promoter annual encumbrance declarations, BIOCON: S037
+- `qa-states.md`: Call questions and how management answered them
+- `ratings.md`: Credit ratings, BIOCON: S047
+- `read-held-g17.md`: read-held g17: BIOCON, held annual-report pages read in code
+- `read-held-g18.md`: Read-held group g18: ESOP, option and KMP-holding rows
+- `read-held-g19.md`: Read-held g19: ten BIOCON rows read from held text
+- `read-held-g20.md`: read-held g20: ten-year ROCE, own P/E range, kept profit against market cap, profit and return history (BIOCON
+- `read-held-g21.md`: read-held-g21: BIOCON, six rows closed by reading held documents
+- `read-held-g22.md`: read-held-g22: BIOCON, four rows closed by reading held documents
+- `read-held-g23.md`: read-held-g23: BIOCON, five rows read from held documents
+- `read-held-g24.md`: read-held g24 (BIOCON), rows L1-49 and L5-28
+- `read-held-g25.md`: read-held g25 (BIOCON), rows L5-94, L5-98, L5-100
+- `read-held-g26.md`: read-held-g26: USD/INR, peer prices, FDA, ratings and CDSCO pages (fetched 2026-11-12)
+- `read-held-g27.md`: Read-held g27 (BIOCON): L5-3, L5-57, L5-16
+- `read-held-g28.md`: Read-held G28 (BIOCON): rows L5-46, L4-48, L4-30, L5-58
+- `read-held-g29.md`: read-held-g29: AGM votes, pay basis, tenure, exits, directors, use of proceeds, ratings (fetched 2026-11-12)
+- `read-held-g30.md`: read-held g30: free float and fixed costs (BIOCON)
+- `read-held-g31.md`: read-held-g31: chain, step margins, segment multiples, D5 two views (BIOCON)
+- `read-held-g32.md`: read-held-g32: cost ratios (BIOCON)
+- `read-held-g33.md`: read-held-g33: cost lines vs nearest peer (BIOCON)
+- `read-held-g45.md`: Read-held G45: row L5-46, step FC-L5-T3-S3 (BIOCON)
+- `record.md`: record: what BIOCON management said it would do, and what happened
+- `rpt-approvals-notices.md`: Earlier related party approvals, BIOCON: S036
+- `segments.md`: Segments by quarter, BIOCON: S033
+- `shareholding-detail.md`: Shareholding detail, BIOCON: S045
+- `shareholding.md`: Shareholding pattern, BIOCON: S032
+- `sources.md`: Sources: BIOCON management, on the record
+- `statements-ar-fy22.md`: Statements from the BIOCON annual report FY22: S028
+- `statements-ar-fy23.md`: Statements from the BIOCON annual report FY23: S029
+- `statements-ar-fy24.md`: Statements from the BIOCON annual report FY24: S030
+- `statements-ar-fy25.md`: Statements from the BIOCON annual report FY25: S031
+- `statements-ar-fy26.md`: Statements from the BIOCON annual report FY26: S027
+- `stories.md`: Stories: BIOCON management, on the record
+- `voice.md`: Voice: BIOCON management, on the record
+- `votes.md`: Shareholder votes, BIOCON: S034
 <!-- generated:coverage END -->
 
-Nothing here is live. Last close: week ending 2026-10-23 (323.50). Calls run to 2026-08-06, filed quarters to 2026-06-30 and the annual report to the year ended 2026-03-31 (cover letter to the exchanges dated 2026-07-15); exchange announcements to 2026-10-25 are in changes.md. Say the as-of date whenever you use a figure.
+Nothing here is live. Last close: week ending 2026-10-23 (323.50). Calls run to 2026-08-06, filed quarters to 2026-06-30 and the annual report to the year ended 2026-03-31 (cover letter to the exchanges dated 2026-07-15); exchange announcements to 2026-10-30 are in changes.md. Say the as-of date whenever you use a figure.
 
 **What this seat is.** An informed holder of one company's record: what BIOCON's management said, set against what was filed afterwards. It speaks as itself (the record shows). **What it is not.** Not Biocon, not any executive, never we for the company, no view on share value. On call, BIOCON decisions only.
 

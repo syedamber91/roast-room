@@ -5,893 +5,871 @@ A figure marked derived is our arithmetic on filed numbers. A forecast tag means
 
 ## 1.1 Which papers we have (20)
 
-- The FY26 annual report PDF has 558 pages. (Annual report FY26 (page manifest), no page, filed, as of 2026-03-31)
-- Biocon's latest NSE announcement is a press release dated 29 Oct 2026. (NSE announcement feed, no page, filed, as of 2026-10-29)
-- Biocon filed an investor meeting notice on 26 Oct 2026. (NSE announcement feed, no page, filed, as of 2026-10-26)
-- The March 2026 results filing includes a cash flow statement. (Results filing, year ended 31 Mar 2026, p34, filed, as of 2026-03-31)
-- The September 2025 results filing includes a standalone cash flow statement. Standalone means Biocon on its own. (Results filing, half year ended 30 Sep 2025, p6, filed, as of 2025-09-30)
-- Biocon filed the Q2 FY26 call transcript with the exchanges. The call was held on 12 Nov 2025. (Cover letter to the exchanges, Q2 FY26 earnings call transcript, p1, filed, as of 2025-11-12)
-- Biocon filed the Q3 FY26 call transcript with the exchanges. The call was held on 13 Feb 2026. (Cover letter to the exchanges, Q3 FY26 earnings call transcript, p1, filed, as of 2026-02-13)
-- Biocon filed the Q4 FY26 call transcript with the exchanges. The call was held on 8 May 2026. (Cover letter to the exchanges, Q4 FY26 earnings call transcript, p1, filed, as of 2026-05-08)
-- Biocon filed the Q1 FY27 call transcript with the exchanges. The call was held on 6 Aug 2026. (Cover letter to the exchanges, Q1 FY27 earnings call transcript, p1, filed, as of 2026-08-06)
-- We have 14 Biocon earnings call transcripts. They run from 15 Nov 2022 to 6 Aug 2026. (Held call transcripts, no page, derived, as of 2026-08-06)
-- The FY26 annual report has a message from CEO Shreehas Tambe. (Annual report FY26, p22, filed, as of 2026-03-31)
-- The FY22 annual report has a message from Kiran Mazumdar-Shaw. (Annual report FY22, p16, filed, as of 2022-03-31)
-- The Q1 FY24 call was held on 11 Aug 2023. (Transcript of Earnings Call Q1 FY24, p1, filed, as of 2023-08-11)
-- The Q2 FY25 call was held on 30 Oct 2024. (Transcript of Earnings Call Q2 FY25, p1, filed, as of 2024-10-30)
-- FY26 report has a Consolidated Balance Sheet for 31 March 2026. Consolidated means the whole group, not one company. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p346, filed, as of 2026-03-31)
-- FY26 report has a separate Standalone Balance Sheet for 31 March 2026. Standalone means Biocon Limited alone. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p282, filed, as of 2026-03-31)
-- The announcement file holds 892 exchange filings. They run from 3 January 2022 to 29 October 2026. (Exchange announcements 2022-2026, no page, derived, as of 2026-10-29)
-- The announcement file holds 39 Outcome of Board Meeting filings. (Exchange announcements 2022-2026, no page, derived, as of 2026-10-29)
-- The Q1 FY27 results were filed on 5 August 2026. (Filings manifest, p3, filed, as of 2026-08-05)
-- The Q4 FY26 results were filed on 7 May 2026. (Filings manifest, p32, filed, as of 2026-05-07)
+- The FY26 annual report PDF has 558 pages. (S027, Annual report FY26 (page manifest), no page, filed, as of 2026-03-31) [L1-1-a]
+- Biocon's latest NSE announcement is a press release dated 29 Oct 2026. (NSE announcement feed, no page, filed, as of 2026-10-29) [L1-10-a]
+- Biocon filed an investor meeting notice on 26 Oct 2026. (NSE announcement feed, no page, filed, as of 2026-10-26) [L1-10-b]
+- The March 2026 results filing includes a cash flow statement. (Results filing, year ended 31 Mar 2026, p34, l4, filed, as of 2026-03-31) [L1-43-a]
+- The September 2025 results filing includes a standalone cash flow statement. Standalone means Biocon on its own. (Results filing, half year ended 30 Sep 2025, p6, l11, filed, as of 2025-09-30) [L1-43-b]
+- Biocon filed the Q2 FY26 call transcript with the exchanges. The call was held on 12 Nov 2025. (Cover letter to the exchanges, Q2 FY26 earnings call transcript, p1, l239, filed, as of 2025-11-12) [L5-0-a]
+- Biocon filed the Q3 FY26 call transcript with the exchanges. The call was held on 13 Feb 2026. (Cover letter to the exchanges, Q3 FY26 earnings call transcript, p1, l309, filed, as of 2026-02-13) [L5-0-b]
+- Biocon filed the Q4 FY26 call transcript with the exchanges. The call was held on 8 May 2026. (Cover letter to the exchanges, Q4 FY26 earnings call transcript, p1, l380, filed, as of 2026-05-08) [L5-0-c]
+- Biocon filed the Q1 FY27 call transcript with the exchanges. The call was held on 6 Aug 2026. (Cover letter to the exchanges, Q1 FY27 earnings call transcript, p1, l454, filed, as of 2026-08-06) [L5-0-d]
+- We have 14 Biocon earnings call transcripts. They run from 15 Nov 2022 to 6 Aug 2026. (Held call transcripts, no page, derived, as of 2026-08-06, formula: count of the 14 call files data/management-text/call-*.md, 2022-11-15 to 2026-08-06, inputs: call-2022-11-15, call-2026-08-06) [L5-14-b]
+- The FY26 annual report has a message from CEO Shreehas Tambe. (S027, Annual report FY26, p22, l4, filed, as of 2026-03-31) [L5-2-a]
+- The FY22 annual report has a message from Kiran Mazumdar-Shaw. (S028, Annual report FY22, p16, l3, filed, as of 2022-03-31) [L5-2-c]
+- The Q1 FY24 call was held on 11 Aug 2023. (Transcript of Earnings Call Q1 FY24, p1, l36, filed, as of 2023-08-11) [L5-3-a]
+- The Q2 FY25 call was held on 30 Oct 2024. (Transcript of Earnings Call Q2 FY25, p1, l36, filed, as of 2024-10-30) [L5-3-b]
+- FY26 report has a Consolidated Balance Sheet for 31 March 2026. Consolidated means the whole group, not one company. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p346, l1, filed, as of 2026-03-31) [L7-8-a]
+- FY26 report has a separate Standalone Balance Sheet for 31 March 2026. Standalone means Biocon Limited alone. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p282, l1, filed, as of 2026-03-31) [L7-8-b]
+- The announcement file holds 892 exchange filings. They run from 3 January 2022 to 29 October 2026. (Exchange announcements 2022-2026, no page, derived, as of 2026-10-29, formula: count of records in announcements-2022-2026-2026-10-30.json, inputs: announcements-2022-2026-2026-10-30) [L8-22-a]
+- The announcement file holds 39 Outcome of Board Meeting filings. (Exchange announcements 2022-2026, no page, derived, as of 2026-10-29, formula: count of records with desc 'Outcome of Board Meeting', inputs: announcements-2022-2026-2026-10-30) [L8-22-b]
+- The Q1 FY27 results were filed on 5 August 2026. (Filings manifest, p3, filed, as of 2026-08-05) [L8-41-a]
+- The Q4 FY26 results were filed on 7 May 2026. (Filings manifest, p32, filed, as of 2026-05-07) [L8-41-b]
 
 ## 1.2 Where to find them (15)
 
-- The FY26 annual report is on the BSE website as a PDF. (Annual report FY26 link list, no page, filed, as of 2026-03-31)
-- The FY25 annual report is on the BSE website as a PDF. (Annual report FY25 link list, no page, filed, as of 2025-03-31)
-- The FY22 annual report is on the BSE website as a PDF. (Annual report FY22 link list, no page, filed, as of 2022-03-31)
-- The FY24 annual report is on the BSE website as a PDF. (Annual report FY24 link list, no page, filed, as of 2024-03-31)
-- The Q1 FY27 results filing is a PDF on NSE. It is dated 5 Aug 2026. (Filings manifest (results filings), p1, filed, as of 2026-06-30)
-- The Q4 FY26 results filing is a PDF on NSE. It is dated 7 May 2026. (Filings manifest (results filings), p1, filed, as of 2026-03-31)
-- NSE lists a Biocon press release dated 29 Oct 2026. It links to a PDF. (NSE announcement feed, no page, filed, as of 2026-10-29)
-- FY26 revenue is printed on PDF page 347. It is Rs 16,927 crore. (Annual report FY26, p347, filed, as of 2026-03-31)
-- FY26 cash from operations is printed on PDF page 349. It is Rs 1,994 crore. (Annual report FY26, p349, filed, as of 2026-03-31)
-- NSE has the Q4 FY26 call transcript, filed 14 May 2026. It is a PDF. (NSE announcement feed, no page, filed, as of 2026-05-14)
-- The Q2 FY23 call transcript is a PDF on the NSE archive. (Call transcript link list, no page, filed, as of 2022-11-22)
-- The Q1 FY27 investor presentation is a PDF on the NSE archive. (Investor presentation link list, no page, filed, as of 2026-08-06)
-- The 30 Sep 2026 shareholding pattern is a data file on NSE. (Shareholding pattern 30-Sep-2026, table row, filed, as of 2026-09-30)
-- The FY26 annual report has its management discussion at PDF page 225. (Annual report FY26, p225, filed, as of 2026-03-31)
-- The FY24 annual report has its management discussion at PDF page 190. (Annual report FY24, p190, filed, as of 2024-03-31)
+- The FY26 annual report is on the BSE website as a PDF. (Annual report FY26 link list, no page, filed, as of 2026-03-31) [L1-0-a]
+- The FY25 annual report is on the BSE website as a PDF. (Annual report FY25 link list, no page, filed, as of 2025-03-31) [L1-0-b]
+- The FY22 annual report is on the BSE website as a PDF. (Annual report FY22 link list, no page, filed, as of 2022-03-31) [L1-2-a]
+- The FY24 annual report is on the BSE website as a PDF. (Annual report FY24 link list, no page, filed, as of 2024-03-31) [L1-2-b]
+- The Q1 FY27 results filing is a PDF on NSE. It is dated 5 Aug 2026. (Filings manifest (results filings), p1, filed, as of 2026-06-30) [L1-3-a]
+- The Q4 FY26 results filing is a PDF on NSE. It is dated 7 May 2026. (Filings manifest (results filings), p1, filed, as of 2026-03-31) [L1-3-b]
+- NSE lists a Biocon press release dated 29 Oct 2026. It links to a PDF. (NSE announcement feed, no page, filed, as of 2026-10-29) [L1-4-a]
+- FY26 revenue is printed on PDF page 347. It is Rs 16,927 crore. (S026, Annual report FY26, p347, filed, as of 2026-03-31) [L1-48-a]
+- FY26 cash from operations is printed on PDF page 349. It is Rs 1,994 crore. (S026, Annual report FY26, p349, filed, as of 2026-03-31) [L1-48-b]
+- NSE has the Q4 FY26 call transcript, filed 14 May 2026. It is a PDF. (NSE announcement feed, no page, filed, as of 2026-05-14) [L1-5-a]
+- The Q2 FY23 call transcript is a PDF on the NSE archive. (Call transcript link list, no page, filed, as of 2022-11-22) [L1-5-b]
+- The Q1 FY27 investor presentation is a PDF on the NSE archive. (Investor presentation link list, no page, filed, as of 2026-08-06) [L1-6-a]
+- The 30 Sep 2026 shareholding pattern is a data file on NSE. (S032, Shareholding pattern 30-Sep-2026, row 2, filed, as of 2026-09-30) [L1-9-a]
+- The FY26 annual report has its management discussion at PDF page 225. (S027, Annual report FY26, p225, l1, filed, as of 2026-03-31) [L5-2-b]
+- The FY24 annual report has its management discussion at PDF page 190. (S030, Annual report FY24, p190, l3, filed, as of 2024-03-31) [L5-2-d]
 
 ## 1.3 What the company does (5)
 
-- Biocon Generics runs 6 plants making drug ingredients. They are in Bengaluru, Hyderabad and Visakhapatnam. (Annual report FY26, p233, filed, as of 2026-03-31)
-- Generics ingredient plants have about 3,500 kilolitres or more of reactor space. Tablets 2.5 billion doses or more; injectables over 10 million units yearly. (Annual report FY26, p234, filed, as of 2026-03-31)
-- Generics tablet plants are in Bengaluru and Cranbury, New Jersey. (Annual report FY26, p233, filed, as of 2026-03-31)
-- The word AI appears 103 times in the FY26 annual report. It shows on 45 of the 558 pages. (Annual report FY26 page files, p83, derived, as of 2026-03-31)
-- The FY26 report says Technology Day showed 31 initiatives. 13 of them were AI solutions. (Annual report FY26, p83, filed, as of 2026-03-31)
+- Biocon Generics runs 6 plants making drug ingredients. They are in Bengaluru, Hyderabad and Visakhapatnam. (S027, Annual report FY26, p233, l57, filed, as of 2026-03-31) [L1-18-a]
+- Generics ingredient plants have about 3,500 kilolitres or more of reactor space. Tablets 2.5 billion doses or more; injectables over 10 million units yearly. (S027, Annual report FY26, p234, l3, filed, as of 2026-03-31) [L1-21-a]
+- Generics tablet plants are in Bengaluru and Cranbury, New Jersey. (S027, Annual report FY26, p233, l57, filed, as of 2026-03-31) [L1-21-b]
+- The word AI appears 103 times in the FY26 annual report. It shows on 45 of the 558 pages. (S027, Annual report FY26 page files, p83, l17, derived, as of 2026-03-31, formula: count of whole-word 'AI' over annual-report/FY26/p001.md to p558.md (recounted in code: 103 on 45 files), inputs: another finding p83) [L5-52-a]
+- The FY26 report says Technology Day showed 31 initiatives. 13 of them were AI solutions. (S027, Annual report FY26, p83, l17, filed, as of 2026-03-31) [L5-52-b]
 
 ## 1.4 How the group is set up (30)
 
-- On 6 Dec 2025 the board approved full integration of Biocon Biologics. Biocon Biologics would become a wholly owned subsidiary. (Annual report FY26, p213, filed, as of 2025-12-06)
-- Biocon owns 52.4% of Syngene International Limited, an Indian subsidiary. Note 39(a) lists it as subsidiary 1. (Annual report FY26, p410, filed, as of 2026-03-31)
-- Biocon owns 98.7% of Biocon Biologics Global PLC, a UK subsidiary. Note 39(a) lists it as subsidiary 39. (Annual report FY26, p411, filed, as of 2026-03-31)
-- Mylan's convertible preference shares were valued at Rs 82,181 per share. The valuation used a binomial option pricing model. (Annual report FY26, p380, filed, as of 2026-03-31)
-- Mylan's CCPS were split into an equity part of Rs 7,481.5 crore. The derivative part was Rs 736.6 crore. (Annual report FY26, p380, filed, as of 2026-03-31)
-- Biocon holds 49% of its one joint venture, NeoBiocon FZ LLC. It is based in Dubai. (Annual report FY26, p412, filed, as of 2026-03-31)
-- Biocon holds 5,523,897 Bicara Therapeutics shares, valued at Rs 1,027.1 crore. This is at 31 March 2026. (Annual report FY26, p369, filed, as of 2026-03-31)
-- In January 2026 Biocon bought 143,669,382 Biocon Biologics shares from Mylan. It paid USD 400 million in cash. (Annual report FY26, p191, filed, as of 2026-03-31)
-- Biocon held 52.4% of Syngene International at 31 March 2026. A year earlier it was 52.5%. (Annual report FY26, p410, filed, as of 2026-03-31)
-- Active Pine LLP put Rs 536.3 crore into Biocon Biologics. It got shares in return, in FY20. (Annual report FY26, p324, filed, as of 2026-03-31)
-- Biocon paid Rs 555 crore to Beta Oryx for Biocon Biologics shares. This happened in FY25. (Annual report FY26, p324, filed, as of 2026-03-31)
-- Biocon had 39 subsidiaries and 1 joint venture at 31 March 2026. (Annual report FY26, p191, filed, as of 2026-03-31)
-- Biocon Pharma reported a net loss of Rs 88.2 crore in FY26. (Annual report FY26, p192, filed, as of 2026-03-31)
-- Biocon Biologics posted a net loss of Rs 771.9 crore in FY26. Note: This is the consolidated result of Biocon Biologics and its units. (Annual report FY26, p193, filed, as of 2026-03-31)
-- Minority holders' stake fell from Rs 6,068.5 crore to Rs 2,589.7 crore. That is FY25 to FY26, consolidated. (Annual report FY26 (tables), p346, filed, as of 2026-03-31)
-- Biocon bought 292,726,366 Biocon Biologics shares from Mylan. The price was Rs 7,356 crore, or USD 815 million. (Annual report FY26, note 32, p394, filed, as of 2026-03-31)
-- In March 2022, Viatris was to get up to USD 3.335 billion. This was for Viatris' biosimilars business. (Exchange intimation, BBL-Viatris transaction, p2, filed, as of 2022-03-02)
-- Viatris would get up to USD 2.335 billion in cash. It would also get Biocon Biologics preference shares worth USD 1 billion. (Exchange intimation, BBL-Viatris transaction, p2, filed, as of 2022-03-02)
-- On 15 Nov 2022, management said Biocon would add USD 650 million. Serum would add USD 150 million for the Viatris payment. [forecast, not a fact] (S001, Q2 FY23 earnings call, p5, filed, as of 2022-11-15)
-- Management said on 24 May 2023: no 15% stake for Serum. Biocon Biologics will not issue it. [forecast, not a fact] (S003, Q4 FY23 earnings call, p7, filed, as of 2023-05-24)
-- At FY26 year end, outside owners' equity was Rs 2,589.7 crore. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p346, filed, as of 2026-03-31)
-- Outside owners own 47.6% of Syngene International at FY26 year end. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p410, filed, as of 2026-03-31)
-- Outside owners own 1.3% of Biocon Biologics Limited at FY26 year end. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p410, filed, as of 2026-03-31)
-- Biocon's own accounts show Biocon Biologics at cost, Rs 16,411 crore. A year earlier it was Rs 5,763.8 crore. Note: Standalone accounts, shown at cost. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p302, filed, as of 2026-03-31)
-- At end of FY26 Biocon had 39 subsidiaries and 1 joint venture. Subsidiaries are firms the company controls. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p191, filed, as of 2026-03-31)
-- Biocon owns 212,277,055 shares of Syngene. They are carried at cost, Rs 2,008.9 crore, in its own accounts. Note: Standalone accounts, shown at cost. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p302, filed, as of 2026-03-31)
-- The group owns 5,523,897 shares of Bicara Therapeutics. They are carried at Rs 1,027.1 crore. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p369, filed, as of 2026-03-31)
-- The Board proposes to acquire the remaining 1% of Biocon Biologics. Then it would be wholly owned by Biocon. [forecast, not a fact] (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p190, filed, as of 2026-03-31)
-- The group owns 5,523,897 Bicara Therapeutics shares. They are carried at Rs 1,027.1 crore, at fair value. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p369, filed, as of 2026-03-31)
-- The group has one joint venture, NeoBiocon. The FY26 notes give its summary balance sheet. (Annual report FY26, p412, filed, as of 2026-03-31)
+- On 6 Dec 2025 the board approved full integration of Biocon Biologics. Biocon Biologics would become a wholly owned subsidiary. (S027, Annual report FY26, p213, l35, filed, as of 2025-12-06) [L1-16-a]
+- Biocon owns 52.4% of Syngene International Limited, an Indian subsidiary. Note 39(a) lists it as subsidiary 1. (S027, Annual report FY26, p410, l16, filed, as of 2026-03-31) [L1-28-a]
+- Biocon owns 98.7% of Biocon Biologics Global PLC, a UK subsidiary. Note 39(a) lists it as subsidiary 39. (S027, Annual report FY26, p411, l23, filed, as of 2026-03-31) [L1-28-b]
+- Mylan's convertible preference shares were valued at Rs 82,181 per share. The valuation used a binomial option pricing model. (S027, Annual report FY26, p380, l11, filed, as of 2026-03-31) [L3-56-c]
+- Mylan's CCPS were split into an equity part of Rs 7,481.5 crore. The derivative part was Rs 736.6 crore. (S027, Annual report FY26, p380, l11, filed, as of 2026-03-31) [L3-61-d]
+- Biocon holds 49% of its one joint venture, NeoBiocon FZ LLC. It is based in Dubai. (S027, Annual report FY26, p412, l60, filed, as of 2026-03-31) [L4-10-a]
+- Biocon holds 5,523,897 Bicara Therapeutics shares, valued at Rs 1,027.1 crore. This is at 31 March 2026. (S027, Annual report FY26, p369, l12, filed, as of 2026-03-31) [L4-10-b]
+- In January 2026 Biocon bought 143,669,382 Biocon Biologics shares from Mylan. It paid USD 400 million in cash. (S027, Annual report FY26, p191, l43, filed, as of 2026-03-31) [L4-12-a]
+- Biocon held 52.4% of Syngene International at 31 March 2026. A year earlier it was 52.5%. (S027, Annual report FY26, p410, l16, filed, as of 2026-03-31) [L4-13-a]
+- Active Pine LLP put Rs 536.3 crore into Biocon Biologics. It got shares in return, in FY20. (S027, Annual report FY26, p324, l42, filed, as of 2026-03-31) [L4-15-a]
+- Biocon paid Rs 555 crore to Beta Oryx for Biocon Biologics shares. This happened in FY25. (S027, Annual report FY26, p324, l48, filed, as of 2026-03-31) [L4-15-b]
+- Biocon had 39 subsidiaries and 1 joint venture at 31 March 2026. (S027, Annual report FY26, p191, l57, filed, as of 2026-03-31) [L4-8-a]
+- Biocon Pharma reported a net loss of Rs 88.2 crore in FY26. (S027, Annual report FY26, p192, l11, filed, as of 2026-03-31) [L4-8-b]
+- Biocon Biologics posted a net loss of Rs 771.9 crore in FY26. Note: This is the consolidated result of Biocon Biologics and its units. (S027, Annual report FY26, p193, l49, filed, as of 2026-03-31) [L4-8-c]
+- Minority holders' stake fell from Rs 6,068.5 crore to Rs 2,589.7 crore. That is FY25 to FY26, consolidated. (S026, Annual report FY26 (tables), p346, filed, as of 2026-03-31) [L5-101-c]
+- Biocon bought 292,726,366 Biocon Biologics shares from Mylan. The price was Rs 7,356 crore, or USD 815 million. (S027, Annual report FY26, note 32, p394, l45, filed, as of 2026-03-31) [L5-101-d]
+- In March 2022, Viatris was to get up to USD 3.335 billion. This was for Viatris' biosimilars business. (Exchange intimation, BBL-Viatris transaction, p2, l38, filed, as of 2022-03-02) [L5-76-a]
+- Viatris would get up to USD 2.335 billion in cash. It would also get Biocon Biologics preference shares worth USD 1 billion. (Exchange intimation, BBL-Viatris transaction, p2, l39, filed, as of 2022-03-02) [L5-76-b]
+- On 15 Nov 2022, management said Biocon would add USD 650 million. Serum would add USD 150 million for the Viatris payment. [forecast, not a fact] (S001, Q2 FY23 earnings call, p5, l23, filed, as of 2022-11-15) [L5-76-c]
+- Management said on 24 May 2023: no 15% stake for Serum. Biocon Biologics will not issue it. [forecast, not a fact] (S003, Q4 FY23 earnings call, p7, l21, filed, as of 2023-05-24) [L5-76-d]
+- At FY26 year end, outside owners' equity was Rs 2,589.7 crore. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p346, l39, filed, as of 2026-03-31) [L7-10-a]
+- Outside owners own 47.6% of Syngene International at FY26 year end. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p410, l16, filed, as of 2026-03-31) [L7-10-b]
+- Outside owners own 1.3% of Biocon Biologics Limited at FY26 year end. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p410, l18, filed, as of 2026-03-31) [L7-10-c]
+- Biocon's own accounts show Biocon Biologics at cost, Rs 16,411 crore. A year earlier it was Rs 5,763.8 crore. Note: Standalone accounts, shown at cost. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p302, l43, filed, as of 2026-03-31) [L7-110-b]
+- At end of FY26 Biocon had 39 subsidiaries and 1 joint venture. Subsidiaries are firms the company controls. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p191, l57, filed, as of 2026-03-31) [L7-78-a]
+- Biocon owns 212,277,055 shares of Syngene. They are carried at cost, Rs 2,008.9 crore, in its own accounts. Note: Standalone accounts, shown at cost. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p302, l32, filed, as of 2026-03-31) [L7-82-a]
+- The group owns 5,523,897 shares of Bicara Therapeutics. They are carried at Rs 1,027.1 crore. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p369, l12, filed, as of 2026-03-31) [L7-82-b]
+- The Board proposes to acquire the remaining 1% of Biocon Biologics. Then it would be wholly owned by Biocon. [forecast, not a fact] (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p190, l42, filed, as of 2026-03-31) [L7-85-a]
+- The group owns 5,523,897 Bicara Therapeutics shares. They are carried at Rs 1,027.1 crore, at fair value. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p369, l12, filed, as of 2026-03-31) [L7-9-b]
+- The group has one joint venture, NeoBiocon. The FY26 notes give its summary balance sheet. (S027, Annual report FY26, p412, l62, filed, as of 2026-03-31) [L8-4-b]
 
 ## 1.5 Share count and new shares (46)
 
-- Biocon issued 17,12,79,553 new shares on 5 Jan 2026. It was a preferential issue, meaning shares for chosen investors. (NSE announcement feed, no page, filed, as of 2026-01-05)
-- Biocon issued 11,26,64,585 new shares on 14 Jan 2026. Big institutions took them in a qualified institution placement. (NSE announcement feed, no page, filed, as of 2026-01-14)
-- Biocon issued 8786362 new shares on 29 Jun 2026. It was a preferential issue, meaning shares for chosen investors. (NSE announcement feed, no page, filed, as of 2026-06-29)
-- NSE listed 892 announcement lines from Jan 2022 to Oct 2026. None contains the word warrant. (NSE announcement feed, no page, derived, as of 2026-10-29)
-- In FY26 Biocon issued 79,312,534 shares at Rs 405.78 each. It paid for Biocon Biologics shares, not cash. (Annual report FY26, p307, filed, as of 2026-03-31)
-- In June 2025 Biocon issued 136,363,635 shares at Rs 330 each. Big institutions took them. (Annual report FY26, p307, filed, as of 2026-03-31)
-- In FY26 Biocon issued 91,967,019 shares to Mylan Inc. The price was not paid in cash. (Annual report FY26, p307, filed, as of 2026-03-31)
-- In Dec 2025 Biocon's board said it plans to issue 61.70 shares. That is for every 100 Biocon Biologics shares acquired from Mylan Inc. [forecast, not a fact] (Outcome of Board Meeting 6 Dec 2025, p5, filed, as of 2025-12-06)
-- In Dec 2025 Biocon's board said it plans to issue 70.28 shares. It is per 100 Biocon Biologics shares from Serum, TCGF, Activ Pine. [forecast, not a fact] (Outcome of Board Meeting 6 Dec 2025, p5, filed, as of 2025-12-06)
-- Each Biocon equity share has a face value of Rs 5. (Results filing, quarter ended 30 Jun 2026, p3, filed, as of 2026-06-30)
-- For FY26 earnings per share, Biocon used 1,366,199,012 shares. This is the average count over the year. Note: This is a weighted average count, not the year-end count. (Annual report FY26, p394, filed, as of 2026-03-31)
-- The promoters' 728,081,295 shares are 44.68% of the total. That implies about 1,629.5 million shares in all on 30 Sep 2026. Note: Our sum from a rounded percentage, so it is approximate. (Shareholding pattern 30-Sep-2026, table row, derived, as of 2026-09-30)
-- Equity share capital was Rs 810.5 crore at 31 Mar 2026. (Annual report FY26, p346, filed, as of 2026-03-31)
-- Note 13(b) explains securities premium in words, with no amount table. It records the premium received on issue of shares. (Annual report FY26, p375, filed, as of 2026-03-31)
-- The average number of shares for basic EPS was 1,197,455,499 in FY25. Note: This is a year average, not the year-end count. (Annual report FY26, p394, filed, as of 2025-03-31)
-- In September 2021, a 60.64% founder-group stake implies about 1,200.6 million shares. The 60.64% is rounded, so the total is approximate. (Shareholding pattern 30-Sep-2021, table row, derived, as of 2021-09-30)
-- In January 2026, Biocon allotted 112,664,585 shares to institutional buyers. The issue price was Rs 368.35 each. (Annual report FY26, p307, filed, as of 2026-03-31)
-- No bonus shares were allotted in the five years to March 2026. No shares were bought back in that time. (Annual report FY26, p307, filed, as of 2026-03-31)
-- Net share issue proceeds were 8,531.1 crore in FY26. (Annual report FY26, p349, filed, as of 2026-03-31)
-- On 7 May 2026 the board approved a Biocon Biologics share swap. It was subject to approvals. (Annual report FY26, p337, filed, as of 2026-05-07)
-- In June 2025 a QIP raised Rs 4,500 crore. It was for debt, financial commitments or other purposes. (Results filing, half-year ended 30 September 2025, p12, filed, as of 2025-06-30)
-- The January 2026 QIP raised Rs 4,150 crore. It funded Biocon Biologics shares from Mylan and other uses. (Annual report FY26, p307, filed, as of 2026-03-31)
-- At 31 March 2026, Biocon had 1,620,907,773 shares issued and paid up. (Derived metrics from the annual-report tables, p373, filed, as of 2026-03-31)
-- In January 2026 Biocon issued 171,279,553 shares as payment for an acquisition. They went to named investors in a preferential issue. (Stock exchange intimation January 2026, p1, filed, as of 2026-01-05)
-- In June 2026 Biocon issued 8,786,362 shares to 127 holders. It did so on a preferential basis. (Stock exchange intimation 29 June 2026, p1, filed, as of 2026-06-29)
-- Total shares rose from 1,200,567,573 to 1,629,546,318 in five years. The dates are 30 September 2021 and 30 September 2026. (Shareholding pattern 30-Sep-2026, table row, filed, as of 2026-09-30)
-- In June 2025 Biocon issued 136,363,635 shares at Rs 330 each. They went to qualified institutional buyers. (Annual report FY26, p307, filed, as of 2026-03-31)
-- In January 2026 Biocon issued 112,664,585 shares at Rs 368.35 each. They went to qualified institutional buyers. (Annual report FY26, p307, filed, as of 2026-03-31)
-- In January 2026 Biocon issued 171,279,553 shares to four sellers. It did so on a preferential basis. (Annual report FY26, p191, filed, as of 2026-03-31)
-- The January 2026 share sale funded Biocon Biologics shares bought from Mylan. It also funded loan notes that turn into shares, and other uses. (Annual report FY26, note on QIP, p373, filed, as of 2026-03-31)
-- The June 2025 share sale was for certain commitments or debts. These were Biocon's or Biocon Biologics', plus other uses. (Annual report FY26, note on QIP, p373, filed, as of 2026-03-31)
-- In June 2025 Biocon issued 136,363,635 new shares at Rs 330 each. This raised Rs 4,500 crore. (Annual report FY26, p373, filed, as of 2026-03-31)
-- Two share sales in FY26 raised Rs 8,650 crore in all. (Annual report FY26, p69, filed, as of 2026-03-31)
-- In FY26 Biocon Biologics bought back 4,500,000 of its own shares. An employee share trust had held them. (Annual report FY26, ESOP note, p318, filed, as of 2026-03-31)
-- In June 2025, Biocon sold 136,363,635 new shares to big institutions. The price was Rs 330 a share. (Annual report FY26, p373, filed, as of 2026-03-31)
-- In January 2026, Biocon sold 112,664,585 new shares to big institutions. It raised Rs 4,150 crore at Rs 368.35 a share. (Annual report FY26, p373, filed, as of 2026-03-31)
-- In January 2026, Biocon issued 171,279,553 shares in a share swap. Mylan, Serum, Tata Capital and Activ Pine got them. (Annual report FY26, p191, filed, as of 2026-03-31)
-- On 29 June 2026, Biocon allotted 8,786,362 shares as payment. The payment was for Biocon Biologics shares. (Allotment intimation to the exchanges, p1, filed, as of 2026-06-29)
-- Implied total shares rose about 35.7% between Dec 2024 and Sep 2026. The percent is rounded, so this is approximate. (Shareholding pattern filings, table row, derived, as of 2026-09-30)
-- Biocon has one class of equity shares. Each has a par value of Rs 5 and one vote. (Annual report FY26, notes, p307, filed, as of 2026-03-31)
-- In September 2026, the founding group owns 728,081,295 shares. At 44.68%, that implies about 1.63 billion shares in total. Note: Total is worked out from a rounded percentage, so it is approximate. (Shareholding pattern 30-Sep-2026, table row, derived, as of 2026-09-30)
-- Total shares rose about 35.7% from September 2021 to September 2026. This is worked out from promoter shares and the rounded promoter share. Note: Implied from a rounded promoter percent, so approximate. (Shareholding pattern 30-Sep-2026, table row, derived, as of 2026-09-30)
-- Biocon agreed to pay Rs 7,356 crore for 292,726,366 Biocon Biologics shares. Mylan got new shares plus Rs 3,624.2 crore in cash. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p307, filed, as of 2026-03-31)
-- The June 2025 QIP share sale raised Rs 4,500 crore. Shares were priced at Rs 330 each. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p191, filed, as of 2025-06-30)
-- The January 2026 QIP share sale raised Rs 4,150 crore. Shares were priced at Rs 368.35 each. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p191, filed, as of 2026-01-31)
-- Total shares worked out to about 1,200.6 million in September 2021. This divides promoter shares by the rounded promoter share, 60.64%. Note: Implied from a rounded promoter percent, so approximate. (Shareholding pattern 30-Sep-2021, table row, derived, as of 2021-09-30)
+- Biocon issued 17,12,79,553 new shares on 5 Jan 2026. It was a preferential issue, meaning shares for chosen investors. (NSE announcement feed, no page, filed, as of 2026-01-05) [L1-11-a]
+- Biocon issued 11,26,64,585 new shares on 14 Jan 2026. Big institutions took them in a qualified institution placement. (NSE announcement feed, no page, filed, as of 2026-01-14) [L1-11-b]
+- Biocon issued 8786362 new shares on 29 Jun 2026. It was a preferential issue, meaning shares for chosen investors. (NSE announcement feed, no page, filed, as of 2026-06-29) [L1-11-c]
+- NSE listed 892 announcement lines from Jan 2022 to Oct 2026. None contains the word warrant. (NSE announcement feed, no page, derived, as of 2026-10-29, formula: count of rows whose desc or attchmntText contains 'warrant', inputs: announcements-2022-2026-2026-10-30) [L1-12-a]
+- In FY26 Biocon issued 79,312,534 shares at Rs 405.78 each. It paid for Biocon Biologics shares, not cash. (S027, Annual report FY26, p307, l13, filed, as of 2026-03-31) [L1-12-b]
+- In June 2025 Biocon issued 136,363,635 shares at Rs 330 each. Big institutions took them. (S027, Annual report FY26, p307, l7, filed, as of 2026-03-31) [L1-15-a]
+- In FY26 Biocon issued 91,967,019 shares to Mylan Inc. The price was not paid in cash. (S027, Annual report FY26, p307, l11, filed, as of 2026-03-31) [L1-15-b]
+- In Dec 2025 Biocon's board said it plans to issue 61.70 shares. That is for every 100 Biocon Biologics shares acquired from Mylan Inc. [forecast, not a fact] (Outcome of Board Meeting 6 Dec 2025, p5, l43, filed, as of 2025-12-06) [L1-17-a]
+- In Dec 2025 Biocon's board said it plans to issue 70.28 shares. It is per 100 Biocon Biologics shares from Serum, TCGF, Activ Pine. [forecast, not a fact] (Outcome of Board Meeting 6 Dec 2025, p5, l47, filed, as of 2025-12-06) [L1-17-b]
+- Each Biocon equity share has a face value of Rs 5. (Results filing, quarter ended 30 Jun 2026, p3, l59, filed, as of 2026-06-30) [L1-35-a]
+- For FY26 earnings per share, Biocon used 1,366,199,012 shares. This is the average count over the year. Note: This is a weighted average count, not the year-end count. (S027, Annual report FY26, p394, l32, filed, as of 2026-03-31) [L1-35-b]
+- The promoters' 728,081,295 shares are 44.68% of the total. That implies about 1,629.5 million shares in all on 30 Sep 2026. Note: Our sum from a rounded percentage, so it is approximate. (S032, Shareholding pattern 30-Sep-2026, row 2, derived, as of 2026-09-30, formula: promoter_shares / promoter_pct x 100 (implied total shares, not printed), inputs: shareholding-pattern-2026-10-30) [L1-35-c]
+- Equity share capital was Rs 810.5 crore at 31 Mar 2026. (S026, Annual report FY26, p346, filed, as of 2026-03-31) [L1-36-a]
+- Note 13(b) explains securities premium in words, with no amount table. It records the premium received on issue of shares. (S027, Annual report FY26, p375, l9, filed, as of 2026-03-31) [L1-36-b]
+- The average number of shares for basic EPS was 1,197,455,499 in FY25. Note: This is a year average, not the year-end count. (S027, Annual report FY26, p394, l32, filed, as of 2025-03-31) [L2-11-b]
+- In September 2021, a 60.64% founder-group stake implies about 1,200.6 million shares. The 60.64% is rounded, so the total is approximate. (S032, Shareholding pattern 30-Sep-2021, row 26, derived, as of 2021-09-30, formula: promoter_shares / promoter_pct x 100 (implied total shares, not printed), inputs: shareholding-pattern-2026-10-30) [L2-11-c]
+- In January 2026, Biocon allotted 112,664,585 shares to institutional buyers. The issue price was Rs 368.35 each. (S027, Annual report FY26, p307, l9, filed, as of 2026-03-31) [L2-12-b]
+- No bonus shares were allotted in the five years to March 2026. No shares were bought back in that time. (S027, Annual report FY26, p307, l45, filed, as of 2026-03-31) [L2-12-c]
+- Net share issue proceeds were 8,531.1 crore in FY26. (S026, Annual report FY26, p349, filed, as of 2026-03-31) [L2-12-d]
+- On 7 May 2026 the board approved a Biocon Biologics share swap. It was subject to approvals. (S027, Annual report FY26, p337, l27, filed, as of 2026-05-07) [L3-62-a]
+- In June 2025 a QIP raised Rs 4,500 crore. It was for debt, financial commitments or other purposes. (Results filing, half-year ended 30 September 2025, p12, l10, filed, as of 2025-06-30) [L3-65-a]
+- The January 2026 QIP raised Rs 4,150 crore. It funded Biocon Biologics shares from Mylan and other uses. (S027, Annual report FY26, p307, l7, filed, as of 2026-03-31) [L3-65-b]
+- At 31 March 2026, Biocon had 1,620,907,773 shares issued and paid up. (S027, Derived metrics from the annual-report tables; annual report FY26, p373, filed, as of 2026-03-31) [L3-66-b]
+- In January 2026 Biocon issued 171,279,553 shares as payment for an acquisition. They went to named investors in a preferential issue. (Stock exchange intimation January 2026, p1, l51, filed, as of 2026-01-05) [L3-67-c]
+- In June 2026 Biocon issued 8,786,362 shares to 127 holders. It did so on a preferential basis. (Stock exchange intimation 29 June 2026, p1, l43, filed, as of 2026-06-29) [L3-67-d]
+- Total shares rose from 1,200,567,573 to 1,629,546,318 in five years. The dates are 30 September 2021 and 30 September 2026. (S032, Shareholding pattern 30-Sep-2026, row 2, filed, as of 2026-09-30) [L4-33-c]
+- In June 2025 Biocon issued 136,363,635 shares at Rs 330 each. They went to qualified institutional buyers. (S027, Annual report FY26, p307, l7, filed, as of 2026-03-31) [L4-44-a]
+- In January 2026 Biocon issued 112,664,585 shares at Rs 368.35 each. They went to qualified institutional buyers. (S027, Annual report FY26, p307, l9, filed, as of 2026-03-31) [L4-44-b]
+- In January 2026 Biocon issued 171,279,553 shares to four sellers. It did so on a preferential basis. (S027, Annual report FY26, p191, l31, filed, as of 2026-03-31) [L4-44-c]
+- The January 2026 share sale funded Biocon Biologics shares bought from Mylan. It also funded loan notes that turn into shares, and other uses. (S027, Annual report FY26, note on QIP, p373, l53, filed, as of 2026-03-31) [L5-105-b]
+- The June 2025 share sale was for certain commitments or debts. These were Biocon's or Biocon Biologics', plus other uses. (S027, Annual report FY26, note on QIP, p373, l51, filed, as of 2026-03-31) [L5-105-c]
+- In June 2025 Biocon issued 136,363,635 new shares at Rs 330 each. This raised Rs 4,500 crore. (S027, Annual report FY26, p373, l51, filed, as of 2026-03-31) [L5-5-c]
+- Two share sales in FY26 raised Rs 8,650 crore in all. (S027, Annual report FY26, p69, l25, filed, as of 2026-03-31) [L5-5-d]
+- In FY26 Biocon Biologics bought back 4,500,000 of its own shares. An employee share trust had held them. (S027, Annual report FY26, ESOP note, p318, l35, filed, as of 2026-03-31) [L5-72-b]
+- In June 2025, Biocon sold 136,363,635 new shares to big institutions. The price was Rs 330 a share. (S027, Annual report FY26, p373, l51, filed, as of 2026-03-31) [L5-73-a]
+- In January 2026, Biocon sold 112,664,585 new shares to big institutions. It raised Rs 4,150 crore at Rs 368.35 a share. (S027, Annual report FY26, p373, l53, filed, as of 2026-03-31) [L5-73-b]
+- In January 2026, Biocon issued 171,279,553 shares in a share swap. Mylan, Serum, Tata Capital and Activ Pine got them. (S027, Annual report FY26, p191, l31, filed, as of 2026-03-31) [L5-73-c]
+- On 29 June 2026, Biocon allotted 8,786,362 shares as payment. The payment was for Biocon Biologics shares. (Allotment intimation to the exchanges, p1, l43, filed, as of 2026-06-29) [L5-73-d]
+- Implied total shares rose about 35.7% between Dec 2024 and Sep 2026. The percent is rounded, so this is approximate. (S032, Shareholding pattern filings, row 2, derived, as of 2026-09-30, formula: 1,629,546,318 / 1,200,567,573 - 1, inputs: another finding, another finding) [L5-81-c]
+- Biocon has one class of equity shares. Each has a par value of Rs 5 and one vote. (S027, Annual report FY26, notes, p307, l17, filed, as of 2026-03-31) [L5-93-a]
+- In September 2026, the founding group owns 728,081,295 shares. At 44.68%, that implies about 1.63 billion shares in total. Note: Total is worked out from a rounded percentage, so it is approximate. (S032, Shareholding pattern 30-Sep-2026, row 2, derived, as of 2026-09-30, formula: promoter shares / promoter % x 100 (implied_total_shares in the held csv), inputs: shareholding-pattern-2026-10-30) [L7-1-a]
+- Total shares rose about 35.7% from September 2021 to September 2026. This is worked out from promoter shares and the rounded promoter share. Note: Implied from a rounded promoter percent, so approximate. (S032, Shareholding pattern 30-Sep-2026, row 2, derived, as of 2026-09-30, formula: 1,629,546,318 / 1,200,567,573 - 1, inputs: shareholding-pattern-2026-10-30, shareholding-pattern-2026-10-30) [L7-67-c]
+- Biocon agreed to pay Rs 7,356 crore for 292,726,366 Biocon Biologics shares. Mylan got new shares plus Rs 3,624.2 crore in cash. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p307, l11, filed, as of 2026-03-31) [L7-87-a]
+- The June 2025 QIP share sale raised Rs 4,500 crore. Shares were priced at Rs 330 each. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p191, l23, filed, as of 2025-06-30) [L7-88-a]
+- The January 2026 QIP share sale raised Rs 4,150 crore. Shares were priced at Rs 368.35 each. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p191, l37, filed, as of 2026-01-31) [L7-88-b]
+- Total shares worked out to about 1,200.6 million in September 2021. This divides promoter shares by the rounded promoter share, 60.64%. Note: Implied from a rounded promoter percent, so approximate. (S032, Shareholding pattern 30-Sep-2021, row 26, derived, as of 2021-09-30, formula: promoter shares / promoter % x 100, inputs: shareholding-pattern-2026-10-30) [L7-94-a]
 
-## 2.1 Sales and growth (34)
+## 2.1 Sales and growth (27)
 
-- Total income was Rs 17,269.5 crore in FY26. Segment shares are worked out on this total. (Annual report FY26, p241, filed, as of 2026-03-31)
-- Q4 FY26 deck: FY26 revenue from operations was Rs 16,927 crore. (Q4 FY26 investor presentation, p8, filed, as of 2026-03-31)
-- Revenue was 4,336 crore in Q1 FY27, the June 2026 quarter. (Results filing, quarter ended 30 Jun 2026, p3, filed, as of 2026-06-30)
-- Revenue was about 3,942 crore in Q1 FY26, the June 2025 quarter. (Results filing, quarter ended 30 Jun 2026, p3, filed, as of 2025-06-30)
-- Revenue was 4,173 crore in Q3 FY26, the December 2025 quarter. (Results filing, nine months ended 31 Dec 2025, p4, filed, as of 2025-12-31)
-- Revenue was about 3,821 crore in Q3 FY25, the December 2024 quarter. (Results filing, nine months ended 31 Dec 2025, p4, filed, as of 2024-12-31)
-- Revenue for the four quarters to June 2026 was about 17,321 crore. (Derived from the filings listed in inputs, p4, derived, as of 2026-06-30)
-- Revenue for the four quarters to June 2025 was about 15,771 crore. (Derived from the filings listed in inputs, p5, derived, as of 2025-06-30)
-- The Chairperson's letter says operating revenue grew 13% like-to-like in FY26. (Annual report FY26, p21, filed, as of 2026-03-31)
-- Reported revenue growth was 10.9% in FY26. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31)
-- Revenue was about 14,756 crore in FY24. (Annual report FY24, p309, filed, as of 2024-03-31)
-- Revenue in the June 2026 quarter was 10.0% above the year-ago quarter. (Derived from the filings listed in inputs, p3, derived, as of 2026-06-30)
-- Revenue in the March 2026 quarter was 2.3% above the year-ago quarter. (Derived from the filings listed in inputs, p32, derived, as of 2026-03-31)
-- Revenue in the December 2025 quarter was 9.2% above the year-ago quarter. (Derived from the filings listed in inputs, p4, derived, as of 2025-12-31)
-- The Chairperson's letter says FY26 revenue and EBITDA grew 13% and 25%. That is on a like-to-like basis. (Annual report FY26, p21, filed, as of 2026-03-31)
-- The base for FY26 revenue growth is about 15,262 crore from FY25. (Annual report FY25, p349, filed, as of 2025-03-31)
-- India's consumer price inflation was 4.95% in 2024, per the World Bank. (World Bank CPI inflation, India, no page, third-party, as of 2024-12-31, api.worldbank.org)
-- India's consumer price inflation was 2.40% in 2025, per the World Bank. (World Bank CPI inflation, India, no page, third-party, as of 2025-12-31, api.worldbank.org)
-- The FY26 policy says control usually passes on shipment, delivery or receipt. That is when the company records the sale. (Annual report FY26, p360, filed, as of 2026-03-31)
-- The FY24 report says control usually passes on shipment, delivery or receipt. That is when the company records the sale. (Annual report FY24, p321, filed, as of 2024-03-31)
-- Syngene's revenue grew about 3% in FY26. The annual report says an inventory adjustment affected it. (Annual report FY26, p240, filed, as of 2026-03-31)
-- FY26 growth figures are like-to-like, after adjusting for two items. The items are generic Lenalidomide exclusivity sales and a business divestment. Note: Like-to-like growth removes one-off sales and a divestment. (Annual report FY26, p6, filed, as of 2026-03-31)
-- The FY26 Executive Chairperson letter says operating revenue grew 13%. EBITDA grew 25% on the same like-to-like basis. (Annual report FY26, p21, filed, as of 2026-03-31)
-- Revenue grew 10.9% in FY26. It rose from about Rs 15,262 crore to Rs 16,927 crore. (Annual report FY26 and FY25 (tables), p347, derived, as of 2026-03-31)
-- Biocon sales grew 11 percent in FY26. This is from Screener.in's table. (Screener.in peers page, fetched 2026-11-10, no page, third-party, as of 2026-11-10, screener.in)
-- Dr Reddy's sales grew 3 percent in FY26. This is from Screener.in's table. (Screener.in peers page, fetched 2026-11-10, no page, third-party, as of 2026-11-10, screener.in)
-- Zydus Lifesciences sales grew 17 percent in FY26. This is from Screener.in's table. (Screener.in peers page, fetched 2026-11-10, no page, third-party, as of 2026-11-10, screener.in)
-- Sun Pharma sales were Rs 58,462 crore in FY26. This is from Screener.in's table. (Screener.in peers page, fetched 2026-11-10, no page, third-party, as of 2026-11-10, screener.in)
-- Cipla sales were Rs 28,163 crore in FY26. This is from Screener.in's table. (Screener.in peers page, fetched 2026-11-10, no page, third-party, as of 2026-11-10, screener.in)
-- Zydus Lifesciences sales were Rs 27,148 crore in FY26. This is from Screener.in's table. (Screener.in peers page, fetched 2026-11-10, no page, third-party, as of 2026-11-10, screener.in)
-- Torrent Pharma sales were Rs 13,980 crore in FY26. This is from Screener.in's table. (Screener.in peers page, fetched 2026-11-10, no page, third-party, as of 2026-11-10, screener.in)
-- The FY26 report says no customer was over 10 percent of revenue. (Annual report FY26, p414, filed, as of 2026-03-31)
-- The FY24 report names one Biosimilar customer group over 10 percent. In FY23, that group gave about Rs 1,886 crore of revenue. (Annual report FY24, p369, filed, as of 2024-03-31)
-- Group sales were Rs 16,927 crore in FY26. Note: Consolidated revenue from operations. (AR tables FY21-FY26 (csv, from the annual reports' statements), p347, filed, as of 2026-03-31)
+- Total income was Rs 17,269.5 crore in FY26. Segment shares are worked out on this total. (S027, Annual report FY26, p241, l55, filed, as of 2026-03-31) [L1-26-d]
+- Q4 FY26 deck: FY26 revenue from operations was Rs 16,927 crore. (Q4 FY26 investor presentation, p8, l8, filed, as of 2026-03-31) [L1-46-a]
+- Revenue was 4,336 crore in Q1 FY27, the June 2026 quarter. (Results filing, quarter ended 30 Jun 2026, p3, l15, filed, as of 2026-06-30) [L2-0-a]
+- Revenue was about 3,942 crore in Q1 FY26, the June 2025 quarter. (Results filing, quarter ended 30 Jun 2026, p3, l15, filed, as of 2025-06-30) [L2-0-b]
+- Revenue was 4,173 crore in Q3 FY26, the December 2025 quarter. (Results filing, nine months ended 31 Dec 2025, p4, l15, filed, as of 2025-12-31) [L2-1-a]
+- Revenue was about 3,821 crore in Q3 FY25, the December 2024 quarter. (Results filing, nine months ended 31 Dec 2025, p4, l15, filed, as of 2024-12-31) [L2-1-b]
+- Revenue for the four quarters to June 2026 was about 17,321 crore. (Derived from the filings listed in inputs, p4, derived, as of 2026-06-30, formula: Sep 2025 + Dec 2025 + Mar 2026 + Jun 2026 quarter revenue from operations, inputs: p004 p4, p004 p4, p032 p32, p003 p3) [L2-2-a]
+- Revenue for the four quarters to June 2025 was about 15,771 crore. (Derived from the filings listed in inputs, p5, derived, as of 2025-06-30, formula: Sep 2024 + Dec 2024 + Mar 2025 + Jun 2025 quarter revenue from operations, inputs: p005 p5, p004 p4, p032 p32, p003 p3) [L2-2-b]
+- The Chairperson's letter says operating revenue grew 13% like-to-like in FY26. (S027, Annual report FY26, p21, l1, filed, as of 2026-03-31) [L2-20-b]
+- Reported revenue growth was 10.9% in FY26. (S027, Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31, formula: revenue this year / last year - 1, x 100, inputs: ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p349) [L2-20-d]
+- Revenue was about 14,756 crore in FY24. (S043, Annual report FY24, p309, filed, as of 2024-03-31) [L2-3-c]
+- Revenue in the June 2026 quarter was 10.0% above the year-ago quarter. (Derived from the filings listed in inputs, p3, derived, as of 2026-06-30, formula: quarter revenue from operations / year-ago quarter revenue - 1, x 100, inputs: p003 p3) [L2-4-a]
+- Revenue in the March 2026 quarter was 2.3% above the year-ago quarter. (Derived from the filings listed in inputs, p32, derived, as of 2026-03-31, formula: quarter revenue from operations / year-ago quarter revenue - 1, x 100, inputs: p032 p32) [L2-4-b]
+- Revenue in the December 2025 quarter was 9.2% above the year-ago quarter. (Derived from the filings listed in inputs, p4, derived, as of 2025-12-31, formula: quarter revenue from operations / year-ago quarter revenue - 1, x 100, inputs: p004 p4) [L2-4-c]
+- The Chairperson's letter says FY26 revenue and EBITDA grew 13% and 25%. That is on a like-to-like basis. (S027, Annual report FY26, p21, l1, filed, as of 2026-03-31) [L2-5-a]
+- The base for FY26 revenue growth is about 15,262 crore from FY25. (S044, Annual report FY25, p349, filed, as of 2025-03-31) [L2-6-b]
+- India's consumer price inflation was 4.95% in 2024, per the World Bank. (S052, World Bank CPI inflation, India, no page, third-party, as of 2024-12-31, api.worldbank.org) [L2-9-a]
+- India's consumer price inflation was 2.40% in 2025, per the World Bank. (S052, World Bank CPI inflation, India, no page, third-party, as of 2025-12-31, api.worldbank.org) [L2-9-b]
+- The FY26 policy says control usually passes on shipment, delivery or receipt. That is when the company records the sale. (S027, Annual report FY26, p360, l13, filed, as of 2026-03-31) [L3-35-a]
+- The FY24 report says control usually passes on shipment, delivery or receipt. That is when the company records the sale. (S030, Annual report FY24, p321, l23, filed, as of 2024-03-31) [L3-35-b]
+- Syngene's revenue grew about 3% in FY26. The annual report says an inventory adjustment affected it. (S027, Annual report FY26, p240, l19, filed, as of 2026-03-31) [L4-52-c]
+- FY26 growth figures are like-to-like, after adjusting for two items. The items are generic Lenalidomide exclusivity sales and a business divestment. Note: Like-to-like growth removes one-off sales and a divestment. (S027, Annual report FY26, p6, l25, filed, as of 2026-03-31) [L5-29-b]
+- The FY26 Executive Chairperson letter says operating revenue grew 13%. EBITDA grew 25% on the same like-to-like basis. (S027, Annual report FY26, p21, l1, filed, as of 2026-03-31) [L5-29-c]
+- Revenue grew 10.9% in FY26. It rose from about Rs 15,262 crore to Rs 16,927 crore. (S026, Annual report FY26 and FY25 (tables), p347, derived, as of 2026-03-31, formula: 169,270 / 152,617 - 1, inputs: another finding p347, another finding p349) [L5-33-d]
+- The FY26 report says no customer was over 10 percent of revenue. (S027, Annual report FY26, p414, l58, filed, as of 2026-03-31) [L6-20-a]
+- The FY24 report names one Biosimilar customer group over 10 percent. In FY23, that group gave about Rs 1,886 crore of revenue. (S030, Annual report FY24, p369, l32, filed, as of 2024-03-31) [L6-20-b]
+- Group sales were Rs 16,927 crore in FY26. Note: Consolidated revenue from operations. (S026, AR tables FY21-FY26 (csv, from the annual reports' statements), p347, filed, as of 2026-03-31) [L7-109-b]
 
 ## 2.2 Sales by business (42)
 
-- Biosimilars (near-copies of biologic drugs) earned Rs 10,431.2 crore in FY26. (Annual report FY26, p233, filed, as of 2026-03-31)
-- Syngene's revenue was 22% of Biocon's overall revenue in FY26. (Annual report FY26, p240, filed, as of 2026-03-31)
-- The FY25 five-year summary shows Generics revenue of Rs 3,017.5 crore. FY21 was Rs 2,362.7 crore. Note: The figures include inter-segment revenue. (Annual report FY25, p72, filed, as of 2025-03-31)
-- Biosimilars (near-copies of biologic drugs) made Rs 9,017.4 crore in FY25. In FY21 they made Rs 2,800.2 crore. Note: The figures include inter-segment revenue. (Annual report FY25, p72, filed, as of 2025-03-31)
-- Biosimilars revenue was about 2,856 crore in Q1 FY27. (Segment table, results filing 5 Aug 2026, p4, filed, as of 2026-06-30)
-- Generics revenue was about 760 crore in Q1 FY27. (Segment table, results filing 5 Aug 2026, p4, filed, as of 2026-06-30)
-- Services revenue was 736 crore in Q1 FY27. (Segment table, results filing 5 Aug 2026, p4, filed, as of 2026-06-30)
-- Generics segment results were a loss of 134.8 crore in FY26. Note: Segment results come after depreciation and finance costs. (Annual report FY26, p413, filed, as of 2026-03-31)
-- Biosimilars segment results were 587.6 crore in FY26. Note: Segment results come after depreciation and finance costs. (Annual report FY26, p413, filed, as of 2026-03-31)
-- CRDMO segment results were 487.5 crore in FY26. Note: Segment results come after depreciation and finance costs. (Annual report FY26, p413, filed, as of 2026-03-31)
-- Biosimilars revenue was Rs 2,855.6 crore in Q1 FY27. (Quarterly results filing, segment table, p4, filed, as of 2026-06-30)
-- Generics revenue was Rs 759.7 crore in Q1 FY27. (Quarterly results filing, segment table, p4, filed, as of 2026-06-30)
-- Services revenue was Rs 736 crore in Q1 FY27. (Quarterly results filing, segment table, p4, filed, as of 2026-06-30)
-- Biosimilars revenue was Rs 2,463.4 crore in Q4 FY25. (Quarterly results filing, segment table, p12, filed, as of 2025-03-31)
-- FY26 segment results added up to Rs 850.8 crore. Generics lost Rs 134.8 crore; Biosimilars made Rs 587.6 crore. Note: Segment result here comes after depreciation and finance costs. (Annual report FY26, p413, filed, as of 2026-03-31)
-- FY25 segment results added up to Rs 1,790.1 crore. Generics made Rs 175.5 crore; Biosimilars made Rs 1,196.1 crore. Note: Segment result here comes after depreciation and finance costs. (Annual report FY26, p414, filed, as of 2025-03-31)
-- Biosimilars segment result was about Rs 588 crore in FY26. In FY25 it was about Rs 1,196 crore. (Annual report FY26, note 40 segments, p413, filed, as of 2026-03-31)
-- Generics segment lost about Rs 135 crore in FY26. (Annual report FY26, note 40 segments, p413, filed, as of 2026-03-31)
-- FY26 report prints FY25 Biosimilars segment result as about Rs 1,196 crore. (Annual report FY26, note 40 segments, p414, filed, as of 2026-03-31)
-- Biosimilars segment revenue was about Rs 8,824 crore in FY24. That figure is from the five-year summary in the FY25 report. (Annual report FY25, five-year financial summary, p72, filed, as of 2024-03-31)
-- Q1 FY27 deck shows Q1 FY26 Generics revenue as Rs 630 crore. That figure leaves out a utilities cross charge. (Q1 FY27 investor presentation, p7, filed, as of 2026-06-30)
-- The Q1 FY26 deck showed Generics revenue of Rs 697 crore. (Q1 FY26 investor presentation, p7, filed, as of 2025-06-30)
-- Q1 FY27 deck moves a utilities cross charge out of Generics. It now sits under unallocable expenditure. (Q1 FY27 investor presentation, p7, filed, as of 2026-06-30)
-- Biosimilars segment profit before tax was about Rs 171 crore. That is for Q1 FY27. Note: The quarterly filing shows segment profit before tax; the annual report differs. (Quarterly results filing, segment table, p4, filed, as of 2026-06-30)
-- Biosimilars segment profit before tax was 6.00 percent of its segment revenue. That is for Q1 FY27. Note: The quarterly filing shows segment profit before tax; the annual report differs. (Quarterly results filing, segment table, p4, derived, as of 2026-06-30)
-- FY26 Biosimilars segment result was about Rs 588 crore. CRDMO made about Rs 488 crore; Generics lost about Rs 135 crore. Note: Annual-report segment result is after depreciation and finance costs. (Annual report FY26, p413, filed, as of 2026-03-31)
-- FY26 external revenue of Biosimilars was about Rs 10,380 crore. Group revenue was Rs 16,927 crore. (Annual report FY26, p413, filed, as of 2026-03-31)
-- FY22 Biosimilars external revenue was about Rs 3,430 crore. Group revenue was Rs 8,184 crore. (Annual report FY22, p331, filed, as of 2022-03-31)
-- Biosimilars were 61.32 percent of FY26 external revenue. That is about Rs 10,380 crore of Rs 16,927 crore. (Annual report FY26, p413, derived, as of 2026-03-31)
-- Biosimilars were 41.91 percent of FY22 external revenue. That is about Rs 3,430 crore of Rs 8,184 crore. (Annual report FY22, p331, derived, as of 2022-03-31)
-- The FY26 at-a-glance page shows Biosimilars at 60 percent of revenue. Generics were 18 percent and CRDMO 22 percent. Note: The page does not say which revenue basis it uses. (Annual report FY26, p6, filed, as of 2026-03-31)
-- Generics segment sales were Rs 3,168.1 crore in FY26. That counts sales to other segments. Note: Segment figures include sales between the group's own segments. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p413, filed, as of 2026-03-31)
-- CRDMO segment sales were Rs 3,738.7 crore in FY26. That counts sales to other segments. Note: Segment figures include sales between the group's own segments. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p413, filed, as of 2026-03-31)
-- Biosimilars made a segment result of Rs 587.6 crore in FY26. This is after other income, depreciation and finance costs. Note: Segment result is before exceptional items and tax. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p413, filed, as of 2026-03-31)
-- Generics had a segment loss of Rs 134.8 crore in FY26. Note: Segment result is before exceptional items and tax. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p413, filed, as of 2026-03-31)
-- CRDMO segment result was Rs 487.5 crore in FY26. The group total was Rs 850.8 crore, after unallocated items. Note: Segment result is before exceptional items and tax. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p413, filed, as of 2026-03-31)
-- Biosimilars segment assets were about Rs 47,888 crore at end of FY26. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p413, filed, as of 2026-03-31)
-- Generics segment assets were about Rs 8,993 crore at end of FY26. CRDMO segment assets were about Rs 7,055 crore. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p413, filed, as of 2026-03-31)
-- Biosimilars' segment result equals 69.1% of the group total. The total is after Generics' loss and unallocated items. Note: Share of the group total after unallocated items. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p413, derived, as of 2026-03-31)
-- In the December 2023 table, Research services was the fourth segment. Generics, Biosimilars and Novel Biologics came before it. (Segment results, quarter ended 31 Dec 2023, no page, filed, as of 2023-12-31)
-- In the June 2025 segment table, the third segment is called CRDMO. (Segment results, quarter ended 30 Jun 2025, no page, filed, as of 2025-06-30)
-- In the June 2026 segment table, the third segment is called Services. (Segment results, quarter ended 30 Jun 2026, no page, filed, as of 2026-06-30)
+- Biosimilars (near-copies of biologic drugs) earned Rs 10,431.2 crore in FY26. (S027, Annual report FY26, p233, l39, filed, as of 2026-03-31) [L1-18-c]
+- Syngene's revenue was 22% of Biocon's overall revenue in FY26. (S027, Annual report FY26, p240, l17, filed, as of 2026-03-31) [L1-19-c]
+- The FY25 five-year summary shows Generics revenue of Rs 3,017.5 crore. FY21 was Rs 2,362.7 crore. Note: The figures include inter-segment revenue. (S031, Annual report FY25, p72, l10, filed, as of 2025-03-31) [L1-22-a]
+- Biosimilars (near-copies of biologic drugs) made Rs 9,017.4 crore in FY25. In FY21 they made Rs 2,800.2 crore. Note: The figures include inter-segment revenue. (S031, Annual report FY25, p72, l10, filed, as of 2025-03-31) [L1-22-b]
+- Biosimilars revenue was about 2,856 crore in Q1 FY27. (Segment table, results filing 5 Aug 2026, p4, filed, as of 2026-06-30) [L2-17-a]
+- Generics revenue was about 760 crore in Q1 FY27. (Segment table, results filing 5 Aug 2026, p4, filed, as of 2026-06-30) [L2-17-b]
+- Services revenue was 736 crore in Q1 FY27. (Segment table, results filing 5 Aug 2026, p4, filed, as of 2026-06-30) [L2-17-c]
+- Generics segment results were a loss of 134.8 crore in FY26. Note: Segment results come after depreciation and finance costs. (S027, Annual report FY26, p413, l48, filed, as of 2026-03-31) [L2-18-a]
+- Biosimilars segment results were 587.6 crore in FY26. Note: Segment results come after depreciation and finance costs. (S027, Annual report FY26, p413, l48, filed, as of 2026-03-31) [L2-18-b]
+- CRDMO segment results were 487.5 crore in FY26. Note: Segment results come after depreciation and finance costs. (S027, Annual report FY26, p413, l48, filed, as of 2026-03-31) [L2-18-c]
+- Biosimilars revenue was Rs 2,855.6 crore in Q1 FY27. (Quarterly results filing, segment table, p4, filed, as of 2026-06-30) [L3-32-a]
+- Generics revenue was Rs 759.7 crore in Q1 FY27. (Quarterly results filing, segment table, p4, filed, as of 2026-06-30) [L3-32-b]
+- Services revenue was Rs 736 crore in Q1 FY27. (Quarterly results filing, segment table, p4, filed, as of 2026-06-30) [L3-32-c]
+- Biosimilars revenue was Rs 2,463.4 crore in Q4 FY25. (Quarterly results filing, segment table, p12, filed, as of 2025-03-31) [L3-32-d]
+- FY26 segment results added up to Rs 850.8 crore. Generics lost Rs 134.8 crore; Biosimilars made Rs 587.6 crore. Note: Segment result here comes after depreciation and finance costs. (S027, Annual report FY26, p413, l48, filed, as of 2026-03-31) [L3-33-a]
+- FY25 segment results added up to Rs 1,790.1 crore. Generics made Rs 175.5 crore; Biosimilars made Rs 1,196.1 crore. Note: Segment result here comes after depreciation and finance costs. (S027, Annual report FY26, p414, l23, filed, as of 2025-03-31) [L3-33-b]
+- Biosimilars segment result was about Rs 588 crore in FY26. In FY25 it was about Rs 1,196 crore. (S027, Annual report FY26, note 40 segments, p413, l48, filed, as of 2026-03-31) [L5-36-a]
+- Generics segment lost about Rs 135 crore in FY26. (S027, Annual report FY26, note 40 segments, p413, l48, filed, as of 2026-03-31) [L5-36-b]
+- FY26 report prints FY25 Biosimilars segment result as about Rs 1,196 crore. (S027, Annual report FY26, note 40 segments, p414, l23, filed, as of 2026-03-31) [L5-36-c]
+- Biosimilars segment revenue was about Rs 8,824 crore in FY24. That figure is from the five-year summary in the FY25 report. (S043, Annual report FY25, five-year financial summary, p72, filed, as of 2024-03-31) [L5-36-d]
+- Q1 FY27 deck shows Q1 FY26 Generics revenue as Rs 630 crore. That figure leaves out a utilities cross charge. (Q1 FY27 investor presentation, p7, l104, filed, as of 2026-06-30) [L5-37-a]
+- The Q1 FY26 deck showed Generics revenue of Rs 697 crore. (Q1 FY26 investor presentation, p7, l106, filed, as of 2025-06-30) [L5-37-b]
+- Q1 FY27 deck moves a utilities cross charge out of Generics. It now sits under unallocable expenditure. (Q1 FY27 investor presentation, p7, l121, filed, as of 2026-06-30) [L5-37-c]
+- Biosimilars segment profit before tax was about Rs 171 crore. That is for Q1 FY27. Note: The quarterly filing shows segment profit before tax; the annual report differs. (Quarterly results filing, segment table, p4, filed, as of 2026-06-30) [L6-17-a]
+- Biosimilars segment profit before tax was 6.00 percent of its segment revenue. That is for Q1 FY27. Note: The quarterly filing shows segment profit before tax; the annual report differs. (Quarterly results filing, segment table, p4, derived, as of 2026-06-30, formula: segment result 1,714 / segment revenue 28,556 x 100, inputs: L6-17-a, L3-32-a) [L6-17-b]
+- FY26 Biosimilars segment result was about Rs 588 crore. CRDMO made about Rs 488 crore; Generics lost about Rs 135 crore. Note: Annual-report segment result is after depreciation and finance costs. (S027, Annual report FY26, p413, l48, filed, as of 2026-03-31) [L6-17-c]
+- FY26 external revenue of Biosimilars was about Rs 10,380 crore. Group revenue was Rs 16,927 crore. (S027, Annual report FY26, p413, l37, filed, as of 2026-03-31) [L6-51-a]
+- FY22 Biosimilars external revenue was about Rs 3,430 crore. Group revenue was Rs 8,184 crore. (S028, Annual report FY22, p331, l28, filed, as of 2022-03-31) [L6-51-b]
+- Biosimilars were 61.32 percent of FY26 external revenue. That is about Rs 10,380 crore of Rs 16,927 crore. (S027, Annual report FY26, p413, derived, as of 2026-03-31, formula: 103798 / 169270 x 100, inputs: L6-51-a) [L6-51-c]
+- Biosimilars were 41.91 percent of FY22 external revenue. That is about Rs 3,430 crore of Rs 8,184 crore. (S028, Annual report FY22, p331, derived, as of 2022-03-31, formula: 34301 / 81840 x 100, inputs: L6-51-b) [L6-51-d]
+- The FY26 at-a-glance page shows Biosimilars at 60 percent of revenue. Generics were 18 percent and CRDMO 22 percent. Note: The page does not say which revenue basis it uses. (S027, Annual report FY26, p6, l27, filed, as of 2026-03-31) [L6-77-b]
+- Generics segment sales were Rs 3,168.1 crore in FY26. That counts sales to other segments. Note: Segment figures include sales between the group's own segments. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p413, l39, filed, as of 2026-03-31) [L7-15-b]
+- CRDMO segment sales were Rs 3,738.7 crore in FY26. That counts sales to other segments. Note: Segment figures include sales between the group's own segments. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p413, l39, filed, as of 2026-03-31) [L7-15-c]
+- Biosimilars made a segment result of Rs 587.6 crore in FY26. This is after other income, depreciation and finance costs. Note: Segment result is before exceptional items and tax. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p413, l48, filed, as of 2026-03-31) [L7-74-a]
+- Generics had a segment loss of Rs 134.8 crore in FY26. Note: Segment result is before exceptional items and tax. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p413, l48, filed, as of 2026-03-31) [L7-74-b]
+- CRDMO segment result was Rs 487.5 crore in FY26. The group total was Rs 850.8 crore, after unallocated items. Note: Segment result is before exceptional items and tax. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p413, l48, filed, as of 2026-03-31) [L7-74-c]
+- Biosimilars segment assets were about Rs 47,888 crore at end of FY26. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p413, l54, filed, as of 2026-03-31) [L7-75-a]
+- Generics segment assets were about Rs 8,993 crore at end of FY26. CRDMO segment assets were about Rs 7,055 crore. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p413, l54, filed, as of 2026-03-31) [L7-75-b]
+- Biosimilars' segment result equals 69.1% of the group total. The total is after Generics' loss and unallocated items. Note: Share of the group total after unallocated items. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p413, l48, derived, as of 2026-03-31, formula: 5,876 / 8,508 x 100, inputs: p413 p413) [L7-77-a]
+- In the December 2023 table, Research services was the fourth segment. Generics, Biosimilars and Novel Biologics came before it. (Segment results, quarter ended 31 Dec 2023, no page, filed, as of 2023-12-31) [L7-80-a]
+- In the June 2025 segment table, the third segment is called CRDMO. (Segment results, quarter ended 30 Jun 2025, no page, filed, as of 2025-06-30) [L7-80-b]
+- In the June 2026 segment table, the third segment is called Services. (Segment results, quarter ended 30 Jun 2026, no page, filed, as of 2026-06-30) [L7-80-c]
 
-## 2.3 Costs, line by line (35)
+## 2.3 Costs, line by line (32)
 
-- Other expenses were 1,106.7 crore in Q1 FY27 (June 2026 quarter). A year earlier it was 972.2 crore. (Results filing, quarter ended 30 Jun 2026, p3, filed, as of 2026-06-30)
-- Cost of materials was 1,424.1 crore in Q1 FY27 (June 2026 quarter). A year earlier it was 1,224 crore. (Results filing, quarter ended 30 Jun 2026, p3, filed, as of 2026-06-30)
-- Employee benefits were 916.1 crore in Q1 FY27 (June 2026 quarter). A year earlier it was 833.1 crore. (Results filing, quarter ended 30 Jun 2026, p3, filed, as of 2026-06-30)
-- Purchases of goods for resale were 381.9 crore in Q1 FY27. A year earlier it was 837.1 crore. (Results filing, quarter ended 30 Jun 2026, p3, filed, as of 2026-06-30)
-- Depreciation and amortisation was Rs 1,956.7 crore in FY26. It spreads the cost of long-lived assets over the years. (Annual report FY26, p347, filed, as of 2026-03-31)
-- Finance costs were Rs 990.3 crore in FY26. This is the cost of borrowed money. (Annual report FY26, p347, filed, as of 2026-03-31)
-- Depreciation and amortisation was Rs 547.4 crore in Q1 FY27. It spreads the cost of long-lived assets over the years. (Results filing, quarter ended 30 Jun 2026, p3, filed, as of 2026-06-30)
-- Finance costs were Rs 213.2 crore in Q1 FY27. This is the cost of borrowed money. (Results filing, quarter ended 30 Jun 2026, p3, filed, as of 2026-06-30)
-- Cost of goods was Rs 5,690.7 crore in FY26. It is materials plus purchases plus the change in stock. Note: Materials plus purchases plus inventory change, as printed. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31)
-- Cost of goods was Rs 5,197.5 crore in FY25. Note: Materials plus purchases plus inventory change, as printed. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p349, derived, as of 2025-03-31)
-- FY26 cost of materials consumed was about Rs 5,278 crore. (Annual report FY26, p347, filed, as of 2026-03-31)
-- FY26 purchases of stock in trade were about Rs 1,363 crore. (Annual report FY26, p347, filed, as of 2026-03-31)
-- FY25 depreciation and amortisation was Rs 1,687 crore. (Annual report FY25, p349, filed, as of 2025-03-31)
-- FY26 net foreign exchange loss, within other expenses, was Rs 179.9 crore. (Annual report FY26, p386, filed, as of 2026-03-31)
-- FY25 net foreign exchange loss, within other expenses, was Rs 56.2 crore. (Annual report FY25, p386, filed, as of 2025-03-31)
-- Property and equipment depreciation was Rs 1,086.4 crore in FY26. In FY25 it was Rs 941.6 crore. (Annual report FY26, p386, filed, as of 2026-03-31)
-- R&D expense within other expenses was Rs 551.5 crore in FY26. In FY25 it was Rs 588.8 crore. (Annual report FY26, p386, filed, as of 2026-03-31)
-- FY25 share-based pay expense was Rs 137 crore. (Annual report FY25, p351, filed, as of 2025-03-31)
-- FY24 share-based pay expense was Rs 100.6 crore. (Annual report FY24, p342, filed, as of 2024-03-31)
-- Amortisation of right-of-use assets was Rs 68.1 crore in FY26. In FY25 it was Rs 59.5 crore. (Annual report FY26, p378, filed, as of 2026-03-31)
-- FY26 gratuity obligation was Rs 297.7 crore. Plan assets were Rs 61.1 crore, leaving Rs 236.6 crore net. Note: These are consolidated group figures. (Annual report FY26, p398, filed, as of 2026-03-31)
-- FY26 gratuity plan assets are held with HDFC Life Insurance Company Limited. The group makes contributions to a recognised fund. (Annual report FY26, p397, filed, as of 2026-03-31)
-- Other expenses were Rs 4,386.7 crore for the group in FY26. Note: This is the consolidated figure, not Biocon Limited alone. (Annual report FY26, p347, filed, as of 2026-03-31)
-- Biocon's miscellaneous expenses were Rs 9.4 crore in FY26. FY25 was Rs 10.2 crore. Note: Standalone figure for Biocon Limited, one part of other expenses. (Annual report FY26, p315, filed, as of 2026-03-31)
-- Group depreciation and amortisation was about Rs 1,113 crore in FY23. Note: Consolidated figure, covering the whole group. (Annual report FY23 (tables), p363, filed, as of 2023-03-31)
-- R&D in other expenses was Rs 607.1 crore, 4.11% of FY24 revenue. This line is not total R&D. Note: R&D line inside other expenses, before any recovery. (Annual report FY24 (tables), p343, derived, as of 2024-03-31)
-- R&D in other expenses was Rs 588.8 crore, 3.86% of FY25 revenue. This line is not total R&D. Note: R&D line inside other expenses, before any recovery. (Annual report FY25 (tables), p386, derived, as of 2025-03-31)
-- R&D in other expenses was 3.26% of FY26 revenue. Total R&D is higher than this line. Note: R&D line inside other expenses, before any recovery. (Annual report FY26 (tables), p386, derived, as of 2026-03-31)
-- FY26 R&D after partner recovery was Rs 982.1 crore. That is 5.80% of group revenue. Note: After recovery from co-development partners, per note 29. (Annual report FY26, note 29, p387, derived, as of 2026-03-31)
-- Biocon material cost was 33.62 percent of sales in FY26. This is from Screener.in's schedule. Note: Share of sales on Screener.in's schedule, consolidated. (Screener.in expenses schedule, fetched 2026-11-12, table row, third-party, as of 2026-03-31, screener.in)
-- Biocon employee cost was 20.85 percent of sales in FY26. This is from Screener.in's schedule. Note: Share of sales on Screener.in's schedule, consolidated. (Screener.in expenses schedule, fetched 2026-11-12, table row, third-party, as of 2026-03-31, screener.in)
-- Laurus Labs material cost was 39.56 percent of sales in FY26. This is from Screener.in's schedule. Note: Share of sales on Screener.in's schedule, consolidated. (Screener.in expenses schedule, fetched 2026-11-12, table row, third-party, as of 2026-03-31, screener.in)
-- Employee cost was 20.72 percent of FY26 revenue from operations. Note: Taken from annual-report lines, not Screener.in's split. (Derived metrics from the annual-report tables, p347, derived, as of 2026-03-31)
-- The FY26 report puts material costs at 34 percent of revenue. It also mentions a year-on-year decline in gross margin. (Annual report FY26, p241, filed, as of 2026-03-31)
-- Depreciation was 11.56% of revenue from operations in FY26. (Derived metrics FY21-FY26 (csv), p347, derived, as of 2026-03-31)
+- Other expenses were 1,106.7 crore in Q1 FY27 (June 2026 quarter). A year earlier it was 972.2 crore. (Results filing, quarter ended 30 Jun 2026, p3, l26, filed, as of 2026-06-30) [L2-26-a]
+- Cost of materials was 1,424.1 crore in Q1 FY27 (June 2026 quarter). A year earlier it was 1,224 crore. (Results filing, quarter ended 30 Jun 2026, p3, l19, filed, as of 2026-06-30) [L2-26-b]
+- Employee benefits were 916.1 crore in Q1 FY27 (June 2026 quarter). A year earlier it was 833.1 crore. (Results filing, quarter ended 30 Jun 2026, p3, l23, filed, as of 2026-06-30) [L2-26-c]
+- Purchases of goods for resale were 381.9 crore in Q1 FY27. A year earlier it was 837.1 crore. (Results filing, quarter ended 30 Jun 2026, p3, l20, filed, as of 2026-06-30) [L2-26-d]
+- Depreciation and amortisation was Rs 1,956.7 crore in FY26. It spreads the cost of long-lived assets over the years. (S026, Annual report FY26, p347, filed, as of 2026-03-31) [L2-32-a]
+- Finance costs were Rs 990.3 crore in FY26. This is the cost of borrowed money. (S026, Annual report FY26, p347, filed, as of 2026-03-31) [L2-32-b]
+- Depreciation and amortisation was Rs 547.4 crore in Q1 FY27. It spreads the cost of long-lived assets over the years. (Results filing, quarter ended 30 Jun 2026, p3, l25, filed, as of 2026-06-30) [L2-32-c]
+- Finance costs were Rs 213.2 crore in Q1 FY27. This is the cost of borrowed money. (Results filing, quarter ended 30 Jun 2026, p3, l24, filed, as of 2026-06-30) [L2-32-d]
+- Cost of goods was Rs 5,690.7 crore in FY26. It is materials plus purchases plus the change in stock. Note: Materials plus purchases plus inventory change, as printed. (S027, Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31, formula: cost_of_materials_consumed + purchases_of_stock_in_trade + changes_in_inventories (printed sign), inputs: ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347) [L2-38-a]
+- Cost of goods was Rs 5,197.5 crore in FY25. Note: Materials plus purchases plus inventory change, as printed. (S031, Derived metrics FY21-FY26 (our arithmetic on annual-report tables); annual report FY25, p349, derived, as of 2025-03-31, formula: cost_of_materials_consumed + purchases_of_stock_in_trade + changes_in_inventories (printed sign), inputs: ar-tables-FY21-FY26 p349, ar-tables-FY21-FY26 p349, ar-tables-FY21-FY26 p349) [L2-38-b]
+- FY26 cost of materials consumed was about Rs 5,278 crore. (S026, Annual report FY26, p347, filed, as of 2026-03-31) [L3-11-a]
+- FY26 purchases of stock in trade were about Rs 1,363 crore. (S026, Annual report FY26, p347, filed, as of 2026-03-31) [L3-11-b]
+- FY25 depreciation and amortisation was Rs 1,687 crore. (S044, Annual report FY25, p349, filed, as of 2025-03-31) [L3-19-b]
+- FY26 net foreign exchange loss, within other expenses, was Rs 179.9 crore. (S027, Annual report FY26, p386, l49, filed, as of 2026-03-31) [L3-25-a]
+- FY25 net foreign exchange loss, within other expenses, was Rs 56.2 crore. (S031, Annual report FY25, p386, l49, filed, as of 2025-03-31) [L3-25-b]
+- Property and equipment depreciation was Rs 1,086.4 crore in FY26. In FY25 it was Rs 941.6 crore. (S027, Annual report FY26, p386, l12, filed, as of 2026-03-31) [L3-37-b]
+- R&D expense within other expenses was Rs 551.5 crore in FY26. In FY25 it was Rs 588.8 crore. (S027, Annual report FY26, p386, l50, filed, as of 2026-03-31) [L3-40-c]
+- FY25 share-based pay expense was Rs 137 crore. (S044, Annual report FY25, p351, filed, as of 2025-03-31) [L3-45-b]
+- FY24 share-based pay expense was Rs 100.6 crore. (S043, Annual report FY24, p342, filed, as of 2024-03-31) [L3-45-c]
+- Amortisation of right-of-use assets was Rs 68.1 crore in FY26. In FY25 it was Rs 59.5 crore. (S027, Annual report FY26, p378, l57, filed, as of 2026-03-31) [L3-57-b]
+- FY26 gratuity obligation was Rs 297.7 crore. Plan assets were Rs 61.1 crore, leaving Rs 236.6 crore net. Note: These are consolidated group figures. (S027, Annual report FY26, p398, l27, filed, as of 2026-03-31) [L3-59-a]
+- FY26 gratuity plan assets are held with HDFC Life Insurance Company Limited. The group makes contributions to a recognised fund. (S027, Annual report FY26, p397, l44, filed, as of 2026-03-31) [L3-59-b]
+- Other expenses were Rs 4,386.7 crore for the group in FY26. Note: This is the consolidated figure, not Biocon Limited alone. (S026, Annual report FY26, p347, filed, as of 2026-03-31) [L4-69-a]
+- Biocon's miscellaneous expenses were Rs 9.4 crore in FY26. FY25 was Rs 10.2 crore. Note: Standalone figure for Biocon Limited, one part of other expenses. (S027, Annual report FY26, p315, l23, filed, as of 2026-03-31) [L4-69-b]
+- Group depreciation and amortisation was about Rs 1,113 crore in FY23. Note: Consolidated figure, covering the whole group. (S042, Annual report FY23 (tables), p363, filed, as of 2023-03-31) [L5-26-c]
+- R&D in other expenses was Rs 607.1 crore, 4.11% of FY24 revenue. This line is not total R&D. Note: R&D line inside other expenses, before any recovery. (S043, Annual report FY24 (tables), p343, derived, as of 2024-03-31, formula: 6071 / 147557 (R&D expense line within other expenses, before any capitalisation or recovery), inputs: another finding p343, another finding p309) [L5-67-a]
+- R&D in other expenses was Rs 588.8 crore, 3.86% of FY25 revenue. This line is not total R&D. Note: R&D line inside other expenses, before any recovery. (S044, Annual report FY25 (tables), p386, derived, as of 2025-03-31, formula: 5888 / 152617 (R&D expense line within other expenses, before any capitalisation or recovery), inputs: another finding p386, another finding p349) [L5-67-b]
+- R&D in other expenses was 3.26% of FY26 revenue. Total R&D is higher than this line. Note: R&D line inside other expenses, before any recovery. (S026, Annual report FY26 (tables), p386, derived, as of 2026-03-31, formula: 5515 / 169270 (R&D expense line within other expenses, before any capitalisation or recovery), inputs: another finding p386, another finding p347) [L5-67-c]
+- FY26 R&D after partner recovery was Rs 982.1 crore. That is 5.80% of group revenue. Note: After recovery from co-development partners, per note 29. (S027, Annual report FY26, note 29, p387, l15, derived, as of 2026-03-31, formula: 9,821 / 169,270 (note 29 after recovery over revenue from operations), inputs: another finding p387, another finding p347) [L5-67-d]
+- Employee cost was 20.72 percent of FY26 revenue from operations. Note: Taken from the annual-report lines. (S027, Derived metrics from the annual-report tables; annual report FY26, p347, derived, as of 2026-03-31, formula: employee_benefits_expense / revenue_from_operations x 100, inputs: ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347) [L6-19-d]
+- The FY26 report puts material costs at 34 percent of revenue. It also mentions a year-on-year decline in gross margin. (S027, Annual report FY26, p241, l63, filed, as of 2026-03-31) [L6-34-d]
+- Depreciation was 11.56% of revenue from operations in FY26. (S027, Derived metrics FY21-FY26 (csv), p347, derived, as of 2026-03-31, formula: depreciation_amortisation / revenue_from_operations x 100, inputs: ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347) [L7-16-b]
 
-## 2.4 Profit at each step (77)
+## 2.4 Profit at each step (71)
 
-- Other income was Rs 1,208.2 crore in FY25. In FY21 it was Rs 254.5 crore. (Annual report FY25, p72, filed, as of 2025-03-31)
-- Profit to Biocon's owners was Rs 385.6 crore in FY26. Note: This is profit to Biocon's owners, not profit for the year. (Annual report FY26, p347, filed, as of 2026-03-31)
-- Adding other income, EBITDA for FY26 is Rs 3,797.8 crore. EBITDA is profit before interest, tax and wear. Note: Biocon's own method counts other income in EBITDA. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31)
-- Profit before tax was Rs 447.9 crore in FY26. (Annual report FY26, p347, filed, as of 2026-03-31)
-- Q4 FY26 deck: FY26 reported net profit was Rs 386 crore. Reported means after one-off items. (Q4 FY26 investor presentation, p8, filed, as of 2026-03-31)
-- Profit to the company's owners was about 141 crore in Q1 FY27. Note: This is profit to the company's owners, not profit for the year. (Results filing, quarter ended 30 Jun 2026, p3, filed, as of 2026-06-30)
-- Profit to the company's owners was about 31 crore in Q1 FY26. Note: This is profit to the company's owners, not profit for the year. (Results filing, quarter ended 30 Jun 2026, p3, filed, as of 2025-06-30)
-- Profit to the company's owners was about 144 crore in Q3 FY26. Note: This is profit to the company's owners, not profit for the year. (Results filing, nine months ended 31 Dec 2025, p4, filed, as of 2025-12-31)
-- Profit to the company's owners was about 25 crore in Q3 FY25. Note: This is profit to the company's owners, not profit for the year. (Results filing, nine months ended 31 Dec 2025, p4, filed, as of 2024-12-31)
-- Profit to the company's owners fell 61.9% in FY26. Note: This is profit to the company's owners, not profit for the year. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31)
-- Revenue less cost of goods was 66.4% of revenue in FY26. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31)
-- Revenue less cost of goods was 65.9% of revenue in FY25. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p349, derived, as of 2025-03-31)
-- Revenue less cost of goods was 66.8% of revenue in FY24. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p309, derived, as of 2024-03-31)
-- Company-basis EBITDA was 22.4% of revenue from operations in FY26. Note: EBITDA here includes other income. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31)
-- Company-basis EBIT was 10.9% of revenue from operations in FY26. Note: EBIT here includes other income. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31)
-- Profit before tax was 2.6% of revenue from operations in FY26. Note: Profit before tax here is after exceptional items. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31)
-- Profit to owners was 2.3% of revenue from operations in FY26. Note: This is profit to the company's owners, not profit for the year. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31)
-- EBITDA without other income was 3,455.3 crore in FY26. Note: This EBITDA leaves out other income. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31)
-- Rebuilt operating profit, without other income, was 3,052.4 crore in FY26. It is after exceptional items. Note: Profit before tax here is after exceptional items. (Derived from the filings listed in inputs, p347, derived, as of 2026-03-31)
-- Other income was 76.5% of profit before tax in FY26. Note: Profit before tax here is after exceptional items. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31)
-- Other income was 64.0% of profit before tax in FY25. Note: Profit before tax here is after exceptional items. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p349, derived, as of 2025-03-31)
-- Other income was 56.7% of profit before tax in FY24. Note: Profit before tax here is after exceptional items. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p309, derived, as of 2024-03-31)
-- Revenue less cost of goods was 68.6% of revenue in FY21. That is the highest in FY21 to FY26. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p265, derived, as of 2021-03-31)
-- Company-basis EBITDA was 28.7% of revenue in FY25. That is the highest in FY21 to FY26. Note: EBITDA here includes other income. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p349, derived, as of 2025-03-31)
-- Company-basis EBITDA fell 13.2% in FY26. Note: EBITDA here includes other income. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31)
-- The company states EBITDA of about 4,164 crore for FY24. Note: The company's EBITDA counts other income. (Annual report FY24, p8, filed, as of 2024-03-31)
-- The FY26 report gives EBITDA of about 3,798 crore, up 25% like-to-like. Reported EBITDA was down 13%. Note: The company's EBITDA counts other income. (Annual report FY26, p67, filed, as of 2026-03-31)
-- Profit to the company's owners was 1,022.5 crore in FY24. Note: This is profit to the company's owners, not profit for the year. (Annual report FY24, p309, filed, as of 2024-03-31)
-- The Q4 FY26 deck shows FY26 EBITDA of 3,798 crore. FY25 was 4,374 crore. Note: The company's EBITDA counts other income. (Q4 FY26 investor presentation, p8, filed, as of 2026-03-31)
-- Profit to owners was Rs 740.5 crore in FY21. (Annual report FY22, p265, filed, as of 2022-03-31)
-- Profit to owners was Rs 385.6 crore in FY26. (Annual report FY26, p347, filed, as of 2026-03-31)
-- The base for FY26 profit growth is about 1,013 crore, from FY25. Note: Profit here is profit to the company's owners. (Annual report FY25, p349, filed, as of 2025-03-31)
-- Profit to owners was Rs 125.9 crore in Q4 FY26. (Results filing, year ended 31 Mar 2026, p32, filed, as of 2026-03-31)
-- Profit to owners was Rs 143.8 crore in Q3 FY26. (Results filing, nine months ended 31 Dec 2025, p4, filed, as of 2025-12-31)
-- Profit to owners was Rs 84.5 crore in Q2 FY26. (Results filing, nine months ended 31 Dec 2025, p4, filed, as of 2025-09-30)
-- Profit before exceptional items and tax was 225.6 crore in Q3 FY26. Note: This profit is counted before exceptional items. (Results filing, nine months ended 31 Dec 2025, p4, filed, as of 2025-12-31)
-- FY26 profit to owners was Rs 385.6 crore. Note: Profit to owners leaves out the minority holders' share. (Annual report FY26, p347, filed, as of 2026-03-31)
-- FY26 profit for the year was Rs 368.8 crore. That is before the split with minority holders. Note: Profit for the year includes the minority holders' share. (Annual report FY26, p347, filed, as of 2026-03-31)
-- In its FY24 highlights, Biocon printed EBITDA of about Rs 4,164 crore. Note: This is the EBITDA figure printed in the report highlights. (Annual report FY24, p8, filed, as of 2024-03-31)
-- Rebuilt from filed lines, FY26 EBITDA was about Rs 3,798 crore. Note: Uses Biocon's own EBITDA definition, which includes other income. (Derived metrics from the annual-report tables, p347, derived, as of 2026-03-31)
-- FY26 other income included Rs 96.6 crore of interest on bank deposits. In FY25 this was Rs 97.8 crore. (Annual report FY26, p385, filed, as of 2026-03-31)
-- FY26 other income included Rs 83.7 crore from the sale of investments. In FY25 this was Rs 38.3 crore. (Annual report FY26, p385, filed, as of 2026-03-31)
-- FY26 other income had Rs 79.5 crore of fair-value gains. FY25 had none. (Annual report FY26, p385, filed, as of 2026-03-31)
-- FY26 other comprehensive income, after tax, was about Rs 2,044 crore. (Annual report FY26, p347, filed, as of 2026-03-31)
-- FY26 exchange difference on translating overseas units was about Rs 1,913 crore. (Annual report FY26, p347, filed, as of 2026-03-31)
-- The FY23 report says core EBITDA was Rs 2,216 crore. It says this grew almost 70 percent from FY22. Note: Core EBITDA is adjusted for licensing, forex, investment marks and R&D. (Annual report FY23, p47, filed, as of 2023-03-31)
-- Management said Q2 FY26 core EBITDA was Rs 1,218 crore. It said the margin was 28 percent. (S011, Q2 FY26 earnings call, no page, filed, as of 2025-11-12)
-- Net profit before one-off items was Rs 436 crore in FY26. Reported net profit was Rs 386 crore. Note: This is profit after the share of minority owners. (Investor presentation Q4 FY26, p8, filed, as of 2026-05-08)
-- Net profit before one-off items was Rs 145 crore in Q1 FY27. Reported net profit was Rs 141 crore. Note: This is profit after the share of minority owners. (Investor presentation Q1 FY27, p7, filed, as of 2026-06-30)
-- The effective tax rate before one-off items was 21 percent in FY26. It was 23 percent in FY25. Note: The rate is shown before the exceptional item. (Annual report FY26, p242, filed, as of 2026-03-31)
-- The effective tax rate before one-off items was 23 percent in FY25. It was 15 percent in FY24. Note: The rate is shown before the exceptional item. (Annual report FY25, p190, filed, as of 2025-03-31)
-- Tax expense for FY26 was Rs 79.1 crore. In FY25 it was Rs 457.2 crore. Note: Consolidated figure, with current and deferred tax together. (Annual report FY26, p408, filed, as of 2026-03-31)
-- Tax at the 25.17 percent statutory rate was Rs 112.7 crore. The statutory rate was the same in FY25. Note: This is tax on profit before tax, in the FY26 reconciliation. (Annual report FY26, p408, filed, as of 2026-03-31)
-- FY26 EBITDA plus the share-based pay charge was about Rs 3,962 crore. Note: Adds the share-based pay charge to Biocon's own EBITDA. (Seat note computed-ratios.md, L3-47 table, p67, derived, as of 2026-03-31)
-- FY26 net margin to owners was 2.28 percent. Note: Profit to owners, using average balances where needed. (Derived metrics from the annual-report tables, p347, derived, as of 2026-03-31)
-- FY26 profit to owners fell 61.95 percent from FY25. Note: Profit to owners leaves out the minority holders' share. (Derived metrics from the annual-report tables, p347, derived, as of 2026-03-31)
-- The group's profit for the year was Rs 368.8 crore in FY26. Note: This is profit for the year, before splitting out owners' share. (Annual report FY26, p347, filed, as of 2026-03-31)
-- Profit to owners was Rs 385.6 crore in FY26. Note: This leaves out the share that belongs to minority holders. (Annual report FY26, p347, filed, as of 2026-03-31)
-- Profit to owners was Rs 1,013.3 crore in FY25. Note: This leaves out the share that belongs to minority holders. (Annual report FY25, p349, filed, as of 2025-03-31)
-- Biosimilars EBITDA was about Rs 2,751 crore in FY26. That is an EBITDA margin of 26%. (Annual report FY26, p233, filed, as of 2026-03-31)
-- Generics EBITDA was about Rs 165 crore in FY26. (Annual report FY26, p237, filed, as of 2026-03-31)
-- FY24 core EBITDA was about Rs 4,195 crore. Group core operating margin was 29%. Note: Core EBITDA, not plain EBITDA, is the figure used here. (Annual report FY24, p71, filed, as of 2024-03-31)
-- On 24 May 2023 Kiran Mazumdar-Shaw said to look at core EBITDA. She asked not to read isolated numbers. (S003, Q4 FY23 earnings call, p11, filed, as of 2023-05-24)
-- Company-stated EBITDA was 21.99 percent of total income in FY26. Note: It includes other income. (Ten-year derived metrics from annual-report tables, p67, derived, as of 2026-03-31)
-- FY25 profit to owners was about Rs 1,013 crore, consolidated. Note: Profit for the year that belongs to owners, not total profit. (Annual report FY25, p349, filed, as of 2025-03-31)
-- FY26 profit to owners was about Rs 386 crore, consolidated. Note: Profit for the year that belongs to owners, not total profit. (Annual report FY26, p347, filed, as of 2026-03-31)
-- Sun Pharma operating margin: 27, 29 and 28 percent. That is for FY24, FY25 and FY26, per Screener.in. (Screener.in peers page, fetched 2026-11-10, no page, third-party, as of 2026-11-10, screener.in)
-- Dr Reddy's operating margin: 28, 26 and 19 percent. That is for FY24, FY25 and FY26, per Screener.in. (Screener.in peers page, fetched 2026-11-10, no page, third-party, as of 2026-11-10, screener.in)
-- Cipla operating margin: 24, 26 and 21 percent. That is for FY24, FY25 and FY26, per Screener.in. (Screener.in peers page, fetched 2026-11-10, no page, third-party, as of 2026-11-10, screener.in)
-- Biocon operating margin: 22, 21 and 21 percent. That is for FY24, FY25 and FY26, per Screener.in. (Screener.in peers page, fetched 2026-11-10, no page, third-party, as of 2026-11-10, screener.in)
-- Company-stated EBITDA fell 13.18 percent in FY26 from FY25. Note: It includes other income. (Ten-year derived metrics from annual-report tables, p67, derived, as of 2026-03-31)
-- Profit to owners was Rs 385.6 crore in FY26. Note: This is profit to the company's owners, not total profit. (AR tables FY21-FY26 (csv, from FY26 report p347), p347, filed, as of 2026-03-31)
-- Profit to owners was Rs 141.1 crore in the June 2026 quarter. For FY26 it was Rs 385.6 crore. Note: This is profit to the company's owners, not total profit. (Consolidated results, quarter ended 30 June 2026, no page, filed, as of 2026-06-30)
-- Owners' profit over the last four quarters adds to Rs 495.3 crore. These are the quarters from September 2025 to June 2026. Note: This is profit to the company's owners, not total profit. (Quarterly results filings, Dec 2025 (quote: Dec 2025 and Sep 2025 quarters), p4, derived, as of 2026-06-30)
-- The tax rate before the one-off item was 21% in FY26. It was 23% in FY25. Note: Rate is before the exceptional item. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p242, filed, as of 2026-03-31)
-- In FY26, the report states EBITDA of Rs 3,797.8 crore. EBITDA is earnings before interest, tax and depreciation. Note: This is the company's own EBITDA figure, taken from the report. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p67, filed, as of 2026-03-31)
-- Other income in FY26 was Rs 342.5 crore. Interest on deposits was Rs 96.6 crore of that. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p385, filed, as of 2026-03-31)
+- Other income was Rs 1,208.2 crore in FY25. In FY21 it was Rs 254.5 crore. (S031, Annual report FY25, p72, l15, filed, as of 2025-03-31) [L1-22-c]
+- Profit to Biocon's owners was Rs 385.6 crore in FY26. Note: This is profit to Biocon's owners, not profit for the year. (S026, Annual report FY26, p347, filed, as of 2026-03-31) [L1-23-c]
+- Adding other income, EBITDA for FY26 is Rs 3,797.8 crore. EBITDA is profit before interest, tax and wear. Note: Biocon's own method counts other income in EBITDA. (S027, Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31, formula: pbt_before_jv_and_exceptional + finance_costs + depreciation_amortisation (includes other income), inputs: ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347) [L1-25-c]
+- Profit before tax was Rs 447.9 crore in FY26. (S026, Annual report FY26, p347, filed, as of 2026-03-31) [L1-41-a]
+- Q4 FY26 deck: FY26 reported net profit was Rs 386 crore. Reported means after one-off items. (Q4 FY26 investor presentation, p8, l20, filed, as of 2026-03-31) [L1-46-c]
+- Profit to the company's owners was about 141 crore in Q1 FY27. Note: This is profit to the company's owners, not profit for the year. (Results filing, quarter ended 30 Jun 2026, p3, l48, filed, as of 2026-06-30) [L2-0-c]
+- Profit to the company's owners was about 31 crore in Q1 FY26. Note: This is profit to the company's owners, not profit for the year. (Results filing, quarter ended 30 Jun 2026, p3, l48, filed, as of 2025-06-30) [L2-0-d]
+- Profit to the company's owners was about 144 crore in Q3 FY26. Note: This is profit to the company's owners, not profit for the year. (Results filing, nine months ended 31 Dec 2025, p4, l49, filed, as of 2025-12-31) [L2-1-c]
+- Profit to the company's owners was about 25 crore in Q3 FY25. Note: This is profit to the company's owners, not profit for the year. (Results filing, nine months ended 31 Dec 2025, p4, l49, filed, as of 2024-12-31) [L2-1-d]
+- Profit to the company's owners fell 61.9% in FY26. Note: This is profit to the company's owners, not profit for the year. (S027, Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31, formula: pat_owners this year / last year - 1, x 100, inputs: ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p349) [L2-10-d]
+- Revenue less cost of goods was 66.4% of revenue in FY26. (S027, Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31, formula: (1 - cost_of_goods / revenue_from_operations) x 100, inputs: ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347) [L2-21-a]
+- Revenue less cost of goods was 65.9% of revenue in FY25. (S031, Derived metrics FY21-FY26 (our arithmetic on annual-report tables); annual report FY25, p349, derived, as of 2025-03-31, formula: (1 - cost_of_goods / revenue_from_operations) x 100, inputs: ar-tables-FY21-FY26 p349, ar-tables-FY21-FY26 p349, ar-tables-FY21-FY26 p349, ar-tables-FY21-FY26 p349) [L2-21-b]
+- Revenue less cost of goods was 66.8% of revenue in FY24. (S030, Derived metrics FY21-FY26 (our arithmetic on annual-report tables); annual report FY24, p309, derived, as of 2024-03-31, formula: (1 - cost_of_goods / revenue_from_operations) x 100, inputs: ar-tables-FY21-FY26 p309, ar-tables-FY21-FY26 p309, ar-tables-FY21-FY26 p309, ar-tables-FY21-FY26 p309) [L2-21-c]
+- Company-basis EBITDA was 22.4% of revenue from operations in FY26. Note: EBITDA here includes other income. (S027, Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31, formula: ebitda_company_basis / revenue_from_operations x 100, inputs: ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347) [L2-22-a]
+- Company-basis EBIT was 10.9% of revenue from operations in FY26. Note: EBIT here includes other income. (S027, Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31, formula: ebit_company_basis / revenue_from_operations x 100, inputs: ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347) [L2-22-b]
+- Profit before tax was 2.6% of revenue from operations in FY26. Note: Profit before tax here is after exceptional items. (S027, Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31, formula: profit_before_tax / revenue_from_operations x 100, inputs: ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347) [L2-22-c]
+- Profit to owners was 2.3% of revenue from operations in FY26. Note: This is profit to the company's owners, not profit for the year. (S027, Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31, formula: profit_attributable_to_owners / revenue_from_operations x 100, inputs: ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347) [L2-22-d]
+- EBITDA without other income was 3,455.3 crore in FY26. Note: This EBITDA leaves out other income. (S027, Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31, formula: ebitda_company_basis - other_income, inputs: ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347) [L2-23-a]
+- Rebuilt operating profit, without other income, was 3,052.4 crore in FY26. It is after exceptional items. Note: Profit before tax here is after exceptional items. (S027, Derived from the filings listed in inputs; annual report FY26, p347, derived, as of 2026-03-31, formula: profit_before_tax + depreciation_amortisation + finance_costs - other_income (profit before tax is after exceptional items), inputs: ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347) [L2-23-c]
+- Other income was 76.5% of profit before tax in FY26. Note: Profit before tax here is after exceptional items. (S027, Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31, formula: other_income / profit_before_tax x 100, inputs: ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347) [L2-24-a]
+- Other income was 64.0% of profit before tax in FY25. Note: Profit before tax here is after exceptional items. (S031, Derived metrics FY21-FY26 (our arithmetic on annual-report tables); annual report FY25, p349, derived, as of 2025-03-31, formula: other_income / profit_before_tax x 100, inputs: ar-tables-FY21-FY26 p349, ar-tables-FY21-FY26 p349) [L2-24-b]
+- Other income was 56.7% of profit before tax in FY24. Note: Profit before tax here is after exceptional items. (S030, Derived metrics FY21-FY26 (our arithmetic on annual-report tables); annual report FY24, p309, derived, as of 2024-03-31, formula: other_income / profit_before_tax x 100, inputs: ar-tables-FY21-FY26 p309, ar-tables-FY21-FY26 p309) [L2-24-c]
+- Revenue less cost of goods was 68.6% of revenue in FY21. That is the highest in FY21 to FY26. (S028, Derived metrics FY21-FY26 (our arithmetic on annual-report tables); annual report FY22, p265, derived, as of 2021-03-31, formula: (1 - cost_of_goods / revenue_from_operations) x 100, inputs: ar-tables-FY21-FY26 p265, ar-tables-FY21-FY26 p265, ar-tables-FY21-FY26 p265, ar-tables-FY21-FY26 p265) [L2-25-a]
+- Company-basis EBITDA was 28.7% of revenue in FY25. That is the highest in FY21 to FY26. Note: EBITDA here includes other income. (S031, Derived metrics FY21-FY26 (our arithmetic on annual-report tables); annual report FY25, p349, derived, as of 2025-03-31, formula: ebitda_company_basis / revenue_from_operations x 100, inputs: ar-tables-FY21-FY26 p349, ar-tables-FY21-FY26 p349, ar-tables-FY21-FY26 p349, ar-tables-FY21-FY26 p349) [L2-25-c]
+- Company-basis EBITDA fell 13.2% in FY26. Note: EBITDA here includes other income. (S027, Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31, formula: ebitda_company_basis this year / last year - 1, x 100, inputs: derived-metrics-FY21-FY26, derived-metrics-FY21-FY26) [L2-28-b]
+- The company states EBITDA of about 4,164 crore for FY24. Note: The company's EBITDA counts other income. (S043, Annual report FY24, p8, filed, as of 2024-03-31) [L2-3-a]
+- The FY26 report gives EBITDA of about 3,798 crore, up 25% like-to-like. Reported EBITDA was down 13%. Note: The company's EBITDA counts other income. (S027, Annual report FY26, p67, l23, filed, as of 2026-03-31) [L2-3-b]
+- Profit to the company's owners was 1,022.5 crore in FY24. Note: This is profit to the company's owners, not profit for the year. (S043, Annual report FY24, p309, filed, as of 2024-03-31) [L2-3-d]
+- The Q4 FY26 deck shows FY26 EBITDA of 3,798 crore. FY25 was 4,374 crore. Note: The company's EBITDA counts other income. (Q4 FY26 investor presentation, p8, l12, filed, as of 2026-03-31) [L2-5-b]
+- Profit to owners was Rs 740.5 crore in FY21. (S041, Annual report FY22, p265, filed, as of 2022-03-31) [L2-59-c]
+- Profit to owners was Rs 385.6 crore in FY26. (S026, Annual report FY26, p347, filed, as of 2026-03-31) [L2-59-d] Also L4-29-a, L7-17-b.
+- The base for FY26 profit growth is about 1,013 crore, from FY25. Note: Profit here is profit to the company's owners. (S044, Annual report FY25, p349, filed, as of 2025-03-31) [L2-6-c]
+- Profit to owners was Rs 125.9 crore in Q4 FY26. (Results filing, year ended 31 Mar 2026, p32, l45, filed, as of 2026-03-31) [L2-63-a]
+- Profit to owners was Rs 143.8 crore in Q3 FY26. (Results filing, nine months ended 31 Dec 2025, p4, l49, filed, as of 2025-12-31) [L2-63-b]
+- Profit to owners was Rs 84.5 crore in Q2 FY26. (Results filing, nine months ended 31 Dec 2025, p4, l49, filed, as of 2025-09-30) [L2-63-c]
+- Profit before exceptional items and tax was 225.6 crore in Q3 FY26. Note: This profit is counted before exceptional items. (Results filing, nine months ended 31 Dec 2025, p4, l33, filed, as of 2025-12-31) [L2-7-c]
+- FY26 profit to owners was Rs 385.6 crore. Note: Profit to owners leaves out the minority holders' share. (S026, Annual report FY26, p347, filed, as of 2026-03-31) [L3-1-a]
+- FY26 profit for the year was Rs 368.8 crore. That is before the split with minority holders. Note: Profit for the year includes the minority holders' share. (S026, Annual report FY26, p347, filed, as of 2026-03-31) [L3-1-b]
+- In its FY24 highlights, Biocon printed EBITDA of about Rs 4,164 crore. Note: This is the EBITDA figure printed in the report highlights. (S043, Annual report FY24, p8, filed, as of 2024-03-31) [L3-1-c]
+- Rebuilt from filed lines, FY26 EBITDA was about Rs 3,798 crore. Note: Uses Biocon's own EBITDA definition, which includes other income. (S027, Derived metrics from the annual-report tables; annual report FY26, p347, derived, as of 2026-03-31, formula: pbt_before_jv_and_exceptional + finance_costs + depreciation_amortisation (includes other income), inputs: ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347) [L3-1-d]
+- FY26 other income included Rs 96.6 crore of interest on bank deposits. In FY25 this was Rs 97.8 crore. (S027, Annual report FY26, p385, l11, filed, as of 2026-03-31) [L3-23-a]
+- FY26 other income included Rs 83.7 crore from the sale of investments. In FY25 this was Rs 38.3 crore. (S027, Annual report FY26, p385, l14, filed, as of 2026-03-31) [L3-23-b]
+- FY26 other income had Rs 79.5 crore of fair-value gains. FY25 had none. (S027, Annual report FY26, p385, l15, filed, as of 2026-03-31) [L3-23-c]
+- FY26 other comprehensive income, after tax, was about Rs 2,044 crore. (S027, Annual report FY26, p347, l31, filed, as of 2026-03-31) [L3-24-a]
+- FY26 exchange difference on translating overseas units was about Rs 1,913 crore. (S027, Annual report FY26, p347, l37, filed, as of 2026-03-31) [L3-24-b]
+- The FY23 report says core EBITDA was Rs 2,216 crore. It says this grew almost 70 percent from FY22. Note: Core EBITDA is adjusted for licensing, forex, investment marks and R&D. (S029, Annual report FY23, p47, l5, filed, as of 2023-03-31) [L3-26-a]
+- Management said Q2 FY26 core EBITDA was Rs 1,218 crore. It said the margin was 28 percent. (S011, Q2 FY26 earnings call, no page, filed, as of 2025-11-12) [L3-26-b]
+- Net profit before one-off items was Rs 436 crore in FY26. Reported net profit was Rs 386 crore. Note: This is profit after the share of minority owners. (Investor presentation Q4 FY26, p8, l15, filed, as of 2026-05-08) [L3-27-a]
+- Net profit before one-off items was Rs 145 crore in Q1 FY27. Reported net profit was Rs 141 crore. Note: This is profit after the share of minority owners. (Investor presentation Q1 FY27, p7, l14, filed, as of 2026-06-30) [L3-27-b]
+- The effective tax rate before one-off items was 21 percent in FY26. It was 23 percent in FY25. Note: The rate is shown before the exceptional item. (S027, Annual report FY26, p242, l41, filed, as of 2026-03-31) [L3-29-a]
+- The effective tax rate before one-off items was 23 percent in FY25. It was 15 percent in FY24. Note: The rate is shown before the exceptional item. (S031, Annual report FY25, p190, l47, filed, as of 2025-03-31) [L3-29-b]
+- Tax expense for FY26 was Rs 79.1 crore. In FY25 it was Rs 457.2 crore. Note: Consolidated figure, with current and deferred tax together. (S027, Annual report FY26, p408, l16, filed, as of 2026-03-31) [L3-30-b]
+- Tax at the 25.17 percent statutory rate was Rs 112.7 crore. The statutory rate was the same in FY25. Note: This is tax on profit before tax, in the FY26 reconciliation. (S027, Annual report FY26, p408, l25, filed, as of 2026-03-31) [L3-30-d]
+- FY26 EBITDA plus the share-based pay charge was about Rs 3,962 crore. Note: Adds the share-based pay charge to Biocon's own EBITDA. (S027, Seat note computed-ratios.md, L3-47 table; annual report FY26, p67, l156, derived, as of 2026-03-31, formula: ebitda_company_basis + share_based_payment_expense, inputs: L3-47-b, L3-47-a) [L3-47-c]
+- FY26 net margin to owners was 2.28 percent. Note: Profit to owners, using average balances where needed. (S027, Derived metrics from the annual-report tables; annual report FY26, p347, derived, as of 2026-03-31, formula: profit_attributable_to_owners / revenue_from_operations x 100, inputs: ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p348) [L3-50-a]
+- FY26 profit to owners fell 61.95 percent from FY25. Note: Profit to owners leaves out the minority holders' share. (S027, Derived metrics from the annual-report tables; annual report FY26, p347, derived, as of 2026-03-31, formula: pat_owners this year / last year - 1, x 100, inputs: ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p349) [L3-66-c]
+- The group's profit for the year was Rs 368.8 crore in FY26. Note: This is profit for the year, before splitting out owners' share. (S026, Annual report FY26, p347, filed, as of 2026-03-31) [L4-2-b]
+- Profit to owners was Rs 1,013.3 crore in FY25. Note: This leaves out the share that belongs to minority holders. (S044, Annual report FY25, p349, filed, as of 2025-03-31) [L4-29-b]
+- Biosimilars EBITDA was about Rs 2,751 crore in FY26. That is an EBITDA margin of 26%. (S027, Annual report FY26, p233, l41, filed, as of 2026-03-31) [L5-25-c]
+- Generics EBITDA was about Rs 165 crore in FY26. (S027, Annual report FY26, p237, l27, filed, as of 2026-03-31) [L5-25-d]
+- FY24 core EBITDA was about Rs 4,195 crore. Group core operating margin was 29%. Note: Core EBITDA, not plain EBITDA, is the figure used here. (S030, Annual report FY24, p71, l9, filed, as of 2024-03-31) [L5-29-a]
+- On 24 May 2023 Kiran Mazumdar-Shaw said to look at core EBITDA. She asked not to read isolated numbers. (S003, Q4 FY23 earnings call, p11, l33, filed, as of 2023-05-24) [L5-51-d]
+- Company-stated EBITDA was 21.99 percent of total income in FY26. Note: It includes other income. (S027, Ten-year derived metrics from annual-report tables; annual report FY26, p67, derived, as of 2026-03-31, formula: ebitda_company_stated / total_income x 100 (the basis the company's own stated margins tie to), inputs: ten-year-inputs-FY16-FY26, ten-year-inputs-FY16-FY26) [L6-29-b]
+- FY25 profit to owners was about Rs 1,013 crore, consolidated. Note: Profit for the year that belongs to owners, not total profit. (S044, Annual report FY25, p349, filed, as of 2025-03-31) [L6-30-a]
+- FY26 profit to owners was about Rs 386 crore, consolidated. Note: Profit for the year that belongs to owners, not total profit. (S026, Annual report FY26, p347, filed, as of 2026-03-31) [L6-30-b]
+- Company-stated EBITDA fell 13.18 percent in FY26 from FY25. Note: It includes other income. (S027, Ten-year derived metrics from annual-report tables; annual report FY26, p67, derived, as of 2026-03-31, formula: this year / last year - 1, x 100, inputs: ten-year-inputs-FY16-FY26) [L6-36-a]
+- Profit to owners was Rs 141.1 crore in the June 2026 quarter. For FY26 it was Rs 385.6 crore. Note: This is profit to the company's owners, not total profit. (Consolidated results, quarter ended 30 June 2026, no page, filed, as of 2026-06-30) [L7-5-a]
+- Owners' profit over the last four quarters adds to Rs 495.3 crore. These are the quarters from September 2025 to June 2026. Note: This is profit to the company's owners, not total profit. (Quarterly results filings, Dec 2025 (quote: Dec 2025 and Sep 2025 quarters), p4, l58, derived, as of 2026-06-30, formula: 845 + 1,438 + 1,259 + 1,411, inputs: consolidated-2025-12-31, consolidated-2026-03-31, consolidated-2026-06-30) [L7-5-b]
+- The tax rate before the one-off item was 21% in FY26. It was 23% in FY25. Note: Rate is before the exceptional item. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p242, l41, filed, as of 2026-03-31) [L7-65-a]
+- In FY26, the report states EBITDA of Rs 3,797.8 crore. EBITDA is earnings before interest, tax and depreciation. Note: This is the company's own EBITDA figure, taken from the report. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p67, l5, filed, as of 2026-03-31) [L7-7-a]
+- Other income in FY26 was Rs 342.5 crore. Interest on deposits was Rs 96.6 crore of that. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p385, l18, filed, as of 2026-03-31) [L7-9-a]
 
-## 2.5 Earnings for each share (14)
+## 2.5 Earnings for each share (12)
 
-- Basic earnings per share were Rs 2.82 in FY26. Note: This is basic EPS, not diluted EPS. (Annual report FY26, p347, filed, as of 2026-03-31)
-- Basic earnings per share were Rs 6.24 in FY21. Note: This is basic EPS, not diluted EPS. (Annual report FY22, p316, filed, as of 2022-03-31)
-- Basic earnings per share fell 66.7% in FY26. Note: This is basic EPS, not diluted EPS. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31)
-- Basic earnings per share fell 66.7% in FY26. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31)
-- Basic earnings per share fell 1.1% in FY25. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p349, derived, as of 2025-03-31)
-- Diluted earnings per share was Rs 2.82 in FY26. Note: This is diluted EPS; basic EPS is also Rs 2.82. (Annual report FY26, p347, filed, as of 2026-03-31)
-- Consolidated basic earnings per share were Rs 6.24 in FY21. Note: This is basic EPS on the consolidated profit. (Annual report FY22 (tables), FY21 comparative, p316, filed, as of 2021-03-31)
-- Consolidated basic earnings per share were Rs 2.82 in FY26. Note: This is basic EPS on the consolidated profit. (Annual report FY26 (tables), p347, filed, as of 2026-03-31)
-- Basic earnings per share was Rs 2.82 in FY26. Note: Basic uses average shares; diluted adds options not yet exercised. (AR tables FY21-FY26 (csv, from the annual reports' statements), p347, filed, as of 2026-03-31)
-- Basic earnings per share was Rs 6.24 in FY21. This is as shown in the FY22 report. Note: Basic uses average shares; diluted adds options not yet exercised. (AR tables FY21-FY26 (csv, from the annual reports' statements), p316, filed, as of 2021-03-31)
-- Profit for each share was Rs 8.46 in FY25. Note: Consolidated basic EPS, not diluted. (AR tables FY21-FY26 (csv, from the annual reports' statements), p349, filed, as of 2025-03-31)
-- Basic earnings per share was Rs 2.82 in FY26. Note: This is basic earnings per share, not diluted. (Annual report FY26, p347, filed, as of 2026-03-31)
-- Basic earnings per share was Rs 8.46 in FY25. Note: This is basic earnings per share, not diluted. (Annual report FY25, p349, filed, as of 2025-03-31)
-- Basic earnings per share fell 66.7% from FY25 to FY26. Note: This is basic earnings per share, not diluted. (derived-metrics-FY21-FY26.csv, p347, derived, as of 2026-03-31)
+- Basic earnings per share were Rs 2.82 in FY26. Note: This is basic EPS, not diluted EPS. (S026, Annual report FY26, p347, filed, as of 2026-03-31) [L2-10-a]
+- Basic earnings per share were Rs 6.24 in FY21. Note: This is basic EPS, not diluted EPS. (S041, Annual report FY22, p316, filed, as of 2022-03-31) [L2-10-b]
+- Basic earnings per share fell 66.7% in FY26. Note: This is basic EPS, not diluted EPS. (S027, Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31, formula: eps_basic this year / last year - 1, x 100, inputs: ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p349) [L2-10-c] Also L2-58-b.
+- Basic earnings per share fell 1.1% in FY25. (S031, Derived metrics FY21-FY26 (our arithmetic on annual-report tables); annual report FY25, p349, derived, as of 2025-03-31, formula: eps_basic this year / last year - 1, x 100, inputs: ar-tables-FY21-FY26 p349, ar-tables-FY21-FY26 p352) [L2-58-d]
+- Diluted earnings per share was Rs 2.82 in FY26. Note: This is diluted EPS; basic EPS is also Rs 2.82. (S026, Annual report FY26, p347, filed, as of 2026-03-31) [L3-46-b]
+- Consolidated basic earnings per share were Rs 6.24 in FY21. Note: This is basic EPS on the consolidated profit. (S041, Annual report FY22 (tables), FY21 comparative, p316, filed, as of 2021-03-31) [L5-65-c]
+- Consolidated basic earnings per share were Rs 2.82 in FY26. Note: This is basic EPS on the consolidated profit. (S026, Annual report FY26 (tables), p347, filed, as of 2026-03-31) [L5-65-d]
+- Basic earnings per share was Rs 2.82 in FY26. Note: Basic uses average shares; diluted adds options not yet exercised. (S026, AR tables FY21-FY26 (csv, from the annual reports' statements), p347, filed, as of 2026-03-31) [L7-40-a] Also L8-43-a.
+- Basic earnings per share was Rs 6.24 in FY21. This is as shown in the FY22 report. Note: Basic uses average shares; diluted adds options not yet exercised. (S041, AR tables FY21-FY26 (csv, from the annual reports' statements), p316, filed, as of 2021-03-31) [L7-40-b]
+- Profit for each share was Rs 8.46 in FY25. Note: Consolidated basic EPS, not diluted. (S044, AR tables FY21-FY26 (csv, from the annual reports' statements), p349, filed, as of 2025-03-31) [L7-91-a]
+- Basic earnings per share was Rs 8.46 in FY25. Note: This is basic earnings per share, not diluted. (S044, Annual report FY25, p349, filed, as of 2025-03-31) [L8-43-b]
+- Basic earnings per share fell 66.7% from FY25 to FY26. Note: This is basic earnings per share, not diluted. (S027, derived-metrics-FY21-FY26.csv, p347, derived, as of 2026-03-31, formula: eps_basic FY26 / eps_basic FY25 - 1, x 100, inputs: ar-tables-FY21-FY26 p347) [L8-43-c]
 
 ## 2.6 Money tied up in stock and bills (31)
 
-- Inventories rose in FY26, using Rs 917.8 crore of cash. Inventories means stock in hand. (Annual report FY26, p349, filed, as of 2026-03-31)
-- Other assets rose in FY26, using Rs 647.1 crore of cash. (Annual report FY26, p349, filed, as of 2026-03-31)
-- Money owed by customers fell in FY26. That freed Rs 624.4 crore of cash. (Annual report FY26, p349, filed, as of 2026-03-31)
-- Inventories were Rs 6,085.7 crore at the end of FY26. (Annual report FY26, p346, filed, as of 2026-03-31)
-- Inventories were Rs 4,931.1 crore at the end of FY25. (Annual report FY25, p348, filed, as of 2025-03-31)
-- Inventories were Rs 4,943.9 crore at the end of FY24. (Annual report FY24, p308, filed, as of 2024-03-31)
-- Inventories were Rs 2,298.2 crore at the end of FY22. (Annual report FY22, p264, filed, as of 2022-03-31)
-- Trade receivables were Rs 5,986.8 crore at the end of FY26. (Annual report FY26, p346, filed, as of 2026-03-31)
-- Trade payables were Rs 6,772.1 crore at the end of FY26. (Annual report FY26, p382, filed, as of 2026-03-31)
-- Trade receivables were Rs 5,487.9 crore at the end of FY25. (Annual report FY25, p348, filed, as of 2025-03-31)
-- Trade payables were Rs 1,608.5 crore at the end of FY22. (Annual report FY22, p322, filed, as of 2022-03-31)
-- Stock equalled 390 days of cost of goods at FY26 end. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p346, derived, as of 2026-03-31)
-- Supplier bills equalled 434 days of cost of goods at FY26 end. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p382, derived, as of 2026-03-31)
-- FY26 raw materials, with goods in transit, were about Rs 1,162 crore. These sit within inventories. (Annual report FY26, p371, filed, as of 2026-03-31)
-- At 31 March 2026, inventories were about Rs 6,086 crore. A year earlier they were about Rs 4,931 crore. (Results filing, year ended 31 March 2026, p33, filed, as of 2026-03-31)
-- At 30 September 2025, inventories were about Rs 5,777 crore. (Results filing, half-year ended 30 September 2025, p8, filed, as of 2025-09-30)
-- At 31 March 2026, trade receivables were about Rs 5,987 crore. A year earlier they were about Rs 5,488 crore. (Results filing, year ended 31 March 2026, p33, filed, as of 2026-03-31)
-- In H1 FY26, the cash flow shows inventories up Rs 750.3 crore. (Results filing, half-year ended 30 September 2025, p9, filed, as of 2025-09-30)
-- Advances from customers were Rs 669.6 crore at FY26 year end. (Annual report FY26, p381, filed, as of 2026-03-31)
-- Total contract liabilities were about Rs 1,279 crore at FY26 year end. (Annual report FY26, p384, filed, as of 2026-03-31)
-- Advance to suppliers was Rs 113.6 crore at FY26 year end. (Annual report FY26, p371, filed, as of 2026-03-31)
-- In FY26 the company released Rs 8.2 crore of Generics inventory provision. It now sets provisions by remaining shelf life, not age. (Annual report FY26, p371, filed, as of 2026-03-31)
-- FY26 receivable days were 129.09, using the year-end balance. Note: Uses the year-end balance, not an average. (Annual-report tables, derived block, p346, derived, as of 2026-03-31)
-- FY26 receivables ageing table totalled about Rs 8,850 crore. This is before deductions. (Annual report FY26, p372, filed, as of 2026-03-31)
-- FY26 receivables over six months overdue were Rs 208.7 crore. (Annual report FY26, p372, derived, as of 2026-03-31)
-- The FY26 receivables table deducts Rs 2,778 crore. These are chargebacks, discounts and rebates. (Annual report FY26, p372, filed, as of 2026-03-31)
-- FY26 expected credit loss allowance on receivables was Rs 85 crore. (Annual report FY26, p372, filed, as of 2026-03-31)
-- FY25 expected credit loss allowance on receivables was Rs 62.7 crore. (Annual report FY26, p372, filed, as of 2025-03-31)
-- The group took Rs 474 crore of receivables off its books. That was at FY26 year end, under an invoice purchase facility. (Annual report FY26, p372, filed, as of 2026-03-31)
-- The group took Rs 707.4 crore of receivables off its books. That was at FY25 year end, under an invoice purchase facility. (Annual report FY26, p372, filed, as of 2025-03-31)
-- The standalone company took Rs 57.7 crore of receivables off its books. That was at FY26 year end, under an invoice purchase facility. (Annual report FY26, p305, filed, as of 2026-03-31)
+- Inventories rose in FY26, using Rs 917.8 crore of cash. Inventories means stock in hand. (S027, Annual report FY26, p349, l27, filed, as of 2026-03-31) [L1-42-a]
+- Other assets rose in FY26, using Rs 647.1 crore of cash. (S027, Annual report FY26, p349, l29, filed, as of 2026-03-31) [L1-42-b]
+- Money owed by customers fell in FY26. That freed Rs 624.4 crore of cash. (S027, Annual report FY26, p349, l28, filed, as of 2026-03-31) [L1-42-c]
+- Inventories were Rs 6,085.7 crore at the end of FY26. (S026, Annual report FY26, p346, filed, as of 2026-03-31) [L2-36-a]
+- Inventories were Rs 4,931.1 crore at the end of FY25. (S044, Annual report FY25, p348, filed, as of 2025-03-31) [L2-36-b]
+- Inventories were Rs 4,943.9 crore at the end of FY24. (S043, Annual report FY24, p308, filed, as of 2024-03-31) [L2-36-c]
+- Inventories were Rs 2,298.2 crore at the end of FY22. (S041, Annual report FY22, p264, filed, as of 2022-03-31) [L2-36-d]
+- Trade receivables were Rs 5,986.8 crore at the end of FY26. (S026, Annual report FY26, p346, filed, as of 2026-03-31) [L2-37-a]
+- Trade payables were Rs 6,772.1 crore at the end of FY26. (S026, Annual report FY26, p382, filed, as of 2026-03-31) [L2-37-b]
+- Trade receivables were Rs 5,487.9 crore at the end of FY25. (S044, Annual report FY25, p348, filed, as of 2025-03-31) [L2-37-c]
+- Trade payables were Rs 1,608.5 crore at the end of FY22. (S041, Annual report FY22, p322, filed, as of 2022-03-31) [L2-37-d]
+- Stock equalled 390 days of cost of goods at FY26 end. (S027, Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p346, derived, as of 2026-03-31, formula: inventories / cost_of_goods x 365 (year-end balance, cost_of_goods includes the inventory change), inputs: ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347) [L2-38-c]
+- Supplier bills equalled 434 days of cost of goods at FY26 end. (S027, Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p382, derived, as of 2026-03-31, formula: trade_payables_total / cost_of_goods x 365 (FY24 uses the sum of the two printed lines), blank where payables are not on file (FY23, FY25), inputs: ar-tables-FY21-FY26 p382, ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347) [L2-38-d]
+- FY26 raw materials, with goods in transit, were about Rs 1,162 crore. These sit within inventories. (Annual report FY26, p371, l19, filed, as of 2026-03-31) [L3-11-c]
+- At 31 March 2026, inventories were about Rs 6,086 crore. A year earlier they were about Rs 4,931 crore. (Results filing, year ended 31 March 2026, p33, l23, filed, as of 2026-03-31) [L3-12-a]
+- At 30 September 2025, inventories were about Rs 5,777 crore. (Results filing, half-year ended 30 September 2025, p8, l81, filed, as of 2025-09-30) [L3-12-b]
+- At 31 March 2026, trade receivables were about Rs 5,987 crore. A year earlier they were about Rs 5,488 crore. (Results filing, year ended 31 March 2026, p33, l26, filed, as of 2026-03-31) [L3-12-c]
+- In H1 FY26, the cash flow shows inventories up Rs 750.3 crore. (Results filing, half-year ended 30 September 2025, p9, l36, filed, as of 2025-09-30) [L3-12-d]
+- Advances from customers were Rs 669.6 crore at FY26 year end. (S027, Annual report FY26, p381, l26, filed, as of 2026-03-31) [L3-15-a]
+- Total contract liabilities were about Rs 1,279 crore at FY26 year end. (S027, Annual report FY26, p384, l26, filed, as of 2026-03-31) [L3-15-b]
+- Advance to suppliers was Rs 113.6 crore at FY26 year end. (S027, Annual report FY26, p371, l19, filed, as of 2026-03-31) [L3-17-a]
+- In FY26 the company released Rs 8.2 crore of Generics inventory provision. It now sets provisions by remaining shelf life, not age. (S027, Annual report FY26, p371, l42, filed, as of 2026-03-31) [L3-48-a]
+- FY26 receivable days were 129.09, using the year-end balance. Note: Uses the year-end balance, not an average. (S027, Annual-report tables, derived block; annual report FY26, p346, derived, as of 2026-03-31, formula: derived: trade_receivables / revenue_from_operations x 365 (year-end balance), inputs: ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p347) [L3-5-c]
+- FY26 receivables ageing table totalled about Rs 8,850 crore. This is before deductions. (S027, Annual report FY26, p372, l47, filed, as of 2026-03-31) [L3-6-a]
+- FY26 receivables over six months overdue were Rs 208.7 crore. (S027, Annual report FY26, p372, derived, as of 2026-03-31, formula: 6 months-1 year + 1-2 years + 2-3 years + more than 3 years, inputs: L3-6-a) [L3-6-b]
+- The FY26 receivables table deducts Rs 2,778 crore. These are chargebacks, discounts and rebates. (S027, Annual report FY26, p372, l49, filed, as of 2026-03-31) [L3-6-c]
+- FY26 expected credit loss allowance on receivables was Rs 85 crore. (S027, Annual report FY26, p372, l31, filed, as of 2026-03-31) [L3-7-a]
+- FY25 expected credit loss allowance on receivables was Rs 62.7 crore. (S027, Annual report FY26, p372, l31, filed, as of 2025-03-31) [L3-7-b]
+- The group took Rs 474 crore of receivables off its books. That was at FY26 year end, under an invoice purchase facility. (S027, Annual report FY26, p372, l38, filed, as of 2026-03-31) [L3-9-a]
+- The group took Rs 707.4 crore of receivables off its books. That was at FY25 year end, under an invoice purchase facility. (S027, Annual report FY26, p372, l38, filed, as of 2025-03-31) [L3-9-b]
+- The standalone company took Rs 57.7 crore of receivables off its books. That was at FY26 year end, under an invoice purchase facility. (S027, Annual report FY26, p305, l68, filed, as of 2026-03-31) [L3-9-c]
 
 ## 3.1 Cash from the business (22)
 
-- Operating profit before changes in assets and liabilities was Rs 3,368.8 crore. That is for FY26. (Annual report FY26, p349, filed, as of 2026-03-31)
-- Net cash from operating activities was Rs 1,852.5 crore in FY23. (Annual report FY23, p366, filed, as of 2023-03-31)
-- Cash from operations was 0.525 times EBITDA in FY26. EBITDA means profit before interest, tax and wear charges. Note: EBITDA here is profit before tax plus finance costs and depreciation. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p349, derived, as of 2026-03-31)
-- Cash from operations was 5.41 times profit for the year in FY26. Profit here counts the minority share. Note: Profit for the year, including minority share, not owners' profit. (Annual report FY26 (derived row in ar-tables), p349, derived, as of 2026-03-31)
-- Cash from operations was 2.84 times profit for the year in FY25. Profit here counts the minority share. Note: Profit for the year, including minority share, not owners' profit. (Annual report FY25 (derived row in ar-tables), p351, derived, as of 2025-03-31)
-- Free cash flow was Rs 82.3 crore in FY26. Free cash flow is operating cash less spending on plants and intangibles. Note: Cash spent on plants and intangibles is taken off operating cash. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p349, derived, as of 2026-03-31)
-- Free cash flow was Rs 1,717.9 crore in FY25. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p351, derived, as of 2025-03-31)
-- Free cash flow was Rs 1,022.3 crore in FY24. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p311, derived, as of 2024-03-31)
-- FY26 net cash from operations was Rs 1,994 crore. (Annual report FY26, p349, filed, as of 2026-03-31)
-- FY25 net cash from operations was about Rs 4,061 crore. (Annual report FY25, p351, filed, as of 2025-03-31)
-- FY24 net cash from operations was about Rs 2,954 crore. (Annual report FY24, p311, filed, as of 2024-03-31)
-- FY26 cash flow adds back Rs 163.9 crore of share-based pay. (Annual report FY26, p349, filed, as of 2026-03-31)
-- FY26 cash flow adds back Rs 103.6 crore of preferential allotment expenses. (Annual report FY26, p349, filed, as of 2026-03-31)
-- FY26 free cash flow was Rs 82.3 crore. Note: Operating cash less spending on plant, equipment and intangibles. (Derived metrics from the annual-report tables, p349, derived, as of 2026-03-31)
-- FY25 free cash flow was about Rs 1,718 crore. Note: Operating cash less spending on plant, equipment and intangibles. (Derived metrics from the annual-report tables, p351, derived, as of 2025-03-31)
-- Net cash from operations was Rs 640 crore in FY17. In FY16 it was Rs 370.6 crore. Note: This is the consolidated cash flow figure. (Annual report FY17, p229, filed, as of 2017-03-31)
-- FY26 cash flow adjusts for a Rs 39.7 crore unrealised exchange gain. (Annual report FY26, p349, filed, as of 2026-03-31)
-- Income taxes paid, net of refunds, were Rs 242.6 crore in FY26. In FY25 they were Rs 459.6 crore. Note: This is the consolidated cash flow figure. (Annual report FY26, p349, filed, as of 2026-03-31)
-- Operating cash was 5.41 times profit for the year in FY26. (ar-tables-FY21-FY26.csv derived line, p349, derived, as of 2026-03-31)
-- Operating cash flow over five years totals Rs 12,038.2 crore. Years covered are FY22 to FY26, consolidated. Note: Net cash from operating activities, consolidated, not standalone. (Annual reports FY22 to FY26 (tables), p267, derived, as of 2026-03-31)
-- Operating cash flow less plant purchases was Rs 196.1 crore in FY26. This is consolidated. Note: Deducts plant and equipment purchases; intangibles are not deducted. (Annual report FY26 (tables), p349, derived, as of 2026-03-31)
-- Free cash flow in FY26 was Rs 82.3 crore. It is after spending on plant and intangibles. Note: Free cash flow here is operating cash flow less capital spending. (Derived metrics FY21-FY26 (csv), p349, derived, as of 2026-03-31)
+- Operating profit before changes in assets and liabilities was Rs 3,368.8 crore. That is for FY26. (S027, Annual report FY26, p349, l25, filed, as of 2026-03-31) [L1-41-d]
+- Net cash from operating activities was Rs 1,852.5 crore in FY23. (S042, Annual report FY23, p366, filed, as of 2023-03-31) [L2-34-d]
+- Cash from operations was 0.525 times EBITDA in FY26. EBITDA means profit before interest, tax and wear charges. Note: EBITDA here is profit before tax plus finance costs and depreciation. (S027, Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p349, derived, as of 2026-03-31, formula: net_cash_from_operating / ebitda_company_basis, inputs: ar-tables-FY21-FY26 p349, ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347) [L2-35-a]
+- Cash from operations was 5.41 times profit for the year in FY26. Profit here counts the minority share. Note: Profit for the year, including minority share, not owners' profit. (S027, Annual report FY26 (derived row in ar-tables), p349, derived, as of 2026-03-31, formula: net_cash_from_operating / profit_attributable_to_owners, inputs: ar-tables-FY21-FY26 p349, ar-tables-FY21-FY26 p347) [L2-35-b]
+- Cash from operations was 2.84 times profit for the year in FY25. Profit here counts the minority share. Note: Profit for the year, including minority share, not owners' profit. (S031, Annual report FY25 (derived row in ar-tables), p351, derived, as of 2025-03-31, formula: net_cash_from_operating / profit_attributable_to_owners, inputs: ar-tables-FY21-FY26 p351, ar-tables-FY21-FY26 p349) [L2-35-c]
+- Free cash flow was Rs 82.3 crore in FY26. Free cash flow is operating cash less spending on plants and intangibles. Note: Cash spent on plants and intangibles is taken off operating cash. (S027, Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p349, derived, as of 2026-03-31, formula: net_cash_from_operating + purchase_of_ppe_and_intangibles + purchase_of_intangible_assets (where on file), PP&E and intangibles, inputs: ar-tables-FY21-FY26 p349, ar-tables-FY21-FY26 p349) [L2-39-a]
+- Free cash flow was Rs 1,717.9 crore in FY25. (S031, Derived metrics FY21-FY26 (our arithmetic on annual-report tables); annual report FY25, p351, derived, as of 2025-03-31, formula: net_cash_from_operating + purchase_of_ppe_and_intangibles + purchase_of_intangible_assets (where on file), PP&E and intangibles, inputs: ar-tables-FY21-FY26 p351, ar-tables-FY21-FY26 p351) [L2-39-b]
+- Free cash flow was Rs 1,022.3 crore in FY24. (S030, Derived metrics FY21-FY26 (our arithmetic on annual-report tables); annual report FY24, p311, derived, as of 2024-03-31, formula: net_cash_from_operating + purchase_of_ppe_and_intangibles + purchase_of_intangible_assets (where on file), PP&E and intangibles, inputs: ar-tables-FY21-FY26 p311, ar-tables-FY21-FY26 p311) [L2-39-c]
+- FY26 net cash from operations was Rs 1,994 crore. (S026, Annual report FY26, p349, filed, as of 2026-03-31) [L3-0-a]
+- FY25 net cash from operations was about Rs 4,061 crore. (S044, Annual report FY25, p351, filed, as of 2025-03-31) [L3-0-b]
+- FY24 net cash from operations was about Rs 2,954 crore. (S043, Annual report FY24, p311, filed, as of 2024-03-31) [L3-0-c]
+- FY26 cash flow adds back Rs 163.9 crore of share-based pay. (S027, Annual report FY26, p349, l11, filed, as of 2026-03-31) [L3-16-a]
+- FY26 cash flow adds back Rs 103.6 crore of preferential allotment expenses. (S027, Annual report FY26, p349, l16, filed, as of 2026-03-31) [L3-16-d]
+- FY26 free cash flow was Rs 82.3 crore. Note: Operating cash less spending on plant, equipment and intangibles. (S027, Derived metrics from the annual-report tables; annual report FY26, p349, derived, as of 2026-03-31, formula: net_cash_from_operating + purchase_of_ppe_and_intangibles + purchase_of_intangible_assets (where on file), PP&E and intangibles, inputs: ar-tables-FY21-FY26 p349, ar-tables-FY21-FY26 p349, ar-tables-FY21-FY26 p349) [L3-18-c]
+- FY25 free cash flow was about Rs 1,718 crore. Note: Operating cash less spending on plant, equipment and intangibles. (S031, Derived metrics from the annual-report tables; annual report FY25, p351, derived, as of 2025-03-31, formula: net_cash_from_operating + purchase_of_ppe_and_intangibles + purchase_of_intangible_assets (where on file), PP&E and intangibles, inputs: ar-tables-FY21-FY26 p351, ar-tables-FY21-FY26 p351, ar-tables-FY21-FY26 p351) [L3-18-d]
+- Net cash from operations was Rs 640 crore in FY17. In FY16 it was Rs 370.6 crore. Note: This is the consolidated cash flow figure. (Annual report FY17, p229, l31, filed, as of 2017-03-31) [L3-2-c]
+- FY26 cash flow adjusts for a Rs 39.7 crore unrealised exchange gain. (S027, Annual report FY26, p349, l10, filed, as of 2026-03-31) [L3-25-c]
+- Income taxes paid, net of refunds, were Rs 242.6 crore in FY26. In FY25 they were Rs 459.6 crore. Note: This is the consolidated cash flow figure. (S027, Annual report FY26, p349, l32, filed, as of 2026-03-31) [L3-30-a]
+- Operating cash was 5.41 times profit for the year in FY26. (S027, ar-tables-FY21-FY26.csv derived line, p349, derived, as of 2026-03-31, formula: net_cash_from_operating / profit_for_the_year, inputs: ar-tables-FY21-FY26 p349, ar-tables-FY21-FY26 p347) [L4-2-c]
+- Operating cash flow over five years totals Rs 12,038.2 crore. Years covered are FY22 to FY26, consolidated. Note: Net cash from operating activities, consolidated, not standalone. (Annual reports FY22 to FY26 (tables), p267, derived, as of 2026-03-31, formula: 11,766 + 18,525 + 29,539 + 40,612 + 19,940, inputs: another finding p267, another finding p366, another finding p311, another finding p351) [L5-61-d]
+- Operating cash flow less plant purchases was Rs 196.1 crore in FY26. This is consolidated. Note: Deducts plant and equipment purchases; intangibles are not deducted. (S026, Annual report FY26 (tables), p349, derived, as of 2026-03-31, formula: 19,940 - 17,979, inputs: another finding p349, another finding p349) [L5-70-a]
+- Free cash flow in FY26 was Rs 82.3 crore. It is after spending on plant and intangibles. Note: Free cash flow here is operating cash flow less capital spending. (S027, Derived metrics FY21-FY26 (csv), p349, derived, as of 2026-03-31, formula: net_cash_from_operating + purchase_of_ppe_and_intangibles + purchase_of_intangible_assets, inputs: ar-tables-FY21-FY26 p349, ar-tables-FY21-FY26 p349, ar-tables-FY21-FY26 p349) [L7-54-a]
 
 ## 3.2 Spending on plants and know-how (38)
 
-- Property, plant and equipment was 9,472.8 crore at the end of FY26. (Annual report FY26, p346, filed, as of 2026-03-31)
-- Capital work in progress was 48.7% of property, plant and equipment. This is at the end of FY26. (Derived from the filings listed in inputs, p346, derived, as of 2026-03-31)
-- Of the work in progress, 376.1 crore was over 3 years old. This is at the end of FY26. (Annual report FY26, p366, filed, as of 2026-03-31)
-- Cash paid for plant and equipment was Rs 1,797.9 crore in FY26. Note: Plant and equipment line alone; intangibles are a separate line. (Annual report FY26, p349, filed, as of 2026-03-31)
-- Capital advances were Rs 70.6 crore at FY26 year end. (Annual report FY26, p371, filed, as of 2026-03-31)
-- FY26 spend on property, plant and equipment was about Rs 1,798 crore. (Annual report FY26, p349, filed, as of 2026-03-31)
-- FY26 cash spent on plants and intangibles was 0.98 times depreciation. (Derived metrics from the annual-report tables, p349, derived, as of 2026-03-31)
-- Gross cost of property and equipment was Rs 17,304.1 crore in FY26. Depreciation to date is Rs 7,831.3 crore. (Annual report FY26, p365, filed, as of 2026-03-31)
-- FY26 depreciation was 6.28 percent of closing gross property and equipment. (Annual report FY26, p365, derived, as of 2026-03-31)
-- Management said group capex is now under USD 225 million. It said this on the Q3 FY26 call. (Earnings call Q3 FY26, p11, filed, as of 2026-02-13)
-- Capital work-in-progress was Rs 4,612.7 crore at the end of FY26. Those are assets under construction. (Annual report FY26, p346, filed, as of 2026-03-31)
-- Intangibles under development were Rs 2,374 crore at the end of FY26. It was Rs 4,406.7 crore a year earlier. (Annual report FY26, p346, filed, as of 2026-03-31)
-- The policy adds development spending to assets once set criteria are met. Research spending is charged to profit as it happens. (Annual report FY26, p356, filed, as of 2026-03-31)
-- FY26 goodwill was about Rs 18,378 crore. (Annual report FY26, p346, filed, as of 2026-03-31)
-- FY26 total equity was about Rs 36,622 crore. (Annual report FY26, p346, filed, as of 2026-03-31)
-- FY26 goodwill was 50.18 percent of total equity. (Derived metrics from the annual-report tables, p346, derived, as of 2026-03-31)
-- The FY26 impairment test uses a 14.5 percent post-tax discount rate. The pre-tax rate is 17.5 percent. Note: Post-tax is the group's weighted average cost of capital. (Annual report FY26, p419, filed, as of 2026-03-31)
-- The FY26 impairment test assumes 2 percent growth beyond its forecast. The forecast runs for ten years. (Annual report FY26, p419, filed, as of 2026-03-31)
-- In FY26 the whole group is tested as one cash-generating unit. Its value is set by projected cash flows. (Annual report FY26, p419, filed, as of 2026-03-31)
-- Property and equipment commitments were Rs 1,023.8 crore at FY26 end. These are net of advances. (Annual report FY26, p397, filed, as of 2026-03-31)
-- FY26 right-of-use assets were Rs 578 crore. (Annual report FY26, p346, filed, as of 2026-03-31)
-- The CFO said FY26 capital spending was about Rs 1,912 crore. That is down from about Rs 2,343 crore in FY25. (Annual report FY26, p32, filed, as of 2026-03-31)
-- Shreehas Tambe said insulin drug product capacity comes online in FY27. On 13 Feb 2026 he said Biocon Biologics expects to double capacity. [forecast, not a fact] (S012, Q3 FY26 earnings call, no page, filed, as of 2026-02-13)
-- Shreehas Tambe spoke on the 8 May 2026 call about capacity. He said the Malaysia drug product line comes on stream this quarter. [forecast, not a fact] (S013, Q4 FY26 earnings call, no page, filed, as of 2026-05-08)
-- The Q4 FY26 deck says the major capacity build-out is substantially complete. It covers biosimilars, insulins, peptides and complex generics. (Q4 FY26 investor presentation, p5, filed, as of 2026-05-08)
-- Overdue Biosimilars and CRDMO projects held about Rs 1,989 crore. That is work in progress at 31 March 2026. (Annual report FY26, note on capital work in progress, p366, filed, as of 2026-03-31)
-- FY26 cash flow shows Rs 3,628.7 crore paid for subsidiary shares. It is the consolidated statement. (Annual report FY26, cash flow statement, p349, filed, as of 2026-03-31)
-- Cash paid for plant, equipment and intangibles was about Rs 2,343 crore. This is FY25. (Derived metrics from the annual-report tables, p351, derived, as of 2025-03-31)
-- In February 2026, management spoke of group capex each year. It moved from USD 275 million plus to under USD 225 million. (Earnings call Q3 FY26, p11, filed, as of 2026-02-13)
-- The balance sheet shows capital work-in-progress of about Rs 4,613 crore. A year earlier it was about Rs 4,102 crore. (Annual report FY26, p346, filed, as of 2025-03-31)
-- Cash paid for plant, equipment and intangibles was about Rs 1,912 crore. This is FY26. (Derived metrics from the annual-report tables, p349, derived, as of 2026-03-31)
-- Cash paid for plant and equipment was about Rs 1,698 crore. That is for FY22; intangibles are left out. Note: Intangibles bought are not on file for FY22. (Derived metrics from the annual-report tables, p267, derived, as of 2022-03-31)
-- Intangible assets under development were Rs 2,374 crore at end of FY26. A year earlier it was Rs 4,406.7 crore. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p346, filed, as of 2026-03-31)
-- Capital work in progress over three years old was Rs 376.1 crore. This is the amount at FY26 year end. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p366, filed, as of 2026-03-31)
-- Plant and equipment spending was about Rs 2,137 crore in FY25. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p349, filed, as of 2025-03-31)
-- In FY26 the group is tested for goodwill loss as one unit. It assumes 2% growth a year after the forecast years. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p419, filed, as of 2026-03-31)
-- The test discounts future cash at 14.5% after tax, 17.5% before tax. Note: Two rates are used, one after tax and one before. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p419, filed, as of 2026-03-31)
-- Assets under construction were about Rs 4,613 crore at end of FY26. (AR tables FY21-FY26 (csv, from the annual reports' statements), p346, filed, as of 2026-03-31)
+- Property, plant and equipment was 9,472.8 crore at the end of FY26. (S026, Annual report FY26, p346, filed, as of 2026-03-31) [L2-31-b]
+- Capital work in progress was 48.7% of property, plant and equipment. This is at the end of FY26. (S027, Derived from the filings listed in inputs; annual report FY26, p346, derived, as of 2026-03-31, formula: cwip / property_plant_equipment x 100, inputs: ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p346) [L2-31-c]
+- Of the work in progress, 376.1 crore was over 3 years old. This is at the end of FY26. (S027, Annual report FY26, p366, l13, filed, as of 2026-03-31) [L2-31-d]
+- Cash paid for plant and equipment was Rs 1,797.9 crore in FY26. Note: Plant and equipment line alone; intangibles are a separate line. (S026, Annual report FY26, p349, filed, as of 2026-03-31) [L2-41-a]
+- Capital advances were Rs 70.6 crore at FY26 year end. (S027, Annual report FY26, p371, l12, filed, as of 2026-03-31) [L3-17-b]
+- FY26 spend on property, plant and equipment was about Rs 1,798 crore. (S026, Annual report FY26, p349, filed, as of 2026-03-31) [L3-18-b]
+- FY26 cash spent on plants and intangibles was 0.98 times depreciation. (S027, Derived metrics from the annual-report tables; annual report FY26, p349, derived, as of 2026-03-31, formula: capex_cash / depreciation_amortisation, inputs: ar-tables-FY21-FY26 p349, ar-tables-FY21-FY26 p349, ar-tables-FY21-FY26 p347) [L3-19-c]
+- Gross cost of property and equipment was Rs 17,304.1 crore in FY26. Depreciation to date is Rs 7,831.3 crore. (S027, Annual report FY26, p365, l3, filed, as of 2026-03-31) [L3-37-a]
+- FY26 depreciation was 6.28 percent of closing gross property and equipment. (S027, Annual report FY26, p365, derived, as of 2026-03-31, formula: 10864 / 173041 x 100, inputs: L3-37-b, L3-37-a) [L3-37-c]
+- Management said group capex is now under USD 225 million. It said this on the Q3 FY26 call. (Earnings call Q3 FY26, p11, l548, filed, as of 2026-02-13) [L3-4-b]
+- Capital work-in-progress was Rs 4,612.7 crore at the end of FY26. Those are assets under construction. (S027, Annual report FY26, p346, l9, filed, as of 2026-03-31) [L3-40-a]
+- Intangibles under development were Rs 2,374 crore at the end of FY26. It was Rs 4,406.7 crore a year earlier. (S027, Annual report FY26, p346, l13, filed, as of 2026-03-31) [L3-40-b]
+- The policy adds development spending to assets once set criteria are met. Research spending is charged to profit as it happens. (S027, Annual report FY26, p356, l54, filed, as of 2026-03-31) [L3-40-d]
+- FY26 goodwill was about Rs 18,378 crore. (S026, Annual report FY26, p346, filed, as of 2026-03-31) [L3-42-a]
+- FY26 total equity was about Rs 36,622 crore. (S026, Annual report FY26, p346, filed, as of 2026-03-31) [L3-42-b]
+- FY26 goodwill was 50.18 percent of total equity. (S027, Derived metrics from the annual-report tables; annual report FY26, p346, derived, as of 2026-03-31, formula: goodwill / total_equity x 100, inputs: ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p346) [L3-42-c]
+- The FY26 impairment test uses a 14.5 percent post-tax discount rate. The pre-tax rate is 17.5 percent. Note: Post-tax is the group's weighted average cost of capital. (S027, Annual report FY26, p419, l24, filed, as of 2026-03-31) [L3-43-a]
+- The FY26 impairment test assumes 2 percent growth beyond its forecast. The forecast runs for ten years. (S027, Annual report FY26, p419, l22, filed, as of 2026-03-31) [L3-43-b]
+- In FY26 the whole group is tested as one cash-generating unit. Its value is set by projected cash flows. (S027, Annual report FY26, p419, l18, filed, as of 2026-03-31) [L3-43-c]
+- Property and equipment commitments were Rs 1,023.8 crore at FY26 end. These are net of advances. (S027, Annual report FY26, p397, l38, filed, as of 2026-03-31) [L3-60-b]
+- FY26 right-of-use assets were Rs 578 crore. (S026, Annual report FY26, p346, filed, as of 2026-03-31) [L3-78-a]
+- The CFO said FY26 capital spending was about Rs 1,912 crore. That is down from about Rs 2,343 crore in FY25. (S027, Annual report FY26, p32, l5, filed, as of 2026-03-31) [L5-13-b]
+- Shreehas Tambe said insulin drug product capacity comes online in FY27. On 13 Feb 2026 he said Biocon Biologics expects to double capacity. [forecast, not a fact] (S012, Q3 FY26 earnings call, no page, filed, as of 2026-02-13) [L5-40-b]
+- Shreehas Tambe spoke on the 8 May 2026 call about capacity. He said the Malaysia drug product line comes on stream this quarter. [forecast, not a fact] (S013, Q4 FY26 earnings call, no page, filed, as of 2026-05-08) [L5-40-c]
+- The Q4 FY26 deck says the major capacity build-out is substantially complete. It covers biosimilars, insulins, peptides and complex generics. (Q4 FY26 investor presentation, p5, l89, filed, as of 2026-05-08) [L5-40-d]
+- Overdue Biosimilars and CRDMO projects held about Rs 1,989 crore. That is work in progress at 31 March 2026. (S027, Annual report FY26, note on capital work in progress, p366, l32, filed, as of 2026-03-31) [L5-50-a]
+- FY26 cash flow shows Rs 3,628.7 crore paid for subsidiary shares. It is the consolidated statement. (S027, Annual report FY26, cash flow statement, p349, l48, filed, as of 2026-03-31) [L5-62-d]
+- Cash paid for plant, equipment and intangibles was about Rs 2,343 crore. This is FY25. (S031, Derived metrics from the annual-report tables; annual report FY25, p351, derived, as of 2025-03-31, formula: -(purchase_of_ppe_and_intangibles + purchase_of_intangible_assets where on file), PP&E and intangibles, inputs: ar-tables-FY21-FY26 p351, ar-tables-FY21-FY26 p351) [L6-53-b]
+- In February 2026, management spoke of group capex each year. It moved from USD 275 million plus to under USD 225 million. (Earnings call Q3 FY26, p11, l548, filed, as of 2026-02-13) [L6-53-c]
+- The balance sheet shows capital work-in-progress of about Rs 4,613 crore. A year earlier it was about Rs 4,102 crore. (S027, Annual report FY26, p346, l9, filed, as of 2025-03-31) [L6-54-b]
+- Cash paid for plant, equipment and intangibles was about Rs 1,912 crore. This is FY26. (S027, Derived metrics from the annual-report tables; annual report FY26, p349, derived, as of 2026-03-31, formula: -(purchase_of_ppe_and_intangibles + purchase_of_intangible_assets where on file), PP&E and intangibles, inputs: ar-tables-FY21-FY26 p349, ar-tables-FY21-FY26 p349) [L6-56-a]
+- Cash paid for plant and equipment was about Rs 1,698 crore. That is for FY22; intangibles are left out. Note: Intangibles bought are not on file for FY22. (S028, Derived metrics from the annual-report tables; annual report FY22, p267, derived, as of 2022-03-31, formula: -(purchase_of_ppe_and_intangibles + purchase_of_intangible_assets where on file), PP&E only: intangibles purchased are not on file for this year, inputs: ar-tables-FY21-FY26 p267) [L6-56-b]
+- Intangible assets under development were Rs 2,374 crore at end of FY26. A year earlier it was Rs 4,406.7 crore. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p346, l13, filed, as of 2026-03-31) [L7-110-a]
+- Capital work in progress over three years old was Rs 376.1 crore. This is the amount at FY26 year end. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p366, l13, filed, as of 2026-03-31) [L7-30-b]
+- Plant and equipment spending was about Rs 2,137 crore in FY25. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p349, l35, filed, as of 2025-03-31) [L7-57-b]
+- In FY26 the group is tested for goodwill loss as one unit. It assumes 2% growth a year after the forecast years. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p419, l22, filed, as of 2026-03-31) [L7-58-a]
+- The test discounts future cash at 14.5% after tax, 17.5% before tax. Note: Two rates are used, one after tax and one before. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p419, l24, filed, as of 2026-03-31) [L7-58-b]
+- Assets under construction were about Rs 4,613 crore at end of FY26. (AR tables FY21-FY26 (csv, from the annual reports' statements), p346, filed, as of 2026-03-31) [L7-63-b]
 
-## 3.3 Loans and interest (56)
+## 3.3 Loans and interest (55)
 
-- In FY26 Biocon moved some loans from long-term to short-term. The 31 March 2025 figures were restated to match. (Annual report FY26, p364, filed, as of 2026-03-31)
-- Gross borrowings were Rs 17,755.5 crore at the end of FY25. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p348, derived, as of 2025-03-31)
-- Net debt was Rs 10,416.8 crore at the end of FY26. A year earlier it was Rs 12,830.0 crore. Note: Net debt as Biocon reports it in its annual report. (Annual report FY26, p244, filed, as of 2026-03-31)
-- Repayment of non-current borrowings was Rs 2,707.9 crore in FY26. (Annual report FY26, p349, filed, as of 2026-03-31)
-- Biocon says its net debt to EBITDA ratio was 2.7x in FY26. (Annual report FY26, p32, filed, as of 2026-03-31)
-- Borrowings less cash and investments were Rs 10,941.3 crore at FY26 end. Note: Borrowings less cash and investments, with leases left out. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p346, derived, as of 2026-03-31)
-- Borrowings due in 1 to 2 years: Rs 1,300.3 crore. (Annual report FY26, p404, filed, as of 2026-03-31)
-- Borrowings due in 2 to 5 years: Rs 6,976.7 crore. (Annual report FY26, p404, filed, as of 2026-03-31)
-- Biocon Biologics' US dollar notes pay 6.67% a year. They mature in October 2029. (Annual report FY26, p376, filed, as of 2026-03-31)
-- Current lease liabilities were Rs 72.4 crore at the end of FY26. (Annual report FY26, p346, filed, as of 2026-03-31)
-- Total lease liabilities were Rs 609.4 crore at the end of FY26. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p346, derived, as of 2026-03-31)
-- The RBI Handbook lists a call money rate of 5.45% for 2025-26. (RBI Handbook of Statistics on Indian Economy, Table 59, no page, third-party, as of 2026-03-31, rbi.org.in)
-- Borrowings due in a year were Rs 6,547.6 crore at FY26 end. The total in the maturity table was Rs 14,824.6 crore. Note: These are undiscounted amounts from the maturity table. (Annual report FY26, p404, filed, as of 2026-03-31)
-- FY26 interest expense is net of Rs 159.7 crore capitalised borrowing cost. In FY25 that was Rs 588.4 crore. (Annual report FY26, p386, filed, as of 2026-03-31)
-- FY26 total borrowings were about Rs 14,825 crore. That adds short-term and long-term loans. (Derived metrics from the annual-report tables, p346, derived, as of 2026-03-31)
-- The company repaid Rs 2,707.9 crore of non-current borrowings in FY26. That compares with Rs 9,769.9 crore in FY25. (Annual report FY26, p349, filed, as of 2026-03-31)
-- The CEO says the fund raise retired the structured debt. It also bought out minority holders in Biocon Biologics. (Annual report FY26, letter to shareholders, p23, filed, as of 2026-03-31)
-- Borrowings fell Rs 2,930.8 crore in FY26. They went from Rs 17,755.5 crore to Rs 14,824.7 crore. (Annual report FY26, p346, derived, as of 2026-03-31)
-- At the end of FY26, borrowings totalled Rs 14,824.6 crore. Rs 6,547.6 crore of that is due within a year. (Annual report FY26, p404, filed, as of 2026-03-31)
-- At the end of FY25, borrowings totalled Rs 17,755.5 crore. Rs 5,349.8 crore of that was due within a year. (Annual report FY26, p404, filed, as of 2025-03-31)
-- FY26 EBITDA covered finance costs 3.83 times. (Derived metrics from the annual-report tables, p347, derived, as of 2026-03-31)
-- Short-term borrowings were 27.51 percent of FY26 total borrowings. (Derived metrics from the annual-report tables, p346, derived, as of 2026-03-31)
-- Optionally convertible debentures were nil at the end of FY26. They were Rs 1,607.9 crore a year earlier. (Annual report FY26, p376, filed, as of 2025-03-31)
-- FY26 lease liabilities, non-current, were Rs 537 crore. (Annual report FY26, p346, filed, as of 2026-03-31)
-- FY26 lease interest expense was Rs 45.3 crore. (Annual report FY26, p385, filed, as of 2026-03-31)
-- Lease payments due, before discounting, total Rs 1,052.2 crore. The year earlier total was Rs 933.4 crore. (Annual report FY26, p378, filed, as of 2026-03-31)
-- FY26 net debt, with lease liabilities, was about Rs 11,551 crore. Note: This net debt adds lease liabilities. (Derived metrics from the annual-report tables, p346, derived, as of 2026-03-31)
-- Bank guarantees for the group's contracts were Rs 5.4 crore. A year earlier they were Rs 5 crore. (Annual report FY26, p397, filed, as of 2026-03-31)
-- Swaps on foreign loan rates were USD 610 million at FY26 end. They were USD 435 million a year earlier. (Annual report FY26, p406, filed, as of 2026-03-31)
-- Derivative liabilities at fair value were Rs 316.1 crore at FY26 end. (Annual report FY26, p400, filed, as of 2026-03-31)
-- The CEO says the fund raise retired the structured debt. It also bought out minority holders in Biocon Biologics. (Annual report FY26, letter to shareholders, p23, filed, as of 2026-03-31)
-- FY25 total lease payments were Rs 69.7 crore. (Annual report FY25, p379, filed, as of 2025-03-31)
-- FY26 lease payments are discounted at the lease's own interest rate. If that is not clear, the incremental borrowing rate is used. (Annual report FY26, p363, filed, as of 2026-03-31)
-- Group borrowings were Rs 14,824.7 crore at 31 March 2026. It adds long-term and short-term borrowings. Note: Borrowings here add the non-current and current parts together. (derived-metrics-FY21-FY26.csv, p346, derived, as of 2026-03-31)
-- FY25 borrowings were about Rs 17,756 crore. FY26 borrowings were about Rs 14,825 crore, leases left out. Note: Borrowings here leave out lease liabilities. (Annual report FY26 and FY25 (tables), p346, derived, as of 2026-03-31)
-- Group-wide finance costs were Rs 419 crore in FY23. Note: Consolidated figure, covering the whole group. (Annual report FY23 (tables), p363, filed, as of 2023-03-31)
-- Kiran Mazumdar Shaw agreed debt drags on how investors see the deal. She said so on 8 Aug 2025, about the Viatris acquisition. (S010, Q1 FY26 earnings call, no page, filed, as of 2025-08-08)
-- Repayment of long-term borrowings was Rs 9,769.9 crore in FY25. The figures are consolidated. (Annual report FY25 (tables), p351, filed, as of 2025-03-31)
-- FY25 finance costs were about Rs 897 crore, consolidated. Note: Consolidated figures, covering the whole group. (Annual report FY25, p349, filed, as of 2025-03-31)
-- The FY26 report tests a 100 basis point change in interest rates. It would move equity and profit by Rs 85.2 crore. Note: It applies to variable-rate borrowings at the reporting date. (Annual report FY26, p406, filed, as of 2026-03-31)
-- Interest paid in cash flows was Rs 865.4 crore in FY26. (AR tables FY21-FY26 (csv, from the annual reports' statements), p350, filed, as of 2026-03-31)
-- Long-term lease dues were Rs 537 crore at end of FY26. These are rent owed on leased assets, due after a year. Note: This is the non-current part; the current part is shown apart. (AR tables FY21-FY26 (csv, from the annual reports' statements), p346, filed, as of 2026-03-31)
-- Short-term lease dues were Rs 72.4 crore at end of FY26. These fall due within a year. Note: This is the current part; the non-current part is shown apart. (AR tables FY21-FY26 (csv, from the annual reports' statements), p346, filed, as of 2026-03-31)
-- Interest on lease liabilities was Rs 45.3 crore in FY26. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p385, filed, as of 2026-03-31)
-- At the end of FY26, long-term loans were Rs 10,746.3 crore. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p346, filed, as of 2026-03-31)
-- At the end of FY26, short-term loans were Rs 4,078.4 crore. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p346, filed, as of 2026-03-31)
-- At the end of FY26, net debt was Rs 10,416.8 crore. Loans were Rs 14,824.7 crore. Note: This is the report's own net debt, for the whole group. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p243, filed, as of 2026-03-31)
-- Loans of Rs 6,547.6 crore may need paying within one year. The table shows full amounts, before interest, at FY26 year end. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p404, filed, as of 2026-03-31)
-- Loans of Rs 1,300.3 crore may fall due in 1-2 years. Interest is left out. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p404, filed, as of 2026-03-31)
-- Loans of Rs 6,976.7 crore may fall due in 2-5 years. None falls due after five years. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p404, filed, as of 2026-03-31)
-- The table adds up to Rs 14,824.6 crore of loans. It leaves out interest. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p404, filed, as of 2026-03-31)
-- CCIL lists a 7.1734% yearly return for 9 to 10 year bonds. The date is 9 November 2026. (CCIL tenorwise indicative yields (saved page), no page, third-party, as of 2026-11-09, ccilindia.com)
-- Finance costs were Rs 213.2 crore in the June 2026 quarter. (Consolidated results, quarter ended 30 June 2026, no page, filed, as of 2026-06-30)
-- Biocon Biologics Global PLC's dollar notes pay 6.67% a year. They mature in October 2029. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p376, filed, as of 2026-03-31)
-- Biocon Limited's short-term loans carried 6.45% to 8.35% interest in FY26. The balance at end of FY26 was Rs 975 crore, against nil. Note: Standalone accounts of Biocon Limited are used. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p309, filed, as of 2026-03-31)
-- Two bank loans pay SOFR plus 1.75% a year. SOFR is a US dollar base rate for loans. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p376, filed, as of 2026-03-31)
+- In FY26 Biocon moved some loans from long-term to short-term. The 31 March 2025 figures were restated to match. (S027, Annual report FY26, p364, l9, filed, as of 2026-03-31) [L1-44-a]
+- Gross borrowings were Rs 17,755.5 crore at the end of FY25. (S031, Derived metrics FY21-FY26 (our arithmetic on annual-report tables); annual report FY25, p348, derived, as of 2025-03-31, formula: borrowings_current + borrowings_non_current, inputs: ar-tables-FY21-FY26 p348, ar-tables-FY21-FY26 p348) [L2-40-c]
+- Net debt was Rs 10,416.8 crore at the end of FY26. A year earlier it was Rs 12,830.0 crore. Note: Net debt as Biocon reports it in its annual report. (S027, Annual report FY26, p244, l7, filed, as of 2026-03-31) [L2-45-b]
+- Repayment of non-current borrowings was Rs 2,707.9 crore in FY26. (S026, Annual report FY26, p349, filed, as of 2026-03-31) [L2-45-c]
+- Biocon says its net debt to EBITDA ratio was 2.7x in FY26. (S027, Annual report FY26, p32, l11, filed, as of 2026-03-31) [L2-46-b]
+- Borrowings less cash and investments were Rs 10,941.3 crore at FY26 end. Note: Borrowings less cash and investments, with leases left out. (S027, Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p346, derived, as of 2026-03-31, formula: borrowings_total - cash_and_investments, inputs: ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p346) [L2-46-c]
+- Borrowings due in 1 to 2 years: Rs 1,300.3 crore. (S027, Annual report FY26, p404, l23, filed, as of 2026-03-31) [L2-48-b]
+- Borrowings due in 2 to 5 years: Rs 6,976.7 crore. (S027, Annual report FY26, p404, l23, filed, as of 2026-03-31) [L2-48-c]
+- Biocon Biologics' US dollar notes pay 6.67% a year. They mature in October 2029. (S027, Annual report FY26, p376, l37, filed, as of 2026-03-31) [L2-49-a]
+- Current lease liabilities were Rs 72.4 crore at the end of FY26. (S026, Annual report FY26, p346, filed, as of 2026-03-31) [L2-50-a]
+- Total lease liabilities were Rs 609.4 crore at the end of FY26. (S027, Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p346, derived, as of 2026-03-31, formula: lease_liabilities_current + lease_liabilities_non_current, inputs: ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p346) [L2-50-c]
+- The RBI Handbook lists a call money rate of 5.45% for 2025-26. (S052, RBI Handbook of Statistics on Indian Economy, Table 59, no page, third-party, as of 2026-03-31, rbi.org.in) [L2-55-a]
+- Borrowings due in a year were Rs 6,547.6 crore at FY26 end. The total in the maturity table was Rs 14,824.6 crore. Note: These are undiscounted amounts from the maturity table. (S027, Annual report FY26, p404, l23, filed, as of 2026-03-31) [L3-20-a]
+- FY26 interest expense is net of Rs 159.7 crore capitalised borrowing cost. In FY25 that was Rs 588.4 crore. (S027, Annual report FY26, p386, l5, filed, as of 2026-03-31) [L3-39-a]
+- FY26 total borrowings were about Rs 14,825 crore. That adds short-term and long-term loans. (S027, Derived metrics from the annual-report tables; annual report FY26, p346, derived, as of 2026-03-31, formula: borrowings_current + borrowings_non_current, inputs: ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p346) [L3-51-a]
+- The company repaid Rs 2,707.9 crore of non-current borrowings in FY26. That compares with Rs 9,769.9 crore in FY25. (Annual report FY26, p349, l53, filed, as of 2026-03-31) [L3-52-a]
+- The CEO says the fund raise retired the structured debt. It also bought out minority holders in Biocon Biologics. (Annual report FY26, letter to shareholders, p23, l37, filed, as of 2026-03-31) [L3-52-b] Also L3-65-c.
+- Borrowings fell Rs 2,930.8 crore in FY26. They went from Rs 17,755.5 crore to Rs 14,824.7 crore. (S027, Annual report FY26, p346, derived, as of 2026-03-31, formula: borrowings_total FY26 - borrowings_total FY25, inputs: L3-51-a, ar-tables-FY21-FY26 p348, ar-tables-FY21-FY26 p348) [L3-52-d]
+- At the end of FY26, borrowings totalled Rs 14,824.6 crore. Rs 6,547.6 crore of that is due within a year. (S027, Annual report FY26, p404, l23, filed, as of 2026-03-31) [L3-53-a]
+- At the end of FY25, borrowings totalled Rs 17,755.5 crore. Rs 5,349.8 crore of that was due within a year. (S027, Annual report FY26, p404, l36, filed, as of 2025-03-31) [L3-53-b]
+- FY26 EBITDA covered finance costs 3.83 times. (S027, Derived metrics from the annual-report tables; annual report FY26, p347, derived, as of 2026-03-31, formula: ebitda_company_basis / finance_costs, inputs: ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347) [L3-54-a]
+- Short-term borrowings were 27.51 percent of FY26 total borrowings. (S027, Derived metrics from the annual-report tables; annual report FY26, p346, derived, as of 2026-03-31, formula: borrowings_current / borrowings_total x 100, inputs: ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p346) [L3-54-b]
+- Optionally convertible debentures were nil at the end of FY26. They were Rs 1,607.9 crore a year earlier. (S027, Annual report FY26, p376, l17, filed, as of 2026-03-31) [L3-56-b]
+- FY26 lease liabilities, non-current, were Rs 537 crore. (S026, Annual report FY26, p346, filed, as of 2026-03-31) [L3-57-a]
+- FY26 lease interest expense was Rs 45.3 crore. (S026, Annual report FY26, p385, filed, as of 2026-03-31) [L3-57-c]
+- Lease payments due, before discounting, total Rs 1,052.2 crore. The year earlier total was Rs 933.4 crore. (S027, Annual report FY26, p378, l49, filed, as of 2026-03-31) [L3-57-d]
+- FY26 net debt, with lease liabilities, was about Rs 11,551 crore. Note: This net debt adds lease liabilities. (S027, Derived metrics from the annual-report tables; annual report FY26, p346, derived, as of 2026-03-31, formula: net_debt_excluding_leases + lease_liabilities_total, inputs: ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p346) [L3-58-b]
+- Bank guarantees for the group's contracts were Rs 5.4 crore. A year earlier they were Rs 5 crore. (S027, Annual report FY26, p397, l28, filed, as of 2026-03-31) [L3-60-c]
+- Swaps on foreign loan rates were USD 610 million at FY26 end. They were USD 435 million a year earlier. (S027, Annual report FY26, p406, l15, filed, as of 2026-03-31) [L3-61-a]
+- Derivative liabilities at fair value were Rs 316.1 crore at FY26 end. (S027, Annual report FY26, p400, l35, filed, as of 2026-03-31) [L3-61-c]
+- FY25 total lease payments were Rs 69.7 crore. (S044, Annual report FY25, p379, filed, as of 2025-03-31) [L3-78-b]
+- FY26 lease payments are discounted at the lease's own interest rate. If that is not clear, the incremental borrowing rate is used. (S027, Annual report FY26, p363, l21, filed, as of 2026-03-31) [L3-78-c]
+- Group borrowings were Rs 14,824.7 crore at 31 March 2026. It adds long-term and short-term borrowings. Note: Borrowings here add the non-current and current parts together. (S027, derived-metrics-FY21-FY26.csv, p346, derived, as of 2026-03-31, formula: borrowings_non_current + borrowings_current = 107,463 + 40,784, inputs: ar-tables-FY21-FY26 p346) [L4-32-c]
+- FY25 borrowings were about Rs 17,756 crore. FY26 borrowings were about Rs 14,825 crore, leases left out. Note: Borrowings here leave out lease liabilities. (Annual report FY26 and FY25 (tables), p346, derived, as of 2026-03-31, formula: (124,054 + 53,501) - (107,463 + 40,784), inputs: another finding p346, another finding p346, another finding p348, another finding p348) [L5-105-d]
+- Group-wide finance costs were Rs 419 crore in FY23. Note: Consolidated figure, covering the whole group. (S042, Annual report FY23 (tables), p363, filed, as of 2023-03-31) [L5-26-a]
+- Kiran Mazumdar Shaw agreed debt drags on how investors see the deal. She said so on 8 Aug 2025, about the Viatris acquisition. (S010, Q1 FY26 earnings call, no page, filed, as of 2025-08-08) [L5-51-c]
+- Repayment of long-term borrowings was Rs 9,769.9 crore in FY25. The figures are consolidated. (S044, Annual report FY25 (tables), p351, filed, as of 2025-03-31) [L5-62-b]
+- FY25 finance costs were about Rs 897 crore, consolidated. Note: Consolidated figures, covering the whole group. (S044, Annual report FY25, p349, filed, as of 2025-03-31) [L6-38-d]
+- The FY26 report tests a 100 basis point change in interest rates. It would move equity and profit by Rs 85.2 crore. Note: It applies to variable-rate borrowings at the reporting date. (S027, Annual report FY26, p406, l42, filed, as of 2026-03-31) [L6-60-a]
+- Interest paid in cash flows was Rs 865.4 crore in FY26. (S026, AR tables FY21-FY26 (csv, from the annual reports' statements), p350, filed, as of 2026-03-31) [L7-106-a]
+- Long-term lease dues were Rs 537 crore at end of FY26. These are rent owed on leased assets, due after a year. Note: This is the non-current part; the current part is shown apart. (AR tables FY21-FY26 (csv, from the annual reports' statements), p346, filed, as of 2026-03-31) [L7-114-a]
+- Short-term lease dues were Rs 72.4 crore at end of FY26. These fall due within a year. Note: This is the current part; the non-current part is shown apart. (AR tables FY21-FY26 (csv, from the annual reports' statements), p346, filed, as of 2026-03-31) [L7-114-b]
+- Interest on lease liabilities was Rs 45.3 crore in FY26. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p385, l76, filed, as of 2026-03-31) [L7-114-c]
+- At the end of FY26, long-term loans were Rs 10,746.3 crore. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p346, l43, filed, as of 2026-03-31) [L7-3-a]
+- At the end of FY26, short-term loans were Rs 4,078.4 crore. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p346, l52, filed, as of 2026-03-31) [L7-3-b]
+- At the end of FY26, net debt was Rs 10,416.8 crore. Loans were Rs 14,824.7 crore. Note: This is the report's own net debt, for the whole group. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p243, l29, filed, as of 2026-03-31) [L7-3-c]
+- Loans of Rs 6,547.6 crore may need paying within one year. The table shows full amounts, before interest, at FY26 year end. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p404, l23, filed, as of 2026-03-31) [L7-36-a]
+- Loans of Rs 1,300.3 crore may fall due in 1-2 years. Interest is left out. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p404, l23, filed, as of 2026-03-31) [L7-36-b]
+- Loans of Rs 6,976.7 crore may fall due in 2-5 years. None falls due after five years. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p404, l23, filed, as of 2026-03-31) [L7-36-c]
+- The table adds up to Rs 14,824.6 crore of loans. It leaves out interest. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p404, l23, filed, as of 2026-03-31) [L7-36-d]
+- CCIL lists a 7.1734% yearly return for 9 to 10 year bonds. The date is 9 November 2026. (CCIL tenorwise indicative yields (saved page), no page, third-party, as of 2026-11-09, ccilindia.com) [L7-60-a]
+- Finance costs were Rs 213.2 crore in the June 2026 quarter. (Consolidated results, quarter ended 30 June 2026, no page, filed, as of 2026-06-30) [L7-64-a]
+- Biocon Biologics Global PLC's dollar notes pay 6.67% a year. They mature in October 2029. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p376, l37, filed, as of 2026-03-31) [L7-64-b]
+- Biocon Limited's short-term loans carried 6.45% to 8.35% interest in FY26. The balance at end of FY26 was Rs 975 crore, against nil. Note: Standalone accounts of Biocon Limited are used. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p309, l39, filed, as of 2026-03-31) [L7-73-b]
+- Two bank loans pay SOFR plus 1.75% a year. SOFR is a US dollar base rate for loans. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p376, l29, filed, as of 2026-03-31) [L7-73-c]
 
 ## 3.4 Cash in hand (10)
 
-- Cash and cash equivalents were Rs 2,416.5 crore at FY26 end. Note: This is the consolidated group figure. (Annual report FY26, p346, filed, as of 2026-03-31)
-- FY26 cash, bank balances and current investments were about Rs 3,883 crore. (Derived metrics from the annual-report tables, p346, derived, as of 2026-03-31)
-- FY26 cash and investments were 6.10 percent of total assets. (Derived metrics from the annual-report tables, p346, derived, as of 2026-03-31)
-- FY25 cash and investments were 7.77 percent of total assets. (Derived metrics from the annual-report tables, p348, derived, as of 2025-03-31)
-- Current assets were Rs 17,179.8 crore at end of FY26. These are items that turn into cash within a year. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p346, filed, as of 2026-03-31)
-- Current liabilities were Rs 14,069.2 crore at end of FY26. These are bills and loans due within a year. (AR tables FY21-FY26 (csv, from the annual reports' statements), p346, filed, as of 2026-03-31)
-- Current assets minus current liabilities was Rs 3,110.6 crore at FY26 end. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p346, derived, as of 2026-03-31)
-- Cash and equivalents were Rs 2,416.5 crore at FY26 year end. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p346, filed, as of 2026-03-31)
-- Current investments were Rs 689.8 crore at FY26 year end. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p346, filed, as of 2026-03-31)
-- At FY26 year end, other bank balances were Rs 777.1 crore. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p346, filed, as of 2026-03-31)
+- Cash and cash equivalents were Rs 2,416.5 crore at FY26 end. Note: This is the consolidated group figure. (S026, Annual report FY26, p346, filed, as of 2026-03-31) [L3-20-b]
+- FY26 cash, bank balances and current investments were about Rs 3,883 crore. (S027, Derived metrics from the annual-report tables; annual report FY26, p346, derived, as of 2026-03-31, formula: cash_and_cash_equivalents + current_investments + other_bank_balances, inputs: ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p346) [L3-51-b]
+- FY26 cash and investments were 6.10 percent of total assets. (S027, Derived metrics from the annual-report tables; annual report FY26, p346, derived, as of 2026-03-31, formula: cash_and_investments / total_assets x 100, inputs: ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p346) [L3-64-a]
+- FY25 cash and investments were 7.77 percent of total assets. (S031, Derived metrics from the annual-report tables; annual report FY25, p348, derived, as of 2025-03-31, formula: cash_and_investments / total_assets x 100, inputs: ar-tables-FY21-FY26 p348, ar-tables-FY21-FY26 p348, ar-tables-FY21-FY26 p348, ar-tables-FY21-FY26 p348) [L3-64-b]
+- Current assets were Rs 17,179.8 crore at end of FY26. These are items that turn into cash within a year. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p346, l32, filed, as of 2026-03-31) [L7-107-a]
+- Current liabilities were Rs 14,069.2 crore at end of FY26. These are bills and loans due within a year. (AR tables FY21-FY26 (csv, from the annual reports' statements), p346, filed, as of 2026-03-31) [L7-107-b]
+- Current assets minus current liabilities was Rs 3,110.6 crore at FY26 end. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p346, derived, as of 2026-03-31, formula: 171,798 - 140,692, inputs: p346 p346, ar-tables-FY21-FY26 p346) [L7-107-c]
+- Cash and equivalents were Rs 2,416.5 crore at FY26 year end. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p346, l27, filed, as of 2026-03-31) [L7-4-a]
+- Current investments were Rs 689.8 crore at FY26 year end. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p346, l25, filed, as of 2026-03-31) [L7-4-b]
+- At FY26 year end, other bank balances were Rs 777.1 crore. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p346, l28, filed, as of 2026-03-31) [L7-4-c]
 
 ## 3.5 Dividends paid (13)
 
-- Biocon paid Rs 90.8 crore in dividends in FY26. Note: This includes dividends paid to minority owners of subsidiaries. (Annual report FY26, p349, filed, as of 2026-03-31)
-- Dividends paid in the FY24 cash flow were Rs 203.0 crore. Note: Includes dividends paid to minority owners. (Annual report FY24, p311, filed, as of 2024-03-31)
-- Dividends paid were 23.5% of profit to owners in FY26. Note: Dividends include those paid to minority owners. (Derived from the filings listed in inputs, p349, derived, as of 2026-03-31)
-- FY26 dividends paid were Rs 90.8 crore, including to minority holders. (Annual report FY26, p349, filed, as of 2026-03-31)
-- FY26 dividends paid were 110.33 percent of free cash flow. Note: Dividends include those paid to minority holders. (Derived metrics from the annual-report tables, p349, derived, as of 2026-03-31)
-- In May 2026 the Board proposed a final dividend of Rs 0.50. Shareholders vote on it at the AGM. (Annual report FY26, p337, filed, as of 2026-05-07)
-- FY24 highlights show Rs 0.50 per share, subject to approval. FY23 was Rs 1.50 per share. (Annual report FY24, financial highlights, p71, filed, as of 2024-03-31)
-- The FY26 proposed dividend is 21.0% of profit to owners. Profit to owners was Rs 385.6 crore; dividend about Rs 81 crore. Note: Uses profit to owners, not total profit for the year. (Annual report FY26, p196, derived, as of 2026-03-31)
-- AGM notice item 2 asks holders to declare a 10% final dividend. That is Rs 0.50 a share for FY26. (Notice of the 48th AGM (in annual report FY26), p533, filed, as of 2026-08-06)
-- In FY26 the compliance audit marked SEBI's share repurchase rules not applicable. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p212, filed, as of 2026-03-31)
-- The board proposed a Rs 0.50 final dividend per share for FY25. The filing calls it 10% of face value. (Annual report FY25 (year ended 2025-03-31), p337, filed, as of 2025-05-08)
-- The board proposed a Rs 0.50 final dividend per share for FY24. The filing calls it 10% of face value. (Annual report FY24 (year ended 2024-03-31), p298, filed, as of 2024-05-16)
-- The board proposed a Rs 1.5 final dividend per share for FY23. The filing calls it 30% of face value. (Annual report FY23 (year ended 2023-03-31), p442, filed, as of 2023-05-23)
+- Biocon paid Rs 90.8 crore in dividends in FY26. Note: This includes dividends paid to minority owners of subsidiaries. (S026, Annual report FY26, p349, filed, as of 2026-03-31) [L1-24-b]
+- Dividends paid in the FY24 cash flow were Rs 203.0 crore. Note: Includes dividends paid to minority owners. (S043, Annual report FY24, p311, filed, as of 2024-03-31) [L2-60-b]
+- Dividends paid were 23.5% of profit to owners in FY26. Note: Dividends include those paid to minority owners. (S027, Derived from the filings listed in inputs; annual report FY26, p349, derived, as of 2026-03-31, formula: -dividends_paid / profit_attributable_to_owners x 100 (dividends include those paid to minority holders), inputs: ar-tables-FY21-FY26 p349, ar-tables-FY21-FY26 p347) [L2-60-c]
+- FY26 dividends paid were Rs 90.8 crore, including to minority holders. (S026, Annual report FY26, p349, filed, as of 2026-03-31) [L3-68-a]
+- FY26 dividends paid were 110.33 percent of free cash flow. Note: Dividends include those paid to minority holders. (S027, Derived metrics from the annual-report tables; annual report FY26, p349, derived, as of 2026-03-31, formula: -dividends_paid / free_cash_flow x 100, dividends paid include dividends to non-controlling interests, FY21 and FY22 not on file, inputs: ar-tables-FY21-FY26 p349, ar-tables-FY21-FY26 p349, ar-tables-FY21-FY26 p349) [L3-68-b]
+- In May 2026 the Board proposed a final dividend of Rs 0.50. Shareholders vote on it at the AGM. (S027, Annual report FY26, p337, l27, filed, as of 2026-05-07) [L4-2-d]
+- FY24 highlights show Rs 0.50 per share, subject to approval. FY23 was Rs 1.50 per share. (S030, Annual report FY24, financial highlights, p71, l38, filed, as of 2024-03-31) [L5-69-b]
+- The FY26 proposed dividend is 21.0% of profit to owners. Profit to owners was Rs 385.6 crore; dividend about Rs 81 crore. Note: Uses profit to owners, not total profit for the year. (S027, Annual report FY26, p196, l31, derived, as of 2026-03-31, formula: 810 / 3,856 (declared total dividend over profit attributable to owners), inputs: another finding p196, another finding p347) [L5-69-c]
+- AGM notice item 2 asks holders to declare a 10% final dividend. That is Rs 0.50 a share for FY26. (S027, Notice of the 48th AGM (in annual report FY26), p533, l13, filed, as of 2026-08-06) [L5-96-a]
+- In FY26 the compliance audit marked SEBI's share repurchase rules not applicable. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p212, l47, filed, as of 2026-03-31) [L7-112-b]
+- The board proposed a Rs 0.50 final dividend per share for FY25. The filing calls it 10% of face value. (S031, Annual report FY25 (year ended 2025-03-31), p337, l9, filed, as of 2025-05-08) [L7-25-b]
+- The board proposed a Rs 0.50 final dividend per share for FY24. The filing calls it 10% of face value. (S030, Annual report FY24 (year ended 2024-03-31), p298, l11, filed, as of 2024-05-16) [L7-25-c]
+- The board proposed a Rs 1.5 final dividend per share for FY23. The filing calls it 30% of face value. (S029, Annual report FY23 (year ended 2023-03-31), p442, l7, filed, as of 2023-05-23) [L7-25-d]
 
 ## 3.6 One-off gains and charges (23)
 
-- Other income was 1,134.5 crore in Q1 FY25 (June 2024 quarter). It was 32.5 crore in the next quarter. (Results filing, half year ended 30 Sep 2024, p5, filed, as of 2024-06-30)
-- Exceptional items cost 17.2 crore in Q1 FY26, the June 2025 quarter. (Results filing, quarter ended 30 Jun 2026, p3, filed, as of 2025-06-30)
-- Exceptional items cost 293.4 crore in Q3 FY26, the December 2025 quarter. (Results filing, nine months ended 31 Dec 2025, p4, filed, as of 2025-12-31)
-- FY26 included a Rs 76.2 crore provision on certain inventory. (Annual report FY26, p191, filed, as of 2026-03-31)
-- FY25 cash flow removes a about Rs 1,057 crore slump sale gain. (Annual report FY26, p349, filed, as of 2025-03-31)
-- FY26 cash flow takes out Rs 55.2 crore of non-cash exceptional items. (Annual report FY26, p349, filed, as of 2026-03-31)
-- FY26 exceptional items were a net charge of Rs 402.9 crore. Note: Consolidated figure; negative numbers are charges. (Annual report FY26, p347, filed, as of 2026-03-31)
-- FY25 exceptional items were a net gain of Rs 96.5 crore. Note: Consolidated figure; negative numbers are charges. (Annual report FY25, p349, filed, as of 2025-03-31)
-- FY24 exceptional items were a net charge of Rs 11.6 crore. Note: Consolidated figure; negative numbers are charges. (Annual report FY24, p309, filed, as of 2024-03-31)
-- FY23 exceptional items were a net charge of Rs 291.4 crore. Note: Consolidated figure; negative numbers are charges. (Annual report FY23, p363, filed, as of 2023-03-31)
-- FY25 other income included Rs 1,057.3 crore from a business sale. FY26 had no such item. (Annual report FY26, p385, filed, as of 2025-03-31)
-- The FY24 report records a Rs 385.4 crore impairment for one product. It covers certain territories. (Annual report FY24, p159, filed, as of 2024-03-31)
-- FY23 report records a Rs 47 crore impairment after the Viatris deal. It covers certain licensed products. (Annual report FY23, p185, filed, as of 2023-03-31)
-- Biocon Biologics settled a customer litigation for Rs 29.1 crore in FY26. It was shown as an exceptional item. (Annual report FY26, p395, filed, as of 2026-03-31)
-- The group owed Viatris about Rs 2,862 crore as a deferred payment. FY25 brought a cash payment, an offset and a conditional waiver. (Annual report FY26, p380, filed, as of 2026-03-31)
-- FY26 exceptional items include Rs 96.5 crore of extra gratuity. It follows the Labour Codes' new wage definition. (Annual report FY26, note 32, p394, filed, as of 2026-03-31)
-- A Rs 184.2 crore gain was booked in FY26 exceptional items. It came from remeasuring a liability tied to Mylan's Biocon Biologics stake. (Annual report FY26, note 32, p394, filed, as of 2026-03-31)
-- FY25 exceptional items include a Rs 121.6 crore write-off. It was leftover cost of raising debt on retired term loans. (Annual report FY26, note 32 (FY25 comparative), p395, filed, as of 2025-03-31)
-- Note 32 item d calls the FY26 integration expenses non-recurring. (Annual report FY26, note 32, p394, filed, as of 2026-03-31)
-- FY24 note 32 shows an inventory provision of Rs 236.6 crore. The product had low demand. (Annual report FY24, note 32, p352, filed, as of 2024-03-31)
-- The Group put Rs 7.5 crore into IFQM across FY26 and FY25. It booked a fair value charge of Rs 7.5 crore. (Annual report FY26, note 32, p395, filed, as of 2026-03-31)
-- Viatris deal costs of Rs 210.2 crore were in FY26 exceptional items. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p191, filed, as of 2026-03-31)
-- Integration costs of Rs 137.2 crore were in FY26 exceptional items. They include severance, consultant fees and accelerated share option costs. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p191, filed, as of 2026-03-31)
+- Other income was 1,134.5 crore in Q1 FY25 (June 2024 quarter). It was 32.5 crore in the next quarter. (Results filing, half year ended 30 Sep 2024, p5, l9, filed, as of 2024-06-30) [L2-7-a]
+- Exceptional items cost 17.2 crore in Q1 FY26, the June 2025 quarter. (Results filing, quarter ended 30 Jun 2026, p3, l34, filed, as of 2025-06-30) [L2-7-b]
+- Exceptional items cost 293.4 crore in Q3 FY26, the December 2025 quarter. (Results filing, nine months ended 31 Dec 2025, p4, l34, filed, as of 2025-12-31) [L2-7-d]
+- FY26 included a Rs 76.2 crore provision on certain inventory. (S027, Annual report FY26, p191, l11, filed, as of 2026-03-31) [L3-13-a]
+- FY25 cash flow removes a about Rs 1,057 crore slump sale gain. (S027, Annual report FY26, p349, l20, filed, as of 2025-03-31) [L3-16-b]
+- FY26 cash flow takes out Rs 55.2 crore of non-cash exceptional items. (S027, Annual report FY26, p349, l24, filed, as of 2026-03-31) [L3-16-c]
+- FY26 exceptional items were a net charge of Rs 402.9 crore. Note: Consolidated figure; negative numbers are charges. (S026, Annual report FY26, p347, filed, as of 2026-03-31) [L3-21-a]
+- FY25 exceptional items were a net gain of Rs 96.5 crore. Note: Consolidated figure; negative numbers are charges. (S044, Annual report FY25, p349, filed, as of 2025-03-31) [L3-21-b]
+- FY24 exceptional items were a net charge of Rs 11.6 crore. Note: Consolidated figure; negative numbers are charges. (S043, Annual report FY24, p309, filed, as of 2024-03-31) [L3-21-c]
+- FY23 exceptional items were a net charge of Rs 291.4 crore. Note: Consolidated figure; negative numbers are charges. (S042, Annual report FY23, p363, filed, as of 2023-03-31) [L3-21-d]
+- FY25 other income included Rs 1,057.3 crore from a business sale. FY26 had no such item. (S027, Annual report FY26, p385, l16, filed, as of 2025-03-31) [L3-23-d]
+- The FY24 report records a Rs 385.4 crore impairment for one product. It covers certain territories. (S030, Annual report FY24, p159, l5, filed, as of 2024-03-31) [L3-41-a]
+- FY23 report records a Rs 47 crore impairment after the Viatris deal. It covers certain licensed products. (S029, Annual report FY23, p185, l5, filed, as of 2023-03-31) [L3-41-b]
+- Biocon Biologics settled a customer litigation for Rs 29.1 crore in FY26. It was shown as an exceptional item. (S027, Annual report FY26, p395, l9, filed, as of 2026-03-31) [L4-52-a]
+- The group owed Viatris about Rs 2,862 crore as a deferred payment. FY25 brought a cash payment, an offset and a conditional waiver. (S027, Annual report FY26, p380, l9, filed, as of 2026-03-31) [L4-52-b]
+- FY26 exceptional items include Rs 96.5 crore of extra gratuity. It follows the Labour Codes' new wage definition. (S027, Annual report FY26, note 32, p394, l43, filed, as of 2026-03-31) [L5-54-a]
+- A Rs 184.2 crore gain was booked in FY26 exceptional items. It came from remeasuring a liability tied to Mylan's Biocon Biologics stake. (S027, Annual report FY26, note 32, p394, l45, filed, as of 2026-03-31) [L5-54-b]
+- FY25 exceptional items include a Rs 121.6 crore write-off. It was leftover cost of raising debt on retired term loans. (S027, Annual report FY26, note 32 (FY25 comparative), p395, l13, filed, as of 2025-03-31) [L5-54-d]
+- Note 32 item d calls the FY26 integration expenses non-recurring. (S027, Annual report FY26, note 32, p394, l49, filed, as of 2026-03-31) [L5-55-a]
+- FY24 note 32 shows an inventory provision of Rs 236.6 crore. The product had low demand. (S030, Annual report FY24, note 32, p352, l44, filed, as of 2024-03-31) [L5-55-c]
+- The Group put Rs 7.5 crore into IFQM across FY26 and FY25. It booked a fair value charge of Rs 7.5 crore. (S027, Annual report FY26, note 32, p395, l11, filed, as of 2026-03-31) [L5-55-d]
+- Viatris deal costs of Rs 210.2 crore were in FY26 exceptional items. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p191, l5, filed, as of 2026-03-31) [L7-11-b]
+- Integration costs of Rs 137.2 crore were in FY26 exceptional items. They include severance, consultant fees and accelerated share option costs. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p191, l7, filed, as of 2026-03-31) [L7-11-c]
 
 ## 3.7 What lenders and raters say (10)
 
-- The group says it met all covenants on major loans in FY26. Covenants are conditions that lenders set on a loan. (Annual report FY26, p377, filed, as of 2026-03-31)
-- CRISIL reaffirmed Biocon's long-term bank rating at AA+ on 16 December 2025. (Annual report FY26, p201, filed, as of 2025-12-16)
-- The group says it met all its loan covenants in FY26. Covenants are conditions that lenders set on a loan. (Annual report FY26, p377, filed, as of 2026-03-31)
-- The group sees no sign it will miss the covenant test. The next test date is 30 September 2026. (Annual report FY26, p378, filed, as of 2026-03-31)
-- S&P raised Biocon Biologics to BB+ with a Stable outlook. Biocon filed the release in January 2026. (Press release 2026-01-28, p2, filed, as of 2026-01-28)
-- The Group says it met its loan covenants throughout FY26. (Annual report FY26, p377, filed, as of 2026-03-31)
-- The Group says its loan covenants are tested yearly and half-yearly. (Annual report FY26, p377, filed, as of 2026-03-31)
-- CRISIL confirmed its Crisil AA+/Stable rating on long-term bank loans. Its letter is dated 17 June 2025. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p200, filed, as of 2025-06-17)
-- ICRA confirmed its [ICRA]AA+(Stable) rating on long-term facilities. Its letter is dated 16 December 2025. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p200, filed, as of 2025-12-16)
-- India Ratings gave or confirmed IND AA+/Stable on bank loan facilities. Its letter is dated 9 December 2025. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p200, filed, as of 2025-12-09)
+- The group says it met all covenants on major loans in FY26. Covenants are conditions that lenders set on a loan. (S027, Annual report FY26, p377, l33, filed, as of 2026-03-31) [L1-51-b]
+- CRISIL reaffirmed Biocon's long-term bank rating at AA+ on 16 December 2025. (S027, Annual report FY26, p201, l3, filed, as of 2025-12-16) [L2-49-b]
+- The group says it met all its loan covenants in FY26. Covenants are conditions that lenders set on a loan. (S027, Annual report FY26, p377, l33, filed, as of 2026-03-31) [L3-55-a]
+- The group sees no sign it will miss the covenant test. The next test date is 30 September 2026. (S027, Annual report FY26, p378, l5, filed, as of 2026-03-31) [L3-55-b]
+- S&P raised Biocon Biologics to BB+ with a Stable outlook. Biocon filed the release in January 2026. (Press release 2026-01-28, p2, l6, filed, as of 2026-01-28) [L4-60-d]
+- The Group says it met its loan covenants throughout FY26. (S027, Annual report FY26, p377, l33, filed, as of 2026-03-31) [L6-63-a]
+- The Group says its loan covenants are tested yearly and half-yearly. (S027, Annual report FY26, p377, l33, filed, as of 2026-03-31) [L6-63-b]
+- CRISIL confirmed its Crisil AA+/Stable rating on long-term bank loans. Its letter is dated 17 June 2025. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p200, l44, filed, as of 2025-06-17) [L7-37-a]
+- ICRA confirmed its [ICRA]AA+(Stable) rating on long-term facilities. Its letter is dated 16 December 2025. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p200, l50, filed, as of 2025-12-16) [L7-37-b]
+- India Ratings gave or confirmed IND AA+/Stable on bank loan facilities. Its letter is dated 9 December 2025. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p200, l48, filed, as of 2025-12-09) [L7-37-c]
 
 ## 4.1 Founders' share (21)
 
-- Promoters, the founding group, owned 44.68% of Biocon on 30 Sep 2026. (Shareholding pattern 30-Sep-2026, table row, filed, as of 2026-09-30)
-- The 30 Sep 2026 filing flags no pledged promoter shares. Pledged means put up as security for a loan. (Shareholding pattern 30-Sep-2026, table row, filed, as of 2026-09-30)
-- The 30 September 2026 filing shows no promoter pledge. A pledge means shares offered as security for a loan. (Shareholding pattern 30-Sep-2026, table row, filed, as of 2026-09-30)
-- The 30 September 2021 filing shows no promoter pledge. A pledge means shares offered as security for a loan. (Shareholding pattern 30-Sep-2021, table row, filed, as of 2021-09-30)
-- Promoters held 728,081,295 shares, or 44.68%, at 30 September 2026. (Shareholding pattern 30-Sep-2026, table row, filed, as of 2026-09-30)
-- Promoters held 728,024,176 shares, or 60.64%, at 30 September 2021. (Shareholding pattern 30-Sep-2021, table row, filed, as of 2021-09-30)
-- Promoter shares rose by 57,119 in five years to 30 September 2026. (Shareholding pattern 30-Sep-2026, table row, derived, as of 2026-09-30)
-- At 30 Sep 2026, promoters held 728,081,295 shares. That was 44.68% of the company. (Shareholding pattern 30-Sep-2026, table row, filed, as of 2026-09-30)
-- At 31 Dec 2024, promoters held 728,024,176 shares. That was 60.64% of the company. (Shareholding pattern 31-Dec-2024, table row, filed, as of 2024-12-31)
-- Promoters added 57,119 shares between Dec 2024 and Sep 2026. (Shareholding pattern filings, table row, derived, as of 2026-09-30)
-- The 30 Sep 2026 filing shows no pledge on promoter shares. It also shows no other encumbrance. (Shareholding pattern 30-Sep-2026, table row, filed, as of 2026-09-30)
-- The 30 Sep 2021 filing shows no pledge. All 25 filings show no pledge. (Shareholding pattern 30-Sep-2021, table row, filed, as of 2021-09-30)
-- Yearly promoter declarations for FY23 to FY26 state no encumbrance. That means no pledge or similar charge on their shares. (Promoter encumbrance declarations (scanned letters), no page, filed, as of 2026-03-31)
-- On 31 December 2025 the founding group owned 54.45%. Foreign funds owned 7.39% and Indian funds 21.71%. (Shareholding pattern 2025-12-31, table row, filed, as of 2025-12-31)
-- On 31 March 2026 the founding group owned 44.91%. Foreign funds owned 7.52% and Indian funds 24.07%. (Shareholding pattern 2026-03-31, table row, filed, as of 2026-03-31)
-- On 30 June 2026 the founding group owned 44.68%. Foreign funds owned 8.14% and Indian funds 23.38%. (Shareholding pattern 2026-06-30, table row, filed, as of 2026-06-30)
-- Promoters, the founding group, owned 44.68% on 30 September 2026. The public owned 55.14%. (Shareholding pattern 30-Sep-2026, table row, filed, as of 2026-09-30)
-- At 30 September 2026, promoters held 44.68% of the shares. The public held 55.14% and the employee trust 0.19%. (Shareholding pattern 30-Sep-2026, table row, filed, as of 2026-09-30)
-- At 31 December 2021, promoters held 60.64% of the shares. The public held 38.71% and the employee trust 0.65%. (Shareholding pattern 31-Dec-2021, table row, filed, as of 2021-12-31)
-- The promoter filing for 30 September 2026 shows no pledged shares. (Shareholding pattern 30-Sep-2026, table row, filed, as of 2026-09-30)
-- The promoter filing for 31 March 2026 shows no pledged shares. (Shareholding pattern 31-Mar-2026, table row, filed, as of 2026-03-31)
+- Promoters, the founding group, owned 44.68% of Biocon on 30 Sep 2026. (S045, Shareholding pattern 30-Sep-2026, row 26, filed, as of 2026-09-30) [L1-39-a]
+- The 30 Sep 2026 filing flags no pledged promoter shares. Pledged means put up as security for a loan. (S032, Shareholding pattern 30-Sep-2026, row 2, filed, as of 2026-09-30) [L1-40-a]
+- The 30 September 2026 filing shows no promoter pledge. A pledge means shares offered as security for a loan. (S032, Shareholding pattern 30-Sep-2026, row 2, filed, as of 2026-09-30) [L4-32-a]
+- The 30 September 2021 filing shows no promoter pledge. A pledge means shares offered as security for a loan. (S032, Shareholding pattern 30-Sep-2021, row 26, filed, as of 2021-09-30) [L4-32-b]
+- Promoters held 728,081,295 shares, or 44.68%, at 30 September 2026. (S032, Shareholding pattern 30-Sep-2026, row 2, filed, as of 2026-09-30) [L4-33-a]
+- Promoters held 728,024,176 shares, or 60.64%, at 30 September 2021. (S032, Shareholding pattern 30-Sep-2021, row 26, filed, as of 2021-09-30) [L4-33-b]
+- Promoter shares rose by 57,119 in five years to 30 September 2026. (S032, Shareholding pattern 30-Sep-2026, row 2, derived, as of 2026-09-30, formula: 728,081,295 - 728,024,176, inputs: L4-33-a, L4-33-b) [L4-36-c]
+- At 30 Sep 2026, promoters held 728,081,295 shares. That was 44.68% of the company. (S032, Shareholding pattern 30-Sep-2026, row 2, filed, as of 2026-09-30) [L5-81-a]
+- At 31 Dec 2024, promoters held 728,024,176 shares. That was 60.64% of the company. (S032, Shareholding pattern 31-Dec-2024, row 13, filed, as of 2024-12-31) [L5-81-b]
+- Promoters added 57,119 shares between Dec 2024 and Sep 2026. (S032, Shareholding pattern filings, row 2, derived, as of 2026-09-30, formula: 728,081,295 - 728,024,176, inputs: another finding, another finding) [L5-81-d]
+- The 30 Sep 2026 filing shows no pledge on promoter shares. It also shows no other encumbrance. (S032, Shareholding pattern 30-Sep-2026, row 2, filed, as of 2026-09-30) [L5-82-a]
+- The 30 Sep 2021 filing shows no pledge. All 25 filings show no pledge. (S032, Shareholding pattern 30-Sep-2021, row 26, filed, as of 2026-09-30) [L5-82-b]
+- Yearly promoter declarations for FY23 to FY26 state no encumbrance. That means no pledge or similar charge on their shares. (Promoter encumbrance declarations (scanned letters), no page, filed, as of 2026-03-31) [L5-82-c]
+- On 31 December 2025 the founding group owned 54.45%. Foreign funds owned 7.39% and Indian funds 21.71%. (S045, Shareholding pattern 2025-12-31, row 20, filed, as of 2025-12-31) [L7-102-a]
+- On 31 March 2026 the founding group owned 44.91%. Foreign funds owned 7.52% and Indian funds 24.07%. (S045, Shareholding pattern 2026-03-31, row 23, filed, as of 2026-03-31) [L7-102-b]
+- On 30 June 2026 the founding group owned 44.68%. Foreign funds owned 8.14% and Indian funds 23.38%. (S045, Shareholding pattern 2026-06-30, row 25, filed, as of 2026-06-30) [L7-102-c]
+- Promoters, the founding group, owned 44.68% on 30 September 2026. The public owned 55.14%. (S032, Shareholding pattern 30-Sep-2026, row 2, filed, as of 2026-09-30) [L7-99-a]
+- At 30 September 2026, promoters held 44.68% of the shares. The public held 55.14% and the employee trust 0.19%. (S032, Shareholding pattern 30-Sep-2026, row 2, filed, as of 2026-09-30) [L8-35-a]
+- At 31 December 2021, promoters held 60.64% of the shares. The public held 38.71% and the employee trust 0.65%. (S032, Shareholding pattern 31-Dec-2021, row 25, filed, as of 2021-12-31) [L8-35-b]
+- The promoter filing for 30 September 2026 shows no pledged shares. (S032, Shareholding pattern 30-Sep-2026, row 2, filed, as of 2026-09-30) [L8-37-a]
+- The promoter filing for 31 March 2026 shows no pledged shares. (S032, Shareholding pattern 31-Mar-2026, row 5, filed, as of 2026-03-31) [L8-37-b]
 
 ## 4.2 Other big holders (14)
 
-- Foreign portfolio investors, funds from abroad, owned 8.64% on 30 Sep 2026. (Shareholding pattern 30-Sep-2026, table row, filed, as of 2026-09-30)
-- Indian institutions owned 29.3% of Biocon on 30 Sep 2026. (Shareholding pattern 30-Sep-2026, table row, filed, as of 2026-09-30)
-- The public, including institutions, owned 55.14% on 30 Sep 2026. (Shareholding pattern 30-Sep-2026, table row, filed, as of 2026-09-30)
-- Public shareholders held 55.14% of shares at 30 September 2026. (Shareholding pattern 30-Sep-2026, table row, filed, as of 2026-09-30)
-- Serum Institute Life Sciences held 3.4%, listed as a public holder. This is at 30 September 2026. (Shareholding pattern 30-Sep-2026 holders, table row, filed, as of 2026-09-30)
-- Shares outside promoters and Serum Institute Life Sciences were 51.92%. That is at 30 September 2026. (Shareholding pattern 30-Sep-2026, no page, derived, as of 2026-09-30)
-- SBI ESG Exclusionary Strategy Fund held 9.18% at 30 September 2026. (Shareholding pattern 30-Sep-2026 holders, table row, filed, as of 2026-09-30)
-- Foreign institutions held 8.64% and domestic institutions 29.30% at 30 September 2026. (Shareholding pattern 30-Sep-2026, table row, filed, as of 2026-09-30)
-- Foreign institutions held 5.66% and domestic institutions 15.72% at 31 March 2025. (Shareholding pattern 31-Mar-2025, table row, filed, as of 2025-03-31)
-- Mutual funds held 22.08% of shares at 30 September 2026. (Shareholding pattern 30-Sep-2026, table row, filed, as of 2026-09-30)
-- At 29 Jun 2026, Mylan Inc held 91,967,019 shares. That was 5.64% of the company. (Shareholding pattern 29-Jun-2026 (holders above 1%), table row, filed, as of 2026-06-29)
-- On 30 September 2026 foreign funds owned 8.64% and Indian funds 29.3%. Mutual funds were 22.08% of all shares. Note: Indian funds means domestic institutions, which include mutual funds. (Shareholding pattern 30-Sep-2026 (holder categories), table row, filed, as of 2026-09-30)
-- At 30 September 2025, foreign funds (FII) held 6.61% of shares. Domestic institutions (DII) held 22.10%, mutual funds 14.13% within that. (Shareholding pattern 30-Sep-2025, table row, filed, as of 2025-09-30)
-- SBI ESG Exclusionary Strategy Fund held 9.18% on 30 September 2026. (Shareholding pattern 30-Sep-2026 holders, table row, filed, as of 2026-09-30)
+- Foreign portfolio investors, funds from abroad, owned 8.64% on 30 Sep 2026. (S045, Shareholding pattern 30-Sep-2026, row 26, filed, as of 2026-09-30) [L1-39-b]
+- Indian institutions owned 29.3% of Biocon on 30 Sep 2026. (S045, Shareholding pattern 30-Sep-2026, row 26, filed, as of 2026-09-30) [L1-39-c]
+- The public, including institutions, owned 55.14% on 30 Sep 2026. (S045, Shareholding pattern 30-Sep-2026, row 26, filed, as of 2026-09-30) [L1-39-d]
+- Public shareholders held 55.14% of shares at 30 September 2026. (S032, Shareholding pattern 30-Sep-2026, row 2, filed, as of 2026-09-30) [L4-37-a]
+- Serum Institute Life Sciences held 3.4%, listed as a public holder. This is at 30 September 2026. (S045, Shareholding pattern 30-Sep-2026 holders, row 368, filed, as of 2026-09-30) [L4-37-b]
+- Shares outside promoters and Serum Institute Life Sciences were 51.92%. That is at 30 September 2026. (Shareholding pattern 30-Sep-2026, no page, derived, as of 2026-09-30, formula: 100 - 44.68 (promoters) - 3.40 (Serum Institute Life Sciences), inputs: L4-33-a, L4-37-b) [L4-37-c]
+- SBI ESG Exclusionary Strategy Fund held 9.18% at 30 September 2026. (S045, Shareholding pattern 30-Sep-2026 holders, row 366, filed, as of 2026-09-30) [L4-37-d]
+- Foreign institutions held 8.64% and domestic institutions 29.30% at 30 September 2026. (S045, Shareholding pattern 30-Sep-2026, row 26, filed, as of 2026-09-30) [L4-40-a]
+- Foreign institutions held 5.66% and domestic institutions 15.72% at 31 March 2025. (S045, Shareholding pattern 31-Mar-2025, row 16, filed, as of 2025-03-31) [L4-40-b]
+- Mutual funds held 22.08% of shares at 30 September 2026. (S045, Shareholding pattern 30-Sep-2026, row 26, filed, as of 2026-09-30) [L4-40-c]
+- At 29 Jun 2026, Mylan Inc held 91,967,019 shares. That was 5.64% of the company. (S045, Shareholding pattern 29-Jun-2026 (holders above 1%), row 334, filed, as of 2026-06-29) [L5-87-a]
+- On 30 September 2026 foreign funds owned 8.64% and Indian funds 29.3%. Mutual funds were 22.08% of all shares. Note: Indian funds means domestic institutions, which include mutual funds. (S045, Shareholding pattern 30-Sep-2026 (holder categories), row 26, filed, as of 2026-09-30) [L7-99-b]
+- At 30 September 2025, foreign funds (FII) held 6.61% of shares. Domestic institutions (DII) held 22.10%, mutual funds 14.13% within that. (S045, Shareholding pattern 30-Sep-2025, row 19, filed, as of 2025-09-30) [L8-36-b]
+- SBI ESG Exclusionary Strategy Fund held 9.18% on 30 September 2026. (S045, Shareholding pattern 30-Sep-2026 holders, row 366, filed, as of 2026-09-30) [L8-71-b]
 
 ## 4.3 Board and pay (31)
 
-- On 6 May 2026 the exchange asked Biocon about a news item. The item was about Kiran Mazumdar-Shaw. (NSE announcement feed, no page, filed, as of 2026-05-06)
-- RSU Plan 2025 had 3,256,420 options outstanding at the end of FY26. An RSU is a promise of shares to staff. (Annual report FY26, p389, filed, as of 2026-03-31)
-- The Board had 9 members at 31 March 2026. Five are independent, two executive, two non-executive. (Annual report FY26, p199, filed, as of 2026-03-31)
-- Three of the 9 Board members are women. (Annual report FY26, p199, filed, as of 2026-03-31)
-- Independent directors met 3 times without management in FY26. The dates were 8 May 2025, 7 August 2025, 12 February 2026. (Annual report FY26, p254, filed, as of 2026-03-31)
-- The MD and CEO earned 169.50 times median employee pay in FY26. Note: This leaves out the value of stock options exercised. (Annual report FY26, p219, filed, as of 2026-03-31)
-- The MD and CEO earned 100.95 times median employee pay in FY25. (Annual report FY25, p217, filed, as of 2025-03-31)
-- Two notices gave different dates for CFO Indranil Sen's exit. One said 15 March 2024, the other 14 March 2024. (Exchange announcements 2022-2026, no page, filed, as of 2024-03-14)
-- Independent director Meleveetil Damodaran left the Board on 25 July 2024. (Exchange announcements 2022-2026, no page, filed, as of 2024-07-25)
-- Peter Bains left his role on 1 April 2025. The filing lists his role as Other. (Exchange announcements 2022-2026, no page, filed, as of 2025-04-01)
-- Company Secretary Mayank Verma resigned, effective 14 April 2025. (Exchange announcements 2022-2026, no page, filed, as of 2025-04-14)
-- The board approved Shreehas Tambe as CEO and MD for five years. The term starts 1 April 2026, if members approve. (Annual report FY26, p199, filed, as of 2026-03-31)
-- Siddharth Mittal stepped down as CEO and managing director. That took effect at close of business on 31 March 2026. (Annual report FY26, p199, filed, as of 2026-03-31)
-- In FY26, the managing director's pay was 169.50 times the median employee's. The role was held by Siddharth Mittal. Note: Excludes the stock-option exercise perquisite; standalone figures. (Annual report FY26, remuneration disclosure, p219, filed, as of 2026-03-31)
-- In FY25, the managing director's pay was 100.95 times the median employee's. The role was held by Siddharth Mittal. Note: Excludes the stock-option exercise perquisite; standalone figures. (Annual report FY25, remuneration disclosure, p217, filed, as of 2025-03-31)
-- The managing director's pay was 70.4 times the median employee's in FY22. Note: Standalone figures, not consolidated. (Annual report FY22, remuneration disclosure, p133, filed, as of 2022-03-31)
-- The median employee's pay rose 4.87% in FY26. Figures are standalone. (Annual report FY26, remuneration disclosure, p219, filed, as of 2026-03-31)
-- Siddharth Mittal's FY26 pay table total was about Rs 12.98 crore. A footnote adds a stock-option benefit of about Rs 9.3 crore. (Annual report FY26, remuneration of directors, p261, filed, as of 2026-03-31)
-- Kiran Mazumdar-Shaw's FY26 pay totalled about Rs 5.5 crore. (Annual report FY26, remuneration of directors, p261, filed, as of 2026-03-31)
-- Siddharth Mittal's FY25 pay totalled about Rs 7.37 crore. (Annual report FY25, remuneration of directors, p263, filed, as of 2025-03-31)
-- Siddharth Mittal's FY24 pay totalled about Rs 5.73 crore. (Annual report FY24, remuneration of directors, p227, filed, as of 2024-03-31)
-- At 31 March 2026, the board had 9 members. Two were executive, 2 non-executive non-independent and 5 independent. (Annual report FY26, Board's report, p199, filed, as of 2026-03-31)
-- The board met 12 times during FY26. (Annual report FY26, Board's report, p200, filed, as of 2026-03-31)
-- Director Nicholas Robert Haggar attended 10 of 12 board meetings in FY26. That is 83.33% attendance. (Annual report FY26, governance report, p253, filed, as of 2026-03-31)
-- The FY26 report lists Kiran Mazumdar-Shaw as Executive Chairperson. Siddharth Mittal was MD and CEO until 31 March 2026. (Annual report FY26, Board's report, p199, filed, as of 2026-03-31)
-- The report says Kiran Mazumdar-Shaw, Ravi Mazumdar and Eric Mazumdar are related. Ravi is Kiran's brother and Eric's father. (Annual report FY26, governance report, p251, filed, as of 2026-03-31)
-- AGM item 5 asks holders to approve a share-based incentive plan. It is the Biocon Unity Long Term Incentive Plan 2026. (Notice of the 48th AGM (in annual report FY26), p533, filed, as of 2026-08-06)
-- 3,256,420 stock options were outstanding at end of FY26. They sit under the RSU Plan 2025. (AR tables FY21-FY26 (csv, from the annual reports' statements), p389, filed, as of 2026-03-31)
-- The voting file lists 83 proposals across 9 owner meetings. They run from April 2024 to August 2026. (Voting results csv (exchange voting-result filings), table row, derived, as of 2026-08-06)
-- A December 2025 meeting notice seeks a Rs 20,000 crore limit. It covers investments, loans and guarantees, above the legal limit. (EGM notice filed 2025-12-07, p19, filed, as of 2025-12-07)
-- Biocon told the exchange its CFO Indranil Sen resigned. Two notices give 15 March 2024 and 14 March 2024. (Exchange announcements 2022-2026, no page, filed, as of 2024-03-14)
+- On 6 May 2026 the exchange asked Biocon about a news item. The item was about Kiran Mazumdar-Shaw. (NSE announcement feed, no page, filed, as of 2026-05-06) [L1-47-a]
+- RSU Plan 2025 had 3,256,420 options outstanding at the end of FY26. An RSU is a promise of shares to staff. (S027, Annual report FY26, p389, l15, filed, as of 2026-03-31) [L3-46-a]
+- The Board had 9 members at 31 March 2026. Five are independent, two executive, two non-executive. (S027, Annual report FY26, p199, l7, filed, as of 2026-03-31) [L4-24-a]
+- Three of the 9 Board members are women. (S027, Annual report FY26, p199, l7, filed, as of 2026-03-31) [L4-24-b]
+- Independent directors met 3 times without management in FY26. The dates were 8 May 2025, 7 August 2025, 12 February 2026. (S027, Annual report FY26, p254, l3, filed, as of 2026-03-31) [L4-24-c]
+- The MD and CEO earned 169.50 times median employee pay in FY26. Note: This leaves out the value of stock options exercised. (S026, Annual report FY26, p219, filed, as of 2026-03-31) [L4-25-a]
+- The MD and CEO earned 100.95 times median employee pay in FY25. (S044, Annual report FY25, p217, filed, as of 2025-03-31) [L4-25-b]
+- Two notices gave different dates for CFO Indranil Sen's exit. One said 15 March 2024, the other 14 March 2024. (Exchange announcements 2022-2026, no page, filed, as of 2024-03-14) [L4-28-a]
+- Independent director Meleveetil Damodaran left the Board on 25 July 2024. (Exchange announcements 2022-2026, no page, filed, as of 2024-07-25) [L4-28-b]
+- Peter Bains left his role on 1 April 2025. The filing lists his role as Other. (Exchange announcements 2022-2026, no page, filed, as of 2025-04-01) [L4-28-c]
+- Company Secretary Mayank Verma resigned, effective 14 April 2025. (Exchange announcements 2022-2026, no page, filed, as of 2025-04-14) [L4-28-d]
+- The board approved Shreehas Tambe as CEO and MD for five years. The term starts 1 April 2026, if members approve. (S027, Annual report FY26, p199, l13, filed, as of 2026-03-31) [L5-5-a]
+- Siddharth Mittal stepped down as CEO and managing director. That took effect at close of business on 31 March 2026. (S027, Annual report FY26, p199, l33, filed, as of 2026-03-31) [L5-5-b]
+- In FY26, the managing director's pay was 169.50 times the median employee's. The role was held by Siddharth Mittal. Note: Excludes the stock-option exercise perquisite; standalone figures. (S026, Annual report FY26, remuneration disclosure, p219, filed, as of 2026-03-31) [L5-89-a]
+- In FY25, the managing director's pay was 100.95 times the median employee's. The role was held by Siddharth Mittal. Note: Excludes the stock-option exercise perquisite; standalone figures. (S044, Annual report FY25, remuneration disclosure, p217, filed, as of 2025-03-31) [L5-89-b]
+- The managing director's pay was 70.4 times the median employee's in FY22. Note: Standalone figures, not consolidated. (S041, Annual report FY22, remuneration disclosure, p133, filed, as of 2022-03-31) [L5-89-c]
+- The median employee's pay rose 4.87% in FY26. Figures are standalone. (S026, Annual report FY26, remuneration disclosure, p219, filed, as of 2026-03-31) [L5-89-d]
+- Siddharth Mittal's FY26 pay table total was about Rs 12.98 crore. A footnote adds a stock-option benefit of about Rs 9.3 crore. (S027, Annual report FY26, remuneration of directors, p261, l34, filed, as of 2026-03-31) [L5-90-a]
+- Kiran Mazumdar-Shaw's FY26 pay totalled about Rs 5.5 crore. (S027, Annual report FY26, remuneration of directors, p261, l33, filed, as of 2026-03-31) [L5-90-b]
+- Siddharth Mittal's FY25 pay totalled about Rs 7.37 crore. (S031, Annual report FY25, remuneration of directors, p263, l16, filed, as of 2025-03-31) [L5-90-c]
+- Siddharth Mittal's FY24 pay totalled about Rs 5.73 crore. (S030, Annual report FY24, remuneration of directors, p227, l37, filed, as of 2024-03-31) [L5-90-d]
+- At 31 March 2026, the board had 9 members. Two were executive, 2 non-executive non-independent and 5 independent. (S027, Annual report FY26, Board's report, p199, l7, filed, as of 2026-03-31) [L5-92-a]
+- The board met 12 times during FY26. (S027, Annual report FY26, Board's report, p200, l30, filed, as of 2026-03-31) [L5-92-b]
+- Director Nicholas Robert Haggar attended 10 of 12 board meetings in FY26. That is 83.33% attendance. (S027, Annual report FY26, governance report, p253, l42, filed, as of 2026-03-31) [L5-92-c]
+- The FY26 report lists Kiran Mazumdar-Shaw as Executive Chairperson. Siddharth Mittal was MD and CEO until 31 March 2026. (S027, Annual report FY26, Board's report, p199, l39, filed, as of 2026-03-31) [L5-93-b]
+- The report says Kiran Mazumdar-Shaw, Ravi Mazumdar and Eric Mazumdar are related. Ravi is Kiran's brother and Eric's father. (S027, Annual report FY26, governance report, p251, l43, filed, as of 2026-03-31) [L5-93-c]
+- AGM item 5 asks holders to approve a share-based incentive plan. It is the Biocon Unity Long Term Incentive Plan 2026. (S027, Notice of the 48th AGM (in annual report FY26), p533, l37, filed, as of 2026-08-06) [L5-96-c]
+- 3,256,420 stock options were outstanding at end of FY26. They sit under the RSU Plan 2025. (S026, AR tables FY21-FY26 (csv, from the annual reports' statements), p389, filed, as of 2026-03-31) [L7-116-b]
+- The voting file lists 83 proposals across 9 owner meetings. They run from April 2024 to August 2026. (S034, Voting results csv (exchange voting-result filings), row 2, derived, as of 2026-08-06, formula: count of rows and distinct meeting dates in the csv, inputs: voting-results-2026-10-30) [L7-79-a]
+- A December 2025 meeting notice seeks a Rs 20,000 crore limit. It covers investments, loans and guarantees, above the legal limit. (EGM notice filed 2025-12-07, p19, l29, filed, as of 2025-12-07) [L7-79-b]
+- Biocon told the exchange its CFO Indranil Sen resigned. Two notices give 15 March 2024 and 14 March 2024. (Exchange announcements 2022-2026, no page, filed, as of 2024-03-14) [L8-30-a]
 
 ## 4.4 Auditors' remarks (24)
 
-- The group auditor's report has Opinion and Key Audit Matters parts. (Annual report FY26, p338, filed, as of 2026-03-31)
-- The group auditor's report has a Key Audit Matters part. (Annual report FY26, p338, filed, as of 2026-03-31)
-- Auditors flagged whether a subsidiary's deferred tax asset can be recovered. (Annual report FY26, p340, filed, as of 2026-03-31)
-- The group audit opinion is not modified for the other auditor's work. (Annual report FY26, p342, filed, as of 2026-03-31)
-- Biocon alone had cash losses of Rs 20.6 crore in FY26. It had none in FY25. (Annual report FY26, p278, filed, as of 2026-03-31)
-- Auditors said Biocon's financial controls were adequate and working. This was as at 31 March 2026. (Annual report FY26, p281, filed, as of 2026-03-31)
-- Auditors said the audit trail was not on for some fields. It is the edit log of the accounting software. (Annual report FY26, p275, filed, as of 2026-03-31)
-- The Board proposed S R Batliboi & Associates LLP as auditors. The term is 5 years from the 48th AGM. (Annual report FY26, p201, filed, as of 2026-03-31)
-- Auditors reported no resignation of statutory auditors in FY26. (Annual report FY26, p278, filed, as of 2026-03-31)
-- Biocon paid Rs 0.6 crore in statutory audit fees in FY26. Note: This is Biocon Limited's own audit fee, not the group's. (Annual report FY26, p315, filed, as of 2026-03-31)
-- Biocon paid its auditors Rs 0.2 crore for other services in FY26. Note: This is Biocon Limited's own fee, not the group's. (Annual report FY26, p315, filed, as of 2026-03-31)
-- Biocon paid Rs 0.6 crore in statutory audit fees in FY25. Note: This is Biocon Limited's own audit fee, not the group's. (Annual report FY25, p315, filed, as of 2025-03-31)
-- Biocon said the auditors completed their second and final term. This was in a 7 May 2026 filing. (Outcome of Board Meeting 2026-05-07, p5, filed, as of 2026-05-07)
-- Biocon Biologics' auditor B S R resigned on 6 August 2026. It matches the parent's auditors after mandatory rotation. (Intimation of resignation of subsidiary auditors 2026-08-06, p2, filed, as of 2026-08-06)
-- Auditors said undisputed statutory dues were regularly deposited with authorities. (Annual report FY26, p277, filed, as of 2026-03-31)
-- Another auditor checked one subsidiary with assets of Rs 4,440 crore. This subsidiary is outside India. (Annual report FY26, p342, filed, as of 2026-03-31)
-- The FY26 secretarial audit marks the SEBI Buy-Back Regulations not applicable. That holds for the audit period. (Annual report FY26, secretarial audit, p212, filed, as of 2026-03-31)
-- The FY26 secretarial audit lists the Buy-Back Regulations as not applicable. (Annual report FY26, secretarial audit, p212, filed, as of 2026-03-31)
-- AGM item 4 asks holders to approve S.R. Batliboi & Associates LLP as auditors. (Notice of the 48th AGM (in annual report FY26), p533, filed, as of 2026-08-06)
-- A material subsidiary's auditor resigned on 6 August 2026. Biocon told the exchange the same day. (Exchange announcements 2022-2026, no page, filed, as of 2026-08-06)
-- The 7 May 2026 filing reported a change in auditors. (Exchange announcements 2022-2026, no page, filed, as of 2026-05-07)
-- The standalone auditors named the tax provision a key audit matter. (Annual report FY26, p273, filed, as of 2026-03-31)
-- The consolidated auditors' tax matter names a subsidiary's deferred tax asset. They flag whether that asset can be recovered. (Annual report FY26, p340, filed, as of 2026-03-31)
-- The standalone auditors report no resignation of auditors in FY26. (Annual report FY26, p278, filed, as of 2026-03-31)
+- The group auditor's report has Opinion and Key Audit Matters parts. (S027, Annual report FY26, p338, l19, filed, as of 2026-03-31) [L1-30-a]
+- The group auditor's report has a Key Audit Matters part. (S027, Annual report FY26, p338, l19, filed, as of 2026-03-31) [L1-51-a]
+- Auditors flagged whether a subsidiary's deferred tax asset can be recovered. (S027, Annual report FY26, p340, l8, filed, as of 2026-03-31) [L4-16-a]
+- The group audit opinion is not modified for the other auditor's work. (S027, Annual report FY26, p342, l9, filed, as of 2026-03-31) [L4-16-b]
+- Biocon alone had cash losses of Rs 20.6 crore in FY26. It had none in FY25. (S027, Annual report FY26, p278, l31, filed, as of 2026-03-31) [L4-17-a]
+- Auditors said Biocon's financial controls were adequate and working. This was as at 31 March 2026. (S027, Annual report FY26, p281, l13, filed, as of 2026-03-31) [L4-17-b]
+- Auditors said the audit trail was not on for some fields. It is the edit log of the accounting software. (S027, Annual report FY26, p275, l27, filed, as of 2026-03-31) [L4-17-c]
+- The Board proposed S R Batliboi & Associates LLP as auditors. The term is 5 years from the 48th AGM. (S027, Annual report FY26, p201, l15, filed, as of 2026-03-31) [L4-18-a]
+- Auditors reported no resignation of statutory auditors in FY26. (S027, Annual report FY26, p278, l33, filed, as of 2026-03-31) [L4-18-b]
+- Biocon paid Rs 0.6 crore in statutory audit fees in FY26. Note: This is Biocon Limited's own audit fee, not the group's. (S026, Annual report FY26, p315, filed, as of 2026-03-31) [L4-19-a]
+- Biocon paid its auditors Rs 0.2 crore for other services in FY26. Note: This is Biocon Limited's own fee, not the group's. (S026, Annual report FY26, p315, filed, as of 2026-03-31) [L4-19-b]
+- Biocon paid Rs 0.6 crore in statutory audit fees in FY25. Note: This is Biocon Limited's own audit fee, not the group's. (S044, Annual report FY25, p315, filed, as of 2025-03-31) [L4-19-c]
+- Biocon said the auditors completed their second and final term. This was in a 7 May 2026 filing. (Outcome of Board Meeting 2026-05-07, p5, l26, filed, as of 2026-05-07) [L4-20-a]
+- Biocon Biologics' auditor B S R resigned on 6 August 2026. It matches the parent's auditors after mandatory rotation. (Intimation of resignation of subsidiary auditors 2026-08-06, p2, l18, filed, as of 2026-08-06) [L4-20-b]
+- Auditors said undisputed statutory dues were regularly deposited with authorities. (S027, Annual report FY26, p277, l24, filed, as of 2026-03-31) [L4-23-a]
+- Another auditor checked one subsidiary with assets of Rs 4,440 crore. This subsidiary is outside India. (S027, Annual report FY26, p342, l5, filed, as of 2026-03-31) [L4-8-d]
+- The FY26 secretarial audit marks the SEBI Buy-Back Regulations not applicable. That holds for the audit period. (S027, Annual report FY26, secretarial audit, p212, l47, filed, as of 2026-03-31) [L5-70-c]
+- The FY26 secretarial audit lists the Buy-Back Regulations as not applicable. (S027, Annual report FY26, secretarial audit, p212, l47, filed, as of 2026-03-31) [L5-72-a]
+- AGM item 4 asks holders to approve S.R. Batliboi & Associates LLP as auditors. (S027, Notice of the 48th AGM (in annual report FY26), p533, l25, filed, as of 2026-08-06) [L5-96-b]
+- A material subsidiary's auditor resigned on 6 August 2026. Biocon told the exchange the same day. (Exchange announcements 2022-2026, no page, filed, as of 2026-08-06) [L8-30-b]
+- The 7 May 2026 filing reported a change in auditors. (Exchange announcements 2022-2026, no page, filed, as of 2026-05-07) [L8-30-c]
+- The standalone auditors named the tax provision a key audit matter. (S027, Annual report FY26, p273, l7, filed, as of 2026-03-31) [L8-31-a]
+- The consolidated auditors' tax matter names a subsidiary's deferred tax asset. They flag whether that asset can be recovered. (S027, Annual report FY26, p340, l8, filed, as of 2026-03-31) [L8-31-b]
+- The standalone auditors report no resignation of auditors in FY26. (S027, Annual report FY26, p278, l33, filed, as of 2026-03-31) [L8-31-c]
 
 ## 4.5 Dealings within the group (9)
 
-- Standalone corporate guarantees for subsidiaries' bank loans were Rs 724.5 crore. In FY25 they were Rs 598 crore. Note: This is the standalone company, not the group. (Annual report FY26, p324, filed, as of 2026-03-31)
-- Biocon sold goods worth Rs 452.1 crore to subsidiaries in FY26. The year before, it was Rs 429.4 crore. Note: Standalone figure for Biocon Limited alone. (Annual report FY26, p321, filed, as of 2026-03-31)
-- Biocon gave subsidiaries loans of Rs 403.2 crore in FY26. In FY25 the figure was Rs 286.2 crore. Note: Standalone figure for Biocon Limited alone. (Annual report FY26, p321, filed, as of 2026-03-31)
-- 26.40% of votes opposed a Biocon Biologics deal on 23 April 2024. It was a related party item. (Voting results 23-Apr-2024, p7, filed, as of 2024-04-23)
-- The proposed Mylan share purchase was about 23.55% of annual group turnover. The notice came in December 2025. (EGM notice filed 2025-12-07, p35, filed, as of 2025-12-07)
-- Biocon gave guarantees worth Rs 724.5 crore for related parties. This was at 31 March 2026. Note: Standalone figure for Biocon Limited alone. (Annual report FY26, p321, filed, as of 2026-03-31)
-- Biocon reported no loans to firms where its directors are interested. This covers FY26. (Annual report FY26, p268, filed, as of 2026-03-31)
-- On 23 Apr 2024, 26.40% of votes opposed a Biocon Biologics item. It was a related-party item; promoters cast no votes. (Voting results, general meeting 2024-04-23, p7, filed, as of 2024-04-23)
-- On 31 Dec 2025, 0.812% of votes opposed a related-party item. The item was with Mylan Inc. (Voting results, meeting 2025-12-31, p3, filed, as of 2025-12-31)
+- Standalone corporate guarantees for subsidiaries' bank loans were Rs 724.5 crore. In FY25 they were Rs 598 crore. Note: This is the standalone company, not the group. (S027, Annual report FY26, p324, l15, filed, as of 2026-03-31) [L3-60-a]
+- Biocon sold goods worth Rs 452.1 crore to subsidiaries in FY26. The year before, it was Rs 429.4 crore. Note: Standalone figure for Biocon Limited alone. (S027, Annual report FY26, p321, l11, filed, as of 2026-03-31) [L4-0-a]
+- Biocon gave subsidiaries loans of Rs 403.2 crore in FY26. In FY25 the figure was Rs 286.2 crore. Note: Standalone figure for Biocon Limited alone. (S027, Annual report FY26, p321, l31, filed, as of 2026-03-31) [L4-0-b]
+- 26.40% of votes opposed a Biocon Biologics deal on 23 April 2024. It was a related party item. (Voting results 23-Apr-2024, p7, filed, as of 2024-04-23) [L4-3-a]
+- The proposed Mylan share purchase was about 23.55% of annual group turnover. The notice came in December 2025. (EGM notice filed 2025-12-07, p35, l8, filed, as of 2025-12-07) [L4-3-b]
+- Biocon gave guarantees worth Rs 724.5 crore for related parties. This was at 31 March 2026. Note: Standalone figure for Biocon Limited alone. (S027, Annual report FY26, p321, l37, filed, as of 2026-03-31) [L4-5-a]
+- Biocon reported no loans to firms where its directors are interested. This covers FY26. (S027, Annual report FY26, p268, l21, filed, as of 2026-03-31) [L4-5-b]
+- On 23 Apr 2024, 26.40% of votes opposed a Biocon Biologics item. It was a related-party item; promoters cast no votes. (Voting results, general meeting 2024-04-23, p7, filed, as of 2024-04-23) [L5-101-a]
+- On 31 Dec 2025, 0.812% of votes opposed a related-party item. The item was with Mylan Inc. (Voting results, meeting 2025-12-31, p3, filed, as of 2025-12-31) [L5-101-b]
 
 ## 4.6 Tax and legal disputes (6)
 
-- Claims against Biocon, not accepted as debt, were Rs 928.4 crore. That is group-wide, at 31 March 2026. (Annual report FY26, p397, filed, as of 2026-03-31)
-- Equity attributable to owners was Rs 34,031.8 crore at 31 March 2026. Note: This is equity belonging to owners, not total group equity. (Annual report FY26, p346, filed, as of 2026-03-31)
-- Claims not accepted as debt were 2.7% of owners' equity. (Annual report FY26, p397, derived, as of 2026-03-31)
-- Rs 138.6 crore of income tax is disputed before a tribunal. It is a standalone figure for FY26. (Annual report FY26, p279, filed, as of 2026-03-31)
-- A GST order demands Rs 1,85,28,762, plus interest and penalty. Biocon received it on 9 October 2026 for FY23. (Intimation of tax order 2026-10-10, p2, filed, as of 2026-10-10)
-- The FY26 Board report names no material orders from regulators or courts. It says none affect going concern status or future operations. (Annual report FY26, p203, filed, as of 2026-03-31)
+- Claims against Biocon, not accepted as debt, were Rs 928.4 crore. That is group-wide, at 31 March 2026. (S027, Annual report FY26, p397, l12, filed, as of 2026-03-31) [L4-21-a]
+- Equity attributable to owners was Rs 34,031.8 crore at 31 March 2026. Note: This is equity belonging to owners, not total group equity. (S026, Annual report FY26, p346, filed, as of 2026-03-31) [L4-21-b]
+- Claims not accepted as debt were 2.7% of owners' equity. (S027, Annual report FY26, p397, derived, as of 2026-03-31, formula: 9,284 / 340,318 x 100, inputs: L4-21-a, L4-21-b) [L4-21-c]
+- Rs 138.6 crore of income tax is disputed before a tribunal. It is a standalone figure for FY26. (S027, Annual report FY26, p279, l10, filed, as of 2026-03-31) [L4-22-a]
+- A GST order demands Rs 1,85,28,762, plus interest and penalty. Biocon received it on 9 October 2026 for FY23. (Intimation of tax order 2026-10-10, p2, l26, filed, as of 2026-10-10) [L4-22-b]
+- The FY26 Board report names no material orders from regulators or courts. It says none affect going concern status or future operations. (S027, Annual report FY26, p203, l41, filed, as of 2026-03-31) [L8-7-c]
 
-## 5.1 What they said they would do (22)
+## 5.1 What they said they would do (20)
 
-- The CFO said free cash would first go to reduce debt. [forecast, not a fact] (S013, Q4 FY26 earnings call, 8 May 2026, no page, filed, as of 2026-05-08)
-- The CFO said free cash first goes to cut debt. [forecast, not a fact] (S013, Q4 FY26 earnings call, 8 May 2026, no page, filed, as of 2026-05-08)
-- Kiran Mazumdar-Shaw said generics deals and approvals will allow mid-teens growth. She said this on 15 Feb 2023 for 5 years and beyond. [forecast, not a fact] (S002, Q3 FY23 earnings call, p6, filed, as of 2023-02-15)
-- On 9 May 2025 the CFO said they give no forward guidance. He was speaking for Biocon Biologics. (S009, Q4 FY25 earnings call, no page, filed, as of 2025-05-09)
-- Siddharth Mittal spoke of Biocon's standalone business in January 2025. He said EBITDA margin would near 13%, 14% within two years. [forecast, not a fact] (S008, Q3 FY25 earnings call, p23, filed, as of 2025-01-31)
-- Shreehas Tambe recalled FY25 R&D guidance on 9 May 2025. It was 7% to 9% of sales. (S009, Q4 FY25 earnings call, no page, filed, as of 2025-05-09)
-- The FY26 report says Syngene expects broadly flat FY27 performance. It expects operating EBITDA margin in the mid 20% range. [forecast, not a fact] (Annual report FY26, p240, filed, as of 2026-03-31)
-- Kiran Mazumdar-Shaw said generics deals and approvals will allow mid-teens growth. She said this on 15 Feb 2023 for 5 years and beyond. [forecast, not a fact] (S002, Q3 FY23 earnings call, p6, filed, as of 2023-02-15)
-- Shreehas Tambe's FY26 letter says Yesafili launches in the US in FY27. [forecast, not a fact] (Annual report FY26, p24, filed, as of 2026-03-31)
-- The CFO plans progressive improvement in RoCE over the medium term. No number is given. [forecast, not a fact] (Annual report FY26, p32, filed, as of 2026-03-31)
-- Siddharth Mittal spoke of Biocon's standalone business in January 2025. He said EBITDA margin would near 13%, 14% within two years. [forecast, not a fact] (S008, Q3 FY25 earnings call, p23, filed, as of 2025-01-31)
-- On 10 Nov 2023 Siddharth Mittal said mid-teens generics growth may ease. He pointed to low teens to high single digits. [forecast, not a fact] (S004, Q2 FY24 earnings call, p19, filed, as of 2023-11-10)
-- The FY26 CEO letter names an Office of AI as a priority. AI here means Augmented Intelligence. [forecast, not a fact] (Annual report FY26, p24, filed, as of 2026-03-31)
-- Kedar Upadhye, the CFO, spoke on 8 May 2026. He said the first claim on free cash is debt reduction. [forecast, not a fact] (S013, Q4 FY26 earnings call, no page, filed, as of 2026-05-08)
-- On 31 January 2025, Biocon CEO Siddharth Mittal guided on margin. EBITDA margin: closer to 13% to 14% in 1 or 2 years. [forecast, not a fact] (S008, Q3 FY25 earnings call 2025-01-31, p23, filed, as of 2025-01-31)
-- On 31 January 2025, Biocon CEO Siddharth Mittal spoke on the call. He expected US approval of liraglutide in the year's second half. [forecast, not a fact] (S008, Q3 FY25 earnings call 2025-01-31, p11, filed, as of 2025-01-31)
-- On 12 November 2025, Biocon CEO Siddharth Mittal spoke on the call. He expected margin improvement and revenue growth to continue in H2 FY26. [forecast, not a fact] (S011, Q2 FY26 earnings call 2025-11-12, no page, filed, as of 2025-11-12)
-- Biocon's FY26 report says its Biosimilars focus in FY27 is execution-led growth. It names products approved and launched in FY26 as contributors. [forecast, not a fact] (Annual report FY26, p233, filed, as of 2026-03-31)
-- Syngene, a Biocon subsidiary, expects broadly flat FY27 performance. It expects operating EBITDA margins in the mid 20% range. [forecast, not a fact] (Annual report FY26, p240, filed, as of 2026-03-31)
-- Biocon's FY26 report says new-plant start-up costs affected Generics margins. It expects margins to improve as plants run at higher utilisation. [forecast, not a fact] (Annual report FY26, p31, filed, as of 2026-03-31)
-- On 31 January 2025, Biocon CEO Siddharth Mittal spoke on the call. He expected US approval of liraglutide in the year's second half. [forecast, not a fact] (S008, Q3 FY25 earnings call 2025-01-31, p11, filed, as of 2025-01-31)
-- On 12 November 2025, Biocon CEO Siddharth Mittal spoke on the call. He expected margin improvement and revenue growth to continue in H2 FY26. [forecast, not a fact] (S011, Q2 FY26 earnings call 2025-11-12, no page, filed, as of 2025-11-12)
+- The CFO said free cash would first go to reduce debt. [forecast, not a fact] (S013, Q4 FY26 earnings call, 8 May 2026, no page, filed, as of 2026-05-08) [L2-40-a]
+- The CFO said free cash first goes to cut debt. [forecast, not a fact] (S013, Q4 FY26 earnings call, 8 May 2026, no page, filed, as of 2026-05-08) [L2-45-a]
+- Kiran Mazumdar-Shaw said generics deals and approvals will allow mid-teens growth. She said this on 15 Feb 2023 for 5 years and beyond. [forecast, not a fact] (S002, Q3 FY23 earnings call, p6, l22, filed, as of 2023-02-15) [L5-13-a]
+- On 9 May 2025 the CFO said they give no forward guidance. He was speaking for Biocon Biologics. (S009, Q4 FY25 earnings call, no page, filed, as of 2025-05-09) [L5-14-a]
+- Siddharth Mittal spoke of Biocon's standalone business in January 2025. He said EBITDA margin would near 13%, 14% within two years. [forecast, not a fact] (S008, Q3 FY25 earnings call, p23, l120, filed, as of 2025-01-31) [L5-20-a]
+- Shreehas Tambe recalled FY25 R&D guidance on 9 May 2025. It was 7% to 9% of sales. (S009, Q4 FY25 earnings call, no page, filed, as of 2025-05-09) [L5-20-b]
+- The FY26 report says Syngene expects broadly flat FY27 performance. It expects operating EBITDA margin in the mid 20% range. [forecast, not a fact] (S027, Annual report FY26, p240, l35, filed, as of 2026-03-31) [L5-20-c]
+- Kiran Mazumdar-Shaw said generics deals and approvals will allow mid-teens growth. She said this on 15 Feb 2023 for 5 years and beyond. [forecast, not a fact] (S002, Q3 FY23 earnings call, p6, l22, filed, as of 2023-02-15) [L5-20-d]
+- Shreehas Tambe's FY26 letter says Yesafili launches in the US in FY27. [forecast, not a fact] (S027, Annual report FY26, p24, l3, filed, as of 2026-03-31) [L5-22-a]
+- The CFO plans progressive improvement in RoCE over the medium term. No number is given. [forecast, not a fact] (S027, Annual report FY26, p32, l5, filed, as of 2026-03-31) [L5-22-b]
+- Siddharth Mittal spoke of Biocon's standalone business in January 2025. He said EBITDA margin would near 13%, 14% within two years. [forecast, not a fact] (S008, Q3 FY25 earnings call, p23, l120, filed, as of 2025-01-31) [L5-25-a]
+- On 10 Nov 2023 Siddharth Mittal said mid-teens generics growth may ease. He pointed to low teens to high single digits. [forecast, not a fact] (S004, Q2 FY24 earnings call, p19, l104, filed, as of 2023-11-10) [L5-27-a]
+- The FY26 CEO letter names an Office of AI as a priority. AI here means Augmented Intelligence. [forecast, not a fact] (S027, Annual report FY26, p24, l7, filed, as of 2026-03-31) [L5-52-c]
+- Kedar Upadhye, the CFO, spoke on 8 May 2026. He said the first claim on free cash is debt reduction. [forecast, not a fact] (S013, Q4 FY26 earnings call, no page, filed, as of 2026-05-08) [L5-71-c]
+- On 31 January 2025, Biocon CEO Siddharth Mittal guided on margin. EBITDA margin: closer to 13% to 14% in 1 or 2 years. [forecast, not a fact] (S008, Q3 FY25 earnings call 2025-01-31, p23, l120, filed, as of 2025-01-31) [L8-11-a]
+- On 31 January 2025, Biocon CEO Siddharth Mittal spoke on the call. He expected US approval of liraglutide in the year's second half. [forecast, not a fact] (S008, Q3 FY25 earnings call 2025-01-31, p11, l48, filed, as of 2025-01-31) [L8-11-b] Also L8-9-b.
+- On 12 November 2025, Biocon CEO Siddharth Mittal spoke on the call. He expected margin improvement and revenue growth to continue in H2 FY26. [forecast, not a fact] (S011, Q2 FY26 earnings call 2025-11-12, no page, filed, as of 2025-11-12) [L8-64-b] Also L8-9-c.
+- Biocon's FY26 report says its Biosimilars focus in FY27 is execution-led growth. It names products approved and launched in FY26 as contributors. [forecast, not a fact] (S027, Annual report FY26, p233, l49, filed, as of 2026-03-31) [L8-66-a]
+- Syngene, a Biocon subsidiary, expects broadly flat FY27 performance. It expects operating EBITDA margins in the mid 20% range. [forecast, not a fact] (S027, Annual report FY26, p240, l35, filed, as of 2026-03-31) [L8-66-b]
+- Biocon's FY26 report says new-plant start-up costs affected Generics margins. It expects margins to improve as plants run at higher utilisation. [forecast, not a fact] (S027, Annual report FY26, p31, l27, filed, as of 2026-03-31) [L8-66-c]
 
 ## 5.2 What happened later (10)
 
-- A model marked 14 of 39 dated statements kept and 5 missed. They run from Jan 2025 to May 2026. (Seat note record.md (guidance record), no page, model-judged, as of 2026-10-29)
-- A model marked 9 statements as open. It marked 11 as depending on reading. (Seat note record.md (guidance record), no page, model-judged, as of 2026-10-29)
-- In Q2 FY23 Kiran Mazumdar-Shaw said Biologics R&D was 18% of revenue. Guidance had been 12% to 15% of sales. (S001, Q2 FY23 earnings call, p7, filed, as of 2022-11-15)
-- Shreehas Tambe recalled FY25 R&D guidance on 9 May 2025. He said spend was within that range. (S009, Q4 FY25 earnings call, no page, filed, as of 2025-05-09)
-- Peter Bains said Eris-adjusted Q1 FY25 results were relatively subdued. On 9 Aug 2024 he said they matched expectations and guidance. (S007, Q1 FY25 earnings call, p4, filed, as of 2024-08-09)
-- On 24 May 2023, management said Biocon Biologics' R&D spend was 16%. That is above its 12% guidance for FY23. (S003, Q4 FY23 earnings call, p7, filed, as of 2023-05-24)
-- On 13 Feb 2026, management said upgrades slowed Q3 biosimilars growth. It said this positions the business for a sustained ramp-up. [forecast, not a fact] (S012, Q3 FY26 earnings call, no page, filed, as of 2026-02-13)
-- Shreehas Tambe said on 8 May 2026 that some things were slowed. The aim was to get ready for greater supply. (S013, Q4 FY26 earnings call, no page, filed, as of 2026-05-08)
-- Of 39 dated management statements, 5 were missed and 9 remain open. (record.md (statements set against later filings), no page, model-judged, as of 2026-05-08)
-- A reader checked 39 management statements from January 2025 to May 2026. 14 were kept, 5 missed, 9 open and 11 depend on reading. (record.md (statements set against later filings), no page, model-judged, as of 2026-05-08)
+- A model marked 14 of 39 dated statements kept and 5 missed. They run from Jan 2025 to May 2026. (Seat note record.md (guidance record), no page, model-judged, as of 2026-10-29) [L5-23-a]
+- A model marked 9 statements as open. It marked 11 as depending on reading. (Seat note record.md (guidance record), no page, model-judged, as of 2026-10-29) [L5-23-b]
+- In Q2 FY23 Kiran Mazumdar-Shaw said Biologics R&D was 18% of revenue. Guidance had been 12% to 15% of sales. (S001, Q2 FY23 earnings call, p7, l23, filed, as of 2022-11-15) [L5-27-b]
+- Shreehas Tambe recalled FY25 R&D guidance on 9 May 2025. He said spend was within that range. (S009, Q4 FY25 earnings call, no page, filed, as of 2025-05-09) [L5-27-c]
+- Peter Bains said Eris-adjusted Q1 FY25 results were relatively subdued. On 9 Aug 2024 he said they matched expectations and guidance. (S007, Q1 FY25 earnings call, p4, l20, filed, as of 2024-08-09) [L5-51-b]
+- On 24 May 2023, management said Biocon Biologics' R&D spend was 16%. That is above its 12% guidance for FY23. (S003, Q4 FY23 earnings call, p7, l21, filed, as of 2023-05-24) [L5-53-c]
+- On 13 Feb 2026, management said upgrades slowed Q3 biosimilars growth. It said this positions the business for a sustained ramp-up. [forecast, not a fact] (S012, Q3 FY26 earnings call, no page, filed, as of 2026-02-13) [L5-88-a]
+- Shreehas Tambe said on 8 May 2026 that some things were slowed. The aim was to get ready for greater supply. (S013, Q4 FY26 earnings call, no page, filed, as of 2026-05-08) [L5-88-b]
+- Of 39 dated management statements, 5 were missed and 9 remain open. (record.md (statements set against later filings), no page, model-judged, as of 2026-05-08) [L8-64-a]
+- A reader checked 39 management statements from January 2025 to May 2026. 14 were kept, 5 missed, 9 open and 11 depend on reading. (record.md (statements set against later filings), no page, model-judged, as of 2026-05-08) [L8-9-a]
 
 ## 5.3 Questions on the calls (15)
 
-- On the 6 Aug 2026 call, analysts raised 37 items. A model marked 12 as answered and 15 as partly answered. (Q1 FY27 earnings call, Q&A states, table row, model-judged, as of 2026-08-06)
-- Surya Patra asked how big the US share is, FY27 versus FY26. On 8 May 2026 the CEO said to take a broader view. (S013, Q4 FY26 earnings call, no page, model-judged, as of 2026-05-08)
-- Analyst Tushar Manudhane asked about biosimilars capacity use on 8 May 2026. The CFO said there is no one number to give. (S013, Q4 FY26 earnings call, no page, model-judged, as of 2026-05-08)
-- Across 14 calls a model marked 56 answers as deflected. It marked 30 as declined and 18 as deferred. (Q&A states, 14 calls, no page, model-judged, as of 2026-08-06)
-- The CEO would not comment on Eylea settlement terms. On 8 May 2026 Shreehas Tambe said the terms are confidential. (S013, Q4 FY26 earnings call, no page, model-judged, as of 2026-05-08)
-- Kiran Mazumdar-Shaw agreed on 8 Aug 2025 that debt drags investor views. The views concern the acquisition. (S010, Q1 FY26 earnings call, no page, filed, as of 2025-08-08)
-- Shreehas Tambe discussed swappable biosimilars on 15 Feb 2023. He said he would correct himself if his words misled. (S002, Q3 FY23 earnings call, p23, filed, as of 2023-02-15)
-- A model read the last four calls' Q&A. It marked 14 answers deflected, 4 declined and 3 deferred. (Q&A states, last four calls, table row, model-judged, as of 2026-08-06)
-- On 8 May 2026, Shreehas Tambe answered on the FY27 exit rate. He said this is not a quarter-on-quarter conversation. (S013, Q4 FY26 earnings call, no page, model-judged, as of 2026-05-08)
-- On 8 May 2026, Kedar Upadhye said there is no one number. He was speaking about capacity use, plant by plant. (S013, Q4 FY26 earnings call, no page, model-judged, as of 2026-05-08)
-- Of 37 items on 6 Aug 2026, 4 had no model verdict. These were Q&A items from the earnings call. (Q1 FY27 earnings call, Q&A states, table row, model-judged, as of 2026-08-06)
-- One model labelled 306 of 659 call questions as not fully answered. That covers 14 calls from November 2022 to August 2026. Note: Counts partial, deflected, declined and deferred labels. (Q&A states summary csv (model-labelled, 14 calls), no page, model-judged, as of 2026-08-06)
-- A model marked 15 of 37 questions partial on 6 August 2026. It marked 3 deflected, 1 declined and 1 deferred. (Q&A states summary csv (model-labelled), table row, model-judged, as of 2026-08-06)
-- A model sorted 37 analyst items from the 6 August 2026 call. It labelled 12 answered, 15 partial and 3 deflected. (qa-states-summary.csv, table row, model-judged, as of 2026-08-06)
-- A model sorted 37 analyst items from the 8 May 2026 call. It labelled 13 answered, 13 partial and 7 deflected. (qa-states-summary.csv, table row, model-judged, as of 2026-05-08)
+- On the 6 Aug 2026 call, analysts raised 37 items. A model marked 12 as answered and 15 as partly answered. (Q1 FY27 earnings call, Q&A states, row 15, model-judged, as of 2026-08-06) [L5-12-a]
+- Surya Patra asked how big the US share is, FY27 versus FY26. On 8 May 2026 the CEO said to take a broader view. (S013, Q4 FY26 earnings call, no page, model-judged, as of 2026-05-08) [L5-12-b]
+- Analyst Tushar Manudhane asked about biosimilars capacity use on 8 May 2026. The CFO said there is no one number to give. (S013, Q4 FY26 earnings call, no page, model-judged, as of 2026-05-08) [L5-12-c]
+- Across 14 calls a model marked 56 answers as deflected. It marked 30 as declined and 18 as deferred. (Q&A states, 14 calls, no page, model-judged, as of 2026-08-06) [L5-15-a]
+- The CEO would not comment on Eylea settlement terms. On 8 May 2026 Shreehas Tambe said the terms are confidential. (S013, Q4 FY26 earnings call, no page, model-judged, as of 2026-05-08) [L5-15-b]
+- Kiran Mazumdar-Shaw agreed on 8 Aug 2025 that debt drags investor views. The views concern the acquisition. (S010, Q1 FY26 earnings call, no page, filed, as of 2025-08-08) [L5-53-a]
+- Shreehas Tambe discussed swappable biosimilars on 15 Feb 2023. He said he would correct himself if his words misled. (S002, Q3 FY23 earnings call, p23, l152, filed, as of 2023-02-15) [L5-53-b]
+- A model read the last four calls' Q&A. It marked 14 answers deflected, 4 declined and 3 deferred. (Q&A states, last four calls, row 12, model-judged, as of 2026-08-06) [L5-56-a]
+- On 8 May 2026, Shreehas Tambe answered on the FY27 exit rate. He said this is not a quarter-on-quarter conversation. (S013, Q4 FY26 earnings call, no page, model-judged, as of 2026-05-08) [L5-56-b]
+- On 8 May 2026, Kedar Upadhye said there is no one number. He was speaking about capacity use, plant by plant. (S013, Q4 FY26 earnings call, no page, model-judged, as of 2026-05-08) [L5-56-c]
+- Of 37 items on 6 Aug 2026, 4 had no model verdict. These were Q&A items from the earnings call. (Q1 FY27 earnings call, Q&A states, row 15, model-judged, as of 2026-08-06) [L5-56-d]
+- One model labelled 306 of 659 call questions as not fully answered. That covers 14 calls from November 2022 to August 2026. Note: Counts partial, deflected, declined and deferred labels. (Q&A states summary csv (model-labelled, 14 calls), no page, model-judged, as of 2026-08-06) [L7-97-a]
+- A model marked 15 of 37 questions partial on 6 August 2026. It marked 3 deflected, 1 declined and 1 deferred. (Q&A states summary csv (model-labelled), row 15, model-judged, as of 2026-08-06) [L7-97-b]
+- A model sorted 37 analyst items from the 6 August 2026 call. It labelled 12 answered, 15 partial and 3 deflected. (qa-states-summary.csv, row 15, model-judged, as of 2026-08-06) [L8-16-a]
+- A model sorted 37 analyst items from the 8 May 2026 call. It labelled 13 answered, 13 partial and 7 deflected. (qa-states-summary.csv, row 14, model-judged, as of 2026-05-08) [L8-24-a]
 
 ## 5.4 Approvals and plant inspections (6)
 
-- Siddharth Mittal said the injectable facility was recently commissioned. On 8 Aug 2025 he said it will be qualified next fiscal. [forecast, not a fact] (S010, Q1 FY26 earnings call, no page, filed, as of 2025-08-08)
-- The US drug regulator (FDA) approved Jobevne on 9 Apr 2025. It took 63.4 months from the 27 Dec 2019 filing. Note: Months run from the day the FDA received the application. (FDA approval letter and Drugs@FDA sponsor table, p1, derived, as of 2025-04-09)
-- The US drug regulator (FDA) approved Yesafili on 20 May 2024. It took 30.7 months from the 29 Oct 2021 filing. Note: Months run from the day the FDA received the application. (FDA approval letter and Drugs@FDA sponsor table, p1, derived, as of 2024-05-20)
-- The US drug regulator (FDA) approved Bosaya on 16 Sep 2025. It took 12.0 months from the 16 Sep 2024 filing. Note: Months run from the day the FDA received the application. (FDA approval letter and Drugs@FDA sponsor table, p1, derived, as of 2025-09-16)
-- In July 2023 the FDA inspected the Malaysia facility and made observations. Group CEO Peter Bains said this on 10 Nov 2023. (S004, Q2 FY24 earnings call, p8, filed, as of 2023-11-10)
-- On 21 Sep 2026 Biocon reported a European regulator panel approval recommendation. It covers Pertuzumab, under a new tailored clinical approach. (NSE announcement, press release 2026-09-21, p2, filed, as of 2026-09-21)
+- Siddharth Mittal said the injectable facility was recently commissioned. On 8 Aug 2025 he said it will be qualified next fiscal. [forecast, not a fact] (S010, Q1 FY26 earnings call, no page, filed, as of 2025-08-08) [L5-40-a]
+- The US drug regulator (FDA) approved Jobevne on 9 Apr 2025. It took 63.4 months from the 27 Dec 2019 filing. Note: Months run from the day the FDA received the application. (FDA approval letter and Drugs@FDA sponsor table, p1, l26, derived, as of 2025-04-09, formula: (approval date - BLA received date) / 30.4375 days, inputs: another finding p1, another finding) [L5-48-a]
+- The US drug regulator (FDA) approved Yesafili on 20 May 2024. It took 30.7 months from the 29 Oct 2021 filing. Note: Months run from the day the FDA received the application. (FDA approval letter and Drugs@FDA sponsor table, p1, l28, derived, as of 2024-05-20, formula: (approval date - BLA received date) / 30.4375 days, inputs: another finding p1, another finding) [L5-48-b]
+- The US drug regulator (FDA) approved Bosaya on 16 Sep 2025. It took 12.0 months from the 16 Sep 2024 filing. Note: Months run from the day the FDA received the application. (FDA approval letter and Drugs@FDA sponsor table, p1, l53, derived, as of 2025-09-16, formula: (approval date - BLA received date) / 30.4375 days, inputs: another finding p1, another finding) [L5-48-c]
+- In July 2023 the FDA inspected the Malaysia facility and made observations. Group CEO Peter Bains said this on 10 Nov 2023. (S004, Q2 FY24 earnings call, p8, l22, filed, as of 2023-11-10) [L5-50-b]
+- On 21 Sep 2026 Biocon reported a European regulator panel approval recommendation. It covers Pertuzumab, under a new tailored clinical approach. (NSE announcement, press release 2026-09-21, p2, l5, filed, as of 2026-09-21) [L5-8-b]
 
 ## 6.1 Market and rivals, as the company describes them (15)
 
-- Matthew Erick of Biocon Biologics spoke on 10 Nov 2023. He said they maintain a mid- to high teens insulin glargine share. (S004, Q2 FY24 earnings call, p15, filed, as of 2023-11-10)
-- On 8 May 2026, Kedar Upadhye put glargine share at about 11%. He said this is the reported figure. (S013, Q4 FY26 earnings call, no page, filed, as of 2026-05-08)
-- The FY26 report cites BCG: USD 275 billion revenue at risk. That is revenue at top drug firms losing market exclusivity. (Annual report FY26, p228, third-party, as of 2026-03-31, www.bcg.com)
-- Matthew Erick said Biocon Biologics is vertically integrated (each step in-house). On 8 Aug 2025 he said that helps it compete. (S010, Q1 FY26 earnings call, no page, filed, as of 2025-08-08)
-- The FY26 report describes biosimilars as facing sustained pricing pressure. It also names consolidated procurement. (Annual report FY26, p230, filed, as of 2026-03-31)
-- The FY26 report calls pricing pressure structural and enduring. It says this applies to the global pharmaceutical industry. (Annual report FY26, p227, filed, as of 2026-03-31)
-- The FY26 management discussion says pricing pressure is structural and enduring. It says this applies to the global pharmaceutical industry. (Annual report FY26, p227, filed, as of 2026-03-31)
-- The FY26 report cites a BCG estimate on the patent cliff. USD 275 billion of top-company revenue is at risk. (Annual report FY26, p228, third-party, as of 2026-03-31, www.bcg.com)
-- The FY26 report says trade actions raised input cost volatility. It also says they changed sourcing economics. (Annual report FY26, p228, filed, as of 2026-03-31)
-- The report projects 7.5% yearly growth for the global medicines market. It projects about USD 1.7 trillion by 2029. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p225, filed, as of 2026-03-31)
-- The FY25 report puts 2024 global biosimilar sales at USD 23 billion. It projects USD 67 billion by 2029. (Annual report FY25 (year ended 2025-03-31), p225, filed, as of 2025-03-31)
-- The FY23 report says the peptide market may reach USD 100 billion. It says this over the next decade. (Annual report FY23 (year ended 2023-03-31), p40, filed, as of 2023-03-31)
-- World Bank data show India's real GDP grew 7.57% in 2025. Real means after removing price changes. (World Bank GDP growth (annual %), India, no page, third-party, as of 2026-10-08, api.worldbank.org)
-- World Bank data show India's real GDP grew 7.10% in 2024. Real means after removing price changes. (World Bank GDP growth (annual %), India, no page, third-party, as of 2026-10-08, api.worldbank.org)
-- Biocon's FY26 report says the biosimilars and generics markets are competitive. It names pricing pressure, rule changes and supply chain swings. (Annual report FY26, p32, filed, as of 2026-03-31)
+- Matthew Erick of Biocon Biologics spoke on 10 Nov 2023. He said they maintain a mid- to high teens insulin glargine share. (S004, Q2 FY24 earnings call, p15, l86, filed, as of 2023-11-10) [L5-59-a]
+- On 8 May 2026, Kedar Upadhye put glargine share at about 11%. He said this is the reported figure. (S013, Q4 FY26 earnings call, no page, filed, as of 2026-05-08) [L5-59-b]
+- The FY26 report cites BCG: USD 275 billion revenue at risk. That is revenue at top drug firms losing market exclusivity. (S027, Annual report FY26, p228, l11, third-party, as of 2026-03-31, www.bcg.com) [L5-6-b]
+- Matthew Erick said Biocon Biologics is vertically integrated (each step in-house). On 8 Aug 2025 he said that helps it compete. (S010, Q1 FY26 earnings call, no page, filed, as of 2025-08-08) [L5-7-a]
+- The FY26 report describes biosimilars as facing sustained pricing pressure. It also names consolidated procurement. (S027, Annual report FY26, p230, l23, filed, as of 2026-03-31) [L6-21-a]
+- The FY26 report calls pricing pressure structural and enduring. It says this applies to the global pharmaceutical industry. (S027, Annual report FY26, p227, l34, filed, as of 2026-03-31) [L6-21-b]
+- The FY26 management discussion says pricing pressure is structural and enduring. It says this applies to the global pharmaceutical industry. (S027, Annual report FY26, p227, l34, filed, as of 2026-03-31) [L6-73-a]
+- The FY26 report cites a BCG estimate on the patent cliff. USD 275 billion of top-company revenue is at risk. (S027, Annual report FY26, p228, l11, third-party, as of 2026-03-31, www.bcg.com) [L6-73-b]
+- The FY26 report says trade actions raised input cost volatility. It also says they changed sourcing economics. (S027, Annual report FY26, p228, l25, filed, as of 2026-03-31) [L6-73-c]
+- The report projects 7.5% yearly growth for the global medicines market. It projects about USD 1.7 trillion by 2029. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p225, l30, filed, as of 2026-03-31) [L7-45-a]
+- The FY25 report puts 2024 global biosimilar sales at USD 23 billion. It projects USD 67 billion by 2029. (S031, Annual report FY25 (year ended 2025-03-31), p225, l22, filed, as of 2025-03-31) [L7-49-a]
+- The FY23 report says the peptide market may reach USD 100 billion. It says this over the next decade. (S029, Annual report FY23 (year ended 2023-03-31), p40, l7, filed, as of 2023-03-31) [L7-49-b]
+- World Bank data show India's real GDP grew 7.57% in 2025. Real means after removing price changes. (S052, World Bank GDP growth (annual %), India, no page, third-party, as of 2026-10-08, api.worldbank.org) [L7-50-a]
+- World Bank data show India's real GDP grew 7.10% in 2024. Real means after removing price changes. (S052, World Bank GDP growth (annual %), India, no page, third-party, as of 2026-10-08, api.worldbank.org) [L7-50-b]
+- Biocon's FY26 report says the biosimilars and generics markets are competitive. It names pricing pressure, rule changes and supply chain swings. (S027, Annual report FY26, p32, l21, filed, as of 2026-03-31) [L8-67-a]
 
 ## 6.2 Sales by country (6)
 
-- An 8 September 2026 press release names a 10-year Brazil supply deal. The product is Pertuzumab. (Exchange announcements 2022-2026, no page, filed, as of 2026-09-08)
-- A 17 April 2024 press release announced a semaglutide licence for Brazil. The partner is Biomm S.A. (Exchange announcements 2022-2026, no page, filed, as of 2024-04-17)
-- FY26 revenue from the United States was about Rs 7,995 crore. (Annual report FY26, p414, filed, as of 2026-03-31)
-- FY25 revenue from the United States was about Rs 7,042 crore. (Annual report FY25, p415, filed, as of 2025-03-31)
-- US revenue grew 13.5 percent in rupees from FY25 to FY26. (Annual report FY26, p414, derived, as of 2026-03-31)
-- European Union revenue, with Ireland, was about Rs 4,617 crore in FY26. (Annual report FY26, p414, filed, as of 2026-03-31)
+- An 8 September 2026 press release names a 10-year Brazil supply deal. The product is Pertuzumab. (Exchange announcements 2022-2026, no page, filed, as of 2026-09-08) [L4-50-a]
+- A 17 April 2024 press release announced a semaglutide licence for Brazil. The partner is Biomm S.A. (Exchange announcements 2022-2026, no page, filed, as of 2024-04-17) [L4-50-b]
+- FY26 revenue from the United States was about Rs 7,995 crore. (Annual report FY26, p414, l34, filed, as of 2026-03-31) [L6-76-a]
+- FY25 revenue from the United States was about Rs 7,042 crore. (Annual report FY25, p415, l36, filed, as of 2025-03-31) [L6-76-b]
+- US revenue grew 13.5 percent in rupees from FY25 to FY26. (S027, Annual report FY26, p414, derived, as of 2026-03-31, formula: 79948 / 70423 - 1, inputs: L6-76-a, L6-76-b) [L6-76-c]
+- European Union revenue, with Ireland, was about Rs 4,617 crore in FY26. (Annual report FY26, p414, l35, filed, as of 2026-03-31) [L6-76-d]
 
 ## 6.3 Long-run margins (6)
 
-- FY26 had the lowest EBITDA margin in ten years, at 21.99 percent. It uses company-stated EBITDA on total income. Note: Company-stated EBITDA includes other income; definitions vary by year. (Ten-year derived metrics from annual-report tables, p67, derived, as of 2026-03-31)
-- FY17 had the highest EBITDA margin in ten years, at 27.87 percent. It uses company-stated EBITDA on total income. Note: Company-stated EBITDA includes other income; definitions vary by year. (Ten-year derived metrics from annual-report tables, p32, derived, as of 2026-03-31)
-- The ten-year average EBITDA margin was 25.82 percent. It covers FY17 to FY26 on company-stated EBITDA. Note: Company-stated EBITDA includes other income; definitions vary by year. (Ten-year derived metrics from annual-report tables, table row, derived, as of 2026-03-31)
-- EBITDA, as Biocon states it, was 22.44% of revenue in FY26. It counts other income. Note: EBITDA here is Biocon's own version, which includes other income. (derived-metrics-FY21-FY26.csv, p347, derived, as of 2026-03-31)
-- Biocon's own EBITDA counts other income. Worked out from its figures, it was 28.66% of FY25 revenue. Note: EBITDA here is Biocon's own version, which includes other income. (derived-metrics-FY21-FY26.csv, p349, derived, as of 2025-03-31)
-- Ten yearly EBITDA margins, FY17 to FY26, average 25.82%. Each margin is on total income. Note: These margins use total income, not revenue from operations. (derived-ten-year-FY16-FY26.csv, table row, derived, as of 2026-03-31)
+- FY26 had the lowest EBITDA margin in ten years, at 21.99 percent. It uses company-stated EBITDA on total income. Note: Company-stated EBITDA includes other income; definitions vary by year. (S027, Ten-year derived metrics from annual-report tables; annual report FY26, p67, derived, as of 2026-03-31, formula: lowest of the ten yearly margins, inputs: ten-year-inputs-FY16-FY26, ten-year-inputs-FY16-FY26) [L6-31-b]
+- FY17 had the highest EBITDA margin in ten years, at 27.87 percent. It uses company-stated EBITDA on total income. Note: Company-stated EBITDA includes other income; definitions vary by year. (Ten-year derived metrics from annual-report tables, p32, derived, as of 2026-03-31, formula: highest of the ten yearly margins, inputs: ten-year-inputs-FY16-FY26, ten-year-inputs-FY16-FY26) [L6-31-c]
+- The ten-year average EBITDA margin was 25.82 percent. It covers FY17 to FY26 on company-stated EBITDA. Note: Company-stated EBITDA includes other income; definitions vary by year. (S050, Ten-year derived metrics from annual-report tables, row 146, derived, as of 2026-03-31, formula: simple average of the ten yearly margins on total income, inputs: ten-year-inputs-FY16-FY26, ten-year-inputs-FY16-FY26) [L6-31-d]
+- EBITDA, as Biocon states it, was 22.44% of revenue in FY26. It counts other income. Note: EBITDA here is Biocon's own version, which includes other income. (S027, derived-metrics-FY21-FY26.csv, p347, derived, as of 2026-03-31, formula: ebitda_company_basis / revenue_from_operations x 100, inputs: ar-tables-FY21-FY26 p347) [L8-26-a]
+- Biocon's own EBITDA counts other income. Worked out from its figures, it was 28.66% of FY25 revenue. Note: EBITDA here is Biocon's own version, which includes other income. (S031, derived-metrics-FY21-FY26.csv; annual report FY25, p349, derived, as of 2025-03-31, formula: ebitda_company_basis / revenue_from_operations x 100, inputs: ar-tables-FY21-FY26 p347) [L8-26-b]
+- Ten yearly EBITDA margins, FY17 to FY26, average 25.82%. Each margin is on total income. Note: These margins use total income, not revenue from operations. (S050, derived-ten-year-FY16-FY26.csv, row 146, derived, as of 2026-03-31, formula: simple average of the ten yearly margins on total income, inputs: ten-year-inputs-FY16-FY26) [L8-26-c]
 
 ## 7.1 Ten-year record (14)
 
-- Net cash from operations summed to about Rs 16,938 crore. That covers FY17 to FY26. (Ten-year derived metrics from annual-report tables, p229, derived, as of 2026-03-31)
-- Profit to owners summed to Rs 6,911 crore. That covers FY17 to FY26. Note: Profit to owners leaves out the minority holders' share. (Ten-year derived metrics from annual-report tables, p45, derived, as of 2026-03-31)
-- Retained earnings were Rs 13,992 crore at the end of FY26. Retained earnings are profits kept in the business. Note: Consolidated, attributable to owners of the company. (Annual report FY26, p348, filed, as of 2026-03-31)
-- Retained earnings were Rs 18,959.1 crore at the end of FY25. Retained earnings are profits kept in the business. Note: Consolidated, attributable to owners of the company. (Annual report FY25, p350, filed, as of 2025-03-31)
-- Retained earnings were Rs 17,602.8 crore at the end of FY24. Retained earnings are profits kept in the business. Note: Consolidated, attributable to owners of the company. (Annual report FY24, p310, filed, as of 2024-03-31)
-- Consolidated reserves (other equity) were Rs 7,026.9 crore at FY21 year end. (Annual report FY22 (tables), FY21 comparative, p264, filed, as of 2021-03-31)
-- Consolidated reserves (other equity) were Rs 33,221.3 crore at FY26 year end. (Annual report FY26 (tables), p346, filed, as of 2026-03-31)
-- Company-stated EBITDA fell 8.91 percent in FY18 from FY17. Note: The definition may differ by year. (Ten-year derived metrics from annual-report tables, p26, derived, as of 2018-03-31)
-- Profit to owners was Rs 550.4 crore in FY16. In FY26 it was Rs 385.6 crore, about 3.50% a year lower. Note: FY16 is restated to Ind AS; profit is after outside owners' share. (Derived ten-year metrics FY16-FY26 (csv), p45, derived, as of 2026-03-31)
-- Revenue from operations was Rs 8,184 crore in FY22. (AR tables FY21-FY26 (csv, from the annual reports' statements), p265, filed, as of 2022-03-31)
-- Group sales grew 18.8% a year from FY21 to FY26. Sales were Rs 16,927 crore in FY26. Note: Uses consolidated revenue from operations. (Derived metrics FY21-FY26 (csv), p347, derived, as of 2026-03-31)
-- Profit for each share fell 14.7% a year from FY21 to FY26. It went from Rs 6.24 to Rs 2.82. Note: Basic EPS on consolidated profit is used. (Derived metrics FY21-FY26 (csv), p347, derived, as of 2026-03-31)
-- Profit to owners was about Rs 550 crore in FY16. It includes one-off income and is restated to Ind AS. Note: Profit after the share of outside holders, including one-off items. (Annual report FY17 (ten-year table), p45, filed, as of 2016-03-31)
-- Profit to owners was about Rs 386 crore in FY26. Note: Profit after the share of outside holders, including one-off items. (Annual report FY26, p67, filed, as of 2026-03-31)
+- Net cash from operations summed to about Rs 16,938 crore. That covers FY17 to FY26. (Ten-year derived metrics from annual-report tables, p229, derived, as of 2026-03-31, formula: sum of the ten years FY17 to FY26, inputs: ten-year-inputs-FY16-FY26) [L3-2-a]
+- Profit to owners summed to Rs 6,911 crore. That covers FY17 to FY26. Note: Profit to owners leaves out the minority holders' share. (Ten-year derived metrics from annual-report tables, p45, derived, as of 2026-03-31, formula: sum of the ten years FY17 to FY26, inputs: ten-year-inputs-FY16-FY26) [L3-2-b]
+- Retained earnings were Rs 13,992 crore at the end of FY26. Retained earnings are profits kept in the business. Note: Consolidated, attributable to owners of the company. (S027, Annual report FY26, p348, l11, filed, as of 2026-03-31) [L3-63-a]
+- Retained earnings were Rs 18,959.1 crore at the end of FY25. Retained earnings are profits kept in the business. Note: Consolidated, attributable to owners of the company. (S031, Annual report FY25, p350, l12, filed, as of 2025-03-31) [L3-63-b]
+- Retained earnings were Rs 17,602.8 crore at the end of FY24. Retained earnings are profits kept in the business. Note: Consolidated, attributable to owners of the company. (S030, Annual report FY24, p310, l9, filed, as of 2024-03-31) [L3-63-c]
+- Consolidated reserves (other equity) were Rs 7,026.9 crore at FY21 year end. (S041, Annual report FY22 (tables), FY21 comparative, p264, filed, as of 2021-03-31) [L5-63-b]
+- Consolidated reserves (other equity) were Rs 33,221.3 crore at FY26 year end. (S026, Annual report FY26 (tables), p346, filed, as of 2026-03-31) [L5-63-c]
+- Company-stated EBITDA fell 8.91 percent in FY18 from FY17. Note: The definition may differ by year. (Ten-year derived metrics from annual-report tables, p26, derived, as of 2018-03-31, formula: this year / last year - 1, x 100, inputs: ten-year-inputs-FY16-FY26) [L6-36-b]
+- Profit to owners was Rs 550.4 crore in FY16. In FY26 it was Rs 385.6 crore, about 3.50% a year lower. Note: FY16 is restated to Ind AS; profit is after outside owners' share. (Derived ten-year metrics FY16-FY26 (csv), p45, derived, as of 2026-03-31, formula: (profit_to_owners FY26 / FY16)^(1/10) - 1, inputs: ten-year-inputs-FY16-FY26, ten-year-inputs-FY16-FY26) [L7-40-c]
+- Revenue from operations was Rs 8,184 crore in FY22. (S041, AR tables FY21-FY26 (csv, from the annual reports' statements), p265, filed, as of 2022-03-31) [L7-48-c]
+- Group sales grew 18.8% a year from FY21 to FY26. Sales were Rs 16,927 crore in FY26. Note: Uses consolidated revenue from operations. (S027, Derived metrics FY21-FY26 (csv), p347, derived, as of 2026-03-31, formula: (revenue FY26 / revenue FY21)^(1/5) - 1, inputs: ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p265) [L7-56-a]
+- Profit for each share fell 14.7% a year from FY21 to FY26. It went from Rs 6.24 to Rs 2.82. Note: Basic EPS on consolidated profit is used. (S027, Derived metrics FY21-FY26 (csv), p347, derived, as of 2026-03-31, formula: (EPS FY26 / EPS FY21)^(1/5) - 1, inputs: ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p316) [L7-56-b]
+- Profit to owners was about Rs 550 crore in FY16. It includes one-off income and is restated to Ind AS. Note: Profit after the share of outside holders, including one-off items. (Annual report FY17 (ten-year table), p45, filed, as of 2016-03-31) [L8-2-a]
+- Profit to owners was about Rs 386 crore in FY26. Note: Profit after the share of outside holders, including one-off items. (S027, Annual report FY26, p67, filed, as of 2026-03-31) [L8-2-b]
 
 ## 7.2 Return on money put in (31)
 
-- Return on capital for FY26 was 3.71%. That is profit before interest and tax, over assets less current liabilities. Note: Profit here includes other income, per Biocon's own method. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31)
-- Total assets were Rs 63,650.6 crore at 31 Mar 2026. (Annual report FY26, p346, filed, as of 2026-03-31)
-- Total equity and liabilities also came to Rs 63,650.6 crore. (Annual report FY26, p346, filed, as of 2026-03-31)
-- Current assets were Rs 17,179.8 crore at 31 Mar 2026. (Annual report FY26, p346, filed, as of 2026-03-31)
-- Current liabilities were Rs 14,069.2 crore at 31 Mar 2026. (Annual report FY26, p346, filed, as of 2026-03-31)
-- Return on average owners' equity was 1.39% in FY26. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31)
-- Return on average owners' equity was 4.89% in FY25. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p349, derived, as of 2025-03-31)
-- Pre-tax return on capital employed was 2.90% in FY26. Note: Pre-tax, using year-end capital employed. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31)
-- Pre-tax return on capital employed was 6.26% in FY25. Note: Pre-tax, using year-end capital employed. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p349, derived, as of 2025-03-31)
-- Pre-tax return on capital employed was 7.86% in FY21. It is the highest of FY21 to FY26. Note: Pre-tax, using year-end capital employed. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p265, derived, as of 2021-03-31)
-- Pre-tax return on capital employed was 3.02% in FY23. Note: Pre-tax, using year-end capital employed. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p363, derived, as of 2023-03-31)
-- Net profit to owners was 2.28% of revenue in FY26. Note: Profit to owners, not profit for the year. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31)
-- Return on average assets was 0.63% in FY26. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31)
-- Capital employed was Rs 14,312.2 crore at the end of FY21. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p264, derived, as of 2021-03-31)
-- Capital employed was Rs 49,581.4 crore at the end of FY26. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p346, derived, as of 2026-03-31)
-- FY26 asset turnover was 0.28 times. Note: Uses average total assets across the year. (Derived metrics from the annual-report tables, p347, derived, as of 2026-03-31)
-- FY26 equity multiplier was 2.20 times. Note: Uses averages across the year, not year-end balances. (Derived metrics from the annual-report tables, p347, derived, as of 2026-03-31)
-- FY26 return on equity from the DuPont product was 1.39 percent. Note: Uses owners' profit and average balances. (Derived metrics from the annual-report tables, p347, derived, as of 2026-03-31)
-- Standalone return on equity was 0.19% in FY26. It was 5.43% in FY25. Note: Standalone figure, not consolidated. (Annual report FY26, key ratios, p336, filed, as of 2026-03-31)
-- FY26 return on capital was 2.90 percent. Capital here means year-end assets less current liabilities. Note: Profit used is before tax, after exceptional items, plus finance costs. (Derived metrics from the annual-report tables, p347, derived, as of 2026-03-31)
-- FY26 owners' profit was 1.13 percent of their year-end equity. Note: Profit is the part that belongs to owners of the company. (Ten-year derived metrics from annual-report tables, p67, derived, as of 2026-03-31)
-- FY22 return on capital was 6.34 percent. Capital here means year-end assets less current liabilities. Note: Profit used is before tax, after exceptional items, plus finance costs. (Derived metrics from the annual-report tables, p265, derived, as of 2022-03-31)
-- Own return on equity was 0.19% in FY26 and 5.43% in FY25. The filing names a FY25 share-sale gain and the FY26 share issue. Note: Standalone accounts, not consolidated. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p336, filed, as of 2026-03-31)
-- Group profit was 1.13% of owners' money at FY26 year end. That is Rs 385.6 crore over Rs 34,031.8 crore. Note: Profit to owners over closing equity, not average. (Derived metrics FY21-FY26 (csv), p347, derived, as of 2026-03-31)
-- Biocon Limited's standalone return on capital employed was 0.69% in FY26. In FY25 it was 6.25%. Note: This is the standalone figure on the company's own definition. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p336, filed, as of 2026-03-31)
-- In FY26, earnings before interest and tax were 3.71% of capital employed. Capital employed is total assets less current liabilities at year end. Note: This uses year-end capital employed, not the company's own formula. (Derived metrics FY21-FY26 (csv), p347, derived, as of 2026-03-31)
-- Equity to owners was Rs 34,031.8 crore at FY26 year end. A year earlier it was Rs 21,644 crore. Note: This is equity to owners, before outside owners' share. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p346, filed, as of 2026-03-31)
-- Retained earnings were Rs 18,959.1 crore at the end of FY25. This comes from the FY26 statement of changes in equity. (Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p348, filed, as of 2025-03-31)
-- Return on average owners' net worth was 1.39% in FY26. Note: Net worth means the owners' share, not outside holders' share. (derived-ten-year-FY16-FY26.csv, p67, derived, as of 2026-03-31)
-- RoCE (return on capital employed) was 2.90% in FY26. Note: Capital employed is total assets less current liabilities, at year end. (derived-metrics-FY21-FY26.csv, p347, derived, as of 2026-03-31)
-- RoCE (return on capital employed) was 6.26% in FY25. Note: Capital employed is total assets less current liabilities, at year end. (derived-metrics-FY21-FY26.csv, p349, derived, as of 2025-03-31)
+- Return on capital for FY26 was 3.71%. That is profit before interest and tax, over assets less current liabilities. Note: Profit here includes other income, per Biocon's own method. (S027, Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31, formula: ebit_company_basis / capital_employed (year end) x 100, inputs: ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347) [L1-25-d]
+- Total assets were Rs 63,650.6 crore at 31 Mar 2026. (S027, Annual report FY26, p346, l33, filed, as of 2026-03-31) [L1-32-a]
+- Total equity and liabilities also came to Rs 63,650.6 crore. (S027, Annual report FY26, p346, l64, filed, as of 2026-03-31) [L1-32-b]
+- Current assets were Rs 17,179.8 crore at 31 Mar 2026. (S026, Annual report FY26, p346, filed, as of 2026-03-31) [L1-33-a]
+- Current liabilities were Rs 14,069.2 crore at 31 Mar 2026. (S026, Annual report FY26, p346, filed, as of 2026-03-31) [L1-33-b]
+- Return on average owners' equity was 1.39% in FY26. (S027, Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31, formula: profit_attributable_to_owners / average of opening and closing equity_attributable_to_owners x 100 (blank for FY21: no FY20 balance on file), inputs: ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p349, ar-tables-FY21-FY26 p348) [L2-53-a]
+- Return on average owners' equity was 4.89% in FY25. (S031, Derived metrics FY21-FY26 (our arithmetic on annual-report tables); annual report FY25, p349, derived, as of 2025-03-31, formula: profit_attributable_to_owners / average of opening and closing equity_attributable_to_owners x 100 (blank for FY21: no FY20 balance on file), inputs: ar-tables-FY21-FY26 p349, ar-tables-FY21-FY26 p348, ar-tables-FY21-FY26 p309, ar-tables-FY21-FY26 p308) [L2-53-b]
+- Pre-tax return on capital employed was 2.90% in FY26. Note: Pre-tax, using year-end capital employed. (S027, Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31, formula: (profit_before_tax + finance_costs) / capital_employed (year end) x 100, inputs: ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p346) [L2-53-c]
+- Pre-tax return on capital employed was 6.26% in FY25. Note: Pre-tax, using year-end capital employed. (S031, Derived metrics FY21-FY26 (our arithmetic on annual-report tables); annual report FY25, p349, derived, as of 2025-03-31, formula: (profit_before_tax + finance_costs) / capital_employed (year end) x 100, inputs: ar-tables-FY21-FY26 p349, ar-tables-FY21-FY26 p349, ar-tables-FY21-FY26 p348, ar-tables-FY21-FY26 p348) [L2-53-d]
+- Pre-tax return on capital employed was 7.86% in FY21. It is the highest of FY21 to FY26. Note: Pre-tax, using year-end capital employed. (S028, Derived metrics FY21-FY26 (our arithmetic on annual-report tables); annual report FY22, p265, derived, as of 2021-03-31, formula: (profit_before_tax + finance_costs) / capital_employed (year end) x 100, inputs: ar-tables-FY21-FY26 p265, ar-tables-FY21-FY26 p265, ar-tables-FY21-FY26 p264, ar-tables-FY21-FY26 p264) [L2-54-b]
+- Pre-tax return on capital employed was 3.02% in FY23. Note: Pre-tax, using year-end capital employed. (S029, Derived metrics FY21-FY26 (our arithmetic on annual-report tables); annual report FY23, p363, derived, as of 2023-03-31, formula: (profit_before_tax + finance_costs) / capital_employed (year end) x 100, inputs: ar-tables-FY21-FY26 p363, ar-tables-FY21-FY26 p363, ar-tables-FY21-FY26 p362, ar-tables-FY21-FY26 p362) [L2-54-c]
+- Net profit to owners was 2.28% of revenue in FY26. Note: Profit to owners, not profit for the year. (S027, Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31, formula: profit_attributable_to_owners / revenue_from_operations x 100, inputs: ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347) [L2-56-a]
+- Return on average assets was 0.63% in FY26. (S027, Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p347, derived, as of 2026-03-31, formula: net margin x asset turnover x 100, inputs: ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p349) [L2-56-d]
+- Capital employed was Rs 14,312.2 crore at the end of FY21. (S028, Derived metrics FY21-FY26 (our arithmetic on annual-report tables); annual report FY22, p264, derived, as of 2021-03-31, formula: total_assets - total_current_liabilities (year end), inputs: ar-tables-FY21-FY26 p264, ar-tables-FY21-FY26 p264) [L2-59-a]
+- Capital employed was Rs 49,581.4 crore at the end of FY26. (S027, Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p346, derived, as of 2026-03-31, formula: total_assets - total_current_liabilities (year end), inputs: ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p346) [L2-59-b]
+- FY26 asset turnover was 0.28 times. Note: Uses average total assets across the year. (S027, Derived metrics from the annual-report tables; annual report FY26, p347, derived, as of 2026-03-31, formula: revenue_from_operations / average total_assets, inputs: ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p348) [L3-50-b]
+- FY26 equity multiplier was 2.20 times. Note: Uses averages across the year, not year-end balances. (S027, Derived metrics from the annual-report tables; annual report FY26, p347, derived, as of 2026-03-31, formula: average total_assets / average equity_attributable_to_owners, inputs: ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p348) [L3-50-c]
+- FY26 return on equity from the DuPont product was 1.39 percent. Note: Uses owners' profit and average balances. (S027, Derived metrics from the annual-report tables; annual report FY26, p347, derived, as of 2026-03-31, formula: net margin x asset turnover x equity multiplier x 100 (equals roe_average_equity), inputs: ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p348) [L3-50-d]
+- Standalone return on equity was 0.19% in FY26. It was 5.43% in FY25. Note: Standalone figure, not consolidated. (S027, Annual report FY26, key ratios, p336, l24, filed, as of 2026-03-31) [L5-69-d]
+- FY26 return on capital was 2.90 percent. Capital here means year-end assets less current liabilities. Note: Profit used is before tax, after exceptional items, plus finance costs. (S027, Derived metrics from the annual-report tables; annual report FY26, p347, derived, as of 2026-03-31, formula: (profit_before_tax + finance_costs) / capital_employed (year end) x 100, inputs: ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p346) [L6-29-c]
+- FY26 owners' profit was 1.13 percent of their year-end equity. Note: Profit is the part that belongs to owners of the company. (S027, Ten-year derived metrics from annual-report tables; annual report FY26, p67, derived, as of 2026-03-31, formula: profit_to_owners / closing net_worth_owners x 100, inputs: ten-year-inputs-FY16-FY26, ten-year-inputs-FY16-FY26) [L6-29-d]
+- FY22 return on capital was 6.34 percent. Capital here means year-end assets less current liabilities. Note: Profit used is before tax, after exceptional items, plus finance costs. (S028, Derived metrics from the annual-report tables; annual report FY22, p265, derived, as of 2022-03-31, formula: (profit_before_tax + finance_costs) / capital_employed (year end) x 100, inputs: ar-tables-FY21-FY26 p265, ar-tables-FY21-FY26 p265, ar-tables-FY21-FY26 p264, ar-tables-FY21-FY26 p264) [L6-56-d]
+- Own return on equity was 0.19% in FY26 and 5.43% in FY25. The filing names a FY25 share-sale gain and the FY26 share issue. Note: Standalone accounts, not consolidated. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p336, l24, filed, as of 2026-03-31) [L7-111-a]
+- Group profit was 1.13% of owners' money at FY26 year end. That is Rs 385.6 crore over Rs 34,031.8 crore. Note: Profit to owners over closing equity, not average. (S027, Derived metrics FY21-FY26 (csv), p347, derived, as of 2026-03-31, formula: profit_attributable_to_owners / equity_attributable_to_owners (year end) x 100, inputs: ar-tables-FY21-FY26 p347, ar-tables-FY21-FY26 p346) [L7-111-b]
+- Biocon Limited's standalone return on capital employed was 0.69% in FY26. In FY25 it was 6.25%. Note: This is the standalone figure on the company's own definition. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p336, l34, filed, as of 2026-03-31) [L7-43-a]
+- In FY26, earnings before interest and tax were 3.71% of capital employed. Capital employed is total assets less current liabilities at year end. Note: This uses year-end capital employed, not the company's own formula. (S027, Derived metrics FY21-FY26 (csv), p347, derived, as of 2026-03-31, formula: ebit_company_basis / capital_employed (total assets less current liabilities, year end) x 100, inputs: derived-metrics-FY21-FY26, derived-metrics-FY21-FY26) [L7-43-b]
+- Equity to owners was Rs 34,031.8 crore at FY26 year end. A year earlier it was Rs 21,644 crore. Note: This is equity to owners, before outside owners' share. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p346, l38, filed, as of 2026-03-31) [L7-46-a]
+- Retained earnings were Rs 18,959.1 crore at the end of FY25. This comes from the FY26 statement of changes in equity. (S027, Annual report FY26 (Integrated Annual Report, year ended 2026-03-31), p348, l11, filed, as of 2025-03-31) [L7-46-b]
+- Return on average owners' net worth was 1.39% in FY26. Note: Net worth means the owners' share, not outside holders' share. (S027, derived-ten-year-FY16-FY26.csv, p67, derived, as of 2026-03-31, formula: profit_to_owners / average of opening and closing net_worth_owners x 100, inputs: ten-year-inputs-FY16-FY26, ten-year-inputs-FY16-FY26) [L8-2-c]
+- RoCE (return on capital employed) was 2.90% in FY26. Note: Capital employed is total assets less current liabilities, at year end. (S027, derived-metrics-FY21-FY26.csv, p347, derived, as of 2026-03-31, formula: (profit_before_tax + finance_costs) / capital_employed (year end) x 100, inputs: ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p347) [L8-2-d]
+- RoCE (return on capital employed) was 6.26% in FY25. Note: Capital employed is total assets less current liabilities, at year end. (S031, derived-metrics-FY21-FY26.csv; annual report FY25, p349, derived, as of 2025-03-31, formula: (profit_before_tax + finance_costs) / capital_employed (year end) x 100, inputs: ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p347) [L8-6-b]
 
 ## 7.3 Debt load (8)
 
-- The FY26 report shows debt to equity of 0.4. A year earlier it was 0.6. (Annual report FY26, p244, filed, as of 2026-03-31)
-- Borrowings were 0.40 times total equity at 31 Mar 2026. Note: Borrowings here are gross borrowings divided by total equity. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p346, derived, as of 2026-03-31)
-- Borrowings were 0.64 times total equity at the end of FY25. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p348, derived, as of 2025-03-31)
-- Borrowings were 0.62 times total equity at the end of FY24. (Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p308, derived, as of 2024-03-31)
-- FY26 borrowings were 0.40 times total equity. Note: Lease liabilities are left out. (Derived metrics from the annual-report tables, p346, derived, as of 2026-03-31)
-- FY26 net debt was 2.88 times EBITDA, with leases left out. Biocon reports 2.7 times. Note: Here net debt is borrowings less cash and current investments. (Derived metrics from the annual-report tables, p346, derived, as of 2026-03-31)
-- Borrowings were 0.40 times total equity in FY26. (Derived metrics from the annual-report tables, p346, derived, as of 2026-03-31)
-- Borrowings were 0.79 times total equity in FY23. (Derived metrics from the annual-report tables, p362, derived, as of 2023-03-31)
+- The FY26 report shows debt to equity of 0.4. A year earlier it was 0.6. (S027, Annual report FY26, p244, l24, filed, as of 2026-03-31) [L1-25-a]
+- Borrowings were 0.40 times total equity at 31 Mar 2026. Note: Borrowings here are gross borrowings divided by total equity. (S027, Derived metrics FY21-FY26 (our arithmetic on annual-report tables), p346, derived, as of 2026-03-31, formula: borrowings_total / total_equity, inputs: ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p346) [L1-34-b]
+- Borrowings were 0.64 times total equity at the end of FY25. (S031, Derived metrics FY21-FY26 (our arithmetic on annual-report tables); annual report FY25, p348, derived, as of 2025-03-31, formula: borrowings_total / total_equity, inputs: ar-tables-FY21-FY26 p348, ar-tables-FY21-FY26 p348, ar-tables-FY21-FY26 p348) [L2-44-b]
+- Borrowings were 0.62 times total equity at the end of FY24. (S030, Derived metrics FY21-FY26 (our arithmetic on annual-report tables); annual report FY24, p308, derived, as of 2024-03-31, formula: borrowings_total / total_equity, inputs: ar-tables-FY21-FY26 p308, ar-tables-FY21-FY26 p308, ar-tables-FY21-FY26 p308) [L2-44-c]
+- FY26 borrowings were 0.40 times total equity. Note: Lease liabilities are left out. (S027, Derived metrics from the annual-report tables; annual report FY26, p346, derived, as of 2026-03-31, formula: borrowings_total / total_equity, inputs: ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p346) [L3-51-c]
+- FY26 net debt was 2.88 times EBITDA, with leases left out. Biocon reports 2.7 times. Note: Here net debt is borrowings less cash and current investments. (S027, Derived metrics from the annual-report tables; annual report FY26, p346, derived, as of 2026-03-31, formula: net_debt_excluding_leases / ebitda_company_basis, inputs: ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p346) [L3-51-d]
+- Borrowings were 0.40 times total equity in FY26. (S027, Derived metrics from the annual-report tables; annual report FY26, p346, derived, as of 2026-03-31, formula: borrowings_total / total_equity, inputs: ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p346, ar-tables-FY21-FY26 p346) [L6-37-a]
+- Borrowings were 0.79 times total equity in FY23. (S029, Derived metrics from the annual-report tables; annual report FY23, p362, derived, as of 2023-03-31, formula: borrowings_total / total_equity, inputs: ar-tables-FY21-FY26 p362, ar-tables-FY21-FY26 p362, ar-tables-FY21-FY26 p362) [L6-37-b]
 
 ## 8.1 Latest quarter (13)
 
-- Profit to owners was Rs 141.1 crore in Q1 FY27. (Results filing, quarter ended 30 Jun 2026, p3, filed, as of 2026-06-30)
-- Biocon held its Q1 FY27 earnings call on 6 August 2026. It is the latest dated call on record. (Call dates, p1, filed, as of 2026-08-06)
-- Biocon filed an investor presentation with the exchange on 6 August 2026. (Filings manifest, p1, filed, as of 2026-08-06)
-- Management said generics EBITDA margin was 7% in Q1 FY27. It rose by more than 250 basis points from Q4 FY26. (S014, Q1 FY27 earnings call, no page, filed, as of 2026-08-06)
-- Revenue from operations was Rs 4,336 crore. That is for Q1 FY27. (Results filing, quarter ended 30 June 2026, no page, filed, as of 2026-06-30)
-- Cost of materials was 32.84 percent of revenue from operations. That is for Q1 FY27. (Results filing, quarter ended 30 June 2026, p3, derived, as of 2026-06-30)
-- Sales were Rs 4,336 crore in the June 2026 quarter. A year earlier they were Rs 3,941.9 crore. Note: Consolidated revenue from operations. (Consolidated results, quarter ended 30 June 2026, no page, filed, as of 2026-06-30)
-- Revenue from operations was Rs 4,336 crore in the June 2026 quarter. A year earlier it was Rs 3,941.9 crore. (Consolidated results, quarter ended 30 June 2026, no page, filed, as of 2026-06-30)
-- Q1 FY27 EBITDA was Rs 902 crore, a 21% margin. Q1 FY26 was Rs 846 crore, also 21%. Note: This is the company's own EBITDA, from its investor presentation. (Q1 FY27 investor presentation, p7, filed, as of 2026-08-06)
-- The presentation puts Biosimilars EBITDA margin at 25% in Q1 FY27. It says EBITDA rose 10% from a year earlier. (Q1 FY27 investor presentation, p9, filed, as of 2026-08-06)
-- Profit for the period was about Rs 137 crore in Q1 FY27. It was about Rs 89 crore in Q1 FY26. (Outcome of Board Meeting 2026-08-05 (Q1 FY27 results), p3, filed, as of 2026-06-30)
-- Profit to shareholders was about Rs 141 crore in Q1 FY27. It was about Rs 31 crore in Q1 FY26. (Outcome of Board Meeting 2026-08-05 (Q1 FY27 results), p3, filed, as of 2026-06-30)
-- Revenue from operations was about Rs 4,517 crore in Q4 FY26. (Outcome of Board Meeting 2026-05-07 (Q4 FY26 results), p32, filed, as of 2026-03-31)
+- Profit to owners was Rs 141.1 crore in Q1 FY27. (Results filing, quarter ended 30 Jun 2026, p3, l48, filed, as of 2026-06-30) [L2-63-d]
+- Biocon held its Q1 FY27 earnings call on 6 August 2026. It is the latest dated call on record. (Call dates, p1, filed, as of 2026-08-06) [L4-31-a]
+- Biocon filed an investor presentation with the exchange on 6 August 2026. (Filings manifest, p1, filed, as of 2026-08-06) [L4-31-b]
+- Management said generics EBITDA margin was 7% in Q1 FY27. It rose by more than 250 basis points from Q4 FY26. (S014, Q1 FY27 earnings call, no page, filed, as of 2026-08-06) [L5-25-b]
+- Revenue from operations was Rs 4,336 crore. That is for Q1 FY27. (Results filing, quarter ended 30 June 2026, no page, filed, as of 2026-06-30) [L6-34-b]
+- Cost of materials was 32.84 percent of revenue from operations. That is for Q1 FY27. (Results filing, quarter ended 30 June 2026, p3, derived, as of 2026-06-30, formula: 14241 / 43360 x 100, inputs: L6-34-a, L6-34-b) [L6-34-c]
+- Sales were Rs 4,336 crore in the June 2026 quarter. A year earlier they were Rs 3,941.9 crore. Note: Consolidated revenue from operations. (Consolidated results, quarter ended 30 June 2026, no page, filed, as of 2026-06-30) [L7-109-a]
+- Revenue from operations was Rs 4,336 crore in the June 2026 quarter. A year earlier it was Rs 3,941.9 crore. (Consolidated results, quarter ended 30 June 2026, no page, filed, as of 2026-06-30) [L7-51-a]
+- Q1 FY27 EBITDA was Rs 902 crore, a 21% margin. Q1 FY26 was Rs 846 crore, also 21%. Note: This is the company's own EBITDA, from its investor presentation. (Q1 FY27 investor presentation, p7, l110, filed, as of 2026-08-06) [L7-51-b]
+- The presentation puts Biosimilars EBITDA margin at 25% in Q1 FY27. It says EBITDA rose 10% from a year earlier. (Q1 FY27 investor presentation, p9, l131, filed, as of 2026-08-06) [L7-51-c]
+- Profit for the period was about Rs 137 crore in Q1 FY27. It was about Rs 89 crore in Q1 FY26. (Outcome of Board Meeting 2026-08-05 (Q1 FY27 results), p3, l39, filed, as of 2026-06-30) [L8-21-a]
+- Profit to shareholders was about Rs 141 crore in Q1 FY27. It was about Rs 31 crore in Q1 FY26. (Outcome of Board Meeting 2026-08-05 (Q1 FY27 results), p3, l48, filed, as of 2026-06-30) [L8-5-b]
+- Revenue from operations was about Rs 4,517 crore in Q4 FY26. (Outcome of Board Meeting 2026-05-07 (Q4 FY26 results), p32, l10, filed, as of 2026-03-31) [L8-5-c]
 
 ## 8.2 Open risks the papers name (7)
 
-- The FY26 report has a risk management section in its climate pages. (Annual report FY26, p134, filed, as of 2026-03-31)
-- Currency forwards for USD sales were USD 446 million at FY26 end. They were USD 643 million a year earlier. (Annual report FY26, p406, filed, as of 2026-03-31)
-- The FY26 report expects Syngene to feel an inventory adjustment in FY27. It relates to a single large molecule biologics product. [forecast, not a fact] (Annual report FY26, p240, filed, as of 2026-03-31)
-- Matt Erick said US law exempts generics and biosimilars from tariffs. On 6 Aug 2026 he said a change needs new legislation. (S014, Q1 FY27 earnings call, no page, filed, as of 2026-08-06)
-- Kiran Mazumdar Shaw said one customer has pressured the CRDMO business. On 13 Feb 2026 she called it transient, slow to ease. [forecast, not a fact] (S012, Q3 FY26 earnings call, no page, filed, as of 2026-02-13)
-- The FY26 report says a modified US Biosecure Act became law. Syngene's letter says it removed short-term China +1 gains. (Annual report FY26, p27, filed, as of 2026-03-31)
-- On the Q1 FY27 call, Matt Erick spoke about tariffs. He said US law now exempts generics and biosimilars. (S014, Q1 FY27 earnings call, no page, filed, as of 2026-08-06)
+- The FY26 report has a risk management section in its climate pages. (S027, Annual report FY26, p134, l1, filed, as of 2026-03-31) [L1-29-a]
+- Currency forwards for USD sales were USD 446 million at FY26 end. They were USD 643 million a year earlier. (S027, Annual report FY26, p406, l12, filed, as of 2026-03-31) [L3-61-b]
+- The FY26 report expects Syngene to feel an inventory adjustment in FY27. It relates to a single large molecule biologics product. [forecast, not a fact] (S027, Annual report FY26, p240, l31, filed, as of 2026-03-31) [L5-50-c]
+- Matt Erick said US law exempts generics and biosimilars from tariffs. On 6 Aug 2026 he said a change needs new legislation. (S014, Q1 FY27 earnings call, no page, filed, as of 2026-08-06) [L5-50-d]
+- Kiran Mazumdar Shaw said one customer has pressured the CRDMO business. On 13 Feb 2026 she called it transient, slow to ease. [forecast, not a fact] (S012, Q3 FY26 earnings call, no page, filed, as of 2026-02-13) [L5-51-a]
+- The FY26 report says a modified US Biosecure Act became law. Syngene's letter says it removed short-term China +1 gains. (S027, Annual report FY26, p27, l17, filed, as of 2026-03-31) [L5-6-a]
+- On the Q1 FY27 call, Matt Erick spoke about tariffs. He said US law now exempts generics and biosimilars. (S014, Q1 FY27 earnings call, no page, filed, as of 2026-08-06) [L6-77-a]
 
-## 8.3 Dated events ahead (3)
+## 8.3 Dated events ahead (2)
 
-- On 8 Sep 2026 Biocon told the exchange about a Brazil deal. It is a 10-year Pertuzumab supply contract. (NSE announcement, press release 2026-09-08, p2, filed, as of 2026-09-08)
-- On 14 October 2026, Biocon reported a global patent settlement with Genentech. It also reported a licence agreement. (Press release filed 2026-10-14, p2, filed, as of 2026-10-14)
-- On 14 October 2026, Biocon reported a global patent settlement with Genentech. It also reported a licence agreement. (Press release filed 2026-10-14, p2, filed, as of 2026-10-14)
+- On 8 Sep 2026 Biocon told the exchange about a Brazil deal. It is a 10-year Pertuzumab supply contract. (NSE announcement, press release 2026-09-08, p2, l2, filed, as of 2026-09-08) [L5-8-a]
+- On 14 October 2026, Biocon reported a global patent settlement with Genentech. It also reported a licence agreement. (Press release filed 2026-10-14, p2, l13, filed, as of 2026-10-14) [L8-32-b] Also L8-7-a.
