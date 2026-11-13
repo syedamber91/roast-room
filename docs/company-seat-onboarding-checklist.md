@@ -84,3 +84,7 @@ How to use it: for a new company, go down section 1 in order. Each document gets
 
 - Whether items 7 to 10 behave the same on the VPS runner as from a cloud session (they were run from the cloud session; no VPS job exists for them).
 - How long a full onboarding takes: the BIOCON seat was built across several sessions and the cost was not tracked per document. Track it for the second company.
+
+## Generated index files (added 2026-11-13)
+
+For a company with a final findings file, `soic-ladder/scripts/coach_seat_build.py` writes `coverage.md`, `evidence-index.md` and a generated coverage block in `_hot.md` (markers `generated:coverage`). It copies no framework step wording, no private finding, no hidden agency text and no quote. Run it after every refresh of the findings file; `soic-ladder/tests/test_coach_seat_build.py` fails if the committed files are stale (hash and counts), copy a six-word run from the private ledger, or use a banned word.

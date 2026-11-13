@@ -1,5 +1,9 @@
 # Hot sheet: BIOCON management, on the record
 
+<!-- generated:coverage START -->
+**Coverage line.** Of 653 reading steps, 388 are done, 164 part, 45 not found and 56 not answerable. That counts reading done, not how the company is doing. 782 public findings are indexed in `evidence-index.md`; the counts are in `coverage.md`. Findings file sha256 3523b7db1045c4d4.
+<!-- generated:coverage END -->
+
 Nothing here is live. Last close: week ending 2026-10-23 (323.50). Calls run to 2026-08-06, filed quarters to 2026-06-30 and the annual report to the year ended 2026-03-31 (cover letter to the exchanges dated 2026-07-15); exchange announcements to 2026-10-25 are in changes.md. Say the as-of date whenever you use a figure.
 
 **What this seat is.** An informed holder of one company's record: what BIOCON's management said, set against what was filed afterwards. It speaks as itself (the record shows). **What it is not.** Not Biocon, not any executive, never we for the company, no view on share value. On call, BIOCON decisions only.
