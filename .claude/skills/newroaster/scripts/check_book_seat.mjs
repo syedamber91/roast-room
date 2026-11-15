@@ -19,7 +19,7 @@ for (const i of items) (bySection[i.section] ??= []).push(norm(i.quote || ""));
 
 const QUOTE = /[“"]([^"“”]{6,}?)[”"]\s*\(((?:S|C)\d{3}|X-[a-z]+)\b[^)]*\)/g;
 const FULL = /\[full:\s*([A-Za-z][\w-]*#[a-z]+-\d+)\]/g;
-let quotes = 0, refs = 0;
+let quotes = 0, refs = 0, untested = 0;
 const bad = [];
 for (const f of readdirSync(brain).filter((n) => n.endsWith(".md") && n !== "sources.md")) {
   const text = readFileSync(join(brain, f), "utf8");
@@ -29,11 +29,24 @@ for (const f of readdirSync(brain).filter((n) => n.endsWith(".md") && n !== "sou
     if (q.split(" ").length > 45) bad.push(`${f}: quote over 45 words (${sec})`);
     else if (!(bySection[sec] || []).some((t) => t.includes(q))) bad.push(`${f}: not word for word in ${sec}: "${m[1].slice(0, 60)}"`);
   }
+  // a quoted run of 5+ words that the pattern above did not test (no section id after it, or inner quotes) is reported,
+  // so no quote passes silently unchecked
+  for (const line of text.split("\n")) {
+    const marks = [...line.matchAll(/"/g)].map((m) => m.index);
+    for (let k = 0; k + 1 < marks.length; k += 2) {  // pair quote marks in order, so text between two quotes is not one
+      const inner = line.slice(marks[k] + 1, marks[k + 1]);
+      const after = line.slice(marks[k + 1] + 1, marks[k + 1] + 12);
+      if (inner.trim().split(/\s+/).length >= 5 && !/^\s*\(((S|C)\d{3}|X-[a-z]+)/.test(after)) {
+        untested++;
+        bad.push(`${f}: quoted text with no section id after it, so it cannot be checked: "${inner.slice(0, 60)}"`);
+      }
+    }
+  }
   for (const m of text.matchAll(FULL)) {
     refs++;
     if (!ids.has(m[1])) bad.push(`${f}: [full: ${m[1]}] names no item`);
   }
 }
-console.log(`checked ${quotes} quotes and ${refs} [full: ...] references against ${items.length} items`);
+console.log(`checked ${quotes} quotes and ${refs} [full: ...] references against ${items.length} items; ${untested} quoted runs without a section id`);
 if (bad.length) { console.log(`${bad.length} problems:`); for (const b of bad) console.log("  " + b); process.exit(1); }
 console.log("all quotes word for word, all references resolve");
